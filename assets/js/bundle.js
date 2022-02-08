@@ -15,8 +15,8 @@ seamless.polyfill();
 // inView check
 var inView = require('in-view');
 
-window.addEventListener('DOMContentLoaded', function(event) {
-
+window.addEventListener('DOMContentLoaded', function() {
+// window.addEventListener('load', function() {
 
     // This is for navigation highlight
     inView.threshold(0.8);
@@ -35,11 +35,11 @@ window.addEventListener('DOMContentLoaded', function(event) {
         })
 
     // For animation, draw once
-    inView.threshold(0);
-    inView('.animate-inside')
-        .on('enter', el => {
-            el.classList.add('inview')
-        })
+    // inView.threshold(0);
+    // inView('.animate-inside')
+    //     .on('enter', el => {
+    //         el.classList.add('inview')
+    //     })
 
 
     function sendData(formObj) {
