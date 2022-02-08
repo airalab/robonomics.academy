@@ -1,0 +1,23 @@
+{
+  "name": "robonomics.academy",
+  "version": "1.0.0",
+  "description": "HTML website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airalab/robonomics.academy.git"
+  },
+  "author": "@positivecrash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airalab/robonomics.academy/issues"
+  },
+  "homepage": "https://github.com/airalab/robonomics.academy#readme",
+  "dependencies": {
+    "in-view": "^0.6.1",
+    "seamless-scroll-polyfill": "^1.2.4"
+  }
+}
