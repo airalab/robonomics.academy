@@ -490,6 +490,18 @@ input[hidden] { display: none; }
     margin-bottom: var(--space);
 }
 
+.support-discord {
+    position: fixed;
+    bottom: var(--space);
+    right: var(--space);
+    width: 80px;
+    transition: all 0.3s ease-out;
+}
+
+.support-discord:hover {
+    transform: scale(1.2);
+}
+
 /* TABLET */
 
 @media screen and (max-width: 1350px) {
