@@ -87,9 +87,11 @@ html {
 body {
     --color-yellow: #F4E282;
     --color-brown: #534E4B;
+    --color-brown-dark: #2c2a28;
     --color-white: #fff;
     --color-green: rgb(130, 201, 0);
     --color-blue: #2949D3;
+    --color-pink: #be00e4;
     --font-title: 'Yeseva One', cursive;
     --font-text: 'Roboto Mono', monospace;
     --space: 1rem;
@@ -224,11 +226,9 @@ section {
     z-index: 9999;
 
     background-color: var(--color-brown);
+    color: var(--color-white);
     font-family: var(--font-title);
     font-size: calc(var(--font-size) * 0.85);
-
-    padding-top: calc(var(--space) * 0.8);
-    padding-bottom: calc(var(--space) * 0.8);
 
     transform: translateY(-10%);
     visibility: hidden;
@@ -268,9 +268,44 @@ section {
     animation: SlideX 0.4s ease-in-out 0.2s forwards;
 }
 
-.navigation > .layout {
+.navigation-main {
     display: flex;
     justify-content: space-between;
+    padding-top: calc(var(--space) * 0.8);
+    padding-bottom: calc(var(--space) * 0.8);
+}
+
+.navigation-anounces {
+    background-color: var(--color-brown-dark);
+    padding-top: calc(var(--space) * 0.4);
+    padding-bottom: calc(var(--space) * 0.4);
+}
+
+.navigation-anounces .layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navigation-anounces .layout > div {
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.navigation-anounces .layout > div a {
+    display: block;
+    color: var(--color-white)
+}
+
+.navigation-anounces .layout > div:nth-child(1) {
+    background-color: var(--color-blue);
+}
+
+.navigation-anounces .layout > div:nth-child(2) {
+    background-color: var(--color-pink);
+}
+
+.navigation-anounces .layout > div:nth-child(3) {
+    background-color: var(--color-green);
 }
 
 /* END OF NAVIGATION */
@@ -503,15 +538,23 @@ input[hidden] { display: none; }
     transform: scale(1.2);
 }
 
-/* TABLET */
 
+/* DESCTOP ONLY */
+/* @media screen and (min-width: 845px)
+{
+    .navigation-anounces .layout > div:not(:first-child) {
+        border-left: 1px solid var(--color-white);
+    }
+} */
+
+/* TABLET */
 @media screen and (max-width: 1350px) {
     .grid-4 {
         grid-template-columns: repeat(3, 1fr);
     }
 
     header {
-        padding-top: calc(var(--space) * 6);
+        padding-top: calc(var(--space) * 10);
     }
 
     .register-img {
@@ -553,13 +596,23 @@ input[hidden] { display: none; }
     }
 
     header {
-        padding-top: calc(var(--space) * 10);
+        padding-top: calc(var(--space) * 18);
+    }
+
+    .navigation-anounces .layout, .navigation-anounces .layout > div {
+        display: block;
     }
 }
 
 @media screen and (max-width: 550px) { 
     .contact {
         grid-template-columns: 1fr
+    }
+ }
+
+ @media screen and (max-width: 320px) { 
+    header {
+        padding-top: calc(var(--space) * 26);
     }
  }
 /* END OF MOBILE */
