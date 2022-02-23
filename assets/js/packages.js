@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', function() {
             formObj.querySelector('.js-form-register--status').innerHTML = 'Oops! Something went wrong, try later or contact us'
         } );
     
-        XHR.open( "POST", "https://script.google.com/macros/s/AKfycbybkfiRn-UbyhJ97O7X1b0-8ATvEug1Kr8VI1o_arV2ws7K9jFYuwvdyMTwbqB1ePXwKg/exec" );
+        XHR.open( "POST", "https://script.google.com/macros/s/AKfycby_VPiGoEQKD5orA4h_9WFqluvAUPZDKKxbmZYHClXOePwvLfudvzm58LdJAn0dLkvjEw/exec" );
         XHR.send( FD );
     }
     
