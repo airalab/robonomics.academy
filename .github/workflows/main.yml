@@ -27,8 +27,10 @@ jobs:
           key: ${{ runner.os }}-website-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-website-
-      - run: yarn install
-      - run: yarn build
+      run: |
+          sudo npm install --global @gridsome/cli
+          npm ci
+          gridsome build
         env:
           GRIDSOME_CAPTCHAID: ${{ secrets.GRIDSOME_CAPTCHAID }}
           GRIDSOME_GS_CERTIFICATE: ${{ secrets.GRIDSOME_GS_CERTIFICATE }}
