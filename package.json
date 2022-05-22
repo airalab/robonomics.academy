@@ -1,23 +1,18 @@
 {
-  "name": "robonomics.academy",
-  "version": "1.0.0",
-  "description": "HTML website",
-  "main": "index.js",
+  "name": "p",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/airalab/robonomics.academy.git"
-  },
-  "author": "@positivecrash",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/airalab/robonomics.academy/issues"
-  },
-  "homepage": "https://github.com/airalab/robonomics.academy#readme",
   "dependencies": {
-    "in-view": "^0.6.1",
-    "seamless-scroll-polyfill": "^1.2.4"
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "@gridsome/vue-remark": "^0.2.6",
+    "@vue/composition-api": "^1.6.1",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-google-sheets-post": "^2.0.1"
   }
 }
