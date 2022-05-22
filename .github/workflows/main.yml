@@ -27,7 +27,7 @@ jobs:
           key: ${{ runner.os }}-website-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-website-
-      - run: yarn install --frozen-lockfile
+      - run: yarn install
       - run: yarn build
         env:
           GRIDSOME_CAPTCHAID: ${{ secrets.GRIDSOME_CAPTCHAID }}
