@@ -49,7 +49,7 @@
         title: 'Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure',
         description: 'In this lesson you will try to control a smart light bulb that works via Home Assistant which has additional Robonomics modules.',
         image: {
-          url: './og/introduction-course/3.png',
+          url: this.$website + '/og/introduction-course/3.png',
           width: 1200,
           height: 628
         },
