@@ -31,10 +31,10 @@ jobs:
           sudo npm install --global @gridsome/cli
           npm ci
           gridsome build
-        env:
-          GRIDSOME_CAPTCHAID: ${{ secrets.GRIDSOME_CAPTCHAID }}
-          GRIDSOME_GS_CERTIFICATE: ${{ secrets.GRIDSOME_GS_CERTIFICATE }}
-          GRIDSOME_GS_NEWS: ${{ secrets.GRIDSOME_GS_NEWS }}
+      env: |
+        GRIDSOME_CAPTCHAID: ${{ secrets.GRIDSOME_CAPTCHAID }}
+        GRIDSOME_GS_CERTIFICATE: ${{ secrets.GRIDSOME_GS_CERTIFICATE }}
+        GRIDSOME_GS_NEWS: ${{ secrets.GRIDSOME_GS_NEWS }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
