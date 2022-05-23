@@ -12,10 +12,10 @@ module.exports = {
 
   plugins: [
     {
-      use: "gridsome-plugin-google-sheets-post",
-      options: {
-        captchaID: process.env.GRIDSOME_CAPTCHAID
-      }
+      use: "gridsome-plugin-google-sheets-post"
+    },
+    {
+      use: 'gridsome-plugin-seo'
     }
   ]
 }

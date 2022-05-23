@@ -114,6 +114,21 @@
       }
     },
 
+    metaInfo () {
+      return this.$seo({
+        title: 'Apply for certificate',
+        description: 'Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.',
+        openGraph: {
+          title: 'Apply for certificate',
+          type: 'website'
+        },
+        twitter: {
+          title: 'Apply for certificate',
+          type: 'summary'
+        }
+      })
+  }
+
     // mounted(){
     //   setInterval(()=> {
     //     console.log('interval $response', this.$response)

@@ -147,6 +147,32 @@
   </Layout>
 </template>
 
+<script>
+
+  export default {
+    metaInfo () {
+      return this.$seo({
+        title: 'Robonomics Academy',
+        description: 'Get experience in web 3.0 and blockchain techonologies with free online lessons.',
+        image: {
+          url: './og_cover.png',
+          width: 1280,
+          height: 650
+        },
+        openGraph: {
+          title: 'Robonomics Academy',
+          type: 'website'
+        },
+        twitter: {
+          title: 'Robonomics Academy',
+          type: 'summary'
+        }
+      })
+    }
+  }
+
+</script>
+
 <style scoped>
   .banner {
     background-color: var(--color-yellow);
