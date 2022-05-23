@@ -54,4 +54,6 @@ export default function (Vue, { router, head, isClient }) {
 
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+  Vue.prototype.$discord = 'https://discord.gg/kFPqNktKrJ'
 }

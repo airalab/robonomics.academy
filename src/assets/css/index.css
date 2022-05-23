@@ -299,7 +299,7 @@ input[type=email]:focus
   color: var(--color-blue);
 }
 
-label.container__full:not(:last-child) {
+label.container__full:not(:last-child), input.container__full:not(:last-child) {
   display: block;
   margin-bottom: var(--gap);
 }
