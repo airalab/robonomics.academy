@@ -20,7 +20,7 @@
           <li>
             <p>Make sure you have XRT Robonomics Parachain tokens (<g-link to="https://robonomics.network/xrt/">about token</g-link>). If you do not have this, you have several options to get it:</p>
             <p>a) <g-link to="https://discord.com/invite/kFPqNktKrJ">Request</g-link> required number of tokens for the lesson if you successfully passed the tests after <g-link to="/online-courses/introduction-course/2-at-the-intersection-of-cybernetics-and-economics">Lesson 2</g-link> and <g-link to="/online-courses/introduction-course/4-robonomics-architecture">Lesson 4</g-link> and got more that 90% of correct answers (15 out of 17 and 10 out of 11, respectively).</p>
-            <p>b) Buy <g-link to="https://robonomics.network/xrt/">Polkadot compatible XRT</g-link> on <g-link to="https://kraken.com">Kraken</g-link>. Be careful if you're not familiar with cryptocurrency exchanges, remember that all purchases on cryptocurrency exchanges may have potential risks, buy only required amount of token to pass this lesson.</p>
+            <p>b) Buy <g-link to="https://robonomics.network/xrt/">Polkadot compatible XRT</g-link> on <g-link to="https://trade.kraken.com/markets/kraken/xrt/usd">Kraken</g-link>. Be careful if you're not familiar with cryptocurrency exchanges, remember that all purchases on cryptocurrency exchanges may have potential risks, buy only required amount of token to pass this lesson.</p>
             <p>c) If you already have XRT but in ERC-20 format, use <g-link to="https://dapp.robonomics.network/#/exodus">Exodus process</g-link>. Do not forget to use your previously created polkadot.js account while submitting Exodus.</p>
           </li>
           <li>
