@@ -34,3 +34,29 @@
     </section>
   </LayoutCourse>
 </template>
+
+<script>
+
+  export default {
+    metaInfo () {
+      return this.$seo({
+        title: 'Lesson #4, Robonomics Architecture',
+        description: 'Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system.',
+        image: {
+          url: './og/introduction-course/4.png',
+          width: 1200,
+          height: 628
+        },
+        openGraph: {
+          title: 'Lesson #4, Robonomics Architecture',
+          type: 'website'
+        },
+        twitter: {
+          title: 'Lesson #4, Robonomics Architecture',
+          type: 'summary'
+        }
+      })
+    }
+  }
+
+</script>

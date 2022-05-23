@@ -48,3 +48,30 @@
     </section>
   </LayoutCourse>
 </template>
+
+
+<script>
+
+  export default {
+    metaInfo () {
+      return this.$seo({
+        title: 'Lesson #5, IoT Subscriptions Using Robonomics Parachain',
+        description: 'You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network.',
+        image: {
+          url: './og/introduction-course/5.png',
+          width: 1200,
+          height: 628
+        },
+        openGraph: {
+          title: 'Lesson #5, IoT Subscriptions Using Robonomics Parachain',
+          type: 'website'
+        },
+        twitter: {
+          title: 'Lesson #5, IoT Subscriptions Using Robonomics Parachain',
+          type: 'summary'
+        }
+      })
+    }
+  }
+
+</script>

@@ -155,7 +155,7 @@
         title: 'Robonomics Academy',
         description: 'Get experience in web 3.0 and blockchain techonologies with free online lessons.',
         image: {
-          url: './og_cover.png',
+          url: './og/index.png',
           width: 1280,
           height: 650
         },

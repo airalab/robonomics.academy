@@ -39,3 +39,30 @@
     </section>
   </LayoutCourse>
 </template>
+
+
+<script>
+
+  export default {
+    metaInfo () {
+      return this.$seo({
+        title: 'Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure',
+        description: 'In this lesson you will try to control a smart light bulb that works via Home Assistant which has additional Robonomics modules.',
+        image: {
+          url: './og/introduction-course/3.png',
+          width: 1200,
+          height: 628
+        },
+        openGraph: {
+          title: 'Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure',
+          type: 'website'
+        },
+        twitter: {
+          title: 'Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure',
+          type: 'summary'
+        }
+      })
+    }
+  }
+
+</script>

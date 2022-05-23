@@ -33,3 +33,29 @@
     </section>
   </LayoutCourse>
 </template>
+
+<script>
+
+  export default {
+    metaInfo () {
+      return this.$seo({
+        title: 'Lesson #1, Broadcasting Through the Black Mirror',
+        description: 'This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).',
+        image: {
+          url: './og/introduction-course/1.png',
+          width: 1200,
+          height: 628
+        },
+        openGraph: {
+          title: 'Lesson #1, Broadcasting Through the Black Mirror',
+          type: 'website'
+        },
+        twitter: {
+          title: 'Lesson #1, Broadcasting Through the Black Mirror',
+          type: 'summary'
+        }
+      })
+    }
+  }
+
+</script>
