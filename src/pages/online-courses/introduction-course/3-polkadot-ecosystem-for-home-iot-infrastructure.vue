@@ -8,7 +8,7 @@
       <section class="container__narrow">
         <h2>What’s this about</h2>
         <p>In this lesson you will try to control a smart light bulb that works via Home Assistant which has additional Robonomics modules. Your goal is to turn the bulb on/off using the standard Polkadot/Substrate interface on the Robonomics Parachain. The bulb is broadcasting on 
-          <g-link to="https://youtu.be/eEsTfaiUsKo">YouTube</g-link>, so you can watch your result in real time. Also, a more detailed set of instructions regarding using an IoT subscription is available 
+          <g-link to="https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live">YouTube</g-link>, so you can watch your result in real time. Also, a more detailed set of instructions regarding using an IoT subscription is available 
           <g-link to="https://wiki.robonomics.network/docs/en/subscription-launch/">on our wiki</g-link>.</p>
       </section>
 
@@ -22,7 +22,7 @@
           <li>In the <code>call</code> field choose <code>launch</code> command. This will show you two more fields: <code>robot</code> and <code>param</code>.</li>
           <li>In the <code>robot</code> field write this address of smart bulb:<br/> <code>4DUAnmLeEto197jDDSgvfjfS65MGvReMXibqp9ADg7ZgCDp9</code></li>
           <li>In the <code>param</code> field you need to specify 1 or 0 to turn on or off the bulb.</li>
-          <li>Press the ‘Submit Transaction’ button. Do not forget to open the <g-link to="https://youtu.be/eEsTfaiUsKo">broadcast on YouTube</g-link> before signing the transaction.</li>
+          <li>Press the ‘Submit Transaction’ button. Do not forget to open the <g-link to="https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live">broadcast on YouTube</g-link> before signing the transaction.</li>
         </List>
       </section>
 
