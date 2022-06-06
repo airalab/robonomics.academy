@@ -17,11 +17,11 @@
         <List type="numbers">
           <li>Open Robonomics <g-link to="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/extrinsics">Polkadot/Substrate portal</g-link>. You should see the Extrinsics (functions in Polkadot ecosystem) menu.</li>
           <li>In the first field pick the same polkadot.js account that you used in the previous lesson.</li>
-          <li>In the second field pick extrinsics and choose <code>call(subscriptionId, call)</code>. This will allow you to dispatch a function call using IoT subscription.</li>
+          <li>In the second field pick <code>rws</code> extrinsics and choose <code>call(subscriptionId, call)</code>. This will allow you to dispatch a function call using IoT subscription.</li>
           <li>In the <code>subscriptionId</code> field write this subscription's owner address: <br/><code>4GgRRojuoQwKCZP9wkB69ZxJY4JprmHtpzEzqJLjnqu4jk1r</code></li>
           <li>In the <code>call</code> field choose <code>launch</code> command. This will show you two more fields: <code>robot</code> and <code>param</code>.</li>
           <li>In the <code>robot</code> field write this address of smart bulb:<br/> <code>4DUAnmLeEto197jDDSgvfjfS65MGvReMXibqp9ADg7ZgCDp9</code></li>
-          <li>In the <code>param</code> field you need to specify 1 or 0 to turn on or off the bulb.</li>
+          <li>In the <code>param</code> field you need to specify <br/><code>0x0000000000000000000000000000000000000000000000000000000000000001</code> <br/>or <br/><code>0x0000000000000000000000000000000000000000000000000000000000000000</code> <br/>to turn on or off the bulb.</li>
           <li>Press the ‘Submit Transaction’ button. Do not forget to open the <g-link to="https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live">broadcast on YouTube</g-link> before signing the transaction.</li>
         </List>
       </section>
