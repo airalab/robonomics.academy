@@ -1,9 +1,9 @@
 <template>
   <section class="container__reg">
-    <div class="buttonsWrapper" :class="{short: !prevPath}">
+    <nav aria-labelledby="Lessons navigation" :class="{ short: !prevPath }">
       <g-link class="btn" v-if="prevPath" :to="prevPath">Previous lesson</g-link>
       <g-link class="btn" v-if="nextPath" :to="nextPath">Next lesson</g-link>
-    </div>
+    </nav>
   </section>
 </template>
 
@@ -12,11 +12,15 @@
 export default {
   props: {
     lessonId: {
+      type: Number,
       default: null,
       required: true,
     },
     course: {
-      default: null,
+      type: Object,
+      default(rawProps) {
+        return { path: rawProps.path, lessons: rawProps.lessons }
+      },
       required: true,
     }
   },
@@ -47,7 +51,7 @@ export default {
 </script>
 
 <style scoped>
-.buttonsWrapper {
+nav {
   display: flex;
   justify-content: space-between;
 }
@@ -55,5 +59,4 @@ export default {
 .short {
   justify-content: flex-end;
 }
-
 </style>

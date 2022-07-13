@@ -25,7 +25,7 @@
 
     <LessonsNavigation
       v-if="lessonId"
-      :lessonId="lessonId"
+      :lessonId="parseInt(lessonId)"
       :course="course"
     />
 
