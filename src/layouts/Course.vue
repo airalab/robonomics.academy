@@ -29,6 +29,8 @@
       :course="course"
     />
 
+    <subscription />
+
     <passed-lessons/>
 
     <footer-slot/>
@@ -49,6 +51,7 @@
       LessonsList: () => import('~/components/LessonsList.vue'),
       LessonInfo: () => import('~/components/LessonInfo.vue'),
       LessonsNavigation: () => import('~/components/LessonsNavigation.vue'),
+      Subscription: () => import('~/components/Subscription.vue')
     },
 
     props: {

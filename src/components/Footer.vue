@@ -5,41 +5,6 @@
         <h3>Get our support on</h3>
         <g-link class="btn__outline" :to="$discord"><g-image src="@/assets/images/discord.svg" /></g-link>
       </div>
-
-      <div class="footer__section footer__subscribe">
-        <gsp-form 
-          :gscriptID="gscript" 
-          :captchaID="captcha"
-          :class="result"
-        >
-
-        <div class="container__narrow">
-
-          <input 
-            type="email"
-            placeholder="Email for notifications" 
-            class="container__full" 
-            required 
-            data-gsp-name="email" 
-            :data-gsp-data="email" 
-            v-model="email" 
-          />
-
-          <input 
-            type="hidden"
-            data-gsp-name="tags" 
-            data-gsp-data="academy news" 
-          />
-
-          <button @click="form">
-              <span v-if="result === 'init' || result === 'error'">Get latest news</span>
-              <span v-if="result === 'wait'">Sending your request</span>
-              <span v-if="result === 'success'">You are in the list</span>
-            </button>
-        </div>
-
-        </gsp-form>
-      </div>
     </footer>
 </template>
 
