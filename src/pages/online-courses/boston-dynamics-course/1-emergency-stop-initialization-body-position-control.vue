@@ -8,10 +8,20 @@
       <section class="container__reg">
         <h2>Instructions</h2>
         <List type="numbers">
-          <li>Read <g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming">Understanding Spot Programming</g-link> page in Spot SDK documentation. You need to understand what is E-Stop and how make initialization in your Python script in order to let the robot execute commands. You can find more detailed information for this lesson in <g-link to="https://dev.bostondynamics.com/docs/concepts/base_services">Base Services</g-link>, <g-link to="https://dev.bostondynamics.com/docs/concepts/geometry_and_frames">Geometry and Frames</g-link>, <g-link to="https://dev.bostondynamics.com/docs/concepts/robot_services">Robot Services</g-link> and <g-link to="https://dev.bostondynamics.com/docs/concepts/estop_service">E-Stop</g-link> section of the Spot SDK documentation.</li>
-          <li>Connect to SpotCODE by SSH from terminal<br> <code>ssh student@strelka.ygg.merklebot.com</code></li>
-          <li>Create a script can authenticate in Spot, acquire control (lease) and power on the robot. We create <g-link to="https://dev.bostondynamics.com/python/examples/estop/readme">E-Stop endpoint</g-link> for you, so you should not create it. For Spot authentication use username and password from <code>/home/student/credentials</code> file. Spot address is <code>192.168.50.3</code>. In <g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming#taking-ownership-of-spot-leases">Taking ownership of Spot (Leases)</g-link> section use <code>lease = lease_client.acquire()</code> before <code>lease_keep_alive = bosdyn.client.lease.LeaseKeepAlive(lease_client)</code></li>
-          <li>Try your script with stand-up and sit-down commands. Ensure robot moves as expected, make sure you run script by Python3 with <code>pythoon3</code> command. Command <code>python</code> refers to an obsolete Python 2 interpreter.</li>
+          <li>
+            <p>Read <g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming">Understanding Spot Programming</g-link> page in Spot SDK documentation. You need to understand what is E-Stop and how make initialization in your Python script in order to let the robot execute commands.</p>
+            <p>You can find more detailed information for this lesson in <g-link to="https://dev.bostondynamics.com/docs/concepts/base_services">Base Services</g-link>, <g-link to="https://dev.bostondynamics.com/docs/concepts/geometry_and_frames">Geometry and Frames</g-link>, <g-link to="https://dev.bostondynamics.com/docs/concepts/robot_services">Robot Services</g-link> and <g-link to="https://dev.bostondynamics.com/docs/concepts/estop_service">E-Stop</g-link> section of the Spot SDK documentation.</p>
+          </li>
+          <li>Connect to SpotCORE by SSH from terminal<br> <code>ssh student@strelka.ygg.merklebot.com</code></li>
+          <li>
+            <p>Create a script can authenticate in Spot, acquire control (lease) and power on the robot.</p>
+            <p>We create <g-link to="https://dev.bostondynamics.com/python/examples/estop/readme">E-Stop endpoint</g-link> for you, so you should not create it. For Spot authentication use username and password from <code>/home/student/credentials</code> file. Spot address is <code>192.168.50.3</code>.</p>
+            <p>In <g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming#taking-ownership-of-spot-leases">Taking ownership of Spot (Leases)</g-link> section use<br/> <code>lease = lease_client.acquire()</code><br/> before<br/> <code>lease_keep_alive = bosdyn.client.lease.LeaseKeepAlive(lease_client)</code></p>
+          </li>
+          <li>
+            <p>Try your script with stand-up and sit-down commands. Ensure robot moves as expected.</p> 
+            <p>Make sure you run script by Python3 with <code>pythoon3</code> command. Command <code>python</code> refers to an obsolete Python 2 interpreter.</p>
+          </li>
           <li>Add body position control to your script. Experiment with <code>bosdyn.geometry.EulerZXY</code> robot command argument builder in order to identify what yaw, roll and pitch parameters you need to set to solve the challenge. The range of Pitch, Yaw and Roll is from -0.5 to 0.5.</li>
         </List>
       </section>
