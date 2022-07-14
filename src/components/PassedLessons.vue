@@ -14,3 +14,14 @@
       </div>
     </section>
 </template>
+
+<style scoped>
+  .btn {
+    background-color: var(--color-yellow);
+    border-color: var(--color-yellow);
+    color: var(--color-brown-dark) !important;
+  }
+  .btn:hover {
+    color: var(--color-white) !important;
+  }
+</style>
