@@ -23,6 +23,12 @@
     
     <slot/>
 
+    <LessonsNavigation
+      v-if="lessonId"
+      :lessonId="parseInt(lessonId)"
+      :course="course"
+    />
+
     <passed-lessons/>
 
     <footer-slot/>
@@ -42,6 +48,7 @@
       PassedLessons: () => import('~/components/PassedLessons.vue'),
       LessonsList: () => import('~/components/LessonsList.vue'),
       LessonInfo: () => import('~/components/LessonInfo.vue'),
+      LessonsNavigation: () => import('~/components/LessonsNavigation.vue'),
     },
 
     props: {
