@@ -4,6 +4,17 @@
       <section class="container__narrow">
         <h2>What's this about</h2>
         <p>During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.</p>
+        <p>Watch our introductory video if you haven't seen it already: <g-link to="https://youtu.be/qdk7BjWJprc">https://youtu.be/qdk7BjWJprc</g-link></p>
+      </section>
+      <section class="container__narrow">
+        <h2>The challenge</h2>
+        <p>Create a Python script controls robot body position. Run your script on Spot to let it execute a sequence of motions:</p>
+        <List type="numbers">
+          <li>Stand-up</li>
+          <li>Trace your initials with it's face (one letter, at least 3 points)</li>
+          <li>Sit-down</li>
+        </List>
+
       </section>
       <section class="container__reg">
         <h2>Instructions</h2>

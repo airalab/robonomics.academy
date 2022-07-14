@@ -5,6 +5,14 @@
         <h2>What's this about</h2>
         <p>In this lesson you will learn what should you do if you just got the robot: the first run and network setup. Also you will learn how to run the calibration process that should be run monthly.</p>
       </section>
+      <section class="container__narrow">
+        <h2>The challenge</h2>
+        <p>Create and execute Python script implements behaviors described.</p>
+        <List type="numbers">
+          <li>Run "spot check" and save the result of the calibration in a <code>/home/student/result</code> directory as a text file.</li>
+          <li>Run camera calibration procedure.</li>
+        </List>
+      </section>
       <section class="container__reg">
         <h2>Instructions</h2>
         <List type="numbers">

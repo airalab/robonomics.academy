@@ -5,6 +5,10 @@
         <h2>What's this about</h2>
         <p>In the third lesson you will learn how to find World Objects and go to them.</p>
       </section>
+      <section class="container__narrow">
+        <h2>The challenge</h2>
+        <p>You start with Spot in the place with some fiducials (a mark on the object) around. Create and execute Python script detects at least two fiducials and moves Spot to each of them within 1 m.</p>
+      </section>
       <section class="container__reg">
         <h2>Instructions</h2>
         <List type="numbers">
@@ -21,7 +25,7 @@
             <p>
               <code>
                 fiducial = fiducial_objects[0]<br/>
-                vision_tform_fiducial = get_a_tform_b( fiducial.transforms_snapshot, VISION_FRAME_NAME, fiducial.apriltag_properties.frame_name_fiducial.to_proto()
+                vision_tform_fiducial = get_a_tform_b(fiducial.transforms_snapshot, VISION_FRAME_NAME, fiducial.apriltag_properties.frame_name_fiducial.to_proto())
               </code>
             </p>
           </li>

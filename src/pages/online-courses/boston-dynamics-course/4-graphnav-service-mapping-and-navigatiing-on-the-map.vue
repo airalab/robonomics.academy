@@ -5,6 +5,15 @@
         <h2>What's this about</h2>
         <p>In the fourth lesson you will learn how to record and play autonomous missions with GraphNav service.</p>
       </section>
+      <section class="container__narrow">
+        <h2>The challenge</h2>
+        <p>This lesson you can solve the challenge without writing your own Python script.</p>
+        <List type="numbers">
+          <li>Record a map avioding obstacles. You can use WASD remote control tool. Save your mission in <code>/home/student/result</code>.</li>
+          <li>Move Spot through recorded waypoints. You can use GraphNav service command line tool.</li>
+        </List>
+
+      </section>
       <section class="container__reg">
         <h2>Instructions</h2>
         <List type="numbers">

@@ -5,14 +5,27 @@
         <h2>What's this about</h2>
         <p>In the second lesson you will learn how to use Spot Command services and walk with Spot.</p>
       </section>
+      <section class="container__narrow">
+        <h2>The challenge</h2>
+        <p>You have a list of points with their local coordinates in the <code>/home/student/lessons</code> directory.</p>
+        <p>The list of moves:</p>
+        <List>
+          <li>To turn around himself</li>
+          <li>To nod</li>
+          <li>To change the stance of robot's legs</li>
+          <li>To go sideways to the next point</li>
+          <li>To lie down on pose to change battery (this command must be performed the last because it cuts the power to the motors.)</li>
+        </List>
+        <p>Create and execute a Python script that implements behavior described.</p>
+        <p>You can find Spot local coordinates with (before you need to create <code>state_client</code>, you can find information about it in <g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming">Understanding Spot Programming</g-link>):</p>
+        <code>
+          from bosdyn.client.frame_helpers import get_vision_tform_body
+          get_vision_tform_body(state_client.get_robot_state().kinematic_state.transforms_snapshot)
+        </code>
+      </section>
       <section class="container__reg">
         <h2>Instructions</h2>
         <List type="numbers">
-          <li>
-            <p>Locate a list of points with their local coordinates in the <code>/home/student/lessons</code> directory.</p>
-            <p>Spot should go through these points. The origin of the local coordinates is in the place where Spot was turned on. On each point Spot should make one of the motions from the following list, then go to the next point.</p>
-            <p>The list of moves:<br/>- To turn around himselfs<br/>- To nod<br/>- To change the stance of the robot's legs<br/>- To go sideways to the next point<br/>- To lie down on pose to change battery (this command must be performed the last because it cuts the power to the motors.)</p>
-          </li>
           <li>
             <p>You can control Spot with <code>Robot Command Service</code>. Firstly you need to build a command to supply it to the command service. Spot SDK has a <code>RobotCommandBuilder</code> class for it.</p>
             <p>Full list of methods and its descriprions you can find <g-link to="https://github.com/boston-dynamics/spot-sdk/blob/7ce5c5f31f4e1e45e9ff4be29fb097e258b75919/python/bosdyn-client/src/bosdyn/client/robot_command.py#L593">here</g-link>. In this lesson you may need to use:</p>
