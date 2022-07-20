@@ -23,8 +23,13 @@ import {
   faClock,
   faScrewdriverWrench,
   faBars,
-  faCircleXmark
+  faCircleXmark,
+  faForward,
+  faArrowRightLong,
+  faArrowLeftLong,
+  // faRobot
  } from '@fortawesome/free-solid-svg-icons'
+
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -49,7 +54,11 @@ export default function (Vue, { router, head, isClient }) {
     faClock,
     faScrewdriverWrench,
     faBars,
-    faCircleXmark
+    faCircleXmark,
+    faForward,
+    faArrowRightLong,
+    faArrowLeftLong
+    // faRobot
   )
 
   /* add font awesome icon component */
