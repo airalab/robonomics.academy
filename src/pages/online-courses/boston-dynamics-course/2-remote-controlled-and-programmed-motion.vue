@@ -76,14 +76,14 @@
 export default {
   metaInfo() {
     return this.$seo({
-      title: 'Lesson #2. Remote controlled and programmed motion',
+      title: 'Lesson #2, Remote controlled and programmed motion',
       description: 'In the second lesson you will learn how to use Spot Command services and walk with Spot.',
       openGraph: {
-        title: 'Lesson #2. Remote controlled and programmed motion',
+        title: 'Lesson #2, Remote controlled and programmed motion',
         type: 'website'
       },
       twitter: {
-        title: 'Lesson #2. Remote controlled and programmed motion',
+        title: 'Lesson #2, Remote controlled and programmed motion',
         type: 'summary'
       }
     })

@@ -55,14 +55,14 @@
 export default {
   metaInfo() {
     return this.$seo({
-      title: 'Lesson #4. GraphNav service. Mapping and navigating on the map',
+      title: 'Lesson #4, GraphNav service. Mapping and navigating on the map',
       description: 'In the fourth lesson you will learn how to record and play autonomous missions with GraphNav service.',
       openGraph: {
-        title: 'Lesson #4. GraphNav service. Mapping and navigating on the map',
+        title: 'Lesson #4, GraphNav service. Mapping and navigating on the map',
         type: 'website'
       },
       twitter: {
-        title: 'Lesson #4. GraphNav service. Mapping and navigating on the map',
+        title: 'Lesson #4, GraphNav service. Mapping and navigating on the map',
         type: 'summary'
       }
     })

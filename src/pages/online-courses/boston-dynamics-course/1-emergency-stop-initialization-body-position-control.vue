@@ -50,14 +50,14 @@
 export default {
   metaInfo () {
     return this.$seo({
-      title: 'Lesson #1. Emergency stop, initialization, body position control',
+      title: 'Lesson #1, Emergency stop, initialization, body position control',
       description: 'During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.',
       openGraph: {
-        title: 'Lesson #1. Emergency stop, initialization, body position control',
+        title: 'Lesson #1, Emergency stop, initialization, body position control',
         type: 'website'
       },
       twitter: {
-        title: 'Lesson 1#. Emergency stop, initialization, body position control',
+        title: 'Lesson 1#, Emergency stop, initialization, body position control',
         type: 'summary'
       }
     })

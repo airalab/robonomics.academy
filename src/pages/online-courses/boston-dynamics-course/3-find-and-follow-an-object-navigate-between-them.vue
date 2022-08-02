@@ -53,14 +53,14 @@
 export default {
   metaInfo() {
     return this.$seo({
-      title: 'Lesson #3. Find and follow an object, navigate between them',
+      title: 'Lesson #3, Find and follow an object, navigate between them',
       description: 'In the third lesson you will learn how to find World Objects and go to them.',
       openGraph: {
-        title: 'Lesson #3. Find and follow an object, navigate between them',
+        title: 'Lesson #3, Find and follow an object, navigate between them',
         type: 'website'
       },
       twitter: {
-        title: 'Lesson #3. Find and follow an object, navigate between them',
+        title: 'Lesson #3, Find and follow an object, navigate between them',
         type: 'summary'
       }
     })
