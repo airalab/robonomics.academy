@@ -45,6 +45,12 @@
   path: 'boston-dynamics-course'
   info: 'Theory free / Practice from $82 per hour<br/>Self-paced<br/>Theory & practice'
   lessons: 
+    - id: '0'
+      title: '0, Configure and test connection to Spot'
+      activity: 'Practice'
+      time: '~30 min'
+      image: 'boston-dynamics-course/0.png'
+      path: '0-configure-and-test-connection-to-spot'
     - id: '1'
       title: '1, Emergency stop, initialization, body position control'
       activity: 'Practice'
