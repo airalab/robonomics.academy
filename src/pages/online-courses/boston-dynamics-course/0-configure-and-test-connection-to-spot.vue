@@ -1,9 +1,9 @@
 <template>
-  <LayoutCourse courseId="2" lessonId="0">
+  <LayoutCourse courseId="2" lessonId="1">
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>What's this about</h2>
-        <p>In the second lesson you will learn how to configure Yggdrasil network and establish connection to the robot.
+        <p>In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot.
         </p>
       </section>
       <section class="container__narrow">
@@ -41,8 +41,9 @@
               to Spot.</p>
             <p>For MacOS and Linux:</p>
             <p>For that, edit the <code>yggdrasil.conf</code> file with this command in a terminal:</p>
-            <code>sudo nano /etc/yggdrasil.conf</code>
-            <br><br>
+            <pre v-highlightjs>
+              <code class="bash">sudo nano /etc/yggdrasil.conf</code>
+            </pre>
             <p>For Windows: Run <code>updateconfig.bat</code> in <code>C:/Program Files/Yggdrasil</code>.</p>
             <p>Then in <code>C:/ProgramData/Yggdrasil</code> open <code>yggdrasil.conf</code> with any text editor.</p>
             <p><code>ProgramData</code> is a hidden folder, so you need to show hidden data.</p>
@@ -54,24 +55,22 @@
               <g-link to="https://github.com/yggdrasil-network/public-peers">here</g-link> or add peers from example
               below. Example in yggdrasil.conf:
             </p>
-            <code>
-              Peers:<br>
-              [<br>
-              tcp://213.188.199.150:10010<br>
-              tcp://213.188.210.9:10010<br>
-              tcp://[2a09:8280:1::3:312]:10010<br>
-              tcp://[2a09:8280:1::a:2e2]:10010<br>
-              tcp://46.151.26.194:60575<br>
-              tcp://ygg-ru.cofob.ru:18000<br>
-              tcp://ygg.tomasgl.ru:61933<br>
-              tls://185.22.60.71:8443<br>
-              tcp://51.15.118.10:62486<br>
-              tls://ygg.loskiq.dev:17314<br>
-              tls://longseason.1200bps.xyz:13122<br>
-              ]
-            </code>
-            <br>
-            <br>
+            <pre v-highlightjs>
+              <code class="json">Peers:
+[
+  tcp://213.188.199.150:10010
+  tcp://213.188.210.9:10010
+  tcp://[2a09:8280:1::3:312]:10010
+  tcp://[2a09:8280:1::a:2e2]:10010
+  tcp://46.151.26.194:60575
+  tcp://ygg-ru.cofob.ru:18000
+  tcp://ygg.tomasgl.ru:61933
+  tls://185.22.60.71:8443
+  tcp://51.15.118.10:62486
+  tls://ygg.loskiq.dev:17314
+  tls://longseason.1200bps.xyz:13122
+]</code>
+            </pre>
             <p>Check if the peers online in <g-link to="https://publicpeers.neilalexander.dev/">Puplic Peers</g-link>.
             </p>
           </li>
@@ -84,33 +83,45 @@
           <li>
             <p>Restart service</p>
             <p>For Linux: Then restart Yggdrasil using this command:</p>
-            <code>systemctl restart yggdrasil</code>
-            <br><br>
+            <pre v-highlightjs>
+              <code class="bash">systemctl restart yggdrasil</code>
+            </pre>
             <p>For macOS: Unload the service and run Yggdrasil with changed config file:</p>
-            <code>
-              sudo launchctl unload /Library/LaunchDaemons/yggdrasil.plist<br>
-              sudo yggdrasil -useconffile /etc/yggdrasil.conf
-            </code><br><br>
+            <pre v-highlightjs>
+              <code class="bash">sudo launchctl unload /Library/LaunchDaemons/yggdrasil.plist
+sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
+            </pre>
             <p>You will need to do that before every lesson.</p>
             <p>For Windows:</p>
-            <p>Press win + r and type <code>services.msc</code>, find Yggdrasil service, open it and restart (press Stop and Start).</p>
+            <p>Press win + r and type <code>services.msc</code>, find Yggdrasil service, open it and restart (press Stop
+              and Start).</p>
             <g-image src="../../../assets/images/boston-dynamics-course/lesson-0-1.jpg"></g-image>
           </li>
           <li>
             <p>Check Connection</p>
             <p>Check if Yggdrasil works well. For that try to ping Spot address:</p>
-            <code>ping -6 strelka.ygg.merklebot.com</code><br><br>
-            <p>To open terminal in Windows press <code>Win+R</code>, type <code>cmd</code> and press <code>Enter</code>.</p>
+            <pre v-highlightjs>
+              <code class="bash">ping -6 strelka.ygg.merklebot.com</code>
+            </pre>
+            <p>To open terminal in Windows press <code>Win+R</code>, type <code>cmd</code> and press <code>Enter</code>.
+            </p>
             <p>On MacOS use <code>ping6</code> instead of <code>ping</code>.</p>
-            <p>If you can't ping Spot or you had any errors during the Yggdrasil setup look in <g-link to="https://dapp.spot-sdk.education/docs/spot-troubleshooting">Troubleshooting page</g-link>. If you can't find the solution there, please email spot@robonomics.network.</p>
+            <p>If you can't ping Spot or you had any errors during the Yggdrasil setup look in <g-link
+                to="https://dapp.spot-sdk.education/docs/spot-troubleshooting">Troubleshooting page</g-link>. If you
+              can't find the solution there, please email spot@robonomics.network.</p>
           </li>
           <li>
             <p>Create ssh key</p>
-            <p>You will connect to Spot via ssh, so you need to create ssh keys which you will use in booking lessons.</p>
+            <p>You will connect to Spot via ssh, so you need to create ssh keys which you will use in booking lessons.
+            </p>
             <p>Run following command in the terminal:</p>
-            <code>ssh-keygen -t rsa</code><br><br>
-            <p>SSH Client is available by default only in Windows 10, so if you use older versions you need to install it. For example you can use <g-link to="https://www.putty.org/">PuTTY</g-link>.</p>
-            <p>Remember the path to your key (by default it is <code>/home/&lt;user&gt;/.ssh/id_rsa.pub</code> or <code>C:\Users\&lt;user&gt;\.ssh\id_rsa.pub</code>).</p>
+            <pre v-highlightjs>
+              <code class="bash">ssh-keygen -t rsa</code>
+            </pre>
+            <p>SSH Client is available by default only in Windows 10, so if you use older versions you need to install
+              it. For example you can use <g-link to="https://www.putty.org/">PuTTY</g-link>.</p>
+            <p>Remember the path to your key (by default it is <code>/home/&lt;user&gt;/.ssh/id_rsa.pub</code> or
+              <code>C:\Users\&lt;user&gt;\.ssh\id_rsa.pub</code>).</p>
           </li>
         </List>
       </section>
@@ -131,14 +142,14 @@
 export default {
   metaInfo() {
     return this.$seo({
-      title: 'Lesson #2, Remote controlled and programmed motion',
-      description: 'In the second lesson you will learn how to use Spot Command services and walk with Spot.',
+      title: 'Lesson #0, Configure and test connection to Spot',
+      description: 'In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot.',
       openGraph: {
-        title: 'Lesson #2, Remote controlled and programmed motion',
+        title: 'Lesson #0, Configure and test connection to Spot',
         type: 'website'
       },
       twitter: {
-        title: 'Lesson #2, Remote controlled and programmed motion',
+        title: 'Lesson #0, Configure and test connection to Spot',
         type: 'summary'
       }
     })

@@ -1,5 +1,5 @@
 <template>
-  <LayoutCourse courseId="2" lessonId="3">
+  <LayoutCourse courseId="2" lessonId="4">
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>What's this about</h2>
@@ -18,20 +18,20 @@
             <p>Spot can find objects around faster if he stands.</p>
             <p>In the task you will need find fiducials' coordinates and go to them. You already know how to move to the local coordinates from the <g-link to="/online-courses/boston-dynamics-course/2-remote-controlled-and-programmed-motion">Lesson 2</g-link>. The example of how to find a fiducial and it's coordinates is in <g-link to="https://github.com/boston-dynamics/spot-sdk/blob/7ce5c5f31f4e1e45e9ff4be29fb097e258b75919/python/examples/fiducial_follow/fiducial_follow.py">fiducial_follow example</g-link>.</p>
             <p>In your script, firstly, you need to find fiducial object with World Object Service:</p>
-            <p>
-              <code>fiducial_objects = world_object_client.list_world_objects(object_type = [world_object_pb2.WORLD_OBJECT_APRILTAG]).world_objects</code>
-            </p>
+            <pre v-highlightjs>
+              <code class="python">fiducial_objects = world_object_client.list_world_objects(object_type=[world_object_pb2.WORLD_OBJECT_APRILTAG]).world_objects</code>
+            </pre>
             <p>Then get fiducial coordinates in a visual frame:</p>
-            <p>
-              <code>
-                fiducial = fiducial_objects[0]<br/>
-                vision_tform_fiducial = get_a_tform_b(fiducial.transforms_snapshot, VISION_FRAME_NAME, fiducial.apriltag_properties.frame_name_fiducial.to_proto())
-              </code>
-            </p>
+            <pre v-highlightjs>
+              <code class="python">fiducial = fiducial_objects[0]
+vision_tform_fiducial = get_a_tform_b(fiducial.transforms_snapshot, VISION_FRAME_NAME, fiducial.apriltag_properties.frame_name_fiducial.to_proto())</code>
+            </pre>
           </li>
           <li>
             <p>Connect to Spot from a terminal or using your development environment remote execution function.</p>
-            <code>ssh student@strelka.ygg.merklebot.com</code>
+            <pre v-highlightjs>
+              <code class="bash">ssh student@strelka.ygg.merklebot.com</code>
+            </pre>
           </li>
           <li>
             <p>Develop and demonstrate your solution to the challenge.</p>

@@ -14,6 +14,8 @@
     "@vue/composition-api": "^1.6.1",
     "gridsome": "^0.7.0",
     "gridsome-plugin-google-sheets-post": "^2.0.1",
-    "gridsome-plugin-seo": "^1.0.2"
+    "gridsome-plugin-seo": "^1.0.2",
+    "highlight.js": "^11.6.0",
+    "vue-highlightjs": "^1.3.3"
   }
 }

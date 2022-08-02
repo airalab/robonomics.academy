@@ -1,5 +1,5 @@
 <template>
-  <LayoutCourse courseId="2" lessonId="5">
+  <LayoutCourse courseId="2" lessonId="6">
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>What's this about</h2>
@@ -38,7 +38,9 @@
           </li>
           <li>
             <p>Connect to Spot from a terminal or using your development environment remote execution function.</p>
-            <code>ssh student@strelka.ygg.merklebot.com</code>
+            <pre v-highlightjs>
+              <code class="bash">ssh student@strelka.ygg.merklebot.com</code>
+            </pre>
           </li>
           <li>
             <p>Develop and demonstrate your solution to the challenge.</p>
