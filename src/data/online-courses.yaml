@@ -43,7 +43,7 @@
   title: 'Boston Dynamics'
   icon: 'forward'
   path: 'boston-dynamics-course'
-  info: 'Spot goes brrr<br/>Self-paced<br/>Theory & practice'
+  info: 'Theory free / Practice from $82 per hour<br/>Self-paced<br/>Theory & practice'
   lessons: 
     - id: '1'
       title: '1, Emergency stop, initialization, body position control'
