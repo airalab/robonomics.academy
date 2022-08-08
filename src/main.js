@@ -34,8 +34,13 @@ import {
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+/* import default styles for code highlighting and lib itself */ 
+import VueHighlightJS from 'vue-highlightjs'
+import 'highlight.js/styles/default.css'
 
 export default function (Vue, { router, head, isClient }) {
+  // Implementing code highlighting blocks
+  Vue.use(VueHighlightJS);
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('LayoutCourse', LayoutCourse)

@@ -1,5 +1,5 @@
 <template>
-  <LayoutCourse courseId="2" lessonId="5">
+  <LayoutCourse courseId="2" lessonId="6">
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>What's this about</h2>
@@ -38,7 +38,9 @@
           </li>
           <li>
             <p>Connect to Spot from a terminal or using your development environment remote execution function.</p>
-            <code>ssh student@strelka.ygg.merklebot.com</code>
+            <pre v-highlightjs>
+              <code class="bash">ssh student@strelka.ygg.merklebot.com</code>
+            </pre>
           </li>
           <li>
             <p>Develop and demonstrate your solution to the challenge.</p>
@@ -63,11 +65,11 @@ export default {
       title: `Lesson #5. Robot service. Camera calibration and "Spot check" procedure`,
       description: 'In this lesson you will learn what should you do if you just got the robot: the first run and network setup. Also you will learn how to run the calibration process that should be run monthly.',
       openGraph: {
-        title: `Lesson #5. Robot service. Camera calibration and "Spot check" procedure`,
+        title: `Lesson #5, Robot service. Camera calibration and "Spot check" procedure`,
         type: 'website'
       },
       twitter: {
-        title: `Lesson #5. Robot service. Camera calibration and "Spot check" procedure`,
+        title: `Lesson #5, Robot service. Camera calibration and "Spot check" procedure`,
         type: 'summary'
       }
     })
