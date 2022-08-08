@@ -39,6 +39,14 @@ export default {
         list-style: none; 
     }
 
+    ul *:not(li):not(:first-child) {
+        font-weight: 400;
+    }
+
+    ol *:not(li):not(:first-child) {
+        font-weight: 400;
+    }
+
     li:not(:last-child) {
         margin-bottom: var(--gap);
     }
