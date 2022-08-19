@@ -40,7 +40,7 @@
       image: 'introduction-course/5.png'
       path: '5-iot-subscriptions-using-robonomics-parachain'
 - id: '2'
-  title: 'Boston Dynamics'
+  title: 'Boston Dynamics Spot Software Developing'
   icon: 'forward'
   path: 'boston-dynamics-course'
   info: 'Theory free / Practice from $82 per hour<br/>Self-paced<br/>Theory & practice'

@@ -64,6 +64,11 @@ export default {
     return this.$seo({
       title: 'Lesson #4, GraphNav service. Mapping and navigating on the map',
       description: 'In the fourth lesson you will learn how to record and play autonomous missions with GraphNav service.',
+      image: {
+          url: this.$website + '/og/boston-dynamics-course/4-graphnav-service-mapping-and-navigatiing-on-the-map.png',
+          width: 1920,
+          height: 1080
+      },
       openGraph: {
         title: 'Lesson #4, GraphNav service. Mapping and navigating on the map',
         type: 'website'

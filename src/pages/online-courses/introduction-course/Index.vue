@@ -19,3 +19,27 @@
     
   </LayoutCourse>
 </template>
+<script>
+
+export default {
+  metaInfo() {
+    return this.$seo({
+      title: 'Introduction Course',
+      description: "Welcome Introduction Course!",
+      image: {
+          url: this.$website + '/og/boston-dynamics-course/cover.png',
+          width: 1920,
+          height: 1080
+      },
+      openGraph: {
+        title: `Introduction Course`,
+        type: 'website'
+      },
+      twitter: {
+        title: `Introduction Course`,
+        type: 'summary'
+      }
+    })
+  }
+}
+</script>

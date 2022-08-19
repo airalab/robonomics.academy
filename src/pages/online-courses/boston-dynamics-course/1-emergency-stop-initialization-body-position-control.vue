@@ -64,6 +64,11 @@ export default {
     return this.$seo({
       title: 'Lesson #1, Emergency stop, initialization, body position control',
       description: 'During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.',
+      image: {
+          url: this.$website + '/og/boston-dynamics-course/1-emergency-stop-initialization-body-position-control.png',
+          width: 1920,
+          height: 1080
+      },
       openGraph: {
         title: 'Lesson #1, Emergency stop, initialization, body position control',
         type: 'website'

@@ -76,7 +76,8 @@
         ],
 
         courses: [
-          'Introduction course'
+          'Introduction course', 
+          'Boston Dynamics Spot Software Developing'
         ],
 
         gscript:  process.env.GRIDSOME_GS_CERTIFICATE,
@@ -118,6 +119,11 @@
       return this.$seo({
         title: 'Apply for certificate',
         description: 'Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.',
+        image: {
+          url: this.$website + '/og/apply-for-certificate.png',
+          width: 1920,
+          height: 1080
+      },
         openGraph: {
           title: 'Apply for certificate',
           type: 'website'

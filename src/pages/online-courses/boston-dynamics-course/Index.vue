@@ -57,3 +57,28 @@
     </section>
   </LayoutCourse>
 </template>
+
+<script>
+
+export default {
+  metaInfo() {
+    return this.$seo({
+      title: 'Boston Dynamics Spot Software Developing',
+      description: "Our new Boston Dynamics Spot Software Developing!",
+      image: {
+          url: this.$website + '/og/boston-dynamics-course/cover.png',
+          width: 1920,
+          height: 1080
+      },
+      openGraph: {
+        title: `Boston Dynamics Spot Software Developing`,
+        type: 'website'
+      },
+      twitter: {
+        title: `Boston Dynamics Spot Software Developing`,
+        type: 'summary'
+      }
+    })
+  }
+}
+</script>
