@@ -16,6 +16,7 @@
           <li>To go sideways to the next point</li>
           <li>To lie down on pose to change battery (this command must be performed the last because it cuts the power to the motors.)</li>
         </List>
+        <br>
         <p>Create and execute a Python script that implements behavior described.</p>
         <p>You can find Spot local coordinates with (before you need to create <code>state_client</code>, you can find information about it in <g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming">Understanding Spot Programming</g-link>):</p>
         <pre v-highlightjs>
@@ -93,6 +94,11 @@ export default {
     return this.$seo({
       title: 'Lesson #2, Remote controlled and programmed motion',
       description: 'In the second lesson you will learn how to use Spot Command services and walk with Spot.',
+      image: {
+          url: this.$website + '/og/boston-dynamics-course/2-remote-controlled-and-programmed-motion.png',
+          width: 1920,
+          height: 1080
+      },
       openGraph: {
         title: 'Lesson #2, Remote controlled and programmed motion',
         type: 'website'

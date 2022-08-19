@@ -12,10 +12,14 @@
     "@fortawesome/vue-fontawesome": "^2.0.6",
     "@gridsome/vue-remark": "^0.2.6",
     "@vue/composition-api": "^1.6.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
     "gridsome": "^0.7.0",
     "gridsome-plugin-google-sheets-post": "^2.0.1",
     "gridsome-plugin-seo": "^1.0.2",
     "highlight.js": "^11.6.0",
+    "js-yaml": "^4.1.0",
+    "node-html-to-image": "^3.2.4",
     "vue-highlightjs": "^1.3.3"
   }
 }

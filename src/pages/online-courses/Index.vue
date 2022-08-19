@@ -49,6 +49,26 @@
       courses() {
         return courses
       }
-    }
+    },
+
+    metaInfo() {
+    return this.$seo({
+      title: 'Online courses',
+      description: "Rebonomics Academy online courses",
+      image: {
+          url: this.$website + '/og/online-courses.png',
+          width: 1920,
+          height: 1080
+      },
+      openGraph: {
+        title: `Online courses`,
+        type: 'website'
+      },
+      twitter: {
+        title: `Online courses`,
+        type: 'summary'
+      }
+    })
+  }
   }
 </script>

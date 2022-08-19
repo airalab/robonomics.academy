@@ -55,6 +55,11 @@ export default {
     return this.$seo({
       title: 'Lesson #3, Find and follow an object, navigate between them',
       description: 'In the third lesson you will learn how to find World Objects and go to them.',
+      image: {
+          url: this.$website + '/og/boston-dynamics-course/3-find-and-follow-an-object-navigate-between-them.png',
+          width: 1920,
+          height: 1080
+      },
       openGraph: {
         title: 'Lesson #3, Find and follow an object, navigate between them',
         type: 'website'

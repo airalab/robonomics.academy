@@ -42,7 +42,7 @@
         title: 'Lesson #1, Broadcasting Through the Black Mirror',
         description: 'This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).',
         image: {
-          url: this.$website + '/og/introduction-course/1.png',
+          url: this.$website + '/og/introduction-course/1-broadcasting-through-the-black-mirror.png',
           width: 1200,
           height: 628
         },
