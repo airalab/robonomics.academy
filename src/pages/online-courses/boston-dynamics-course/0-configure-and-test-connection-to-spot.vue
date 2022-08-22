@@ -146,8 +146,8 @@ export default {
       description: 'In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot.',
       image: {
         url: this.$website + '/og/boston-dynamics-course/0-configure-and-test-connection-to-spot.png',
-        width: 1920,
-        height: 1080
+        width: 1280,
+        height: 650
       },
       openGraph: {
         title: 'Lesson #0, Configure and test connection to Spot',

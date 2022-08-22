@@ -32,12 +32,13 @@ module.exports = function (
     }
     div.col1 {
       display: flex;
-      width: 550px;
+      width: 350px;
       height: 100%;
       justify-content: center;
     }
     div.col1 > svg {
       margin-top: 60px;
+      width: 60%;
     }
 
     div.container {
@@ -47,15 +48,15 @@ module.exports = function (
       height: calc(100% - 60px);
       display: flex;
       flex-direction: column;
-      gap: 25px;
+      gap: 20px;
     }
 
     h2 {
-      font-size: 4.5rem;
+      font-size: 3.5rem;
     }
 
     .section {
-      border-left: 20px solid #534E4B;
+      border-left: 10px solid #534E4B;
       height: 200px;
       padding-left: 40px;
       color: #534E4B;
@@ -68,7 +69,7 @@ module.exports = function (
     }
 
     .section:last-child h2 {
-      font-size: 6rem;
+      font-size: 4.5rem;
     }
 
     .arrow {
@@ -77,10 +78,10 @@ module.exports = function (
       position: absolute;
       right: 0;
       bottom: 0;
-      border-bottom: 80px solid #EE763E;
-      border-right: 80px solid #EE763E;
-      border-top: 80px solid transparent;
-      border-left: 80px solid transparent;
+      border-bottom: 50px solid #EE763E;
+      border-right: 50px solid #EE763E;
+      border-top: 50px solid transparent;
+      border-left: 50px solid transparent;
     }
       </style>
     </head>

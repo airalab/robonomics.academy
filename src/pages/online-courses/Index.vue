@@ -54,19 +54,30 @@
     metaInfo() {
     return this.$seo({
       title: 'Online courses',
-      description: "Rebonomics Academy online courses",
+      description: "Robonomics Academy online courses",
       image: {
           url: this.$website + '/og/online-courses.png',
-          width: 1920,
-          height: 1080
+          width: 1280,
+          height: 650
       },
       openGraph: {
         title: `Online courses`,
-        type: 'website'
+        type: 'website',
+        site_name: 'Robonomics Academy',
+        url: 'https://robonomics.academy/online-courses',
+        image: {
+          url: this.$website + '/og/online-courses.png',
+          width: 1280,
+          height: 650
+        },
       },
       twitter: {
         title: `Online courses`,
-        type: 'summary'
+        type: 'summary',
+        site: '@AIRA_Robonomics',
+        creator: '@AIRA_Robonomics',
+        image: this.$website + '/og/online-courses.png',
+        card: 'summary_large_image',
       }
     })
   }

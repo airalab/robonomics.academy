@@ -72,11 +72,22 @@ export default {
       },
       openGraph: {
         title: `Boston Dynamics Spot Software Developing`,
-        type: 'website'
+        type: 'website',
+        site_name: 'Robonomics Academy',
+        url: 'https://robonomics.academy/online-courses/boston-dynamics-course',
+        image: {
+          url: this.$website + '/og/online-courses/boston-dynamics-course/cover.png',
+          width: 1280,
+          height: 650
+        },
       },
       twitter: {
         title: `Boston Dynamics Spot Software Developing`,
-        type: 'summary'
+        type: 'summary',
+        site: '@AIRA_Robonomics',
+        creator: '@AIRA_Robonomics',
+        image: this.$website + '/og/online-courses/boston-dynamics-course/cover.png',
+        card: 'summary_large_image',
       }
     })
   }
