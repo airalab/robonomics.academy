@@ -27,17 +27,28 @@ export default {
       title: 'Introduction Course',
       description: "Welcome Introduction Course!",
       image: {
-          url: this.$website + '/og/boston-dynamics-course/cover.png',
-          width: 1920,
-          height: 1080
+          url: this.$website + '/og/introduction-course/cover.png',
+          width: 1280,
+          height: 650
       },
       openGraph: {
         title: `Introduction Course`,
-        type: 'website'
+        type: 'website',
+        site_name: 'Robonomics Academy',
+        url: 'https://robonomics.academy/introduction-course',
+        image: {
+          url: this.$website + '/og/introduction-course/cover.png',
+          width: 1280,
+          height: 650
+        },
       },
       twitter: {
         title: `Introduction Course`,
-        type: 'summary'
+        type: 'summary',
+        site: '@AIRA_Robonomics',
+        creator: '@AIRA_Robonomics',
+        image: this.$website + '/og/introduction-course/cover.png',
+        card: 'summary_large_image',
       }
     })
   }

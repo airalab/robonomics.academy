@@ -161,11 +161,22 @@
         },
         openGraph: {
           title: 'Robonomics Academy',
-          type: 'website'
+          type: 'website',
+          site_name: 'Robonomics Academy',
+          url: 'https://robonomics.academy',
+          image: {
+            url: this.$website + '/og/index.png',
+            width: 1280,
+            height: 650
+          },
         },
         twitter: {
           title: 'Robonomics Academy',
-          type: 'summary'
+          type: 'summary',
+          site: '@AIRA_Robonomics',
+          creator: '@AIRA_Robonomics',
+          image: this.$website + '/og/index.png',
+          card: 'summary_large_image',
         }
       })
     }

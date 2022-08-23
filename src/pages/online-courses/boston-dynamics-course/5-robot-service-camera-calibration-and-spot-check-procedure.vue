@@ -66,8 +66,8 @@ export default {
       description: 'In this lesson you will learn what should you do if you just got the robot: the first run and network setup. Also you will learn how to run the calibration process that should be run monthly.',
       image: {
           url: this.$website + '/og/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure.png',
-          width: 1920,
-          height: 1080
+          width: 1280,
+          height: 650
       },
       openGraph: {
         title: `Lesson #5, Robot service. Camera calibration and "Spot check" procedure`,

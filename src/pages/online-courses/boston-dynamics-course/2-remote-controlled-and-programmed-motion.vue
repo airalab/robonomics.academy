@@ -96,8 +96,8 @@ export default {
       description: 'In the second lesson you will learn how to use Spot Command services and walk with Spot.',
       image: {
           url: this.$website + '/og/boston-dynamics-course/2-remote-controlled-and-programmed-motion.png',
-          width: 1920,
-          height: 1080
+          width: 1280,
+          height: 650
       },
       openGraph: {
         title: 'Lesson #2, Remote controlled and programmed motion',

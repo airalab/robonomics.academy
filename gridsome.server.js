@@ -23,8 +23,8 @@ const defaultOptions = {
   backgroundColors: [
     "#F4E282"
   ],
-  imgWidth: "1920px",
-  imgHeight: "1080px",
+  imgWidth: "1280px",
+  imgHeight: "650px",
   domain: "robonommics.academy",
   basePath: "src/pages/online-courses/",
   outputDir: "static/og/"
