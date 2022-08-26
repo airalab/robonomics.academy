@@ -142,7 +142,7 @@ export default {
         padding: calc(var(--gap) * 0.5);
         position: absolute;
         right: 0;
-        top: var(--gap);
+        top: calc(var(--gap) * 1.2);
         width: 300px;
     }
 

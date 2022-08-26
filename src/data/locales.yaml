@@ -1,15 +1,15 @@
 - lang: English
   abbr: en
   id: 0
-- lang: Russian
+- lang: Русский
   abbr: ru
   id: 1
-- lang: Spanish
+- lang: Español
   abbr: es
   id: 2
-- lang: German
+- lang: Deutsch
   abbr: de
   id: 3
-- lang: Korean
+- lang: 한국인
   abbr: ko
   id: 4
