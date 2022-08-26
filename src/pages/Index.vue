@@ -13,7 +13,7 @@
 
     <section id="about" class="team section__brown">
       <div class="container__narrow">
-        <h2>Welcome to our online school</h2>
+        <h2>{{$ts('Welcome to our online school')}}</h2>
         <p class="text__center">The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.</p>
         <g-image src="@/assets/images/team.png" aria-hidden="true" />
       </div>

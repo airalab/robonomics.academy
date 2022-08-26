@@ -1,0 +1,15 @@
+- lang: English
+  abbr: en
+  id: 0
+- lang: Russian
+  abbr: ru
+  id: 1
+- lang: Spanish
+  abbr: es
+  id: 2
+- lang: German
+  abbr: de
+  id: 3
+- lang: Korean
+  abbr: ko
+  id: 4

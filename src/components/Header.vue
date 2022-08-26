@@ -11,15 +11,17 @@
         </nav>
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
         <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>
-        
 
-        <details class="expand header__section" tabindex="0">
-          <summary>beta</summary>
+        <div class="header-right expand header__section" tabindex="0">
+            <LanguageSwitcher/>  
+            <details >
+            <summary>?</summary>
 
-          <div class="expand__content text__hyphened">
-            <p>We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to <g-link to="https://discord.gg/kFPqNktKrJ">discuss with us</g-link> your suggestions and report about bugs.</p>
-          </div>
-        </details>
+            <div class="expand__content text__hyphened">
+                <p>We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to <g-link to="https://discord.gg/kFPqNktKrJ">discuss with us</g-link> your suggestions and report about bugs.</p>
+            </div>
+            </details>
+        </div>
 
       </div>
     </header>
@@ -28,6 +30,10 @@
 <script>
 
 export default {
+
+    components: {
+        LanguageSwitcher: () => import('~/components/LanguageSwitcher.vue'),
+    },
 
     methods: {
         open(el) {
@@ -165,7 +171,11 @@ export default {
         font-size: 2rem;
     }
 
-    @media screen and (max-width: 660px) {
+    .header-right {
+        display: inline-flex;
+    }
+
+    @media screen and (max-width: 825px) {
         .nav {
             background: var(--color-white);
             color: var(--color-bworn);

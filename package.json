@@ -17,6 +17,7 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-google-sheets-post": "^2.0.1",
     "gridsome-plugin-seo": "^1.0.2",
+    "gridsome-plugin-translateit": "^1.0.9",
     "highlight.js": "^11.6.0",
     "js-yaml": "^4.1.0",
     "node-html-to-image": "^3.2.4",
