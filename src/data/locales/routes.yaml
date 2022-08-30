@@ -11,7 +11,7 @@
   component: './src/pages/online-courses/introduction-course/Index.vue'
   typename: 'page'
 - path: '/online-courses/introduction-course/1-broadcasting-through-the-black-mirror'
-  component: './src/pages/online-courses/introduction-course/2-at-the-intersection-of-cybernetics-and-economics.vue'
+  component: './src/pages/online-courses/introduction-course/1-broadcasting-through-the-black-mirror.vue'
   typename: 'page'
 - path: '/online-courses/introduction-course/2-at-the-intersection-of-cybernetics-and-economics'
   component: './src/pages/online-courses/introduction-course/2-at-the-intersection-of-cybernetics-and-economics.vue'
