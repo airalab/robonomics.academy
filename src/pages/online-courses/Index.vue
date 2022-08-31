@@ -6,8 +6,8 @@
       />
 
       <section class="container__narrow">
-        <p class="text__hyphened">The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.</p>
-        <p class="text__hyphened">Get new skills in using modern web technologies to build IoT solutions.</p>
+        <p class="text__hyphened">{{$ts('The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.')}}</p>
+        <p class="text__hyphened">{{$ts('Get new skills in using modern web technologies to build IoT solutions.')}}</p>
 
         <CoursePreview
           v-for = "item in courses"

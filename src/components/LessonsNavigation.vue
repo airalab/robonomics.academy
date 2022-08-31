@@ -3,10 +3,10 @@
     <nav aria-labelledby="Lessons navigation" :class="{ short: !prevPath }">
       <g-link class="btn navigation__button" v-if="prevPath" :to="prevPath">
         <font-awesome-icon icon="fa-solid fa-arrow-left-long" />
-        Previous lesson
+        {{$ts('Previous lesson')}}
       </g-link>
       <g-link class="btn navigation__button" v-if="nextPath" :to="nextPath">
-        Next lesson
+        {{$ts('Next lesson')}}
         <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
       </g-link>
     </nav>

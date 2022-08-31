@@ -12,31 +12,31 @@
           :class="result"
         >
           <section>
-            <h2>Course passed information</h2>
+            <h2>{{$ts('Course passed information')}}</h2>
 
             <label class="container__full">
-              What course did you passed:<br/>
+              {{$ts('What course did you passed')}}:<br/>
               <select disabled class="container__full" required data-gsp-name="course" :data-gsp-data="course" v-model="course">
                 <option v-for="item in courses" :key="item.id">{{item}}</option>
               </select>
             </label>
 
             <label class="container__full">
-              What Polkadot address did you used to pass:<br/>
+              {{$ts('What Polkadot address did you used to pass')}}:<br/>
               <input type="text" class="container__full" required data-gsp-name="account" :data-gsp-data="account" v-model="account" />
             </label>
           </section>
 
           <section>
-            <h2>Information for certificate</h2>
+            <h2>{{$ts('Information for certificate')}}</h2>
 
             <label class="container__full">
-              Your name (this will be on your certificate):<br/>
+              {{$ts('Your name (this will be on your certificate)')}}:<br/>
               <input type="text" class="container__full" required data-gsp-name="name" :data-gsp-data="name" v-model="name" />
             </label>
 
             <label class="container__full">
-              Your email (for notification):<br/>
+              {{$ts('Your email (for notification)')}}:<br/>
               <input type="email" class="container__full" required data-gsp-name="email" :data-gsp-data="email" v-model="email" />
             </label>
 
@@ -46,9 +46,9 @@
 
           <section class="text__center">
             <button @click="form">
-              <span v-if="result === 'init' || result === 'error'">Apply for certificate</span>
-              <span v-if="result === 'wait'">Sending your request</span>
-              <span v-if="result === 'success'">Your request has been sent</span>
+              <span v-if="result === 'init' || result === 'error'">{{$ts('Apply for certificate')}}</span>
+              <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>
+              <span v-if="result === 'success'">{{$ts('Your request has been sent')}}</span>
             </button>
           </section>
 
