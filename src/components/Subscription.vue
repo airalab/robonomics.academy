@@ -10,11 +10,11 @@
         <input type="hidden" data-gsp-name="tags" data-gsp-data="academy news" />
 
         <button @click="form">
-          <span v-if="result === 'init' || result === 'error'">Submit</span>
-          <span v-if="result === 'wait'">Sending your request</span>
-          <span v-if="result === 'success'">You are in the list</span>
+          <span v-if="result === 'init' || result === 'error'">{{$ts('Submit')}}</span>
+          <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>
+          <span v-if="result === 'success'">{{$ts('You are in the list')}}</span>
         </button>
-        <p>By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network</p>
+        <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network')}}</p>
       </div>
 
     </gsp-form>

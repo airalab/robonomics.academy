@@ -5,9 +5,9 @@
         <g-link class="logo header__section" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
 
         <nav id="nav" class="nav header__section">
-          <a class="nav__link" href="/#about" @click="close('#nav')">About</a>
-          <g-link class="nav__link" to="/online-courses/">Online courses</g-link>
-          <g-link class="nav__link" to="/certificates/">Apply for certificate</g-link>
+          <a class="nav__link" href="/#about" @click="close('#nav')">{{$ts('About')}}</a>
+          <g-link class="nav__link" to="/online-courses/">{{$ts('Online courses')}}</g-link>
+          <g-link class="nav__link" to="/certificates/">{{$ts('Apply for certificate')}}</g-link>
         </nav>
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
         <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>
@@ -18,7 +18,7 @@
             <summary>?</summary>
 
             <div class="expand__content text__hyphened">
-                <p>We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to <g-link to="https://discord.gg/kFPqNktKrJ">discuss with us</g-link> your suggestions and report about bugs.</p>
+                <p>{{$ts('We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to')}} <g-link to="https://discord.gg/kFPqNktKrJ">{{$ts('discuss with us')}}</g-link> {{$ts('your suggestions and report about bugs.')}}</p>
             </div>
             </details>
         </div>
