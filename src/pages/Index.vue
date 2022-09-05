@@ -80,7 +80,7 @@
           <div>
             <g-image src="@/assets/images/bonus-3.png" aria-hidden="true" />
             <h4>{{$ts('Jump into Robonomics team as an Ambassador')}}</h4>
-            <p>{{$ts('We started')}} <g-link to="https://robonomics.network/ambassador-program/">{{$ts('Ambassador program')}}</g-link>{{$ts('this year and looking forward talented inspired people!')}}</p>
+            <p>{{$ts('We started')}} <g-link to="https://robonomics.network/ambassador-program/"> {{$ts('Ambassador program')}}</g-link> {{$ts('this year and looking forward talented inspired people!')}}</p>
           </div>
           
         </div>
