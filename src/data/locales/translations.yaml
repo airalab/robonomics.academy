@@ -5,174 +5,234 @@
   
 - alias: Get our support on
   en: Get our support on
+  es: Obtenga nuestro apoyo en 
 
 - alias: About
   en: About
+  es: Sobre
 
 - alias: Online courses
   en: Online courses
+  es: Cursos online
 
 - alias: Apply for certificate 
   en: Apply for certificate
+  es: Solicitar certificado
 
 - alias: We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to
   en: We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to
+  es: Planeamos expandir los cursos de la academia Robonomics y las lecciones disponibles pueden ser imperfectas. Por favor llene gratis para
 
 - alias: discuss with us
   en: discuss with us
+  es: discuta con nosotros
 
 - alias: your suggestions and report about bugs.
   en: your suggestions and report about bugs.
+  es: sus sugerencias e informes sobre errores.
 
 - alias: Results
   en: Results
+  es: Resultados
 
 - alias: "Note: you need to pass all lessons from course with one Polkadot.js account to apply for certificate"
   en: "Note: you need to pass all lessons from course with one Polkadot.js account to apply for certificate"
+  es: "Nota: debe aprobar todas las lecciones del curso con una cuenta de Polkadot.js para solicitar el certificado."
 
 - alias: Previous lesson
   en: Previous lesson
+  es: Leccion previa
 
 - alias: Next lesson
   en: Next lesson
+  es: Siguiente lección
 
 - alias: Passed all lessons?
   en: Passed all lessons?
+  es: ¿Pasó todas las lecciones?
 
 - alias: "Now you may apply for IPFS certificate. What you may do with this:"
   en: "Now you may apply for IPFS certificate. What you may do with this:"
+  es: "Ahora puede solicitar el certificado IPFS. Lo que puedes hacer con esto:"
 
 - alias: Add certificate to your LinkedIn profile
   en: Add certificate to your LinkedIn profile
+  es: Agregar certificado a su perfil de LinkedIn
 
 - alias: Apply for
   en: Apply for
+  es: Solicitar
 
 - alias: Robonomics ambassador program
   en: Robonomics ambassador program
+  es: Programa de embajadores de Robonomics
 
 - alias: Print it on your wall
   en: Print it on your wall
+  es: Imprimelo en tu pared
 
 - alias: Submit
   en: Submit
+  es: Enviar
 
 - alias: Sending your request
   en: Sending your request
+  es: Enviando su solicitud
 
 - alias: Your request has been sent
   en: Your request has been sent
+  es: Tu solicitud ha sido enviada
 
 - alias: You are in the list
   en: You are in the list
+  es: Estas en la lista
 
 - alias: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
   en: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
+  es: Al enviar este formulario, acepta recibir correos electrónicos con notificaciones y actualizaciones del equipo descentralizado de código abierto de Robonomics Network
 
 - alias: Get new skills in using modern web technologies to build IoT solutions
   en: Get new skills in using modern web technologies to build IoT solutions
+  es: Obtenga nuevas habilidades en el uso de tecnologías web modernas para crear soluciones de IoT
 
 - alias: Start online course
   en: Start online course
+  es: Iniciar curso en línea
 
 - alias: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
   en: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
+  es: Los principales desarrolladores del proyecto Robonomics, especialistas en robótica y científicos de investigación de doctorado se ofrecen para pasar a través de una experiencia compendiosa basada en 7 años de trabajo con proyectos web 3.0.
 
 - alias: What you can learn
   en: What you can learn
+  es: lo que puedes aprender
 
 - alias: Deploying and operating networks of IoT devices
   en: Deploying and operating networks of IoT devices
+  es: Despliegue y operación de redes de dispositivos IoT
 
 - alias: Operating blockchain technologies
   en: Operating blockchain technologies
+  es: Tecnologías blockchain operativas
 
 - alias: Protected operations logging and storage of device data
   en: Protected operations logging and storage of device data
+  es: Registro de operaciones protegidas y almacenamiento de datos del dispositivo
 
 - alias: Building IoT Dapps
   en: Building IoT Dapps
+  es: Creación de aplicaciones de IoT
 
 - alias: Basics of robot economy
   en: Basics of robot economy
+  es: Conceptos básicos de la economía de los robots
 
 - alias: Get through intense engineering practice
   en: Get through intense engineering practice
+  es: Obtener a través de una intensa práctica de ingeniería
 
 - alias: What you can get
   en: What you can get
+  es: Lo que puedes conseguir
 
 - alias: Collect blockchain proved certificate
   en: Collect blockchain proved certificate
+  es: Recopile el certificado probado de blockchain
 
 - alias: that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   en: that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
+  es: que está familiarizado con las tecnologías web modernas para IoT. Será útil cuando contrate a una empresa de tecnología que quiera mejorar su infraestructura corporativa utilizando web3.
 
 - alias: Networking with professionals
   en: Networking with professionals
+  es: Networking con profesionales
 
 - alias: with Robonomics engineers and even get advice at a personal consultation for your IoT research or engineering project.
   en: with Robonomics engineers and even get advice at a personal consultation for your IoT research or engineering project.
+  es: con ingenieros de Robonomics e incluso obtenga asesoramiento en una consulta personal para su proyecto de investigación o ingeniería de IoT.
 
 - alias: Jump into Robonomics team as an Ambassador
   en: Jump into Robonomics team as an Ambassador
+  es: Salta al equipo de Robonomía como Embajador
+
+- alias: We started
+  en: We started
+  es: Iniciamos
 
 - alias: Ambassador program
   en: Ambassador program
 
 - alias: this year and looking forward talented inspired people!
   en: this year and looking forward talented inspired people!
+  es: este año y esperamos personas talentosas e inspiradas!
 
 - alias: What is Robonomics?
   en: What is Robonomics?
+  es: ¿Qué es la Robonomía?
 
 - alias: Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).
   en: Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).
+  es: Robonomics es una plataforma de código abierto para aplicaciones IoT. Apoyamos una nueva generación de tecnologías de Internet (web3).
 
 - alias: Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.
   en: Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.
+  es: Robonomics implementa el intercambio de información técnica y económica en forma de transacciones atómicas entre aplicaciones de usuario, servicios de IoT y robótica compleja.
 
 - alias: User (D)App
   en: User (D)App
+  es: Usuario (D)App
 
 - alias: Function request
   en: Function request
+  es: Solicitud de función
 
 - alias: Report
   en: Report
+  es: Reporte
 
 - alias: Digital twin
   en: Digital twin
+  es: Gemelo digital
 
 - alias: Control
   en: Control
+  es: Control
 
 - alias: Log
   en: Log
+  es: la log
 
 - alias: IoT Device
   en: IoT Device
+  es: Dispositivo IoT
 
 - alias: More on our official website
   en: More on our official website
+  es: Más en nuestro sitio web oficial
 
 - alias: Course passed information
   en: Course passed information
+  es: Información del curso aprobado
 
 - alias: What course did you passed
   en: What course did you passed
+  es: que curso aprobaste
 
 - alias: What Polkadot address did you used to pass
   en: What Polkadot address did you used to pass
+  es: ¿Qué dirección de Polkadot solías pasar?
 
 - alias: Information for certificate
   en: Information for certificate
+  es: Información para el certificado
 
 - alias: 'Your name (this will be on your certificate)'
   en: 'Your name (this will be on your certificate)'
+  es: "Su nombre (esto estará en su certificado)"
 
 - alias: 'Your email (for notification)'
   en: 'Your email (for notification)'
+  es: "Su correo electrónico (para notificación)"
 
 - alias: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
   en: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
@@ -1223,5 +1283,6 @@
 - alias: The lesson will be considered completed after the successful transaction of buying an IoT subscription and adding one device for it.
   en: The lesson will be considered completed after the successful transaction of buying an IoT subscription and adding one device for it.
 
-
-
+- alias: Get experience in web 3.0 and blockchain techonologies with free online lessons.
+  en: Get experience in web 3.0 and blockchain techonologies with free online lessons.
+  es: Obtenga experiencia en tecnologías web 3.0 y blockchain con lecciones en línea gratuitas.
