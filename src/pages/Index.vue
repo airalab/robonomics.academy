@@ -3,7 +3,7 @@
     <section class="banner">
       <div class="container__wide">
         <g-image alt="Robonomics Academy Logo" src="@/assets/images/logo.svg" />
-        <h1>{{$ts('Get new skills in using modern web technologies to build IoT solutions')}}</h1>
+        <h1>{{$ts('Get new skills in using modern web technologies to build IoT solutions.')}}</h1>
         <div class="banner-btn">
           <g-link class="btn" to="/online-courses">{{$ts('Start online course')}}</g-link>
           <g-image src="@/assets/images/building.png" aria-hidden="true" />
@@ -153,7 +153,7 @@
     metaInfo () {
       return this.$seo({
         title: 'Robonomics Academy',
-        description: 'Get experience in web 3.0 and blockchain techonologies with free online lessons.',
+        description: this.$ts('Get experience in web 3.0 and blockchain techonologies with free online lessons.'),
         image: {
           url: this.$website + '/og/index.png',
           width: 1280,

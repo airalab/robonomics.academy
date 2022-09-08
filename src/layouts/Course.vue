@@ -11,9 +11,9 @@
 
     <LessonInfo 
       v-if="lessonId" 
-      :type="lesson.activity"
-      :time="lesson.time"
-      :tools="lesson.tools"
+      :type="$ts(lesson.activity)"
+      :time="$ts(lesson.time)"
+      :tools="$ts(lesson.tools)"
     />
 
     <LessonsList 
@@ -77,9 +77,9 @@
       },
       title() {
         if(this.lessonId) {
-          return this.lesson.title
+          return this.$ts(this.lesson.title)
         } else {
-          return this.course.title
+          return this.$ts(this.course.title)
         }
       },
 
@@ -91,7 +91,7 @@
           },
           {
             to: 'online-courses',
-            text: 'Online courses'
+            text: this.$ts('Online courses')
           },
         ]
 

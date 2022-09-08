@@ -92,19 +92,19 @@ command_client.robot_command(cmd, end_time_secs=time.time() + 2)</code>
 export default {
   metaInfo() {
     return this.$seo({
-      title: 'Lesson #2, Remote controlled and programmed motion',
-      description: 'In the second lesson you will learn how to use Spot Command services and walk with Spot.',
+      title: this.$ts('Lesson #2, Remote controlled and programmed motion'),
+      description: this.$ts('In the second lesson you will learn how to use Spot Command services and walk with Spot.'),
       image: {
           url: this.$website + '/og/boston-dynamics-course/2-remote-controlled-and-programmed-motion.png',
           width: 1280,
           height: 650
       },
       openGraph: {
-        title: 'Lesson #2, Remote controlled and programmed motion',
+        title: this.$ts('Lesson #2, Remote controlled and programmed motion'),
         type: 'website'
       },
       twitter: {
-        title: 'Lesson #2, Remote controlled and programmed motion',
+        title: this.$ts('Lesson #2, Remote controlled and programmed motion'),
         type: 'summary'
       }
     })

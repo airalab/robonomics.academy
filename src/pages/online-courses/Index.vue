@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <page-title 
-      title="Online courses" 
+      :title="$ts('Online courses')"
       :breadcrumbs="breadcrumbs"
       />
 
@@ -12,10 +12,10 @@
         <CoursePreview
           v-for = "item in courses"
           :key = "item.id"
-          :title = "item.title"
+          :title = "$ts(item.title)"
           :link = "item.path"
           :icon = "item.icon"
-          :info = "item.info"
+          :info = "$ts(item.info)"
         />
      
       </section>
@@ -53,15 +53,15 @@
 
     metaInfo() {
     return this.$seo({
-      title: 'Online courses',
-      description: "Robonomics Academy online courses",
+      title: this.$ts('Online courses'),
+      description: this.$ts("Robonomics Academy online courses"),
       image: {
           url: this.$website + '/og/online-courses.png',
           width: 1280,
           height: 650
       },
       openGraph: {
-        title: `Online courses`,
+        title: this.$ts('Online courses'),
         type: 'website',
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/online-courses',
@@ -72,7 +72,7 @@
         },
       },
       twitter: {
-        title: `Online courses`,
+        title: this.$ts('Online courses'),
         type: 'summary',
         site: '@AIRA_Robonomics',
         creator: '@AIRA_Robonomics',

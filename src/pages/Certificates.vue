@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <page-title 
-      title="Apply for certificate" 
+      :title="$ts(`Apply for certificate`)"
       :breadcrumbs="breadcrumbs"
       />
 
@@ -76,8 +76,8 @@
         ],
 
         courses: [
-          'Introduction course', 
-          'Boston Dynamics Spot Software Developing'
+          this.$ts('Introduction course'), 
+          this.$ts('Boston Dynamics Spot Software Developing')
         ],
 
         gscript:  process.env.GRIDSOME_GS_CERTIFICATE,
@@ -117,15 +117,15 @@
 
     metaInfo () {
       return this.$seo({
-        title: 'Apply for certificate',
-        description: 'Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.',
+        title: this.$ts('Apply for certificate'),
+        description: this.$ts('Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.'),
         image: {
           url: this.$website + '/og/apply-for-certificate.png',
           width: 1280,
           height: 650
         },
         openGraph: {
-          title: 'Apply for certificate',
+          title: this.$ts('Apply for certificate'),
           type: 'website',
           site_name: 'Robonomics Academy',
           url: 'https://robonomics.academy/certificates',
@@ -136,7 +136,7 @@
           },
         },
         twitter: {
-          title: 'Apply for certificate',
+          title: this.$ts('Apply for certificate'),
           type: 'summary'
         }
       })

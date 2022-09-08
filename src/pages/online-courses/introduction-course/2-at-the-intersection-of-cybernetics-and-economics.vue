@@ -46,19 +46,19 @@
   export default {
     metaInfo () {
       return this.$seo({
-        title: 'Lesson #2, At the Intersection of Cybernetics and Economics',
-        description: 'Dive into the theory of the latest web3 technologies at the intersection of Cybernetics and Economics, which are designed to help IoT systems function safely and efficiently in our homes and cities.',
+        title: this.$ts('Lesson #2, At the Intersection of Cybernetics and Economics'),
+        description: this.$ts('Dive into the theory of the latest web3 technologies at the intersection of Cybernetics and Economics, which are designed to help IoT systems function safely and efficiently in our homes and cities.'),
         image: {
           url: this.$website + '/og/introduction-course/2-at-the-intersection-of-cybernetics-and-economics.png',
           width: 1200,
           height: 628
         },
         openGraph: {
-          title: 'Lesson #2, At the Intersection of Cybernetics and Economics',
+          title: this.$ts('Lesson #2, At the Intersection of Cybernetics and Economics'),
           type: 'website'
         },
         twitter: {
-          title: 'Lesson #2, At the Intersection of Cybernetics and Economics',
+          title: this.$ts('Lesson #2, At the Intersection of Cybernetics and Economics'),
           type: 'summary'
         }
       })
