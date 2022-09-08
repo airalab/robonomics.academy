@@ -17,10 +17,10 @@
             
             <div class="lesson-preview-info">
                 <g-image v-if="lesson.image" :src="require(`!!assets-loader!@/assets/images/${lesson.image}`)"/>
-                <h4>{{lesson.title}}</h4>
+                <h4>{{$ts(lesson.title)}}</h4>
                 <p class="line">
-                    <span v-if="lesson.activity">{{lesson.activity}}</span>
-                    <span v-if="lesson.time">{{lesson.time}}</span>
+                    <span v-if="lesson.activity">{{$ts(lesson.activity)}}</span>
+                    <span v-if="lesson.time">{{$ts(lesson.time)}}</span>
                 </p>
             </div>
 
@@ -48,7 +48,7 @@ export default {
         lessons() {
             return this.course.lessons
         }
-    }
+    },
 
 
 }

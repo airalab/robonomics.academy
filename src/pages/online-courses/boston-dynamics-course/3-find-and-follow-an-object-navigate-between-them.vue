@@ -53,19 +53,19 @@ vision_tform_fiducial = get_a_tform_b(fiducial.transforms_snapshot, VISION_FRAME
 export default {
   metaInfo() {
     return this.$seo({
-      title: 'Lesson #3, Find and follow an object, navigate between them',
-      description: 'In the third lesson you will learn how to find World Objects and go to them.',
+      title: this.$ts('Lesson #3, Find and follow an object, navigate between them'),
+      description: this.$ts('In the third lesson you will learn how to find World Objects and go to them.'),
       image: {
           url: this.$website + '/og/boston-dynamics-course/3-find-and-follow-an-object-navigate-between-them.png',
           width: 1280,
           height: 650
       },
       openGraph: {
-        title: 'Lesson #3, Find and follow an object, navigate between them',
+        title: this.$ts('Lesson #3, Find and follow an object, navigate between them'),
         type: 'website'
       },
       twitter: {
-        title: 'Lesson #3, Find and follow an object, navigate between them',
+        title: this.$ts('Lesson #3, Find and follow an object, navigate between them'),
         type: 'summary'
       }
     })

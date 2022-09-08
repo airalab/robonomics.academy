@@ -63,15 +63,15 @@
 export default {
   metaInfo() {
     return this.$seo({
-      title: 'Boston Dynamics Spot Software Developing',
-      description: "Our new Boston Dynamics Spot Software Developing!",
+      title: this.$ts('Boston Dynamics Spot Software Developing'),
+      description: this.$ts("Our new Boston Dynamics Spot Software Developing!"),
       image: {
           url: this.$website + '/og/boston-dynamics-course/cover.png',
           width: 1920,
           height: 1080
       },
       openGraph: {
-        title: `Boston Dynamics Spot Software Developing`,
+        title: this.$ts('Boston Dynamics Spot Software Developing'),
         type: 'website',
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/online-courses/boston-dynamics-course',
@@ -82,7 +82,7 @@ export default {
         },
       },
       twitter: {
-        title: `Boston Dynamics Spot Software Developing`,
+        title: this.$ts('Boston Dynamics Spot Software Developing'),
         type: 'summary',
         site: '@AIRA_Robonomics',
         creator: '@AIRA_Robonomics',

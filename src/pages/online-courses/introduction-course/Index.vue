@@ -22,9 +22,10 @@
 <script>
 
 export default {
+
   metaInfo() {
     return this.$seo({
-      title: 'Introduction Course',
+      title: this.$ts('Introduction Course'),
       description: "Welcome Introduction Course!",
       image: {
           url: this.$website + '/og/introduction-course/cover.png',
@@ -32,7 +33,7 @@ export default {
           height: 650
       },
       openGraph: {
-        title: `Introduction Course`,
+        title: this.$ts('Introduction Course'),
         type: 'website',
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/introduction-course',
@@ -43,7 +44,7 @@ export default {
         },
       },
       twitter: {
-        title: `Introduction Course`,
+        title: this.$ts('Introduction Course'),
         type: 'summary',
         site: '@AIRA_Robonomics',
         creator: '@AIRA_Robonomics',
@@ -51,6 +52,6 @@ export default {
         card: 'summary_large_image',
       }
     })
-  }
+  },
 }
 </script>

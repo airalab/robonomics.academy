@@ -14,10 +14,10 @@
       <section class="container__reg">
         <h2>{{$ts('Instructions')}}</h2>
         <List type="numbers">
-          <li>{{$ts('Install the polkadot.js browser extension and create an account for Robonomics Parachain. See the guide on our wiki: ')}}
+          <li>{{$ts('Install the polkadot.js browser extension and create an account for Robonomics Parachain. See the guide on our wiki:')}}
             <g-link to="https://wiki.robonomics.network/docs/en/create-account-in-dapp/">{{$ts('Create Account for Robonomics Parachain')}}</g-link>. {{$ts(' You need to pass all lessons from course with one Polkadot account to apply for certificate.')}}
           </li>
-          <li>{{$ts('Request access to the free IoT subscription, special for the course, on our Discord server. To do that, you need to find our ')}}<g-link to="https://discord.gg/nZhKnPD5Uy">{{$ts('Discord bot')}}</g-link> {{$ts('called “academy-faucet” and enter your Robonomics Parachain address from polkadot.js extension.')}}</li>
+          <li>{{$ts('Request access to the free IoT subscription, special for the course, on our Discord server. To do that, you need to find our')}}<g-link to="https://discord.gg/nZhKnPD5Uy"> {{$ts('Discord bot')}}</g-link> {{$ts('called “academy-faucet” and enter your Robonomics Parachain address from polkadot.js extension.')}}</li>
           <li>{{$ts('Go to the')}} <g-link to="https://blackmirror.robonomics.academy">{{$ts('dapp')}}</g-link> {{$ts('and allow the dapp access to polkadot.js extension. Make sure that you select the correct account, that gets a free IoT subscription.')}}</li>
           <li>{{$ts(`Enter in the dapp your short text message and click on ‘Sign and send’ button`)}}</li>
           <li>{{$ts('In the extension windows, enter your password and sign the transaction')}}</li>
@@ -39,19 +39,19 @@
   export default {
     metaInfo () {
       return this.$seo({
-        title: 'Lesson #1, Broadcasting Through the Black Mirror',
-        description: 'This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).',
+        title: this.$ts('Lesson #1, Broadcasting Through the Black Mirror'),
+        description: this.$ts('This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).'),
         image: {
           url: this.$website + '/og/introduction-course/1-broadcasting-through-the-black-mirror.png',
           width: 1200,
           height: 628
         },
         openGraph: {
-          title: 'Lesson #1, Broadcasting Through the Black Mirror',
+          title: this.$ts('Lesson #1, Broadcasting Through the Black Mirror'),
           type: 'website'
         },
         twitter: {
-          title: 'Lesson #1, Broadcasting Through the Black Mirror',
+          title: this.$ts('Lesson #1, Broadcasting Through the Black Mirror'),
           type: 'summary'
         }
       })

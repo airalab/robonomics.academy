@@ -40,19 +40,19 @@
   export default {
     metaInfo () {
       return this.$seo({
-        title: 'Lesson #4, Robonomics Architecture',
-        description: 'Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system.',
+        title: this.$ts('Lesson #4, Robonomics Architecture'),
+        description: this.$ts('Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system.'),
         image: {
           url: this.$website + '/og/introduction-course/4-robonomics-architecture.png',
           width: 1200,
           height: 628
         },
         openGraph: {
-          title: 'Lesson #4, Robonomics Architecture',
+          title: this.$ts('Lesson #4, Robonomics Architecture'),
           type: 'website'
         },
         twitter: {
-          title: 'Lesson #4, Robonomics Architecture',
+          title: this.$ts('Lesson #4, Robonomics Architecture'),
           type: 'summary'
         }
       })
