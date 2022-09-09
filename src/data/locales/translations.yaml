@@ -5,12 +5,12 @@
   
 - alias: Get our support on
   en: Get our support on
-  es: Obtenga nuestro apoyo en 
+  es: Obtenga nuestro soporte en 
   it: Ricevi il nostro supporto su
 
 - alias: About
   en: About
-  es: Sobre
+  es: Acerca de 
   it: A Riguardo
 
 - alias: Online courses
@@ -25,12 +25,12 @@
 
 - alias: We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to
   en: We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to
-  es: Planeamos expandir los cursos de la academia Robonomics y las lecciones disponibles pueden ser imperfectas. Por favor llene gratis para
+  es: Planeamos expandir los cursos de la academia Robonomics y las lecciones disponibles pueden ser imperfectas. Por favor, rellene libremente
   it: Abbiamo in programma di espandere i corsi della Robonomics academye e le lezioni disponibili potrebbero essere imperfette. Per favore sentitevi liberi di
 
 - alias: discuss with us
   en: discuss with us
-  es: discuta con nosotros
+  es: para discutir con nosotros
   it: discutere con noi
 
 - alias: your suggestions and report about bugs.
@@ -75,12 +75,12 @@
 
 - alias: Apply for
   en: Apply for
-  es: Solicitar
+  es: Aplicar para 
   it: Candidati per
 
 - alias: Robonomics ambassador program
   en: Robonomics ambassador program
-  es: Programa de embajadores de Robonomics
+  es: El Programa de embajadores de Robonomics
   it: L'ambassador program di Robonomics
 
 - alias: Print it on your wall
@@ -109,12 +109,12 @@
 
 - alias: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
   en: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
-  es: Al enviar este formulario, acepta recibir correos electrónicos con notificaciones y actualizaciones del equipo descentralizado de código abierto de Robonomics Network
+  es: Al enviar este formulario, acepta recibir correos electrónicos con notificaciones y actualizaciones descentralizadas de código abierto del equipo de Robonomics Network
   it: Inviando questo modulo accetti di ricevere e-mail con notifiche e aggiornamenti dal team decentralizzato open source di Robonomics Network
 
 - alias: Get new skills in using modern web technologies to build IoT solutions.
   en: Get new skills in using modern web technologies to build IoT solutions.
-  es: Obtenga nuevas habilidades en el uso de tecnologías web modernas para crear soluciones de IoT.
+  es: Obtenga nuevas habilidades en el uso de tecnologías web modernas para crear soluciones IoT.
   it: Acquisisci nuove competenze nell'utilizzo delle moderne tecnologie web per costruire soluzioni IoT.
 
 - alias: Start online course
@@ -128,7 +128,7 @@
 
 - alias: What you can learn
   en: What you can learn
-  es: lo que puedes aprender
+  es: Qué puedes aprender
 
 - alias: Deploying and operating networks of IoT devices
   en: Deploying and operating networks of IoT devices
@@ -144,27 +144,27 @@
 
 - alias: Building IoT Dapps
   en: Building IoT Dapps
-  es: Creación de aplicaciones de IoT
+  es: Creación de aplicaciones IoT
 
 - alias: Basics of robot economy
   en: Basics of robot economy
-  es: Conceptos básicos de la economía de los robots
+  es: Conceptos básicos de economía de robots.
 
 - alias: Get through intense engineering practice
   en: Get through intense engineering practice
-  es: Obtener a través de una intensa práctica de ingeniería
+  es: Atravesar iuna ntensa práctica de ingeniería
 
 - alias: What you can get
   en: What you can get
-  es: Lo que puedes conseguir
+  es: Qué puedes conseguir
 
 - alias: Collect blockchain proved certificate
   en: Collect blockchain proved certificate
-  es: Recopile el certificado probado de blockchain
+  es: Recopile el certificado comprobado de blockchain
 
 - alias: that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   en: that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
-  es: que está familiarizado con las tecnologías web modernas para IoT. Será útil cuando contrate a una empresa de tecnología que quiera mejorar su infraestructura corporativa utilizando web3.
+  es: de que está familiarizado con las tecnologías web modernas para IoT. Será útil cuando lo contrate a una empresa de tecnología que quiera mejorar su infraestructura corporativa utilizando web3.
 
 - alias: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   en: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
@@ -195,7 +195,7 @@
 
 - alias: What is Robonomics?
   en: What is Robonomics?
-  es: ¿Qué es la Robonomía?
+  es: ¿Qué es Robonomics?
 
 - alias: Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).
   en: Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).
@@ -203,11 +203,11 @@
 
 - alias: Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.
   en: Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.
-  es: Robonomics implementa el intercambio de información técnica y económica en forma de transacciones atómicas entre aplicaciones de usuario, servicios de IoT y robótica compleja.
+  es: Robonomics implementa el intercambio de información técnica y económica en forma de transacciones atómicas entre aplicaciones de usuario, servicios IoT y robótica compleja.
 
 - alias: User (D)App
   en: User (D)App
-  es: Usuario (D)App
+  es: Aplicación de usuario
 
 - alias: Function request
   en: Function request
@@ -227,7 +227,7 @@
 
 - alias: Log
   en: Log
-  es: la log
+  es: Registro
 
 - alias: IoT Device
   en: IoT Device
@@ -247,7 +247,7 @@
 
 - alias: What Polkadot address did you used to pass
   en: What Polkadot address did you used to pass
-  es: ¿Qué dirección de Polkadot solías pasar?
+  es: ¿Qué dirección de Polkadot usaste para aprobar?
 
 - alias: Information for certificate
   en: Information for certificate
@@ -255,17 +255,18 @@
 
 - alias: 'Your name (this will be on your certificate)'
   en: 'Your name (this will be on your certificate)'
-  es: "Su nombre (esto estará en su certificado)"
+  es: "Tu nombre (esto estará en tu certificado)"
 
 - alias: 'Your email (for notification)'
   en: 'Your email (for notification)'
-  es: "Su correo electrónico (para notificación)"
+  es: "Tu correo electrónico (para notificación)"
 
 - alias: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
   en: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
 
 - alias: Get new skills in using modern web technologies to build IoT solutions.
   en: Get new skills in using modern web technologies to build IoT solutions.
+  es: Obtenga nuevas habilidades en el uso de tecnologías web modernas para crear soluciones IoT
 
 - alias: Boston Dynamics Spot Software Developing
   en: Boston Dynamics Spot Software Developing
