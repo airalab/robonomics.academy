@@ -40,6 +40,11 @@
               <input type="email" class="container__full" required data-gsp-name="email" :data-gsp-data="email" v-model="email" />
             </label>
 
+            <label class="container__full">
+              {{$ts('Discord (username)')}}:<br/>
+              <input type="text" class="container__full" data-gsp-name="Discord" :data-gsp-data="discord" v-model="discord" />
+            </label>
+
             <input type="hidden" data-gsp-name="tags" data-gsp-data="academy, academy certificate" />
             <input type="hidden" data-gsp-name="status" data-gsp-data="new" />
           </section>
@@ -86,6 +91,7 @@
         account: '',
         name: '',
         email: '',
+        discord: '',
 
         result: this.$response
 

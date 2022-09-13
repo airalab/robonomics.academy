@@ -59,7 +59,7 @@ export default {
     cursor: pointer;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 410px) {
     select {
       margin-right: 1rem;
       padding: 0.2rem 0.6rem;
