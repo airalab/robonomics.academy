@@ -82,4 +82,23 @@ nav {
   color: var(--color-white) !important;
 }
 
+
+@media screen and (max-width: 490px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation__button {
+    width: 100%;
+  }
+
+  .navigation__button:first-child {
+    margin-bottom: 15px;
+  }
+
+}
+
+
+
 </style>

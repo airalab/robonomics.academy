@@ -10,7 +10,7 @@
         <h2>{{$ts("What’s this about")}}</h2>
         <p>{{$ts('An IoT subscription is an access key to all functions related to changing the state of the digital twin of a cyber-physical system and storing information about it using the Polkadot / Kusama ecosystem. Owning one subscription guarantees that in each block of the blockchain there will be a place reserved for 1 transaction for the owner of the subscription.')}}</p>
         <p>{{$ts('The main way to buy a subscription is to participate in the subscription auction, and therefore in this lesson you should get XRT tokens to make bids and submit transactions. More information about this process is also available on our wiki:')}}
-          <g-link to="https://wiki.robonomics.network/docs/en/get-subscription/">https://wiki.robonomics.network/docs/en/get-subscription/</g-link>
+          <g-link class="link-break" to="https://wiki.robonomics.network/docs/en/get-subscription/">https://wiki.robonomics.network/docs/en/get-subscription/</g-link>
         </p>
       </section>
 
@@ -21,7 +21,7 @@
             <p>{{$ts('Make sure you have XRT Robonomics Parachain tokens')}} (<g-link to="https://robonomics.network/xrt/">{{$ts('about token')}}</g-link>). {{$ts('If you do not have this, you have several options to get it:')}}</p>
             <p>a) <g-link to="https://discord.com/invite/kFPqNktKrJ">{{$ts('Request')}}</g-link> {{$ts('required number of tokens for the lesson if you successfully passed the tests after')}} <g-link to="/online-courses/introduction-course/2-at-the-intersection-of-cybernetics-and-economics">{{$ts('Lesson 2')}}</g-link> {{$ts('and')}} <g-link to="/online-courses/introduction-course/4-robonomics-architecture">{{$ts('Lesson 4')}}</g-link> {{$ts('and got more that 90% of correct answers (15 out of 17 and 10 out of 11, respectively).')}}</p>
             <p>b) {{$ts('Buy')}} <g-link to="https://robonomics.network/xrt/">{{$ts('Polkadot compatible XRT')}}</g-link> {{$ts('on')}} <g-link to="https://trade.kraken.com/markets/kraken/xrt/usd">{{$ts('Kraken')}}</g-link>. {{$ts("Be careful if you're not familiar with cryptocurrency exchanges, remember that all purchases on cryptocurrency exchanges may have potential risks, buy only required amount of token to pass this lesson.")}}</p>
-            <p>c) {{$ts('If you already have XRT but in ERC-20 format, use ')}}<g-link to="https://dapp.robonomics.network/#/exodus">{{$ts('Exodus process')}}</g-link>. {{$ts('Do not forget to use your previously created polkadot.js account while submitting Exodus.')}}</p>
+            <p>c) {{$ts('If you already have XRT but in ERC-20 format, use')}}<g-link to="https://dapp.robonomics.network/#/exodus"> {{$ts('Exodus process')}}</g-link>. {{$ts('Do not forget to use your previously created polkadot.js account while submitting Exodus.')}}</p>
           </li>
           <li>
             <p>{{$ts('IoT subscriptions are purchased through a regular auction process with the highest bidder obtaining a subscription. Before trying to participate in the auction, you should check if there are any available.')}}</p>
@@ -34,8 +34,8 @@
             <p>{{$ts('Submit the transaction and if you are lucky, you will get the IoT subscription. You can check that your Polkadot address owns the subscription through the same Chain state menu.')}}</p>
           </li>
           <li>
-            <p>{{$ts(`The last step is to add devices for your IoT subscription. This simply means that you assign to your subscription additional Polkadot addresses that you or your devices can use to execute extrinsics (for example, to launch devices or to send device data to blockchain). Before starting, create a new account for Robonomics Parachain (guide on our wiki:)`)}} <g-link to="https://wiki.robonomics.network/docs/en/create-account-in-dapp/">{{$ts('Create Account for Robonomics Parachain')}}</g-link>), {{$ts('and call it ‘smart device’ for convenience.')}} </p>
-            <p>{{$ts('Then, go to the Developer -> Extrinsic menu, and select ')}}<code>rws</code> {{$ts('with')}} <code>setDevices()</code>. {{$ts('In the devices list use the ‘Add item’ button to add devices and select a recently created account for smart devices. After that, submit the transaction.')}}</p>
+            <p>{{$ts(`The last step is to add devices for your IoT subscription. This simply means that you assign to your subscription additional Polkadot addresses that you or your devices can use to execute extrinsics (for example, to launch devices or to send device data to blockchain). Before starting, create a new account for Robonomics Parachain (guide on our wiki:)`)}} <g-link to="https://wiki.robonomics.network/docs/en/create-account-in-dapp/">{{$ts('Create Account for Robonomics Parachain')}}</g-link>, {{$ts('and call it ‘smart device’ for convenience.')}}) </p>
+            <p>{{$ts('Then, go to the Developer -> Extrinsic menu, and select')}}<code> rws</code> {{$ts('with')}} <code>setDevices()</code>. {{$ts('In the devices list use the ‘Add item’ button to add devices and select a recently created account for smart devices. After that, submit the transaction.')}}</p>
             <p>{{$ts('The device address should be added to the subscription. You can check it in the Chain state menu through query')}} <code>rws</code> {{$ts('with')}} <code>devices()</code> {{$ts('for your polkadot.js account that has the subscription.')}}</p>
           </li>
         </List>
@@ -75,3 +75,10 @@
   }
 
 </script>
+
+
+<style scoped>
+  .link-break {
+   word-break: break-word;
+  }
+ </style>

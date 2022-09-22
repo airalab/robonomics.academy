@@ -98,7 +98,7 @@
         if(this.lesson) {
           b.push({
             to: 'online-courses/' + this.course.path,
-            text: this.course.title
+            text: this.$ts(this.course.title)
           })
         }
 

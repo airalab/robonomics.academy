@@ -309,3 +309,8 @@ select {
   background: url('/select_arrow.svg') no-repeat 100% 50%;
 }
 /* end of FORM */
+
+
+code {
+  word-break: break-all;
+}
