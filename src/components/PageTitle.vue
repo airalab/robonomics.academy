@@ -70,4 +70,10 @@ export default {
     padding-left: 10px;
     border-left: 2px solid var(--color-white)
   }
+
+  @media screen and (max-width: 410px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
 </style>

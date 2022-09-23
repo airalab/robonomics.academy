@@ -175,7 +175,7 @@ export default {
         display: inline-flex;
     }
 
-    @media screen and (max-width: 825px) {
+    @media screen and (max-width: 945px) {
         .nav {
             background: var(--color-white);
             color: var(--color-bworn);
