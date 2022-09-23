@@ -8,6 +8,13 @@
           :data-gsp-data="email" v-model="email" />
 
         <input type="hidden" data-gsp-name="tags" data-gsp-data="academy news" />
+        <input       
+          type="hidden" 
+          placeholder="location" 
+          data-gsp-name="location" 
+          :data-gsp-data="location" 
+          v-model="location"
+        />
 
         <button @click="form">
           <span v-if="result === 'init' || result === 'error'">{{$ts('Submit')}}</span>
@@ -31,7 +38,8 @@ export default {
       captcha: process.env.GRIDSOME_CAPTCHAID,
 
       email: '',
-      result: this.$response
+      result: this.$response,
+      location: '',
 
     }
   },
@@ -46,6 +54,10 @@ export default {
         clearInterval(respInterval)
       }
     }
+  },
+
+  mounted() {
+    this.location = 'https://robonomics.academy' + this.$route.path;
   }
 }
 </script>

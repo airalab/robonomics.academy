@@ -5,6 +5,8 @@
 
     <slot/>
 
+    <subscription />
+
     <footer-slot/>
 
   </div>
@@ -16,6 +18,7 @@
     components: {
       HeaderSlot: () => import('~/components/Header.vue'),
       FooterSlot: () => import('~/components/Footer.vue'),
+      Subscription: () => import('~/components/Subscription.vue')
     }
   }
 </script>

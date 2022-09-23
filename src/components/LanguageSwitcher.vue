@@ -59,11 +59,11 @@ export default {
     cursor: pointer;
   }
 
-  @media screen and (max-width: 410px) {
+  @media screen and (max-width: 450px) {
     select {
       margin-right: 1rem;
       padding: 0.2rem 0.6rem;
-      max-width: 50px;
+      max-width: 60px;
       text-overflow: ellipsis;
       overflow: hidden;
     }
