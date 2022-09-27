@@ -37,11 +37,6 @@
     
     <section class="container__narrow text__hyphened">
       <h2>{{$ts('Rent 82.00 USD per lesson')}}</h2>
-      <p>{{$ts('We recommend you study the theoretical materials before you rent the time on Spot so that you have a plan of action for your lesson and can complete it successfully.')}}</p>
-    </section>
-    
-    <section class="container__narrow text__hyphened">
-      <h2>{{$ts('Learn free')}}</h2>
       <p>{{$ts('The robot is located in our laboratory in Silicon Valley. The course is self-paced, you select one hour-long session to practice with the robot by Google Calendar after paying for it. We don’t charge for anything else. Once you feel ready, you buy a 1 hour-long practice session specifying your access credentials (SSH key) and the time when you want to connect to Spot to solve the task.')}}</p>
     </section>
 
