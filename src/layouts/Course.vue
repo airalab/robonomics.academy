@@ -7,6 +7,7 @@
       v-if="course" 
       :title="title" 
       :breadcrumbs="breadcrumbs"
+      :lessonId="lessonId"
     />
 
     <LessonInfo 
@@ -33,6 +34,8 @@
 
     <passed-lessons/>
 
+    <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
+
     <footer-slot/>
 
   </div>
@@ -51,7 +54,8 @@
       LessonsList: () => import('~/components/LessonsList.vue'),
       LessonInfo: () => import('~/components/LessonInfo.vue'),
       LessonsNavigation: () => import('~/components/LessonsNavigation.vue'),
-      Subscription: () => import('~/components/Subscription.vue')
+      Subscription: () => import('~/components/Subscription.vue'),
+      QuestionIcon: () => import('~/components/QuestionIcon.vue')
     },
 
     props: {
@@ -61,6 +65,18 @@
       },
       lessonId: {
         default: null
+      }
+    },
+
+    data() {
+      return {
+        ghIssueTitle: null,
+      }
+    },
+
+    watch: {
+      "$route.path": function(current, old) {
+        this.getTitleForIssue()
       }
     },
 
@@ -104,6 +120,25 @@
 
         return b
       }
+    },
+
+    methods: {
+      getTitleForIssue() {
+        const url = new URL('https://github.com/airalab/robonomics.academy/issues/new?assignees=&labels=documentation&template=lesson-issue.md&');
+        const params = new URLSearchParams(url.search);
+        params.append('title', `issue for lesson - ${this.title}(${this.$locale})`);
+        this.ghIssueTitle = params.toString()
+      },
+    },
+
+    created() {
+      this.getTitleForIssue()
     }
   }
 </script>
+
+<style scoped>
+  .layout {
+    position: relative;
+  }
+</style>>
