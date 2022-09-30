@@ -1938,3 +1938,13 @@
   en: "Theory free / Practice from $82 per hour<br/>Self-paced<br/>Theory & practice"
   ru: "Бесплатные лекции / Практические задания от 82$ в час<br/>Самостоятельное изучение<br/>Теория и практика"
   it: "Teoria gratuita / Pratica da $82 all'ora<br/Teoria e pratica di autoapprendimento"
+
+
+- alias: Latest update
+  en: Latest update
+
+- alias: on (date of commit)
+  en: 'on'
+  
+- alias: 'by (author of commit)'
+  en: by
