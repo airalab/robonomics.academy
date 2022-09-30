@@ -1,6 +1,6 @@
 <template>
 
-  <section v-if="title" :class="classes">
+  <section v-if="title" :class="[classes, {'section-lessonInfo': lessonId}]">
     <div class="container__narrow">
       <ul v-if="breadcrumbs">
         <li v-for="item in breadcrumbs" :key="item.id">
@@ -128,7 +128,12 @@ export default {
 <style scoped>
 
   section {
-    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section-lessonInfo {
+    padding-bottom: 0;
   }
 
   .container__narrow, .lesson-update {max-width: 650px; }
@@ -154,14 +159,13 @@ export default {
   }
 
   .lesson-update {
-    padding-top: calc(var(--gap) * 3);
+    margin: 0 auto;
+    padding-top: calc(var(--gap) * 5);
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
 
   .lesson-update__wrapper {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
     font-weight: 300;
     font-style: italic;
   }
