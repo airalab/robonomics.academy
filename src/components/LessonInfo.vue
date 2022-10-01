@@ -1,6 +1,6 @@
 <template>
     <div class="lesson__tags">
-        <div class="container__wide">
+        <div class="container__wide lessons__tags-container">
 
             <div class="lesson__tags__tag" v-if="type">
                 <font-awesome-icon icon="fa-graduation-cap" v-if="type === 'Theory'" />
@@ -47,10 +47,18 @@ export default {
 
 <style scoped>
     .lesson__tags  {
-        background-color: var(--color-brown);
-        color: var(--color-yellow);
         padding-top: calc(var(--gap) * 0.5);
+        background-color: var(--color-brown);
+        color: var(--color-yellow);   
         text-align: center;
+    }
+
+    .lessons__tags-container {
+        max-width: 650px;
+        margin: 0 auto;
+        padding-left: 20px;
+        text-align: left; 
+        white-space: nowrap;
     }
 
     .lesson__tags__tag {
@@ -60,6 +68,12 @@ export default {
 
     .lesson__tags__tag:not(:last-child) {
         margin-right: var(--gap);
+    }
+
+    @media screen and (max-width: 900px) {
+        .lessons__tags-container  {
+            white-space: unset;
+        }
     }
 
     @media screen and (max-width: 680px) {

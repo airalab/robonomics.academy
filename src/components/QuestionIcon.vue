@@ -22,17 +22,19 @@ export default {
   .question__link {
     position: fixed;
     display: inline-block;
-    bottom: 10%;
+    bottom: 5%;
     right: 10px;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: var(--color-white);
-    border-radius: 100%;
+    border-radius: 100px;
+    border: 2px solid var(--color-white);
     background-color: var(--color-yellow);
     cursor: pointer;
     transition: all 1s;
+    overflow: hidden;
   }
 
   .question__icon {
@@ -49,16 +51,19 @@ export default {
 
   .question__text {
     font-size: 1rem;
+    font-weight: 600;
     line-height: 0;
     width: 0;
     opacity: 0;
     visibility: hidden;
     color: #fff;
+    white-space: nowrap;
     transition: all 1s;
   }
 
   .question__link:hover {
     border-radius: 30px;
+    color: var(--color-white);
     background-color: var(--color-violet);
   }
 
@@ -66,7 +71,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
+    width: 190px;
     line-height: 1;
     opacity: 1;
     visibility: visible;
