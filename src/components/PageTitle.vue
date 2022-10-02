@@ -160,8 +160,8 @@ export default {
 
   .lesson-update {
     margin: 0 auto;
-    padding-top: calc(var(--gap) * 5);
-    padding-left: 10px;
+    padding-top: calc(var(--gap) * 3);
+    /* padding-left: 10px; */
     padding-bottom: 10px;
   }
 

@@ -15,7 +15,7 @@
         <div class="header-right expand header__section" tabindex="0">
             <LanguageSwitcher/>  
             <details >
-            <summary>?</summary>
+            <summary>i</summary>
 
             <div class="expand__content text__hyphened">
                 <p>{{$ts('We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to')}} <g-link to="https://discord.gg/kFPqNktKrJ">{{$ts('discuss with us')}}</g-link> {{$ts('your suggestions and report about bugs.')}}</p>
@@ -133,7 +133,7 @@ export default {
     .header .expand summary {
         background-color: var(--color-orange);
         border-radius: var(--gap);
-        padding: 0 calc(var(--gap) * 0.5);
+        padding: 0 calc(var(--gap) * 0.4);
     }
 
     .header .expand__content {

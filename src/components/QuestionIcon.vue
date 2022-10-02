@@ -22,8 +22,8 @@ export default {
   .question__link {
     position: fixed;
     display: inline-block;
-    bottom: 5%;
-    right: 10px;
+    bottom: var(--gap);
+    right: var(--gap);
     padding: 10px;
     display: flex;
     align-items: center;
