@@ -70,6 +70,10 @@ export default {
         margin-right: var(--gap);
     }
 
+    .svg-inline--fa {
+        height: 20px;
+    }
+
     @media screen and (max-width: 900px) {
         .lessons__tags-container  {
             white-space: unset;
