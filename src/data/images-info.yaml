@@ -1,0 +1,229 @@
+- locale: en 
+  online-course:
+    imgName: "online-courses.png"
+    options: [Online courses]
+  certificate:
+    imgName: "apply-for-certificate.png"
+    options: [Apply for certificate]
+  courses:
+    - title: Introduction Course
+      imgName: "/cover.png"
+      options: [Online Courses, Introduction Course]
+    - title: 'Boston Dynamics Spot Software Developing'
+      imgName: "/cover.png"
+      options: [Online Courses, Boston Dynamics Spot Software Developing]
+  lessons: 
+    - title: '1, Broadcasting Through the Black Mirror'
+      options: [Online Courses, Introduction Course, '1, Broadcasting Through the Black Mirror']
+    - title: '2, At the Intersection of Cybernetics and Economics'
+      options: [Online Courses, Introduction Course, '2, At the Intersection of Cybernetics and Economics']
+    - title: '3, Polkadot Ecosystem for Home IoT Infrastructure'
+      options: [Online Courses, Introduction Course, '3, Polkadot Ecosystem for Home IoT Infrastructure']
+    - title: '4, Robonomics Architecture'
+      options: [Online Courses, Introduction Course, '4, Robonomics Architecture']
+    - title: '5, IoT Subscriptions Using Robonomics Parachain'
+      options: [Online Courses, Introduction Course, '5, IoT Subscriptions Using Robonomics Parachain']
+    - title: '0, Configure and test connection to Spot'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '0, Configure and test connection to Spot']
+    - title: '1, Emergency stop, initialization, body position control'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '1, Emergency stop, initialization, body position control']
+    - title: '2, Remote controlled and programmed motion'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '2, Remote controlled and programmed motion']
+    - title: '3, Find and follow an object, navigate between them'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '3, Find and follow an object, navigate between them']
+    - title: '4, GraphNav service. Mapping and navigating on the map'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '4, GraphNav service. Mapping and navigating on the map']
+    - title: '5, Robot service. Camera calibration and "Spot check" procedure'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '5, Robot service. Camera calibration and "Spot check" procedure']
+
+- locale: es 
+  online-course:
+    imgName: "online-courses-es.png"
+    options: [Cursos online]
+  certificate:
+    imgName: "apply-for-certificate-es.png"
+    options: [Solicitar certificado]
+  courses:
+    - title: Introduction Course
+      imgName: "/cover-es.png"
+      options: [Cursos online, Curso de Introducción]
+    - title: 'Boston Dynamics Spot Software Developing'
+      imgName: "/cover-es.png"
+      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics]
+  lessons: 
+    - title: '1, Broadcasting Through the Black Mirror'
+      options: [Cursos online, Curso de Introducción, '1, transmitiendo a través del espejo negro']
+    - title: '2, At the Intersection of Cybernetics and Economics'
+      options: [Cursos online, Curso de Introducción, '2, en la intersección de la cibernética y la economía']
+    - title: '3, Polkadot Ecosystem for Home IoT Infrastructure'
+      options: [Cursos online, Curso de Introducción, '3, Polkadot Ecosystem for Home IoT Infrastructure']
+    - title: '4, Robonomics Architecture'
+      options: [Cursos online, Curso de Introducción, '4, Robonomics Architecture']
+    - title: '5, IoT Subscriptions Using Robonomics Parachain'
+      options: [Cursos online, Curso de Introducción, '5, IoT Subscriptions Using Robonomics Parachain']
+    - title: '0, Configure and test connection to Spot'
+      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, '0, Configure and test connection to Spot']
+    - title: '1, Emergency stop, initialization, body position control'
+      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, '1, Emergency stop, initialization, body position control']
+    - title: '2, Remote controlled and programmed motion'
+      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, '2, Remote controlled and programmed motion']
+    - title: '3, Find and follow an object, navigate between them'
+      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, '3, Find and follow an object, navigate between them']
+    - title: '4, GraphNav service. Mapping and navigating on the map'
+      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, '4, GraphNav service. Mapping and navigating on the map']
+    - title: '5, Robot service. Camera calibration and "Spot check" procedure'
+      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, '5, Robot service. Camera calibration and "Spot check" procedure']
+
+- locale: it 
+  online-course:
+    imgName: "online-courses-it.png"
+    options: [Corsi online]
+  certificate:
+    imgName: "apply-for-certificate-it.png"
+    options: [Applica per il certificato]
+  courses:
+    - title: Introduction Course
+      imgName: "/cover-it.png"
+      options: [Corsi online, Corso Introduttivo]
+    - title: 'Boston Dynamics Spot Software Developing'
+      imgName: "/cover-it.png"
+      options: [Corsi online, Boston Dynamics Spot Software Developing]
+  lessons: 
+    - title: '1, Broadcasting Through the Black Mirror'
+      options: [Corsi online, Corso Introduttivo, '1, Trasmettere Attraverso lo Specchio Nero']
+    - title: '2, At the Intersection of Cybernetics and Economics'
+      options: [Corsi online, Corso Introduttivo, "2, All'intersezione fra Cibernetica ed Economia"]
+    - title: '3, Polkadot Ecosystem for Home IoT Infrastructure'
+      options: [Corsi online, Corso Introduttivo, "3, Ecosistema Polkadot per l'infrastruttura IoT domestica"]
+    - title: '4, Robonomics Architecture'
+      options: [Corsi online, Corso Introduttivo, '4, Architettura di Robonomics']
+    - title: '5, IoT Subscriptions Using Robonomics Parachain'
+      options: [Corsi online, Corso Introduttivo, '5, Abbonamenti IoT con la Parachain Robonomics']
+    - title: '0, Configure and test connection to Spot'
+      options: [Corsi online, Boston Dynamics Spot Software Developing, '0, Configure and test connection to Spot']
+    - title: '1, Emergency stop, initialization, body position control'
+      options: [Corsi online, Boston Dynamics Spot Software Developing, '1, Emergency stop, initialization, body position control']
+    - title: '2, Remote controlled and programmed motion'
+      options: [Corsi online, Boston Dynamics Spot Software Developing, '2, Remote controlled and programmed motion']
+    - title: '3, Find and follow an object, navigate between them'
+      options: [Corsi online, Boston Dynamics Spot Software Developing, '3, Find and follow an object, navigate between them']
+    - title: '4, GraphNav service. Mapping and navigating on the map'
+      options: [Corsi online, Boston Dynamics Spot Software Developing, '4, GraphNav service. Mapping and navigating on the map']
+    - title: '5, Robot service. Camera calibration and "Spot check" procedure'
+      options: [Corsi online, Boston Dynamics Spot Software Developing, '5, Robot service. Camera calibration and "Spot check" procedure']
+
+- locale: ru 
+  online-course:
+    imgName: "online-courses-ru.png"
+    options: [Онлайн курсы]
+  certificate:
+    imgName: "apply-for-certificate-ru.png"
+    options: [Подать заявку на сертификат]
+  courses:
+    - title: Introduction Course
+      imgName: "/cover-ru.png"
+      options: [Онлайн курсы, Вводный курс]
+    - title: 'Boston Dynamics Spot Software Developing'
+      imgName: "/cover-ru.png"
+      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics] 
+  lessons: 
+    - title: '1, Broadcasting Through the Black Mirror'
+      options: [Онлайн курсы, Вводный курс, '1, Вещание через Черное Зеркало']
+    - title: '2, At the Intersection of Cybernetics and Economics'
+      options: [Онлайн курсы, Вводный курс, "2, На стыке кибернетики и экономики"]
+    - title: '3, Polkadot Ecosystem for Home IoT Infrastructure'
+      options: [Онлайн курсы, Вводный курс, "3, Экосистема Polkadot для домашней инфраструктуры IoT"]
+    - title: '4, Robonomics Architecture'
+      options: [Онлайн курсы, Вводный курс, '4, Архитектура экономики роботов']
+    - title: '5, IoT Subscriptions Using Robonomics Parachain'
+      options: [Онлайн курсы, Вводный курс, '5, Подписки IoT с использованием Robonomics Parachain']
+    - title: '0, Configure and test connection to Spot'
+      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, '0, Configure and test connection to Spot']
+    - title: '1, Emergency stop, initialization, body position control'
+      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, '1, Emergency stop, initialization, body position control']
+    - title: '2, Remote controlled and programmed motion'
+      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, '2, Remote controlled and programmed motion']
+    - title: '3, Find and follow an object, navigate between them'
+      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, '3, Find and follow an object, navigate between them']
+    - title: '4, GraphNav service. Mapping and navigating on the map'
+      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, '4, GraphNav service. Mapping and navigating on the map']
+    - title: '5, Robot service. Camera calibration and "Spot check" procedure'
+      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, '5, Robot service. Camera calibration and "Spot check" procedure']
+
+- locale: de 
+  online-course:
+    imgName: "online-courses-de.png"
+    options: [Online courses]
+  certificate:
+    imgName: "apply-for-certificate-de.png"
+    options: [Apply for certificate]
+  courses:
+    - title: Introduction Course
+      imgName: "/cover-de.png"
+      options: [Online Courses, Introduction Course]
+    - title: 'Boston Dynamics Spot Software Developing'
+      imgName: "/cover-de.png"
+      options: [Online Courses, Boston Dynamics Spot Software Developing]
+  lessons: 
+    - title: '1, Broadcasting Through the Black Mirror'
+      options: [Online Courses, Introduction Course, '1, Broadcasting Through the Black Mirror']
+    - title: '2, At the Intersection of Cybernetics and Economics'
+      options: [Online Courses, Introduction Course, '2, At the Intersection of Cybernetics and Economics']
+    - title: '3, Polkadot Ecosystem for Home IoT Infrastructure'
+      options: [Online Courses, Introduction Course, '3, Polkadot Ecosystem for Home IoT Infrastructure']
+    - title: '4, Robonomics Architecture'
+      options: [Online Courses, Introduction Course, '4, Robonomics Architecture']
+    - title: '5, IoT Subscriptions Using Robonomics Parachain'
+      options: [Online Courses, Introduction Course, '5, IoT Subscriptions Using Robonomics Parachain']
+    - title: '0, Configure and test connection to Spot'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '0, Configure and test connection to Spot']
+    - title: '1, Emergency stop, initialization, body position control'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '1, Emergency stop, initialization, body position control']
+    - title: '2, Remote controlled and programmed motion'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '2, Remote controlled and programmed motion']
+    - title: '3, Find and follow an object, navigate between them'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '3, Find and follow an object, navigate between them']
+    - title: '4, GraphNav service. Mapping and navigating on the map'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '4, GraphNav service. Mapping and navigating on the map']
+    - title: '5, Robot service. Camera calibration and "Spot check" procedure'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '5, Robot service. Camera calibration and "Spot check" procedure']
+
+- locale: ko 
+  online-course:
+    imgName: "online-courses-ko.png"
+    options: [Online courses]
+  certificate:
+    imgName: "apply-for-certificate-ko.png"
+    options: [Apply for certificate]
+  courses:
+    - title: Introduction Course
+      imgName: "/cover-ko.png"
+      options: [Online Courses, Introduction Course]
+    - title: 'Boston Dynamics Spot Software Developing'
+      imgName: "/cover-ko.png"
+      options: [Online Courses, Boston Dynamics Spot Software Developing]
+  lessons: 
+    - title: '1, Broadcasting Through the Black Mirror'
+      options: [Online Courses, Introduction Course, '1, Broadcasting Through the Black Mirror']
+    - title: '2, At the Intersection of Cybernetics and Economics'
+      options: [Online Courses, Introduction Course, '2, At the Intersection of Cybernetics and Economics']
+    - title: '3, Polkadot Ecosystem for Home IoT Infrastructure'
+      options: [Online Courses, Introduction Course, '3, Polkadot Ecosystem for Home IoT Infrastructure']
+    - title: '4, Robonomics Architecture'
+      options: [Online Courses, Introduction Course, '4, Robonomics Architecture']
+    - title: '5, IoT Subscriptions Using Robonomics Parachain'
+      options: [Online Courses, Introduction Course, '5, IoT Subscriptions Using Robonomics Parachain']
+    - title: '0, Configure and test connection to Spot'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '0, Configure and test connection to Spot']
+    - title: '1, Emergency stop, initialization, body position control'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '1, Emergency stop, initialization, body position control']
+    - title: '2, Remote controlled and programmed motion'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '2, Remote controlled and programmed motion']
+    - title: '3, Find and follow an object, navigate between them'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '3, Find and follow an object, navigate between them']
+    - title: '4, GraphNav service. Mapping and navigating on the map'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '4, GraphNav service. Mapping and navigating on the map']
+    - title: '5, Robot service. Camera calibration and "Spot check" procedure'
+      options: [Online Courses, Boston Dynamics Spot Software Developing, '5, Robot service. Camera calibration and "Spot check" procedure']
+
+

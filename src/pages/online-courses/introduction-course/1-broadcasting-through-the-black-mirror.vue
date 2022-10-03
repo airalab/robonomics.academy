@@ -39,10 +39,11 @@
   export default {
     metaInfo () {
       return this.$seo({
+        lang: this.$locale,
         title: this.$ts('Lesson #1, Broadcasting Through the Black Mirror'),
         description: this.$ts('This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).'),
         image: {
-          url: this.$website + '/og/introduction-course/1-broadcasting-through-the-black-mirror.png',
+          url: this.$website + `/og/introduction-course/1-broadcasting-through-the-black-mirror-${this.$locale}.png`,
           width: 1200,
           height: 628
         },

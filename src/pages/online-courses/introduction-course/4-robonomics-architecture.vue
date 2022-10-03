@@ -40,10 +40,11 @@
   export default {
     metaInfo () {
       return this.$seo({
+        lang: this.$locale,
         title: this.$ts('Lesson #4, Robonomics Architecture'),
         description: this.$ts('Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system.'),
         image: {
-          url: this.$website + '/og/introduction-course/4-robonomics-architecture.png',
+          url: this.$website + `/og/introduction-course/4-robonomics-architecture-${this.$locale}.png`,
           width: 1200,
           height: 628
         },

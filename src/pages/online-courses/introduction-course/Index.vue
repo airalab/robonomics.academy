@@ -25,10 +25,11 @@ export default {
 
   metaInfo() {
     return this.$seo({
+      lang: this.$locale,
       title: this.$ts('Introduction Course'),
       description: "Welcome Introduction Course!",
       image: {
-          url: this.$website + '/og/introduction-course/cover.png',
+          url: this.$locale === 'en' ? this.$website + '/og/introduction-course/cover.png' : this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
           width: 1280,
           height: 650
       },
@@ -38,7 +39,7 @@ export default {
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/introduction-course',
         image: {
-          url: this.$website + '/og/introduction-course/cover.png',
+          url: this.$locale === 'en' ? this.$website + '/og/introduction-course/cover.png' : this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
           width: 1280,
           height: 650
         },
@@ -48,7 +49,7 @@ export default {
         type: 'summary',
         site: '@AIRA_Robonomics',
         creator: '@AIRA_Robonomics',
-        image: this.$website + '/og/introduction-course/cover.png',
+        image: this.$locale === 'en' ? this.$website + '/og/introduction-course/cover.png' : this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
         card: 'summary_large_image',
       }
     })
