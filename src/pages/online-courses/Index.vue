@@ -53,10 +53,11 @@
 
     metaInfo() {
     return this.$seo({
+      lang: this.$locale,
       title: this.$ts('Online courses'),
       description: this.$ts("Robonomics Academy online courses"),
       image: {
-          url: this.$website + '/og/online-courses.png',
+          url: this.$locale === 'en' ? this.$website + '/og/online-courses.png' : this.$website + `/og/online-courses-${this.$locale}.png`,
           width: 1280,
           height: 650
       },
@@ -66,7 +67,7 @@
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/online-courses',
         image: {
-          url: this.$website + '/og/online-courses.png',
+          url: this.$locale === 'en' ? this.$website + '/og/online-courses.png' : this.$website + `/og/online-courses-${this.$locale}.png`,
           width: 1280,
           height: 650
         },

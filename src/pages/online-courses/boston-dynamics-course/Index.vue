@@ -58,10 +58,11 @@
 export default {
   metaInfo() {
     return this.$seo({
+      lang: this.$locale,
       title: this.$ts('Boston Dynamics Spot Software Developing'),
       description: this.$ts("Our new Boston Dynamics Spot Software Developing!"),
       image: {
-          url: this.$website + '/og/boston-dynamics-course/cover.png',
+          url: this.$locale === 'en' ? this.$website + '/og/boston-dynamics-course/cover.png' : this.$website + `/og/boston-dynamics-course/cover-${this.$locale}.png`,
           width: 1920,
           height: 1080
       },
@@ -71,7 +72,7 @@ export default {
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/online-courses/boston-dynamics-course',
         image: {
-          url: this.$website + '/og/online-courses/boston-dynamics-course/cover.png',
+          url: this.$locale === 'en' ? this.$website + '/og/boston-dynamics-course/cover.png' : this.$website + `/og/boston-dynamics-course/cover-${this.$locale}.png`,
           width: 1280,
           height: 650
         },
@@ -81,7 +82,7 @@ export default {
         type: 'summary',
         site: '@AIRA_Robonomics',
         creator: '@AIRA_Robonomics',
-        image: this.$website + '/og/online-courses/boston-dynamics-course/cover.png',
+        image: this.$locale === 'en' ? this.$website + '/og/boston-dynamics-course/cover.png' : this.$website + `/og/boston-dynamics-course/cover-${this.$locale}.png`,
         card: 'summary_large_image',
       }
     })

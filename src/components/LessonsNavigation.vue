@@ -70,7 +70,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 290px;
+  width: 310px;
   background-color: var(--color-white);
   border-radius: 0;
   border: 3px solid var(--color-blue);
@@ -83,7 +83,7 @@ nav {
 }
 
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 680px) {
   nav {
     flex-direction: column;
     align-items: center;

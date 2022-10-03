@@ -62,10 +62,11 @@ python3 wasd.py --username &lt;SPOT_AUTH_USERNAME&gt; --password &lt;SPOT_AUTH_P
 export default {
   metaInfo() {
     return this.$seo({
+      lang: this.$locale,
       title: this.$ts('Lesson #4, GraphNav service. Mapping and navigating on the map'),
       description: this.$ts('In the fourth lesson you will learn how to record and play autonomous missions with GraphNav service.'),
       image: {
-          url: this.$website + '/og/boston-dynamics-course/4-graphnav-service-mapping-and-navigatiing-on-the-map.png',
+          url: this.$website + `/og/boston-dynamics-course/4-graphnav-service-mapping-and-navigatiing-on-the-map-${this.$locale}.png`,
           width: 1280,
           height: 650
       },
