@@ -29,7 +29,7 @@ export default {
       title: this.$ts('Introduction Course'),
       description: "Welcome Introduction Course!",
       image: {
-          url: this.$locale === 'en' ? this.$website + '/og/introduction-course/cover.png' : this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
+          url: this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
           width: 1280,
           height: 650
       },
@@ -39,7 +39,7 @@ export default {
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/introduction-course',
         image: {
-          url: this.$locale === 'en' ? this.$website + '/og/introduction-course/cover.png' : this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
+          url: this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
           width: 1280,
           height: 650
         },
@@ -49,7 +49,7 @@ export default {
         type: 'summary',
         site: '@AIRA_Robonomics',
         creator: '@AIRA_Robonomics',
-        image: this.$locale === 'en' ? this.$website + '/og/introduction-course/cover.png' : this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
+        image: this.$website + `/og/introduction-course/cover-${this.$locale}.png`,
         card: 'summary_large_image',
       }
     })

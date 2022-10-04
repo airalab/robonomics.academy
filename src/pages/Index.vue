@@ -153,8 +153,6 @@
 
     metaInfo () {
       return this.$seo({
-        lang: this.$locale,
-        language: this.$locale,
         title: 'Robonomics Academy',
         description: this.$ts('Get experience in web 3.0 and blockchain techonologies with free online lessons.'),
         image: {

@@ -57,7 +57,7 @@
       title: this.$ts('Online courses'),
       description: this.$ts("Robonomics Academy online courses"),
       image: {
-          url: this.$locale === 'en' ? this.$website + '/og/online-courses.png' : this.$website + `/og/online-courses-${this.$locale}.png`,
+          url: this.$website + `/og/online-courses-${this.$locale}.png`,
           width: 1280,
           height: 650
       },
@@ -67,7 +67,7 @@
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/online-courses',
         image: {
-          url: this.$locale === 'en' ? this.$website + '/og/online-courses.png' : this.$website + `/og/online-courses-${this.$locale}.png`,
+          url: this.$website + `/og/online-courses-${this.$locale}.png`,
           width: 1280,
           height: 650
         },
@@ -77,7 +77,7 @@
         type: 'summary',
         site: '@AIRA_Robonomics',
         creator: '@AIRA_Robonomics',
-        image: this.$website + '/og/online-courses.png',
+        image: this.$website + `/og/online-courses-${this.$locale}.png`,
         card: 'summary_large_image',
       }
     })
