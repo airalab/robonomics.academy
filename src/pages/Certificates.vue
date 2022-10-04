@@ -127,7 +127,7 @@
         title: this.$ts('Apply for certificate'),
         description: this.$ts('Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.'),
         image: {
-          url: this.$locale === 'en' ? this.$website + '/og/apply-for-certificate.png' : this.$website + `/og/apply-for-certificate-${this.$locale}.png`,
+          url: this.$website + `/og/apply-for-certificate-${this.$locale}.png`,
           width: 1280,
           height: 650
         },
@@ -137,7 +137,7 @@
           site_name: 'Robonomics Academy',
           url: 'https://robonomics.academy/certificates',
           image: {
-            url: this.$locale === 'en' ? this.$website + '/og/apply-for-certificate.png' : this.$website + `/og/apply-for-certificate-${this.$locale}.png`,
+            url: this.$website + `/og/apply-for-certificate-${this.$locale}.png`,
             width: 1280,
             height: 650
           },

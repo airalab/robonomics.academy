@@ -1,16 +1,16 @@
 - locale: en 
   online-course:
-    imgName: "online-courses.png"
+    imgName: "online-courses-en.png"
     options: [Online courses]
   certificate:
-    imgName: "apply-for-certificate.png"
+    imgName: "apply-for-certificate-en.png"
     options: [Apply for certificate]
   courses:
     - title: Introduction Course
-      imgName: "/cover.png"
+      imgName: "/cover-en.png"
       options: [Online Courses, Introduction Course]
     - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover.png"
+      imgName: "/cover-en.png"
       options: [Online Courses, Boston Dynamics Spot Software Developing]
   lessons: 
     - title: '1, Broadcasting Through the Black Mirror'
