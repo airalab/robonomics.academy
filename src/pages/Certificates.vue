@@ -123,11 +123,10 @@
 
     metaInfo () {
       return this.$seo({
-        lang: this.$locale,
         title: this.$ts('Apply for certificate'),
         description: this.$ts('Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.'),
         image: {
-          url: this.$website + `/og/apply-for-certificate-${this.$locale}.png`,
+          url: this.$locale ? this.$website + `/og/apply-for-certificate-${this.$locale}.png` :  this.$website + `/og/apply-for-certificate-en.png`,
           width: 1280,
           height: 650
         },
@@ -137,7 +136,7 @@
           site_name: 'Robonomics Academy',
           url: 'https://robonomics.academy/certificates',
           image: {
-            url: this.$website + `/og/apply-for-certificate-${this.$locale}.png`,
+            url: this.$locale ? this.$website + `/og/apply-for-certificate-${this.$locale}.png` :  this.$website + `/og/apply-for-certificate-en.png`,
             width: 1280,
             height: 650
           },
@@ -147,13 +146,14 @@
           type: 'summary'
         }
       })
-  }
+    },
 
     // mounted(){
     //   setInterval(()=> {
     //     console.log('interval $response', this.$response)
     //   }, 1500)
     // },
+
 
     // created() {
     //   this.$watch('$response', {

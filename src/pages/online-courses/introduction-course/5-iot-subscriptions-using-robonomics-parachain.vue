@@ -55,11 +55,10 @@
   export default {
     metaInfo () {
       return this.$seo({
-        lang: this.$locale,
         title: this.$ts('Lesson #5, IoT Subscriptions Using Robonomics Parachain'),
         description: this.$ts('You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network.'),
         image: {
-          url: this.$website + `/og/introduction-course/5-iot-subscriptions-using-robonomics-parachain-${this.$locale}.png`,
+          url: this.$locale ? this.$website + `/og/introduction-course/5-iot-subscriptions-using-robonomics-parachain-${this.$locale}.png` : this.$website + `/og/introduction-course/5-iot-subscriptions-using-robonomics-parachain-en.png`,
           width: 1200,
           height: 628
         },
