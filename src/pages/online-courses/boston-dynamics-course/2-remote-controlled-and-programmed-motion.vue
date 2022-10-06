@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="2" lessonId="3">
+
+    <MetaInfo
+      pageTitle = "Lesson #2, Remote controlled and programmed motion"
+      pageDescription = "In the second lesson you will learn how to use Spot Command services and walk with Spot."
+      :pageImage = "'/og/boston-dynamics-course/2-remote-controlled-and-programmed-motion'"
+    />
+
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts("What's this about")}}</h2>
@@ -90,24 +97,9 @@ command_client.robot_command(cmd, end_time_secs=time.time() + 2)</code>
 <script>
 
 export default {
-  metaInfo() {
-    return this.$seo({
-      title: this.$ts('Lesson #2, Remote controlled and programmed motion'),
-      description: this.$ts('In the second lesson you will learn how to use Spot Command services and walk with Spot.'),
-      image: {
-          url: this.$locale ? this.$website + `/og/boston-dynamics-course/2-remote-controlled-and-programmed-motion-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/2-remote-controlled-and-programmed-motion-en.png`,
-          width: 1280,
-          height: 650
-      },
-      openGraph: {
-        title: this.$ts('Lesson #2, Remote controlled and programmed motion'),
-        type: 'website'
-      },
-      twitter: {
-        title: this.$ts('Lesson #2, Remote controlled and programmed motion'),
-        type: 'summary'
-      }
-    })
-  }
+
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
+  },
 }
 </script>

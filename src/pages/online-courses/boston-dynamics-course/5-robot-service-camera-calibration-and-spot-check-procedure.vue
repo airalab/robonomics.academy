@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="2" lessonId="6">
+
+    <MetaInfo
+      pageTitle = 'Lesson #5, Robot service. Camera calibration and "Spot check" procedure'
+      pageDescription = "In this lesson you will learn what should you do if you just got the robot: the first run and network setup. Also you will learn how to run the calibration process that should be run monthly."
+      :pageImage = "'/og/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure'"
+    />
+    
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts("What's this about")}}</h2>
@@ -60,24 +67,10 @@
 <script>
 
 export default {
-  metaInfo() {
-    return this.$seo({
-      title: this.$ts('Lesson #5, Robot service. Camera calibration and "Spot check" procedure'),
-      description: this.$ts('In this lesson you will learn what should you do if you just got the robot: the first run and network setup. Also you will learn how to run the calibration process that should be run monthly.'),
-      image: {
-          url: this.$locale ? this.$website + `/og/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure-en.png`,
-          width: 1280,
-          height: 650
-      },
-      openGraph: {
-        title: this.$ts('Lesson #5, Robot service. Camera calibration and "Spot check" procedure'),
-        type: 'website'
-      },
-      twitter: {
-        title: this.$ts('Lesson #5, Robot service. Camera calibration and "Spot check" procedure'),
-        type: 'summary'
-      }
-    })
-  }
+
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
+  },
+
 }
 </script>

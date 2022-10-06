@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="1" lessonId="1">
+
+    <MetaInfo
+      pageTitle = "Lesson #1, Broadcasting Through the Black Mirror"
+      pageDescription = "This opening lesson will teach you basic methods to interact with a decentralized application (or dapp)."
+      :pageImage = "'/og/introduction-course/1-broadcasting-through-the-black-mirror'"
+    />
+
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts("What’s this about")}}</h2>
@@ -37,25 +44,10 @@
 <script>
 
   export default {
-    metaInfo () {
-      return this.$seo({
-        title: this.$ts('Lesson #1, Broadcasting Through the Black Mirror'),
-        description: this.$ts('This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).'),
-        image: {
-          url: this.$locale ? this.$website + `/og/introduction-course/1-broadcasting-through-the-black-mirror-${this.$locale}.png` : this.$website + `/og/introduction-course/1-broadcasting-through-the-black-mirror-en.png`,
-          width: 1200,
-          height: 628
-        },
-        openGraph: {
-          title: this.$ts('Lesson #1, Broadcasting Through the Black Mirror'),
-          type: 'website'
-        },
-        twitter: {
-          title: this.$ts('Lesson #1, Broadcasting Through the Black Mirror'),
-          type: 'summary'
-        }
-      })
-    }
+
+    components: {
+      MetaInfo: () => import('~/components/MetaInfo.vue')
+    },
   }
 
 </script>

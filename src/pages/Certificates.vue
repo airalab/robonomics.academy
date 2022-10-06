@@ -1,5 +1,12 @@
 <template>
   <Layout>
+
+    <MetaInfo
+      pageTitle = "Apply for certificate"
+      pageDescription = "Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3."
+      :pageImage = "'/og/apply-for-certificate'"
+    />
+
     <page-title 
       :title="$ts(`Apply for certificate`)"
       :breadcrumbs="breadcrumbs"
@@ -68,7 +75,8 @@
   export default {
   
     components: {
-      PageTitle: () => import('~/components/PageTitle.vue')
+      PageTitle: () => import('~/components/PageTitle.vue'),
+      MetaInfo: () => import('~/components/MetaInfo.vue')
     },
 
     data() {
@@ -105,7 +113,7 @@
         } else {
           return ''
         }
-      }
+      },
 
     },
 
@@ -118,34 +126,8 @@
         if(this.$response === 'success' || this.$response === 'error') {
           clearInterval(respInterval)
         }
-      }
-    },
+      },
 
-    metaInfo () {
-      return this.$seo({
-        title: this.$ts('Apply for certificate'),
-        description: this.$ts('Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.'),
-        image: {
-          url: this.$locale ? this.$website + `/og/apply-for-certificate-${this.$locale}.png` :  this.$website + `/og/apply-for-certificate-en.png`,
-          width: 1280,
-          height: 650
-        },
-        openGraph: {
-          title: this.$ts('Apply for certificate'),
-          type: 'website',
-          site_name: 'Robonomics Academy',
-          url: 'https://robonomics.academy/certificates',
-          image: {
-            url: this.$locale ? this.$website + `/og/apply-for-certificate-${this.$locale}.png` :  this.$website + `/og/apply-for-certificate-en.png`,
-            width: 1280,
-            height: 650
-          },
-        },
-        twitter: {
-          title: this.$ts('Apply for certificate'),
-          type: 'summary'
-        }
-      })
     },
 
     // mounted(){
@@ -165,6 +147,7 @@
     //     immediate: true
     //   })
     // },
+
 
   }
 </script>

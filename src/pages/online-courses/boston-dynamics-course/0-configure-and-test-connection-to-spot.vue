@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="2" lessonId="1">
+
+    <MetaInfo
+      pageTitle = "Lesson #0, Configure and test connection to Spot"
+      pageDescription = "In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot."
+      :pageImage = "'/og/boston-dynamics-course/0-configure-and-test-connection-to-spot'"
+    />
+
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts("What's this about")}}</h2>
@@ -140,24 +147,10 @@ sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
 <script>
 
 export default {
-  metaInfo() {
-    return this.$seo({
-      title: this.$ts('Lesson #0, Configure and test connection to Spot'),
-      description: this.$ts('In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot.'),
-      image: {
-        url: this.$locale ? this.$website + `/og/boston-dynamics-course/0-configure-and-test-connection-to-spot-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/0-configure-and-test-connection-to-spot-en.png`,
-        width: 1280,
-        height: 650
-      },
-      openGraph: {
-        title: this.$ts('Lesson #0, Configure and test connection to Spot'),
-        type: 'website'
-      },
-      twitter: {
-        title: this.$ts('Lesson #0, Configure and test connection to Spot'),
-        type: 'summary'
-      }
-    })
-  }
+
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
+  },
+
 }
 </script>

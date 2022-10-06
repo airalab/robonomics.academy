@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="2" lessonId="2">
+
+    <MetaInfo
+      pageTitle = "Lesson #1, Emergency stop, initialization, body position control"
+      pageDescription = "During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot."
+      :pageImage = "'/og/boston-dynamics-course/1-emergency-stop-initialization-body-position-control'"
+    />
+
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts(`What's this about`)}}</h2>
@@ -60,24 +67,9 @@
 <script>
 
 export default {
-  metaInfo () {
-    return this.$seo({
-      title: this.$ts('Lesson #1, Emergency stop, initialization, body position control'),
-      description: this.$ts('During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.'),
-      image: {
-          url: this.$locale ? this.$website + `/og/boston-dynamics-course/1-emergency-stop-initialization-body-position-control-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/1-emergency-stop-initialization-body-position-control-en.png`,
-          width: 1280,
-          height: 650
-      },
-      openGraph: {
-        title: this.$ts('Lesson #1, Emergency stop, initialization, body position control'),
-        type: 'website'
-      },
-      twitter: {
-        title: this.$ts('Lesson #1, Emergency stop, initialization, body position control'),
-        type: 'summary'
-      }
-    })
-  }
+
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
+  },
 }
 </script>

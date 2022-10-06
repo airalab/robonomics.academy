@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="1" lessonId="3">
+
+    <MetaInfo
+      pageTitle = "Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure"
+      pageDescription = "In this lesson you will try to control a smart light bulb that works via Home Assistant which has additional Robonomics modules."
+      :pageImage = "'/og/introduction-course/3-polkadot-ecosystem-for-home-iot-infrastructure'"
+    />
+
     <section class="text__hyphened">
       <section class="container__narrow">
         <p>{{$ts('Lesson 2 explained the main principles of Robonomics and mentioned Polkadot / Kusama as a promising blockchain ecosystem platform for it’s implementation. It’s time to take a closer look at the functions of Robonomics Parachain as a part of the Polkadot ecosystem in the Kusama network. In particular, we would like to show how IoT subscriptions of the Robonomics Parachain work. During the first lesson, your address was added to the course IoT subscription, and you have already managed to use it twice: when you looked for your reflection in the black mirror and when handed in your test results')}}.</p>
@@ -44,25 +51,10 @@
 <script>
 
   export default {
-    metaInfo () {
-      return this.$seo({
-        title: this.$ts("Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure"),
-        description: this.$ts('In this lesson you will try to control a smart light bulb that works via Home Assistant which has additional Robonomics modules.'),
-        image: {
-          url: this.$locale ? this.$website + `/og/introduction-course/3-polkadot-ecosystem-for-home-iot-infrastructure-${this.$locale}.png` : this.$website + `/og/introduction-course/3-polkadot-ecosystem-for-home-iot-infrastructure-en.png`,
-          width: 1200,
-          height: 628
-        },
-        openGraph: {
-          title: this.$ts("Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure"),
-          type: 'website'
-        },
-        twitter: {
-          title: this.$ts("Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure"),
-          type: 'summary'
-        }
-      })
-    }
+
+    components: {
+      MetaInfo: () => import('~/components/MetaInfo.vue')
+    },
   }
 
 </script>

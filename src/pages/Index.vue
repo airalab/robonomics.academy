@@ -1,5 +1,11 @@
 <template>
   <Layout>
+
+    <MetaInfo
+      pageTitle = "Robonomics Academy"
+      pageDescription = "Get experience in web 3.0 and blockchain techonologies with free online lessons."
+    />
+
     <section class="banner">
       <div class="container__wide">
         <g-image alt="Robonomics Academy Logo" src="@/assets/images/logo.svg" />
@@ -151,35 +157,8 @@
 
   export default {
 
-    metaInfo () {
-      return this.$seo({
-        title: 'Robonomics Academy',
-        description: this.$ts('Get experience in web 3.0 and blockchain techonologies with free online lessons.'),
-        image: {
-          url: this.$website + '/og/index.png',
-          width: 1280,
-          height: 650
-        },
-        openGraph: {
-          title: 'Robonomics Academy',
-          type: 'website',
-          site_name: 'Robonomics Academy',
-          url: 'https://robonomics.academy',
-          image: {
-            url: this.$website + '/og/index.png',
-            width: 1280,
-            height: 650
-          },
-        },
-        twitter: {
-          title: 'Robonomics Academy',
-          type: 'summary',
-          site: '@AIRA_Robonomics',
-          creator: '@AIRA_Robonomics',
-          image: this.$website + '/og/index.png',
-          card: 'summary_large_image',
-        }
-      })
+    components: {
+      MetaInfo: () => import('~/components/MetaInfo.vue')
     },
   }
 

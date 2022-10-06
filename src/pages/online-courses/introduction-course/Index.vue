@@ -1,6 +1,12 @@
 <template>
   <LayoutCourse courseId="1">
 
+    <MetaInfo
+      pageTitle = "Introduction Course"
+      pageDescription = "Welcome Introduction Course!"
+      :pageImage = "'/og/introduction-course/cover'"
+    />
+
     <section class="container__narrow text__hyphened">
       <h2>{{$ts("What's this about?")}}</h2>
       <p>{{$ts('In this course we dive into the problems that arise around building modern Internet of Things applications. As a possible solution, we want to introduce, at a basic level, the capabilities of web3 technologies and Robonomics tools for IoT developers and users. This introduction Course was designed to explain the main principles that form the idea of decentralized IoT applications, and also to show the main functions of the Robonomics platform as a parachain within the Polkadot / Kusama ecosystem.')}}</p>
@@ -23,34 +29,8 @@
 
 export default {
 
-  metaInfo() {
-    return this.$seo({
-      title: this.$ts('Introduction Course'),
-      description: "Welcome Introduction Course!",
-      image: {
-          url: this.$locale ? this.$website + `/og/introduction-course/cover-${this.$locale}.png` : this.$website + `/og/introduction-course/cover-en.png`,
-          width: 1280,
-          height: 650
-      },
-      openGraph: {
-        title: this.$ts('Introduction Course'),
-        type: 'website',
-        site_name: 'Robonomics Academy',
-        url: 'https://robonomics.academy/introduction-course',
-        image: {
-          url: this.$locale ? this.$website + `/og/introduction-course/cover-${this.$locale}.png` : this.$website + `/og/introduction-course/cover-en.png`,
-          width: 1280,
-          height: 650
-        },
-      },
-      twitter: {
-        title: this.$ts('Introduction Course'),
-        type: 'summary',
-        site: '@AIRA_Robonomics',
-        creator: '@AIRA_Robonomics',
-        image: this.$locale ? this.$website + `/og/introduction-course/cover-${this.$locale}.png` : this.$website + `/og/introduction-course/cover-en.png`,
-      }
-    })
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
   },
 }
 </script>

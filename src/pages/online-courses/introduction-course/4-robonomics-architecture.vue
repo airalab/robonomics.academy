@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="1" lessonId="4">
+
+    <MetaInfo
+      pageTitle = "Lesson #4, Robonomics Architecture"
+      pageDescription = "Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system."
+      :pageImage = "'/og/introduction-course/4-robonomics-architecture'"
+    />
+
     <section class="text__hyphened">
 
       <section class="container__narrow">
@@ -38,25 +45,10 @@
 <script>
 
   export default {
-    metaInfo () {
-      return this.$seo({
-        title: this.$ts('Lesson #4, Robonomics Architecture'),
-        description: this.$ts('Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system.'),
-        image: {
-          url: this.$locale ? this.$website + `/og/introduction-course/4-robonomics-architecture-${this.$locale}.png` : this.$website + `/og/introduction-course/4-robonomics-architecture-en.png`,
-          width: 1200,
-          height: 628
-        },
-        openGraph: {
-          title: this.$ts('Lesson #4, Robonomics Architecture'),
-          type: 'website'
-        },
-        twitter: {
-          title: this.$ts('Lesson #4, Robonomics Architecture'),
-          type: 'summary'
-        }
-      })
-    }
+
+    components: {
+      MetaInfo: () => import('~/components/MetaInfo.vue')
+    },
   }
 
 </script>
