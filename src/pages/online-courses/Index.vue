@@ -53,11 +53,10 @@
 
     metaInfo() {
     return this.$seo({
-      lang: this.$locale,
       title: this.$ts('Online courses'),
       description: this.$ts("Robonomics Academy online courses"),
       image: {
-          url: this.$website + `/og/online-courses-${this.$locale}.png`,
+          url: this.$locale ? this.$website + `/og/online-courses-${this.$locale}.png` : this.$website + `/og/online-courses-en.png`,
           width: 1280,
           height: 650
       },
@@ -67,7 +66,7 @@
         site_name: 'Robonomics Academy',
         url: 'https://robonomics.academy/online-courses',
         image: {
-          url: this.$website + `/og/online-courses-${this.$locale}.png`,
+          url: this.$locale ? this.$website + `/og/online-courses-${this.$locale}.png` : this.$website + `/og/online-courses-en.png`,
           width: 1280,
           height: 650
         },
@@ -77,7 +76,7 @@
         type: 'summary',
         site: '@AIRA_Robonomics',
         creator: '@AIRA_Robonomics',
-        image: this.$website + `/og/online-courses-${this.$locale}.png`,
+        image: this.$locale ? this.$website + `/og/online-courses-${this.$locale}.png` : this.$website + `/og/online-courses-en.png`,
         card: 'summary_large_image',
       }
     })

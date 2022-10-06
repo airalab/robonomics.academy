@@ -62,11 +62,10 @@
 export default {
   metaInfo () {
     return this.$seo({
-      lang: this.$locale,
       title: this.$ts('Lesson #1, Emergency stop, initialization, body position control'),
       description: this.$ts('During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.'),
       image: {
-          url: this.$website + `/og/boston-dynamics-course/1-emergency-stop-initialization-body-position-control-${this.$locale}.png`,
+          url: this.$locale ? this.$website + `/og/boston-dynamics-course/1-emergency-stop-initialization-body-position-control-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/1-emergency-stop-initialization-body-position-control-en.png`,
           width: 1280,
           height: 650
       },

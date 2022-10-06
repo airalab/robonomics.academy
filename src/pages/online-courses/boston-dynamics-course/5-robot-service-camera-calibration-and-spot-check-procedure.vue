@@ -62,11 +62,10 @@
 export default {
   metaInfo() {
     return this.$seo({
-      lang: this.$locale,
       title: this.$ts('Lesson #5, Robot service. Camera calibration and "Spot check" procedure'),
       description: this.$ts('In this lesson you will learn what should you do if you just got the robot: the first run and network setup. Also you will learn how to run the calibration process that should be run monthly.'),
       image: {
-          url: this.$website + `/og/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure-${this.$locale}.png`,
+          url: this.$locale ? this.$website + `/og/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure-en.png`,
           width: 1280,
           height: 650
       },

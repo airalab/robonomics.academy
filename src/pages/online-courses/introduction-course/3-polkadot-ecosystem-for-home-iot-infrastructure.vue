@@ -46,11 +46,10 @@
   export default {
     metaInfo () {
       return this.$seo({
-        lang: this.$locale,
         title: this.$ts("Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure"),
         description: this.$ts('In this lesson you will try to control a smart light bulb that works via Home Assistant which has additional Robonomics modules.'),
         image: {
-          url: this.$website + `/og/introduction-course/3-polkadot-ecosystem-for-home-iot-infrastructure-${this.$locale}.png`,
+          url: this.$locale ? this.$website + `/og/introduction-course/3-polkadot-ecosystem-for-home-iot-infrastructure-${this.$locale}.png` : this.$website + `/og/introduction-course/3-polkadot-ecosystem-for-home-iot-infrastructure-en.png`,
           width: 1200,
           height: 628
         },
