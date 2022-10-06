@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="1" lessonId="2">
+
+    <MetaInfo
+      pageTitle = "Lesson #2, At the Intersection of Cybernetics and Economics"
+      pageDescription = "Dive into the theory of the latest web3 technologies at the intersection of Cybernetics and Economics, which are designed to help IoT systems function safely and efficiently in our homes and cities."
+      :pageImage = "'/og/introduction-course/2-at-the-intersection-of-cybernetics-and-economics'"
+    />
+
     <section class="text__hyphened">
       <section class="container__narrow">
         <p>{{$ts('We are glad that you were able to pass through the black mirror and not drown in the digital world. Now a much deeper dive awaits you... the dive into the theory of the latest web3 technologies at the intersection of Cybernetics and Economics, which are designed to help IoT systems function safely and efficiently in our homes and cities.')}}</p>
@@ -44,25 +51,10 @@
 <script>
 
   export default {
-    metaInfo () {
-      return this.$seo({
-        title: this.$ts('Lesson #2, At the Intersection of Cybernetics and Economics'),
-        description: this.$ts('Dive into the theory of the latest web3 technologies at the intersection of Cybernetics and Economics, which are designed to help IoT systems function safely and efficiently in our homes and cities.'),
-        image: {
-          url: this.$locale ? this.$website + `/og/introduction-course/2-at-the-intersection-of-cybernetics-and-economics-${this.$locale}.png` : this.$website + `/og/introduction-course/2-at-the-intersection-of-cybernetics-and-economics-en.png`,
-          width: 1200,
-          height: 628
-        },
-        openGraph: {
-          title: this.$ts('Lesson #2, At the Intersection of Cybernetics and Economics'),
-          type: 'website'
-        },
-        twitter: {
-          title: this.$ts('Lesson #2, At the Intersection of Cybernetics and Economics'),
-          type: 'summary'
-        }
-      })
-    }
+    components: {
+      MetaInfo: () => import('~/components/MetaInfo.vue')
+    },
+
   }
 
 </script>

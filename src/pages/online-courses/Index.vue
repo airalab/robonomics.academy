@@ -1,5 +1,12 @@
 <template>
   <Layout>
+
+    <MetaInfo
+      pageTitle = "Online courses"
+      pageDescription = "Robonomics Academy online courses"
+      :pageImage = "'/og/online-courses'"
+    />
+
     <page-title 
       :title="$ts('Online courses')"
       :breadcrumbs="breadcrumbs"
@@ -31,6 +38,7 @@
     components: {
       PageTitle: () => import('~/components/PageTitle.vue'),
       CoursePreview: () => import('~/components/CoursePreview.vue'),
+      MetaInfo: () => import('~/components/MetaInfo.vue')
     },
 
     data() {
@@ -50,36 +58,5 @@
         return courses
       }
     },
-
-    metaInfo() {
-    return this.$seo({
-      title: this.$ts('Online courses'),
-      description: this.$ts("Robonomics Academy online courses"),
-      image: {
-          url: this.$locale ? this.$website + `/og/online-courses-${this.$locale}.png` : this.$website + `/og/online-courses-en.png`,
-          width: 1280,
-          height: 650
-      },
-      openGraph: {
-        title: this.$ts('Online courses'),
-        type: 'website',
-        site_name: 'Robonomics Academy',
-        url: 'https://robonomics.academy/online-courses',
-        image: {
-          url: this.$locale ? this.$website + `/og/online-courses-${this.$locale}.png` : this.$website + `/og/online-courses-en.png`,
-          width: 1280,
-          height: 650
-        },
-      },
-      twitter: {
-        title: this.$ts('Online courses'),
-        type: 'summary',
-        site: '@AIRA_Robonomics',
-        creator: '@AIRA_Robonomics',
-        image: this.$locale ? this.$website + `/og/online-courses-${this.$locale}.png` : this.$website + `/og/online-courses-en.png`,
-        card: 'summary_large_image',
-      }
-    })
-  }
   }
 </script>

@@ -56,7 +56,6 @@ export default {
     .lessons__tags-container {
         max-width: 650px;
         margin: 0 auto;
-        padding-left: 20px;
         text-align: left; 
         white-space: nowrap;
     }
@@ -83,6 +82,10 @@ export default {
     @media screen and (max-width: 680px) {
         .lesson__tags {
             text-align: left;
+        }
+
+        .lessons__tags-container {
+            padding-left: 10px;
         }
     }
 </style>

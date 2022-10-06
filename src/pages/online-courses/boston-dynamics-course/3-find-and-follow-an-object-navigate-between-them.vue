@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="2" lessonId="4">
+
+    <MetaInfo
+      pageTitle = "Lesson #3, Find and follow an object, navigate between them"
+      pageDescription = "In the third lesson you will learn how to find World Objects and go to them."
+      :pageImage = "'/og/boston-dynamics-course/3-find-and-follow-an-object-navigate-between-them'"
+    />
+
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts("What's this about")}}</h2>
@@ -51,24 +58,9 @@ vision_tform_fiducial = get_a_tform_b(fiducial.transforms_snapshot, VISION_FRAME
 <script>
 
 export default {
-  metaInfo() {
-    return this.$seo({
-      title: this.$ts('Lesson #3, Find and follow an object, navigate between them'),
-      description: this.$ts('In the third lesson you will learn how to find World Objects and go to them.'),
-      image: {
-          url: this.$locale ? this.$website + `/og/boston-dynamics-course/3-find-and-follow-an-object-navigate-between-them-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/3-find-and-follow-an-object-navigate-between-them-en.png`,
-          width: 1280,
-          height: 650
-      },
-      openGraph: {
-        title: this.$ts('Lesson #3, Find and follow an object, navigate between them'),
-        type: 'website'
-      },
-      twitter: {
-        title: this.$ts('Lesson #3, Find and follow an object, navigate between them'),
-        type: 'summary'
-      }
-    })
-  }
+
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
+  },
 }
 </script>

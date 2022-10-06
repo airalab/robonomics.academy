@@ -1,6 +1,12 @@
 <template>
   <LayoutCourse courseId="2">
 
+    <MetaInfo
+      pageTitle = "Boston Dynamics Spot Software Developing"
+      pageDescription = "Our new Boston Dynamics Spot Software Developing!"
+      :pageImage = "'/og/boston-dynamics-course/cover'"
+    />
+
     <section class="container__narrow text__hyphened">
       <h2>{{$ts("What's this about?")}}</h2>
       <p>{{$ts("We are excited to see you join the Spot SDK educational program! Our goal is to get you familiar with Spot's SDK and allow you to test your skills using a Boston Dynamics Spot robot in our lab.")}}</p>
@@ -56,35 +62,9 @@
 <script>
 
 export default {
-  metaInfo() {
-    return this.$seo({
-      title: this.$ts('Boston Dynamics Spot Software Developing'),
-      description: this.$ts("Our new Boston Dynamics Spot Software Developing!"),
-      image: {
-          url: this.$locale ? this.$website + `/og/boston-dynamics-course/cover-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/cover-en.png`,
-          width: 1920,
-          height: 1080
-      },
-      openGraph: {
-        title: this.$ts('Boston Dynamics Spot Software Developing'),
-        type: 'website',
-        site_name: 'Robonomics Academy',
-        url: 'https://robonomics.academy/online-courses/boston-dynamics-course',
-        image: {
-          url: this.$locale ? this.$website + `/og/boston-dynamics-course/cover-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/cover-en.png`,
-          width: 1280,
-          height: 650
-        },
-      },
-      twitter: {
-        title: this.$ts('Boston Dynamics Spot Software Developing'),
-        type: 'summary',
-        site: '@AIRA_Robonomics',
-        creator: '@AIRA_Robonomics',
-        image: this.$locale ? this.$website + `/og/boston-dynamics-course/cover-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/cover-en.png`,
-        card: 'summary_large_image',
-      }
-    })
-  }
+
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
+  },
 }
 </script>

@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="2" lessonId="5">
+
+    <MetaInfo
+      pageTitle = "Lesson #4, GraphNav service. Mapping and navigating on the map"
+      pageDescription = "In the fourth lesson you will learn how to record and play autonomous missions with GraphNav service."
+      :pageImage = "'/og/boston-dynamics-course/4-graphnav-service-mapping-and-navigatiing-on-the-map'"
+    />
+
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts("What's this about")}}</h2>
@@ -60,24 +67,9 @@ python3 wasd.py --username &lt;SPOT_AUTH_USERNAME&gt; --password &lt;SPOT_AUTH_P
 <script>
 
 export default {
-  metaInfo() {
-    return this.$seo({
-      title: this.$ts('Lesson #4, GraphNav service. Mapping and navigating on the map'),
-      description: this.$ts('In the fourth lesson you will learn how to record and play autonomous missions with GraphNav service.'),
-      image: {
-          url: this.$locale ? this.$website + `/og/boston-dynamics-course/4-graphnav-service-mapping-and-navigatiing-on-the-map-${this.$locale}.png` : this.$website + `/og/boston-dynamics-course/4-graphnav-service-mapping-and-navigatiing-on-the-map-en.png`,
-          width: 1280,
-          height: 650
-      },
-      openGraph: {
-        title: this.$ts('Lesson #4, GraphNav service. Mapping and navigating on the map'),
-        type: 'website'
-      },
-      twitter: {
-        title: this.$ts('Lesson #4, GraphNav service. Mapping and navigating on the map'),
-        type: 'summary'
-      }
-    })
-  }
+
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
+  },
 }
 </script>

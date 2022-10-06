@@ -1,5 +1,12 @@
 <template>
   <LayoutCourse courseId="1" lessonId="5">
+
+    <MetaInfo
+      pageTitle = "Lesson #5, IoT Subscriptions Using Robonomics Parachain"
+      pageDescription = "You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network."
+      :pageImage = "'/og/introduction-course/5-iot-subscriptions-using-robonomics-parachain'"
+    />
+
     <section class="text__hyphened">
 
       <section class="container__narrow">
@@ -53,25 +60,10 @@
 <script>
 
   export default {
-    metaInfo () {
-      return this.$seo({
-        title: this.$ts('Lesson #5, IoT Subscriptions Using Robonomics Parachain'),
-        description: this.$ts('You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network.'),
-        image: {
-          url: this.$locale ? this.$website + `/og/introduction-course/5-iot-subscriptions-using-robonomics-parachain-${this.$locale}.png` : this.$website + `/og/introduction-course/5-iot-subscriptions-using-robonomics-parachain-en.png`,
-          width: 1200,
-          height: 628
-        },
-        openGraph: {
-          title: this.$ts('Lesson #5, IoT Subscriptions Using Robonomics Parachain'),
-          type: 'website'
-        },
-        twitter: {
-          title: this.$ts('Lesson #5, IoT Subscriptions Using Robonomics Parachain'),
-          type: 'summary'
-        }
-      })
-    }
+
+    components: {
+      MetaInfo: () => import('~/components/MetaInfo.vue')
+    },
   }
 
 </script>
