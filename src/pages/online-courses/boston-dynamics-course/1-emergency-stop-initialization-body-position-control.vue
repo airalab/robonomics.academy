@@ -50,7 +50,7 @@
           </li>
           <li>
             <p>{{$ts('Try your script with stand-up and sit-down commands. Ensure robot moves as expected.')}}</p> 
-            <p>{{$ts('Make sure you run script by Python3 with ')}} <code>pythoon3</code> {{$ts('command')}}. {{$ts('Command')}}<code>python</code> {{$ts('refers to an obsolete Python 2 interpreter')}}.</p>
+            <p>{{$ts('Make sure you run script by Python3 with')}} <code>pythoon3</code> {{$ts('command')}}. {{$ts('Command')}}  <code>python</code> {{$ts('refers to an obsolete Python 2 interpreter')}}.</p>
           </li>
           <li>{{$ts('Add body position control to your script. Experiment with')}} <code>bosdyn.geometry.EulerZXY</code> {{$ts('robot command argument builder in order to identify what yaw, roll and pitch parameters you need to set to solve the challenge. The range of Pitch, Yaw and Roll is from -0.5 to 0.5.')}}</li>
         </List>

@@ -16,20 +16,17 @@
       <section class="container__narrow">
         <h2>{{$ts('The challenge')}}</h2>
         <p>{{$ts('Our goal is to get answers from Spot to our')}} <g-link
-            to="https://en.wikipedia.org/wiki/Ping_(networking_utility)">{{$ts('ping')}}</g-link> {{$ts(`signals. We use Yggdrasil Network
-          to expose Spot to the internet, that means we will need to configure Yggdrasil Network support on your
-          computer first.`)}}</p>
+            to="https://en.wikipedia.org/wiki/Ping_(networking_utility)">{{$ts('ping')}}</g-link> {{$ts(`signals. We use Yggdrasil Network to expose Spot to the internet, that means we will need to configure Yggdrasil Network support on your computer first.`)}}</p>
       </section>
       <section class="container__reg">
         <h2>{{$ts('Instructions')}}</h2>
         <List type="numbers">
           <li>
             <p>{{$ts('Yggdrasil Installation')}}</p>
-            <p>{{$ts(`Yggdrasil is an early-stage implementation of a fully end-to-end encrypted IPv6 network. Before starting
-              the lessons you need to install it on your computer.`)}}</p>
+            <p>{{$ts(`Yggdrasil is an early-stage implementation of a fully end-to-end encrypted IPv6 network. Before starting the lessons you need to install it on your computer.`)}}</p>
             <p>{{$ts('For Linux: Installation instructions')}} <g-link
                 to="https://yggdrasil-network.github.io/installation-linux-deb.html">{{$ts('here')}}</g-link>.</p>
-            <p>{{$ts('For MacOS: Download .pkg file from ')}}<g-link
+            <p>{{$ts('For MacOS: Download .pkg file from')}}<g-link
                 to="https://github.com/yggdrasil-network/yggdrasil-go/releases/download/v0.4.0/yggdrasil-0.4.0-macos-amd64.pkg">
                 {{$ts('here')}}</g-link>.
                 {{$ts('Locate the downloaded file in Finder. Right-click it and click Open. Step through the installer as usual.')}}
@@ -44,14 +41,13 @@
           </li>
           <li>
             <p>{{$ts('Open configuration file')}}</p>
-            <p>{{$ts(`You need to add a list of peers (public nodes) to configuration file so that you will be able to connect
-              to Spot.`)}}</p>
+            <p>{{$ts(`You need to add a list of peers (public nodes) to configuration file so that you will be able to connect to Spot.`)}}</p>
             <p>{{$ts('For MacOS and Linux:')}}</p>
             <p> {{$ts('For that, edit the')}} <code>yggdrasil.conf</code> {{$ts('file with this command in a terminal:')}}</p>
             <pre v-highlightjs>
               <code class="bash">sudo nano /etc/yggdrasil.conf</code>
             </pre>
-            <p>{{$ts('For Windows: Run ')}}<code>updateconfig.bat</code> {{$ts('in')}} <code>C:/Program Files/Yggdrasil</code>.</p>
+            <p>{{$ts('For Windows: Run')}} <code>updateconfig.bat</code> {{$ts('in')}} <code>C:/Program Files/Yggdrasil</code>.</p>
             <p>{{$ts('Then in')}} <code>C:/ProgramData/Yggdrasil</code> {{$ts('open')}} <code>yggdrasil.conf</code> {{$ts('with any text editor')}}.</p>
             <p><code>ProgramData</code> {{$ts('is a hidden folder, so you need to show hidden data.')}}</p>
           </li>

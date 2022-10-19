@@ -23,7 +23,7 @@ module.exports = {
     {
       use: "gridsome-plugin-translateit",
       options: {
-        locales: ["en", "ru", "es", "de", "ko", "it"],
+        locales: ["en", "ru", "es", "de", "ko", "it", "pt"],
         slugifyDefaultLocale: true,
         defaultLocale: "en",
         translations: yaml.load(fs.readFileSync('./src/data/locales/translations.yaml', 'utf8')),

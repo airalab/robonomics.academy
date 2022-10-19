@@ -3,359 +3,419 @@
   ru: Добро пожаловать в нашу онлайн школу
   es: Bienvenido a nuestra escuela en línea
   it: Benvenuti nella nostra scuola online
+  pt: Bem-vindo(a) à nossa escola online
   
 - alias: Get our support on
   en: Get our support on
   es: Obtenga nuestro soporte en 
   it: Ricevi il nostro supporto su
   ru: Получите нашу поддержку в
+  pt: Obtenha nosso suporte  
 
 - alias: About
   en: About
   es: Acerca de 
   it: A Riguardo
   ru: О нас
+  pt: Sobre
 
 - alias: Online courses
   en: Online courses
   es: Cursos online
   it: Corsi online
   ru: Онлайн курсы
+  pt: Cursos on-line
 
 - alias: Apply for certificate 
   en: Apply for certificate
   es: Solicitar certificado
   it: Applica per il certificato
   ru: Подать заявку на сертификат
+  pt: Solicitação de certificado
 
 - alias: We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to
   en: We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to
   es: Planeamos expandir los cursos de la academia Robonomics y las lecciones disponibles pueden ser imperfectas. Por favor, rellene libremente
   it: Abbiamo in programma di espandere i corsi della Robonomics academye e le lezioni disponibili potrebbero essere imperfette. Per favore sentitevi liberi di
   ru: "Мы планируем расширять курсы академии Робономика, и доступные уроки могут быть несовершенны. Будем рады"
+  pt: Planejamos expandir os cursos da academia Robonomics e as lições disponíveis podem ser incompletas. Por favor, preencha gratuitamente para
 
 - alias: discuss with us
   en: discuss with us
   es: para discutir con nosotros
   it: discutere con noi
   ru: обсудить
+  pt: discutir com a gente
 
 - alias: your suggestions and report about bugs.
   en: your suggestions and report about bugs.
   es: sus sugerencias e informes sobre errores.
   it: i vostri suggerimenti e segnalare i bug.
   ru: ваши предложения.
+  pt: suas sugestões e relatório sobre bugs.
 
 - alias: Results
   en: Results
   es: Resultados
   it: Risultati
   ru: Результаты
+  pt: Resultados
 
 - alias: "Note: you need to pass all lessons from course with one Polkadot.js account to apply for certificate"
   en: "Note: you need to pass all lessons from course with one Polkadot.js account to apply for certificate"
   es: "Nota: debe aprobar todas las lecciones del curso con una cuenta de Polkadot.js para solicitar el certificado"
   it: "Nota: dovete superare tutte le lezioni del corso con un account Polkadot.js per richiedere il certificato"
   ru: "Примечание: вам необходимо пройти все уроки курса с одной учетной записью Polkadot.js, чтобы подать заявку на сертификат"
+  pt: "Nota: você precisa ser aprovado em todas as lições do curso com uma conta Polkadot.js para solicitar o certificado"
 
 - alias: Previous lesson
   en: Previous lesson
   es: Leccion previa
   it: Lezione precedente
   ru: Предыдущий урок
+  pt: Lição anterior
 
 - alias: Next lesson
   en: Next lesson
   es: Siguiente lección
   it: Prossima lezione
   ru: Следующий урок
+  pt: Próxima lição
 
 - alias: Passed all lessons?
   en: Passed all lessons?
   es: ¿Pasó todas las lecciones?
   it: Avete superato tutte le lezioni?
   ru: Все уроки пройдены?
+  pt: Foi aprovado em todas as aulas?
 
 - alias: "Now you may apply for IPFS certificate. What you may do with this:"
   en: "Now you may apply for IPFS certificate. What you may do with this:"
   es: "Ahora puede solicitar el certificado IPFS. Lo que puedes hacer con esto:"
   it: "Ora puoi richiedere il certificato IPFS. Cosa puoi fare con questo:"
   ru: "Теперь вы можете подать заявку на получение сертификата IPFS. Что вы можете с этим сделать:"
+  pt: "Agora você pode solicitar o certificado IPFS. O que você pode fazer com isto:"
 
 - alias: Add certificate to your LinkedIn profile
   en: Add certificate to your LinkedIn profile
   es: Agregar certificado a su perfil de LinkedIn
   it: Aggiungi il certificato al tuo profilo LinkedIn
   ru: Добавьте сертификат в свой профиль LinkedIn
+  pt: Adicionar certificado ao seu perfil do LinkedIn
 
 - alias: Apply for
   en: Apply for
   es: Aplicar para 
   it: Candidati per
   ru: Подать заявку 
+  pt: Inscrever-se no
 
 - alias: Robonomics ambassador program
   en: Robonomics ambassador program
   es: El Programa de embajadores de Robonomics
   it: L'ambassador program di Robonomics
   ru: на участие в программе амбассадоров Робономики
+  pt: programa de embaixadores da Robonomics
 
 - alias: Print it on your wall
   en: Print it on your wall
   es: Imprimelo en tu pared
   it: Stampalo per la tua parete
   ru: Распечатайте и повесьте на стену
+  pt: Fazer um quadro
 
 - alias: Submit
   en: Submit
   es: Enviar
   it: Invia
   ru: Отправить
+  pt: Enviar
 
 - alias: Sending your request
   en: Sending your request
   es: Enviando su solicitud
   it: Invio della tua richiesta
   ru: Идет отправка запроса
+  pt: Enviando sua solicitação
 
 - alias: Your request has been sent
   en: Your request has been sent
   es: Tu solicitud ha sido enviada
   ru: Ваш запрос был отправлен
   it: La tua richiesta è stata inviata
+  pt: Sua solicitação foi enviada
 
 - alias: You are in the list
   en: You are in the list
   es: Estas en la lista
   it: Sei nella lista
   ru: Вы в списке
+  pt: Você está na lista
 
 - alias: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
   en: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
   es: Al enviar este formulario, acepta recibir correos electrónicos con notificaciones y actualizaciones descentralizadas de código abierto del equipo de Robonomics Network
   it: Inviando questo modulo accetti di ricevere e-mail con notifiche e aggiornamenti dal team decentralizzato open source di Robonomics Network
   ru: Отправляя эту форму, вы соглашаетесь получать электронные письма с уведомлениями и обновлениями от децентрализованной команды Robonomics Network с доступным исходным кодом.
+  pt: Ao enviar este formulário você concorda em receber e-mails com notificações e atualizações da equipe descentralizada de código aberto da Robonomics Network.
 
 - alias: Get new skills in using modern web technologies to build IoT solutions.
   en: Get new skills in using modern web technologies to build IoT solutions.
   es: Obtenga nuevas habilidades en el uso de tecnologías web modernas para crear soluciones IoT.
   it: Acquisisci nuove competenze nell'utilizzo delle moderne tecnologie web per costruire soluzioni IoT.
   ru: Получите новые навыки в использовании современных веб-технологий для создания IoT-решений
+  pt: Adquira novas habilidades ao utilizar tecnologias web modernas para construir soluções IoT
 
 - alias: Start online course
   en: Start online course
   es: Iniciar curso en línea
   ru: Начать онлайн курс
   it: Inizia il corso online
+  pt: Iniciar curso online
 
 - alias: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
   en: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
   es: Los principales desarrolladores del proyecto Robonomics, especialistas en robótica y científicos de investigación de doctorado se ofrecen para pasar a través de una experiencia compendiosa basada en 7 años de trabajo con proyectos web 3.0.
   it: Gli sviluppatori principali del progetto Robonomics, specialisti di robotica e ricercatori PhD, si offrono di trasmettere un compendio dell'esperienza acquisita in 7 anni di lavoro su progetti web 3.0.
   ru: Разработчики проекта «Робономика», специалисты в области экономики роботов и ученые-исследователи делятся своим богатым опытом, основанным на 7-летней работе с проектами web 3.0.
+  pt: Os principais desenvolvedores do projeto Robonomics, especialistas em robótica e cientistas de pesquisa de PhD se oferecem para passar por uma experiência abrangente baseada em 7 anos de trabalho com projetos da web 3.0.
 
 - alias: What you can learn
   en: What you can learn
   es: Qué puedes aprender
   ru: Чему вы научитесь
   it: Cosa puoi imparare
+  pt: O que você pode aprender
 
 - alias: Deploying and operating networks of IoT devices
   en: Deploying and operating networks of IoT devices
   es: Despliegue y operación de redes de dispositivos IoT
   ru: Внедрение и эксплуатация сетей IoT-устройств
   it: Implementazione e gestione di reti di dispositivi IoT
+  pt: Implantação e operação de redes de dispositivos IoT
 
 - alias: Operating blockchain technologies
   en: Operating blockchain technologies
   es: Tecnologías blockchain operativas
   ru: Управление блокчейн технологиями
   it: Tecnologie blockchain operative
+  pt: Operando tecnologias blockchain
 
 - alias: Protected operations logging and storage of device data
   en: Protected operations logging and storage of device data
   es: Registro de operaciones protegidas y almacenamiento de datos del dispositivo
   ru: Документирование защищенных операций и хранение данных устройства
   it: Registrazione delle operazioni protette e archiviazione dei dati del dispositivo
+  pt: Registro de operações protegidas e armazenamento de dados do dispositivo
 
 - alias: Building IoT Dapps
   en: Building IoT Dapps
   es: Creación de aplicaciones IoT
   ru: Создание децентрализованных IoT-приложений
   it: Creazione di Dapp IoT
+  pt: Construção de Dapps IoT
 
 - alias: Basics of robot economy
   en: Basics of robot economy
   es: Conceptos básicos de economía de robots.
   ru: Основы экономики роботов
   it: Basi della robot economy
+  pt: Princípios básicos da economia robótica
 
 - alias: Get through intense engineering practice
   en: Get through intense engineering practice
   es: Atravesar iuna ntensa práctica de ingeniería
   ru: Пройдите интенсивную инженерную практику
   it: Supera un'intensa pratica ingegneristica
+  pt: Passe por uma intensa prática de engenharia
 
 - alias: What you can get
   en: What you can get
   es: Qué puedes conseguir
   ru: Что вы получите
   it: Cosa puoi ottenere
+  pt: O que você pode obter
 
 - alias: Collect blockchain proved certificate
   en: Collect blockchain proved certificate
   es: Recopile el certificado comprobado de blockchain
   ru: Получите сертификат, подтвержденный блокчейном
   it: Ottieni un attestato certificato dalla blockchain
+  pt: Obter certificado comprovado pela blockchain
 
 - alias: that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   en: that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   es: de que está familiarizado con las tecnologías web modernas para IoT. Será útil cuando lo contrate a una empresa de tecnología que quiera mejorar su infraestructura corporativa utilizando web3.
   ru: о том, что вы ознакомились с современными веб-технологиями для IoT. Это пригодится при найме технологической компании, которая хочет улучшить свою корпоративную инфраструктуру с помощью web3.
   it: che dimostra la tua familiarità con le moderne tecnologie web per l'IoT. Sarà utile quando vorrai proporti a un'azienda tecnologica che desidera migliorare la propria infrastruttura aziendale utilizzando ilweb3.
+  pt: que você está familiarizado com as modernas tecnologias da Web para a IoT. Será útil ao contratar uma empresa de tecnologia que deseja melhorar sua infraestrutura corporativa usando a web3.
 
 - alias: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   en: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   es: Recopile el certificado probado de blockchain que está familiarizado con las tecnologías web modernas para IoT. Será útil cuando contrate a una empresa de tecnología que quiera mejorar su infraestructura corporativa utilizando web3.
   ru: Получите сертификат, подтвержденный блокчейном о том, что вы ознакомились с современными веб-технологиями для IoT. Это пригодится при найме технологической компании, которая хочет улучшить свою корпоративную инфраструктуру с помощью web3.
   it: Ottieni un attestato certificato dalla blockchain che dimostra la tua familiarità con le moderne tecnologie web per l'IoT. Sarà utile quando vorrai proporti a un'azienda tecnologica che desidera migliorare la propria infrastruttura aziendale utilizzando ilweb3.
+  pt: Obter certificado comprovado pela blockchain que você está familiarizado com as modernas tecnologias da Web para a IoT. Será útil ao contratar uma empresa de tecnologia que deseja melhorar sua infraestrutura corporativa usando a web3.
 
 - alias: Networking with professionals
   en: Networking with professionals
   es: Networking con profesionales
   ru: Онлайн работа с профессионалами
   it: Networking con dei professionisti
+  pt: Faça networking com profissionais
 
 - alias: with Robonomics engineers and even get advice at a personal consultation for your IoT research or engineering project.
   en: with Robonomics engineers and even get advice at a personal consultation for your IoT research or engineering project.
   es: con ingenieros de Robonomics e incluso obtenga asesoramiento en una consulta personal para su proyecto de investigación o ingeniería de IoT.
   ru: пообщайтесь с инженерами Робономики и получите персональную консультацию по вашему исследовательскому или инженерному проекту IoT.
   it: con gli ingegneri di Robonomics, ottenendo anche dei consigli durante una consulenza personale per la tua ricerca IoT o progetto ingegneristico.
+  pt: com engenheiros da Robonomics e até mesmo obtenha aconselhamentos em uma consulta pessoal para sua pesquisa ou projeto de engenharia de IoT.
 
 - alias: Jump into Robonomics team as an Ambassador
   en: Jump into Robonomics team as an Ambassador
   es: Salta al equipo de Robonomía como Embajador
   ru: Присоединяйтесь к команде Робономики в качестве амбассадора
   it: Entra nel team di Robonomics come Ambassador
+  pt: Entrar na equipe da Robonomics como Embaixador
 
 - alias: We started
   en: We started
   es: Iniciamos
   ru: В этом году мы запустили
   it: Abbiamo avviato
+  pt: Iniciamos o 
 
 - alias: Ambassador program
   en: Ambassador program
   ru: программу «Ambassador»
   it: l'Ambassador program
+  pt: programa de Embaixadores 
 
 - alias: this year and looking forward talented inspired people!
   en: this year and looking forward talented inspired people!
   es: este año y esperamos personas talentosas e inspiradas!
   ru: и ждем талантливых вдохновленных людей!
   it: quest'anno e siamo alla ricerca di persone ispirate e di talento!
+  pt: este ano e procuramos pessoas talentosas e inspiradas!
 
 - alias: What is Robonomics?
   en: What is Robonomics?
   es: ¿Qué es Robonomics?
   ru: Что такое Робономика?
   it: Cos'è Robonomics?
+  pt: O que é a Robonomics?
 
 - alias: Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).
   en: Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).
   es: Robonomics es una plataforma de código abierto para aplicaciones IoT. Apoyamos una nueva generación de tecnologías de Internet (web3).
   ru: Робономика — это платформа с открытым исходным кодом для приложений IoT. Мы поддерживаем интернет-технологии нового поколения (web3).
   it: Robonomics è una piattaforma open source per applicazioni IoT. Supportiamo una nuova generazione di tecnologie Internet (web3).
+  pt: A Robonomics é uma plataforma de código aberto para aplicações IoT. Damos suporte a uma nova geração de tecnologias de internet (web3).
 
 - alias: Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.
   en: Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.
   es: Robonomics implementa el intercambio de información técnica y económica en forma de transacciones atómicas entre aplicaciones de usuario, servicios IoT y robótica compleja.
   ru: Робономика реализует обмен технико-экономической информацией в виде атомарных транзакций между пользовательскими приложениями, сервисами IoT и сложной робототехникой.
   it: Robonomics implementa lo scambio di informazioni tecniche ed economiche sotto forma di transazioni atomiche fra applicazioni utente, servizi IoT e robotica complessa.
+  pt: A Robonomics implementa a troca de informações técnicas e econômicas na forma de transações atômicas entre aplicações do usuário, serviços IoT, e robótica complexa.
 
 - alias: User (D)App
   en: User (D)App
   es: Aplicación de usuario
   ru: User (D)App
   it: Utente (D)App
+  pt: Usuário (D)App
 
 - alias: Function request
   en: Function request
   es: Solicitud de función
   ru: Function request
   it: Richiesta di funzione
+  pt: Solicitação de função
 
 - alias: Report
   en: Report
   es: Reporte
   ru: Report
   it: Rapporto
+  pt: Relatório
 
 - alias: Digital twin
   en: Digital twin
   es: Gemelo digital
   ru: Digital twin
   it: Digital twin
+  pt: Gêmeos digitais
 
 - alias: Control
   en: Control
   es: Control
   ru: Control
   it: Controllo
+  pt: Controle
 
 - alias: Log
   en: Log
   es: Registro
   ru: Log
   it: Log
+  pt: Registro
 
 - alias: IoT Device
   en: IoT Device
   es: Dispositivo IoT
   ru: IoT Device
   it: Dispositivo IoT
+  pt: Dispositivo IoT
 
 - alias: More on our official website
   en: More on our official website
   es: Más en nuestro sitio web oficial
   ru: Подробнее на нашем официальном сайте
   it: Maggiori informazioni sul nostro sito ufficiale
+  pt: Mais informações em nosso site oficial
 
 - alias: Course passed information
   en: Course passed information
   es: Información del curso aprobado
   ru: Информация о пройденном курсе
   it: Informazioni sul corso passato
+  pt: Informações sobre o curso aprovado
 
 - alias: What course did you passed
   en: What course did you passed
   es: que curso aprobaste
   ru: Какой курс вы прошли
   it: Che corso hai passato
+  pt: Em que curso você foi aprovado
 
 - alias: What Polkadot address did you used to pass
   en: What Polkadot address did you used to pass
   es: ¿Qué dirección de Polkadot usaste para aprobar?
   ru: Какой адрес Polkadot вы использовали
   it: Quale indirizzo Polkadot hai usato per passare
+  pt: Qual endereço Polkadot você usou para ser aprovado
 
 - alias: Information for certificate
   en: Information for certificate
   es: Información para el certificado
   ru: Данные для сертификата
   it: Informazioni per il certificato
+  pt: Informações para o certificado
 
 - alias: 'Your name (this will be on your certificate)'
   en: 'Your name (this will be on your certificate)'
   es: "Tu nombre (esto estará en tu certificado)"
   ru: Имя(будет прописано на сертификате)
   it: Il tuo nome (questo sarà sul tuo certificato)
+  pt: "Seu nome (isto aparecerá em seu certificado)"
 
 - alias: 'Your email (for notification)'
   en: 'Your email (for notification)'
   es: "Tu correo electrónico (para notificación)"
   ru: Адрес электронной почты(для получения уведомления)
   it: La tua email (per la notifica)
+  pt: Seu e-mail (para notificação)
 
 - alias: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
   en: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
@@ -369,83 +429,99 @@
   en: Boston Dynamics Spot Software Developing
   es: Desarrollo de software de punto de Boston Dynamics
   ru: Разработка программного обеспечения для Spot от Boston Dynamics  
+  pt: Desenvolvimento de software Boston Dynamics Spot
 
 - alias: "What's this about?"
   en: What's this about?
   es: ¿De qué se trata esto?
   it: Di cosa si tratta?
   ru: Что вы изучите?
+  pt: Do que se trata?
 
 - alias: We are excited to see you join the Spot SDK educational program! Our goal is to get you familiar with Spot's SDK and allow you to test your skills using a Boston Dynamics Spot robot in our lab.
   en: We are excited to see you join the Spot SDK educational program! Our goal is to get you familiar with Spot's SDK and allow you to test your skills using a Boston Dynamics Spot robot in our lab.
   es: ¡Estamos emocionados de verlo unirse al programa educativo Spot SDK! Nuestro objetivo es familiarizarlo con el SDK de Spot y permitirle probar sus habilidades con un robot Spot de Boston Dynamics en nuestro laboratorio.
   ru: Мы рады, что вы присоединились к образовательной программе Spot SDK! Наша цель — познакомить вас с SDK Spot и дать вам возможность проверить свои навыки с помощью робота Spot от Boston Dynamics в нашей лаборатории.
+  pt: Estamos animados em vê-lo participar do programa educacional Spot SDK! Nosso objetivo é familiarizá-lo com o Spot SDK  e permitir que você teste suas habilidades usando um robô da Boston Dynamics Spot em nosso laboratório.
 
 - alias: Learn and practice with the Boston Dynamics Spot robot wherever you are. Get after each lesson captured video, robot movements recorded and printable PDF certificate to demonstrate your experience on the interview for your next dream job!
   en: Learn and practice with the Boston Dynamics Spot robot wherever you are. Get after each lesson captured video, robot movements recorded and printable PDF certificate to demonstrate your experience on the interview for your next dream job!
   es: Aprende y practica con el robot Boston Dynamics Spot estés donde estés. Obtenga después de cada lección un video capturado, los movimientos del robot registrados y un certificado PDF imprimible para demostrar su experiencia en la entrevista para el próximo trabajo de sus sueños.
   ru: Учитесь и практикуйтесь с роботом Spot от Boston Dynamics, где бы вы ни находились. Получайте запись занятия после каждого урока, а также видео с движениями робота и сертификат в формате PDF, чтобы продемонстрировать свой опыт на собеседовании для работы вашей мечты!
+  pt: Aprenda e pratique com o robô Boston Dynamics Spot, onde quer que você esteja. Obtenha após cada aula um vídeo gravado, movimentos do robô gravados e um certificado em PDF para impressão para demonstrar a sua experiência na entrevista para o próximo emprego dos sonhos! 
 
 - alias: What you can take from the course
   en: What you can take from the course
   es: Lo que puedes tomar del curso
   it: Cosa potete imparare dal corso
   ru: Что вы узнаете на курсе
+  pt: O que você pode aprender com o curso
 
 - alias: Learn how to work and communicate with SPOT robot
   en: Learn how to work and communicate with SPOT robot
   es: Aprenda a trabajar y comunicarse con el robot SPOT
   ru: Как работать и общаться с роботом SPOT
+  pt: Aprenda a trabalhar e a se comunicar com o robô SPOT
 
 - alias: Knowledge about SPOT and it's internals, API and all interesting stuff
   en: Knowledge about SPOT and it's internals, API and all interesting stuff
   es: Conocimiento sobre SPOT y sus componentes internos, API y todo lo interesante.
   ru: Информация о SPOT, о том, как он работает изнутри, API и другие интересные сведения
+  pt: Conhecimento sobre o SPOT e seus componentes internos, API e tudo o que é interessante
 
 - alias: Learn free
   en: Learn free
   es: Aprende gratis
   ru: Учитесь бесплатно
+  pt: Aprenda gratuitamente
 
 - alias: Rent 82.00 USD per lesson
   en: Rent 82.00 USD per lesson
   es: Renta 82.00 USD por lección
   ru: Аренда 82$ за урок
+  pt: Aluguel de 82,00 USD por aula
 
 - alias: We recommend you study the theoretical materials before you rent the time on Spot so that you have a plan of action for your lesson and can complete it successfully.
   en: We recommend you study the theoretical materials before you rent the time on Spot so that you have a plan of action for your lesson and can complete it successfully.
   es: Le recomendamos que estudie los materiales teóricos antes de alquilar el tiempo en Spot para que tenga un plan de acción para su lección y pueda completarla con éxito.
   ru: Мы рекомендуем вам изучить теоретические материалы, прежде чем арендовать Spot, чтобы у вас был план вашего урока и вы могли успешно его выполнить.
+  pt: Recomendamos que você estude os materiais teóricos antes de alugar um horário no Spot para que você tenha um plano de ação para sua aula e possa completá-lo com sucesso.
 
 - alias: The robot is located in our laboratory in Silicon Valley. The course is self-paced, you select one hour-long session to practice with the robot by Google Calendar after paying for it. We don’t charge for anything else. Once you feel ready, you buy a 1 hour-long practice session specifying your access credentials (SSH key) and the time when you want to connect to Spot to solve the task.
   en: The robot is located in our laboratory in Silicon Valley. The course is self-paced, you select one hour-long session to practice with the robot by Google Calendar after paying for it. We don’t charge for anything else. Once you feel ready, you buy a 1 hour-long practice session specifying your access credentials (SSH key) and the time when you want to connect to Spot to solve the task.
   es: El robot está ubicado en nuestro laboratorio en Silicon Valley. El curso es a su propio ritmo, selecciona una sesión de una hora para practicar con el robot por Google Calendar después de pagarlo. No cobramos por nada más. Una vez que te sientas listo, compras una sesión de práctica de 1 hora especificando tus credenciales de acceso (clave SSH) y la hora en que deseas conectarte a Spot para resolver la tarea.
   ru: Робот находится в нашей лаборатории в Кремниевой долине. Курс является самостоятельным, после оплаты вы выбираете один часовой сеанс для практики с роботом в Google Calendar. Мы не взимаем плату за что-либо еще. Когда вы будете готовы, вы можете купить практический сеанс, указав свои учетные данные для доступа (SSH key) и время, когда вы хотите подключиться к Spot для решения задачи.
+  pt: O robô está localizado em nosso laboratório no Vale do Silício. O curso é individualizado, você seleciona uma sessão de uma hora para praticar com o robô pelo Google Agenda após pagar por isso. Não cobramos por mais nada. Quando estiver pronto, você compra uma sessão de prática de 1 hora especificando suas credenciais de acesso (chave SSH) e o horário em que deseja se conectar ao Spot para resolver a tarefa.
 
 - alias: Practice your skills
   en: Practice your skills
   es: Practica tus habilidades
   ru: Практикуйте свои навыки
+  pt: Pratique suas habilidades
 
 - alias: When your session starts, you can connect to the Spot robot by SSH and join a Google Meet meeting to watch the robot by the camera. While working, use our lessons presented in this dapp and Spot documentation at dev.bostondynamics.com
   en: When your session starts, you can connect to the Spot robot by SSH and join a Google Meet meeting to watch the robot by the camera. While working, use our lessons presented in this dapp and Spot documentation at dev.bostondynamics.com
   es: Cuando comience su sesión, puede conectarse al robot Spot por SSH y unirse a una reunión de Google Meet para ver el robot por la cámara. Mientras trabaja, use nuestras lecciones presentadas en este dapp y la documentación de Spot en dev.bostondynamics.com
   ru: Когда ваш сеанс начнется, вы можете подключиться к роботу Spot по SSH и присоединиться к собранию Google Meet, чтобы наблюдать за роботом через камеру. Во время работы используйте наши уроки, представленные в этом dapp и документации Spot на dev.bostondynamics.com 
+  pt: Quando sua sessão começa, você pode se conectar ao robô Spot pelo SSH e participar de uma reunião do Google Meet para observar o robô pela câmera. Enquanto trabalha, use nossas lições apresentadas neste dapp e a documentação do Spot em dev.bostondynamics.com
 
 - alias: Share
   en: Share
   es: Cuota
   ru: Поделиться
+  pt: Compartilhe
 
 - alias: The robot captures its state. And after the lesson, MerkleBot signs the robot state records to prove its origin for the certificate and you can download it.
   en: The robot captures its state. And after the lesson, MerkleBot signs the robot state records to prove its origin for the certificate and you can download it.
   es: El robot captura su estado. Y después de la lección, MerkleBot firma los registros de estado del robot para probar su origen para el certificado y puede descargarlo.
   ru: Робот фиксирует свое положение. MerkleBot подписывает записи о состоянии робота после урока, чтобы подтвердить его оригинальность для сертификата, и затем вы сможете его скачать.
+  pt: O robô captura seu estado. E após a aula, o MerkleBot assina os registros de estado do robô para comprovar sua origem para o certificado e você pode baixá-lo.
 
 - alias: "Share your results in your social accounts. You may even add your successful lessons results as a certificate in your LinkedIn profile: just choose Merklebot as an Issuing organization and blockchain hash of lesson's certificate as an Credentials ID."
   en: "Share your results in your social accounts. You may even add your successful lessons results as a certificate in your LinkedIn profile: just choose Merklebot as an Issuing organization and blockchain hash of lesson's certificate as an Credentials ID."
   es: "Comparte tus resultados en tus cuentas sociales. Incluso puede agregar los resultados de sus lecciones exitosas como un certificado en su perfil de LinkedIn: simplemente elija Merklebot como una organización emisora ​​y el hash de cadena de bloques del certificado de la lección como ID de credenciales."
   ru: "Поделитесь своими успехами в социальных сетях. Также, вы можете добавить свой сертификат в профиль LinkedIn: просто выберите Merklebot в качестве организации-эмитента и возьмите хеш блокчейна сертификата урока в качестве Credentials ID."
+  pt: "Compartilhe seus resultados em suas redes sociais. Você pode até adicionar seus resultados de aulas bem-sucedidas como um certificado em seu perfil do LinkedIn: basta escolher a Merklebot como uma organização emissora e o hash da blockchain do certificado da aula como uma ID de credenciais."
 
 
 - alias: "Lesson #0, Configure and test connection to Spot"
@@ -453,105 +529,137 @@
 
 - alias: 0, Configure and test connection to Spot
   en: 0, Configure and test connection to Spot
+  pt: 0, Configurar e testar a conexão do Spot
 
 - alias: "What's this about"
   en: What's this about
   es: De qué se trata esto
   it: Di cosa si tratta
   ru: О чем вы узнаете
+  pt: Do que se trata?
 
 - alias: "What’s this about"
   en: What's this about
   es: De qué se trata esto
   it: Di cosa si tratta
   ru: О чем вы узнаете
+  pt: Do que se trata?
 
 - alias: In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot.
   en: In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot.
+  pt: Nesta lição, você aprenderá como configurar a rede Yggdrasil e estabelecer conexão com o robô.
 
 - alias: The challenge
   en: The challenge
+  pt: O desafio
 
 - alias: Our goal is to get answers from Spot to our
   en: Our goal is to get answers from Spot to our
+  pt: Nosso objetivo é obter respostas do Spot para nosso sinal de 
 
 - alias: ping
   en: ping
+  pt: ping
 
 - alias: signals. We use Yggdrasil Network to expose Spot to the internet, that means we will need to configure Yggdrasil Network support on your computer first.
   en: signals. We use Yggdrasil Network to expose Spot to the internet, that means we will need to configure Yggdrasil Network support on your computer first.
+  pt: . Utilizamos a Rede Yggdrasil para expor o Spot à Internet, o que significa que precisaremos configurar primeiro o suporte da Rede Yggdrasil em seu computador.
 
 - alias: Instructions
   en: Instructions
   es: Instrucciones
   ru: Инструкция
   it: Istruzioni
+  pt: Instruções
 
 - alias: Yggdrasil Installation
   en: Yggdrasil Installation
+  pt: Instalação da Yggdrasil
 
 - alias: Yggdrasil is an early-stage implementation of a fully end-to-end encrypted IPv6 network. Before starting the lessons you need to install it on your computer.
   en: Yggdrasil is an early-stage implementation of a fully end-to-end encrypted IPv6 network. Before starting the lessons you need to install it on your computer.
+  pt: Yggdrasil é uma implementação em estágio inicial de uma rede IPv6 criptografada de ponta a ponta. Antes de iniciar as lissões, você precisa instalá-loa em seu computador.
 
 - alias: "For Linux: Installation instructions"
   en: "For Linux: Installation instructions"
+  pt: "Para Linux: Instruções de instalação"
 
 - alias: here
   en: here
+  pt: aqui
 
 - alias: 'For MacOS: Download .pkg file from'
   en: 'For MacOS: Download .pkg file from'
+  pt: "Para MacOS: Baixe o arquivo .pkg"
 
 - alias: Locate the downloaded file in Finder. Right-click it and click Open. Step through the installer as usual.
   en: Locate the downloaded file in Finder. Right-click it and click Open. Step through the installer as usual.
+  pt: Localize o arquivo baixado. Clique com o botão direito do mouse e clique em Abrir. Efetue a instalação como de costume.
 
 - alias: "For Windows: Download .msi file for"
   en: "For Windows: Download .msi file for"
+  pt: "Para Windows: Baixe o arquivo .msi para"
 
 - alias: "x64 system"
   en: "x64 system"
+  pt: sistema x64
 
 - alias: or for
   en: or for
+  pt: ou para
+
 
 - alias: "x32 system"
   en: "x32 system"
+  pt: sistema x32
 
 - alias: and run it with double click.
   en: and run it with double click.
+  pt: e execute-o com.
 
 - alias: Open configuration file
   en: Open configuration file
+  pt: Abrir arquivo de configuração
 
 - alias: You need to add a list of peers (public nodes) to configuration file so that you will be able to connect to Spot.
   en: You need to add a list of peers (public nodes) to configuration file so that you will be able to connect to Spot.
+  pt: Você precisa adicionar uma lista de pares (nós públicos) ao arquivo de configuração para que você possa se conectar ao Spot.
 
 - alias: "For MacOS and Linux:"
   en: "For MacOS and Linux:"
+  pt: "Para MacOS e Linux:"
 
 - alias: For that, edit the
   en: For that, edit the
+  pt: Para isso, edite o arquivo 
 
 - alias: "file with this command in a terminal:"
   en: "file with this command in a terminal:"
+  pt: "com este comando em um terminal:"
 
 - alias: "For Windows: Run"
   en: "For Windows: Run"
+  pt: "Para Windows: Executar"
 
 - alias: in
   en: in
+  pt: em
 
 - alias: Then in
   en: Then in
+  pt: Em seguida, em
 
 - alias: open
   en: open
+  pt: abrir
 
 - alias: with any text editor
   en: with any text editor
+  pt: com qualquer editor de texto
 
 - alias: is a hidden folder, so you need to show hidden data.
   en: is a hidden folder, so you need to show hidden data.
+  pt: é uma pasta oculta, portanto, é necessário mostrar dados ocultos.
 
 - alias: Write peers
   en: Write peers
@@ -576,218 +684,289 @@
 
 - alias: Save and close configuration file
   en: Save and close configuration file
+  pt: Salvar e fechar o arquivo de configuração
 
 - alias: "For Linux and MacOS:"
   en: "For Linux and MacOS:"
+  pt: "Para Linux e MacOS:"
 
 - alias: Press
   en: Press
+  pt: Precione
 
 - alias: then press
   en: then press
+  pt: depois pressione
 
 - alias: to save changes and press 
   en: to save changes and press 
+  pt: para salvar as alterações e pressione
 
 - alias: "For Windows: Save and close file."
   en: "For Windows: Save and close file."
+  pt: "Para Windows: Salve e feche o arquivo"
 
 - alias: Restart service
   en: Restart service
+  pt: Reiniciar o serviço
 
 - alias: "For Linux: Then restart Yggdrasil using this command:"
   en: "For Linux: Then restart Yggdrasil using this command:"
+  pt: "Para Linux: Em seguida, reinicie a Yggdrasil usando este comando:"
 
 - alias: "For macOS: Unload the service and run Yggdrasil with changed config file:"
   en: "For macOS: Unload the service and run Yggdrasil with changed config file:"
+  pt: "Para macOS: Descarregue o serviço e execute a Yggdrasil com o arquivo de configuração alterado:"
 
 - alias: You will need to do that before every lesson.
   en: You will need to do that before every lesson.
+  pt: Você precisará fazer isso antes de cada lição.
 
 - alias: "For Windows:"
   en: "For Windows:"
+  pt: "Para Windows:"
 
 - alias: Press win + r and type
   en: Press win + r and type
+  pt: Pressione a tecla Win + R e digite
 
 - alias: find Yggdrasil service, open it and restart (press Stop and Start).
   en: find Yggdrasil service, open it and restart (press Stop and Start).
+  pt: encontre o serviço Yggdrasil, abra-o e reinicie (pressione Stop e Start).
 
 - alias: Check Connection
   en: Check Connection
+  pt: Verificar conexão
 
 - alias: "Check if Yggdrasil works well. For that try to ping Spot address:"
   en: "Check if Yggdrasil works well. For that try to ping Spot address:"
+  pt: "Verifique se Yggdrasil funciona bem. Para isso, tente fazer ping no endereço do Spot:"
 
 - alias: To open terminal in Windows press
   en: To open terminal in Windows press
+  pt: Para abrir o terminal no Windows pressione
 
 - alias: type
   en: type
+  pt: escreva
 
 - alias: and press
   en: and press
+  pt: e pressione
 
 - alias: On MacOS use
   en: On MacOS use
+  pt: No MacOS use
+
+- alias: instead of
+  en: instead of
+  pt: em vez de
 
 - alias: If you can't ping Spot or you had any errors during the Yggdrasil setup look in
   en: If you can't ping Spot or you had any errors during the Yggdrasil setup look in
+  pt: Se você não conseguir fazer ping no Spot ou se tiver algum erro durante a configuração da Yggdrasil, consulte a 
 
 - alias: Troubleshooting page
   en: Troubleshooting page
+  pt: página de resolução de problemas
 
 - alias: If you can't find the solution there, please email spot@robonomics.network
   en: If you can't find the solution there, please email spot@robonomics.network
+  pt: Se você não conseguir encontrar a solução lá, envie um e-mail para spot@robonomics.network.
 
 - alias: Create ssh key
   en: Create ssh key
+  pt: Criar chave ssh
 
 - alias: You will connect to Spot via ssh, so you need to create ssh keys which you will use in booking lessons.
   en: You will connect to Spot via ssh, so you need to create ssh keys which you will use in booking lessons.
+  pt: Você se conectará ao Spot via ssh, então você precisa criar chaves ssh que você usará nas aulas de reserva.
 
 - alias: 'Run following command in the terminal:'
   en: 'Run following command in the terminal:'
+  pt: "Execute o seguinte comando no terminal:"
 
 - alias: SSH Client is available by default only in Windows 10, so if you use older versions you need to install it. For example you can use
   en: SSH Client is available by default only in Windows 10, so if you use older versions you need to install it. For example you can use
+  pt: O Cliente SSH está disponível por padrão apenas no Windows 10, portanto, se você usar versões mais antigas, precisará instalá-lo. Por exemplo, você pode usar
 
 - alias: "Remember the path to your key (by default it is)"
   en: "Remember the path to your key (by default it is)"
+  pt: "Lembre-se do caminho para sua chave (por padrão é)"
 
 - alias: or
   en: or
   ru: или
   it: o
+  pt: ou
 
 - alias: Are you ready to practice?
   en: Are you ready to practice?
+  pt: Você está pronto para praticar?
 
 - alias: Once you feel ready, you may buy a 1 hour-long practice session specifying your access credentials (SSH key) and the time when you want to connect to Spot to solve the task.
   en:  Once you feel ready, you may buy a 1 hour-long practice session specifying your access credentials (SSH key) and the time when you want to connect to Spot to solve the task.
+  pt: Quando estiver pronto, você pode comprar uma sessão de prática de 1 hora especificando suas credenciais de acesso (chave SSH) e o horário em que deseja se conectar ao Spot para resolver a tarefa.
 
 - alias: Rent a spot
-  en: Rent a spot
+  en: Rent a Spot
+  pt: Alugar um Spot
 
 - alias: "Lesson #1, Emergency stop, initialization, body position control"
   en: "Lesson #1, Emergency stop, initialization, body position control"
 
 - alias: 1, Emergency stop, initialization, body position control
   en: 1, Emergency stop, initialization, body position control
+  pt: 1, Parada de emergência, inicialização, controle da posição do corpo
 
 - alias: During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.
   en: During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.
+  pt: Durante esta lição, você aprenderá como autorizar-se como usuário, obter o controle de potência do motor e enviar comandos básicos para o Spot.
 
 - alias: "Watch our introductory video if you haven't seen it already:"
   en: "Watch our introductory video if you haven't seen it already:"
+  pt: "Assista ao nosso vídeo introdutório, caso ainda não tenha visto:"
 
 - alias: Create a Python script controls robot body position. Run your script on Spot to let it execute a sequence of motions
   en: Create a Python script controls robot body position. Run your script on Spot to let it execute a sequence of motions
+  pt: Criar um script Python para controlar a posição do corpo do robô. Execute seu script no Spot para permitir que ele execute uma sequência de movimentos
 
 - alias: Stand-up
   en: Stand-up
+  pt: Ficar de pé
 
 - alias: "Trace your initials with it's face (one letter, at least 3 points)"
   en: "Trace your initials with it's face (one letter, at least 3 points)"
+  pt: Trace suas iniciais com o rosto (uma letra, pelo menos 3 pontos)
 
 - alias: Sit-down
   en: Sit-down
+  pt: Sente-se
 
 - alias: Read
   en: Read
+  pt: Leia a página
 
 - alias: Understanding Spot Programming
   en: Understanding Spot Programming
+  pt: Entendendo a Programação do Spot 
 
 - alias: page in Spot SDK documentation. You need to understand what is E-Stop and how make initialization in your Python script in order to let the robot execute commands.
   en: page in Spot SDK documentation. You need to understand what is E-Stop and how make initialization in your Python script in order to let the robot execute commands.
+  pt: na documentação Spot SDK. Você precisa entender o que é E-Stop e como fazer a inicialização em seu script Python a fim de deixar o robô executar comandos.
 
 - alias: You can find more detailed information for this lesson in
   en: You can find more detailed information for this lesson in
+  pt: Você pode encontrar informações mais detalhadas para esta lição em 
 
 - alias: Base Services
   en: Base Services
+  pt: Serviços Básicos,
 
 - alias: Geometry and Frames
   en: Geometry and Frames
+  pt: Geometria e Estruturas
 
 - alias: Robot Services
   en: Robot Services
+  pt: Serviços de Robôs
 
 - alias: and
   en: and
   ru: и
   it: e
+  pt: e
 
 - alias: E-Stop
   en: E-Stop
+  pt: E-Stop
 
 - alias: section of the Spot SDK documentation.
   en: section of the Spot SDK documentation.
+  pt: seção da documentação Spot SDK.
 
 - alias: Connect to SpotCORE by SSH from terminal
   en: Connect to SpotCORE by SSH from terminal
+  pt: Conectar ao SpotCORE pelo SSH a partir do terminal
 
 - alias: "Create a script can authenticate in Spot, acquire control (lease) and power on the robot."
   en: "Create a script can authenticate in Spot, acquire control (lease) and power on the robot."
+  pt: "Criar um script pode autenticar no Spot, adquirir controle (alugar) e ligar o robô."
 
 - alias: We create
   en: We create
+  pt: Criamos o
 
 - alias: E-Stop endpoint
   en: E-Stop endpoint
+  pt: endpoint E-Stop
 
 - alias: for you, so you should not create it. For Spot authentication use username and password from
   en: for you, so you should not create it. For Spot authentication use username and password from
+  pt: para você, portanto, você não deve criá-lo. Para autenticação do Spot use o nome de usuário e senha do arquivo
 
 - alias: file
   en: file
+  pt: ' '
 
 - alias: Spot address is
   en: Spot address is
+  pt: O endereço do Spot é
 
 - alias: In
   en: In
+  pt: Ao 
 
 - alias: Taking ownership of Spot (Leases)
   en: Taking ownership of Spot (Leases)
+  pt: Adquirir controle da seção do Spot ( Aluguel)
 
 - alias: section use
   en: section use
+  pt: use
 
 - alias: before
   en: before
+  pt: antes de
 
 - alias: Try your script with stand-up and sit-down commands. Ensure robot moves as expected.
   en: Try your script with stand-up and sit-down commands. Ensure robot moves as expected.
+  pt: Teste seu script com os comandos, ficar de pé (stand-up) e sente-se (sit-down). Assegure-se de que o robô se move como esperado.
 
 - alias: Make sure you run script by Python3 with
   en: Make sure you run script by Python3 with
+  pt: Certifique-se de executar o script pelo Python3 com o comando 
 
 - alias: command
   en: command
   ru: команду
   it: il comando
+  pt: ' '
 
 - alias: Command
   en: Command
   it: Il comando
   ru: Команда
+  pt: O comando
 
 - alias: refers to an obsolete Python 2 interpreter
   en: refers to an obsolete Python 2 interpreter
+  pt: refere-se a um interpretador Python 2 obsoleto
 
 - alias: Add body position control to your script. Experiment with
   en: Add body position control to your script. Experiment with
+  pt: Adicione o controle de posição do corpo ao seu script. Experimente com
 
 - alias: robot command argument builder in order to identify what yaw, roll and pitch parameters you need to set to solve the challenge. The range of Pitch, Yaw and Roll is from -0.5 to 0.5.
   en: robot command argument builder in order to identify what yaw, roll and pitch parameters you need to set to solve the challenge. The range of Pitch, Yaw and Roll is from -0.5 to 0.5.
+  pt: construtor de argumentos de comando de robô para identificar quais parâmetros de yaw, roll e pitch você precisa definir para resolver o desafio. A gama de Pitch, Yaw and Roll é de -0,5 a 0,5.
 
 - alias: "Lesson #2, Remote controlled and programmed motion"
   en: "Lesson #2, Remote controlled and programmed motion"
 
 - alias: 2, Remote controlled and programmed motion
   en: 2, Remote controlled and programmed motion
+  pt: 2, Movimento programado e controlado remotamente
 
 - alias: 2, At the Intersection of Cybernetics and Economics
   en: 2, At the Intersection of Cybernetics and Economics
@@ -797,42 +976,55 @@
 
 - alias: In the second lesson you will learn how to use Spot Command services and walk with Spot.
   en: In the second lesson you will learn how to use Spot Command services and walk with Spot.
+  pt: Na segunda lição, você aprenderá como usar os serviços de Comando do Spot e caminhar com o Spot.
 
 - alias: You have a list of points with their local coordinates in the 
   en: You have a list of points with their local coordinates in the
+  pt: Você tem uma lista de pontos com suas coordenadas locais no 
 
 - alias: directory.
   en: directory.
+  pt: 'diretório.'
 
 - alias: "The list of moves:"
   en: "The list of moves:"
+  pt: "A lista de movimentos:"
 
 - alias: To turn around himself
   en: To turn around himself
+  pt: Para girar em torno de si mesmo
 
 - alias: To nod
   en: To nod
+  pt: Para acenar com a cabeça
 
 - alias: To change the stance of robot's legs
   en: To change the stance of robot's legs
+  pt: Para mudar a postura das pernas do robô
 
 - alias: To go sideways to the next point
   en: To go sideways to the next point
+  pt: Para ir de lado para o próximo ponto
 
 - alias: To lie down on pose to change battery (this command must be performed the last because it cuts the power to the motors.)
   en: To lie down on pose to change battery (this command must be performed the last because it cuts the power to the motors.)
+  pt: Deitar-se na posição para trocar de bateria (este comando deve ser executado por último porque corta a energia dos motores).
 
 - alias: Create and execute a Python script that implements behavior described.
   en: Create and execute a Python script that implements behavior described.
+  pt: Crie e execute um script Python que implemente o comportamento descrito.
 
 - alias: You can find Spot local coordinates with (before you need to create
   en: You can find Spot local coordinates with (before you need to create
+  pt: Você pode encontrar as coordenadas locais do Spot com (antes de precisar criar
 
 - alias: you can find information about it in
   en: you can find information about it in
+  pt: você pode encontrar informações sobre ele em
 
 - alias: Understanding Spot Programming
   en: Understanding Spot Programming
+  pt: Entendendo a Programação Spot
 
 - alias: You can control Spot with
   en: You can control Spot with
@@ -1864,6 +2056,7 @@
   es: Obtenga experiencia en tecnologías web 3.0 y blockchain con lecciones en línea gratuitas.
   ru: Получите опыт работы с технологиями Web 3.0 и блокчейна с помощью бесплатных онлайн-уроков.
   it: Ottieni esperienza sulle tecnologie web 3.0 e blockchain con lezioni online e gratuite.
+  pt: Ganhe experiência em tecnologias web 3.0 e blockchain com aulas on-line gratuitas.
 
 - alias: Practice
   en: Practice
