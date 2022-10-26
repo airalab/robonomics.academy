@@ -14,7 +14,7 @@
       </section>
       <section class="container__narrow">
         <h2>{{$ts('The challenge')}}</h2>
-        <p>{{$ts('You have a list of points with their local coordinates in the ')}}<code>/home/student/lessons</code> {{$ts('directory.')}}</p>
+        <p>{{$ts('You have a list of points with their local coordinates in the')}} <code>/home/student/lessons</code> {{$ts('directory.')}}</p>
         <p>{{$ts('The list of moves:')}}</p>
         <List>
           <li>{{$ts('To turn around himself')}}</li>
@@ -25,7 +25,7 @@
         </List>
         <br>
         <p>{{$ts('Create and execute a Python script that implements behavior described.')}}</p>
-        <p>{{$ts('You can find Spot local coordinates with (before you need to create ')}}<code>state_client</code>, {{$ts('you can find information about it in ')}}<g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming">{{$ts('Understanding Spot Programming')}}</g-link>):</p>
+        <p>{{$ts('You can find Spot local coordinates with (before you need to create')}} <code>state_client</code>, {{$ts('you can find information about it in')}} <g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming">{{$ts('Understanding Spot Programming')}}</g-link>):</p>
         <pre v-highlightjs>
           <code class="python">from bosdyn.client.frame_helpers import get_vision_tform_body
 get_vision_tform_body(state_client.get_robot_state().kinematic_state.transforms_snapshot)</code>

@@ -314,3 +314,7 @@ select {
 code {
   word-break: break-all;
 }
+
+.layout {
+  position: relative;
+}

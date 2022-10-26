@@ -16,20 +16,17 @@
       <section class="container__narrow">
         <h2>{{$ts('The challenge')}}</h2>
         <p>{{$ts('Our goal is to get answers from Spot to our')}} <g-link
-            to="https://en.wikipedia.org/wiki/Ping_(networking_utility)">{{$ts('ping')}}</g-link> {{$ts(`signals. We use Yggdrasil Network
-          to expose Spot to the internet, that means we will need to configure Yggdrasil Network support on your
-          computer first.`)}}</p>
+            to="https://en.wikipedia.org/wiki/Ping_(networking_utility)">{{$ts('ping')}}</g-link> {{$ts(`signals. We use Yggdrasil Network to expose Spot to the internet, that means we will need to configure Yggdrasil Network support on your computer first.`)}}</p>
       </section>
       <section class="container__reg">
         <h2>{{$ts('Instructions')}}</h2>
         <List type="numbers">
           <li>
             <p>{{$ts('Yggdrasil Installation')}}</p>
-            <p>{{$ts(`Yggdrasil is an early-stage implementation of a fully end-to-end encrypted IPv6 network. Before starting
-              the lessons you need to install it on your computer.`)}}</p>
+            <p>{{$ts(`Yggdrasil is an early-stage implementation of a fully end-to-end encrypted IPv6 network. Before starting the lessons you need to install it on your computer.`)}}</p>
             <p>{{$ts('For Linux: Installation instructions')}} <g-link
                 to="https://yggdrasil-network.github.io/installation-linux-deb.html">{{$ts('here')}}</g-link>.</p>
-            <p>{{$ts('For MacOS: Download .pkg file from ')}}<g-link
+            <p>{{$ts('For MacOS: Download .pkg file from')}}<g-link
                 to="https://github.com/yggdrasil-network/yggdrasil-go/releases/download/v0.4.0/yggdrasil-0.4.0-macos-amd64.pkg">
                 {{$ts('here')}}</g-link>.
                 {{$ts('Locate the downloaded file in Finder. Right-click it and click Open. Step through the installer as usual.')}}
@@ -44,23 +41,20 @@
           </li>
           <li>
             <p>{{$ts('Open configuration file')}}</p>
-            <p>{{$ts(`You need to add a list of peers (public nodes) to configuration file so that you will be able to connect
-              to Spot.`)}}</p>
+            <p>{{$ts(`You need to add a list of peers (public nodes) to configuration file so that you will be able to connect to Spot.`)}}</p>
             <p>{{$ts('For MacOS and Linux:')}}</p>
             <p> {{$ts('For that, edit the')}} <code>yggdrasil.conf</code> {{$ts('file with this command in a terminal:')}}</p>
             <pre v-highlightjs>
               <code class="bash">sudo nano /etc/yggdrasil.conf</code>
             </pre>
-            <p>{{$ts('For Windows: Run ')}}<code>updateconfig.bat</code> {{$ts('in')}} <code>C:/Program Files/Yggdrasil</code>.</p>
+            <p>{{$ts('For Windows: Run')}} <code>updateconfig.bat</code> {{$ts('in')}} <code>C:/Program Files/Yggdrasil</code>.</p>
             <p>{{$ts('Then in')}} <code>C:/ProgramData/Yggdrasil</code> {{$ts('open')}} <code>yggdrasil.conf</code> {{$ts('with any text editor')}}.</p>
             <p><code>ProgramData</code> {{$ts('is a hidden folder, so you need to show hidden data.')}}</p>
           </li>
           <li>
             <p>{{$ts('Write peers')}}</p>
-            <p>{{$ts('In the file that you opened find line')}} <code>Peers:</code> {{$ts(`(it is at the beginning of the file) add 5-6
-              peers geographically near to you (write them inside the brackets).`)}} {{$ts('You can find list of available peers')}}
-              <g-link to="https://github.com/yggdrasil-network/public-peers">{{$ts('here')}}</g-link> {{$ts(`or add peers from example
-              below. Example in yggdrasil.conf:`)}}
+            <p>{{$ts('In the file that you opened find line')}} <code>Peers:</code> {{$ts(`(it is at the beginning of the file) add 5-6 peers geographically near to you (write them inside the brackets).`)}} {{$ts('You can find list of available peers')}}
+              <g-link to="https://github.com/yggdrasil-network/public-peers">{{$ts('here')}}</g-link> {{$ts(`or add peers from example below. Example in yggdrasil.conf:`)}}
             </p>
             <pre v-highlightjs>
               <code class="json">Peers:
@@ -100,8 +94,7 @@ sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
             </pre>
             <p>{{$ts('You will need to do that before every lesson.')}}</p>
             <p>{{$ts('For Windows:')}}</p>
-            <p>{{$ts('Press win + r and type')}} <code>services.msc</code>, {{$ts(`find Yggdrasil service, open it and restart (press Stop
-              and Start).`)}}</p>
+            <p>{{$ts('Press win + r and type')}} <code>services.msc</code>, {{$ts(`find Yggdrasil service, open it and restart (press Stop and Start).`)}}</p>
             <g-image src="../../../assets/images/boston-dynamics-course/lesson-0-1.jpg"></g-image>
           </li>
           <li>
@@ -114,8 +107,7 @@ sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
             </p>
             <p>{{$ts('On MacOS use')}} <code>ping6</code> {{$ts('instead of')}}<code>ping</code>.</p>
             <p>{{$ts(`If you can't ping Spot or you had any errors during the Yggdrasil setup look in`)}} <g-link
-                to="https://dapp.spot-sdk.education/docs/spot-troubleshooting">{{$ts('Troubleshooting page')}}</g-link>. {{$ts(`If you
-              can't find the solution there, please email spot@robonomics.network`)}}.</p>
+                to="https://dapp.spot-sdk.education/docs/spot-troubleshooting">{{$ts('Troubleshooting page')}}</g-link>. {{$ts(`If you can't find the solution there, please email spot@robonomics.network`)}}.</p>
           </li>
           <li>
             <p>{{$ts('Create ssh key')}}</p>
@@ -125,8 +117,7 @@ sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
             <pre v-highlightjs>
               <code class="bash">ssh-keygen -t rsa</code>
             </pre>
-            <p>{{$ts(`SSH Client is available by default only in Windows 10, so if you use older versions you need to install
-              it. For example you can use `)}}<g-link to="https://www.putty.org/">PuTTY</g-link>.</p>
+            <p>{{$ts(`SSH Client is available by default only in Windows 10, so if you use older versions you need to install it. For example you can use`)}} <g-link to="https://www.putty.org/">PuTTY</g-link>.</p>
             <p>{{$ts('Remember the path to your key (by default it is)')}} <code>/home/&lt;user&gt;/.ssh/id_rsa.pub</code> {{$ts('or')}}
               <code>C:\Users\&lt;user&gt;\.ssh\id_rsa.pub</code>).</p>
           </li>
@@ -134,8 +125,7 @@ sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
       </section>
       <section class="container__narrow">
         <h3>{{$ts('Are you ready to practice?')}}</h3>
-        <p>{{$ts(`Once you feel ready, you may buy a 1 hour-long practice session specifying your access credentials (SSH key)
-          and the time when you want to connect to Spot to solve the task.`)}}</p>
+        <p>{{$ts(`Once you feel ready, you may buy a 1 hour-long practice session specifying your access credentials (SSH key) and the time when you want to connect to Spot to solve the task.`)}}</p>
         <h5>
           <g-link class="btn" to="https://dapp.spot-sdk.education/#/checkout">{{$ts('Rent a spot')}}</g-link>
         </h5>

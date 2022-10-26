@@ -1,11 +1,11 @@
 <template>
-    <header class="header">
+    <header class="header" v-if="$store.state.showHeader">
       <div class="container__wide">
 
         <g-link class="logo header__section" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
 
         <nav id="nav" class="nav header__section">
-          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('certificates')}" href="/#about" @click="close('#nav')">{{$ts('About')}}</a>
+          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy')}" href="/#about" @click="close('#nav')">{{$ts('About')}}</a>
           <g-link class="nav__link" :class="{'active': $route.path.includes('online-courses')}" to="/online-courses/">{{$ts('Online courses')}}</g-link>
           <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for certificate')}}</g-link>
         </nav>

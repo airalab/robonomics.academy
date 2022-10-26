@@ -4,6 +4,9 @@
 - path: '/certificates/'
   component: './src/pages/Certificates.vue'
   typename: 'page'
+- path: '/privacy-policy/'
+  component: './src/pages/PrivacyPolicy.vue'
+  typename: 'page'
 - path: '/online-courses/'
   component: './src/pages/online-courses/Index.vue'
   typename: 'page'
@@ -46,3 +49,4 @@
 - path: '/online-courses/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure'
   component: './src/pages/online-courses/boston-dynamics-course/5-robot-service-camera-calibration-and-spot-check-procedure.vue'
   typename: 'page'
+  
