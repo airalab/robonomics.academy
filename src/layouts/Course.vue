@@ -1,44 +1,48 @@
 <template>
   <div class="layout">
 
-   <header-slot/>
+    <client-only>
 
-   <page-title
-      v-if="course" 
-      :title="title" 
-      :breadcrumbs="breadcrumbs"
-      :lessonId="lessonId"
-    />
+      <header-slot/>
 
-    <LessonInfo 
-      v-if="lessonId" 
-      :type="$ts(lesson.activity)"
-      :time="$ts(lesson.time)"
-      :tools="$ts(lesson.tools)"
-    />
+      <page-title
+        v-if="course" 
+        :title="title" 
+        :breadcrumbs="breadcrumbs"
+        :lessonId="lessonId"
+      />
 
-    <LessonsList 
-      v-if="!lessonId" 
-      :course="course" 
-    />
-    
-    <slot/>
+      <LessonInfo 
+        v-if="lessonId" 
+        :type="$ts(lesson.activity)"
+        :time="$ts(lesson.time)"
+        :tools="$ts(lesson.tools)"
+      />
 
-    <LessonsNavigation
-      v-if="lessonId"
-      :lessonId="parseInt(lessonId)"
-      :course="course"
-    />
+      <LessonsList 
+        v-if="!lessonId" 
+        :course="course" 
+      />
+      
+      <slot/>
 
-    <subscription />
+      <LessonsNavigation
+        v-if="lessonId"
+        :lessonId="parseInt(lessonId)"
+        :course="course"
+      />
 
-    <passed-lessons/>
+      <subscription />
 
-    <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
+      <passed-lessons/>
 
-    <footer-slot/>
+      <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
 
-    <UserTracker v-if="!$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
+      <footer-slot/>
+
+      <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
+
+    </client-only>
 
   </div>
 </template>
@@ -139,6 +143,7 @@
     },
 
     mounted() {
+
       if($cookies.get('userTracker') === 'allow metrics') {
         this.$gtag.pageview(this.$route)
       }

@@ -46,7 +46,6 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   // Implementing code highlighting blocks
   Vue.use(VueHighlightJS);
   Vue.use(Vuex)
-  Vue.use(VueCookies, { expire: '30d'});
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
@@ -94,8 +93,12 @@ export default function (Vue, { router, head, isClient, appOptions }) {
    },
   });
 
-  Vue.use(VueGtag, {
-    config: { id: "AW-844066363" }
-  });
+  if(isClient) {
+    Vue.use(VueGtag, {
+      config: { id: "AW-844066363" }
+    });
+
+    Vue.use(VueCookies, { expire: '30d'});
+  }
   
 }

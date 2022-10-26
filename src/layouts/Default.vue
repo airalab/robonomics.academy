@@ -1,15 +1,20 @@
 <template>
   <div class="layout">
 
-    <header-slot/>
+    <client-only>
 
-    <slot/>
+      <header-slot/>
 
-    <subscription />
+      <slot/>
 
-    <footer-slot/>
+      <subscription />
 
-    <UserTracker v-if="!$cookies.get('userTracker') && !this.$store.state.userTracker.option" />
+      <footer-slot/>
+
+      <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option" />
+
+    </client-only>
+
 
   </div>
 </template>

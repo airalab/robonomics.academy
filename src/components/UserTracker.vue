@@ -1,17 +1,19 @@
 <template>
-  <div class="user-tracker">
-    <div class="user-tracker__wrapper">
-      <h3 class="user-tracker__title">
-        Choose way to communicate with this website:
-      </h3>
-      <g-link class="user-tracker__info" to="/privacy-policy/">i</g-link>
+  <client-only>
+    <div class="user-tracker">
+      <div class="user-tracker__wrapper">
+        <h3 class="user-tracker__title">
+          Choose way to communicate with this website:
+        </h3>
+        <g-link class="user-tracker__info" to="/privacy-policy/">i</g-link>
+      </div>
+      <div class="user-tracker__wrapper">
+        <button @click="allowUserTracker('no actions')" class="user-tracker__btn">No actions</button>
+        <button @click="allowUserTracker('only critical')"  class="user-tracker__btn">Only critical</button>
+        <button @click="allowUserTracker('allow metrics')" class="user-tracker__btn">Allow metrics</button>
+      </div>
     </div>
-    <div class="user-tracker__wrapper">
-      <button @click="allowUserTracker('no actions')" class="user-tracker__btn">No actions</button>
-      <button @click="allowUserTracker('only critical')"  class="user-tracker__btn">Only critical</button>
-      <button @click="allowUserTracker('allow metrics')" class="user-tracker__btn">Allow metrics</button>
-    </div>
-  </div>
+  </client-only>
 </template>
 
 <script>
@@ -20,20 +22,22 @@ export default {
 
   methods: {
     allowUserTracker (option) {
-      switch(option) {
-        case 'only critical':
-          VueCookies.set('userTracker', option);
-          this.$store.commit('SET_USER_TRACKER', {option: 'only critical', localStorage: true, cookies: true, metrics: false})
-        break;
+      if (process.isClient) {
+        switch(option) {
+          case 'only critical':
+            VueCookies.set('userTracker', option);
+            this.$store.commit('SET_USER_TRACKER', {option: 'only critical', localStorage: true, cookies: true, metrics: false})
+          break;
 
-        case 'allow metrics':
-          VueCookies.set('userTracker', option);
-          this.$store.commit('SET_USER_TRACKER', {option: 'allow metrics', localStorage: false, cookies: true, metrics: true})
+          case 'allow metrics':
+            VueCookies.set('userTracker', option);
+            this.$store.commit('SET_USER_TRACKER', {option: 'allow metrics', localStorage: false, cookies: true, metrics: true})
 
-        break;
+          break;
 
-        default: 
-          this.$store.commit('SET_USER_TRACKER', {option: 'no actions', localStorage: false, cookies: false, metrics: false})
+          default: 
+            this.$store.commit('SET_USER_TRACKER', {option: 'no actions', localStorage: false, cookies: false, metrics: false})
+        }
       }
     }, 
   },
