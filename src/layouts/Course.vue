@@ -38,6 +38,8 @@
 
     <footer-slot/>
 
+    <UserTracker v-if="!$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
+
   </div>
 </template>
 
@@ -55,7 +57,8 @@
       LessonInfo: () => import('~/components/LessonInfo.vue'),
       LessonsNavigation: () => import('~/components/LessonsNavigation.vue'),
       Subscription: () => import('~/components/Subscription.vue'),
-      QuestionIcon: () => import('~/components/QuestionIcon.vue')
+      QuestionIcon: () => import('~/components/QuestionIcon.vue'),
+      UserTracker: () => import('~/components/UserTracker.vue')
     },
 
     props: {
@@ -133,6 +136,14 @@
 
     created() {
       this.getTitleForIssue()
+    },
+
+    mounted() {
+      if($cookies.get('userTracker') === 'allow metrics') {
+        this.$gtag.pageview(this.$route)
+      }
+
+      this.$store.commit('TOGGLE_SHOW_HEADER', true)
     }
   }
 </script>
