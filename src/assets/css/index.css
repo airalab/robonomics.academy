@@ -9,6 +9,12 @@
   --container-mid: 1660px;
   --gap: 2rem;
 
+
+  /* select styles */
+  --dynamic-size: 30px;
+  --padding-size: 1.1rem;
+  --select-size: calc(var(--dynamic-size) + var(--padding-size));
+
   --color-white: #fff;
   --color-brown: #534E4B;
   --color-brown-dark: #2C2826;

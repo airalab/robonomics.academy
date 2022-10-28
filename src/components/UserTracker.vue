@@ -48,9 +48,9 @@ export default {
 <style scoped>
   .user-tracker {
     position: fixed;
-    bottom: 10vh;
+    bottom: 1vh;
     /* left: 50%; */
-    right: 5vh;
+    right: 1vh;
     padding: 1rem var(--gap);
     max-width: 650px;
     width: 100%;
@@ -120,10 +120,11 @@ export default {
 
   @media screen and (max-width: 680px) {
     .user-tracker {
-      width: 75%;
-      right: unset;
-      left: 50%;
-      transform: translateX(-50%);
+      width: 100%;
+      right: 0;
+      bottom: 0;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
     }
 
     .user-tracker__wrapper {
