@@ -23,6 +23,7 @@
   --color-violet: #3900B9;
   --color-blue: #0000EE;
   --color-green: #A0D920;
+  --accent-color: #b21b1b;
 
   --font-title: 'Yeseva One', serif;
   --font-text: 'Roboto Mono', monospace;
@@ -323,4 +324,9 @@ code {
 
 .layout {
   position: relative;
+}
+
+.accent {
+  text-transform: uppercase;
+  color: var(--accent-color)
 }

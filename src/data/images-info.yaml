@@ -12,6 +12,9 @@
     - title: 'Boston Dynamics Spot Software Developing'
       imgName: "/cover-en.png"
       options: [Online Courses, Boston Dynamics Spot Software Developing]
+    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
+      imgName: "/cover-en.png"
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
   lessons: 
     - title: '1, Broadcasting Through the Black Mirror'
       options: [Online Courses, Introduction Course, '1, Broadcasting Through the Black Mirror']
@@ -35,6 +38,22 @@
       options: [Online Courses, Boston Dynamics Spot Software Developing, '4, GraphNav service. Mapping and navigating on the map']
     - title: '5, Robot service. Camera calibration and "Spot check" procedure'
       options: [Online Courses, Boston Dynamics Spot Software Developing, '5, Robot service. Camera calibration and "Spot check" procedure']
+    - title: '1, Theoretical Briefing'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '1, Theoretical Briefing']
+    - title: '2, Raspberry Pi Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '2, Raspberry Pi Setup']
+    - title: '3, MQTT Broker Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '3, MQTT Broker Setup']
+    - title: '4a, Gateway Setup: Zigbee2MQTT'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4a, Gateway Setup: Zigbee2MQTT']
+    - title: '4b, Gateway Setup: Robonomics SLS Gateway'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4b, Gateway Setup: Robonomics SLS Gateway']
+    - title: '5, Robonomics IoT Subscription Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '5, Robonomics IoT Subscription Setup']
+    - title: '6, Robonomics Integration Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '6, Robonomics Integration Setup']
+    - title: '7, Get Telemetry of Device with Dapp'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '7, Get Telemetry of Device with Dapp']
 
 - locale: es 
   online-course:
