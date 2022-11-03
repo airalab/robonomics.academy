@@ -31,6 +31,8 @@ import {
   faForward,
   faArrowRightLong,
   faArrowLeftLong,
+  faCode,
+  faHouseSignal
   // faRobot
  } from '@fortawesome/free-solid-svg-icons'
 
@@ -70,7 +72,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     faCircleXmark,
     faForward,
     faArrowRightLong,
-    faArrowLeftLong
+    faArrowLeftLong,
+    faCode,
+    faHouseSignal
     // faRobot
   )
 
