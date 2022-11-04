@@ -1,8 +1,8 @@
 <template>
     <g-link class="coursePreview" :to="'/online-courses/' + link">
         <span class="coursePreview-title">
-            <font-awesome-icon :icon="'fa-solid fa-' + icon" v-if="icon" class="coursePreview-icon" />
-            {{title}}
+            <span class="coursePreview-title--span"><font-awesome-icon :icon="'fa-solid fa-' + icon" v-if="icon" class="coursePreview-icon" /></span>
+            <span class="coursePreview-title--span">{{title}}</span>
         </span>
         <span class="coursePreview-info" v-if="info" v-html="info" />
         <font-awesome-icon icon="fa-solid fa-circle-chevron-right" aria-hidden="true" class="coursePreview-arrow"/>
@@ -77,6 +77,7 @@ export default {
     }
 
     .coursePreview-title {
+        display: flex;
         background-color: var(--color);
         color: var(--color-white);
         font-family: var(--font-title);
@@ -84,7 +85,7 @@ export default {
     }
 
     .coursePreview-icon {
-        font-size: 200%;
+        font-size: 150%;
         margin-right: calc(var(--gap) * 0.5);
     }
 

@@ -97,7 +97,7 @@
       activity: 'Theory'
       time: '~ 15 min'
       image: 'introduction-course/1.png'
-      path: '1-theoretical-briefing'
+      path: '1-robonomics-hass-theory'
     - id: '2'
       title: '2, Raspberry Pi Setup'
       activity: 'Practice'

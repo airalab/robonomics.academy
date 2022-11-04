@@ -330,3 +330,23 @@ code {
   text-transform: uppercase;
   color: var(--accent-color)
 }
+
+
+.bold {
+  font-weight: 600 !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.nowb {
+  word-break: normal;
+}
+
+.figure {
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: var(--gap);
+}
