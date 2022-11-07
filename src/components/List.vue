@@ -57,6 +57,14 @@ export default {
         background: url('/plus.svg') no-repeat 0 8px;
         padding-left: var(--gap);
     }
+
+    .list__plus li::before {
+        display: none;
+    }
+
+    .list__plus:not(li):not(:first-child) {
+        font-weight: 600;
+    }
     /* PLUS end of */
 
     /* NUMBERS */
@@ -76,6 +84,14 @@ export default {
         line-height: 1.2;
         position: absolute;
         top: 0;
+    }
+
+    .list__numbers li{
+        counter-increment: unset;
+    }
+
+    .list__numbers > li{
+        counter-increment: number;
     }
     /* NUMBERS end of */
 </style>
