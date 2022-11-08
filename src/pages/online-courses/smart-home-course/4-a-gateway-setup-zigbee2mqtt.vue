@@ -48,7 +48,7 @@ lrwxrwxrwx 1 root root 13 Oct 10 01:44 usb-Silicon_Labs_CP2102_USB_to_UART_Bridg
                 <p>{{$ts('The basic configuration needs a few adjustments. Change the following statements:')}}</p>
                 <p> - <code class="bold">homeassistant:</code> {{$ts('to')}} <code>true</code> {{$ts('it will automatically connect sensors to Home Assistant;')}}</p>
                 <p> - {{$ts('uncomment')}} <code class="bold">user</code> {{$ts('and')}} <code class="bold">password</code> {{$ts('under')}} <code>mqtt</code> {{$ts('and enter your username and password (as a string, with quotes) from MQTT Broker;')}}</p>
-                <p> - {{$ts('change port in')}} <code class="bold">serial</code> ->  <code class="bold">port</code> {{$ts(' to stick connection directory. In this example — ')}} <code>/dev/ttyUSB0.</code></p>
+                <p> - {{$ts('change port in')}} <code class="bold">serial</code> ->  <code class="bold">port</code> {{$ts('to stick connection directory. In this example — ')}} <code>/dev/ttyUSB0.</code></p>
                 <p>{{$ts('Adjusted configuration file should look like:')}}</p>
                 <pre v-highlightjs>
 <code class="bash"># Home Assistant integration (MQTT discovery)
@@ -107,7 +107,7 @@ npm start
                 <pre v-highlightjs><code class="bash">Zigbee2MQTT:info  2022-07-29 14:44:39: Successfully interviewed '0x00158d0003eeeacf', device has successfully been paired</code>
                 </pre>
                 <p>{{$ts('Remember the ID of the sensor: in this example —')}} <code>0x00158d0003eeeacf</code>.</p>
-                <p>{{$ts('Now you should see this sensor with ID in your Home Assistant WebUI. Go to ')}} <code>Setting</code> -> <code>Devices & Services</code> -> <code>Devices</code> {{$ts('to check it:')}}</p>
+                <p>{{$ts('Now you should see this sensor with ID in your Home Assistant WebUI. Go to')}} <code>Setting</code> -> <code>Devices & Services</code> -> <code>Devices</code> {{$ts('to check it:')}}</p>
                 <g-image src="../../../assets/images/smart-house-course/lesson-4-a-2.jpg" alt="code"></g-image>
                 <p>{{$ts('After adding all the sensors, you can stop the program with')}} <code>Ctrl+C</code>. {{$ts('If you don’t want to add any more devices, you can open the configuration file again and set')}} <code>permit_join:</code> {{$ts('to')}} <code>false</code>.</p>
               </li>

@@ -77,11 +77,11 @@ wifis:
         password: "YOUR_WIFI_PASSWORD"
 </code>
                 </pre>
-                <span class="italic">> Make sure that you input your actual Wi-Fi name and your Wi-Fi password.</span>
+                <span class="italic">> {{$ts('Make sure that you input your actual Wi-Fi name and your Wi-Fi password.')}}</span>
                 <p>{{$ts('Save the file, insert the SD card into the Raspberry Pi and turn it on. It should connect to your Wi-Fi network, which will take some time. It should be noted that making changes to this file later will not change the connection, and the config is valid only on the first launch of the device. If later you need to change settings, please edit the configuration file in')}} <code>/etc/netplan/</code> {{$ts('folder.')}}</p>
               </li>
               <li>
-                <p>{{$ts('Now you need to find an address of the device. To do it you can use various methods for network scanning, like')}} <g-link to="https://www.fing.com/products">Fing App</g-link>, <code>arp -a</code> {{$ts('command or')}} <g-link to="https://nmap.org/download.html">nmap</g-link>, {{$ts('the latter will be used next.')}}</p>
+                <p>{{$ts('Now you need to find an address of the device. To do it you can use various methods for network scanning, like')}} <g-link to="https://www.fing.com/products">{{$ts('Fing App')}}</g-link>, <code>arp -a</code> {{$ts('command or')}} <g-link to="https://nmap.org/download.html">nmap</g-link>, {{$ts('the latter will be used next.')}}</p>
                 <p>{{$ts('Install nmap with a command')}}</p>
                 <pre v-highlightjs><code class="bash">sudo apt-get install nmap</code>
                 </pre>

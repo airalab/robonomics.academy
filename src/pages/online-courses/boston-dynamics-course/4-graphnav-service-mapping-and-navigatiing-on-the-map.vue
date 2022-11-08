@@ -14,7 +14,7 @@
       </section>
       <section class="container__narrow">
         <h2>{{$ts('The challenge')}}</h2>
-        <p>{{$ts('This lesson you can solve the challenge without writing your own Python script.')}}</p>
+        <p>{{$ts('This lesson you can solve the challenge without writing your own Python script')}}</p>
         <List type="numbers">
           <li>{{$ts('Record a map avoiding obstacles. You can use WASD remote control tool. Save your mission in')}} <code>/home/student/result</code>.</li>
           <li>{{$ts('Move Spot through recorded waypoints. You can use GraphNav service command line tool.')}}</li>

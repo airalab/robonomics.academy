@@ -24,7 +24,7 @@ export default {
 
   data() {
     return {
-      allLocales: ["ru", "es", "de", "ko", "it"],
+      allLocales: ["en", "ru", "es", "de", "ko", "it", "pt"],
       locale: 'en',
       metaTitle: '',
       metaDescription: ''

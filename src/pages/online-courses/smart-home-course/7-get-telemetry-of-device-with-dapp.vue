@@ -20,7 +20,7 @@
         <h2>{{$ts('Instructions')}}</h2>
           <List type="numbers">
             <li>
-              <p>{{$ts('Go to dapp and choose')}} <g-link to="https://dapp.robonomics.network/#/smarthome-telemetry">SmartHome Telemetry</g-link> {{$ts('service')}}. {{$ts('You should see the next:')}}</p>
+              <p>{{$ts('Go to dapp and choose')}} <g-link to="https://dapp.robonomics.network/#/smarthome-telemetry">{{$ts('SmartHome Telemetry')}}</g-link> {{$ts('service')}}. {{$ts('You should see the next:')}}</p>
               <g-image src="../../../assets/images/smart-house-course/lesson-7-1.png" alt="pic"></g-image>
             </li>
             <li>

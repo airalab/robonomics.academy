@@ -4,7 +4,7 @@
     <MetaInfo
       pageTitle = "Sovereign Smart Home with Robonomics and Home Assistant"
       pageDescription = "Welcome Sovereign Smart Home with Robonomics and Home Assistant Course!"
-      :pageImage = "'/og/introduction-course/cover'"
+      :pageImage = "'/og/smart-home-course/cover'"
     />
 
     <section class="container__narrow text__hyphened">

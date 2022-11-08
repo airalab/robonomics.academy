@@ -14,7 +14,7 @@
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts("What's this about")}}</h2>
-        <p>{{$ts("This is a scenario setup for connecting devices using the Robonomics SLS Gateway. Robonomics took design inspiration from the  gateway developed by the")}} <g-link to="https://github.com/slsys/Gateway">Smart Logic System</g-link> {{$ts('project and modified part of the circuitry. You can order a gateway from Robonomics or build your own using our')}} <g-link to="https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01">{{$ts('blueprints')}}</g-link>
+        <p>{{$ts("This is a scenario setup for connecting devices using the Robonomics SLS Gateway. Robonomics took design inspiration from the  gateway developed by the")}} <g-link to="https://github.com/slsys/Gateway">{{$ts("Smart Logic System")}}</g-link> {{$ts('project and modified part of the circuitry. You can order a gateway from Robonomics or build your own using our')}} <g-link to="https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01">{{$ts('blueprints')}}</g-link>
         </p>
         <p>{{$ts('You will install the required software for the gateway, configure it and connect it to Home Assistant.')}}</p>
       </section>

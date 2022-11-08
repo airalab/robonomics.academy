@@ -36,7 +36,7 @@
                 <p>{{$ts('You should see the following popup menu with account seed')}}:</p>
                 <g-image src="../../../assets/images/smart-house-course/lesson-5-2.jpg" alt="pic"></g-image>
                 <p>
-                  {{$ts('It has two forms')}}: <span class="italic">Mnemonic</span> {{$ts('(human-readable) and ')}} <span class="italic">Raw</span> {{$ts('(a sequence of digits and letters). Save the mnemonic seed phrase securely.')}}
+                  {{$ts('It has two forms')}}: <span class="italic">{{$ts('Mnemonic')}}</span> {{$ts('(human-readable) and')}} <span class="italic">{{$ts('Raw')}}</span> {{$ts('(a sequence of digits and letters). Save the mnemonic seed phrase securely.')}}
                 </p>
               </li>
               <li>
@@ -83,7 +83,7 @@
               <li>
                 <p>{{$ts('For this step, you must have a sufficient amount of XRT tokens (minimum 2-3 XRTs) in your')}} <code>SUB_OWNER</code> {{$ts('account')}}.</p>
                 <p>
-                  {{$ts('Go to Robonomics dapp to the')}} <g-link to="https://dapp.robonomics.network/#/subscription">subscription page</g-link> {{$ts('and press')}} <code>connect account</code> {{$ts('on the  right sidebar')}}.
+                  {{$ts('Go to Robonomics dapp to the')}} <g-link to="https://dapp.robonomics.network/#/subscription">subscription page</g-link> {{$ts('and press')}} <code>connect account</code> {{$ts('on the right sidebar')}}.
                 </p>
                 <g-image src="../../../assets/images/smart-house-course/lesson-5-8.jpeg" alt="pic"></g-image>
               </li>
@@ -97,7 +97,7 @@
               </li>
               <li>
                 <p>{{$ts('Finally, press the')}} <code>SUBMIT</code> {{$ts('button and enter the password for your account. After that wait until the activation process is completed. You will see the state of your subscription after a while.')}}</p>
-                <p>{{$ts('If no subscriptions are available,')}} <span class="bold">please contact</span> {{$ts('the Robonomics team')}}.</p>
+                <p>{{$ts('If no subscriptions are available,')}} <span class="bold">{{$ts('please contact')}}</span> {{$ts('the Robonomics team')}}.</p>
                 <g-image src="../../../assets/images/smart-house-course/lesson-5-11.jpeg" alt="pic"></g-image>
               </li>
             </List>

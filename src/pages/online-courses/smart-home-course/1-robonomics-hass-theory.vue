@@ -52,7 +52,7 @@
               <figcaption>{{$ts('Architectural scheme of the scenario with SLS Gateway')}}</figcaption>
             </figure>
             <p>{{$ts('The SLS gateway acts as the coordinator of Zigbee protocol messages and allows the use of most of the available Zigbee equipment. For integration with Home Assistant, the MQTT protocol is used.')}}</p>
-            <p>{{$ts('Remote control of a smart home is performed using the')}} <g-link to="https://dapp.robonomics.network/">Robonomics decentralized application</g-link> {{$ts(`(dapp), which provides access to parachain functions in a user-friendly way. The security and immutability of user data is ensured on the one hand by sending encrypted data to IPFS (which can only be decrypted by the user's key), and on the other hand by placing the IPFS hash of this data on the blockchain.`)}}</p>
+            <p>{{$ts('Remote control of a smart home is performed using the')}} <g-link to="https://dapp.robonomics.network/">{{$ts('Robonomics decentralized application')}}</g-link> {{$ts(`(dapp), which provides access to parachain functions in a user-friendly way. The security and immutability of user data is ensured on the one hand by sending encrypted data to IPFS (which can only be decrypted by the user's key), and on the other hand by placing the IPFS hash of this data on the blockchain.`)}}</p>
           </li>
         </List>
       </section>
