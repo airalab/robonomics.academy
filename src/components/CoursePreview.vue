@@ -51,8 +51,10 @@ export default {
         position: relative;
     }
 
+    .coursePreview:first-child { margin-top: calc(var(--gap)*1.5); }
+
     .coursePreview:not(:last-child) {
-      margin-bottom: var(--gap);
+      margin-bottom: calc(var(--gap)*1.5);
     }
 
     .coursePreview:hover {

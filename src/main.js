@@ -103,6 +103,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     });
 
     Vue.use(VueCookies, { expire: '30d'});
+    Vue.$cookies.config('30d')
   }
   
 }
