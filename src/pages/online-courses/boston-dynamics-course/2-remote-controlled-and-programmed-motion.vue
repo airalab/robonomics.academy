@@ -50,7 +50,7 @@ get_vision_tform_body(state_client.get_robot_state().kinematic_state.transforms_
               </pre>
               {{$ts('Check usage')}} <g-link to="https://github.com/boston-dynamics/spot-sdk/blob/master/python/examples/frame_trajectory_command/frame_trajectory_command.py">{{$ts('here')}}</g-link>.<br/>
             </p>
-            <p>{{$ts('Attention! The example considers robot movement relative to the current position. In your case you must specify movements relative to the point where robot was turned on. That means you can set ')}}<code>goal_x</code> {{$ts('and')}} <code>goal_y</code> {{$ts('values from the task.')}}</p>
+            <p>{{$ts('Attention! The example considers robot movement relative to the current position. In your case you must specify movements relative to the point where robot was turned on. That means you can set')}} <code>goal_x</code> {{$ts('and')}} <code>goal_y</code> {{$ts('values from the task.')}}</p>
             <p>
               - {{$ts('Velocity Command ')}}<br/>
               <pre v-highlightjs>
@@ -62,7 +62,7 @@ get_vision_tform_body(state_client.get_robot_state().kinematic_state.transforms_
               <pre v-highlightjs>
                 <code class="python">def stance_command(se2_frame_name, pos_fl_rt_frame, pos_fr_rt_frame, pos_hl_rt_frame, pos_hr_rt_frame, accuracy=0.05, params=None, body_height=0.0, footprint_R_body=geometry.EulerZXY(), build_on_command=None)</code>
               </pre>
-              {{$ts('The example of use is ')}}<g-link to="https://github.com/boston-dynamics/spot-sdk/blob/91ed30607264e795699995d6d7834ba0c8a94d36/python/examples/stance/stance_in_place.py">{{$ts('here')}}</g-link>.
+              {{$ts('The example of use is')}} <g-link to="https://github.com/boston-dynamics/spot-sdk/blob/91ed30607264e795699995d6d7834ba0c8a94d36/python/examples/stance/stance_in_place.py">{{$ts('here')}}</g-link>.
             </p>
             <p>
               - {{$ts('Pose to change battery')}}

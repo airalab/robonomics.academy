@@ -1,15 +1,16 @@
 <template>
   <div class="layout">
 
+
+    <header-slot/>
+
+    <slot/>
+
+    <subscription />
+
+    <footer-slot/>
+
     <client-only>
-
-      <header-slot/>
-
-      <slot/>
-
-      <subscription />
-
-      <footer-slot/>
 
       <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option" />
 

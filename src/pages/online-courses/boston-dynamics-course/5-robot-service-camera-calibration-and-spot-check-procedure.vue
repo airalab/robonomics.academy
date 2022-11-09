@@ -16,7 +16,7 @@
         <h2>{{$ts('The challenge')}}</h2>
         <p>{{$ts('Create and execute Python script implements behaviors described.')}}</p>
         <List type="numbers">
-          <li>{{$ts('Run "spot check" and save the result of the calibration in a ')}}<code>/home/student/result</code> {{$ts('directory as a text file.')}}</li>
+          <li>{{$ts('Run "spot check" and save the result of the calibration in a')}} <code>/home/student/result</code> {{$ts('directory as a text file.')}}</li>
           <li>{{$ts('Run camera calibration procedure.')}}</li>
         </List>
       </section>
@@ -35,7 +35,7 @@
             - {{$ts('Spot as a WiFi client. Spot can join an existing WiFi network, and applications can also join the same WiFi network to talk to Spot.')}}
             </p>
             <p>{{$ts('For more information look at')}} <g-link to="https://dev.bostondynamics.com/docs/concepts/networking">{{$ts('Networking page')}}</g-link>.</p>
-            <p>{{$ts('Spot Core is connected to the Spot via payload port. Spot Core can be connected to the Internet with Wi-Fi dongle. The setup instructions you can find at ')}}<g-link to="https://dev.bostondynamics.com/docs/payload/spot_core_cockpit.html?highlight=spot%20check">{{$ts('Spot Core Cockpit')}}</g-link> {{$ts('page')}}.</p>
+            <p>{{$ts('Spot Core is connected to the Spot via payload port. Spot Core can be connected to the Internet with Wi-Fi dongle. The setup instructions you can find at')}} <g-link to="https://dev.bostondynamics.com/docs/payload/spot_core_cockpit.html?highlight=spot%20check">{{$ts('Spot Core Cockpit')}}</g-link> {{$ts('page')}}.</p>
           </li>
           <li>
             <p>{{$ts('Calibration')}}</p>
@@ -51,7 +51,7 @@
           </li>
           <li>
             <p>{{$ts('Develop and demonstrate your solution to the challenge')}}.</p>
-            <p>{{$ts('We create ')}}<g-link to="https://dev.bostondynamics.com/python/examples/estop/readme">{{$ts('E-Stop endpoint')}}</g-link> {{$ts('for you, so you should not create it.')}} {{$ts('For Spot authentication use username and password from')}} <code>/home/student/credentials</code> {{$ts('file')}}.{{$ts('Spot address is ')}} <code>192.168.50.3</code>.</p>
+            <p>{{$ts('We create')}} <g-link to="https://dev.bostondynamics.com/python/examples/estop/readme">{{$ts('E-Stop endpoint')}}</g-link> {{$ts('for you, so you should not create it.')}} {{$ts('For Spot authentication use username and password from')}} <code>/home/student/credentials</code> {{$ts('file')}}. {{$ts('Spot address is')}} <code>192.168.50.3</code>.</p>
           </li>
         </List>
       </section>
