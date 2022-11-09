@@ -1,44 +1,44 @@
 <template>
   <div class="layout">
 
+    <header-slot/>
+
+    <page-title
+      v-if="course" 
+      :title="title" 
+      :breadcrumbs="breadcrumbs"
+      :lessonId="lessonId"
+    />
+
+    <LessonInfo 
+      v-if="lessonId" 
+      :type="$ts(lesson.activity)"
+      :time="$ts(lesson.time)"
+      :tools="$ts(lesson.tools)"
+    />
+
+    <LessonsList 
+      v-if="!lessonId" 
+      :course="course" 
+    />
+
+    <slot/>
+
+    <LessonsNavigation
+      v-if="lessonId"
+      :lessonId="parseInt(lessonId)"
+      :course="course"
+    />
+
+    <subscription />
+
+    <passed-lessons/>
+
+    <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
+
+    <footer-slot/>
+
     <client-only>
-
-      <header-slot/>
-
-      <page-title
-        v-if="course" 
-        :title="title" 
-        :breadcrumbs="breadcrumbs"
-        :lessonId="lessonId"
-      />
-
-      <LessonInfo 
-        v-if="lessonId" 
-        :type="$ts(lesson.activity)"
-        :time="$ts(lesson.time)"
-        :tools="$ts(lesson.tools)"
-      />
-
-      <LessonsList 
-        v-if="!lessonId" 
-        :course="course" 
-      />
-      
-      <slot/>
-
-      <LessonsNavigation
-        v-if="lessonId"
-        :lessonId="parseInt(lessonId)"
-        :course="course"
-      />
-
-      <subscription />
-
-      <passed-lessons/>
-
-      <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
-
-      <footer-slot/>
 
       <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
 

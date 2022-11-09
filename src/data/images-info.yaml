@@ -92,6 +92,22 @@
       options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, '4, Servicio GraphNav. Mapear y navegar en el mapa']
     - title: 'Robot service. Camera calibration and "Spot check" procedure'
       options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, '5, Servicio de robots. Calibración de la cámara y procedimiento "Spot check"']
+    - title: 'Theoretical Briefing'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '1, Theoretical Briefing']
+    - title: 'Raspberry Pi Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '2, Raspberry Pi Setup']
+    - title: 'MQTT Broker Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '3, MQTT Broker Setup']
+    - title: 'Gateway Setup: Zigbee2MQTT'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4a, Gateway Setup: Zigbee2MQTT']
+    - title: 'Gateway Setup: Robonomics SLS Gateway'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4b, Gateway Setup: Robonomics SLS Gateway']
+    - title: 'Robonomics IoT Subscription Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '5, Robonomics IoT Subscription Setup']
+    - title: 'Robonomics Integration Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '6, Robonomics Integration Setup']
+    - title: 'Get Telemetry of Device with Dapp'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '7, Get Telemetry of Device with Dapp']
 
 - locale: it 
   online-course:
@@ -130,6 +146,22 @@
       options: [Corsi online, Boston Dynamics Spot Software Developing, '4, GraphNav service. Mapping and navigating on the map']
     - title: 'Robot service. Camera calibration and "Spot check" procedure'
       options: [Corsi online, Boston Dynamics Spot Software Developing, '5, Robot service. Camera calibration and "Spot check" procedure']
+    - title: 'Theoretical Briefing'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '1, Theoretical Briefing']
+    - title: 'Raspberry Pi Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '2, Raspberry Pi Setup']
+    - title: 'MQTT Broker Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '3, MQTT Broker Setup']
+    - title: 'Gateway Setup: Zigbee2MQTT'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4a, Gateway Setup: Zigbee2MQTT']
+    - title: 'Gateway Setup: Robonomics SLS Gateway'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4b, Gateway Setup: Robonomics SLS Gateway']
+    - title: 'Robonomics IoT Subscription Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '5, Robonomics IoT Subscription Setup']
+    - title: 'Robonomics Integration Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '6, Robonomics Integration Setup']
+    - title: 'Get Telemetry of Device with Dapp'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '7, Get Telemetry of Device with Dapp']
 
 - locale: ru 
   online-course:
@@ -168,6 +200,22 @@
       options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, '4, GraphNav service. Mapping and navigating on the map']
     - title: 'Robot service. Camera calibration and "Spot check" procedure'
       options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, '5, Robot service. Camera calibration and "Spot check" procedure']
+    - title: 'Theoretical Briefing'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '1, Theoretical Briefing']
+    - title: 'Raspberry Pi Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '2, Raspberry Pi Setup']
+    - title: 'MQTT Broker Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '3, MQTT Broker Setup']
+    - title: 'Gateway Setup: Zigbee2MQTT'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4a, Gateway Setup: Zigbee2MQTT']
+    - title: 'Gateway Setup: Robonomics SLS Gateway'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4b, Gateway Setup: Robonomics SLS Gateway']
+    - title: 'Robonomics IoT Subscription Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '5, Robonomics IoT Subscription Setup']
+    - title: 'Robonomics Integration Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '6, Robonomics Integration Setup']
+    - title: 'Get Telemetry of Device with Dapp'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '7, Get Telemetry of Device with Dapp']
 
 - locale: de 
   online-course:
@@ -206,6 +254,22 @@
       options: [Online Courses, Boston Dynamics Spot Software Developing, '4, GraphNav service. Mapping and navigating on the map']
     - title: 'Robot service. Camera calibration and "Spot check" procedure'
       options: [Online Courses, Boston Dynamics Spot Software Developing, '5, Robot service. Camera calibration and "Spot check" procedure']
+    - title: 'Theoretical Briefing'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '1, Theoretical Briefing']
+    - title: 'Raspberry Pi Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '2, Raspberry Pi Setup']
+    - title: 'MQTT Broker Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '3, MQTT Broker Setup']
+    - title: 'Gateway Setup: Zigbee2MQTT'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4a, Gateway Setup: Zigbee2MQTT']
+    - title: 'Gateway Setup: Robonomics SLS Gateway'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4b, Gateway Setup: Robonomics SLS Gateway']
+    - title: 'Robonomics IoT Subscription Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '5, Robonomics IoT Subscription Setup']
+    - title: 'Robonomics Integration Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '6, Robonomics Integration Setup']
+    - title: 'Get Telemetry of Device with Dapp'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '7, Get Telemetry of Device with Dapp']
 
 - locale: ko 
   online-course:
@@ -244,6 +308,22 @@
       options: [Online Courses, Boston Dynamics Spot Software Developing, '4, GraphNav service. Mapping and navigating on the map']
     - title: 'Robot service. Camera calibration and "Spot check" procedure'
       options: [Online Courses, Boston Dynamics Spot Software Developing, '5, Robot service. Camera calibration and "Spot check" procedure']
+    - title: 'Theoretical Briefing'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '1, Theoretical Briefing']
+    - title: 'Raspberry Pi Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '2, Raspberry Pi Setup']
+    - title: 'MQTT Broker Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '3, MQTT Broker Setup']
+    - title: 'Gateway Setup: Zigbee2MQTT'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4a, Gateway Setup: Zigbee2MQTT']
+    - title: 'Gateway Setup: Robonomics SLS Gateway'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4b, Gateway Setup: Robonomics SLS Gateway']
+    - title: 'Robonomics IoT Subscription Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '5, Robonomics IoT Subscription Setup']
+    - title: 'Robonomics Integration Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '6, Robonomics Integration Setup']
+    - title: 'Get Telemetry of Device with Dapp'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '7, Get Telemetry of Device with Dapp']
 
 - locale: pt 
   online-course:
@@ -282,5 +362,21 @@
       options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot, '4, Serviço GraphNav. Mapeamento e navegação no mapa']
     - title: 'Robot service. Camera calibration and "Spot check" procedure'
       options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot, '5, Serviço de Robôs. Calibração da câmera e procedimento de "Verificação do Spot']
+    - title: 'Theoretical Briefing'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '1, Theoretical Briefing']
+    - title: 'Raspberry Pi Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '2, Raspberry Pi Setup']
+    - title: 'MQTT Broker Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '3, MQTT Broker Setup']
+    - title: 'Gateway Setup: Zigbee2MQTT'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4a, Gateway Setup: Zigbee2MQTT']
+    - title: 'Gateway Setup: Robonomics SLS Gateway'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '4b, Gateway Setup: Robonomics SLS Gateway']
+    - title: 'Robonomics IoT Subscription Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '5, Robonomics IoT Subscription Setup']
+    - title: 'Robonomics Integration Setup'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '6, Robonomics Integration Setup']
+    - title: 'Get Telemetry of Device with Dapp'
+      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, '7, Get Telemetry of Device with Dapp']
 
 

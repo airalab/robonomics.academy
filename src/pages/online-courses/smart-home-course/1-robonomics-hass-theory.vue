@@ -6,7 +6,7 @@
   <MetaInfo
       pageTitle = "Lesson #1, Theoretical Briefing"
       pageDescription = "lesson description"
-      :pageImage = "'/og/smart-home-course/1-theoretical-briefing'"
+      :pageImage = "'/og/smart-home-course/1-robonomics-hass-theory'"
     />
 
 
