@@ -350,3 +350,57 @@ code {
   font-style: italic;
   margin-bottom: var(--gap);
 }
+
+.popup, .popup-js {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  /* transform: scale(0.2); */
+  color: var(--color-dark);
+  border-radius: 4px;
+  transition: opacity 0.33s ease-in;
+}
+
+.popup:target, .popup-js.active {
+  display: block;
+  opacity: 1;
+  /* animation: popup 0.5s ease-in-out 0.2s forwards; */
+}
+
+.popup__overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  transition: opacity 0.33s ease-in;
+}
+
+.popup-js.active .popup__overlay {
+  opacity: 1;
+}
+
+.popup-js.active .popup__content {
+  animation: zoom 0.33s linear forwards;
+}
+
+@keyframes zoom {
+  to {
+    transform: scale(1);
+  }
+}
+
+.clickable-image {
+  cursor: pointer;
+}

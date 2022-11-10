@@ -15,7 +15,7 @@
 
     <section class="container__narrow text__hyphened">
       <h2>{{$ts('What you can take from the course')}}</h2>
-      <List>
+      <List type="plus">
         <li>{{$ts('Learn how to work and communicate with SPOT robot')}}</li>
         <li>{{$ts("Knowledge about SPOT and it's internals, API and all interesting stuff")}}</li>
       </List>

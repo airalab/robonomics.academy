@@ -51,7 +51,7 @@
                 <p>
                   {{$ts('Then, insert the SD card and run the balenaEtcher Imager program. Select the required image (which you just downloaded) as the operating system and ensure to select your SD card from the storage dropdown, and then select')}} <code class="nowb">flash</code> {{$ts('image.')}}
                 </p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-2-1.jpeg" alt="balena"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-2-1.jpeg')" src="../../../assets/images/smart-house-course/lesson-2-1.jpeg" alt="balena"></g-image>
               </li>
               <li>
                 <p>

@@ -9,13 +9,15 @@
       </ul>
       <h1>{{title}}</h1>
     </div>
-    <div class="lesson-update" v-if="lessonId">
+    <client-only>
+      <div class="lesson-update" v-if="lessonId">
 
-      <div class="lesson-update__wrapper" v-show="ghUpdateName">
-        <g-link class="lesson-update__link" :to="ghUpdateUrl">{{$ts('Latest update')}}</g-link> {{$ts('on (date of commit)')}} {{ghUpdateDate}} {{$ts('by (author of commit)')}} {{ghUpdateName}}
+        <div class="lesson-update__wrapper" v-show="ghUpdateName">
+          <g-link class="lesson-update__link" :to="ghUpdateUrl">{{$ts('Latest update')}}</g-link> {{$ts('on (date of commit)')}} {{ghUpdateDate}} {{$ts('by (author of commit)')}} {{ghUpdateName}}
+        </div>
+
       </div>
-
-    </div>
+    </client-only>
   </section>
 
 </template>

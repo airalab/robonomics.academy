@@ -95,7 +95,7 @@ sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
             <p>{{$ts('You will need to do that before every lesson.')}}</p>
             <p>{{$ts('For Windows:')}}</p>
             <p>{{$ts('Press win + r and type')}} <code>services.msc</code>, {{$ts(`find Yggdrasil service, open it and restart (press Stop and Start).`)}}</p>
-            <g-image src="../../../assets/images/boston-dynamics-course/lesson-0-1.jpg"></g-image>
+            <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'boston-dynamics-course/lesson-0-1.jpg')"  src="../../../assets/images/boston-dynamics-course/lesson-0-1.jpg"></g-image>
           </li>
           <li>
             <p>{{$ts('Check Connection')}}</p>
