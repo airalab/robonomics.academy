@@ -187,12 +187,8 @@
       }
     },
 
-    created() {
-      this.$store.commit('TOGGLE_SHOW_HEADER', false)
-    },
-
     mounted() {
-
+      this.$store.commit('TOGGLE_SHOW_HEADER', false)
       window.addEventListener('scroll', this.onScroll)
 
     },
