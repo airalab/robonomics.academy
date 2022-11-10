@@ -36,6 +36,10 @@
 
     <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
 
+    <div class="popup popup-js" :class="{'active': $store.state.showImagePopup}">
+      <ImagePopup />
+    </div>
+
     <footer-slot/>
 
     <client-only>
@@ -149,6 +153,7 @@
       }
 
       this.$store.commit('TOGGLE_SHOW_HEADER', true)
+
     }
   }
 </script>

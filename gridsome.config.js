@@ -30,5 +30,11 @@ module.exports = {
         routes: yaml.load(fs.readFileSync('./src/data/locales/routes.yaml', 'utf8')),
       }
     },
+    {
+      use: 'gridsome-plugin-yandex-metrika',
+      options: {
+        id: 91120268
+      }
+    }
   ]
 }

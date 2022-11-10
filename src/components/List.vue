@@ -13,9 +13,9 @@ export default {
   props: {
     type: {
       type: String,
-      default: 'plus',
+      default: 'bullets',
       validator: function (value) {
-        return ['plus', 'numbers'].indexOf(value) !== -1;
+        return ['plus', 'numbers', 'bullets'].indexOf(value) !== -1;
       }
     },
   },
@@ -58,8 +58,12 @@ export default {
         padding-left: var(--gap);
     }
 
-    .list__plus li::before {
-        display: none;
+    .list__bullets li::before {
+        content: "\2022" !important;
+        color: var(--color-orange) !important;
+        font-weight: bold; 
+        display: inline-block;
+        width: 1em; 
     }
 
     .list__plus:not(li):not(:first-child) {

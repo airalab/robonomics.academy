@@ -94,7 +94,7 @@ npm start
                 <p>
                   {{$ts('If started successfully, you will see something like:')}}
                 </p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-a-1.jpg" alt="code"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-a-1.jpg')"  src="../../../assets/images/smart-house-course/lesson-4-a-1.jpg" alt="code"></g-image>
               </li>
             </List>
           </li>
@@ -108,7 +108,7 @@ npm start
                 </pre>
                 <p>{{$ts('Remember the ID of the sensor: in this example —')}} <code>0x00158d0003eeeacf</code>.</p>
                 <p>{{$ts('Now you should see this sensor with ID in your Home Assistant WebUI. Go to')}} <code>Setting</code> -> <code>Devices & Services</code> -> <code>Devices</code> {{$ts('to check it:')}}</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-a-2.jpg" alt="code"></g-image>
+                <g-image  class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-a-2.jpg')"  src="../../../assets/images/smart-house-course/lesson-4-a-2.jpg" alt="code"></g-image>
                 <p>{{$ts('After adding all the sensors, you can stop the program with')}} <code>Ctrl+C</code>. {{$ts('If you don’t want to add any more devices, you can open the configuration file again and set')}} <code>permit_join:</code> {{$ts('to')}} <code>false</code>.</p>
               </li>
               <li>
@@ -141,7 +141,7 @@ systemctl status zigbee2mqtt.service
 </code>
                 </pre>
                 <p>{{$ts('Output should look like:')}}</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-a-3.jpg" alt="code"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-a-3.jpg')"  src="../../../assets/images/smart-house-course/lesson-4-a-3.jpg" alt="code"></g-image>
               </li>
               <li>
                 <p>{{$ts('Enable the service to start Zigbee2MQTT automatically on boot:')}}</p>

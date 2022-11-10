@@ -13,10 +13,10 @@
       <h3>{{$ts('We see two main problems with this smart solution:')}}</h3>
       <List class="course-list--mb">
         <li>
-          {{$ts('You have a single point of failure in the form of centralized vendor cloud servers.')}}
+          {{$ts('You have no control over what data you share with the vendor or third party.')}}
         </li>
         <li>
-          {{$ts('You have no control over what data you share with the vendor or third party.')}}
+          {{$ts('You have a single point of failure in the form of centralized vendor cloud servers.')}}
         </li>
       </List>
       <p>{{$ts('At the dawn of the development of smart homes, it was difficult to imagine a situation where the average user could easily deploy their own local home automation system. But now, thanks to widespread IoT standards, cheap hardware and open-source home automation systems, this vision has become affordable. And thanks to  the use of a decentralized cloud based on web3 technologies, it is now possible to provide secure remote access to smart devices')}}</p>
@@ -24,7 +24,7 @@
 
     <section class="container__narrow text__hyphened">
       <h2>{{$ts('What will you learn:')}}</h2>
-      <List>
+      <List type="plus">
         <li>{{$ts('Knowledge of smart home architecture based on common protocols and developments')}}</li>
         <li>{{$ts('Practical skills for setting up and connecting smart home equipment')}}</li>
         <li>{{$ts('Basic skills for using the Robonomics parachain for IoT')}}</li>

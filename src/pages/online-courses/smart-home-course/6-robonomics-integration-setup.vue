@@ -26,7 +26,7 @@
               <List>
                 <li>
                   <p>{{$ts('In the web interface of Home Assistant go to')}} <code>Settings/Device & Services</code> {{$ts('and press')}} <code>ADD INTEGRATION</code>. {{$ts('Search for')}} <code>Robonomics</code>.</p>
-                  <g-image src="../../../assets/images/smart-house-course/lesson-6-1.jpeg" alt="pic"></g-image>
+                  <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-6-1.jpeg')"  src="../../../assets/images/smart-house-course/lesson-6-1.jpeg" alt="pic"></g-image>
                 </li>
                 <li>
                   <p>{{$ts('Click on Robonomics and fill in the configuration:')}}</p>
@@ -42,7 +42,7 @@
                   <p>
                     - {{$ts('(Optional) You can add credentials for pinning service Pinata to spread your data wider over the IPFS network')}}.
                   </p>
-                  <g-image src="../../../assets/images/smart-house-course/lesson-6-2.jpeg" alt="pic"></g-image>
+                  <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-6-2.jpeg')"  src="../../../assets/images/smart-house-course/lesson-6-2.jpeg" alt="pic"></g-image>
                 </li>
                 <li>
                   <p>{{$ts('Press')}} <code>SUBMIT</code> {{$ts('after finishing the configuration. If you filled in everything correctly, you will see the Success window.')}}</p>
@@ -60,23 +60,23 @@
                   <p>
                     {{$ts('Add this account to the subscription in the')}} <g-link to="https://dapp.robonomics.network/#/subscription/devices">dapp</g-link>. {{$ts('Now there should be three addresses in the access list:')}} <code>sub-owner</code>, <code>sub-admin</code> {{$ts('and')}} <code>user</code>
                   </p>
-                  <g-image src="../../../assets/images/smart-house-course/lesson-6-3.jpeg" alt="pic"></g-image>
+                  <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-6-3.jpeg')"  src="../../../assets/images/smart-house-course/lesson-6-3.jpeg" alt="pic"></g-image>
                 </li>
                 <li>
                   <p>
                     {{$ts('Go to the dapp service called')}} <g-link to="https://dapp.robonomics.network/#/home-assistant">Home Assistant Account</g-link>. {{$ts(`Choose the account you've just created at the right sidebar (check that you have chosen the intended account by pressing the profile icon)`)}}.
                   </p>
                   <p>{{$ts('Enter the')}} <code>USER</code> {{$ts('seed in the required field. Add')}} <code>SUB_OWNER</code> {{$ts('and')}} <code>SUB_ADMIN</code> {{$ts('addresses in the administrator credits fields.')}}</p>
-                  <g-image src="../../../assets/images/smart-house-course/lesson-6-4.jpeg" alt="pic"></g-image>
+                  <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-6-4.jpeg')"  src="../../../assets/images/smart-house-course/lesson-6-4.jpeg" alt="pic"></g-image>
                   <p>{{$ts('If everything is correct, you will see verification status')}} <code>VERIFIED</code>.</p>
                 </li>
                 <li>
                   <p>{{$ts('Create a password for a new user which you have just registered and then confirm the transaction, that will now be without fee due to the subscription. Later you can restore the password in the')}} <code>Restore</code> {{$ts('tab')}}.</p>
-                  <g-image src="../../../assets/images/smart-house-course/lesson-6-5.jpeg" alt="pic"></g-image>
+                  <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-6-5.jpeg')"  src="../../../assets/images/smart-house-course/lesson-6-5.jpeg" alt="pic"></g-image>
                 </li>
                 <li>
                   <p>{{$ts('After the registration process, log in to Home Assistant with your user address as login and a newly-created password. Now you can use Robonomics dapp to control your home through Robonomics')}}</p>
-                  <g-image src="../../../assets/images/smart-house-course/lesson-6-6.jpeg" alt="pic"></g-image>
+                  <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-6-6.jpeg')"  src="../../../assets/images/smart-house-course/lesson-6-6.jpeg" alt="pic"></g-image>
                 </li>
               </List>
             </li>

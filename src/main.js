@@ -9,7 +9,9 @@ import DefaultLayout from '~/layouts/Default.vue'
 import LayoutCourse from '~/layouts/Course.vue'
 import AcademyList from '~/components/List.vue'
 import LessonResult from '~/components/LessonResult.vue'
+import ImagePopup from '~/components/ImagePopup.vue'
 
+// styles
 import '~/assets/css/index.css'
 
 /* import the fontawesome core */
@@ -54,8 +56,10 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('LayoutCourse', LayoutCourse)
   Vue.component('List', AcademyList)
   Vue.component('Result', LessonResult)
+  Vue.component('ImagePopup', ImagePopup)
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 
   /* add icons to the library */
   library.add(
@@ -86,6 +90,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     state: {
       userTracker: {},
       showHeader: true,
+      showImagePopup: false,
+      imagePopupSrc: 'smart-house-course/lesson-1-1.png',
     },
    mutations: {
       SET_USER_TRACKER(state, userTracker) {
@@ -93,15 +99,26 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       },
       TOGGLE_SHOW_HEADER(state, showHeader) {
         state.showHeader = showHeader
+      },
+      SHOW_IMAGE_POPUP(state, src) {
+        state.showImagePopup = true
+        document.body.style.overflow = 'hidden'
+        state.imagePopupSrc = src;
+      },
+      HIDE_IMAGE_POPUP(state) {
+        state.showImagePopup = false
+        document.body.style.overflow = 'auto'
+        state.imagePopupSrc = 'smart-house-course/lesson-1-1.png';
       }
    },
   });
 
-  if(isClient) {
-    Vue.use(VueGtag, {
-      config: { id: "AW-844066363" }
-    });
 
+  Vue.use(VueGtag, {
+    config: { id: "UA-169310127-5" }
+  });
+
+  if(isClient) {
     Vue.use(VueCookies, { expire: '30d'});
     Vue.$cookies.config('30d')
   }

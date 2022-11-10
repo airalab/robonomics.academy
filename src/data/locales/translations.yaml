@@ -2763,8 +2763,8 @@
 - alias: Robonomics Network
   en: Robonomics Network
 
-- alias: "- a decentralized cloud for secure and reliable control of IoT applications. It uses web3 technologies, which incorporates decentralization, blockchain technologies, and token-based economics, for the protection of smart devices and their data."
-  en: "- a decentralized cloud for secure and reliable control of IoT applications. It uses web3 technologies, which incorporates decentralization, blockchain technologies, and token-based economics, for the protection of smart devices and their data."
+- alias: "- a decentralized cloud for secure and reliable control of IoT applications. It uses web3 technologies, which incorporates decentralization and blockchain technologies for the protection of smart devices and their data."
+  en: "- a decentralized cloud for secure and reliable control of IoT applications. It uses web3 technologies, which incorporates decentralization and blockchain technologies for the protection of smart devices and their data."
 
 - alias: The main functionality of Robonomics is implemented based on a blockchain (parachain) of the Polkadot/Kusama ecosystem. Among the main functions of the parachain is the ability to send a command to launch the device and being able to store user data on the blockchain.
   en: The main functionality of Robonomics is implemented based on a blockchain (parachain) of the Polkadot/Kusama ecosystem. Among the main functions of the parachain is the ability to send a command to launch the device and being able to store user data on the blockchain.
@@ -3764,3 +3764,21 @@
 
 - alias: "Telemetry downloading could take some time. After finishing, you will see the information from your sensors:"
   en: "Telemetry downloading could take some time. After finishing, you will see the information from your sensors:"
+
+- alias: Finishing Course
+  en: Finishing Course
+
+- alias: Congratulations! You have successfully completed the full setup and deployment of your sovereign smart home. You can now request a course completion certificate from us by visiting our Discord-channal. Write to us in the
+  en: Congratulations! You have successfully completed the full setup and deployment of your sovereign smart home. You can now request a course completion certificate from us by visiting our Discord-channal. Write to us in the
+
+- alias: chat and our representative will contact you.
+  en: chat and our representative will contact you.
+
+- alias: Proof of course completion are corresponding transactions that can be verified in
+  en: Proof of course completion are corresponding transactions that can be verified in
+
+- alias: Polkadot explorer
+  en: Polkadot explorer
+
+- alias: These are transactions about buying a subscription, adding a device to a subscription, and sending datalogs from devices.
+  en: These are transactions about buying a subscription, adding a device to a subscription, and sending datalogs from devices.

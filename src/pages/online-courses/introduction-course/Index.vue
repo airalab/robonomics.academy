@@ -16,7 +16,7 @@
 
     <section class="container__narrow text__hyphened">
       <h2>{{$ts('What you can take from the course')}}</h2>
-      <List>
+      <List type="plus">
         <li>{{$ts('Practice and improvement of your skills in web3 development and robotic communications')}}</li>
         <li>{{$ts('Knowledge about the state of modern Internet of Things: typical problems and how web3 can be the solution to some of them')}}</li>
         <li>{{$ts('Basic skills for using the Polkadot / Kusama ecosystem')}}</li>

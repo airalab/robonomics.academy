@@ -28,7 +28,7 @@
                 <p>
                   {{$ts('First you need to flash the CC2652P microcontroller of the gateway. Set to')}} <code>ON</code> {{$ts('switches 2, 4 and 7 at the bottom part of SLS Gateway, others must be')}} <code class="nowb">OFF</code>.
                 </p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-1.jpg" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-1.jpg')"  src="../../../assets/images/smart-house-course/lesson-4-b-1.jpg" alt="pic"></g-image>
               </li>
               <li>
                 <p>
@@ -45,9 +45,9 @@
               </li>
               <li>
                 <p>{{$ts('Run the program. In the')}} <code>Connected device</code> {{$ts('window select the CC2652P microcontroller, set the path to the firmware, set the flags to')}} <code>Erase, Program, Verify</code> {{$ts('as in the picture and press')}} <code>Start</code>.</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-2.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-2.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-2.png" alt="pic"></g-image>
                 <p>{{$ts('After a successful flashing, you will see a message. After that you can unplug the USB cable.')}}</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-3.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-3.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-3.png" alt="pic"></g-image>
               </li>
             </List>
           </li>
@@ -56,7 +56,7 @@
             <List>
               <li>
                 <p>{{$ts('Now you need to set up the gateway for software installation. To do this, set')}} <code>ON</code> {{$ts('switches 1 and 3 at the bottom part of SLS gateway, others must be')}} <code>OFF</code>. {{$ts('Then connect the gateway to your computer via the USB type-C port.')}}</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-4.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-4.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-4.png" alt="pic"></g-image>
               </li>
               <li>
                 <p>{{$ts('Clone the repository with firmware:')}}</p>
@@ -75,7 +75,7 @@ sudo chmod +x Flash_16mb.sh
 </code>
                 </pre>
                 <p>{{$ts('For Windows systems just run corresponding executables. You will see the following, if the flashing was successful.')}}</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-5.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-5.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-5.png" alt="pic"></g-image>
               </li>
             </List>
           </li>
@@ -84,7 +84,7 @@ sudo chmod +x Flash_16mb.sh
             <List>
               <li>
                 <p>{{$ts('Set the switches on the back of the gateway to their new  position. Switches 5 (RX Zigbee to ESP) and 6 (TX Zigbee to ESP) must be in the')}} <code>ON</code> {{$ts('position, the others must be')}} <code>OFF</code></p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-6.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-6.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-6.png" alt="pic"></g-image>
               </li>
               <li>
                 <p>{{$ts('Connect the type-C power cable. The indicator light in the center should turn green.')}}</p>
@@ -99,7 +99,7 @@ sudo chmod +x Flash_16mb.sh
                 <p>
                   {{$ts('Go to the Wi-Fi page and insert your Wi-Fi credentials by entering the user / pass and press')}} <code>Save</code> {{$ts('button. After that press the')}} <code>Reboot</code> {{$ts('button. The gateway will restart and connect to your WI-Fi network.')}}
                 </p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-7.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-7.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-7.png" alt="pic"></g-image>
               </li>
               <li>
                 <p>{{$ts('Find the local IP of the SLS gateway to access the web interface. For that you can use the')}} <g-link to="https://www.fing.com/products">Fing</g-link> {{$ts('app or')}} <code>arp -a</code> {{$ts('in your terminal or Nmap')}}:</p>
@@ -109,7 +109,7 @@ sudo chmod +x Flash_16mb.sh
               </li>
               <li>
                 <p>{{$ts('Go to')}} <code>Setting</code> -> <code>Hardware</code> {{$ts('and make sure that the settings look like on the image. Correct the settings if necessary and click')}} <code>Save</code> {{$ts('button')}}:</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-8.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-8.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-8.png" alt="pic"></g-image>
                 <p>{{$ts('The table with required values:')}}</p>
                 <table>
                   <thead>
@@ -172,14 +172,14 @@ sudo chmod +x Flash_16mb.sh
               </li>
               <li>
                 <p>{{$ts('Make sure that the gateway works properly with the CC2652P microcontroller in the Zigbee info window. DeviceState should be')}} <code>OK</code></p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-9.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-9.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-9.png" alt="pic"></g-image>
               </li>
               <li>
                 <p>{{$ts('Reboot the gateway. Choose')}} <code>Actions -> Reboot</code> {{$ts('system at the right top corner')}}.</p>
               </li>
               <li>
                 <p>{{$ts('Configure automatically adding devices to Home Assistant. Go to')}} <code>Zigbee -> Config</code> {{$ts('then choose')}} <code>Home Assistant MQTT Discovery</code> {{$ts('and')}} <code>Clear States</code>. {{$ts('Save changes and again reboot SLS gateway.')}}</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-10.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-10.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-10.png" alt="pic"></g-image>
               </li>
               <li>
                 <p>{{$ts('Connect your devices by going to')}} <code>Zigbee -> Join</code>. {{$ts('Put your sensors in pairing mode, the most common way to switch a device to connect mode is to hold its power button or switch them on/off for 5 times.')}}</p>
@@ -192,12 +192,12 @@ sudo chmod +x Flash_16mb.sh
             <List>
               <li>
                 <p>{{$ts('You need to configure MQTT on SLS Gateway. Come back to your SLS Gateway web interface and go to')}} <code>Settings/Link -> MQTT Setup</code>:</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-11.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-11.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-11.png" alt="pic"></g-image>
               </li>
               <li>
                 <p>{{$ts('Add your broker address (address of the Raspberry Pi with Home Assistant in local network, you can find it in')}} <g-link to="https://www.fing.com/products">Fing</g-link> {{$ts('app or with')}} <code>ip -a</code> {{$ts('command on your RPi), port (default is 1883) your broker username and password (which you have created earlier) and the topic name (you can choose any). Also, the Raspberry Pi IP address must be static')}}</p>
                 <p>{{$ts(`Don't forget to click`)}} <code>Enable</code> {{$ts('and')}} <code>Retain states</code>.</p>
-                <g-image src="../../../assets/images/smart-house-course/lesson-4-b-12.png" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-12.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-12.png" alt="pic"></g-image>
               </li>
               <li>
                 <p>{{$ts('Save changes. Now devices will be automatically shown in Home Assistant.')}}</p>
