@@ -28,7 +28,7 @@ export default {
   padding: var(--gap);
   width: 80%;
   height: 90%;
-  /* background-color: var(--color-white);
+  /* background-color: var(--color-light);
   border: 2px solid var(--color-brown); */
   border-radius: 20px;
   transform: scale(0.3);
@@ -39,6 +39,20 @@ export default {
   height: 100%;
   object-fit: contain;
   width: 100%;
+}
+
+
+@media screen and (max-width: 980px) {
+  .popup__content {
+    width: 92%;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .popup__content {
+    width: 100%;
+  }
 }
 
 </style>

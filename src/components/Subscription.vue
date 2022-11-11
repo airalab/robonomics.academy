@@ -65,7 +65,7 @@ export default {
 <style scoped>
   .footer {
     background-color: var(--color-brown-dark);
-    color: var(--color-white);
+    color: var(--color-light);
     text-align: center;
   }
   .footer__section {
@@ -74,7 +74,7 @@ export default {
   }
 
   .footer__subscribe {
-    background-color: var(--color-yellow);
+    background-color: var(--color-main);
   }
 
   .footer__subscribe p {
@@ -88,23 +88,23 @@ export default {
   }
 
   input::placeholder {
-    color: var(--color-orange);
+    color: var(--color-second);
     font-weight: bold;
   }
 
   input:focus {
-    color: var(--color-brown);
-    border-color: var(--color-brown);
+    color: var(--color-text);
+    border-color: var(--color-text);
   }
 
   input:focus::placeholder {
-    color: var(--color-brown);
+    color: var(--color-text);
     opacity: 0.5;
   }
 
   button {
-    --btn-color: var(--color-orange);
-    --btn-color-hover: var(--color-brown);
+    --btn-color: var(--color-second);
+    --btn-color-hover: var(--color-text);
   }
 
   form.wait button, form.success button {
@@ -120,5 +120,13 @@ export default {
   form.success button {
     --btn-color: var(--color-green);
   }
+
+  /* dark theme */
+  @media (prefers-color-scheme: dark) { 
+    button {
+      --btn-color-hover: var(--color-light-lesson);
+    }
+  }
+
 
 </style>

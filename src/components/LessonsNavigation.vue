@@ -71,7 +71,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: 310px;
-  background-color: var(--color-white);
+  background-color: transparent;
   border-radius: 0;
   border: 3px solid var(--color-blue);
   color: var(--color-blue) !important;
@@ -79,7 +79,7 @@ nav {
 }
 
 .navigation__button:hover {
-  color: var(--color-white) !important;
+  color: var(--color-light) !important;
 }
 
 

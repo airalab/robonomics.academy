@@ -153,11 +153,11 @@ export default {
   }
 
   a {
-    color: var(--color-white)
+    color: var(--color-light-lesson)
   }
 
   a:hover {
-    color: var(--color-orange)
+    color: var(--color-second)
   }
 
   .lesson-update {
@@ -173,17 +173,23 @@ export default {
   }
 
   .lesson-update__link {
-    color: var(--color-brown);
+    color: var(--color-text);
   }
 
   .breadcrumbs .container__narrow {
     padding-left: 10px;
-    border-left: 2px solid var(--color-brown);
+    border-left: 2px solid var(--color-text);
   }
 
   @media screen and (max-width: 410px) {
     h1 {
       font-size: 2rem;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) { 
+    a:hover {
+      color: var(--color-light)
     }
   }
 </style>

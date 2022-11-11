@@ -17,11 +17,18 @@
 
 <style scoped>
   .btn {
-    background-color: var(--color-yellow);
-    border-color: var(--color-yellow);
+    background-color: var(--color-main);
+    border-color: var(--color-main);
     color: var(--color-brown-dark) !important;
   }
   .btn:hover {
-    color: var(--color-white) !important;
+    color: var(--color-light) !important;
+  }
+
+
+  @media (prefers-color-scheme: dark) { 
+    a:hover {
+      color: var(--color-light)
+    }
   }
 </style>

@@ -228,7 +228,7 @@ sudo chmod +x Flash_16mb.sh
       border-spacing: 0;
       border-collapse: collapse;
       margin: 0 auto;
-      background-color: var(--color-white);
+      background-color: var(--color-light);
     }
 
     table thead th {
@@ -240,5 +240,17 @@ sudo chmod +x Flash_16mb.sh
       padding: 0.5rem;
       border: 1px solid var(--color-brown-dark);
       font-size: 90%;
+      color: var(--color-text);
     } 
+
+    /* dark-theme */
+    @media (prefers-color-scheme: dark) {
+      table {
+        background: #333;
+      }
+
+      table td, table th {
+        border: 1px solid var(--color-text);
+      }
+    }
   </style>
