@@ -57,7 +57,7 @@ export default {
     display: inline-flex;
     flex-direction: column;
     border-radius: 10px;
-    background-color: var(--color-orange) ;
+    background-color: var(--color-second) ;
     /* transform: translateX(-50%); */
     text-align: left;
     z-index: 10;
@@ -69,7 +69,7 @@ export default {
     font-weight: 500;
     margin-right: var(--gap);
     margin-bottom: 0;
-    color: var(--color-white);
+    color: var(--color-light);
     text-align: left;
   }
 
@@ -89,7 +89,7 @@ export default {
     font-size: 1.2rem;
     font-weight: 500;
     font-family: inherit;
-    color: var(--color-yellow) !important;
+    color: var(--color-main) !important;
     background-color: transparent;
     border: 1px solid transparent;
     text-align: left;
@@ -112,8 +112,8 @@ export default {
 
   .user-tracker__info {
     font-weight: 600;
-    color: var(--color-orange);
-    background-color: var(--color-white);
+    color: var(--color-second);
+    background-color: var(--color-light);
     border-radius: var(--gap);
     padding: 0 calc(var(--gap) * 0.3);
   }

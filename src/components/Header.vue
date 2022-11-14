@@ -69,7 +69,7 @@ export default {
 <style>
     .header {
         background-color: var(--color-brown-dark);
-        color: var(--color-white);
+        color: var(--color-light);
         font-family: var(--font-title);
         font-size: var(--font-size);
         font-weight: bold;
@@ -103,7 +103,7 @@ export default {
     }
 
     .header a {
-        color: var(--color-white);
+        color: var(--color-light);
     }
 
     .header a:not(:last-child) {
@@ -111,11 +111,11 @@ export default {
     }
 
     .header a:hover {
-        color: var(--color-orange)
+        color: var(--color-second)
     }
 
     .header a.active, .header a.active:hover {
-        color: var(--color-yellow)
+        color: var(--color-main)
     }
 
     .header nav {
@@ -131,13 +131,13 @@ export default {
     }
 
     .header .expand summary {
-        background-color: var(--color-orange);
+        background-color: var(--color-second);
         border-radius: var(--gap);
         padding: 0 calc(var(--gap) * 0.4);
     }
 
     .header .expand__content {
-        background-color: var(--color-orange);
+        background-color: var(--color-second);
         border-radius: calc(var(--gap) * 0.5);
         padding: calc(var(--gap) * 0.5);
         position: absolute;
@@ -147,7 +147,7 @@ export default {
     }
 
     .header .expand__content a {
-        color: var(--color-brown)
+        color: var(--color-text)
     }
 
 
@@ -167,7 +167,7 @@ export default {
         top: calc(var(--gap) * 0.5);
         right: 0;
         z-index: 100;
-        color: var(--color-brown) !important;
+        color: var(--color-text) !important;
         font-size: 2rem;
     }
 
@@ -177,7 +177,7 @@ export default {
 
     @media screen and (max-width: 945px) {
         .nav {
-            background: var(--color-white);
+            background: var(--color-light);
             color: var(--color-bworn);
             padding: calc(var(--gap) * 2) var(--gap);
             
@@ -207,7 +207,7 @@ export default {
         }
 
         .nav a {
-            color: var(--color-brown);
+            color: var(--color-text);
             font-size: 130%;
             display: block;
             width: 100%;

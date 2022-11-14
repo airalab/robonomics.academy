@@ -62,8 +62,7 @@
                 </p>
 
                 <pre v-highlightjs>
-              <code class="json">
-version: 2
+              <code class="json">version: 2
 ethernets: 
   eth0:
     dhcp4: true
@@ -76,7 +75,8 @@ wifis:
       "YOUR_WIFI_NAME":
         password: "YOUR_WIFI_PASSWORD"
 </code>
-                </pre>
+                </pre> 
+                
                 <span class="italic">> {{$ts('Make sure that you input your actual Wi-Fi name and your Wi-Fi password.')}}</span>
                 <p>{{$ts('Save the file, insert the SD card into the Raspberry Pi and turn it on. It should connect to your Wi-Fi network, which will take some time. It should be noted that making changes to this file later will not change the connection, and the config is valid only on the first launch of the device. If later you need to change settings, please edit the configuration file in')}} <code>/etc/netplan/</code> {{$ts('folder.')}}</p>
               </li>
@@ -107,7 +107,7 @@ Nmap scan report for ed-vm (192.168.43.138)
 Host is up.
 Nmap done: 256 IP addresses (4 hosts up) scanned in 2.07 seconds
 </code>
-                </pre>
+                </pre>>
                 <p>{{$ts('Standard hostname for freshly installed Raspberry Pi should be')}} <code class="nowb">ubuntu</code>, {{$ts('so in this example the address is')}} <code>192.168.43.56.</code></p>
               </li>
               <li>

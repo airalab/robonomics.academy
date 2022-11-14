@@ -203,8 +203,8 @@
 
 <style scoped>
   .banner {
-    background-color: var(--color-yellow);
-    color: var(--color-brown);
+    background-color: #F4E282;
+    color: var(--color-text);
     overflow: hidden;
     padding-top: calc(var(--gap) * 3);
     margin-bottom: 0;
@@ -217,6 +217,7 @@
     font-size: 24px;
     margin: calc(var(--gap) * 1.5) auto;
     max-width: 450px;
+    color: #534E4B;
   }
 
   .banner-btn {
@@ -281,13 +282,13 @@
 
   .scheme-item {
     min-height: 150px;
-    border: 1px dashed var(--color-white);
+    border: 1px dashed var(--color-light);
     padding: var(--space);
   }
 
   .scheme-a {
     font-size: 60%;
-    color: var(--color-white);
+    color: var(--color-light);
   }
 
   .scheme-a span {
@@ -299,7 +300,7 @@
   }
 
   .scheme-a-left {
-    color: var(--color-white);
+    color: var(--color-light);
   }
 
   @media screen and (max-width: 1200px) {
@@ -321,4 +322,18 @@
   }
 
   /* end of scheme */
+
+
+  /* dark theme */
+  @media (prefers-color-scheme: dark) { 
+    .text__center a {
+      color: var(--color-light-lesson);
+    }
+
+    .text__center a:hover {
+      color: var(--color-light);
+    }
+
+  }
+
 </style>

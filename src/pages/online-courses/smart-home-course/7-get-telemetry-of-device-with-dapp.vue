@@ -41,13 +41,11 @@
         <h2>{{$ts('Finishing Course')}}</h2>
         <List>
           <li>
-            <p>
-              {{$ts('Congratulations! You have successfully completed the full setup and deployment of your sovereign smart home. You can now request a course completion certificate from us by visiting our Discord-channal. Write to us in the')}} <g-link to="https://discord.com/channels/803947358492557312/803947358492557315">{{$ts('robonomics-academy')}}</g-link> {{$ts('chat and our representative will contact you.')}}
-            </p>
+            {{$ts('Congratulations! You have successfully completed the full setup and deployment of your sovereign smart home. You can now request a course completion certificate from us by visiting our Discord-channal. Write to us in the')}} <g-link to="https://discord.com/channels/803947358492557312/803947358492557315">{{$ts('robonomics-academy')}}</g-link> {{$ts('chat and our representative will contact you.')}}
           </li>
           <li>
-            <p>{{$ts('Proof of course completion are corresponding transactions that can be verified in')}} <g-link to="https://robonomics.subscan.io/">{{$ts('Polkadot explorer')}}</g-link>.
-            {{$ts('These are transactions about buying a subscription, adding a device to a subscription, and sending datalogs from devices.')}}</p>
+            {{$ts('Proof of course completion are corresponding transactions that can be verified in')}} <g-link to="https://robonomics.subscan.io/">{{$ts('Polkadot explorer')}}</g-link>.
+            {{$ts('These are transactions about buying a subscription, adding a device to a subscription, and sending datalogs from devices.')}}
           </li>
         </List>
       </section>

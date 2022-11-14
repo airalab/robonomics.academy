@@ -49,7 +49,7 @@ import 'highlight.js/styles/default.css'
 export default function (Vue, { router, head, isClient, appOptions }) {
   // Implementing code highlighting blocks
   Vue.use(VueHighlightJS);
-  Vue.use(Vuex)
+  Vue.use(Vuex);
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
@@ -115,7 +115,10 @@ export default function (Vue, { router, head, isClient, appOptions }) {
 
 
   Vue.use(VueGtag, {
-    config: { id: "UA-169310127-5" }
+    config: { id: "UA-169310127-5" },
+    includes: [
+      { id: 'AW-11021567627' },
+    ]
   });
 
   if(isClient) {
