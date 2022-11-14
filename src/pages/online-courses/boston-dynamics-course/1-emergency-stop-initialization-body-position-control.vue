@@ -32,21 +32,15 @@
           </li>
           <li>
             <p>{{$ts('Connect to SpotCORE by SSH from terminal')}}</p>
-            <pre v-highlightjs>
-              <code class="bash">ssh student@strelka.ygg.merklebot.com</code>
-            </pre>
+            <prism language="bash">ssh student@strelka.ygg.merklebot.com</prism>
           </li>
           <li>
             <p>{{$ts('Create a script can authenticate in Spot, acquire control (lease) and power on the robot.')}}</p>
             <p>{{$ts('We create')}} <g-link to="https://dev.bostondynamics.com/python/examples/estop/readme">{{$ts('E-Stop endpoint')}}</g-link> {{$ts('for you, so you should not create it. For Spot authentication use username and password from')}}<code>/home/student/credentials</code> {{$ts('file')}}. {{$ts('Spot address is')}} <code>192.168.50.3</code>.</p>
             <p>{{$ts('In')}} <g-link to="https://dev.bostondynamics.com/docs/python/understanding_spot_programming#taking-ownership-of-spot-leases">{{$ts('Taking ownership of Spot (Leases)')}}</g-link> {{$ts('section use')}}</p>
-            <pre v-highlightjs>
-              <code class="python">lease = lease_client.acquire()</code>
-            </pre>
+            <prism language="python">lease = lease_client.acquire()</prism>
             <p>{{$ts('before')}}</p>
-            <pre v-highlightjs>
-              <code class="python">lease_keep_alive = bosdyn.client.lease.LeaseKeepAlive(lease_client)</code>
-            </pre>
+            <prism language="python" class="big-code">lease_keep_alive = bosdyn.client.lease.LeaseKeepAlive(lease_client)</prism>
           </li>
           <li>
             <p>{{$ts('Try your script with stand-up and sit-down commands. Ensure robot moves as expected.')}}</p> 

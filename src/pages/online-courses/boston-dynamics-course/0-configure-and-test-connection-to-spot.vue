@@ -44,9 +44,7 @@
             <p>{{$ts(`You need to add a list of peers (public nodes) to configuration file so that you will be able to connect to Spot.`)}}</p>
             <p>{{$ts('For MacOS and Linux:')}}</p>
             <p> {{$ts('For that, edit the')}} <code>yggdrasil.conf</code> {{$ts('file with this command in a terminal:')}}</p>
-            <pre v-highlightjs>
-              <code class="bash">sudo nano /etc/yggdrasil.conf</code>
-            </pre>
+            <prism language="bash">sudo nano /etc/yggdrasil.conf</prism>
             <p>{{$ts('For Windows: Run')}} <code>updateconfig.bat</code> {{$ts('in')}} <code>C:/Program Files/Yggdrasil</code>.</p>
             <p>{{$ts('Then in')}} <code>C:/ProgramData/Yggdrasil</code> {{$ts('open')}} <code>yggdrasil.conf</code> {{$ts('with any text editor')}}.</p>
             <p><code>ProgramData</code> {{$ts('is a hidden folder, so you need to show hidden data.')}}</p>
@@ -56,9 +54,7 @@
             <p>{{$ts('In the file that you opened find line')}} <code>Peers:</code> {{$ts(`(it is at the beginning of the file) add 5-6 peers geographically near to you (write them inside the brackets).`)}} {{$ts('You can find list of available peers')}}
               <g-link to="https://github.com/yggdrasil-network/public-peers">{{$ts('here')}}</g-link> {{$ts(`or add peers from example below. Example in yggdrasil.conf:`)}}
             </p>
-            <pre v-highlightjs>
-              <code class="json">Peers:
-[
+            <prism language="json">[
   tcp://213.188.199.150:10010
   tcp://213.188.210.9:10010
   tcp://[2a09:8280:1::3:312]:10010
@@ -70,8 +66,8 @@
   tcp://51.15.118.10:62486
   tls://ygg.loskiq.dev:17314
   tls://longseason.1200bps.xyz:13122
-]</code>
-            </pre>
+]
+            </prism>
             <p>{{$ts('Check if the peers online in')}} <g-link to="https://publicpeers.neilalexander.dev/">{{$ts('Public Peers')}}</g-link>.
             </p>
           </li>
@@ -84,14 +80,11 @@
           <li>
             <p>{{$ts('Restart service')}}</p>
             <p>{{$ts('For Linux: Then restart Yggdrasil using this command:')}}</p>
-            <pre v-highlightjs>
-              <code class="bash">systemctl restart yggdrasil</code>
-            </pre>
+            <prism language="bash">systemctl restart yggdrasil</prism>
             <p>{{$ts('For macOS: Unload the service and run Yggdrasil with changed config file:')}}</p>
-            <pre v-highlightjs>
-              <code class="bash">sudo launchctl unload /Library/LaunchDaemons/yggdrasil.plist
-sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
-            </pre>
+            <prism language="bash" class="big-code">sudo launchctl unload /Library/LaunchDaemons/yggdrasil.plist
+sudo yggdrasil -useconffile /etc/yggdrasil.conf
+            </prism>
             <p>{{$ts('You will need to do that before every lesson.')}}</p>
             <p>{{$ts('For Windows:')}}</p>
             <p>{{$ts('Press win + r and type')}} <code>services.msc</code>, {{$ts(`find Yggdrasil service, open it and restart (press Stop and Start).`)}}</p>
@@ -100,9 +93,7 @@ sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
           <li>
             <p>{{$ts('Check Connection')}}</p>
             <p>{{$ts('Check if Yggdrasil works well. For that try to ping Spot address:')}}</p>
-            <pre v-highlightjs>
-              <code class="bash">ping -6 strelka.ygg.merklebot.com</code>
-            </pre>
+            <prism language="bash">ping -6 strelka.ygg.merklebot.com</prism>
             <p>{{$ts('To open terminal in Windows press')}} <code>Win+R</code>, {{$ts('type')}} <code>cmd</code> {{$ts('and press')}} <code>Enter</code>.
             </p>
             <p>{{$ts('On MacOS use')}} <code>ping6</code> {{$ts('instead of')}}<code>ping</code>.</p>
@@ -114,9 +105,7 @@ sudo yggdrasil -useconffile /etc/yggdrasil.conf</code>
             <p>{{$ts('You will connect to Spot via ssh, so you need to create ssh keys which you will use in booking lessons.')}}
             </p>
             <p>{{$ts('Run following command in the terminal:')}}</p>
-            <pre v-highlightjs>
-              <code class="bash">ssh-keygen -t rsa</code>
-            </pre>
+            <prism language="bash">ssh-keygen -t rsa</prism>
             <p>{{$ts(`SSH Client is available by default only in Windows 10, so if you use older versions you need to install it. For example you can use`)}} <g-link to="https://www.putty.org/">PuTTY</g-link>.</p>
             <p>{{$ts('Remember the path to your key (by default it is)')}} <code>/home/&lt;user&gt;/.ssh/id_rsa.pub</code> {{$ts('or')}}
               <code>C:\Users\&lt;user&gt;\.ssh\id_rsa.pub</code>).</p>

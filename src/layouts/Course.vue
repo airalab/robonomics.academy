@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div class="layout line-numbers " data-prismjs-copy-timeout="500">
 
     <header-slot/>
 
@@ -52,6 +52,9 @@
 </template>
 
 <script>
+
+  import "prismjs/plugins/line-numbers/prism-line-numbers.js";
+  import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
   import courses from '@/data/online-courses.yaml'
 
@@ -153,6 +156,8 @@
       }
 
       this.$store.commit('TOGGLE_SHOW_HEADER', true)
+
+      Prism.highlightAll();
 
     }
   }

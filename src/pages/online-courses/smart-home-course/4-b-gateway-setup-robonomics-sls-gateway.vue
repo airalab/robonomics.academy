@@ -60,20 +60,17 @@
               </li>
               <li>
                 <p>{{$ts('Clone the repository with firmware:')}}</p>
-                <pre v-highlightjs><code class="bash">git clone https://github.com/LoSk-p/robonomics-hass-utils.git</code>
-                </pre>
+                <prism language="bash" class="big-code">git clone https://github.com/LoSk-p/robonomics-hass-utils.git</prism>
               </li>
               <li>
                 <p>{{$ts('Go to robonomics-hass-utils/esp_firmware. To flash the SLS gateway you need to run')}} <code>Clear</code> {{$ts('and')}} <code>Flash_16mb</code> {{$ts('scripts from a folder, which name depends on your OS.')}}</p>
                 <p>{{$ts('For UNIX-like system:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">cd linux
+                <prism language="bash">cd linux
 sudo chmod +x Clear.sh
 sudo chmod +x Flash_16mb.sh
 ./Clear.sh
 ./Flash_16mb.sh
-</code>
-                </pre>
+                </prism>
                 <p>{{$ts('For Windows systems just run corresponding executables. You will see the following, if the flashing was successful.')}}</p>
                 <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-5.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-5.png" alt="pic"></g-image>
               </li>
@@ -103,8 +100,7 @@ sudo chmod +x Flash_16mb.sh
               </li>
               <li>
                 <p>{{$ts('Find the local IP of the SLS gateway to access the web interface. For that you can use the')}} <g-link to="https://www.fing.com/products">Fing</g-link> {{$ts('app or')}} <code>arp -a</code> {{$ts('in your terminal or Nmap')}}:</p>
-                <pre v-highlightjs><code class="bash">nmap -sn 192.168.yy.0/24</code>
-                </pre>
+                <prism language="bash">nmap -sn 192.168.yy.0/24</prism>
                 <p>{{$ts('where')}} <code class="bold">yy</code> {{$ts('is your IP address in the local network.')}}</p>
               </li>
               <li>

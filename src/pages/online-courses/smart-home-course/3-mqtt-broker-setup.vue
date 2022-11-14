@@ -28,42 +28,36 @@
                 <p>
                   {{$ts('Install')}} <g-link to="https://mosquitto.org/">{{$ts('Mosquitto Broker')}}</g-link> {{$ts('on your Raspberry Pi:')}}
                 </p>
-                <pre v-highlightjs><code class="bash">sudo apt install mosquitto mosquitto-clients -y</code>
-                </pre>
+                <prism language="bash">sudo apt install mosquitto mosquitto-clients -y</prism>
               </li>
               <li>
                 <p>
                   {{$ts('Configure username (use any')}} <code>USERNAME</code>  {{$ts('you want) and password (you will be asked to enter the password after the command):')}}
                 </p>
-                <pre v-highlightjs><code class="bash">sudo mosquitto_passwd -c /etc/mosquitto/passwd USERNAME</code>
-                </pre>
+                <prism language="bash">sudo mosquitto_passwd -c /etc/mosquitto/passwd USERNAME</prism>
               </li>
               <li>
                 <p>
                   {{$ts(`Edit configuration file:`)}}
                 </p>
-                <pre v-highlightjs><code class="bash">sudo nano /etc/mosquitto/conf.d/local.conf</code>
-                </pre>
+                <prism language="bash">sudo nano /etc/mosquitto/conf.d/local.conf</prism>
                 <p>
                   {{$ts('Add the following to the file:')}}
                 </p>
 
-                <pre v-highlightjs>
-              <code class="bash">listener 1883
+                <prism language="bash">
+listener 1883
 allow_anonymous false
 password_file /etc/mosquitto/passwd
-</code>
-                </pre>
+                </prism>
               </li>
               <li>
                 <p>{{$ts('Save the file  and restart the service:')}}</p>
-                <pre v-highlightjs><code class="bash">sudo systemctl restart mosquitto</code>
-                </pre>
+                <prism language="bash">sudo systemctl restart mosquitto</prism>
               </li>
               <li>
                 <p>{{$ts('Finally, check the broker status:')}}</p>
-                <pre v-highlightjs><code class="bash">systemctl status mosquitto</code>
-                </pre>
+                <prism language="bash">systemctl status mosquitto</prism>
                 <p>{{$ts('You should see something like this:')}}</p>
                 <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-3-2.jpg')"  src="../../../assets/images/smart-house-course/lesson-3-2.jpg" alt="code"></g-image>
               </li>

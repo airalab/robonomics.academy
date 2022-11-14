@@ -61,39 +61,35 @@
                   {{$ts('Find the file named')}} <code>network-config</code> {{$ts('and open it in a text editor. Copy the text below, paste it into the file and insert your')}} <span class="bold">{{$ts('Wi-Fi name')}}</span> {{$ts('(SSID) and')}} <span class="bold">{{$ts('Wi-Fi password')}}</span> {{$ts('(with quote marks).')}}
                 </p>
 
-                <pre v-highlightjs>
-              <code class="json">version: 2
-ethernets: 
-  eth0:
-    dhcp4: true
-    optional: true
-wifis:
-  wlan0:
-    dhcp4: true
-    optional: true
-    access-points:
-      "YOUR_WIFI_NAME":
-        password: "YOUR_WIFI_PASSWORD"
-</code>
-                </pre> 
-                
+<prism language="json">
+  version: 2
+  ethernets: 
+    eth0:
+      dhcp4: true
+      optional: true
+  wifis:
+    wlan0:
+      dhcp4: true
+      optional: true
+      access-points:
+        "YOUR_WIFI_NAME":
+          password: "YOUR_WIFI_PASSWORD"
+</prism>
+
                 <span class="italic">> {{$ts('Make sure that you input your actual Wi-Fi name and your Wi-Fi password.')}}</span>
                 <p>{{$ts('Save the file, insert the SD card into the Raspberry Pi and turn it on. It should connect to your Wi-Fi network, which will take some time. It should be noted that making changes to this file later will not change the connection, and the config is valid only on the first launch of the device. If later you need to change settings, please edit the configuration file in')}} <code>/etc/netplan/</code> {{$ts('folder.')}}</p>
               </li>
               <li>
                 <p>{{$ts('Now you need to find an address of the device. To do it you can use various methods for network scanning, like')}} <g-link to="https://www.fing.com/products">{{$ts('Fing App')}}</g-link>, <code>arp -a</code> {{$ts('command or')}} <g-link to="https://nmap.org/download.html">nmap</g-link>, {{$ts('the latter will be used next.')}}</p>
                 <p>{{$ts('Install nmap with a command')}}</p>
-                <pre v-highlightjs><code class="bash">sudo apt-get install nmap</code>
-                </pre>
+                <prism language="bash">sudo apt-get install nmap</prism>
                 <p>{{$ts('Then find your address in your local network. It should look like')}} <code>192.168.xxx.xxx</code> {{$ts('or')}} <code>172.xxx.xxx.xxx.</code> {{$ts('Pay attention as nmap can find many addresses on your local network.')}}</p>
-                <pre v-highlightjs><code class="bash">ip a</code>
-                </pre>
+                <prism language="bash"> ip a </prism>
                 <p>{{$ts('Then scan your network as shown below replacing the last octet of the address with')}} <code>0:</code></p>
-                <pre v-highlightjs><code class="bash">$ sudo nmap -sP 192.168.xxx.0/24</code>
-                </pre>
+                <prism language="bash">$ sudo nmap -sP 192.168.xxx.0/24</prism>
                 <p>{{$ts('The output of the command will be something like this:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-26 13:50 CEST
+                <prism language="bash" class="big-code">
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-26 13:50 CEST
 Nmap scan report for _gateway (192.168.43.1)
 Host is up (0.015s latency).
 MAC Address: 8E:F5:A3:DB:02:24 (Unknown)
@@ -106,14 +102,12 @@ MAC Address: 7C:B3:7D:9E:94:DA (Intel Corporate)
 Nmap scan report for ed-vm (192.168.43.138)
 Host is up.
 Nmap done: 256 IP addresses (4 hosts up) scanned in 2.07 seconds
-</code>
-                </pre>>
+                </prism>
                 <p>{{$ts('Standard hostname for freshly installed Raspberry Pi should be')}} <code class="nowb">ubuntu</code>, {{$ts('so in this example the address is')}} <code>192.168.43.56.</code></p>
               </li>
               <li>
                 <p>{{$ts('Connect to the Raspberry Pi via SSH with found IP. User is')}} <code class="nowb">"ubuntu"</code>, {{$ts('the password is')}} <code class="bold">"ubuntu"</code>.</p>
-                <pre v-highlightjs><code class="bash">ssh ubuntu@192.168.43.56</code>
-                </pre>
+                <prism language="bash">ssh ubuntu@192.168.43.56</prism>
                 <p>{{$ts(`The system will ask you to change the password to a more secure one, make sure you don't lose it.`)}}</p>
                 <p>{{$ts('Further instructions are executed via SSH on the Raspberry Pi itself.')}}</p>
               </li>
@@ -124,57 +118,49 @@ Nmap done: 256 IP addresses (4 hosts up) scanned in 2.07 seconds
             <List>
               <li>
                 <p>{{$ts('Before starting, update the Raspberry Pi system and install necessary packages.  During installation you will see a window with service restart request. Just choose')}} <span class="accent">ok</span> {{$ts('with the')}} <code>tab</code> {{$ts('button and press enter.')}}</p>
-                <pre v-highlightjs>
-<code class="bash">sudo apt-get update
+                <prism language="bash" class="long-code">
+sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install -y python3 python3-dev python3-venv python3-pip 
-libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf 
-build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev 
-subversion
-</code>
-                </pre>
+sudo apt-get install -y python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev subversion
+                </prism>
               </li>
               <li>
                 <p>
                   {{$ts('Create user')}} <code>homeassistant</code> {{$ts('and the directory for Home Assistant Core:')}}
                 </p>
-                <pre v-highlightjs>
-<code class="bash">sudo useradd -rm homeassistant
+                <prism language="bash" class="long-code">
+sudo useradd -rm homeassistant
 sudo mkdir /srv/homeassistant
 sudo chown homeassistant:homeassistant /srv/homeassistant
-</code>
-                </pre>
+                </prism>
               </li>
               <li>
                 <p>{{$ts('Create a virtual environment for Home Assistant Core and switch to it. This should be done as the')}} <code>homeassistant</code> {{$ts('user, so after executing the commands your user will look like')}} <code>(homeassistant) homeassistant@ubuntu</code>:</p>
-                <pre v-highlightjs>
-<code class="bash">sudo -u homeassistant -H -s
+                <prism language="bash">
+sudo -u homeassistant -H -s
 cd /srv/homeassistant
 python3 -m venv .
 source bin/activate
-</code>
-                </pre>
+
+                </prism>
                 <p>
                   {{$ts('As the result, you will find a name of the virtual environment in the brackets:')}}
                 </p>
-                <pre v-highlightjs><code class="bash">(homeassistant) homeassistant@ubuntu:/srv/homeassistant/$ </code>
-                </pre>
+                <prism language="bash" class="big-code">(homeassistant) homeassistant@ubuntu:/srv/homeassistant/$</prism>
               </li>
               <li>
                 <p>{{$ts('Install required Python packages:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">python3 -m pip install wheel~=0.37
+                <prism language="bash">
+python3 -m pip install wheel~=0.37
 pip3 install sqlalchemy~=1.4 fnvhash~=0.1 aiodiscover==1.4.11
 pip3 install homeassistant==2022.8.2
-</code>
-                </pre>
+                </prism>
               </li>
               <li>
                 <p>{{$ts('Start Home Assistant Core for the first time. This will complete the installation by automatically creating the')}}
                 <code>.homeassistant</code> {{$ts('configuration directory in the')}} <code>/home/homeassistant</code> {{$ts('directory, and installing any basic dependencies:')}}
                 </p>
-                <pre v-highlightjs><code class="bash">hass</code>
-                </pre>
+                <prism language="bash">hass</prism>
               </li>
               <li>
                 <p>
@@ -189,17 +175,15 @@ pip3 install homeassistant==2022.8.2
             <List>
               <li>
                 <p>{{$ts('For IPFS installation you can use our script to download IPFS and create systemd service with it. First, exit the virtual environment for Home Assistant:')}}</p>
-                <pre v-highlightjs><code class="bash">exit</code>
-                </pre>
+                <prism language="bash">exit</prism>
                 <p>{{$ts('Then execute:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">cd ~
-wget 
-https://raw.githubusercontent.com//airalab/homeassistant-robonomics-integration/main/install_ipfs.sh
+                <prism language="bash">    
+cd ~
+wget https://raw.githubusercontent.com//airalab/homeassistant-robonomics-integration/main/install_ipfs.sh
 sudo chmod +x install_ipfs.sh
-./install_ipfs.sh
-</code>
-                </pre>
+./install_ipfs.s
+
+                </prism>
               </li>
             </List>
           </li>
@@ -208,49 +192,43 @@ sudo chmod +x install_ipfs.sh
             <List>
               <li>
                 <p>{{$ts('Set up Node.js runtime environment repository and install it with required dependencies:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+                <prism language="bash" class="big-code">
+sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs git make g++ gcc
-</code>
-                </pre>
+                </prism>
               </li>
               <li>
                 <p>{{$ts('Verify that the correct versions of Node.js (v14.X, V16.x, V17.x or V18.X) and package manager')}} <code class="nowb">npm</code> {{$ts('(6.X, 7.X or 8.X) automatically installed with Node.js, have been installed:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">node --version
+                <prism language="bash">
+node --version
 npm --version
-</code>
-                </pre>
+                </prism>
               </li>
               <li>
                 <p>
                   {{$ts('Create a directory for Zigbee2MQTT and set your user as owner of it:')}}
                 </p>
-                <pre v-highlightjs>
-<code class="bash">sudo mkdir /opt/zigbee2mqtt
+                <prism language="bash">
+sudo mkdir /opt/zigbee2mqtt
 sudo chown -R ${USER}: /opt/zigbee2mqtt
-</code>
-                </pre>
+                </prism>
               </li>
               <li>
                 <p>
                   {{$ts('Clone Zigbee2MQTT repository:')}}
                 </p>
-                <pre v-highlightjs>
-<code class="bash">git clone --depth 1 --branch 1.28.0 
-https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
-</code>
-                </pre>
+                <prism language="bash" class="big-code">
+git clone --depth 1 --branch 1.28.0 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
+                </prism>
               </li>
               <li>
                 <p>
                   {{$ts('Install dependencies (as user')}} <code>pi</code>). {{$ts('Note that the')}} <code>npm ci</code> {{$ts('could produce some warning which can be ignored.')}}
                 </p>
-                <pre v-highlightjs>
-<code class="bash">cd /opt/zigbee2mqtt
+                <prism language="bash">
+cd /opt/zigbee2mqtt
 npm ci
-</code>
-                </pre>
+                </prism>
               </li>
             </List>
           </li>
@@ -259,13 +237,14 @@ npm ci
             <List>
               <li>
                 <p>{{$ts('Systemd service is useful for automating the launch of Home Assistant. Create new service for Home Assistant:')}}</p>
-                <pre v-highlightjs><code class="bash">sudo nano /etc/systemd/system/home-assistant@homeassistant.service</code>
-                </pre>
+                <prism language="bash" class="big-code">
+sudo nano /etc/systemd/system/home-assistant@homeassistant.service
+                </prism>
               </li>
               <li>
                 <p>{{$ts('Paste the following')}}</p>
-                <pre v-highlightjs>
-<code class="bash">[Unit]
+                <prism language="bash">
+[Unit]
 Description=Home Assistant
 After=network-online.target
 [Service]
@@ -279,16 +258,14 @@ Environment="PATH=/srv/%i/bin"
 
 [Install]
 WantedBy=multi-user.target
-</code>
-                </pre>
+                </prism>
               </li>
               <li>
                 <p>{{$ts('Enable and start the service:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">sudo systemctl enable home-assistant@homeassistant.service
+                <prism language="bash" class="big-code">
+sudo systemctl enable home-assistant@homeassistant.service
 sudo systemctl start home-assistant@homeassistant.service
-</code>
-                </pre>
+                </prism>
               </li>
             </List>
           </li>
@@ -297,35 +274,34 @@ sudo systemctl start home-assistant@homeassistant.service
             <List>
               <li>
                 <p>{{$ts('Log in with')}} <code>homeassistant</code> {{$ts('user on your Raspberry Pi:')}}</p>
-                <pre v-highlightjs><code class="bash">sudo -u homeassistant -H -s</code>
-                </pre>
+                <prism language="bash">
+sudo -u homeassistant -H -s
+                </prism>
               </li>
               <li>
                 <p>{{$ts('Source virtual environment and install required Python packages:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">source /srv/homeassistant/bin/activate
+                <prism language="bash">
+source /srv/homeassistant/bin/activate
 pip install robonomics-interface~=1.3
-</code>
-                </pre>
+                </prism>
               </li>
               <li>
                 <p>{{$ts('Then go to')}} <code>.homeassistant</code> {{$ts('directory, create folder')}} <code class="nowb">custom_components</code> {{$ts('and clone in there the repository with the integration:')}}
                 </p> 
-                <pre v-highlightjs>
-<code class="bash">cd /home/homeassistant/.homeassistant
+                <prism language="bash" class="big-code">
+cd /home/homeassistant/.homeassistant
 mkdir custom_components
 cd custom_components
 svn checkout https://github.com/airalab/homeassistant-robonomics-integration/trunk/custom_components/robonomics
-</code>
-                </pre>
+
+                </prism>
               </li>
               <li>
                 <p>{{$ts('After that exit homeassistant user and restart service:')}}</p>
-                <pre v-highlightjs>
-<code class="bash">exit
+                <prism language="bash" class="big-code">
+exit
 sudo systemctl restart home-assistant@homeassistant.service
-</code>
-                </pre>
+                </prism>
               </li>
             </List>
           </li>
@@ -344,6 +320,7 @@ export default {
   components: {
     MetaInfo: () => import('~/components/MetaInfo.vue')
   },
+
 
 }
 </script>
