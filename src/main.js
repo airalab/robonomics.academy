@@ -4,15 +4,33 @@
 import Vuex from 'vuex'
 import VueCookies from 'vue-cookies';
 import VueGtag from "vue-gtag";
+import 'prismjs'
+
+// adding languages form code highlight
+import 'prismjs/components/prism-json'; 
+import 'prismjs/components/prism-bash'; 
+import 'prismjs/components/prism-python'; 
+
+// plugins for code highlight (prism)
+import "prismjs/plugins/line-numbers/prism-line-numbers.js";
+import "prismjs/plugins/line-numbers/prism-line-numbers.css";
+import "prismjs/plugins/toolbar/prism-toolbar.js";
+import "prismjs/plugins/show-language/prism-show-language.js";
+import "prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js";
+import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js";
+
+
 
 import DefaultLayout from '~/layouts/Default.vue'
 import LayoutCourse from '~/layouts/Course.vue'
 import AcademyList from '~/components/List.vue'
 import LessonResult from '~/components/LessonResult.vue'
 import ImagePopup from '~/components/ImagePopup.vue'
+import Prism from 'vue-prism-component'
 
 // styles
 import '~/assets/css/index.css'
+import '~/assets/css/code-styles.css'
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -42,13 +60,8 @@ import {
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-/* import default styles for code highlighting and lib itself */ 
-import VueHighlightJS from 'vue-highlightjs'
-import 'highlight.js/styles/default.css'
 
 export default function (Vue, { router, head, isClient, appOptions }) {
-  // Implementing code highlighting blocks
-  Vue.use(VueHighlightJS);
   Vue.use(Vuex);
 
   // Set default layout as a global component
@@ -57,6 +70,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('List', AcademyList)
   Vue.component('Result', LessonResult)
   Vue.component('ImagePopup', ImagePopup)
+  Vue.component('Prism', Prism)
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
 

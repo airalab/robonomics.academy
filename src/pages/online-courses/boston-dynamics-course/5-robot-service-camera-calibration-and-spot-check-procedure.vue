@@ -45,9 +45,7 @@
           </li>
           <li>
             <p>{{$ts('Connect to Spot from a terminal or using your development environment remote execution function.')}}</p>
-            <pre v-highlightjs>
-              <code class="bash">ssh student@strelka.ygg.merklebot.com</code>
-            </pre>
+            <prism language="bash">ssh student@strelka.ygg.merklebot.com</prism>
           </li>
           <li>
             <p>{{$ts('Develop and demonstrate your solution to the challenge')}}.</p>
