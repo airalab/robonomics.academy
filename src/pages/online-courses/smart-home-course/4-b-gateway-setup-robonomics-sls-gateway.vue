@@ -28,7 +28,7 @@
                 <p>
                   {{$ts('First you need to flash the CC2652P microcontroller of the gateway. Set to')}} <code>ON</code> {{$ts('switches 2, 4 and 7 at the bottom part of SLS Gateway, others must be')}} <code class="nowb">OFF</code>.
                 </p>
-                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-1.jpg')"  src="../../../assets/images/smart-house-course/lesson-4-b-1.jpg" alt="pic"></g-image>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-4.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-4.png" alt="pic"></g-image>
               </li>
               <li>
                 <p>
@@ -55,24 +55,46 @@
             <p>{{$ts('Installing Microcontroller Firmware')}}</p>
             <List>
               <li>
-                <p>{{$ts('Now you need to set up the gateway for software installation. To do this, set')}} <code>ON</code> {{$ts('switches 1 and 3 at the bottom part of SLS gateway, others must be')}} <code>OFF</code>. {{$ts('Then connect the gateway to your computer via the USB type-C port.')}}</p>
-                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-4.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-4.png" alt="pic"></g-image>
+                <p>{{$ts('Now you need to set up the gateway for software installation. We advise you to update the firmware by connecting the gateway directly to your Raspberry Pi and entering all of the following commands on that device. Set')}} <code>ON</code> {{$ts('switches 1 and 3 at the bottom part of SLS gateway, others must be')}} <code>OFF</code>. {{$ts('Then connect the gateway to your Raspberry Pi the USB type-C port.')}}</p>
+                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-1.jpg')"  src="../../../assets/images/smart-house-course/lesson-4-b-1.jpg" alt="pic"></g-image>
+              </li>
+              <li>
+                <p>{{$ts('Connect to the Raspberry Pi via SSH.')}}</p>
+                <prism language="bash">ssh ubuntu@192.168.xxx.xxx</prism>
               </li>
               <li>
                 <p>{{$ts('Clone the repository with firmware:')}}</p>
-                <prism language="bash" class="big-code">git clone https://github.com/LoSk-p/robonomics-hass-utils.git</prism>
+                <prism language="bash" class="big-code">git clone https://github.com/airalab/robonomics-hass-utils.git</prism>
               </li>
               <li>
-                <p>{{$ts('Go to robonomics-hass-utils/esp_firmware. To flash the SLS gateway you need to run')}} <code>Clear</code> {{$ts('and')}} <code>Flash_16mb</code> {{$ts('scripts from a folder, which name depends on your OS.')}}</p>
-                <p>{{$ts('For UNIX-like system:')}}</p>
-                <prism language="bash">cd linux
+                <p>{{$ts('Go to robonomics-hass-utils/esp_firmware/linux. To flash the SLS gateway you need to run')}} <code>Clear</code> {{$ts('and')}} <code>Flash_16mb</code> {{$ts('scripts')}}.</p>
+                <prism language="bash">cd robonomics-hass-utils/esp_firmware/linux
 sudo chmod +x Clear.sh
 sudo chmod +x Flash_16mb.sh
 ./Clear.sh
 ./Flash_16mb.sh
                 </prism>
-                <p>{{$ts('For Windows systems just run corresponding executables. You will see the following, if the flashing was successful.')}}</p>
-                <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-5.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-5.png" alt="pic"></g-image>
+              </li>
+              <li class="no-bullet">
+                <p class="bold"> - {{$ts('Extra')}}</p>
+                <p>{{$ts('If you are experiencing problems updating the gateway firmware, you need to take additional steps:')}}</p>
+                <List>
+                  <li>
+                    <p>{{$ts('Make sure you have the pySerial module installed:')}}</p>
+                    <prism language="bash">pip install pyserial</prism>
+                  </li>
+                  <li>
+                    <p>{{$ts('Give your user access rights to the USB port:')}}</p>
+                    <prism language="bash">sudo usermod -a -G dialout $USER</prism>
+                  </li>
+                  <li>
+                    <p>{{$ts('In some cases, it is necessary to change the bandwidth setting in the script to update the firmware. Open the')}} <code>Flash_16mb.sh</code> {{$ts('script with the nano editor and change the baud parameter from')}} <code>921600</code> {{$ts('to a smaller value (for example, 115200).')}}</p>
+                  </li>
+                </List>
+              </li>
+              <li class="no-bullet">
+                <p class="bold">- {{$ts('Extra 2:')}}</p>
+                <p>{{$ts('We also provide options for updating the firmware using other operating systems (macOS and Windows). You can find corresponding scripts in a folder, which name depends on your OS.')}}</p>
               </li>
             </List>
           </li>
@@ -100,8 +122,8 @@ sudo chmod +x Flash_16mb.sh
               </li>
               <li>
                 <p>{{$ts('Find the local IP of the SLS gateway to access the web interface. For that you can use the')}} <g-link to="https://www.fing.com/products">Fing</g-link> {{$ts('app or')}} <code>arp -a</code> {{$ts('in your terminal or Nmap')}}:</p>
-                <prism language="bash">nmap -sn 192.168.yy.0/24</prism>
-                <p>{{$ts('where')}} <code class="bold">yy</code> {{$ts('is your IP address in the local network.')}}</p>
+                <prism language="bash">sudo nmap -sP 192.168.xxx.0/24</prism>
+                <p>{{$ts('where')}} <code class="bold">xxx</code> {{$ts('is your IP address in the local network. The gateway name should look like this:')}} <code>zgw****</code>. {{$ts('Open the web interface of the gateway by pasting the gateway IP into a browser.')}}</p>
               </li>
               <li>
                 <p>{{$ts('Go to')}} <code>Setting</code> -> <code>Hardware</code> {{$ts('and make sure that the settings look like on the image. Correct the settings if necessary and click')}} <code>Save</code> {{$ts('button')}}:</p>
@@ -176,6 +198,11 @@ sudo chmod +x Flash_16mb.sh
               <li>
                 <p>{{$ts('Configure automatically adding devices to Home Assistant. Go to')}} <code>Zigbee -> Config</code> {{$ts('then choose')}} <code>Home Assistant MQTT Discovery</code> {{$ts('and')}} <code>Clear States</code>. {{$ts('Save changes and again reboot SLS gateway.')}}</p>
                 <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-10.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-10.png" alt="pic"></g-image>
+              </li>
+              <li class="no-bullet">
+                <p class="bold">- {{$ts('Extra:')}}</p>
+                <p>{{$ts('If you already have an active SLS gateway in your home, and you are now configuring another one, then they will conflict with each other. To solve this problem you need to change the channel on the new device.')}}</p>
+                <p>{{$ts('To do this, go to')}} <code>Zigbee -> Config</code> {{$ts('and change the channel to another one (e.g. channel 15).')}}</p>
               </li>
               <li>
                 <p>{{$ts('Connect your devices by going to')}} <code>Zigbee -> Join</code>. {{$ts('Put your sensors in pairing mode, the most common way to switch a device to connect mode is to hold its power button or switch them on/off for 5 times.')}}</p>

@@ -26,7 +26,7 @@
           <li>
             <p> <g-link to="https://robonomics.network/">{{$ts('Robonomics Network')}}</g-link> {{$ts('- a decentralized cloud for secure and reliable control of IoT applications. It uses web3 technologies, which incorporates decentralization and blockchain technologies for the protection of smart devices and their data.')}}</p>
             <p>{{$ts(`The main functionality of Robonomics is implemented based on a blockchain (parachain) of the Polkadot/Kusama ecosystem. Among the main functions of the parachain is the ability to send a command to launch the device and being able to store user data on the blockchain.`)}}</p>
-            <p>{{$ts(`By default, each time a user sends a transaction to the parachain, they must pay a fee (in XRT tokens) But the Robonomics parachain has an IoT subscription feature that allows users to send transactions to the parachain, without the fee, for the period of one  month. In the practical section of this course, you will use the subscription method.`)}}</p>
+            <p>{{$ts(`The Robonomics parachain has an IoT subscription feature that allows users to send transactions to the parachain, without the fee, for the period of one  month. In the practical section of this course, you will use the subscription method.`)}}</p>
             <p>{{$ts('The interaction between the IoT hub and the Robonomics parachain is accomplished using')}} <g-link to="https://github.com/Multi-Agent-io/Robonomics-interface">{{$ts('robonomics-interface')}}</g-link> {{$ts('— Python library which specializes in interfacing with Robonomics to convenient programming.')}}</p>
           </li>
           
