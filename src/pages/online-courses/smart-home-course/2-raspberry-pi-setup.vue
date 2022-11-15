@@ -86,7 +86,7 @@
                 <p>{{$ts('Then find your address in your local network. It should look like')}} <code>192.168.xxx.xxx</code> {{$ts('or')}} <code>172.xxx.xxx.xxx.</code> {{$ts('Pay attention as nmap can find many addresses on your local network.')}}</p>
                 <prism language="bash"> ip a </prism>
                 <p>{{$ts('Then scan your network as shown below replacing the last octet of the address with')}} <code>0:</code></p>
-                <prism language="bash">$ sudo nmap -sP 192.168.xxx.0/24</prism>
+                <prism language="bash">sudo nmap -sP 192.168.xxx.0/24</prism>
                 <p>{{$ts('The output of the command will be something like this:')}}</p>
                 <prism language="bash" class="big-code">
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-26 13:50 CEST

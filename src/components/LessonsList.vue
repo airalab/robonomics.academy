@@ -21,6 +21,7 @@
                 <p class="line">
                     <span v-if="lesson.activity">{{$ts(lesson.activity)}}</span>
                     <span v-if="lesson.time">{{$ts(lesson.time)}}</span>
+                    <span v-if="lesson.tools">/ {{$ts(lesson.tools)}}</span>
                 </p>
             </div>
 

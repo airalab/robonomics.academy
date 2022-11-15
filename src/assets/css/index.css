@@ -356,6 +356,11 @@ code {
   margin-bottom: var(--gap);
 }
 
+
+.no-bullet::before {
+  display: none !important;
+}
+
 .popup, .popup-js {
   display: none;
   opacity: 0;

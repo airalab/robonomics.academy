@@ -2769,8 +2769,8 @@
 - alias: The main functionality of Robonomics is implemented based on a blockchain (parachain) of the Polkadot/Kusama ecosystem. Among the main functions of the parachain is the ability to send a command to launch the device and being able to store user data on the blockchain.
   en: The main functionality of Robonomics is implemented based on a blockchain (parachain) of the Polkadot/Kusama ecosystem. Among the main functions of the parachain is the ability to send a command to launch the device and being able to store user data on the blockchain.
 
-- alias: By default, each time a user sends a transaction to the parachain, they must pay a fee (in XRT tokens) But the Robonomics parachain has an IoT subscription feature that allows users to send transactions to the parachain, without the fee, for the period of one  month. In the practical section of this course, you will use the subscription method.
-  en: By default, each time a user sends a transaction to the parachain, they must pay a fee (in XRT tokens) But the Robonomics parachain has an IoT subscription feature that allows users to send transactions to the parachain, without the fee, for the period of one  month. In the practical section of this course, you will use the subscription method.
+- alias: The Robonomics parachain has an IoT subscription feature that allows users to send transactions to the parachain, without the fee, for the period of one  month. In the practical section of this course, you will use the subscription method.
+  en: The Robonomics parachain has an IoT subscription feature that allows users to send transactions to the parachain, without the fee, for the period of one  month. In the practical section of this course, you will use the subscription method.
 
 - alias: The interaction between the IoT hub and the Robonomics parachain is accomplished using
   en: The interaction between the IoT hub and the Robonomics parachain is accomplished using
@@ -3339,29 +3339,53 @@
 - alias: Installing Microcontroller Firmware
   en: Installing Microcontroller Firmware
 
-- alias: Now you need to set up the gateway for software installation. To do this, set
-  en: Now you need to set up the gateway for software installation. To do this, set
+- alias: Now you need to set up the gateway for software installation. We advise you to update the firmware by connecting the gateway directly to your Raspberry Pi and entering all of the following commands on that device. Set
+  en: Now you need to set up the gateway for software installation. We advise you to update the firmware by connecting the gateway directly to your Raspberry Pi and entering all of the following commands on that device. Set
 
 - alias: switches 1 and 3 at the bottom part of SLS gateway, others must be
   en: switches 1 and 3 at the bottom part of SLS gateway, others must be
 
-- alias: Then connect the gateway to your computer via the USB type-C port.
-  en: Then connect the gateway to your computer via the USB type-C port.
+- alias: Then connect the gateway to your Raspberry Pi the USB type-C port.
+  en: Then connect the gateway to your Raspberry Pi the USB type-C port.
+
+- alias: Connect to the Raspberry Pi via SSH.
+  en: Connect to the Raspberry Pi via SSH.
 
 - alias: "Clone the repository with firmware:"
   en: "Clone the repository with firmware:"
 
-- alias: Go to robonomics-hass-utils/esp_firmware. To flash the SLS gateway you need to run
-  en: Go to robonomics-hass-utils/esp_firmware. To flash the SLS gateway you need to run
+- alias: Go to robonomics-hass-utils/esp_firmware/linux. To flash the SLS gateway you need to run
+  en: Go to robonomics-hass-utils/esp_firmware/linux. To flash the SLS gateway you need to run
 
-- alias: scripts from a folder, which name depends on your OS.
-  en: scripts from a folder, which name depends on your OS.
+- alias: scripts
+  en: scripts
 
-- alias: "For UNIX-like system:"
-  en: "For UNIX-like system:"
+- alias: "If you are experiencing problems updating the gateway firmware, you need to take additional steps:"
+  en: "If you are experiencing problems updating the gateway firmware, you need to take additional steps:"
 
-- alias: For Windows systems just run corresponding executables. You will see the following, if the flashing was successful.
-  en: For Windows systems just run corresponding executables. You will see the following, if the flashing was successful.
+- alias: "Make sure you have the pySerial module installed:"
+  en: "Make sure you have the pySerial module installed:"
+
+- alias: "Give your user access rights to the USB port:"
+  en: "Give your user access rights to the USB port:"
+
+- alias: In some cases, it is necessary to change the bandwidth setting in the script to update the firmware. Open the
+  en: In some cases, it is necessary to change the bandwidth setting in the script to update the firmware. Open the
+
+- alias: script with the nano editor and change the baud parameter from
+  en: script with the nano editor and change the baud parameter from
+
+- alias: to a smaller value (for example, 115200).
+  en: to a smaller value (for example, 115200).
+
+- alias: Extra
+  en: Extra
+
+- alias: "Extra 2:"
+  en: "Extra 2:"
+
+- alias: We also provide options for updating the firmware using other operating systems (macOS and Windows). You can find corresponding scripts in a folder, which name depends on your OS.
+  en: We also provide options for updating the firmware using other operating systems (macOS and Windows). You can find corresponding scripts in a folder, which name depends on your OS.
 
 - alias: Setting up the Gateway
   en: Setting up the Gateway
@@ -3405,8 +3429,20 @@
 - alias: where
   en: where
 
-- alias: is your IP address in the local network.
-  en: is your IP address in the local network.
+- alias: "is your IP address in the local network. The gateway name should look like this:"
+  en: "is your IP address in the local network. The gateway name should look like this:"
+
+- alias: Open the web interface of the gateway by pasting the gateway IP into a browser.
+  en: Open the web interface of the gateway by pasting the gateway IP into a browser.
+
+- alias: If you already have an active SLS gateway in your home, and you are now configuring another one, then they will conflict with each other. To solve this problem you need to change the channel on the new device.
+  en: If you already have an active SLS gateway in your home, and you are now configuring another one, then they will conflict with each other. To solve this problem you need to change the channel on the new device.
+
+- alias: To do this, go to
+  en: To do this, go to
+
+- alias: and change the channel to another one (e.g. channel 15).
+  en: and change the channel to another one (e.g. channel 15).
 
 - alias: Go to
   en: Go to
