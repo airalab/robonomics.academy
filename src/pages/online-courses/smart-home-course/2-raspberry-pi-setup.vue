@@ -181,7 +181,7 @@ pip3 install homeassistant==2022.8.2
 cd ~
 wget https://raw.githubusercontent.com//airalab/homeassistant-robonomics-integration/main/install_ipfs.sh
 sudo chmod +x install_ipfs.sh
-./install_ipfs.s
+./install_ipfs.sh
 
                 </prism>
               </li>
