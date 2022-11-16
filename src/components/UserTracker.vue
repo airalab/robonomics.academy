@@ -139,4 +139,10 @@ export default {
     }
   }
 
+  @media (prefers-color-scheme: dark) {
+    .user-tracker__btn {
+      color: var(--color-brown-dark) !important;
+    }
+   }
+
 </style>

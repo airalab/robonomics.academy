@@ -227,4 +227,10 @@ export default {
         }
     }
 
+    @media (prefers-color-scheme: dark) { 
+        .header .expand__content a {
+            color: var(--color-actions);
+        }
+    }
+
 </style>
