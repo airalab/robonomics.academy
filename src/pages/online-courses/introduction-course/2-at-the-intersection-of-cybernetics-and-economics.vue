@@ -33,8 +33,8 @@
       <section class="container__reg">
         <h2>{{$ts('Instructions')}}</h2>
         <List type="numbers">
-          <li>{{$ts('Read the first chapter of Whitepaper 2022 on our')}} <g-link to="https://robonomics.network/vision/">{{$ts('website')}}</g-link></li>
-          <li>{{$ts('After reading, go and try to pass')}} <g-link to="https://lesson2.robonomics.academy/#/">{{$ts('the test')}}</g-link> {{$ts('for the second lesson in the special dapp. You will be asked 17 questions, and we hope they will inspire you to think deeper about the ideas that we have presented to you. To pass the test, you need to score 10 correct answers out of 17 (60%, the standard value in academic practice).')}}</li>
+          <li>{{$ts('Read the first chapter of Whitepaper 2022 on our')}} <g-link to="https://robonomics.network/vision/">{{$ts('website')}}</g-link>.</li>
+          <li>{{$ts('After reading, go and try to pass')}} <g-link to="https://lesson2.robonomics.academy/#/">{{$ts('the test')}}</g-link> {{$ts('for the second lesson in the special dapp. You will be asked 17 questions, and we hope they will inspire you to think deeper about the ideas that we have presented to you. To pass the test, you need to score 10 correct answers out of 17 (60%, the standard value in academic practice).')}} {{$ts('Try to get as many correct answers as possible, if you pass the test by 90% you will get bonus tokens for Lesson 5.')}}</li>
           <li>{{$ts('You need to use the same polkadot.js account for the test dapp that you used in the previous lesson. Simply mark your answers in the dapp and at the end click on the ‘Sign and send’ button.')}}</li>
           <li>{{$ts('As in the previous lesson, sign your transaction and check it on the Polkadot explorer.')}}</li>
         </List>

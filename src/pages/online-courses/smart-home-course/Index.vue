@@ -19,7 +19,7 @@
           {{$ts('You have a single point of failure in the form of centralized vendor cloud servers.')}}
         </li>
       </List>
-      <p>{{$ts('At the dawn of the development of smart homes, it was difficult to imagine a situation where the average user could easily deploy their own local home automation system. But now, thanks to widespread IoT standards, cheap hardware and open-source home automation systems, this vision has become affordable. And thanks to  the use of a decentralized cloud based on web3 technologies, it is now possible to provide secure remote access to smart devices')}}</p>
+      <p>{{$ts('At the dawn of the development of smart homes, it was difficult to imagine a situation where the average user could easily deploy their own local home automation system. But now, thanks to widespread IoT standards, cheap hardware and open-source home automation systems, this vision has become affordable. And thanks to  the use of a decentralized cloud based on web3 technologies, it is now possible to provide secure remote access to smart devices')}}.</p>
     </section>
 
     <section class="container__narrow text__hyphened">
@@ -36,7 +36,7 @@
       <List>
         <li>{{$ts('Raspberry Pi 4 (at least 2 GB RAM)')}}</li>
         <li>{{$ts('SD card (minimum 16 GB) and SD adapter')}}</li>
-        <li>{{$ts('Zigbee smart devices (any from')}} <g-link to="https://slsys.io/ru/action/supported_devices.html">{{$ts('supported devices')}}</g-link>)</li>
+        <li>{{$ts('Zigbee smart devices (any from)')}} <g-link to="https://slsys.io/ru/action/supported_devices.html">{{$ts('supported devices')}}</g-link>)</li>
         <li>{{$ts('Zigbee adapter')}} <g-link to="https://jethome.ru/z2/?sl=en">{{$ts('JetHome USB JetStick Z2')}}</g-link> ({{$ts('or')}} <g-link to="https://www.zigbee2mqtt.io/guide/adapters/">{{$ts('one of supported')}}</g-link>) {{$ts('or')}} <g-link to="https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01">{{$ts('Robonomics SLS Gateway')}}</g-link></li>
         <li>{{$ts('Preferably: computer with UNIX-like operating system.')}}</li>
         <li><span class="accent">{{$ts('Attention')}}</span>: {{$ts('to flash the SLS Gateway, you will need a Windows operating system.')}}</li>

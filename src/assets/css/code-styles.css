@@ -310,3 +310,10 @@ pre[class*="language-"] {
 }
 
 /* end of dark theme */
+
+@media screen and (max-width: 520px) {
+  .code-toolbar pre {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2rem !important;
+   }
+}

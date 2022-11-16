@@ -5,7 +5,7 @@
         <p>{{$ts('Now you may apply for IPFS certificate. What you may do with this:')}}</p>
         <List type="plus">
           <li>{{$ts('Add certificate to your LinkedIn profile')}}</li>
-          <li>{{$ts('Apply for')}} <g-link to="https://robonomics.network/ambassador-program/">{{$ts('Robonomics ambassador program')}}</g-link></li>
+          <li>{{$ts('Apply for')}} <g-link to="https://robonomics.network/ambassador-program/">{{$ts('Robonomics Ambassador program')}}</g-link></li>
           <li>{{$ts('Print it on your wall')}}</li>
         </List>
         <section class="section__small text__center">

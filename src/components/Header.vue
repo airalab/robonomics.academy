@@ -18,7 +18,7 @@
             <summary>i</summary>
 
             <div class="expand__content text__hyphened">
-                <p>{{$ts('We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to')}} <g-link to="https://discord.gg/kFPqNktKrJ">{{$ts('discuss with us')}}</g-link> {{$ts('your suggestions and report about bugs.')}}</p>
+                <p>{{$ts('We plan to expand Robonomics Academy courses and available lessons may be imperfect. Please feel free to')}} <g-link to="https://discord.gg/kFPqNktKrJ">{{$ts('discuss with us')}}</g-link> {{$ts('your suggestions and report about bugs.')}}</p>
             </div>
             </details>
         </div>

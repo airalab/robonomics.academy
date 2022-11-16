@@ -14,7 +14,7 @@
     <section class="text__hyphened">
       <section class="container__narrow">
         <h2>{{$ts("What's this about")}}</h2>
-        <p>{{$ts("This is a scenario setup for connecting devices using the Robonomics SLS Gateway. Robonomics took design inspiration from the  gateway developed by the")}} <g-link to="https://github.com/slsys/Gateway">{{$ts("Smart Logic System")}}</g-link> {{$ts('project and modified part of the circuitry. You can order a gateway from Robonomics or build your own using our')}} <g-link to="https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01">{{$ts('blueprints')}}</g-link>
+        <p>{{$ts("This is a scenario setup for connecting devices using the Robonomics SLS Gateway. Robonomics took design inspiration from the  gateway developed by the")}} <g-link to="https://github.com/slsys/Gateway">{{$ts("Smart Logic System")}}</g-link> {{$ts('project and modified part of the circuitry. You can order a gateway from Robonomics or build your own using our')}} <g-link to="https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01">{{$ts('blueprints')}}.</g-link>
         </p>
         <p>{{$ts('You will install the required software for the gateway, configure it and connect it to Home Assistant.')}}</p>
       </section>
@@ -37,7 +37,7 @@
               </li>
               <li>
                 <p>
-                  {{$ts(`The CC2652 firmware requires SmartRF Flash Programmer v2 from Texas Instrument.  Download it from`)}} <g-link to="https://www.ti.com/tool/download/FLASH-PROGRAMMER-2">{{$ts('the official site')}}</g-link> {{$ts('and then install')}} <span class="accent bold">{{$ts('Attention')}}:</span> {{$ts('SmartRF Flash Programmer requires Windows operating system')}}
+                  {{$ts(`The CC2652 firmware requires SmartRF Flash Programmer v2 from Texas Instrument. Download it from`)}} <g-link to="https://www.ti.com/tool/download/FLASH-PROGRAMMER-2">{{$ts('the official site')}}</g-link> {{$ts('and then install')}} <span class="accent bold">{{$ts('Attention')}}:</span> {{$ts('SmartRF Flash Programmer requires Windows operating system')}}
                 </p>
               </li>
               <li>
@@ -218,7 +218,7 @@ sudo chmod +x Flash_16mb.sh
                 <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-11.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-11.png" alt="pic"></g-image>
               </li>
               <li>
-                <p>{{$ts('Add your broker address (address of the Raspberry Pi with Home Assistant in local network, you can find it in')}} <g-link to="https://www.fing.com/products">Fing</g-link> {{$ts('app or with')}} <code>ip -a</code> {{$ts('command on your RPi), port (default is 1883) your broker username and password (which you have created earlier) and the topic name (you can choose any). Also, the Raspberry Pi IP address must be static')}}</p>
+                <p>{{$ts('Add your broker address (address of the Raspberry Pi with Home Assistant in local network, you can find it in')}} <g-link to="https://www.fing.com/products">Fing</g-link> {{$ts('app or with')}} <code>ip -a</code> {{$ts('command on your RPi), port (default is 1883) your broker username and password (which you have created earlier) and the topic name (you can choose any). Also, the Raspberry Pi IP address must be static')}}.</p>
                 <p>{{$ts(`Don't forget to click`)}} <code>Enable</code> {{$ts('and')}} <code>Retain states</code>.</p>
                 <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-4-b-12.png')"  src="../../../assets/images/smart-house-course/lesson-4-b-12.png" alt="pic"></g-image>
               </li>
