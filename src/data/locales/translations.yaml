@@ -33,12 +33,12 @@
   ru: Подать заявку на сертификат
   pt: Solicitação de certificado
 
-- alias: We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to
-  en: We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to
-  es: Planeamos expandir los cursos de la academia Robonomics y las lecciones disponibles pueden ser imperfectas. Por favor, rellene libremente
-  it: Abbiamo in programma di espandere i corsi della Robonomics academye e le lezioni disponibili potrebbero essere imperfette. Per favore sentitevi liberi di
-  ru: "Мы планируем расширять курсы академии Робономика, и доступные уроки могут быть несовершенны. Будем рады"
-  pt: Planejamos expandir os cursos da academia Robonomics e as lições disponíveis podem ser incompletas. Por favor, preencha gratuitamente para
+- alias: We plan to expand Robonomics Academy courses and available lessons may be imperfect. Please feel free to
+  en: We plan to expand Robonomics Academy courses and available lessons may be imperfect. Please feel free to
+  es: Planeamos expandir los cursos de la Academia Robonomics y las lecciones disponibles pueden ser imperfectas. Por favor, rellene libremente
+  it: Abbiamo in programma di espandere i corsi della Robonomics Academye e le lezioni disponibili potrebbero essere imperfette. Per favore sentitevi liberi di
+  ru: "Мы планируем расширять курсы Aкадемии Робономика, и доступные уроки могут быть несовершенны. Будем рады"
+  pt: Planejamos expandir os cursos da Academia Robonomics e as lições disponíveis podem ser incompletas. Por favor, preencha gratuitamente para
 
 - alias: discuss with us
   en: discuss with us
@@ -110,12 +110,12 @@
   ru: Подать заявку 
   pt: Inscrever-se no
 
-- alias: Robonomics ambassador program
-  en: Robonomics ambassador program
-  es: El Programa de embajadores de Robonomics
-  it: L'ambassador program di Robonomics
-  ru: на участие в программе амбассадоров Робономики
-  pt: programa de embaixadores da Robonomics
+- alias: Robonomics Ambassador program
+  en: Robonomics Ambassador program
+  es: El Programa de Embajadores de Robonomics
+  it: L'Ambassador program di Robonomics
+  ru: на участие в программе Амбассадоров Робономики
+  pt: programa de Embaixadores da Robonomics
 
 - alias: Print it on your wall
   en: Print it on your wall
@@ -152,12 +152,12 @@
   ru: Вы в списке
   pt: Você está na lista
 
-- alias: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
-  en: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
+- alias: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team from Robonomics Network
+  en: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team from Robonomics Network
   es: Al enviar este formulario, acepta recibir correos electrónicos con notificaciones y actualizaciones descentralizadas de código abierto del equipo de Robonomics Network
   it: Inviando questo modulo accetti di ricevere e-mail con notifiche e aggiornamenti dal team decentralizzato open source di Robonomics Network
-  ru: Отправляя эту форму, вы соглашаетесь получать электронные письма с уведомлениями и обновлениями от децентрализованной команды Robonomics Network с доступным исходным кодом.
-  pt: Ao enviar este formulário você concorda em receber e-mails com notificações e atualizações da equipe descentralizada de código aberto da Robonomics Network.
+  ru: Отправляя эту форму, вы соглашаетесь получать электронные письма с уведомлениями и обновлениями от децентрализованной команды Robonomics Network с доступным исходным кодом
+  pt: Ao enviar este formulário você concorda em receber e-mails com notificações e atualizações da equipe descentralizada de código aberto da Robonomics Network
 
 - alias: Get new skills in using modern web technologies to build IoT solutions.
   en: Get new skills in using modern web technologies to build IoT solutions.
@@ -1610,6 +1610,15 @@
   it: Ispirazione
   pt: Inspiração
 
+- alias: We created this dapp for the purpose of setting the mood, and setting the right tone for the rest of the course. The idea of dapp conveys the spirit of a dystopia in which most of a human life exists on a black screen and everyone can spy on this life.
+  en: We created this dapp for the purpose of setting the mood, and setting the right tone for the rest of the course. The idea of dapp conveys the spirit of a dystopia in which most of a human life exists on a black screen and everyone can spy on this life.
+
+- alias: Technologies inexorably entered into our lives and very often technology becomes intertwined with our lives more deeply than some of us would like. There is a long-standing and difficult question from the field of philosophy about the opposition of the public and the private parts of human life. That is why we in Robonomics want to implement web3 in the IoT field. We want to make it impossible to instantly change the name of every person on the planet to an identification code without the consent of the person. 
+  en: Technologies inexorably entered into our lives and very often technology becomes intertwined with our lives more deeply than some of us would like. There is a long-standing and difficult question from the field of philosophy about the opposition of the public and the private parts of human life. That is why we in Robonomics want to implement web3 in the IoT field. We want to make it impossible to instantly change the name of every person on the planet to an identification code without the consent of the person. 
+
+- alias: Next-generation Internet technologies can help improve the relationship between people and machines, make smart devices more independent and faster in providing services to people, and importantly, make it impossible to take control of all people with the help of machines. This is how we see the best scenario for integrating robots into humans’ daily lives.
+  en: Next-generation Internet technologies can help improve the relationship between people and machines, make smart devices more independent and faster in providing services to people, and importantly, make it impossible to take control of all people with the help of machines. This is how we see the best scenario for integrating robots into humans’ daily lives.
+
 - alias: We created this dapp for the purpose of setting the mood, and setting the right tone for the rest of the course. Its idea captures the spirit of dystopia as something of vital importance, floating around in the embodiment of QR codes, physiological tests for crossing international boundaries… life on a screen and in a box. At such moments of global anxiety, the truth, imperceptible in the daily life of big cities, is exposed. Technologies are already inexorably entering into our lives and very often technology becomes intertwined with our lives more deeply than some of us individually would like. Yes, there is a long-standing and difficult question from the field of philosophy about the opposition of the public and the private. But still, we want to implement and help grow web3 in the field of IoT now at an early stage, so that it would not be possible to change the name of everyone on the planet to an identification code in an instant and without their consent. The new generation of Internet technologies will help improve the relationship between humans and machines, make smart devices more independent and faster in providing services to people, and importantly, not give control of one person over another with the help of machines. This is how we see the best scenario for integrating robots into humans’ daily lives.
   en: We created this dapp for the purpose of setting the mood, and setting the right tone for the rest of the course. Its idea captures the spirit of dystopia as something of vital importance, floating around in the embodiment of QR codes, physiological tests for crossing international boundaries… life on a screen and in a box. At such moments of global anxiety, the truth, imperceptible in the daily life of big cities, is exposed. Technologies are already inexorably entering into our lives and very often technology becomes intertwined with our lives more deeply than some of us individually would like. Yes, there is a long-standing and difficult question from the field of philosophy about the opposition of the public and the private. But still, we want to implement and help grow web3 in the field of IoT now at an early stage, so that it would not be possible to change the name of everyone on the planet to an identification code in an instant and without their consent. The new generation of Internet technologies will help improve the relationship between humans and machines, make smart devices more independent and faster in providing services to people, and importantly, not give control of one person over another with the help of machines. This is how we see the best scenario for integrating robots into humans’ daily lives.
   es: Creamos esta dapp con el propósito de establecer el estado de ánimo y establecer el tono adecuado para el resto del curso. Su idea captura el espíritu de la distopía como algo de vital importancia, flotando en la materialización de códigos QR, pruebas fisiológicas para cruzar fronteras internacionales… la vida en una pantalla y en una caja. En tales momentos de zozobra global, se expone la verdad, imperceptible en el día a día de las grandes ciudades. Las tecnologías ya están entrando inexorablemente en nuestras vidas y, muy a menudo, la tecnología se entrelaza con nuestras vidas más profundamente de lo que a algunos de nosotros nos gustaría individualmente. Sí, hay una vieja y difícil pregunta desde el campo de la filosofía sobre la oposición de lo público y lo privado. Pero aún así, queremos implementar y ayudar a crecer web3 en el campo de IoT ahora en una etapa temprana, para que no sea posible cambiar el nombre de todos en el planeta a un código de identificación en un instante y sin su consentimiento. La nueva generación de tecnologías de Internet ayudará a mejorar la relación entre humanos y máquinas, hará que los dispositivos inteligentes sean más independientes y rápidos en la prestación de servicios a las personas y, lo que es más importante, no otorgará el control de una persona sobre otra con la ayuda de máquinas. Así es como vemos el mejor escenario para integrar robots en la vida diaria de los humanos.
@@ -1645,15 +1654,15 @@
   it: Richiedi l'accesso all'abbonamento IoT gratuito speciale per il corso, sul nostro server Discord. Per farlo, devi trovare il nostro
   pt: Solicite acesso à assinatura IoT gratuita, especial para o curso, em nosso servidor Discord. Para isso, você precisa encontrar nosso
 
-- alias: Discord bot
-  en: Discord bot
+- alias: Discord chatbot
+  en: Discord chatbot
   es: Bot de Discord
   ru: бота в Discord
   it: Discord bot
   pt: bot para Discord
 
-- alias: called “academy-faucet” and enter your Robonomics Parachain address from polkadot.js extension.
-  en: called “academy-faucet” and enter your Robonomics Parachain address from polkadot.js extension.
+- alias: called “academy-faucet”. Find it in the chat list and enter your Robonomics Parachain address from polkadot.js extension.
+  en: called “academy-faucet”. Find it in the chat list and enter your Robonomics Parachain address from polkadot.js extension.
   es: llamado "academy-faucet" e ingrese su dirección Robonomics Parachain de la extensión polkadot.js.
   ru: под названием «academy-faucet» и ввести свой адрес парачейна Робономики из расширения polkadot.js.
   it: chiamato "academy-faucet" e inserisci il tuo indirizzo Robonomics dall'estensione polkadot.js.
@@ -1666,15 +1675,15 @@
   it: Vai alla
   pt: Vá para o
 
-- alias: dapp
-  en: dapp
-  es: dapp
-  ru: в dapp 
-  it: dapp
-  pt: dapp 
+- alias: Black Mirror dapp
+  en: Black Mirror dapp
+  es: Black Mirror dapp
+  ru: в Black Mirror dapp 
+  it: Black Mirror dapp
+  pt: Black Mirror dapp 
 
-- alias: and allow the dapp access to polkadot.js extension. Make sure that you select the correct account, that gets a free IoT subscription.
-  en: and allow the dapp access to polkadot.js extension. Make sure that you select the correct account, that gets a free IoT subscription.
+- alias: and allow the dapp access to polkadot.js extension. Make sure that you select the correct account, that got the free IoT subscription.
+  en: and allow the dapp access to polkadot.js extension. Make sure that you select the correct account, that got the free IoT subscription.
   es: y permita el acceso de la dapp a la extensión polkadot.js. Asegúrese de seleccionar la cuenta correcta, que obtuvo una suscripción gratuita de IoT.
   ru: и разрешите dapp доступ к расширению polkadot.js. Убедитесь, что вы выбрали правильную учетную запись с бесплатной IoT-подпиской.
   it: e consenti alla dapp di accedere all'estensione polkadot.js. Assicurati di selezionare l'account corretto, che ha ottenuto un abbonamento IoT gratuito.
@@ -1834,10 +1843,13 @@
   it: della seconda lezione nella dapp speciale. Ti verranno poste 17 domande che speriamo ti possano ispirare un pensiero più profondo sulle idee che ti abbiamo presentato. Per superare il test devi ottenere almeno 10 risposte corrette su 17 (60%, il valore standard nella pratica accademica).
   pt: para a segunda lição no dapp especial. Serão feitas 17 perguntas, e esperamos que elas o inspirem a pensar mais a fundo sobre as ideias que lhe apresentamos. Para ser aprovado no teste, você precisa conseguir 10 respostas corretas de 17 (60%, o valor padrão na prática acadêmica).
 
+- alias: Try to get as many correct answers as possible, if you pass the test by 90% you will get bonus tokens for Lesson 5.
+  en: Try to get as many correct answers as possible, if you pass the test by 90% you will get bonus tokens for Lesson 5.
+
 - alias: You need to use the same polkadot.js account for the test dapp that you used in the previous lesson. Simply mark your answers in the dapp and at the end click on the ‘Sign and send’ button.
   en: You need to use the same polkadot.js account for the test dapp that you used in the previous lesson. Simply mark your answers in the dapp and at the end click on the ‘Sign and send’ button.
   es: Debe usar la misma cuenta de polkadot.js para la dapp de prueba que usó en la lección anterior. Simplemente marque sus respuestas en la dapp y al final haga clic en el botón 'Firmar y enviar'.
-  ru: Вам нужно использовать тот же аккаунт polkadot.js polkadot.js, который вы использовали в предыдущем уроке. Просто отметьте свои ответы в dapp и в конце нажмите кнопку «Подписать и отправить».
+  ru: Вам нужно использовать тот же аккаунт polkadot.js, который вы использовали в предыдущем уроке. Просто отметьте свои ответы в dapp и в конце нажмите кнопку «Подписать и отправить».
   it: Nella dapp del test devi utilizzare lo stesso account polkadot.js che hai utilizzato per la lezione precedente. Seleziona semplicemente le tue risposte nella dapp e poi fai clic sul pulsante "Sign and send".
   pt: Você precisa usar a mesma conta polkadot.js para o dapp de teste que você usou na lição anterior. Basta marcar suas respostas no dapp e no final clicar no botão 'Assinar e enviar'.
 
@@ -1906,13 +1918,13 @@
 
 - alias: on our wiki
   en: on our wiki
-  ru: на нашем сайте wiki.
-  it: sul nostro wiki.
-  pt: em nosso wiki.
-  es: en nuestra wiki.
+  ru: на нашем сайте wiki
+  it: sul nostro wiki
+  pt: em nosso wiki
+  es: en nuestra wiki
 
-- alias: Open Robonomics
-  en: Open Robonomics
+- alias: Open the Robonomics
+  en: Open the Robonomics
   ru: Откройте портал
   it: Apri Robonomics
   pt: Abra o portal 
@@ -1933,15 +1945,28 @@
   pt: Você deve ver o menu Extrinsics (funções no ecossistema Polkadot).
   es: Debería ver el menú Extrinsecs (funciones en el ecosistema de Polkadot).
 
-- alias: In the first field pick the same polkadot.js account that you used in the previous lesson.
-  en: In the first field pick the same polkadot.js account that you used in the previous lesson.
+
+- alias: If stuck, then using the menu in the top left of the page, navigate to
+  en: If stuck, then using the menu in the top left of the page, navigate to
+
+- alias: and press
+  en: and press
+
+- alias: Then navigate to
+  en: Then navigate to
+
+- alias: in the top header, and then to
+  en: in the top header, and then to
+
+- alias: In the first field where you can read "using the selected account", pick the same polkadot.js account that you've used in the previous lessons.
+  en: In the first field where you can read "using the selected account", pick the same polkadot.js account that you've used in the previous lessons.
   ru: В первом поле выберите тот же аккаунт polkadot.js, который вы использовали в предыдущем уроке.
   it: Nel primo campo scegli lo stesso account polkadot.js che hai utilizzato nelle lezioni precedenti.
   pt: No primeiro campo, escolha a mesma conta polkadot.js que você usou na lição anterior.
   es: En el primer campo, seleccione la misma cuenta de polkadot.js que utilizó en la lección anterior.
 
-- alias: In the second field pick
-  en: In the second field pick
+- alias: In the second field "submit the following extrinsic", select
+  en: In the second field "submit the following extrinsic", select
   ru: Во втором поле найдите
   it: Nel secondo campo scegli
   pt: No segundo campo escolha 
@@ -1954,8 +1979,8 @@
   pt: extrinsics e após escolha
   es: extrinsecs y elija 
 
-- alias: This will allow you to dispatch a function call using IoT subscription.
-  en: This will allow you to dispatch a function call using IoT subscription.
+- alias: This will allow you to dispatch a function call using the IoT subscription.
+  en: This will allow you to dispatch a function call using the IoT subscription.
   ru: Это позволит вам отправить вызов функции с помощью IoT-подписки.
   it: Questo ti consentirà di inviare una function call utilizzando l'abbonamento IoT.
   pt: Isso permitirá que você envie uma chamada de função usando a assinatura IoT.
@@ -1968,14 +1993,14 @@
   pt: No campo
   es: En el
 
-- alias: subscriptionId
-  en: subscriptionId
-  es: campo subscriptionId
-  ru: поле «subscriptionId» 
-  it: subscriptionId
+- alias: "subscriptionId: AccountId32"
+  en: "subscriptionId: AccountId32"
+  es: "campo subscriptionId: AccountId32"
+  ru: "поле «subscriptionId: AccountId32»" 
+  it: "subscriptionId: AccountId32"
 
-- alias: "field write this subscription's owner address:"
-  en: "field write this subscription's owner address:"
+- alias: "field paste this subscription's owner address:"
+  en: "field paste this subscription's owner address:"
   ru: "введите адрес владельца этой подписки:"
   it: "scrivi questo indirizzo proprietario dell'abbonamento:"
   pt: "escreva o endereço do proprietário desta assinatura:"
@@ -1988,8 +2013,8 @@
   pt: call
   es: campo Call
 
-- alias: field choose
-  en: field choose
+- alias: field choose the
+  en: field choose the
   ru: выберите
   it: scegli 
   pt: escolha o comando
@@ -2002,15 +2027,15 @@
   pt: "Isto irá mostrar mais dois campos:"
   es: "Esto le mostrará dos campos más:"
 
-- alias: "field write this address of smart bulb:"
-  en: "field write this address of smart bulb:"
+- alias: "field paste this address of the smart bulb:"
+  en: "field paste this address of the smart bulb:"
   ru: "введите адрес умной лампочки:"
   it: "scrivi questo indirizzo della lampadina intelligente:"
   pt: "escreva este endereço da lâmpada inteligente:"
   pr: "escriba esta dirección de bombilla inteligente:"
 
-- alias: field you need to specify
-  en: field you need to specify
+- alias: field you need to specify 1 (on) or 0 (off) to turn on/off the bulb. You can do this with
+  en: field you need to specify 1 (on) or 0 (off) to turn on/off the bulb. You can do this with
   ru: "нужно указать:"
   it: "devi specificare"
   pt: você precisa especificar
@@ -2086,6 +2111,9 @@
   pt: Esta é mais uma aula teórica. Nesta lição, você estudará a primeira metade do segundo capítulo do Whitepaper Robonomics 2022 intitulado “Arquitetura da Robonomics”. Particularmente, nesta lição, exploramos algumas das questões e desafios práticos que envolvem a criação de um sistema IoT que funcione bem. Exploramos essas questões porque essa é a única maneira de entender os requisitos para plataformas IoT como a Robonomics.
   es: Esta es otra lección teórica. En esta lección, estudiará la primera mitad del segundo capítulo del Whitepaper de Robonomics 2022 titulado "Arquitectura de Robonomics". En particular, en esta lección exploramos algunas de las preguntas prácticas y los desafíos relacionados con la creación de un sistema IoT que funcione bien. Exploramos estas preguntas porque esta es la única forma en que podemos entender los requisitos para plataformas IoT como Robonomics.
 
+- alias: This lesson is again dedicated to theory. You will study the first half of the second chapter of Robonomics Whitepaper 2022 titled “Robonomics Architecture”. Particularly, we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system. We explore these questions because this is the only way that we can understand the requirements for such IoT platforms as Robonomics.
+  en: This lesson is again dedicated to theory. You will study the first half of the second chapter of Robonomics Whitepaper 2022 titled “Robonomics Architecture”. Particularly, we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system. We explore these questions because this is the only way that we can understand the requirements for such IoT platforms as Robonomics.
+
 - alias: Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system.
   en: Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system.
   ru: В этом уроке мы рассмотрим некоторые практические вопросы и проблемы, связанные с созданием хорошо функционирующей IoT системы.
@@ -2121,8 +2149,8 @@
   pt: e como a arquitetura da Robonomics se adapta às necessidades da moderna Internet das Coisas.
   es: y cómo la arquitectura Robonomics se adapta a las necesidades del moderno Internet de las Cosas.
 
-- alias: Read the second chapter of Whitepaper 2022 on our
-  en: Read the second chapter of Whitepaper 2022 on our
+- alias: Read the first half of the second chapter of Whitepaper 2022 on our
+  en: Read the first half of the second chapter of Whitepaper 2022 on our
   ru: Прочтите вторую главу Whitepaper 2022 на нашем
   it: Leggi il secondo capitolo del Whitepaper 2022 sul nostro
   pt: Leia o segundo capítulo do Whitepaper 2022 em nosso
@@ -2204,12 +2232,15 @@
   pt: Você aprenderá como comprar uma assinatura IoT na Parachain Robonomics usando tokens reais da nossa rede.
   es: Aprenderá cómo comprar una suscripción de en Robonomics Parachain utilizando tokens reales de nuestra red.
 
-- alias: An IoT subscription is an access key to all functions related to changing the state of the digital twin of a cyber-physical system and storing information about it using the Polkadot / Kusama ecosystem. Owning one subscription guarantees that in each block of the blockchain there will be a place reserved for 1 transaction for the owner of the subscription.
-  en: An IoT subscription is an access key to all functions related to changing the state of the digital twin of a cyber-physical system and storing information about it using the Polkadot / Kusama ecosystem. Owning one subscription guarantees that in each block of the blockchain there will be a place reserved for 1 transaction for the owner of the subscription.
+- alias: An IoT subscription is an access key to all functions related to changing the state of the digital twin of a cyber-physical system and storing information about it using the Polkadot / Kusama ecosystem.
+  en: An IoT subscription is an access key to all functions related to changing the state of the digital twin of a cyber-physical system and storing information about it using the Polkadot / Kusama ecosystem.
   ru: IoT-подписка — это ключ доступа ко всем функциям, связанным с изменением состояния цифрового двойника кибер-физической системы и хранением информации о ней с помощью экосистемы Polkadot / Kusama. Владение одной подпиской гарантирует, что в каждом блоке блокчейна будет зарезервировано место для 1 транзакции для владельца подписки.
   it: Un abbonamento IoT è una chiave di accesso a tutte le funzioni relative al cambiamento di stato del digital twin di un sistema cyber-fisico e alla memorizzazione delle informazioni su di esso, utilizzando l'ecosistema Polkadot/Kusama. Possedere un abbonamento garantisce che in ogni blocco della blockchain ci sarà un posto riservato a 1 transazione per il proprietario dell'abbonamento.
   pt: Uma assinatura IoT é uma chave de acesso a todas as funções relacionadas à mudança do estado do gêmeo digital de um sistema ciberfísico e ao armazenamento de informações sobre ele usando o ecossistema Polkadot / Kusama. Possuir uma assinatura garante que em cada bloco da blockchain haverá um lugar reservado para 1 transação para o proprietário da assinatura.
   es: Una suscripción IoT es una clave de acceso a todas las funciones relacionadas con el cambio de estado del gemelo digital de un sistema ciberfísico y el almacenamiento de información sobre este utilizando el ecosistema Polkadot/Kusama. Ser propietario de una suscripción garantiza que en cada bloque de la blockchain habrá un lugar reservado para 1 transacción para el propietario de la suscripción.
+
+- alias: Owning one subscription get rid the user of a necessity from having to pay a fee for the transaction. Instead, the user can send one free transaction once in a certain period of time.
+  en: Owning one subscription get rid the user of a necessity from having to pay a fee for the transaction. Instead, the user can send one free transaction once in a certain period of time.
 
 - alias: "The main way to buy a subscription is to participate in the subscription auction, and therefore in this lesson you should get XRT tokens to make bids and submit transactions. More information about this process is also available on our wiki:"
   en: "The main way to buy a subscription is to participate in the subscription auction, and therefore in this lesson you should get XRT tokens to make bids and submit transactions. More information about this process is also available on our wiki:"
@@ -2246,6 +2277,9 @@
   pt: Solicitar
   es: Solicite
 
+- alias: Request in the robonomics-academy Discord chat
+  en: Request in the robonomics-academy Discord chat
+
 - alias: required number of tokens for the lesson if you successfully passed the tests after
   en: required number of tokens for the lesson if you successfully passed the tests after
   ru: необходимое количество жетонов за урок, если вы успешно прошли тесты после
@@ -2281,6 +2315,9 @@
   pt: XRT compatível com Polkadot 
   es: XRT compatible con Polkadot
 
+- alias: Polkadot native XRT tokens
+  en: Polkadot native XRT tokens
+
 - alias: "on"
   en: "on"
   ru: на
@@ -2295,19 +2332,25 @@
   pt: Kraken
   es: Kraken
 
-- alias: Be careful if you're not familiar with cryptocurrency exchanges, remember that all purchases on cryptocurrency exchanges may have potential risks, buy only required amount of token to pass this lesson.
-  en: Be careful if you're not familiar with cryptocurrency exchanges, remember that all purchases on cryptocurrency exchanges may have potential risks, buy only required amount of token to pass this lesson.
+- alias: on one of the exchanges.
+  en: on one of the exchanges.
+
+- alias: Be careful if you're not familiar with cryptocurrency exchanges, remember that all purchases on cryptocurrency exchanges may have potential risks, buy only required amount of token to pass this lesson (around 2 XRTs).
+  en: Be careful if you're not familiar with cryptocurrency exchanges, remember that all purchases on cryptocurrency exchanges may have potential risks, buy only required amount of token to pass this lesson (around 2 XRTs).
   ru: Будьте осторожны, если вы не знакомы с криптовалютными биржами, помните, что все покупки на криптовалютных биржах могут быть сопряжены с потенциальными рисками, покупайте только необходимое количество токенов, чтобы пройти этот урок.
   it: Fai attenzione se non hai familiarità con gli exchange di criptovalute, ricorda che tutti gli acquisti possono avere dei potenziali rischi, acquista solo la quantità di token necessaria a superare questa lezione.
   pt: Tenha cuidado se você não estiver familiarizado com corretoras de criptomoedas, lembre-se de que todas as compras em corretoras de criptomoedas podem ter riscos potenciais, compre apenas a quantidade necessária de tokens para passar nesta lição.
   es: Tenga cuidado si no está familiarizado con los intercambios de criptomonedas, recuerde que todas las compras en los intercambios de criptomonedas pueden tener riesgos potenciales, compre solo la cantidad requerida de token para aprobar esta lección.
 
-- alias: If you already have XRT but in ERC-20 format, use 
-  en: If you already have XRT but in ERC-20 format, use 
+- alias: If you already have XRT but in ERC-20 format or want to buy it, use 
+  en: If you already have XRT but in ERC-20 format or want to buy it, use 
   ru: Если у вас уже есть XRT, но в формате ERC-20, используйте
   it: Se hai già degli XRT in formato ERC-20, utilizza il
   pt: Se você já tem XRT mas no formato ERC-20, use o
   es: Si ya tienes XRT pero en formato ERC-20, usa
+
+- alias: If you already have XRT but in Ethereum ERC-20 format or want to buy it, use
+  en: If you already have XRT but in Ethereum ERC-20 format or want to buy it, use
 
 - alias: Exodus process
   en: Exodus process
@@ -2407,12 +2450,15 @@
   pt: tem
   es: tiene valor 
 
-- alias: value, then no one has this subscription and you can try to get it. If no auctions are shown or available, please contact us.
-  en: value, then no one has this subscription and you can try to get it. If no auctions are shown or available, please contact us.
+- alias: value, then no one has this subscription and you can try to get it. If no auctions are shown or available, please contact us on our
+  en: value, then no one has this subscription and you can try to get it. If no auctions are shown or available, please contact us on our 
   ru: ", то этой подписки нет ни у кого и можно попробовать ее получить. Если аукционы не отображаются или недоступны, свяжитесь с нами."
   it: come valore, allora nessuno ha questo abbonamento e puoi provare a ottenerlo. Se non viene mostrata nessuna asta o non sono disponibili, contattaci.
   pt: então ninguém tem esta assinatura e você pode tentar consegui-la. Se nenhum leilão for exibido ou estiver disponível, por favor, entre em contato conosco.
   es: entonces nadie tiene esta suscripción y puede intentar obtenerla. Si no se muestran subastas o no están disponibles, contáctenos.
+
+- alias: Discord (robonomics-academy chat).
+  en:  Discord (robonomics-academy chat).
 
 - alias: Now you can make a bid with your XRT tokens. Go to the Developer -> Extrinsic menu and for the same polkadot.js account that you used in the previous lesson, choose
   en: Now you can make a bid with your XRT tokens. Go to the Developer -> Extrinsic menu and for the same polkadot.js account that you used in the previous lesson, choose
@@ -2428,12 +2474,18 @@
   pt: entrar com o ID do leilão de interesse.
   es: ingrese el ID de la subasta interesada.
 
-- alias: field you should enter your number of tokens for the bid, converted to the “wieners” (1 XRT = 1 000 000 000 Wn). The minimal bid is 1 XRT.
-  en: field you should enter your number of tokens for the bid, converted to the “wieners” (1 XRT = 1 000 000 000 Wn). The minimal bid is 1 XRT.
-  ru: необходимо ввести количество токенов для вашей ставки, конвертированное в долю токена «wieners» (1 XRT = 1 000 000 000 Wn). Минимальная ставка составляет 1 XRT.
-  it: devi inserire il numero di Token per l'offerta, convertito in "wieners" (1 XRT = 1 000 000 000 Wn). L'offerta minima è 1 XRT.
-  pt: você deve inserir o seu número de tokens para o lance, convertido para os “wieners” (1 XRT = 1 000 000 000 Wn). O lance mínimo é de 1 XRT.
-  es: debe ingresar su número de tokens para la oferta, convertidos a "wieners" (1 XRT = 1 000 000 000 Wn). La oferta mínima es 1 XRT.
+- alias: field you should enter your number of tokens for the bid, converted to the “wieners” (1 XRT = 1 000 000 000 Wn).
+  en: field you should enter your number of tokens for the bid, converted to the “wieners” (1 XRT = 1 000 000 000 Wn). 
+  ru: необходимо ввести количество токенов для вашей ставки, конвертированное в долю токена «wieners» (1 XRT = 1 000 000 000 Wn). 
+  it: devi inserire il numero di Token per l'offerta, convertito in "wieners" (1 XRT = 1 000 000 000 Wn). 
+  pt: você deve inserir o seu número de tokens para o lance, convertido para os “wieners” (1 XRT = 1 000 000 000 Wn). 
+  es: debe ingresar su número de tokens para la oferta, convertidos a "wieners" (1 XRT = 1 000 000 000 Wn).
+
+- alias: Right now, a minimal bid is 1 XRT + 1 Wn e.g. 1 000 000 001 Wh. Please check the current subscription price in our
+  en: Right now, a minimal bid is 1 XRT + 1 Wn e.g. 1 000 000 001 Wh. Please check the current subscription price in our
+
+- alias: dapp 
+  en: dapp
 
 - alias: Submit the transaction and if you are lucky, you will get the IoT subscription. You can check that your Polkadot address owns the subscription through the same Chain state menu.
   en: Submit the transaction and if you are lucky, you will get the IoT subscription. You can check that your Polkadot address owns the subscription through the same Chain state menu.
@@ -2442,12 +2494,12 @@
   pt: Envie a transação e, se você tiver sorte, receberá a assinatura IoT. Você pode verificar se seu endereço Polkadot é dono da assinatura através do menu Chain state.
   es: Envíe la transacción y, si tiene suerte, obtendrá la suscripción IoT. Puede verificar que su dirección de Polkadot sea propietaria de la suscripción a través del mismo menú Chain state. 
 
-- alias: "The last step is to add devices for your IoT subscription. This simply means that you assign to your subscription additional Polkadot addresses that you or your devices can use to execute extrinsics (for example, to launch devices or to send device data to blockchain). Before starting, create a new account for Robonomics Parachain (guide on our wiki:)"
-  en: "The last step is to add devices for your IoT subscription. This simply means that you assign to your subscription additional Polkadot addresses that you or your devices can use to execute extrinsics (for example, to launch devices or to send device data to blockchain). Before starting, create a new account for Robonomics Parachain (guide on our wiki:)"
-  ru: "Последний шаг — добавьте устройства для вашей подписки IoT. Это означает, что для вашей подписки будут указаны дополнительные адреса Polkadot (ваши или ваших устройств), которые могут выполнять экстринсики (например, для запуска устройств или отправки данных устройств в блокчейн). Перед началом создайте новый аккаунт для парачейна Робономики (подробная инструкция на нашем сайте wiki:)"
-  it: "L'ultimo passaggio consiste nell'aggiungere dei dispositivi al tuo abbonamento IoT. Questo significa semplicemente che assegnerai all'abbonamento degli indirizzi Polkadot aggiuntivi, che tu o i tuoi dispositivi potete utilizzare per eseguire degli extrinsics (ad esempio, per avviare dispositivi o per inviare i loro dati alla blockchain). Prima di iniziare, crea un nuovo account per la Parachain Robonomics (guida sul nostro wiki:)"
-  pt: "O último passo é adicionar dispositivos para sua assinatura IoT. Isto significa que você atribui à sua assinatura endereços Polkadot adicionais que você ou seus dispositivos podem usar para executar extrínsecos (por exemplo, para lançar dispositivos ou enviar dados do dispositivo para a blockchain). Antes de começar, crie uma nova conta na Parachain Robonomics (guia em nosso wiki:)"
-  es: "El último paso es agregar dispositivos para su suscripción IoT. Esto simplemente significa que asigna a su suscripción direcciones de Polkadot adicionales que usted o sus dispositivos pueden usar para ejecutar extrinsics (por ejemplo, para iniciar dispositivos o enviar datos de dispositivos a blockchain). Antes de comenzar, cree una nueva cuenta para Robonomics Parachain (guía en nuestra wiki:)"
+- alias: "The last step is to add devices for your IoT subscription. This simply means that you assign to your subscription additional Polkadot addresses that you or your devices can use to execute extrinsics (for example, to launch devices or to send device data to blockchain). Before starting, create a new account for Robonomics Parachain (guide on our wiki:"
+  en: "The last step is to add devices for your IoT subscription. This simply means that you assign to your subscription additional Polkadot addresses that you or your devices can use to execute extrinsics (for example, to launch devices or to send device data to blockchain). Before starting, create a new account for Robonomics Parachain (guide on our wiki:"
+  ru: "Последний шаг — добавьте устройства для вашей подписки IoT. Это означает, что для вашей подписки будут указаны дополнительные адреса Polkadot (ваши или ваших устройств), которые могут выполнять экстринсики (например, для запуска устройств или отправки данных устройств в блокчейн). Перед началом создайте новый аккаунт для парачейна Робономики (подробная инструкция на нашем сайте wiki:"
+  it: "L'ultimo passaggio consiste nell'aggiungere dei dispositivi al tuo abbonamento IoT. Questo significa semplicemente che assegnerai all'abbonamento degli indirizzi Polkadot aggiuntivi, che tu o i tuoi dispositivi potete utilizzare per eseguire degli extrinsics (ad esempio, per avviare dispositivi o per inviare i loro dati alla blockchain). Prima di iniziare, crea un nuovo account per la Parachain Robonomics (guida sul nostro wiki:"
+  pt: "O último passo é adicionar dispositivos para sua assinatura IoT. Isto significa que você atribui à sua assinatura endereços Polkadot adicionais que você ou seus dispositivos podem usar para executar extrínsecos (por exemplo, para lançar dispositivos ou enviar dados do dispositivo para a blockchain). Antes de começar, crie uma nova conta na Parachain Robonomics (guia em nosso wiki:"
+  es: "El último paso es agregar dispositivos para su suscripción IoT. Esto simplemente significa que asigna a su suscripción direcciones de Polkadot adicionales que usted o sus dispositivos pueden usar para ejecutar extrinsics (por ejemplo, para iniciar dispositivos o enviar datos de dispositivos a blockchain). Antes de comenzar, cree una nueva cuenta para Robonomics Parachain (guía en nuestra wiki:"
 
 - alias: Create Account for Robonomics Parachain
   en: Create Account for Robonomics Parachain
@@ -3818,3 +3870,33 @@
 
 - alias: These are transactions about buying a subscription, adding a device to a subscription, and sending datalogs from devices.
   en: These are transactions about buying a subscription, adding a device to a subscription, and sending datalogs from devices.
+
+- alias: "Choose your Privacy Policy for this website:"
+  en: "Choose your Privacy Policy for this website:"
+
+- alias: Privacy Policy or Ways of communication with this website
+  en: Privacy Policy or Ways of communication with this website
+
+- alias: You may allow or disallow this website some actions concerning your web privacy. This may affect your experience on this website, but we certainly respect your privacy.
+  en: You may allow or disallow this website some actions concerning your web privacy. This may affect your experience on this website, but we certainly respect your privacy.
+
+- alias: Disallow any actions
+  en: Disallow any actions
+
+- alias: By choosing this option you let us know that you do not want this website to use any cookies or local storage of your browser. So we will not be able to save any preferences including this choose and you will see privacy options popup every time you visit this website.
+  en: By choosing this option you let us know that you do not want this website to use any cookies or local storage of your browser. So we will not be able to save any preferences including this choose and you will see privacy options popup every time you visit this website.
+
+- alias: Only critical
+  en: Only critical
+
+- alias: By choosing this option you let us know that you allow this website to use cookies and local storage of your browser. This means we can save some preferences including this choose and you will not see privacy options popup every time you visit this website.
+  en: By choosing this option you let us know that you allow this website to use cookies and local storage of your browser. This means we can save some preferences including this choose and you will not see privacy options popup every time you visit this website.
+
+- alias: Only critical actions
+  en: Only critical actions
+
+- alias: By choosing this option you let us to use cookies, local storage of your browser for saving some preferences and also to use third party metrics such as
+  en: By choosing this option you let us to use cookies, local storage of your browser for saving some preferences and also to use third party metrics such as
+
+- alias: Google Analytics
+  en: Google Analytics

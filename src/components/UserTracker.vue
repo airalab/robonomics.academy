@@ -8,8 +8,8 @@
         <g-link class="user-tracker__info" to="/privacy-policy/">i</g-link>
       </div>
       <div class="user-tracker__wrapper">
-        <button @click="allowUserTracker('no actions')" class="user-tracker__btn">No actions</button>
-        <button @click="allowUserTracker('only critical')"  class="user-tracker__btn">Only critical</button>
+        <button @click="allowUserTracker('no actions')" class="user-tracker__btn">Disallow any actions</button>
+        <button @click="allowUserTracker('only critical')"  class="user-tracker__btn">Only critical actions</button>
         <button @click="allowUserTracker('allow metrics')" class="user-tracker__btn">Allow metrics</button>
       </div>
     </div>
@@ -49,16 +49,14 @@ export default {
   .user-tracker {
     position: fixed;
     bottom: 1vh;
-    /* left: 50%; */
     right: 1vh;
     padding: 1rem var(--gap);
-    max-width: 650px;
+    max-width: 790px;
     width: 100%;
     display: inline-flex;
     flex-direction: column;
     border-radius: 10px;
     background-color: var(--color-second) ;
-    /* transform: translateX(-50%); */
     text-align: left;
     z-index: 10;
   }
@@ -118,7 +116,7 @@ export default {
     padding: 0 calc(var(--gap) * 0.3);
   }
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 790px) {
     .user-tracker {
       width: 100%;
       right: 0;
@@ -140,5 +138,11 @@ export default {
       font-size: 1rem;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    .user-tracker__btn {
+      color: var(--color-brown-dark) !important;
+    }
+   }
 
 </style>

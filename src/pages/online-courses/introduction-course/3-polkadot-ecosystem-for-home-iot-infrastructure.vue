@@ -22,13 +22,13 @@
       <section class="container__reg">
         <h2>{{$ts('Instructions')}}</h2>
         <List type="numbers">
-          <li>{{$ts('Open Robonomics')}} <g-link to="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/extrinsics">{{$ts('Polkadot/Substrate portal')}}</g-link>. {{$ts('You should see the Extrinsics (functions in Polkadot ecosystem) menu.')}}</li>
-          <li>{{$ts('In the first field pick the same polkadot.js account that you used in the previous lesson.')}}</li>
-          <li>{{$ts('In the second field pick')}} <code>rws</code> {{$ts('extrinsics and choose')}} <code>call(subscriptionId, call)</code>. {{$ts('This will allow you to dispatch a function call using IoT subscription.')}}</li>
-          <li>{{$ts('In the')}} <code>{{$ts('subscriptionId')}}</code> {{$ts("field write this subscription's owner address:")}} <br/><code>4GgRRojuoQwKCZP9wkB69ZxJY4JprmHtpzEzqJLjnqu4jk1r</code></li>
-          <li>{{$ts('In the')}} <code>{{$ts('call')}}</code> {{$ts('field choose')}} <code>launch</code> {{$ts('command.')}} {{$ts('This will show you two more fields:')}} <code>robot</code> {{$ts('and')}} <code>param</code>.</li>
-          <li>{{$ts('In the ')}}<code>robot</code> {{$ts('field write this address of smart bulb:')}}<br/> <code>4DUAnmLeEto197jDDSgvfjfS65MGvReMXibqp9ADg7ZgCDp9</code></li>
-          <li>{{$ts('In the ')}}<code>param</code> {{$ts('field you need to specify')}} <br/><code>0x0000000000000000000000000000000000000000000000000000000000000001</code> <br/>{{$ts('or')}} <br/><code>0x0000000000000000000000000000000000000000000000000000000000000000</code> <br/>{{$ts('to turn on or off the bulb.')}}</li>
+          <li>{{$ts('Open the Robonomics')}} <g-link to="https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/extrinsics">{{$ts('Polkadot/Substrate portal')}}</g-link>. {{$ts("You should see the Extrinsics (functions in Polkadot ecosystem) menu.")}} {{$ts('If stuck, then using the menu in the top left of the page, navigate to')}} <code> Kusama & Parachains -> Robonomics</code>, {{$ts('and press')}} <code>'Switch'</code>. {{$ts('Then navigate to')}} <code>'Developer'</code> {{$ts('in the top header, and then to')}} <code>'Extrinsics'</code> </li>
+          <li>{{$ts(`In the first field where you can read "using the selected account", pick the same polkadot.js account that you've used in the previous lessons.`)}}</li>
+          <li>{{$ts('In the second field "submit the following extrinsic", select')}} <code>rws</code> {{$ts('extrinsics and choose')}} <code>call(subscriptionId, call)</code>. {{$ts('This will allow you to dispatch a function call using the IoT subscription.')}}</li>
+          <li>{{$ts('In the')}} <code>{{$ts('subscriptionId: AccountId32')}}</code> {{$ts("field paste this subscription's owner address:")}} <br/><code>4GgRRojuoQwKCZP9wkB69ZxJY4JprmHtpzEzqJLjnqu4jk1r</code></li>
+          <li>{{$ts('In the')}} <code>{{$ts('call: Call')}}</code> {{$ts('field choose the')}} <code>launch(robot, param)</code> {{$ts('command.')}} {{$ts('This will show you two more fields:')}} <code>robot</code> {{$ts('and')}} <code>param</code>.</li>
+          <li>{{$ts('In the')}} <code>robot: AccountId32</code> {{$ts('field paste this address of the smart bulb:')}}<br/> <code>4DUAnmLeEto197jDDSgvfjfS65MGvReMXibqp9ADg7ZgCDp9</code></li>
+          <li>{{$ts('In the')}} <code>param: H256</code> {{$ts('field you need to specify 1 (on) or 0 (off) to turn on/off the bulb. You can do this with')}} <br/><code>0x0000000000000000000000000000000000000000000000000000000000000001</code> <br/>{{$ts('or')}} <br/><code>0x0000000000000000000000000000000000000000000000000000000000000000</code> <br/></li>
           <li>{{$ts('Press the ‘Submit Transaction’ button. Do not forget to open the')}} <g-link to="https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live">{{$ts('broadcast on YouTube')}}</g-link> {{$ts('before signing the transaction.')}}</li>
         </List>
       </section>
@@ -36,13 +36,6 @@
       <Result>
         {{$ts('The lesson will be considered completed after sending a successful transaction and its appearance in the Polkadot explorer for your polkadot.js account.')}}
       </Result>
-
-      <section class="container__reg">
-        <h2>{{$ts('Bonus')}}</h2>
-        <p>{{$ts('You can try to repeat similar assembly and setup of the smart device on your own! We have a special wiki-guide how to connect a home IoT gateway to Robonomics:')}}</p>
-        <g-link class="link-break" to="https://wiki.robonomics.network/docs/en/home-assistant-begin">https://wiki.robonomics.network/docs/en/home-assistant-begin</g-link>
-      </section>
-
     </section>
   </LayoutCourse>
 </template>
