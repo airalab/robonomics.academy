@@ -174,6 +174,7 @@
 
       // Because of momentum scrolling on mobiles, we shouldn't continue if it is less than zero
       if (currentScrollPosition < 0) {
+        this.$store.commit('TOGGLE_SHOW_HEADER', false)
         return
       }
         // Here we determine whether we need to show or hide the navbar
@@ -188,9 +189,7 @@
     },
 
     mounted() {
-      this.$store.commit('TOGGLE_SHOW_HEADER', false)
       window.addEventListener('scroll', this.onScroll)
-
     },
 
     beforeDestroy () {

@@ -51,10 +51,10 @@ export default {
       helperElement.innerHTML = lang;
 
       if(helperElement.innerText.toLowerCase() === 'italiano') {
-        root.style.setProperty("--dynamic-size", `${helperElement.offsetWidth + 5}px`)
-      } else {
-        root.style.setProperty("--dynamic-size", `${helperElement.offsetWidth}px`)
-      }
+          root.style.setProperty("--dynamic-size", `${helperElement.offsetWidth + 5}px`)
+        } else {
+          root.style.setProperty("--dynamic-size", `${helperElement.offsetWidth}px`)
+        }
 
     }
   },
