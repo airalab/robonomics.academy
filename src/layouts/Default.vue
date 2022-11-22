@@ -35,7 +35,10 @@
         this.$gtag.pageview(this.$route)
       }
 
-      this.$store.commit('TOGGLE_SHOW_HEADER', true)
+      if(this.$route.path.includes('online-courses') || this.$route.path.includes('certificates') || this.$route.path.includes('privacy-policy')) {
+        this.$store.commit('TOGGLE_SHOW_HEADER', true)
+      }
+
     }
   }
 </script>

@@ -415,6 +415,10 @@ code {
   cursor: pointer;
 }
 
+.hide {
+  display: none;
+}
+
 
 /* dark theme */
 

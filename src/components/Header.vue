@@ -133,7 +133,7 @@ export default {
     .header .expand summary {
         background-color: var(--color-second);
         border-radius: var(--gap);
-        padding: 0 calc(var(--gap) * 0.4);
+        padding: 0 calc(var(--gap) * 0.35);
     }
 
     .header .expand__content {
