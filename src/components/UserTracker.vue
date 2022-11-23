@@ -101,9 +101,9 @@ export default {
     margin-right: 0.5rem;
     font-size: 70%;
     font-weight: 600;
-    border: 1px solid var(--color-text);
+    border: 1px solid var(--color-light);
     border-radius: var(--gap);
-    color: var(--color-text);
+    color: var(--color-light);
     text-transform: capitalize;
     cursor: pointer;
   }
