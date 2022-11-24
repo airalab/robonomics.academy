@@ -10,7 +10,7 @@
     <section class="text__hyphened">
 
       <section class="container__narrow">
-        <p>{{$ts('The last lesson of  our introductory course is very likely the most difficult, because it will require some dexterity and patience from you. You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network.')}}</p>
+        <p>{{$ts('The last lesson of our introduction course is very likely the most challenging, because it will require some dexterity and patience from you. You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network.')}}</p>
       </section>
 
       <section class="container__narrow">
