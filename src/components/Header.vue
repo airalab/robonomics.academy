@@ -191,6 +191,12 @@ export default {
             text-align: center;
         }
 
+        @media (prefers-color-scheme: dark) {
+            .nav {
+                background: var(--color-brown-dark);
+            }
+        }
+
         /* .nav:not(:target) { */
         .nav:not(.open) {
             display: none;
