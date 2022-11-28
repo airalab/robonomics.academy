@@ -23,8 +23,8 @@
 
             <label class="container__full">
               {{$ts('What course did you passed')}}:<br/>
-              <select disabled class="container__full" required data-gsp-name="course" :data-gsp-data="course" v-model="course">
-                <option v-for="item in courses" :key="item.id">{{item}}</option>
+              <select class="container__full" required data-gsp-name="course" :data-gsp-data="course" v-model="course">
+                <option v-for="item in courses" :key="item.id">{{$ts(item.title)}}</option>
               </select>
             </label>
 
@@ -72,6 +72,8 @@
 
 <script>
 
+  import courses from '@/data/online-courses.yaml';
+
   export default {
   
     components: {
@@ -88,14 +90,15 @@
           }
         ],
 
-        courses: [
-          this.$ts('Introduction course'), 
-          this.$ts('Boston Dynamics Spot Software Developing')
-        ],
+        // courses: [
+        //   this.$ts('Introduction course'), 
+        //   this.$ts('Boston Dynamics Spot Software Developing')
+        // ],
 
         gscript:  process.env.GRIDSOME_GS_CERTIFICATE,
         captcha:  process.env.GRIDSOME_CAPTCHAID,
 
+        course: this.$ts(courses[0].title),
         account: '',
         name: '',
         email: '',
@@ -107,14 +110,9 @@
     },
 
     computed: {
-      course() {
-        if(this.courses) {
-          return this.courses[0]
-        } else {
-          return ''
-        }
-      },
-
+      courses() {
+        return courses;
+      }
     },
 
     methods: {
