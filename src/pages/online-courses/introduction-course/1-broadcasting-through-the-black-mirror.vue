@@ -24,7 +24,7 @@
         <h2>{{$ts('Instructions')}}</h2>
         <List type="numbers">
           <li>{{$ts('Install the polkadot.js browser extension and create an account for Robonomics Parachain. See the guide on our wiki:')}}
-            <g-link to="https://wiki.robonomics.network/docs/en/create-account-in-dapp/">{{$ts('Create Account for Robonomics Parachain')}}</g-link>. {{$ts('You need to pass all lessons from course with one Polkadot account to apply for certificate.')}}
+            <g-link to="https://wiki.robonomics.network/docs/create-account-in-dapp/">{{$ts('Create Account for Robonomics Parachain')}}</g-link>. {{$ts('You need to pass all lessons from course with one Polkadot account to apply for certificate.')}}
           </li>
           <li>{{$ts('Request access to the free IoT subscription, special for the course, on our Discord server. To do that, you need to find our')}}<g-link to="https://discord.com/channels/803947358492557312/944186892038053899"> {{$ts('Discord chatbot')}}</g-link> {{$ts('called “academy-faucet”. Find it in the chat list and enter your Robonomics Parachain address from polkadot.js extension.')}}</li>
           <li>{{$ts('Go to the')}} <g-link to="https://blackmirror.robonomics.academy">{{$ts('Black Mirror dapp')}}</g-link> {{$ts('and allow the dapp access to polkadot.js extension. Make sure that you select the correct account, that got the free IoT subscription.')}}</li>

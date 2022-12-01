@@ -17,7 +17,7 @@
         <h2>{{$ts("What’s this about")}}</h2>
         <p>{{$ts('An IoT subscription is an access key to all functions related to changing the state of the digital twin of a cyber-physical system and storing information about it using the Polkadot / Kusama ecosystem.')}} {{$ts('Owning one subscription get rid the user of a necessity from having to pay a fee for the transaction. Instead, the user can send one free transaction once in a certain period of time.')}}</p>
         <p>{{$ts('The main way to buy a subscription is to participate in the subscription auction, and therefore in this lesson you should get XRT tokens to make bids and submit transactions. More information about this process is also available on our wiki:')}}
-          <g-link class="link-break" to="https://wiki.robonomics.network/docs/en/get-subscription/">https://wiki.robonomics.network/docs/en/get-subscription/</g-link>
+          <g-link class="link-break" to="https://wiki.robonomics.network/docs/get-subscription/">https://wiki.robonomics.network/docs/get-subscription/</g-link>
         </p>
       </section>
 
@@ -44,7 +44,7 @@
             <p>{{$ts('Submit the transaction and if you are lucky, you will get the IoT subscription. You can check that your Polkadot address owns the subscription through the same Chain state menu.')}}</p>
           </li>
           <li>
-            <p>{{$ts(`The last step is to add devices for your IoT subscription. This simply means that you assign to your subscription additional Polkadot addresses that you or your devices can use to execute extrinsics (for example, to launch devices or to send device data to blockchain). Before starting, create a new account for Robonomics Parachain (guide on our wiki:`)}} <g-link to="https://wiki.robonomics.network/docs/en/create-account-in-dapp/">{{$ts('Create Account for Robonomics Parachain')}}</g-link>), {{$ts('and call it ‘smart device’ for convenience.')}} </p>
+            <p>{{$ts(`The last step is to add devices for your IoT subscription. This simply means that you assign to your subscription additional Polkadot addresses that you or your devices can use to execute extrinsics (for example, to launch devices or to send device data to blockchain). Before starting, create a new account for Robonomics Parachain (guide on our wiki:`)}} <g-link to="https://wiki.robonomics.network/docs/create-account-in-dapp/">{{$ts('Create Account for Robonomics Parachain')}}</g-link>), {{$ts('and call it ‘smart device’ for convenience.')}} </p>
             <p>{{$ts('Then, go to the Developer -> Extrinsic menu, and select')}}<code> rws</code> {{$ts('with')}} <code>setDevices()</code>. {{$ts('In the devices list use the ‘Add item’ button to add devices and select a recently created account for smart devices. After that, submit the transaction.')}}</p>
             <p>{{$ts('The device address should be added to the subscription. You can check it in the Chain state menu through query')}} <code>rws</code> {{$ts('with')}} <code>devices()</code> {{$ts('for your polkadot.js account that has the subscription.')}}</p>
           </li>
