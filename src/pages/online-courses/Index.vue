@@ -5,6 +5,7 @@
       pageTitle = "Online courses"
       pageDescription = "Robonomics Academy online courses"
       :pageImage = "'/og/online-courses'"
+      coursePageList
     />
 
     <page-title 

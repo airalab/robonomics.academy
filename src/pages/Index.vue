@@ -4,6 +4,7 @@
     <MetaInfo
       pageTitle = "Robonomics Academy"
       pageDescription = "Get experience in web 3.0 and blockchain techonologies with free online lessons."
+      coursePageList
     />
 
     <section class="banner">

@@ -16,7 +16,7 @@
         <h2>{{$ts("What’s this about")}}</h2>
         <p>{{$ts('In this lesson you will try to control a smart light bulb that works via Home Assistant which has additional Robonomics modules. Your goal is to turn the bulb on/off using the standard Polkadot/Substrate interface on the Robonomics Parachain. The bulb is broadcasting on')}}
           <g-link to="https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live">{{$ts('YouTube')}}</g-link>, {{$ts('so you can watch your result in real time. Also, a more detailed set of instructions regarding using an IoT subscription is available')}} 
-          <g-link to="https://wiki.robonomics.network/docs/en/subscription-launch/">{{$ts('on our wiki')}}</g-link>.</p>
+          <g-link to="https://wiki.robonomics.network/docs/subscription-launch/">{{$ts('on our wiki')}}</g-link>.</p>
       </section>
 
       <section class="container__reg">
