@@ -5,6 +5,7 @@
       pageTitle = "Introduction Course"
       pageDescription = "Welcome Introduction Course!"
       :pageImage = "'/og/introduction-course/cover'"
+      coursePage
     />
 
     <section class="container__narrow text__hyphened">
@@ -31,6 +32,6 @@ export default {
 
   components: {
     MetaInfo: () => import('~/components/MetaInfo.vue')
-  },
+  }
 }
 </script>

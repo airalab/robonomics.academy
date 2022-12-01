@@ -5,6 +5,7 @@
       pageTitle = "Boston Dynamics Spot Software Developing"
       pageDescription = "Our new Boston Dynamics Spot Software Developing!"
       :pageImage = "'/og/boston-dynamics-course/cover'"
+      coursePage
     />
 
     <section class="container__narrow text__hyphened">

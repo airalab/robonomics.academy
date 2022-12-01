@@ -5,6 +5,7 @@
       pageTitle = "Sovereign Smart Home with Robonomics and Home Assistant"
       pageDescription = "In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data."
       :pageImage = "'/og/smart-home-course/cover'"
+      coursePage
     />
 
     <section class="container__narrow text__hyphened">
