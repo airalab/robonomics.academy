@@ -10,9 +10,9 @@
     <section class="banner">
       <div class="container__wide">
         <g-image alt="Robonomics Academy Logo" src="@/assets/images/logo.svg" />
-        <h1>{{$ts('Get new skills in using modern web technologies to build IoT solutions.')}}</h1>
+        <h1>{{$ts('Get New Skills in Using Modern Web Technologies to Build IoT Solutions')}}</h1>
         <div class="banner-btn">
-          <g-link class="btn" to="/online-courses">{{$ts('Start online course')}}</g-link>
+          <g-link class="btn" to="/online-courses">{{$ts('Start Online Courses')}}</g-link>
           <g-image src="@/assets/images/building.png" aria-hidden="true" />
         </div>
       </div>
@@ -20,30 +20,30 @@
 
     <section id="about" class="team section__brown">
       <div class="container__narrow">
-        <h2>{{$ts('Welcome to our online school')}}</h2>
-        <p class="text__center">{{$ts('The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.')}}</p>
+        <h2>{{$ts('Welcome to Our Online School!')}}</h2>
+        <p class="text__center">{{$ts('The core developers of the Robonomics Network, robotics specialists and PhD scientists offer to pass through compendious experience based on about 10 years of work with web3 projects.')}}</p>
         <g-image src="@/assets/images/team.png" aria-hidden="true" />
       </div>
     </section>
 
     <section>
       <div class="container__mid">
-        <h2>{{$ts('What you can learn')}}</h2>
+        <h2>{{$ts('Learn')}}</h2>
 
         <div class="grid-3 grid-border">
 
           <div>
-            <h4>{{$ts('Deploying and operating networks of IoT devices')}}</h4>
+            <h4>{{$ts('Deploying and Operating Networks of IoT Devices')}}</h4>
             <g-image src="@/assets/images/learn-1.png" aria-hidden="true" />
           </div>
 
           <div>
-            <h4>{{$ts('Operating blockchain technologies')}}</h4>
+            <h4>{{$ts('Operating Blockchain Technologies')}}</h4>
             <g-image src="@/assets/images/learn-2.png" aria-hidden="true" />
           </div>
 
           <div>
-            <h4>{{$ts('Protected operations logging and storage of device data')}}</h4>
+            <h4>{{$ts('Protected Operations Logging and Storage of Device Data')}}</h4>
             <g-image src="@/assets/images/learn-3.png" aria-hidden="true" />
           </div>
 
@@ -53,12 +53,12 @@
           </div>
 
           <div>
-            <h4>{{$ts('Basics of robot economy')}}</h4>
+            <h4>{{$ts('Basics of Robot Economy')}}</h4>
             <g-image src="@/assets/images/learn-5.png" aria-hidden="true" />
           </div>
 
           <div>
-            <h4>{{$ts('Get through intense engineering practice')}}</h4>
+            <h4>{{$ts('Intense Engineering Practice')}}</h4>
             <g-image src="@/assets/images/learn-6.png" aria-hidden="true" />
           </div>
 
@@ -68,26 +68,26 @@
 
     <section>
       <div class="container__mid">
-        <h2>{{$ts('What you can get')}}</h2>
+        <h2>{{$ts('Obtain')}}</h2>
 
         <div class="grid-3 grid-border">
 
           <div>
             <g-image src="@/assets/images/bonus-1.png" aria-hidden="true" />
-            <h4>{{$ts('Collect blockchain proved certificate')}}</h4>
+            <h4>{{$ts('Blockchain Proved Certificate')}}</h4>
             <p>{{$ts('that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.')}}</p>
           </div>
 
           <div>
             <g-image src="@/assets/images/bonus-2.png" aria-hidden="true" />
-            <h4>{{$ts('Networking with professionals')}}</h4>
+            <h4>{{$ts('Networking with Professionals')}}</h4>
             <p>{{$ts('with Robonomics engineers and even get advice at a personal consultation for your IoT research or engineering project.')}}</p>
           </div>
 
           <div>
             <g-image src="@/assets/images/bonus-3.png" aria-hidden="true" />
-            <h4>{{$ts('Jump into Robonomics team as an Ambassador')}}</h4>
-            <p>{{$ts('We started')}} <g-link to="https://robonomics.network/ambassador-program/"> {{$ts('Ambassador program')}}</g-link> {{$ts('this year and looking forward talented inspired people!')}}</p>
+            <h4>{{$ts('Participation in Robonomics as Ambassador')}}</h4>
+            <p>{{$ts('We have')}} <g-link to="https://robonomics.network/ambassador-program/"> {{$ts('Ambassador Program')}}</g-link>{{$ts(' and looking forward talented inspired people!')}}</p>
           </div>
           
         </div>
@@ -97,18 +97,18 @@
     <section class="section__brown">
       <section class="container__narrow">
         <h2>{{$ts('What is Robonomics?')}}</h2>
-        <p class="text__center">{{$ts('Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).')}}</p>
-        <p class="text__center">{{$ts('Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.')}}</p>
+        <p class="text__center">{{$ts('Robonomics is a secure, serverless and futuristic IoT platform that connects users and smart devices.')}}</p>
+        <p class="text__center">{{$ts('It enables the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.')}}</p>
       </section>
 
       <section class="container__mid">
         <div class="scheme">
           <div class="scheme-item">
-            <div>{{$ts('User (D)App')}}</div>
+            <div>{{$ts('User Dapp')}}</div>
           </div>
           <div class="scheme-a">
             <div class="scheme-a-right">
-              <span>{{$ts('Function request')}}</span>
+              <span>{{$ts('Function Request')}}</span>
               <span aria-hidden="true" class="arrow">-----------------&gt;</span>
             </div>
             <div class="scheme-a-left">
@@ -117,7 +117,7 @@
             </div>
           </div>
           <div class="scheme-item">
-            <div>{{$ts('Digital twin')}}</div>
+            <div>{{$ts('Digital Twin')}}</div>
           </div>
           <div class="scheme-a">
             <div class="scheme-a-right">
@@ -147,7 +147,7 @@
       </section>
 
       <div class="container__narrow">
-        <p class="text__center"><g-link to="https://robonomics.network">{{$ts('More on our official website')}}</g-link></p>
+        <p class="text__center"><g-link to="https://robonomics.network">{{$ts('Official website of Robonomics')}}</g-link></p>
       </div>
     </section>
 
