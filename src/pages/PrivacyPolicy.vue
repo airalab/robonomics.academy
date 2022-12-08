@@ -2,7 +2,7 @@
   <Layout>
     <section class="privacy-policy container__narrow">
 
-      <h1>{{$ts('Privacy Policy or Ways of communication with this website')}}</h1>
+      <h1>{{$ts('Privacy Policy or Ways of Communication with Website')}}</h1>
 
       <p class="privacy-policy__descr">{{$ts('You may allow or disallow this website some actions concerning your web privacy. This may affect your experience on this website, but we certainly respect your privacy.')}}</p>
 
