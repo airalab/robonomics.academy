@@ -2,7 +2,7 @@
     <footer class="footer">
       <div class="footer__section container__wide">
         <g-link class="logo" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
-        <h3>{{$ts('Get our support on')}}</h3>
+        <h3>{{$ts('Academy Support on')}}</h3>
         <g-link class="btn__outline" :to="$discord"><g-image src="@/assets/images/discord.svg" /></g-link>
       </div>
     </footer>
