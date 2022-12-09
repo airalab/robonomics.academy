@@ -13,11 +13,11 @@
       </section>
 
       <section class="container__narrow">
-        <h2>{{$ts(`What’s this about`)}}</h2>
-        <p>{{$ts('In this theoretical lesson, we want to introduce you to the first chapter of the updated Robonomics Whitepaper 2022, which our team has been developing for almost a year now. The ideas presented in this document have been nurtured in our heads and hearts for a long time, constantly supplemented after various experiments and proof-of-concepts. We do our best to')}} 
+        <h2>{{$ts(`Intro`)}}</h2>
+        <p>{{$ts('In this theoretical lesson, we want to introduce you to the first chapter of the updated Robonomics Whitepaper 2022. The ideas presented in this document have been nurtured in our heads and hearts for a long time, constantly supplemented after various experiments and proof-of-concepts. We do our best to')}} 
           <g-link to="https://robonomics.network/papers/">{{$ts('report at conferences and publish in scientific journals')}}</g-link>
            {{$ts(`some of the strongest results and materials. And for everyone's understanding and convenience, we have collected and compressed it all together as separate whitepaper chapters.`)}}</p>
-        <p>{{$ts(`The first chapter is called "At the Intersection of Cybernetics and Economics", and it will introduce you to the rationale for the concept of the robot economy — an economic system in which devices act as independent agents capable of performing key economic activities previously unique to humans.`)}}</p>
+        <p>{{$ts('The first chapter is called ')}}<b>{{$ts('"At the Intersection of Cybernetics and Economics"')}}</b>{{$ts(', and it will introduce you to the rationale for the concept of the robot economy — an economic system in which devices act as independent agents capable of performing key economic activities previously unique to humans.')}}</p>
       </section>
 
       <section class="container__reg">
@@ -26,7 +26,7 @@
           <li>{{$ts('how the new challenges of the ongoing fourth industrial revolution affect the use of robotics and IoT systems;')}}</li>
           <li>{{$ts('what will be the future of fully autonomous cyber-physical processes;')}}</li>
           <li>{{$ts('why the answers to these challenges should be sought in the field of institutional economics, which seems to be far from robotics;')}}</li>
-          <li>{{$ts('and what about cryptocurrency, Bitcoin, Ethereum and Polkadot here.')}}</li>
+          <li>{{$ts('and why we should look at cryptocurrency, Bitcoin, Ethereum and Polkadot.')}}</li>
         </List>
       </section>
 
@@ -35,13 +35,14 @@
         <List type="numbers">
           <li>{{$ts('Read the first chapter of Whitepaper 2022 on our')}} <g-link to="https://robonomics.network/vision/">{{$ts('website')}}</g-link>.</li>
           <li>{{$ts('After reading, go and try to pass')}} <g-link to="https://lesson2.robonomics.academy/#/">{{$ts('the test')}}</g-link> {{$ts('for the second lesson in the special dapp. You will be asked 17 questions, and we hope they will inspire you to think deeper about the ideas that we have presented to you. To pass the test, you need to score 10 correct answers out of 17 (60%, the standard value in academic practice).')}} {{$ts('Try to get as many correct answers as possible, if you pass the test by 90% you will get bonus tokens for Lesson 5.')}}</li>
-          <li>{{$ts('You need to use the same polkadot.js account for the test dapp that you used in the previous lesson. Simply mark your answers in the dapp and at the end click on the ‘Sign and send’ button.')}}</li>
+          <li>{{$ts('You need to use the same Polkadot.js account for the test dapp that you used in the previous lesson. Simply mark your answers in the dapp and at the end click on the "Sign and send" button.')}}</li>
           <li>{{$ts('As in the previous lesson, sign your transaction and check it on the Polkadot explorer.')}}</li>
         </List>
       </section>
 
       <Result>
-        {{$ts('The lesson will be considered completed after sending a successful transaction and its appearance in the Polkadot explorer for your polkadot.js account.')}}
+        <p>{{$ts('The lesson will be considered completed after sending a successful transaction and its appearance in the Polkadot explorer for your Polkadot.js account.')}}</p>
+        <p>{{$ts('You can check your answers on ')}}<g-link to="https://lk.robonomics.academy/">{{$ts('the special checking dapp')}}</g-link>{{$ts('. For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.')}}</p>
       </Result>
       
     </section>
