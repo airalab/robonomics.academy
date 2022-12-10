@@ -121,7 +121,7 @@
           },
           {
             to: 'online-courses',
-            text: this.$ts('Online courses')
+            text: this.$ts('Online Courses')
           },
         ]
 

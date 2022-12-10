@@ -29,15 +29,22 @@
         <h2>{{$ts('Instructions')}}</h2>
         <List type="numbers">
           <li>{{$ts('Read the first half of the second chapter of Whitepaper 2022 on our')}} <g-link to="https://robonomics.network/architecture/">{{$ts('website')}}</g-link>.</li>
-          <li>{{$ts('After reading, try to pass the')}} <g-link to="https://lesson4.robonomics.academy/">{{$ts('test')}}</g-link> {{$ts('for the fourth lesson in the special dapp.')}} {{$ts('You will be asked 11 questions; to pass the test, you need to score 7 correct answers out of 11 (60%, the standard value in academic practice).')}} {{$ts('Try to get as many correct answers as possible, if you pass the test by 90% you will get bonus tokens for Lesson 5.')}}</li>
-          <li>{{$ts('You need to use the same Polkadot.js account for the test dapp that you used in the previous lessons. Simply mark your answers in the dapp and at the end click on the "Sign and send" button.')}}</li>
+          <li>
+            <p>{{$ts('After reading, try to pass the')}} <g-link to="https://lesson4.robonomics.academy/">{{$ts('test')}}</g-link> {{$ts('for the fourth lesson in the special dapp.')}}</p>
+            <p>{{$ts('You will be asked 11 questions; to pass the test, you need to score 7 correct answers out of 11 (60%, the standard value in academic practice).')}}</p>
+            <p>{{$ts('Try to get as many correct answers as possible, if you pass the test by 90% in two attempts you will get bonus tokens for Lesson 5.')}}</p>
+          </li>
+          <li>
+            <p>{{$ts('Simply mark your answers in the dapp and at the end click on the "Sign and send" button.')}}</p>
+            <p>{{$ts('You need to use the same Polkadot.js account for the test dapp that you used in the previous lesson.')}}</p>
+          </li>
           <li>{{$ts('As in the previous lesson, sign your transaction and check it on the Polkadot explorer.')}}</li>
         </List>
       </section>
 
       <Result>
         <p>{{$ts('The lesson will be considered completed after sending a successful transaction and its appearance in the Polkadot explorer for your Polkadot.js account.')}}</p>
-        <p>{{$ts('You can check your answers on ')}}<g-link to="https://lk.robonomics.academy/">{{$ts('the special checking dapp')}}</g-link>{{$ts('. For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.')}}</p>
+        <p>{{$ts('You can check your results on ')}}<g-link to="https://lk.robonomics.academy/">{{$ts('the special checking dapp')}}</g-link>{{$ts('. For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.')}}</p>
       </Result>
 
     </section>
