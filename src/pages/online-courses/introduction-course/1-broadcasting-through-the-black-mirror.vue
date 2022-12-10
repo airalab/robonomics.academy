@@ -40,16 +40,35 @@
       </Result>
 
     </section>
+
+    <!-- <div v-html="getContent(testContent)" /> -->
+
   </LayoutCourse>
 </template>
 
 <script>
+  import MarkdownIt from "markdown-it"
+  import test from "./translations/en/1.md"
 
   export default {
 
     components: {
       MetaInfo: () => import('~/components/MetaInfo.vue')
     },
+
+    data() {
+      return {
+        testContent: test
+      }
+    },
+
+    methods: {
+      getContent(content) {
+        let md = new MarkdownIt()
+        return md.render(content)
+      }
+    }
+    
   }
 
 </script>

@@ -23,7 +23,7 @@ module.exports = {
     {
       use: "gridsome-plugin-translateit",
       options: {
-        locales: ["en", "ru", "es", "de", "ko", "it", "pt"],
+        locales: ["en", "ru", "es", "de", "it", "pt"],
         slugifyDefaultLocale: true,
         defaultLocale: "en",
         translations: yaml.load(fs.readFileSync('./src/data/locales/translations.yaml', 'utf8')),
@@ -36,5 +36,16 @@ module.exports = {
         id: 91120268
       }
     }
-  ]
+  ],
+
+  configureWebpack: {
+    module: {
+      rules: [
+        {
+          test: /\.md$/i,
+          loader: "raw-loader",
+        },
+      ],
+    },
+  },
 }
