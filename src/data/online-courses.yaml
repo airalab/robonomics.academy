@@ -107,7 +107,7 @@
       path: '2-raspberry-pi-setup'
       tools: ''
     - id: '3'
-      title: 'MQTT Broker Setup'
+      title: 'MQTT Broker Setup and Home Assistant Init'
       activity: 'Practice'
       time: '~ 15 min'
       image: 'smart-house-course/lesson-3-cover.png'

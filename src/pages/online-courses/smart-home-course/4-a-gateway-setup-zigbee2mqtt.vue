@@ -12,7 +12,7 @@
   
     <section class="text__hyphened">
       <section class="container__narrow">
-        <h2>{{$ts("What's this about")}}</h2>
+        <h2>{{$ts("Intro")}}</h2>
         <p>{{$ts("This is a scenario setup for connecting devices using the Zigbee adapter and the Zigbee2MQTT bridge. If you have the")}} <g-link to="https://jethome.ru/z2/?sl=en">JetHome USB JetStick Z2</g-link> {{$ts('(which has all of the necessary firmware), you can simply proceed with these instructions. However, if you have another adapter, the first thing you need to do is to flash it with Zigbee2MQTT software. You can find instructions for your device')}} <g-link to="https://www.zigbee2mqtt.io/guide/adapters/">{{$ts('here')}}.</g-link>
         </p>
         <p>{{$ts('You will also need a smart device to test its connection to Home Assistant.')}}</p>
