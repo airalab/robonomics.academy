@@ -96,7 +96,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     // faRobot
   )
 
-  Vue.prototype.$discord = 'https://discord.gg/kFPqNktKrJ'
+  Vue.prototype.$discord = 'https://discord.gg/xqDgG3EGm9'
   Vue.prototype.$website = 'https://robonomics.academy'
 
     

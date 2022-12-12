@@ -5,9 +5,9 @@
         <g-link class="logo header__section" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
 
         <nav id="nav" class="nav header__section">
-          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy')}" href="/#about" @click="close('#nav')">{{$ts('About')}}</a>
-          <g-link class="nav__link" :class="{'active': $route.path.includes('online-courses')}" to="/online-courses/">{{$ts('Online courses')}}</g-link>
-          <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for certificate')}}</g-link>
+          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy')}" href="/#about" @click="close('#nav')">{{$ts('About Academy')}}</a>
+          <g-link class="nav__link" :class="{'active': $route.path.includes('online-courses')}" to="/online-courses/">{{$ts('Online Courses')}}</g-link>
+          <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for Certificate')}}</g-link>
         </nav>
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
         <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>
@@ -18,7 +18,7 @@
             <summary>i</summary>
 
             <div class="expand__content text__hyphened">
-                <p>{{$ts('We plan to expand Robonomics Academy courses and available lessons may be imperfect. Please feel free to')}} <g-link to="https://discord.gg/kFPqNktKrJ">{{$ts('discuss with us')}}</g-link> {{$ts('your suggestions and report about bugs.')}}</p>
+                <p>{{$ts('We plan to expand Robonomics Academy courses and available lessons may be imperfect. Please feel free to')}} <g-link to="https://discord.gg/xqDgG3EGm9">{{$ts('discuss with us')}}</g-link> {{$ts('your suggestions and report bugs.')}}</p>
             </div>
             </details>
         </div>

@@ -3,16 +3,16 @@
 
     <MetaInfo
       pageTitle = "This page does not exist"
-      pageDescription = "Sorry nothing here"
+      pageDescription = "Sorry, nothing here"
     />
 
     <div class="page-404">
 
       <h1>404</h1>
 
-      <p>Page disappeared, we are sorry</p>
+      <p>Sorry, the page does not exist</p>
 
-      <g-link class="btn" to="/">GO HOME</g-link>
+      <g-link class="btn" to="/">Go Home</g-link>
     </div>
 
   </Layout>

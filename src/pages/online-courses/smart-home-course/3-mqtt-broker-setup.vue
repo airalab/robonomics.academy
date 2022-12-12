@@ -4,7 +4,7 @@
   
   
     <MetaInfo
-        pageTitle = "Lesson #3, MQTT Broker Setup"
+        pageTitle = "Lesson #3, MQTT Broker Setup and Hass Init"
         pageDescription = "lesson description"
         :pageImage = "'/og/smart-home-course/3-mqtt-broker-setup'"
       />
@@ -12,7 +12,7 @@
   
     <section class="text__hyphened">
       <section class="container__narrow">
-        <h2>{{$ts("What's this about")}}</h2>
+        <h2>{{$ts("Intro")}}</h2>
         <p>{{$ts("After finishing the configuration of Raspberry Pi, the next step is to install MQTT Broker on the Raspberry Pi. As mentioned above, the Broker is responsible for message routing between different MQTT clients. You will install and configure Eclipse Mosquitto, an open source MQTT broker.")}}
         </p>
         <g-image class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', 'smart-house-course/lesson-3-1.jpg')"  src="../../../assets/images/smart-house-course/lesson-3-1.jpg" alt="scheme"></g-image>

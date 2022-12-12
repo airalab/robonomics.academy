@@ -2,7 +2,7 @@
   <g-link class="question__link" :to="templateTitle">
     <span class="question__icon">?</span>
     <span class="question__text">
-      Ask your question
+      Ask question on GitHub
     </span>
   </g-link>
 </template>
@@ -71,7 +71,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 190px;
+    width: 230px;
     line-height: 1;
     opacity: 1;
     visibility: visible;

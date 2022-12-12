@@ -12,7 +12,7 @@
 
     <section class="text__hyphened">
       <section class="container__narrow">
-        <h2>{{$ts("What's this about")}}</h2>
+        <h2>{{$ts("Intro")}}</h2>
         <p>{{$ts("In this lesson, you'll prepare your Raspberry Pi to become an IoT hub. You will sequentially install and configure all the necessary components, namely:")}}
         </p>
         <List>

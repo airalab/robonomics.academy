@@ -21,7 +21,7 @@
           <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>
           <span v-if="result === 'success'">{{$ts('You are in the list')}}</span>
         </button>
-        <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from open source decentralized team from Robonomics Network')}}.</p>
+        <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team.')}}</p>
       </div>
 
     </gsp-form>

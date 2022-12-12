@@ -2,13 +2,13 @@
   <Layout>
 
     <MetaInfo
-      pageTitle = "Apply for certificate"
-      pageDescription = "Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3."
+      pageTitle = "Apply for Certificate"
+      pageDescription = "Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT."
       :pageImage = "'/og/apply-for-certificate'"
     />
 
     <page-title 
-      :title="$ts(`Apply for certificate`)"
+      :title="$ts(`Apply for Certificate`)"
       :breadcrumbs="breadcrumbs"
       />
 
@@ -19,26 +19,26 @@
           :class="result"
         >
           <section>
-            <h2>{{$ts('Course passed information')}}</h2>
+            <h2>{{$ts('Course Information')}}</h2>
 
             <label class="container__full">
-              {{$ts('What course did you passed')}}:<br/>
+              {{$ts('Select course that you passed')}}:<br/>
               <select class="container__full" required data-gsp-name="course" :data-gsp-data="course" v-model="course">
                 <option v-for="item in courses" :key="item.id">{{$ts(item.title)}}</option>
               </select>
             </label>
 
             <label class="container__full">
-              {{$ts('What Polkadot address did you used to pass')}}:<br/>
+              {{$ts('Enter Polkadot address that you used')}}:<br/>
               <input type="text" class="container__full" required data-gsp-name="account" :data-gsp-data="account" v-model="account" />
             </label>
           </section>
 
           <section>
-            <h2>{{$ts('Information for certificate')}}</h2>
+            <h2>{{$ts('Information for Certificate')}}</h2>
 
             <label class="container__full">
-              {{$ts('Your name (this will be on your certificate)')}}:<br/>
+              {{$ts('Your full name')}}:<br/>
               <input type="text" class="container__full" required data-gsp-name="name" :data-gsp-data="name" v-model="name" />
             </label>
 
@@ -58,7 +58,7 @@
 
           <section class="text__center">
             <button @click="form">
-              <span v-if="result === 'init' || result === 'error'">{{$ts('Apply for certificate')}}</span>
+              <span v-if="result === 'init' || result === 'error'">{{$ts('Request Certificate')}}</span>
               <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>
               <span v-if="result === 'success'">{{$ts('Your request has been sent')}}</span>
             </button>
