@@ -30,6 +30,9 @@
   --color-bg: #5E6B85;
   --color-light-lesson: #fff;
 
+  --color-code-bg: #f6e58146;
+  --color-code: rgb(232, 100, 35);
+
   --font-title: 'Yeseva One', serif;
   --font-text: 'Roboto Mono', monospace;
   --font-size: 1.2rem;
@@ -432,6 +435,8 @@ code {
     --color-light-lesson: #000123;
     --color-blue: #9090ff;
     --color-green: #689305;
+    --color-code-bg: rgba(146, 161, 255, 0.125);
+    --color-code: rgb(108, 142, 255);
   }
 
   .section__brown, .section__yellow {

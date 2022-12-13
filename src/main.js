@@ -20,12 +20,13 @@ import "prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js";
 import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js";
 
 
-
 import DefaultLayout from '~/layouts/Default.vue'
 import LayoutCourse from '~/layouts/Course.vue'
 import AcademyList from '~/components/List.vue'
 import LessonResult from '~/components/LessonResult.vue'
 import ImagePopup from '~/components/ImagePopup.vue'
+import LessonImages from '~/components/LessonImages.vue'
+import LessonCodeWrapper from '~/components/LessonCodeWrapper.vue'
 import Prism from 'vue-prism-component'
 
 // styles
@@ -71,6 +72,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('Result', LessonResult)
   Vue.component('ImagePopup', ImagePopup)
   Vue.component('Prism', Prism)
+  Vue.component('LessonImages', LessonImages)
+  Vue.component('LessonCodeWrapper', LessonCodeWrapper)
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
 

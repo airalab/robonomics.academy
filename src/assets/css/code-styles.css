@@ -1,5 +1,17 @@
 /* code styles */
 
+.lesson-section code {
+  padding: 0.1rem 0.5rem;
+  background-color: var(--color-code-bg);
+  color: var(--color-code);
+  font-size: 1rem;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;;
+}
+
+.code-toolbar code {
+  padding: 0;
+}
+
 /* light theme */
 
 code[class*="language-"],

@@ -7,7 +7,7 @@
         > -->
         <g-link 
         v-for = "lesson in lessons" :key = "lesson.id"
-        :to = "'online-courses/' + courseLink + '/' + lesson.path"
+        :to = "courseLink + '/' + lesson.path"
         class="lesson-preview"
         >
         

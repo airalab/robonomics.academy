@@ -11,6 +11,8 @@ const createImage = require("node-html-to-image");
 const generateHtml = require("./functions/generateHtml");
 const yaml = require("js-yaml");
 
+let allPossiblePaths = [];
+
 require.extensions['.yaml'] = function(module, filename) { // To safely load .yaml file via require
   module.exports = yaml.load(fs.readFileSync(filename, 'utf8'));
 }
@@ -58,7 +60,7 @@ const generateImage = (output, arrayPath, options) => {
         console.log('Image was created successfully!')
       }).catch(e => console.log(e.message))
     } else {
-      console.log(`The image ${output.split('/')[output.split('/').length-1]} already exists!`)
+      // console.log(`The image ${output.split('/')[output.split('/').length-1]} already exists!`)
     }
   })
 }
@@ -68,6 +70,14 @@ module.exports = function (api) {
   const options = { ...defaultOptions };
 
   api.loadSource(async (actions) => {
+
+    const collection = actions.getCollection('Course');
+
+    collection.data().filter((e) => {
+      if(e.path.includes('/en/'))
+      allPossiblePaths.push({path: e.path, name: e.fileInfo.name})
+    })
+
     courses.forEach((course) => {
       
       fsExtra.ensureDirSync(options.basePath + course.path)
@@ -110,7 +120,27 @@ module.exports = function (api) {
     // })
   })
 
-  // api.createPages(({ createPage }) => {
-  //   // Use the Pages API here: https://gridsome.org/docs/pages-api/
-  // })
+  api.createPages(({ createPage }) => {
+    // Use the Pages API here: https://gridsome.org/docs/pages-api/
+
+    allPossiblePaths.forEach(node => {
+      // all locales
+      const locales = ["ru", "it", "es", "de", "pt" ];
+      const path = node.path.substring(4);
+
+      console.log(path.slice(0,-1))
+
+      locales.forEach(locale => {
+        if (fs.existsSync(`courses/${locale}/${path.slice(0,-1)}.md`)) {
+          console.log('exists');
+        } else {
+          createPage({
+            path: `/${locale}/${path}`,
+            component: './src/templates/AvailableCoursesTranslations.vue',
+          })
+        }
+      })
+
+    })
+  })
 }

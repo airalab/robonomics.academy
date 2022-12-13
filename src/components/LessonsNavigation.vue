@@ -34,7 +34,7 @@ export default {
   },
   computed: {
     prevPath() {
-      let path = `/online-courses/${this.course.path}/`;
+      let path = `${this.course.path}/`;
       if (this.lessonId - 2 >= 0) {
         path += this.course.lessons[this.lessonId - 2].path;
       } else {
@@ -43,7 +43,7 @@ export default {
       return path
     },
     nextPath() {
-      let path = `/online-courses/${this.course.path}/`;
+      let path = `${this.course.path}/`;
       if (this.lessonId < this.course.lessons.length) {
         path += this.course.lessons[this.lessonId].path;
       } else {

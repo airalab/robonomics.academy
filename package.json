@@ -22,7 +22,6 @@
     "gridsome-plugin-translateit": "^1.0.9",
     "gridsome-plugin-yandex-metrika": "^0.1.2",
     "js-yaml": "^4.1.0",
-    "markdown-it": "^13.0.1",
     "node-html-to-image": "^3.2.4",
     "prismjs": "^1.27.0",
     "raw-loader": "^4.0.2",
@@ -30,5 +29,6 @@
     "vue-gtag": "^1.16.1",
     "vue-prism-component": "^1.2.0",
     "vuex": "^3.6.2"
-  }
+  },
+  "devDependencies": {}
 }

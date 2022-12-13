@@ -15,6 +15,14 @@ module.exports = {
 
   plugins: [
     {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Course',
+        baseDir: './courses', 
+        template: './src/templates/Course.vue' 
+      }
+    },
+    {
       use: "gridsome-plugin-google-sheets-post"
     },
     {
@@ -26,6 +34,7 @@ module.exports = {
         locales: ["en", "ru", "es", "de", "it", "pt"],
         slugifyDefaultLocale: true,
         defaultLocale: "en",
+        collections: ['courses'],
         translations: yaml.load(fs.readFileSync('./src/data/locales/translations.yaml', 'utf8')),
         routes: yaml.load(fs.readFileSync('./src/data/locales/routes.yaml', 'utf8')),
       }
@@ -36,16 +45,5 @@ module.exports = {
         id: 91120268
       }
     }
-  ],
-
-  configureWebpack: {
-    module: {
-      rules: [
-        {
-          test: /\.md$/i,
-          loader: "raw-loader",
-        },
-      ],
-    },
-  },
+  ]
 }

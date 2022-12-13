@@ -10,12 +10,9 @@
 - lang: Deutsch
   abbr: de
   id: 3
-- lang: 한국인
-  abbr: ko
-  id: 4
 - lang: Italiano
   abbr: it
-  id: 5
+  id: 4
 - lang: Português
   abbr: pt
-  id: 6
+  id: 5
