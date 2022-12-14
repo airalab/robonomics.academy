@@ -1,44 +1,48 @@
 <template>
-  <div class="layout">
+  <div class="layout line-numbers " data-prismjs-copy-timeout="500">
+
+    <header-slot/>
+
+    <page-title
+      v-if="course" 
+      :title="title" 
+      :breadcrumbs="breadcrumbs"
+      :lessonId="lessonId"
+    />
+
+    <LessonInfo 
+      v-if="lessonId" 
+      :type="$ts(lesson.activity)"
+      :time="$ts(lesson.time)"
+      :tools="$ts(lesson.tools)"
+    />
+
+    <LessonsList 
+      v-if="!lessonId" 
+      :course="course" 
+    />
+
+    <slot/>
+
+    <LessonsNavigation
+      v-if="lessonId"
+      :lessonId="parseInt(lessonId)"
+      :course="course"
+    />
+
+    <subscription />
+
+    <passed-lessons/>
+
+    <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
+
+    <div class="popup popup-js" :class="{'active': $store.state.showImagePopup}">
+      <ImagePopup />
+    </div>
+
+    <footer-slot/>
 
     <client-only>
-
-      <header-slot/>
-
-      <page-title
-        v-if="course" 
-        :title="title" 
-        :breadcrumbs="breadcrumbs"
-        :lessonId="lessonId"
-      />
-
-      <LessonInfo 
-        v-if="lessonId" 
-        :type="$ts(lesson.activity)"
-        :time="$ts(lesson.time)"
-        :tools="$ts(lesson.tools)"
-      />
-
-      <LessonsList 
-        v-if="!lessonId" 
-        :course="course" 
-      />
-      
-      <slot/>
-
-      <LessonsNavigation
-        v-if="lessonId"
-        :lessonId="parseInt(lessonId)"
-        :course="course"
-      />
-
-      <subscription />
-
-      <passed-lessons/>
-
-      <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
-
-      <footer-slot/>
 
       <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
 
@@ -48,6 +52,9 @@
 </template>
 
 <script>
+
+  import "prismjs/plugins/line-numbers/prism-line-numbers.js";
+  import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
   import courses from '@/data/online-courses.yaml'
 
@@ -114,7 +121,7 @@
           },
           {
             to: 'online-courses',
-            text: this.$ts('Online courses')
+            text: this.$ts('Online Courses')
           },
         ]
 
@@ -149,6 +156,9 @@
       }
 
       this.$store.commit('TOGGLE_SHOW_HEADER', true)
+
+      Prism.highlightAll();
+
     }
   }
 </script>

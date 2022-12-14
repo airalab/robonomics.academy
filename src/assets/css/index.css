@@ -9,21 +9,29 @@
   --container-mid: 1660px;
   --gap: 2rem;
 
+  /* themes */
+  color-scheme: light dark;
+
 
   /* select styles */
   --dynamic-size: 30px;
   --padding-size: 1.1rem;
   --select-size: calc(var(--dynamic-size) + var(--padding-size));
 
-  --color-white: #fff;
-  --color-brown: #534E4B;
+  --color-light: #fff;
+  --color-text: #534E4B;
   --color-brown-dark: #2C2826;
-  --color-yellow: #F4E282;
-  --color-orange: #ee763e;
-  --color-violet: #3900B9;
+  --color-main: #F4E282;
+  --color-second: #ee763e;
+  --color-actions: #3900B9;
   --color-blue: #0000EE;
   --color-green: #A0D920;
   --accent-color: #b21b1b;
+  --color-bg: #5E6B85;
+  --color-light-lesson: #fff;
+
+  --color-code-bg: #f6e58146;
+  --color-code: rgb(232, 100, 35);
 
   --font-title: 'Yeseva One', serif;
   --font-text: 'Roboto Mono', monospace;
@@ -39,19 +47,19 @@ a {
 }
 
 a:not(.btn):hover {
-  color: var(--color-orange);
+  color: var(--color-second);
 }
 
 body {
-  color: var(--color-brown);
+  color: var(--color-text);
   font-family: var(--font-text);
   font-size: var(--font-size);
   line-height: 1.5;
 }
 
 body *::selection {
-  background-color: var(--color-brown);
-  color: var(--color-yellow);
+  background-color: var(--color-text);
+  color: var(--color-main);
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,7 +71,7 @@ h1:not(:last-child), h2:not(:last-child), h3:not(:last-child), h4:not(:last-chil
   margin-bottom: calc(var(--gap) * 1.6);
 }
 
-h1 { font-size: calc(var(--font-size) * 2); }
+h1 { font-size: calc(var(--font-size) * 2); line-height: 1.2; }
 
 h2 {
   font-size: calc(var(--font-size) * 1.5);
@@ -98,9 +106,9 @@ section:last-child { margin-bottom: 0; }
 input[type="submit"],
 button
 {
-  --btn-color: var(--color-violet);
+  --btn-color: var(--color-actions);
   --btn-color-hover: var(--color-green);
-  --btn-text: var(--color-white);
+  --btn-text: var(--color-light);
 
   -webkit-appearance: none;
   appearance: none;
@@ -174,7 +182,7 @@ button:hover
 }
 
 .grid-border > * {
-  border: 1px solid var(--color-brown);
+  border: 1px solid var(--color-text);
   padding: var(--gap)
 }
 
@@ -203,8 +211,8 @@ button:hover
 }
 
 .section__brown, .section__yellow {
-  background-color: var(--color-brown);
-  color: var(--color-white);
+  background-color: var(--color-text);
+  color: var(--color-light);
   margin-bottom: 0;
   margin-top: 0;
   padding-bottom: calc(var(--gap) * 3);
@@ -212,16 +220,16 @@ button:hover
 }
 
 .section__brown a {
-  color: var(--color-yellow)
+  color: var(--color-main)
 }
 
 .section__brown a:hover {
-  color: var(--color-orange)
+  color: var(--color-second)
 }
 
 .section__yellow {
-  background-color: var(--color-yellow);
-  color: var(--color-brown);
+  background-color: var(--color-main);
+  color: var(--color-text);
 }
 
 .section__small {
@@ -280,8 +288,8 @@ input[type=text]:invalid,
 input[type=email]:invalid,
 select:invalid
 {
-  border-color: var(--color-orange);
-  color: var(--color-orange);
+  border-color: var(--color-second);
+  color: var(--color-second);
 }
 
 input[type=text]:valid,
@@ -350,3 +358,90 @@ code {
   font-style: italic;
   margin-bottom: var(--gap);
 }
+
+
+.no-bullet::before {
+  display: none !important;
+}
+
+.popup, .popup-js {
+  display: none;
+  opacity: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  /* transform: scale(0.2); */
+  color: var(--color-dark);
+  border-radius: 4px;
+  transition: opacity 0.33s ease-in;
+}
+
+.popup:target, .popup-js.active {
+  display: block;
+  opacity: 1;
+  /* animation: popup 0.5s ease-in-out 0.2s forwards; */
+}
+
+.popup__overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  transition: opacity 0.33s ease-in;
+}
+
+.popup-js.active .popup__overlay {
+  opacity: 1;
+}
+
+.popup-js.active .popup__content {
+  animation: zoom 0.33s linear forwards;
+}
+
+@keyframes zoom {
+  to {
+    transform: scale(1);
+  }
+}
+
+.clickable-image {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+
+/* dark theme */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #fdfdfd;
+    --color-main: #8D9BC4;
+    --color-second: #536fc5;
+    --color-actions: #1c3972;
+    --color-brown-dark: #2E324D;
+    --color-light-lesson: #000123;
+    --color-blue: #9090ff;
+    --color-green: #689305;
+    --color-code-bg: rgba(146, 161, 255, 0.125);
+    --color-code: rgb(108, 142, 255);
+  }
+
+  .section__brown, .section__yellow {
+    background-color: var(--color-bg);
+  }
+}
+
+/* dark theme end */

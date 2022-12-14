@@ -2,7 +2,7 @@
   <g-link class="question__link" :to="templateTitle">
     <span class="question__icon">?</span>
     <span class="question__text">
-      Ask your question
+      Ask question on GitHub
     </span>
   </g-link>
 </template>
@@ -28,10 +28,10 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: var(--color-white);
+    color: var(--color-light);
     border-radius: 100px;
-    border: 2px solid var(--color-white);
-    background-color: var(--color-yellow);
+    border: 2px solid var(--color-light);
+    background-color: var(--color-main);
     cursor: pointer;
     transition: all 1s;
     overflow: hidden;
@@ -63,15 +63,15 @@ export default {
 
   .question__link:hover {
     border-radius: 30px;
-    color: var(--color-white);
-    background-color: var(--color-violet);
+    color: var(--color-light);
+    background-color: var(--color-actions);
   }
 
   .question__link:hover .question__text {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 190px;
+    width: 230px;
     line-height: 1;
     opacity: 1;
     visibility: visible;

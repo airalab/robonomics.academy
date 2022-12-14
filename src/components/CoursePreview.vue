@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
     .coursePreview {
-        --color: var(--color-violet);
+        --color: var(--color-actions);
 
         border: 1px solid var(--color);
         color: var(--color);
@@ -51,23 +51,25 @@ export default {
         position: relative;
     }
 
+    .coursePreview:first-child { margin-top: calc(var(--gap)*1.5); }
+
     .coursePreview:not(:last-child) {
-      margin-bottom: var(--gap);
+      margin-bottom: calc(var(--gap)*1.5);
     }
 
     .coursePreview:hover {
-        --color: var(--color-yellow)
+        --color: var(--color-main)
     }
 
     .coursePreview:hover .coursePreview-info, 
     .coursePreview:hover .coursePreview-title,
     .coursePreview:hover .coursePreview-arrow {
-        color: var(--color-brown);
+        color: var(--color-text);
     }
 
     .coursePreview:hover .coursePreview-info {
         background-color: var(--color);
-        border-top: 1px solid var(--color-brown)
+        border-top: 1px solid var(--color-text)
     }
 
     .coursePreview-title, .coursePreview-info {
@@ -79,7 +81,7 @@ export default {
     .coursePreview-title {
         display: flex;
         background-color: var(--color);
-        color: var(--color-white);
+        color: var(--color-light);
         font-family: var(--font-title);
         font-size: calc(var(--font-size) * 1.3);
     }
@@ -90,10 +92,18 @@ export default {
     }
 
     .coursePreview-arrow {
-        color: var(--color-white);
+        color: var(--color-light);
         font-size: 50px;
         position: absolute;
         right: calc(var(--gap) * 0.5);
         top: calc(var(--gap) * 1);
+    }
+
+
+    /* dark theme */
+    @media (prefers-color-scheme: dark) { 
+      .coursePreview-info {
+        color: var(--color-light);
+      }
     }
 </style>

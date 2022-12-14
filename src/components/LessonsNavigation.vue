@@ -3,10 +3,10 @@
     <nav aria-labelledby="Lessons navigation" :class="{ short: !prevPath }">
       <g-link class="btn navigation__button" v-if="prevPath" :to="prevPath">
         <font-awesome-icon icon="fa-solid fa-arrow-left-long" />
-        {{$ts('Previous lesson')}}
+        {{$ts('Previous Lesson')}}
       </g-link>
       <g-link class="btn navigation__button" v-if="nextPath" :to="nextPath">
-        {{$ts('Next lesson')}}
+        {{$ts('Next Lesson')}}
         <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
       </g-link>
     </nav>
@@ -34,7 +34,7 @@ export default {
   },
   computed: {
     prevPath() {
-      let path = `/online-courses/${this.course.path}/`;
+      let path = `${this.course.path}/`;
       if (this.lessonId - 2 >= 0) {
         path += this.course.lessons[this.lessonId - 2].path;
       } else {
@@ -43,7 +43,7 @@ export default {
       return path
     },
     nextPath() {
-      let path = `/online-courses/${this.course.path}/`;
+      let path = `${this.course.path}/`;
       if (this.lessonId < this.course.lessons.length) {
         path += this.course.lessons[this.lessonId].path;
       } else {
@@ -71,7 +71,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: 310px;
-  background-color: var(--color-white);
+  background-color: transparent;
   border-radius: 0;
   border: 3px solid var(--color-blue);
   color: var(--color-blue) !important;
@@ -79,7 +79,7 @@ nav {
 }
 
 .navigation__button:hover {
-  color: var(--color-white) !important;
+  color: var(--color-light) !important;
 }
 
 

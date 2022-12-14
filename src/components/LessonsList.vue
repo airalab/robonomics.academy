@@ -7,7 +7,7 @@
         > -->
         <g-link 
         v-for = "lesson in lessons" :key = "lesson.id"
-        :to = "'online-courses/' + courseLink + '/' + lesson.path"
+        :to = "courseLink + '/' + lesson.path"
         class="lesson-preview"
         >
         
@@ -21,6 +21,7 @@
                 <p class="line">
                     <span v-if="lesson.activity">{{$ts(lesson.activity)}}</span>
                     <span v-if="lesson.time">{{$ts(lesson.time)}}</span>
+                    <span v-if="lesson.tools">/ {{$ts(lesson.tools)}}</span>
                 </p>
             </div>
 
@@ -57,7 +58,7 @@ export default {
 <style scoped>
 
     .lesson-preview {
-        --color: var(--color-brown);
+        --color: var(--color-text);
 
         border: 3px solid var(--color);
         color: var(--color) !important;
@@ -75,7 +76,7 @@ export default {
 
     .lesson-preview-id {
         background-color: var(--color);
-        color: var(--color-white);
+        color: var(--color-light);
         font-family: var(--font-title);
         font-size: 200%;
         font-weight: bold;
@@ -93,10 +94,21 @@ export default {
     }
 
     .lesson-preview:hover {
-        --color: var(--color-violet)
+        --color: var(--color-actions)
     }
 
     .line > *:not(:last-child) {
         margin-right: calc(var(--gap) * 0.5);
     }
+
+    /* dark theme */
+    @media (prefers-color-scheme: dark) {
+        .lesson-preview:hover {
+            --color: var(--color-second)
+        }
+
+        .lesson-preview-id {
+            background-color: var(--color-actions); 
+        }
+    } 
 </style>

@@ -51,10 +51,10 @@ export default {
       helperElement.innerHTML = lang;
 
       if(helperElement.innerText.toLowerCase() === 'italiano') {
-        root.style.setProperty("--dynamic-size", `${helperElement.offsetWidth + 5}px`)
-      } else {
-        root.style.setProperty("--dynamic-size", `${helperElement.offsetWidth}px`)
-      }
+          root.style.setProperty("--dynamic-size", `${helperElement.offsetWidth + 5}px`)
+        } else {
+          root.style.setProperty("--dynamic-size", `${helperElement.offsetWidth}px`)
+        }
 
     }
   },
@@ -74,7 +74,7 @@ export default {
 <style scoped>
   select {
     background-image: none;
-    background-color: var(--color-yellow);
+    background-color: var(--color-main);
     padding: 0.2rem 0.6rem;
     padding-left: 0.85rem;
     margin-right: var(--gap);
@@ -83,7 +83,7 @@ export default {
     font-weight: 600;
     border: 1px solid transparent;
     border-radius: var(--gap);
-    color: var(--color-brown);
+    color: var(--color-text);
     text-transform: uppercase;
     cursor: pointer;
   }

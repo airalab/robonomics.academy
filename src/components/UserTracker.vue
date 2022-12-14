@@ -2,16 +2,19 @@
   <client-only>
     <div class="user-tracker">
       <div class="user-tracker__wrapper">
+        <g-link class="user-tracker__info" to="/privacy-policy/">i</g-link>
         <h3 class="user-tracker__title">
           Choose way to communicate with this website:
         </h3>
-        <g-link class="user-tracker__info" to="/privacy-policy/">i</g-link>
       </div>
-      <div class="user-tracker__wrapper">
-        <button @click="allowUserTracker('no actions')" class="user-tracker__btn">No actions</button>
-        <button @click="allowUserTracker('only critical')"  class="user-tracker__btn">Only critical</button>
-        <button @click="allowUserTracker('allow metrics')" class="user-tracker__btn">Allow metrics</button>
-      </div>
+      <form class="user-tracker__form" @submit.prevent="allowUserTracker">
+        <select v-model="option" name="privacy-policy" :class="{'small': option === 'allow metrics'}">
+          <option selected value="allow metrics">Allow metrics</option>
+          <option value="only critical">Only critical actions</option>
+          <option value="no actions">Disallow any actions</option>
+        </select>
+        <button class="user-tracker__btn">Ok</button>
+      </form>
     </div>
   </client-only>
 </template>
@@ -20,17 +23,25 @@
   import VueCookies from 'vue-cookies';
 export default {
 
+  data() {
+    return {
+      option: 'allow metrics'
+    }
+  },
+
   methods: {
-    allowUserTracker (option) {
+    allowUserTracker () {
+
+
       if (process.isClient) {
-        switch(option) {
+        switch(this.option) {
           case 'only critical':
-            VueCookies.set('userTracker', option);
+            VueCookies.set('userTracker', this.option);
             this.$store.commit('SET_USER_TRACKER', {option: 'only critical', localStorage: true, cookies: true, metrics: false})
           break;
 
           case 'allow metrics':
-            VueCookies.set('userTracker', option);
+            VueCookies.set('userTracker', this.option);
             this.$store.commit('SET_USER_TRACKER', {option: 'allow metrics', localStorage: false, cookies: true, metrics: true})
 
           break;
@@ -49,16 +60,14 @@ export default {
   .user-tracker {
     position: fixed;
     bottom: 1vh;
-    /* left: 50%; */
     right: 1vh;
     padding: 1rem var(--gap);
-    max-width: 650px;
+    max-width: 550px;
     width: 100%;
     display: inline-flex;
     flex-direction: column;
     border-radius: 10px;
-    background-color: var(--color-orange) ;
-    /* transform: translateX(-50%); */
+    background-color: var(--color-second) ;
     text-align: left;
     z-index: 10;
   }
@@ -67,17 +76,42 @@ export default {
     font-size: 1rem;
     font-family: inherit;
     font-weight: 500;
-    margin-right: var(--gap);
     margin-bottom: 0;
-    color: var(--color-white);
+    color: var(--color-light);
     text-align: left;
   }
 
-  .user-tracker__wrapper {
+  .user-tracker__form, .user-tracker__wrapper {
     display: flex;
     align-items: center;
     width: 100%;
     font-family: var( --font-text);
+  }
+
+  .user-tracker__form {
+    padding-left: calc(var(--gap) * 1.3);
+  }
+
+  .user-tracker__form select {
+    background: url('/tracker-arrow.svg') no-repeat 97% 50%;
+    background-size: 6%;
+    background-color: transparent;
+    padding: 0.4rem 0.8rem;
+    padding-right: 1.6rem;
+    margin-right: 0.5rem;
+    font-size: 70%;
+    font-weight: 600;
+    border: 1px solid var(--color-light);
+    border-radius: var(--gap);
+    color: var(--color-light);
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+
+  .user-tracker__form select.small {
+    background: url('/tracker-arrow.svg') no-repeat 92% 55%;
+    background-size: 7%;
+    width: 168px;
   }
 
   .user-tracker__wrapper:first-of-type {
@@ -85,40 +119,37 @@ export default {
   }
   
   .user-tracker__btn {
-    padding: 0;
-    font-size: 1.2rem;
+    padding: 0.3rem 1rem; 
+    font-size: 1rem;
     font-weight: 500;
     font-family: inherit;
-    color: var(--color-yellow) !important;
-    background-color: transparent;
+    color: var(--color-light) !important;
+    background-color: var(--color-text);
     border: 1px solid transparent;
     text-align: left;
+    border-radius: 18px;
   }
 
-  .user-tracker__btn:not(:last-child) {
-    margin-right: var(--gap);
-  }
-
-  .user-tracker__btn:hover {
+  /* .user-tracker__btn:hover {
     background-color: transparent !important;
     border: 1px solid transparent !important;
-  }
+  } */
 
   .user-tracker__info {
-    position: absolute;
-    right: 2rem;
-    top: 0.7rem
-  }
-
-  .user-tracker__info {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-right: calc(var(--gap) / 2);
     font-weight: 600;
-    color: var(--color-orange);
-    background-color: var(--color-white);
-    border-radius: var(--gap);
-    padding: 0 calc(var(--gap) * 0.3);
+    color: var(--color-second);
+    background-color: var(--color-light);
+    border-radius: 100%;
   }
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 790px) {
     .user-tracker {
       width: 100%;
       right: 0;
@@ -127,9 +158,12 @@ export default {
       border-bottom-right-radius: 0;
     }
 
-    .user-tracker__wrapper {
-      flex-direction: column;
-      align-items: baseline;
+    .user-tracker__info {
+      flex-shrink: 0;
+    }
+
+    .user-tracker__form {
+      padding-left: 0;
     }
 
     .user-tracker__title  {
@@ -140,5 +174,11 @@ export default {
       font-size: 1rem;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    .user-tracker__btn {
+      color: var(--color-brown-dark) !important;
+    }
+   }
 
 </style>

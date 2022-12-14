@@ -1,15 +1,16 @@
 <template>
   <div class="layout">
 
+
+    <header-slot/>
+
+    <slot/>
+
+    <subscription />
+
+    <footer-slot/>
+
     <client-only>
-
-      <header-slot/>
-
-      <slot/>
-
-      <subscription />
-
-      <footer-slot/>
 
       <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option" />
 
@@ -34,7 +35,10 @@
         this.$gtag.pageview(this.$route)
       }
 
-      this.$store.commit('TOGGLE_SHOW_HEADER', true)
+      if(this.$route.path.includes('online-courses') || this.$route.path.includes('certificates') || this.$route.path.includes('privacy-policy')) {
+        this.$store.commit('TOGGLE_SHOW_HEADER', true)
+      }
+
     }
   }
 </script>

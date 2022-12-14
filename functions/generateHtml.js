@@ -29,6 +29,7 @@ module.exports = function (
       color: #162128;
       font-family: 'Yeseva One', sans-serif;
       display: flex;
+      flex-direction: row-reverse;
     }
     div.col1 {
       display: flex;
@@ -37,39 +38,42 @@ module.exports = function (
       justify-content: center;
     }
     div.col1 > svg {
-      margin-top: 60px;
       width: 60%;
     }
 
     div.container {
       text-align: left;
-      padding-top: 60px;
       width: 100%;
-      height: calc(100% - 60px);
+      height: 100%;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      justify-content: center;
     }
 
     h2 {
       font-size: 3.5rem;
+      vertical-align: middle;
     }
 
     .section {
+      padding-top: 20px;
       border-left: 10px solid #534E4B;
       height: 200px;
+      display: flex;
+      align-items: center;
       padding-left: 40px;
       color: #534E4B;
     }
 
     .section:last-child {
-      border-color: #0000EE;
-      color: #0000EE;
+      border-color: #EE763E;
+      color: #EE763E;
       height: 100%;
     }
 
     .section:last-child h2 {
       font-size: 4.5rem;
+      font-weight: 400;
     }
 
     .arrow {

@@ -4,13 +4,34 @@
 import Vuex from 'vuex'
 import VueCookies from 'vue-cookies';
 import VueGtag from "vue-gtag";
+import 'prismjs'
+
+// adding languages form code highlight
+import 'prismjs/components/prism-json'; 
+import 'prismjs/components/prism-bash'; 
+import 'prismjs/components/prism-python'; 
+
+// plugins for code highlight (prism)
+import "prismjs/plugins/line-numbers/prism-line-numbers.js";
+import "prismjs/plugins/line-numbers/prism-line-numbers.css";
+import "prismjs/plugins/toolbar/prism-toolbar.js";
+import "prismjs/plugins/show-language/prism-show-language.js";
+import "prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js";
+import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js";
+
 
 import DefaultLayout from '~/layouts/Default.vue'
 import LayoutCourse from '~/layouts/Course.vue'
 import AcademyList from '~/components/List.vue'
 import LessonResult from '~/components/LessonResult.vue'
+import ImagePopup from '~/components/ImagePopup.vue'
+import LessonImages from '~/components/LessonImages.vue'
+import LessonCodeWrapper from '~/components/LessonCodeWrapper.vue'
+import Prism from 'vue-prism-component'
 
+// styles
 import '~/assets/css/index.css'
+import '~/assets/css/code-styles.css'
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -40,22 +61,22 @@ import {
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-/* import default styles for code highlighting and lib itself */ 
-import VueHighlightJS from 'vue-highlightjs'
-import 'highlight.js/styles/default.css'
 
 export default function (Vue, { router, head, isClient, appOptions }) {
-  // Implementing code highlighting blocks
-  Vue.use(VueHighlightJS);
-  Vue.use(Vuex)
+  Vue.use(Vuex);
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('LayoutCourse', LayoutCourse)
   Vue.component('List', AcademyList)
   Vue.component('Result', LessonResult)
+  Vue.component('ImagePopup', ImagePopup)
+  Vue.component('Prism', Prism)
+  Vue.component('LessonImages', LessonImages)
+  Vue.component('LessonCodeWrapper', LessonCodeWrapper)
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 
   /* add icons to the library */
   library.add(
@@ -78,7 +99,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     // faRobot
   )
 
-  Vue.prototype.$discord = 'https://discord.gg/kFPqNktKrJ'
+  Vue.prototype.$discord = 'https://discord.gg/xqDgG3EGm9'
   Vue.prototype.$website = 'https://robonomics.academy'
 
     
@@ -86,6 +107,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     state: {
       userTracker: {},
       showHeader: true,
+      showImagePopup: false,
+      imagePopupSrc: 'smart-house-course/lesson-1-1.png',
     },
    mutations: {
       SET_USER_TRACKER(state, userTracker) {
@@ -93,16 +116,31 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       },
       TOGGLE_SHOW_HEADER(state, showHeader) {
         state.showHeader = showHeader
+      },
+      SHOW_IMAGE_POPUP(state, src) {
+        state.showImagePopup = true
+        document.body.style.overflow = 'hidden'
+        state.imagePopupSrc = src;
+      },
+      HIDE_IMAGE_POPUP(state) {
+        state.showImagePopup = false
+        document.body.style.overflow = 'auto'
+        state.imagePopupSrc = 'smart-house-course/lesson-1-1.png';
       }
    },
   });
 
-  if(isClient) {
-    Vue.use(VueGtag, {
-      config: { id: "AW-844066363" }
-    });
 
+  Vue.use(VueGtag, {
+    config: { id: "UA-169310127-5" },
+    includes: [
+      { id: 'AW-11021567627' },
+    ]
+  });
+
+  if(isClient) {
     Vue.use(VueCookies, { expire: '30d'});
+    Vue.$cookies.config('30d')
   }
   
 }

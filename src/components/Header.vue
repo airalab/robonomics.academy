@@ -5,9 +5,9 @@
         <g-link class="logo header__section" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
 
         <nav id="nav" class="nav header__section">
-          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy')}" href="/#about" @click="close('#nav')">{{$ts('About')}}</a>
-          <g-link class="nav__link" :class="{'active': $route.path.includes('online-courses')}" to="/online-courses/">{{$ts('Online courses')}}</g-link>
-          <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for certificate')}}</g-link>
+          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('course') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy')}" href="/#about" @click="close('#nav')">{{$ts('About Academy')}}</a>
+          <g-link class="nav__link" :class="{'active': $route.path.includes('online-courses') || $route.path.includes('course') }" to="/online-courses/">{{$ts('Online Courses')}}</g-link>
+          <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for Certificate')}}</g-link>
         </nav>
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
         <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>
@@ -18,7 +18,7 @@
             <summary>i</summary>
 
             <div class="expand__content text__hyphened">
-                <p>{{$ts('We plan to expand Robonomics academy courses and available lessons may be imperfect. Please fill free to')}} <g-link to="https://discord.gg/kFPqNktKrJ">{{$ts('discuss with us')}}</g-link> {{$ts('your suggestions and report about bugs.')}}</p>
+                <p>{{$ts('We plan to expand Robonomics Academy courses and available lessons may be imperfect. Please feel free to')}} <g-link to="https://discord.gg/xqDgG3EGm9">{{$ts('discuss with us')}}</g-link> {{$ts('your suggestions and report bugs.')}}</p>
             </div>
             </details>
         </div>
@@ -69,7 +69,7 @@ export default {
 <style>
     .header {
         background-color: var(--color-brown-dark);
-        color: var(--color-white);
+        color: var(--color-light);
         font-family: var(--font-title);
         font-size: var(--font-size);
         font-weight: bold;
@@ -103,7 +103,7 @@ export default {
     }
 
     .header a {
-        color: var(--color-white);
+        color: var(--color-light);
     }
 
     .header a:not(:last-child) {
@@ -111,11 +111,11 @@ export default {
     }
 
     .header a:hover {
-        color: var(--color-orange)
+        color: var(--color-second)
     }
 
     .header a.active, .header a.active:hover {
-        color: var(--color-yellow)
+        color: var(--color-main)
     }
 
     .header nav {
@@ -131,13 +131,13 @@ export default {
     }
 
     .header .expand summary {
-        background-color: var(--color-orange);
+        background-color: var(--color-second);
         border-radius: var(--gap);
-        padding: 0 calc(var(--gap) * 0.4);
+        padding: 0 calc(var(--gap) * 0.35);
     }
 
     .header .expand__content {
-        background-color: var(--color-orange);
+        background-color: var(--color-second);
         border-radius: calc(var(--gap) * 0.5);
         padding: calc(var(--gap) * 0.5);
         position: absolute;
@@ -147,7 +147,7 @@ export default {
     }
 
     .header .expand__content a {
-        color: var(--color-brown)
+        color: var(--color-text)
     }
 
 
@@ -167,7 +167,7 @@ export default {
         top: calc(var(--gap) * 0.5);
         right: 0;
         z-index: 100;
-        color: var(--color-brown) !important;
+        color: var(--color-text) !important;
         font-size: 2rem;
     }
 
@@ -177,7 +177,7 @@ export default {
 
     @media screen and (max-width: 945px) {
         .nav {
-            background: var(--color-white);
+            background: var(--color-light);
             color: var(--color-bworn);
             padding: calc(var(--gap) * 2) var(--gap);
             
@@ -189,6 +189,12 @@ export default {
             top: 0;
             margin: 0 !important;
             text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .nav {
+                background: var(--color-brown-dark);
+            }
         }
 
         /* .nav:not(:target) { */
@@ -207,7 +213,7 @@ export default {
         }
 
         .nav a {
-            color: var(--color-brown);
+            color: var(--color-text);
             font-size: 130%;
             display: block;
             width: 100%;
@@ -224,6 +230,12 @@ export default {
 
         .nav__popup__link {
             display: inline-block !important;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) { 
+        .header .expand__content a {
+            color: var(--color-actions);
         }
     }
 

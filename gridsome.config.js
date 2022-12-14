@@ -15,6 +15,14 @@ module.exports = {
 
   plugins: [
     {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Course',
+        baseDir: './courses', 
+        template: './src/templates/Course.vue' 
+      }
+    },
+    {
       use: "gridsome-plugin-google-sheets-post"
     },
     {
@@ -23,12 +31,19 @@ module.exports = {
     {
       use: "gridsome-plugin-translateit",
       options: {
-        locales: ["en", "ru", "es", "de", "ko", "it", "pt"],
+        locales: ["en", "ru", "es", "de", "it", "pt"],
         slugifyDefaultLocale: true,
         defaultLocale: "en",
+        collections: ['courses'],
         translations: yaml.load(fs.readFileSync('./src/data/locales/translations.yaml', 'utf8')),
         routes: yaml.load(fs.readFileSync('./src/data/locales/routes.yaml', 'utf8')),
       }
     },
+    {
+      use: 'gridsome-plugin-yandex-metrika',
+      options: {
+        id: 91120268
+      }
+    }
   ]
 }

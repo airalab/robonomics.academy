@@ -21,6 +21,7 @@
 
         </div>
     </div>
+    
 </template>
 
 
@@ -48,8 +49,8 @@ export default {
 <style scoped>
     .lesson__tags  {
         padding-top: calc(var(--gap) * 0.5);
-        background-color: var(--color-brown);
-        color: var(--color-yellow);   
+        background-color: var(--color-text);
+        color: var(--color-main);   
         text-align: center;
     }
 
@@ -86,6 +87,14 @@ export default {
 
         .lessons__tags-container {
             padding-left: 10px;
+        }
+    }
+
+    /* dark theme */
+    @media (prefers-color-scheme: dark) {
+        .lesson__tags  {
+            background-color: var(--color-brown-dark);
+            color: var(--color-light);   
         }
     }
 </style>
