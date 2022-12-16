@@ -5,6 +5,8 @@
   background-color: var(--color-code-bg);
   color: var(--color-code);
   font-size: 1rem;
+  font-weight: 400;
+  word-break: break-word;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;;
 }
 

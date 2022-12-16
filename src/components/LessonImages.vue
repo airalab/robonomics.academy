@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="lesson-image" :class="imageClasses">
     
     <figure class="figure clickable-image" v-if="figure" @click="$store.commit('SHOW_IMAGE_POPUP', src)">
       <img :src=pictureSrc.src :alt="alt" />
@@ -30,6 +30,11 @@ export default {
 
     figureCaption: {
       type: String
+    },
+
+    imageClasses: {
+      type: String,
+      default: ''
     }
   },
 
@@ -43,7 +48,16 @@ export default {
 </script>
 
 <style scoped>
-  div {
+  .lesson-image {
     margin-top: var(--gap);
+  }
+
+  .lesson-image img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mb {
+    margin-bottom: var(--gap);
   }
 </style>

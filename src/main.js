@@ -27,7 +27,9 @@ import LessonResult from '~/components/LessonResult.vue'
 import ImagePopup from '~/components/ImagePopup.vue'
 import LessonImages from '~/components/LessonImages.vue'
 import LessonCodeWrapper from '~/components/LessonCodeWrapper.vue'
+import LessonButtonLink from '~/components/LessonButtonLink.vue'
 import Prism from 'vue-prism-component'
+
 
 // styles
 import '~/assets/css/index.css'
@@ -74,6 +76,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('Prism', Prism)
   Vue.component('LessonImages', LessonImages)
   Vue.component('LessonCodeWrapper', LessonCodeWrapper)
+  Vue.component('LessonButtonLink', LessonButtonLink)
+
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
 

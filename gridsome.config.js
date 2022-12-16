@@ -15,10 +15,21 @@ module.exports = {
 
   plugins: [
     {
+      use: "gridsome-plugin-translateit",
+      options: {
+        locales: ["en", "ru", "es", "de", "it", "pt"],
+        slugifyDefaultLocale: true,
+        defaultLocale: "en",
+        translations: yaml.load(fs.readFileSync('./src/data/locales/translations.yaml', 'utf8')),
+        routes: yaml.load(fs.readFileSync('./src/data/locales/routes.yaml', 'utf8')),
+      }
+    },
+    {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Course',
         baseDir: './courses', 
+        // pathPrefix: '/online-course',
         template: './src/templates/Course.vue' 
       }
     },
@@ -27,17 +38,6 @@ module.exports = {
     },
     {
       use: 'gridsome-plugin-seo'
-    },
-    {
-      use: "gridsome-plugin-translateit",
-      options: {
-        locales: ["en", "ru", "es", "de", "it", "pt"],
-        slugifyDefaultLocale: true,
-        defaultLocale: "en",
-        collections: ['courses'],
-        translations: yaml.load(fs.readFileSync('./src/data/locales/translations.yaml', 'utf8')),
-        routes: yaml.load(fs.readFileSync('./src/data/locales/routes.yaml', 'utf8')),
-      }
     },
     {
       use: 'gridsome-plugin-yandex-metrika',

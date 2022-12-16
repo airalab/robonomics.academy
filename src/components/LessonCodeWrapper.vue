@@ -1,6 +1,8 @@
 <template>
   <div>
-<prism :language="language" :class="codeClass"><slot/></prism>
+<prism :language="language" :class="codeClass">
+  <slot></slot>
+</prism>
   </div>
 </template>
 
