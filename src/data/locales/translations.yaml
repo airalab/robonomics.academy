@@ -19,12 +19,12 @@
   ru: О нас
   pt: Sobre
 
-- alias: Online courses
-  en: Online courses
-  es: Cursos online
-  it: Corsi online
-  ru: Онлайн курсы
-  pt: Cursos on-line
+- alias: Online Courses
+  en: Online Courses
+  es: Cursos Online
+  it: Corsi Online
+  ru: Онлайн Курсы
+  pt: Cursos On-line
 
 - alias: Apply for certificate 
   en: Apply for certificate
@@ -68,19 +68,19 @@
   ru: "Примечание: вам необходимо пройти все уроки курса с одной учетной записью Polkadot.js, чтобы подать заявку на сертификат"
   pt: "Nota: você precisa ser aprovado em todas as lições do curso com uma conta Polkadot.js para solicitar o certificado"
 
-- alias: Previous lesson
-  en: Previous lesson
-  es: Leccion previa
-  it: Lezione precedente
-  ru: Предыдущий урок
-  pt: Lição anterior
+- alias: Previous Lesson
+  en: Previous Lesson
+  es: Leccion Previa
+  it: Lezione Precedente
+  ru: Предыдущий Урок
+  pt: Lição Anterior
 
-- alias: Next lesson
-  en: Next lesson
-  es: Siguiente lección
-  it: Prossima lezione
-  ru: Следующий урок
-  pt: Próxima lição
+- alias: Next Lesson
+  en: Next Lesson
+  es: Siguiente Lección
+  it: Prossima Lezione
+  ru: Следующий Урок
+  pt: Próxima Lição
 
 - alias: Passed all lessons?
   en: Passed all lessons?
@@ -530,6 +530,8 @@
 - alias: Configure and test connection to Spot
   en: Configure and test connection to Spot
   pt: Configurar e testar a conexão do Spot
+  ru: Настроить и проверить подключение к Spot
+  es: Configurar y probar la conexión a Spot
 
 - alias: "What's this about"
   en: What's this about
@@ -830,6 +832,7 @@
   en: Emergency stop, initialization, body position control
   pt: Parada de emergência, inicialização, controle da posição do corpo
   es: Parada de emergencia, inicialización, control de posición del cuerpo
+  ru: Аварийная остановка, инициализация, контроль положения тела
 
 - alias: During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.
   en: During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.
@@ -1016,6 +1019,7 @@
   en: Remote controlled and programmed motion
   pt: Movimento programado e controlado remotamente
   es: Movimiento programado y controlado a distancia
+  ru: Дистанционное управление и запрограммированное движение
 
 - alias: At the Intersection of Cybernetics and Economics
   en: At the Intersection of Cybernetics and Economics
@@ -1186,6 +1190,7 @@
   en: Find and follow an object, navigate between them
   pt: Encontre e siga um objeto, navegue entre eles
   es: Encuentre y siga un objeto, navegue entre ellos
+  ru: Поиск объекта и следование за ним, перемещение между объектами
 
 - alias: In the third lesson you will learn how to find World Objects and go to them.
   en: In the third lesson you will learn how to find World Objects and go to them.
@@ -1267,6 +1272,7 @@
   en: GraphNav service. Mapping and navigating on the map
   pt: Serviço GraphNav. Mapeamento e navegação no mapa
   es: Servicio GraphNav. Mapear y navegar en el mapa
+  ru: Cервис GraphNav. Картографирование и навигация по карте
 
 - alias: In the fourth lesson you will learn how to record and play autonomous missions with GraphNav service.
   en: In the fourth lesson you will learn how to record and play autonomous missions with GraphNav service.
@@ -1382,6 +1388,7 @@
   en: Robot service. Camera calibration and "Spot check" procedure
   pt: Serviço de Robôs. Calibração da câmera e procedimento de "Verificação do Spot"
   es: Servicio de robots. Calibración de la cámara y procedimiento "Spot check"
+  ru: Обслуживание роботов. Калибровка камеры и процедура «Выездной проверки»
   
 - alias: "In this lesson you will learn what should you do if you just got the robot: the first run and network setup. Also you will learn how to run the calibration process that should be run monthly."
   en: "In this lesson you will learn what should you do if you just got the robot: the first run and network setup. Also you will learn how to run the calibration process that should be run monthly."

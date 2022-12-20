@@ -35,7 +35,6 @@
         name
       }
       lessonNumber
-      course
     }
   }
   </page-query>
@@ -53,10 +52,18 @@
       }
     },
 
-    mounted() {
-      let final = this.$page.course.fileInfo.path.substr(this.$page.course.fileInfo.path.lastIndexOf('/') + 1).slice(0,-3);
+    watch: {
+      '$route.path'() {
+        let final = this.$page.course.fileInfo.path.substr(this.$page.course.fileInfo.path.indexOf('/') + 1).slice(0,-3);
 
-      this.metaImgPath = `/og/${this.$page.course.course}/${final}`;
+        this.metaImgPath = `/og/${final}`;
+      }
+    },
+
+    mounted() {
+      let final = this.$page.course.fileInfo.path.substr(this.$page.course.fileInfo.path.indexOf('/') + 1).slice(0,-3);
+
+      this.metaImgPath = `/og/${final}`;
 
     }
   

@@ -64,6 +64,7 @@ export default {
         font-weight: bold; 
         display: inline-block;
         width: 1em; 
+        flex-shrink: 0;
     }
     
 
