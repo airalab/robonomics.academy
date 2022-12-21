@@ -108,6 +108,10 @@ export default {
     cursor: pointer;
   }
 
+  .user-tracker__form select option {
+    color: #2E324D;
+  }
+
   .user-tracker__form select.small {
     background: url('/tracker-arrow.svg') no-repeat 92% 55%;
     background-size: 7%;

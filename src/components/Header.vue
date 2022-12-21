@@ -7,7 +7,7 @@
         <nav id="nav" class="nav header__section">
           <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('course') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy')}" href="/#about" @click="close('#nav')">{{$ts('About Academy')}}</a>
           <g-link class="nav__link" :class="{'active': $route.path.includes('online-courses') || $route.path.includes('course') }" to="/online-courses/">{{$ts('Online Courses')}}</g-link>
-          <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for Certificate')}}</g-link>
+          <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for certificate')}}</g-link>
         </nav>
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
         <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>

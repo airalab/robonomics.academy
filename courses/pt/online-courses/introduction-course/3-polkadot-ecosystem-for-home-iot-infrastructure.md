@@ -12,7 +12,7 @@ A lição 2 explicou os princípios fundamentais da Robonomics e mencionou Polka
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

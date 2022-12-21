@@ -14,7 +14,7 @@ Esta lección de apertura le enseñará métodos básicos para interactuar con *
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Inspiración
 

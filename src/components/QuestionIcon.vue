@@ -35,6 +35,7 @@ export default {
     cursor: pointer;
     transition: all 1s;
     overflow: hidden;
+    z-index: 10;
   }
 
   .question__icon {

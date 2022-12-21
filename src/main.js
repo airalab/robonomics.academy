@@ -6,7 +6,7 @@ import VueCookies from 'vue-cookies';
 import VueGtag from "vue-gtag";
 import 'prismjs'
 
-// adding languages form code highlight
+// adding languages for code highlight
 import 'prismjs/components/prism-json'; 
 import 'prismjs/components/prism-bash'; 
 import 'prismjs/components/prism-python'; 
@@ -28,6 +28,7 @@ import ImagePopup from '~/components/ImagePopup.vue'
 import LessonImages from '~/components/LessonImages.vue'
 import LessonCodeWrapper from '~/components/LessonCodeWrapper.vue'
 import LessonButtonLink from '~/components/LessonButtonLink.vue'
+import LessonReaction from '~/components/LessonReaction.vue'
 import Prism from 'vue-prism-component'
 
 
@@ -55,7 +56,9 @@ import {
   faArrowRightLong,
   faArrowLeftLong,
   faCode,
-  faHouseSignal
+  faHouseSignal,
+  faEnvelope,
+  faCheck
   // faRobot
  } from '@fortawesome/free-solid-svg-icons'
 
@@ -77,6 +80,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('LessonImages', LessonImages)
   Vue.component('LessonCodeWrapper', LessonCodeWrapper)
   Vue.component('LessonButtonLink', LessonButtonLink)
+  Vue.component('LessonReaction', LessonReaction)
 
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
@@ -99,7 +103,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     faArrowRightLong,
     faArrowLeftLong,
     faCode,
-    faHouseSignal
+    faHouseSignal,
+    faEnvelope,
+    faCheck
     // faRobot
   )
 
@@ -113,6 +119,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       showHeader: true,
       showImagePopup: false,
       imagePopupSrc: 'smart-house-course/lesson-1-1.png',
+      currentReaction: '',
+      emailsForCourseFeedback: 'berman@robonomics.network, positivecrash@robonomics.network, w-s@robonomics.network'
     },
    mutations: {
       SET_USER_TRACKER(state, userTracker) {
@@ -130,6 +138,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
         state.showImagePopup = false
         document.body.style.overflow = 'auto'
         state.imagePopupSrc = 'smart-house-course/lesson-1-1.png';
+      },
+      SET_CURRENT_REACTION(state, reaction) {
+        state.currentReaction = reaction;
       }
    },
   });

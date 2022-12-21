@@ -171,10 +171,14 @@ button:hover
   width: 100%;
 }
 
-.grid-3, .grid-6 {
+.grid-3, .grid-4, .grid-6 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: calc(var(--gap) * 2)
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-6 {
@@ -253,8 +257,18 @@ button:hover
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .grid-6 {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 460px)  {
+  .grid-4 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 

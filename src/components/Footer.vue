@@ -1,9 +1,7 @@
 <template>
     <footer class="footer">
-      <div class="footer__section container__wide">
+      <div class="footer__section">
         <g-link class="logo" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
-        <h3>{{$ts('Academy Support on')}}</h3>
-        <g-link class="btn__outline" :to="$discord"><g-image src="@/assets/images/discord.svg" /></g-link>
       </div>
     </footer>
 </template>
@@ -44,6 +42,7 @@
 
 <style scoped>
 .footer {
+  position: relative;
   background-color: var(--color-brown-dark);
   color: var(--color-light);
   text-align: center;
@@ -63,11 +62,19 @@
 
 .footer__section {
   padding-top: calc(var(--gap) * 2);
-  padding-bottom: calc(var(--gap) * 2);
+  padding-bottom: var(--gap);
 }
 
 .footer__subscribe {
   background-color: var(--color-main);
+}
+
+.footer .logo {
+  position: absolute;
+  width: 92px;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 input {
@@ -75,7 +82,7 @@ input {
 }
 
 input::placeholder {
-  color: var(--color-second);
+  color: var(--color-text);
   font-weight: bold;
 }
 

@@ -12,7 +12,7 @@ La lezione 2 ha spiegato i principi fondamentali di Robonomics e ha menzionato P
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

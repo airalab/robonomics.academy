@@ -6,7 +6,7 @@ courseID: 3
 metaOptions: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

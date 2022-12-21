@@ -12,7 +12,7 @@ Nos alegra que hayas podido atravesar el espejo negro y no ahogarte en el mundo 
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

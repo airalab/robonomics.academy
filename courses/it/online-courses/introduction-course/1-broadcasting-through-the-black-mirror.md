@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Corsi online, Corso Introduttivo]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

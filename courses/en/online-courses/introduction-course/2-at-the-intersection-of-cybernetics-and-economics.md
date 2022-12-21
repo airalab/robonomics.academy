@@ -12,7 +12,7 @@ We are glad that you were able to pass through the black mirror and not drown in
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 
