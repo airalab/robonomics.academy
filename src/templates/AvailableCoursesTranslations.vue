@@ -10,7 +10,7 @@
     <section class="container__reg">
 
       <p class="no-translations__text">
-        This lesson has no translation for {{getLanguage($locale)[0].lang}}. Please see another available translations:
+        This lesson has no translation for {{ $locale && getLanguage($locale)[0].lang}}. Please see another available translations:
       </p>
 
       <div class="no-translations__wrapper">
@@ -76,6 +76,7 @@ export default {
         return title[1] === this.postTitle
       })
     },
+
     locales() {
       return locales
     }
