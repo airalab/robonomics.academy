@@ -24,7 +24,7 @@
         </button>
       </div>
       <div class="container__mid">
-        <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network.')}}</p>
+        <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network')}}.</p>
       </div>
 
     </gsp-form>

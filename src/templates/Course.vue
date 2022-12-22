@@ -65,7 +65,7 @@
     mounted() {
       let final = this.$page.course.fileInfo.path.substr(this.$page.course.fileInfo.path.indexOf('/') + 1).slice(0,-3);
 
-      this.metaImgPath = `/og/${final}`;
+      this.metaImgPath = `/og/${final.substring(final.indexOf('/')+1)}`;
 
     }
   
