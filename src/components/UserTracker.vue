@@ -4,14 +4,14 @@
       <div class="user-tracker__wrapper">
         <g-link class="user-tracker__info" to="/privacy-policy/">i</g-link>
         <h3 class="user-tracker__title">
-          Choose way to communicate with this website:
+          {{$ts('Choose way to communicate with this website:')}}
         </h3>
       </div>
       <form class="user-tracker__form" @submit.prevent="allowUserTracker">
         <select v-model="option" name="privacy-policy" :class="{'small': option === 'allow metrics'}">
-          <option selected value="allow metrics">Allow metrics</option>
-          <option value="only critical">Only critical actions</option>
-          <option value="no actions">Disallow any actions</option>
+          <option selected value="allow metrics">{{$ts('Allow metrics')}}</option>
+          <option value="only critical">{{$ts('Only critical actions')}}</option>
+          <option value="no actions">{{$ts('Disallow any actions')}}</option>
         </select>
         <button class="user-tracker__btn">Ok</button>
       </form>
@@ -106,6 +106,10 @@ export default {
     color: var(--color-light);
     text-transform: capitalize;
     cursor: pointer;
+  }
+
+  .user-tracker__form select option {
+    color: #2E324D;
   }
 
   .user-tracker__form select.small {

@@ -7,7 +7,7 @@ metaOptions: [Online Courses, Sovereign Smart Home with Robonomics and Home Assi
 ---
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

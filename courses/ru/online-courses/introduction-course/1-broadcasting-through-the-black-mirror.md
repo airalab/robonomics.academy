@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Онлайн курсы, Вводный курс]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Вступление
 

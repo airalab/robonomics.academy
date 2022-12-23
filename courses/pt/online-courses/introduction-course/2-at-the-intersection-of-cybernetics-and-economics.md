@@ -12,7 +12,7 @@ Estamos felizes por você ter conseguido passar pelo espelho negro e não se afo
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

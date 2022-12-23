@@ -12,7 +12,7 @@ The last lesson of our Introduction Course is very likely the most challenging, 
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

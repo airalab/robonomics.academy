@@ -12,7 +12,7 @@ Lesson 2 explained the main principles of Robonomics and mentioned Polkadot / Ku
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

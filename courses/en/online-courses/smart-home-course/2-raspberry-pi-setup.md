@@ -6,7 +6,7 @@ courseID: 3
 metaOptions: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 
@@ -141,7 +141,7 @@ Home Assistant Installation
 
   Before starting, update the Raspberry Pi system and install necessary packages.  During installation you will see a window with service restart request. Just choose <span class="accent">ok</span> with the <code>tab</code> button and press enter.
 
-<LessonCodeWrapper language="bash" codeClass="long-code">sudo apt-get update
+<LessonCodeWrapper language="bash" codeClass="long-code" noCopyIcon>sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install -y python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev subversion
 </LessonCodeWrapper>

@@ -84,7 +84,6 @@ export default {
     border: 1px solid transparent;
     border-radius: var(--gap);
     color: var(--color-text);
-    text-transform: uppercase;
     cursor: pointer;
   }
 

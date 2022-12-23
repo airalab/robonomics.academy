@@ -80,7 +80,8 @@ module.exports = function (api) {
         if (lesson.internal.typeName === options.typeName) {
           
           const imgName = lesson.fileInfo.name;
-          const lessonTitle = lesson.title.replace('Lesson #', '').slice(3).trim();
+          const lessonNamePart = lesson.title.substr(0, lesson.title.indexOf(',')); 
+          const lessonTitle = lesson.title.replace(lessonNamePart, '').slice(2).trim();
           const locale = lesson.fileInfo.path.slice(0,2);
           const dir = lesson.fileInfo.directory.slice(18);
           const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`

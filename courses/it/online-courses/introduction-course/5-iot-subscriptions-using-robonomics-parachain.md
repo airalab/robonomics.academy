@@ -12,7 +12,7 @@ L'ultima lezione del nostro corso introduttivo è molto probabilmente la più di
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

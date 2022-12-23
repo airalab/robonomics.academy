@@ -12,7 +12,7 @@ La Lección 2 explicó los principios fundamentales de Robonomics y mencionó a 
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Intro
 

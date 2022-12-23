@@ -254,12 +254,11 @@
 
   .technologies {
     align-items: center;
+    justify-items: center;
   }
   .technologies img {
     max-width: 60px;
   }
-
-
 
   /* scheme */
   .scheme {

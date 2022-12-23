@@ -1,9 +1,10 @@
-- alias: Welcome to our online school
-  en: Welcome to our online school
-  ru: Добро пожаловать в нашу онлайн школу
-  es: Bienvenido a nuestra escuela en línea
-  it: Benvenuti nella nostra scuola online
-  pt: Bem-vindo(a) à nossa escola online
+- alias: Welcome to Our Online School!
+  en: Welcome to our online school!
+  ru: Добро пожаловать в нашу онлайн школу!
+  es: Bienvenido a nuestra escuela en línea!
+  it: Benvenuti nella nostra scuola online!
+  pt: Bem-vindo(a) à nossa escola online!
+  de: Willkommen in unserer Online-Schule
   
 - alias: Get our support on
   en: Get our support on
@@ -12,12 +13,13 @@
   ru: Получите нашу поддержку в
   pt: Obtenha nosso suporte  
 
-- alias: About
-  en: About
+- alias: About Academy
+  en: About Academy
   es: Acerca de 
   it: A Riguardo
   ru: О нас
   pt: Sobre
+  de: Über 
 
 - alias: Online Courses
   en: Online Courses
@@ -25,6 +27,7 @@
   it: Corsi Online
   ru: Онлайн Курсы
   pt: Cursos On-line
+  de: Online Kurse
 
 - alias: Apply for certificate 
   en: Apply for certificate
@@ -32,6 +35,7 @@
   it: Applica per il certificato
   ru: Подать заявку на сертификат
   pt: Solicitação de certificado
+  de: Zertifikat anfordern
 
 - alias: We plan to expand Robonomics Academy courses and available lessons may be imperfect. Please feel free to
   en: We plan to expand Robonomics Academy courses and available lessons may be imperfect. Please feel free to
@@ -39,6 +43,7 @@
   it: Abbiamo in programma di espandere i corsi della Robonomics Academye e le lezioni disponibili potrebbero essere imperfette. Per favore sentitevi liberi di
   ru: "Мы планируем расширять курсы Aкадемии Робономика, и доступные уроки могут быть несовершенны. Будем рады"
   pt: Planejamos expandir os cursos da Robonomics academy e as aulas disponíveis podem ser imperfeitas. Por favor, sinta-se à vontade para
+  de: Wir planen, die Kurse der Robonomics-Akademie zu erweitern doch können die verfügbaren Lektionen unvollständig sein. Bitte
 
 - alias: discuss with us
   en: discuss with us
@@ -46,6 +51,7 @@
   it: discutere con noi
   ru: обсудить
   pt: discutir com a gente
+  de: berichten sie uns 
 
 - alias: your suggestions and report about bugs.
   en: your suggestions and report about bugs.
@@ -53,6 +59,7 @@
   it: i vostri suggerimenti e segnalare i bug.
   ru: ваши предложения.
   pt: suas sugestões e relatório sobre bugs.
+  de: Ihre Vorschläge und Fehlermeldungen.
 
 - alias: Results
   en: Results
@@ -60,6 +67,7 @@
   it: Risultati
   ru: Результаты
   pt: Resultados
+  de: Ergebnisse
 
 - alias: "Note: you need to pass all lessons from course with one Polkadot.js account to apply for certificate"
   en: "Note: you need to pass all lessons from course with one Polkadot.js account to apply for certificate"
@@ -67,6 +75,7 @@
   it: "Nota: dovete superare tutte le lezioni del corso con un account Polkadot.js per richiedere il certificato"
   ru: "Примечание: вам необходимо пройти все уроки курса с одной учетной записью Polkadot.js, чтобы подать заявку на сертификат"
   pt: "Nota: você precisa ser aprovado em todas as lições do curso com uma conta Polkadot.js para solicitar o certificado"
+  de: "Hinweis: Sie müssen alle Lektionen des Kurses mit einem Polkadot.js-Konto absolvieren, um das Zertifikat zu erhalten"
 
 - alias: Previous Lesson
   en: Previous Lesson
@@ -74,6 +83,7 @@
   it: Lezione Precedente
   ru: Предыдущий Урок
   pt: Lição Anterior
+  de: Vorige Lektion
 
 - alias: Next Lesson
   en: Next Lesson
@@ -81,6 +91,7 @@
   it: Prossima Lezione
   ru: Следующий Урок
   pt: Próxima Lição
+  de: Nächste Lektion
 
 - alias: Passed all lessons?
   en: Passed all lessons?
@@ -88,6 +99,7 @@
   it: Avete superato tutte le lezioni?
   ru: Все уроки пройдены?
   pt: Foi aprovado em todas as aulas?
+  de: Alle Lektionen bestanden?
 
 - alias: "Now you may apply for IPFS certificate. What you may do with this:"
   en: "Now you may apply for IPFS certificate. What you may do with this:"
@@ -95,6 +107,7 @@
   it: "Ora puoi richiedere il certificato IPFS. Cosa puoi fare con questo:"
   ru: "Теперь вы можете подать заявку на получение сертификата IPFS. Что вы можете с этим сделать:"
   pt: "Agora você pode solicitar o certificado IPFS. O que você pode fazer com isto:"
+  de: "Jetzt können Sie ein IPFS-Zertifikat beantragen. Was Sie damit tun können:"
 
 - alias: Add certificate to your LinkedIn profile
   en: Add certificate to your LinkedIn profile
@@ -102,6 +115,7 @@
   it: Aggiungi il certificato al tuo profilo LinkedIn
   ru: Добавьте сертификат в свой профиль LinkedIn
   pt: Adicionar certificado ao seu perfil do LinkedIn
+  de: Zertifikat zu Ihrem LinkedIn-Profil hinzufügen
 
 - alias: Apply for
   en: Apply for
@@ -109,13 +123,15 @@
   it: Candidati per
   ru: Подать заявку 
   pt: Inscrever-se no
+  de: Bewerbung für 
 
-- alias: Robonomics Ambassador program
+- alias: Robonomics ambassador program
   en: Robonomics Ambassador program
   es: El Programa de Embajadores de Robonomics
   it: L'Ambassador program di Robonomics
   ru: на участие в программе Амбассадоров Робономики
   pt: programa de Embaixadores da Robonomics
+  de: Robonomics Ambassador Programm
 
 - alias: Print it on your wall
   en: Print it on your wall
@@ -123,6 +139,7 @@
   it: Stampalo per la tua parete
   ru: Распечатайте и повесьте на стену
   pt: Fazer um quadro
+  de: Drucken sie aus aus um es z.B. an die Wand zu hängen
 
 - alias: Submit
   en: Submit
@@ -130,6 +147,7 @@
   it: Invia
   ru: Отправить
   pt: Enviar
+  de: Einreichen
 
 - alias: Sending your request
   en: Sending your request
@@ -137,6 +155,7 @@
   it: Invio della tua richiesta
   ru: Идет отправка запроса
   pt: Enviando sua solicitação
+  de: Senden Sie Ihre Anfrage
 
 - alias: Your request has been sent
   en: Your request has been sent
@@ -144,6 +163,7 @@
   ru: Ваш запрос был отправлен
   it: La tua richiesta è stata inviata
   pt: Sua solicitação foi enviada
+  de: Ihre Anfrage wurde versendet
 
 - alias: You are in the list
   en: You are in the list
@@ -151,34 +171,39 @@
   it: Sei nella lista
   ru: Вы в списке
   pt: Você está na lista
+  de: Sie stehen auf der Liste
 
-- alias: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team from Robonomics Network
-  en: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team from Robonomics Network
+- alias: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
+  en: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
   es: Al enviar este formulario, acepta recibir correos electrónicos con notificaciones y actualizaciones de código abierto descentralizado del equipo del Robonomics Network
   it: Inviando questo modulo accetti di ricevere e-mail con notifiche e aggiornamenti dal team decentralizzato open source di Robonomics Network
   ru: Отправляя эту форму, вы соглашаетесь получать электронные письма с уведомлениями и обновлениями от децентрализованной команды Robonomics Network с доступным исходным кодом
   pt: Ao enviar este formulário você concorda em receber e-mails com notificações e atualizações da equipe descentralizada de código aberto da Robonomics Network
+  de: Mit dem Absenden dieses Formulars erklären Sie sich damit einverstanden, E-Mails mit Benachrichtigungen und Updates vom dezentralen Open-Source-Team von Robonomics Network zu erhalten.
 
-- alias: Get new skills in using modern web technologies to build IoT solutions.
-  en: Get new skills in using modern web technologies to build IoT solutions.
+- alias: Get New Skills in Using Modern Web Technologies to Build IoT Solutions
+  en: Get New Skills in Using Modern Web Technologies to Build IoT Solutions.
   es: Obtenga nuevas habilidades en el uso de tecnologías web modernas para crear soluciones IoT.
   it: Acquisisci nuove competenze nell'utilizzo delle moderne tecnologie web per costruire soluzioni IoT.
   ru: Благодаря нашим онлайн-курсам вы получите новые навыки в использовании современных веб-технологий для создания IoT-решений
   pt: Adquira novas habilidades ao utilizar tecnologias web modernas para construir soluções IoT
+  de: Erwerben Sie neue Fähigkeiten im Umgang mit modernen Webtechnologien zur Entwicklung von IoT-Lösungen
 
-- alias: Start online course
-  en: Start online course
-  es: Iniciar curso en línea
-  ru: Начать онлайн курс
-  it: Inizia il corso online
-  pt: Iniciar curso online
+- alias: Start Online Courses
+  en: Start Online Courses
+  es: Iniciar cursos en línea
+  ru: Начать онлайн курсы
+  it: Inizia il corsos online
+  pt: Iniciar cursos online
+  de: Online-Kurs starten
 
-- alias: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
-  en: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
-  es: Los principales desarrolladores del proyecto Robonomics, especialistas en robótica y doctores científicos de investigación se ofrecen para pasar a través de una experiencia compendiosa basada en 7 años de trabajo con proyectos web 3.0.
-  it: Gli sviluppatori principali del progetto Robonomics, specialisti di robotica e ricercatori PhD, si offrono di trasmettere un compendio dell'esperienza acquisita in 7 anni di lavoro su progetti web 3.0.
-  ru: Разработчики проекта «Робономика», специалисты в области экономики роботов и ученые-исследователи делятся своим богатым опытом, основанным на 7-летней работе с проектами web 3.0.
-  pt: Os principais desenvolvedores do projeto Robonomics, especialistas em robótica e cientistas de pesquisa de PhD se oferecem para passar por uma experiência abrangente baseada em 7 anos de trabalho com projetos da web 3.0.
+- alias: The core developers of the Robonomics Network, robotics specialists and PhD scientists offer to pass through compendious experience based on about 10 years of work with web3 projects.
+  en: The core developers of the Robonomics Network, robotics specialists and PhD scientists offer to pass through compendious experience based on about 10 years of work with web3 projects.
+  es: Los principales desarrolladores del Robonomics Network, especialistas en robótica y doctores científicos de investigación se ofrecen para pasar a través de una experiencia compendiosa basada en 10 años de trabajo con proyectos web 3.0.
+  it: Gli sviluppatori principali del Robonomics Network, specialisti di robotica e ricercatori PhD, si offrono di trasmettere un compendio dell'esperienza acquisita in 7 anni di lavoro su progetti web 3.0.
+  ru: Разработчики Robonomics Network, специалисты в области экономики роботов и ученые-исследователи делятся своим богатым опытом, основанным на 10-летней работе с проектами web 3.0.
+  pt: Os principais desenvolvedores do Robonomics Network, especialistas em robótica e cientistas de pesquisa de PhD se oferecem para passar por uma experiência abrangente baseada em 10 anos de trabalho com projetos da web 3.0.
+  de: Die Entwickler des Robonomics Network und Spezialisten der Robotik geben ihre umfassenden Erfahrungen aus 10 Jahren Arbeit mit Web 3.0-Projekten weiter.
 
 - alias: What you can learn
   en: What you can learn
@@ -186,27 +211,31 @@
   ru: Чему вы научитесь
   it: Cosa puoi imparare
   pt: O que você pode aprender
+  de: Das können Sie lernen
 
-- alias: Deploying and operating networks of IoT devices
-  en: Deploying and operating networks of IoT devices
+- alias: Deploying and Operating Networks of IoT Devices
+  en: Deploying and Operating Networks of IoT Devices
   es: Despliegue y operación de redes de dispositivos IoT
   ru: Внедрение и эксплуатация сетей IoT-устройств
   it: Implementazione e gestione di reti di dispositivi IoT
   pt: Implantação e operação de redes de dispositivos IoT
+  de: Einrichtung und Betrieb von Netzwerken mit IoT-Geräten
 
-- alias: Operating blockchain technologies
-  en: Operating blockchain technologies
+- alias: Operating Blockchain Technologies
+  en: Operating Blockchain Technologies
   es: Tecnologías blockchain operativas
   ru: Управление блокчейн технологиями
   it: Tecnologie blockchain operative
   pt: Operando tecnologias blockchain
+  de: Blockchain-Technologien betreiben
 
-- alias: Protected operations logging and storage of device data
-  en: Protected operations logging and storage of device data
+- alias: Protected Operations Logging and Storage of Device Data
+  en: Protected Operations Logging and Storage of Device Data
   es: Registro de operaciones protegidas y almacenamiento de datos del dispositivo
   ru: Защищенное протоколирование операций и хранение данных устройства
   it: Registrazione delle operazioni protette e archiviazione dei dati del dispositivo
   pt: Registro de operações protegidas e armazenamento de dados do dispositivo
+  de: Geschützte Betriebsprotokollierung und Speicherung von Gerätedaten
 
 - alias: Building IoT Dapps
   en: Building IoT Dapps
@@ -214,20 +243,23 @@
   ru: Создание децентрализованных IoT-приложений
   it: Creazione di Dapp IoT
   pt: Construção de Dapps IoT
+  de: Erstellen von IoT-Dapps
 
-- alias: Basics of robot economy
-  en: Basics of robot economy
+- alias: Basics of Robot Economy
+  en: Basics of Robot Economy
   es: Conceptos básicos de economía de robots.
   ru: Основы экономики роботов
   it: Basi della robot economy
   pt: Princípios básicos da economia robótica
+  de: Grundlagen der Robotik
 
-- alias: Get through intense engineering practice
-  en: Get through intense engineering practice
+- alias: Intense Engineering Practice
+  en: Intense Engineering Practice
   es: Atravesar iuna ntensa práctica de ingeniería
   ru: Интенсивная инженерная практика
   it: Supera un'intensa pratica ingegneristica
   pt: Passe por uma intensa prática de engenharia
+  de: Intensive technische Praxis
 
 - alias: What you can get
   en: What you can get
@@ -235,13 +267,15 @@
   ru: Что вы получите
   it: Cosa puoi ottenere
   pt: O que você pode obter
+  de: Das können Sie bekommen
 
-- alias: Collect blockchain proved certificate
-  en: Collect blockchain proved certificate
+- alias: Blockchain Proved Certificate
+  en: Blockchain Proved Certificate
   es: Recopile el certificado comprobado de blockchain
   ru: Подтвержденный блокчейном сертификат
   it: Ottieni un attestato certificato dalla blockchain
   pt: Obter certificado comprovado pela blockchain
+  de: Blockchain-geprüftes Zertifikat
 
 - alias: that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   en: that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
@@ -249,6 +283,7 @@
   ru: о том, что вы ознакомились с современными веб-технологиями для IoT. Это пригодится при найме в технологическую компанию, которая хочет улучшить свою корпоративную инфраструктуру с помощью web3.
   it: che dimostra la tua familiarità con le moderne tecnologie web per l'IoT. Sarà utile quando vorrai proporti a un'azienda tecnologica che desidera migliorare la propria infrastruttura aziendale utilizzando ilweb3.
   pt: que você está familiarizado com as modernas tecnologias da Web para a IoT. Será útil ao contratar uma empresa de tecnologia que deseja melhorar sua infraestrutura corporativa usando a web3.
+  de: das Sie mit den modernen Webtechnologien für das IoT vertraut sind. Das wird sich als nützlich erweisen, wenn Sie ein Technologieunternehmen beauftragen, dass seine Unternehmensinfrastruktur mit web3 verbessern möchte.
 
 - alias: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
   en: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
@@ -256,13 +291,15 @@
   ru: Получите сертификат, подтвержденный блокчейном о том, что вы ознакомились с современными веб-технологиями для IoT. Это пригодится при найме технологической компании, которая хочет улучшить свою корпоративную инфраструктуру с помощью web3.
   it: Ottieni un attestato certificato dalla blockchain che dimostra la tua familiarità con le moderne tecnologie web per l'IoT. Sarà utile quando vorrai proporti a un'azienda tecnologica che desidera migliorare la propria infrastruttura aziendale utilizzando ilweb3.
   pt: Obter certificado comprovado pela blockchain que você está familiarizado com as modernas tecnologias da Web para a IoT. Será útil ao contratar uma empresa de tecnologia que deseja melhorar sua infraestrutura corporativa usando a web3.
+  de: Blockchain-geprüftes Zertifikat das Sie mit den modernen Webtechnologien für das IoT vertraut sind. Das wird sich als nützlich erweisen, wenn Sie ein Technologieunternehmen beauftragen, dass seine Unternehmensinfrastruktur mit web3 verbessern möchte.
 
-- alias: Networking with professionals
-  en: Networking with professionals
+- alias: Networking with Professionals
+  en: Networking with Professionals
   es: Networking con profesionales
   ru: Онлайн работа с профессионалами
   it: Networking con dei professionisti
   pt: Faça networking com profissionais
+  de: Vernetzung mit Fachleuten
 
 - alias: with Robonomics engineers and even get advice at a personal consultation for your IoT research or engineering project.
   en: with Robonomics engineers and even get advice at a personal consultation for your IoT research or engineering project.
@@ -270,13 +307,15 @@
   ru: из команды инженеров Робономики и персональную консультацию по вашему исследовательскому или инженерному проекту IoT.
   it: con gli ingegneri di Robonomics, ottenendo anche dei consigli durante una consulenza personale per la tua ricerca IoT o progetto ingegneristico.
   pt: com engenheiros da Robonomics e até mesmo obtenha aconselhamentos em uma consulta pessoal para sua pesquisa ou projeto de engenharia de IoT.
+  de: mit Robonomics-Ingenieuren und lassen Sie sich bei einem persönlichen Gespräch für Ihr IoT-Forschungs- oder Entwicklungsprojekt beraten.
 
-- alias: Jump into Robonomics team as an Ambassador
-  en: Jump into Robonomics team as an Ambassador
+- alias: Participation in Robonomics as Ambassador
+  en: Participation in Robonomics as Ambassador
   es: Salta al equipo de Robonomía como Embajador
   ru: Возможность присоединиться к команде Робономики в качестве амбассадора
   it: Entra nel team di Robonomics come Ambassador
   pt: Entrar na equipe da Robonomics como Embaixador
+  de: Werden Sie Ambassador im Robonomics-Team
 
 - alias: We started
   en: We started
@@ -284,12 +323,14 @@
   ru: В этом году мы запустили
   it: Abbiamo avviato
   pt: Iniciamos o 
+  de: Wir haben das
 
 - alias: Ambassador program
   en: Ambassador program
   ru: программу «Ambassador»
   it: l'Ambassador program
   pt: programa de Embaixadores 
+  de: Ambassador Programm
 
 - alias: this year and looking forward talented inspired people!
   en: this year and looking forward talented inspired people!
@@ -297,6 +338,7 @@
   ru: и ждем талантливых вдохновленных людей!
   it: quest'anno e siamo alla ricerca di persone ispirate e di talento!
   pt: este ano e procuramos pessoas talentosas e inspiradas!
+  de: dieses Jahr gestartet und freuen uns auf talentierte, inspirierte Menschen!
 
 - alias: What is Robonomics?
   en: What is Robonomics?
@@ -304,6 +346,7 @@
   ru: Что такое Робономика?
   it: Cos'è Robonomics?
   pt: O que é a Robonomics?
+  de: Was ist Robonomics?
 
 - alias: Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).
   en: Robonomics is an open-source platform for IoT applications. We support a new generation of internet technologies (web3).
@@ -311,6 +354,7 @@
   ru: Робономика — это платформа с открытым исходным кодом для приложений IoT. Мы используем интернет-технологии нового поколения (web3).
   it: Robonomics è una piattaforma open source per applicazioni IoT. Supportiamo una nuova generazione di tecnologie Internet (web3).
   pt: A Robonomics é uma plataforma de código aberto para aplicações IoT. Damos suporte a uma nova geração de tecnologias de internet (web3).
+  de: Robonomics ist eine Open-Source-Plattform für IoT-Anwendungen. Wir unterstützen eine neue Generation von Internettechnologien (web3).
 
 - alias: Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.
   en: Robonomics implements the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.
@@ -318,20 +362,23 @@
   ru: Робономика позволяет выполнять обмен технико-экономической информацией в виде атомарных транзакций между пользовательскими приложениями, сервисами IoT и сложной робототехникой.
   it: Robonomics implementa lo scambio di informazioni tecniche ed economiche sotto forma di transazioni atomiche fra applicazioni utente, servizi IoT e robotica complessa.
   pt: A Robonomics implementa a troca de informações técnicas e econômicas na forma de transações atômicas entre aplicações do usuário, serviços IoT, e robótica complexa.
+  de: Robonomics implementiert den Austausch von technischen und wirtschaftlichen Informationen in Form von atomaren Transaktionen zwischen Benutzeranwendungen, IoT-Diensten und komplexer Robotik.
 
-- alias: User (D)App
-  en: User (D)App
+- alias: User Dapp
+  en: User Dapp
   es: Aplicación de usuario
-  ru: Пользователь (D)App
-  it: Utente (D)App
-  pt: Usuário (D)App
+  ru: Пользователь Dapp
+  it: Utente Dapp
+  pt: Usuário Dapp
+  de: Anwender Dapp
 
-- alias: Function request
+- alias: Function Request
   en: Function request
   es: Solicitud de función
   ru: Запрос функции
   it: Richiesta di funzione
   pt: Solicitação de função
+  de: Funktionsanforderung
 
 - alias: Report
   en: Report
@@ -339,13 +386,15 @@
   ru: Отчет
   it: Rapporto
   pt: Relatório
+  de: Berichte
 
-- alias: Digital twin
+- alias: Digital Twin
   en: Digital twin
   es: Gemelo digital
   ru: Цифровой двойник
   it: Digital twin
   pt: Gêmeos digitais
+  de: Digital twin
 
 - alias: Control
   en: Control
@@ -353,6 +402,7 @@
   ru: Контроль
   it: Controllo
   pt: Controle
+  de: Steuerung
 
 - alias: Log
   en: Log
@@ -360,6 +410,7 @@
   ru: Лог
   it: Log
   pt: Registro
+  de: Protokoll
 
 - alias: IoT Device
   en: IoT Device
@@ -367,6 +418,7 @@
   ru: IoT-устройство
   it: Dispositivo IoT
   pt: Dispositivo IoT
+  de: IoT Gerät
 
 - alias: More on our official website
   en: More on our official website
@@ -374,6 +426,7 @@
   ru: Подробнее на нашем официальном сайте
   it: Maggiori informazioni sul nostro sito ufficiale
   pt: Mais informações em nosso site oficial
+  de: Mehr dazu auf unserer offiziellen Website
 
 - alias: Course passed information
   en: Course passed information
@@ -381,6 +434,7 @@
   ru: Информация о пройденном курсе
   it: Informazioni sul corso passato
   pt: Informações sobre o curso aprovado
+  de: Informationen zum bestandenen Kurs
 
 - alias: What course did you passed
   en: What course did you passed
@@ -388,6 +442,7 @@
   ru: Какой курс вы прошли
   it: Che corso hai passato
   pt: Em que curso você foi aprovado
+  de: Welchen Kurs haben Sie absolviert
 
 - alias: What Polkadot address did you used to pass
   en: What Polkadot address did you used to pass
@@ -395,9 +450,10 @@
   ru: Какой адрес Polkadot вы использовали
   it: Quale indirizzo Polkadot hai usato per passare
   pt: Qual endereço Polkadot você usou para ser aprovado
+  de: Welche Polkadot-Adresse haben Sie verwendet, bezüglich
 
-- alias: Information for certificate
-  en: Information for certificate
+- alias: Information for Certificate
+  en: Information for Certificate
   es: Información para el certificado
   ru: Данные для сертификата
   it: Informazioni per il certificato
@@ -406,7 +462,7 @@
 - alias: 'Your name (this will be on your certificate)'
   en: 'Your name (this will be on your certificate)'
   es: "Tu nombre (esto estará en tu certificado)"
-  ru: Имя(будет прописано на сертификате)
+  ru: Имя (будет прописано на сертификате)
   it: Il tuo nome (questo sarà sul tuo certificato)
   pt: "Seu nome (isto aparecerá em seu certificado)"
 
@@ -416,14 +472,15 @@
   ru: Адрес электронной почты(для получения уведомления)
   it: La tua email (per la notifica)
   pt: Seu e-mail (para notificação)
-
-- alias: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
-  en: The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.
+  de: Ihre E-Mail (für Benachrichtigung)
 
 - alias: Get new skills in using modern web technologies to build IoT solutions.
   en: Get new skills in using modern web technologies to build IoT solutions.
-  es: Obtenga nuevas habilidades en el uso de tecnologías web modernas para crear soluciones IoT
-  ru: Получите новые навыки в использовании современных веб-технологий для создания IoT-решений
+  es: Obtenga nuevas habilidades en el uso de tecnologías web modernas para crear soluciones IoT.
+  it: Acquisisci nuove competenze nell'utilizzo delle moderne tecnologie web per costruire soluzioni IoT.
+  ru: Благодаря нашим онлайн-курсам вы получите новые навыки в использовании современных веб-технологий для создания IoT-решений
+  pt: Adquira novas habilidades ao utilizar tecnologias web modernas para construir soluções IoT
+  de: Erwerben Sie neue Fähigkeiten im Umgang mit modernen Webtechnologien zur Entwicklung von IoT-Lösungen
 
 - alias: Boston Dynamics Spot Software Developing
   en: Boston Dynamics Spot Software Developing
@@ -437,6 +494,7 @@
   it: Di cosa si tratta?
   ru: О чем вы узнаете
   pt: Do que se trata?
+  de: Worum geht es hier eigentlich?
 
 - alias: We are excited to see you join the Spot SDK educational program! Our goal is to get you familiar with Spot's SDK and allow you to test your skills using a Boston Dynamics Spot robot in our lab.
   en: We are excited to see you join the Spot SDK educational program! Our goal is to get you familiar with Spot's SDK and allow you to test your skills using a Boston Dynamics Spot robot in our lab.
@@ -539,6 +597,7 @@
   it: Di cosa si tratta
   ru: О чем вы узнаете
   pt: Do que se trata?
+  de: Worum geht es hier eigentlich?
 
 - alias: "What’s this about"
   en: What's this about
@@ -546,6 +605,7 @@
   it: Di cosa si tratta
   ru: О чем вы узнаете
   pt: Do que se trata?
+  de: Worum geht es hier eigentlich?
 
 - alias: In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot.
   en: In this lesson you will learn how to configure Yggdrasil network and establish connection to the robot.
@@ -1027,6 +1087,7 @@
   ru: На стыке кибернетики и экономики.
   it: All'intersezione fra cibernetica ed economia
   pt: Na interseção da Cibernética e da Economia
+  de: Am Schnittpunkt von Kybernetik und Wirtschaft
 
 - alias: In the second lesson you will learn how to use Spot Command services and walk with Spot.
   en: In the second lesson you will learn how to use Spot Command services and walk with Spot.
@@ -1516,6 +1577,7 @@
   it: Corso Introduttivo
   ru: Вводный курс
   pt: Curso introdutório
+  de: Einführungskurs
 
 - alias: Introduction course
   en: Introduction course
@@ -1523,6 +1585,7 @@
   it: Corso Introduttivo
   ru: Вводный курс
   pt: Curso introdutório
+  de: Einführungskurs
 
 - alias: In this course we dive into the problems that arise around building modern Internet of Things applications. As a possible solution, we want to introduce, at a basic level, the capabilities of web3 technologies and Robonomics tools for IoT developers and users. This introduction Course was designed to explain the main principles that form the idea of decentralized IoT applications, and also to show the main functions of the Robonomics platform as a parachain within the Polkadot / Kusama ecosystem.
   en: In this course we dive into the problems that arise around building modern Internet of Things applications. As a possible solution, we want to introduce, at a basic level, the capabilities of web3 technologies and Robonomics tools for IoT developers and users. This introduction Course was designed to explain the main principles that form the idea of decentralized IoT applications, and also to show the main functions of the Robonomics platform as a parachain within the Polkadot / Kusama ecosystem.
@@ -1530,6 +1593,7 @@
   it: In questo corso ci addentriamo nei problemi che sorgono intorno alla creazione di moderne applicazioni Internet of Things. Come possibile soluzione, vogliamo introdurre, a livello di base, le capacità delle tecnologie web3 e degli strumenti di Robonomics per sviluppatori e utenti IoT. Questo corso introduttivo è stato progettato per spiegare i principi fondamentali che formano l'idea di applicazioni IoT decentralizzate, e per mostrare le funzionalità principali della piattaforma Robonomics come parachain all'interno dell'ecosistema Polkadot / Kusama.
   ru: В этом курсе мы углубимся в проблемы, возникающие при создании современных приложений Интернета вещей. В качестве возможного решения мы хотим представить на начальном уровне возможности технологий web3 и инструментов Робономики для разработчиков и пользователей IoT. Этот вводный курс был разработан, чтобы объяснить основные принципы, формирующие идею децентрализованных приложений IoT, а также показать основные функции платформы Робономики как парачейна в рамках экосистемы Polkadot/Kusama.
   pt: Neste curso, analisamos os problemas que surgem em torno da construção de aplicações IoT modernas. Como possível solução, queremos apresentar, em um nível básico, as capacidades das tecnologias web3 e das ferramentas da Robonomics, para desenvolvedores e usuários da Internet das Coisas. Este curso introdutório foi projetado para explicar os princípios fundamentais que formam a ideia de aplicações IoT descentralizadas, e também para mostrar as principais funções da plataforma Robonomics como uma parachain dentro do ecossistema Polkadot / Kusama.
+  de: In diesem Kurs beschäftigen wir uns mit den Problemen die bei der Entwicklung moderner IoT-Anwendungen auftreten. Als Lösungsmöglichkeiten wollen wir web3-Technologien und Robonomics-Tools für IoT-Entwickler und -Nutzer vorstellen. Dieser Einführungskurs wurde entwickelt um die Hauptprinzipien von dezentralisierten IoT-Anwendungen zu erklären und um die Hauptfunktionen der Robonomics-Plattform als Teil des Polkadot/Kusama zu zeigen.
 
 - alias: During this course you will take the first steps in understanding why these futuristic IoT-applications require better tools to meet the growing challenges and threats of the digital world. You will try to connect smart home devices to the decentralized cloud and attempt to purchase, activate and use IoT-subscriptions to send data to devices using the Robonomics Parachain.
   en: During this course you will take the first steps in understanding why these futuristic IoT-applications require better tools to meet the growing challenges and threats of the digital world. You will try to connect smart home devices to the decentralized cloud and attempt to purchase, activate and use IoT-subscriptions to send data to devices using the Robonomics Parachain.
@@ -1537,6 +1601,7 @@
   it: Durante il corso prenderete consapevolezza del perché queste applicazioni IoT futuristiche richiedono strumenti migliori per affrontare le crescenti sfide e minacce del mondo digitale. Proverete a connettere dei dispositivi per smart home al cloud decentralizzato e tenterete di acquistare, attivare e utilizzare un abbonamento IoT per inviare dati ai dispositivi utilizzando la Parachain Robonomics.
   ru: В ходе этого курса вы поймете, почему футуристические IoT-приложения требуют более совершенных инструментов для решения растущих проблем и угроз безопасности цифрового мира. Вы попробуете подключить устройства умного дома к децентрализованному облаку и попробуете приобрести, активировать и использовать IoT-подписки для отправки данных на устройства с помощью Парачейна Робономики.
   pt: Durante este curso, você dará os primeiros passos para entender por que estas aplicações IoT futuristas exigem melhores ferramentas para enfrentar os crescentes desafios e ameaças do mundo digital. Você tentará conectar dispositivos domésticos inteligentes à nuvem descentralizada e também comprar, ativar e usar assinaturas IoT para enviar dados para dispositivos usando a Parachain Robonomics. 
+  de: In diesem Kurs erfahren Sie warum diese futuristischen IoT-Anwendungen effektivere Mittel benötigen um den Herausforderungen und Bedrohungen der digitalen Welt zu bestehen. Sie werden lernen Smart-Home-Geräte mit der dezentralen Cloud zu verbinden und versuchen IoT-Abonnements zu erwerben, zu aktivieren und zu nutzen um Daten an Geräte mit der Robonomics Parachain zu senden.
 
 - alias: This course consists of theoretical lessons with tests and several practical tasks. At the end of the course, you will get a certificate and the opportunity to become part of the Robonomics Ambassador Program.
   en: This course consists of theoretical lessons with tests and several practical tasks. At the end of the course, you will get a certificate and the opportunity to become part of the Robonomics Ambassador Program.
@@ -1544,6 +1609,7 @@
   it: Questo corso consiste in lezioni teoriche con dei test e diverse attività pratiche. Al termine del corso, riceverete un certificato e l'opportunità di entrare a far parte dell'Ambassador Program di Robonomics.
   ru: Этот курс состоит из теоретических занятий с тестами и нескольких практических заданий. По окончании курса вы получите сертификат и возможность стать участником программы амбассадоров Робономики.
   pt: Este curso é constituído por aulas teóricas com testes e várias tarefas práticas. Ao final do curso, você receberá um certificado e a oportunidade de fazer parte do Programa de Embaixadores da Robonomics.
+  de: Dieser Kurs besteht aus einem theoretischem Unterricht und mehreren praktischen Aufgaben. Am Ende des Kurses erhalten Sie ein Zertifikat und die Möglichkeit ein Mitglied des Robonomics Ambassador-Programms zu werden.
 
 - alias: What you can take from the course
   en: What you can take from the course
@@ -1551,6 +1617,7 @@
   it: Cosa potete imparare dal corso
   ru: Что вы узнаете, пройдя курс
   pt: O que você pode aprender com o curso
+  de: Was Sie vom Kurs mitnehmen können
 
 - alias: Practice and improvement of your skills in web3 development and robotic communications
   en: Practice and improvement of your skills in web3 development and robotic communications
@@ -1558,6 +1625,7 @@
   it: Pratica e miglioramento delle vostre abilità nello sviluppo web3 e nelle comunicazioni robotiche
   ru: Практика и совершенствование навыков в web3-разработке и роботизированных коммуникациях
   pt: Praticar e melhorar suas habilidades no desenvolvimento web3 e comunicações robóticas
+  de: Praxis und Optimierung Ihrer Fähigkeiten in den Bereichen Web3-Entwicklung und Roboterkommunikation
 
 - alias: "Knowledge about the state of modern Internet of Things: typical problems and how web3 can be the solution to some of them"
   en: "Knowledge about the state of modern Internet of Things: typical problems and how web3 can be the solution to some of them"
@@ -1565,6 +1633,7 @@
   it: "Conoscenza dell'Internet of Things moderno: problemi tipici e come il web3 può essere la soluzione ad alcuni di essi"
   ru: "Понимание структуры современного Интернета вещей: типичные проблемы и то, как web3 может стать решением некоторых из них"
   pt: "Conhecimento sobre o estado da moderna Internet das Coisas: problemas típicos e como a web3 pode ser a solução para alguns deles"
+  de: "Kenntnisse über den Stand des modernen IoT: typische Probleme und wie web3 die Lösung für einige von ihnen sein kann"
 
 - alias: Basic skills for using the Polkadot / Kusama ecosystem
   en: Basic skills for using the Polkadot / Kusama ecosystem
@@ -1572,6 +1641,7 @@
   it: Competenze di base nell'utilizzo dell'ecosistema Polkadot/Kusama
   ru: Базовые навыки использования экосистемы Polkadot / Kusama
   pt: Habilidades básicas para utilizar o ecossistema Polkadot / Kusama
+  de: Grundkenntnisse zur Nutzung des Polkadot/Kusama-Systems
 
 - alias: This opening lesson will teach you basic methods to interact with a decentralized application (or dapp). For this purpose, we created a special dapp called «Black Mirror Broadcast», that works just from your web browser and shows a stream with a small retro TV. The dapp can remotely control the TV by showing your message as a QR code, sent using Robonomics platform.
   en: This opening lesson will teach you basic methods to interact with a decentralized application (or dapp). For this purpose, we created a special dapp called «Black Mirror Broadcast», that works just from your web browser and shows a stream with a small retro TV. The dapp can remotely control the TV by showing your message as a QR code, sent using Robonomics platform.
@@ -1593,6 +1663,7 @@
   ru: "Телевещание через Черное Зеркало"
   it: "Trasmettere Attraverso lo Specchio Nero"
   pt: "Transmissão através do Espelho Negro"
+  de: "Übertragung durch den 'Black Mirror'"
 
 - alias: This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).
   en: This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).
@@ -1893,6 +1964,7 @@
   it: Ecosistema Polkadot per l'infrastruttura IoT domestica
   pt: Ecossistema Polkadot para Infraestrutura IoT Doméstica
   es: Ecosistema de Polkadot para infraestructura IoT en el hogar
+  de: Polkadot-Ecosystem für die IoT-Infrastruktur zu Hause
 
 - alias: "Lesson 2 explained the main principles of Robonomics and mentioned Polkadot / Kusama as a promising blockchain ecosystem platform for it’s implementation. It’s time to take a closer look at the functions of Robonomics Parachain as a part of the Polkadot ecosystem in the Kusama network. In particular, we would like to show how IoT subscriptions of the Robonomics Parachain work. During the first lesson, your address was added to the course IoT subscription, and you have already managed to use it twice: when you looked for your reflection in the black mirror and when handed in your test results"
   en: "Lesson 2 explained the main principles of Robonomics and mentioned Polkadot / Kusama as a promising blockchain ecosystem platform for it’s implementation. It’s time to take a closer look at the functions of Robonomics Parachain as a part of the Polkadot ecosystem in the Kusama network. In particular, we would like to show how IoT subscriptions of the Robonomics Parachain work. During the first lesson, your address was added to the course IoT subscription, and you have already managed to use it twice: when you looked for your reflection in the black mirror and when handed in your test results"
@@ -2129,6 +2201,7 @@
   it: Architettura di Robonomics
   pt: Arquitetura da Robonomics
   es: Arquitectura de Robonomics
+  de: Robonomics-Architektur
 
 - alias: This is another theoretical lesson. In this lesson you will study the first half of the second chapter of Robonomics Whitepaper 2022 titled “Robonomics Architecture”. Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system. We explore these questions because this is the only way that we can understand the  requirements for such IoT platforms as Robonomics.
   en: This is another theoretical lesson. In this lesson you will study the first half of the second chapter of Robonomics Whitepaper 2022 titled “Robonomics Architecture”. Particularly, in this lesson we explore some of the practical questions and challenges surrounding creating a well-functioning IoT system. We explore these questions because this is the only way that we can understand the  requirements for such IoT platforms as Robonomics.
@@ -2247,6 +2320,7 @@
   it: Abbonamenti IoT con la Parachain Robonomics
   pt: Assinaturas IoT usando a Parachain Robonomics
   es: Suscripciones IoT usando Robonomics Parachain
+  de: IoT-Abonnements mit Robonomics Parachain
 
 - alias: The last lesson of our introduction course is very likely the most challenging, because it will require some dexterity and patience from you. You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network.
   en: The last lesson of our introduction course is very likely the most challenging, because it will require some dexterity and patience from you. You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network.
@@ -2599,6 +2673,7 @@
   ru: Получите опыт работы с технологиями Web 3.0 и блокчейна с помощью бесплатных онлайн-уроков.
   it: Ottieni esperienza sulle tecnologie web 3.0 e blockchain con lezioni online e gratuite.
   pt: Ganhe experiência em tecnologias web 3.0 e blockchain com aulas on-line gratuitas.
+  de: Sammeln Sie mit kostenlosen Online-Kursen Erfahrungen mit Web 3.0- und Blockchain-Technologien.
 
 - alias: Practice
   en: Practice
@@ -2606,6 +2681,7 @@
   it: Pratica
   pt: Prática
   es: Práctica
+  de: Praktische Übung
 
 - alias: ~ 15 min
   en: ~ 15 min
@@ -2613,6 +2689,7 @@
   it: ~ 15 min
   pt: ~ 15 min
   es: ~ 15 min
+  de: ~ 15 min
 
 - alias: Theory
   en: Theory
@@ -2620,6 +2697,7 @@
   it: Teoria
   pt: Teoria
   es: Teoría
+  de: Theorie
 
 - alias: from 1 hour
   en: from 1 hour
@@ -2627,6 +2705,7 @@
   it: da 1 ora
   pt: a partir de 1 hora
   es: desde 1 hora
+  de: ca. 1 Stunde
 
 - alias: ~ 50 min
   en: ~ 50 min
@@ -2634,6 +2713,7 @@
   it: ~ 50 min
   pt: ~ 50 min
   es: ~ 50 min
+  de: ~ 50 min
 
 - alias: Free Self-paced 5 Theoretical & practical tasks
   en: Free Self-paced 5 Theoretical & practical tasks
@@ -2641,6 +2721,7 @@
   it: Autoapprendimento gratuito 5 compiti Teorici e pratici
   pt: 5 Tarefas Teóricas e Práticas Gratuitas no seu ritmo
   es: 5 Tareas teóricas y prácticas gratis a tu propio ritmo 
+  de: "Frei Selbststudium: 5 theoretische und praktische Aufgaben"
 
 - alias: ~30 min
   en: ~30 min
@@ -2648,6 +2729,7 @@
   it: ~30 min
   pt: ~30 min
   es: ~30 min
+  de: ~30 min
 
 - alias: ~45 min
   en: ~45 min
@@ -2655,6 +2737,7 @@
   it: ~ 45 min
   pt: ~45 min
   es: ~45 min
+  de: ~45 min
 
 - alias: Polkadot.js extension
   en: Polkadot.js extension
@@ -2662,6 +2745,7 @@
   it: Estensione Polkadot.js
   pt: Extensão Polkadot.js
   es: Extensión de Polkadot.js
+  de: Polkadot.js extension
 
 - alias: Yggdrasil network & SPOT credentials
   en: Yggdrasil network & SPOT credentials
@@ -2669,6 +2753,7 @@
   it: Rete Yggdrasil e credenziali SPOT
   pt: Rede Yggdrasil e credenciais SPOT
   es: Red Yggdrasil y credenciales SPOT
+  de: Yggdrasil-Netzwerk & SPOT-Anmeldeinformationen
 
 - alias: "~25 min"
   en: " ~25 min"
@@ -2676,7 +2761,7 @@
   it: ~25 min
   pt: ~25 min
   es: ~25 min
-
+  de: ~25 min
 
 - alias: Our new Boston Dynamics Spot Software Developing!
   en: Our new Boston Dynamics Spot Software Developing!
@@ -2684,6 +2769,7 @@
   it: Sviluppa il Software per il nostro nuovo Spot della Boston Dynamics!
   pt: Nosso novo desenvolvimento de software Boston Dynamics Spot!
   es: ¡Nuestro nuevo desarrollo de software Boston Dynamics Spot!
+  de: Unsere neue Boston Dynamics Spot Software wird entwickelt!
 
 - alias: "Robonomics Academy online courses"
   en: "Robonomics Academy online courses"
@@ -2691,6 +2777,7 @@
   it: "Corsi online della Robonomics Academy"
   pt: Cursos on-line da Robonomics Academy
   es: Cursos en línea de la Academia de Robonomics
+  de: Onlinekurse der Robonomics Academy
 
 - alias: "Free<br/>Self-paced<br/>5 Theoretical & practical tasks"
   en: "Free<br/>Self-paced<br/>5 Theoretical & practical tasks"
@@ -2698,6 +2785,7 @@
   it: Autoapprendimento<br/>gratuito<br/>5 compiti Teorici e pratici
   pt: 5 Tarefas Teóricas e Práticas<br/>Gratuitas<br/>no seu ritmo
   es: 5 Tareas teóricas y prácticas<br/>Gratis<br/> a tu propio ritmo 
+  de: "Frei<br/>Selbststudium<br/>5 theoretische und praktische Aufgaben" 
 
 - alias: "Theory free / Practice from $82 per hour<br/>Self-paced<br/>Theory & practice"
   en: "Theory free / Practice from $82 per hour<br/>Self-paced<br/>Theory & practice"
@@ -2705,6 +2793,7 @@
   it: "Teoria gratuita / Pratica da $82 all'ora<br/Teoria e pratica di autoapprendimento"
   pt: Teoria gratuita / Prática a partir de $ 82 por hora<br/>Teoria e prática <br/>individualizada
   es: Teoría gratis / Práctica desde $ 82 por hora<br/>Teoría y práctica<br/>a su propio ritmo
+  de: Theorie kostenlos / Praktische Übung ab $82 pro Stunde<br/>Theorie und praktische<br/>Übung im Selbststudium
 
 
 - alias: Latest update
@@ -2722,72 +2811,97 @@
 
 - alias: Sovereign Smart Home with Robonomics and Home Assistant
   en: Sovereign Smart Home with Robonomics and Home Assistant
+  de: Souveränes Smart Home mit Robonomics und Home Assistan
 
 - alias: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data.
   en: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data.
 
-- alias: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data. This problem is becoming increasingly relevant  due to the spread of smart homes. The modern IoT market provides  the average user a large selection of smart home solutions, but they are all tied to centralized cloud providers or require an expensive proprietary gateway for connecting devices. Thus, the common smart home architecture remains very centralized in terms of device control and data storage.
-  en: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data. This problem is becoming increasingly relevant  due to the spread of smart homes. The modern IoT market provides  the average user a large selection of smart home solutions, but they are all tied to centralized cloud providers or require an expensive proprietary gateway for connecting devices. Thus, the common smart home architecture remains very centralized in terms of device control and data storage.
+- alias: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data. This problem is becoming increasingly relevant  due to the spread of smart homes. The modern IoT market provides  the average user a large selection of smart home solutions, but they are all tied to centralized cloud providers or require an expensive proprietary gateway for connecting devices. As a result, you as a user are always dependent on the hardware and infrastructure vendor to run your smart system. At the same time, your smart home cannot be truly smart without cloud statistics and analytics.
+  en: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data. This problem is becoming increasingly relevant  due to the spread of smart homes. The modern IoT market provides  the average user a large selection of smart home solutions, but they are all tied to centralized cloud providers or require an expensive proprietary gateway for connecting devices. As a result, you as a user are always dependent on the hardware and infrastructure vendor to run your smart system. At the same time, your smart home cannot be truly smart without cloud statistics and analytics.
 
 - alias: 'We see two main problems with this smart solution:'
   en: 'We see two main problems with this smart solution:'
+  de: 'Wir sehen zwei Hauptprobleme bei dieser intelligenten Lösung:'
 
-- alias: 'You have a single point of failure in the form of centralized vendor cloud servers.'
-  en: 'You have a single point of failure in the form of centralized vendor cloud servers.'
+- alias: 'Your smart home is vulnerable to shutdowns of centralized cloud servers'
+  en: 'Your smart home is vulnerable to shutdowns of centralized cloud servers.'
+  de: Sie habe eine Schwachstelle von zentralisierten Cloud-Servern der Anbieter.
 
 - alias: 'You have no control over what data you share with the vendor or third party.'
   en: 'You have no control over what data you share with the vendor or third party.'
+  de: Sie haben keine Kontrolle welche Daten an den Anbieter oder Dritte weitergeben werden.
+
 
 - alias: At the dawn of the development of smart homes, it was difficult to imagine a situation where the average user could easily deploy their own local home automation system. But now, thanks to widespread IoT standards, cheap hardware and open-source home automation systems, this vision has become affordable. And thanks to  the use of a decentralized cloud based on web3 technologies, it is now possible to provide secure remote access to smart devices
   en: At the dawn of the development of smart homes, it was difficult to imagine a situation where the average user could easily deploy their own local home automation system. But now, thanks to widespread IoT standards, cheap hardware and open-source home automation systems, this vision has become affordable. And thanks to  the use of a decentralized cloud based on web3 technologies, it is now possible to provide secure remote access to smart devices
+  de: Zu Beginn der Entwicklung von Smart Homes war es schwer vorstellbar, dass der Durchschnittsnutzer sein eigenes lokales Hausautomatisierungssystem einfach einrichten könnte. Doch dank weit verbreiteter IoT-Standards, preiswerter Hardware und Open-Source-Heimautomatisierungssystemen ist diese Vision jetzt erschwinglich geworden. Und dank des Einsatzes einer dezentralen, auf web3-Technologien basierenden Cloud ist es nun möglich, einen sicheren Fernzugriff auf intelligente Geräte zu ermöglichen.
 
 - alias: 'What will you learn:'
   en: 'What will you learn:'
+  de: "Lerninhalt:"
 
 - alias: Knowledge of smart home architecture based on common protocols and developments
   en: Knowledge of smart home architecture based on common protocols and developments
+  de: Kenntnisse der Smart-Home-Architektur auf der Grundlage gängiger Protokolle und Entwicklungen
 
 - alias: Practical skills for setting up and connecting smart home equipment
   en: Practical skills for setting up and connecting smart home equipment
+  de: Praktische Kompetenz zur Einrichtung und Verbindung von Smart-Home-Geräten
 
 - alias: Basic skills for using the Robonomics parachain for IoT
   en: Basic skills for using the Robonomics parachain for IoT
+  de: Grundfertigkeiten für die Nutzung des Robonomics-Parachains für das IoT
 
 - alias: 'Requirements:'
   en: 'Requirements:'
+  de: 'Erfordernisse:'
 
 - alias: 'Raspberry Pi 4 (at least 2 GB RAM)'
   en: 'Raspberry Pi 4 (at least 2 GB RAM)'
+  de: Raspberry Pi 4 (at least 2 GB RAM)
 
 - alias: 'SD card (minimum 16 GB) and SD adapter'
   en: 'SD card (minimum 16 GB) and SD adapter'
+  de: SD card (minimum 16 GB) and SD adapter
 
 - alias: 'Zigbee smart devices (any from)'
   en: 'Zigbee smart devices (any from)'
+  de: 'Zigbee smart devices (any from)'
 
 - alias: supported devices
   en: supported devices
 
 - alias: Zigbee adapter
   en: Zigbee adapter
+  de: Zigbee adapter
 
 - alias: JetHome USB JetStick Z2
   en: JetHome USB JetStick Z2
+  de: JetHome USB JetStick Z2
 
 - alias: one of supported
   en: one of supported
+  de: eines der unterstützten
 
 - alias: Robonomics SLS Gateway
   en: Robonomics SLS Gateway
+  de: Robonomics SLS Gateway
 
 - alias: Attention
   en: Attention
+  de: Achtung!
+
+- alias: "Preferably: computer with UNIX-like operating system."
+  en: "Preferably: computer with UNIX-like operating system."
+  de: "Vorzugsweise: Computer mit UNIX-ähnlichem Betriebssystem."
 
 - alias: to flash the SLS Gateway, you will need a Windows operating system.
   en: to flash the SLS Gateway, you will need a Windows operating system.
+  de: um das SLS-Gateway zu flashen benötigen Sie ein Windows-Betriebssystem.
 
-- alias: Free<br/>Self-paced<br/>7 practical tasks
-  en: Free<br/>Self-paced<br/>7 practical tasks
+- alias: Free<br/>Self-paced<br/>7 practical tasks<br/>Requires XRT tokens
+  en: Free<br/>Self-paced<br/>7 practical tasks<br/>Requires XRT tokens
+  de: Kostenlos<br/>Selbststudium<br/>7 praktische Aufgaben</br>Erfordert XRT-Token  
 
 - alias: Theoretical Briefing
   en: Theoretical Briefing
@@ -3916,30 +4030,39 @@
 
 - alias: "Choose your Privacy Policy for this website:"
   en: "Choose your Privacy Policy for this website:"
+  de: "Wählen Sie Ihre Datenschutzrichtlinie für diese Website:"
 
-- alias: Privacy Policy or Ways of communication with this website
+- alias: Privacy Policy or Ways of Communication with Website
   en: Privacy Policy or Ways of communication with this website
+  de: Datenschutzbestimmungen oder Möglichkeiten der Kommunikation mit dieser Website
 
 - alias: You may allow or disallow this website some actions concerning your web privacy. This may affect your experience on this website, but we certainly respect your privacy.
   en: You may allow or disallow this website some actions concerning your web privacy. This may affect your experience on this website, but we certainly respect your privacy.
+  de: Sie können dieser Website einige Aktionen bezüglich Ihrer Privatsphäre erlauben oder verbieten. Dies kann Ihre Erfahrung auf dieser Website beeinträchtigen, aber wir respektieren natürlich Ihre Privatsphäre.
 
 - alias: Disallow any actions
   en: Disallow any actions
+  de: Keine Aktionen zulassen
 
 - alias: By choosing this option you let us know that you do not want this website to use any cookies or local storage of your browser. So we will not be able to save any preferences including this choose and you will see privacy options popup every time you visit this website.
   en: By choosing this option you let us know that you do not want this website to use any cookies or local storage of your browser. So we will not be able to save any preferences including this choose and you will see privacy options popup every time you visit this website.
-
-- alias: Only critical
-  en: Only critical
-
-- alias: By choosing this option you let us know that you allow this website to use cookies and local storage of your browser. This means we can save some preferences including this choose and you will not see privacy options popup every time you visit this website.
-  en: By choosing this option you let us know that you allow this website to use cookies and local storage of your browser. This means we can save some preferences including this choose and you will not see privacy options popup every time you visit this website.
+  de: Wenn Sie diese Option wählen teilen Sie uns mit,das Sie keine Cookies oder eine lokale Speicherung in Ihrem Browser möchten. So können wir keine Präferenzen speichern und Sie werden bei jedem Besuch dieser Website ein Popup-Fenster mit Datenschutzoptionen sehen.
 
 - alias: Only critical actions
   en: Only critical actions
+  de: Nur kritische Aktionen
+
+- alias: By choosing this option you let us know that you allow this website to use cookies and local storage of your browser. This means we can save some preferences including this choose and you will not see privacy options popup every time you visit this website.
+  en: By choosing this option you let us know that you allow this website to use cookies and local storage of your browser. This means we can save some preferences including this choose and you will not see privacy options popup every time you visit this website.
+  de: Wenn Sie diese Option wählen teilen Sie uns mit, dass Sie Cookies oder eine lokale Speicherung in Ihrem Browser zulassen. Dies bedeuet das wir Präferenzen einschließlich dieser Option speichern dürfen und Sie werden nicht bei jedem Besuch dieser Website ein Popup-Fenster mit Datenschutzoptionen sehen.
+
+- alias: Allow metrics
+  en: Allow metrics
+  de: Metrik zulassen
 
 - alias: By choosing this option you let us to use cookies, local storage of your browser for saving some preferences and also to use third party metrics such as
   en: By choosing this option you let us to use cookies, local storage of your browser for saving some preferences and also to use third party metrics such as
+  de: Wenn Sie diese Option wählen, gestatten Sie uns die Verwendung von Cookies, die lokale Speicherung Ihres Browsers zur Speicherung bestimmter Einstellungen und die Verwendung von Messdaten von Drittanbietern wie
 
 - alias: Google Analytics
   en: Google Analytics

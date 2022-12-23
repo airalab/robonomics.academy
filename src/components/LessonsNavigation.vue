@@ -66,6 +66,10 @@ nav {
   justify-content: flex-end;
 }
 
+.container__reg {
+  margin-bottom: 1rem;
+}
+
 .navigation__button {
   display: flex;
   align-items: center;
@@ -73,13 +77,15 @@ nav {
   width: 310px;
   background-color: transparent;
   border-radius: 0;
-  border: 3px solid var(--color-blue);
+  border: 3px solid transparent;
   color: var(--color-blue) !important;
   padding: calc(var(--gap) * 0.5);
 }
 
 .navigation__button:hover {
-  color: var(--color-light) !important;
+  color: var(--color-text) !important;
+  background-color: transparent !important;
+  border: 3px solid transparent !important;
 }
 
 

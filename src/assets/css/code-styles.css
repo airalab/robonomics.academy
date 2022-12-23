@@ -194,6 +194,10 @@ div.code-toolbar > .toolbar > .toolbar-item > span {
  opacity: 0.7;
 }
 
+.no-copy-icon .copy-to-clipboard-button {
+  display: none;
+} 
+
 .copy-to-clipboard-button:hover {
  background-color: transparent !important; 
 }
