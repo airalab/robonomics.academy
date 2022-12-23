@@ -1,5 +1,19 @@
 /* code styles */
 
+.lesson-section code {
+  padding: 0.1rem 0.5rem;
+  background-color: var(--color-code-bg);
+  color: var(--color-code);
+  font-size: 1rem;
+  font-weight: 400;
+  word-break: break-word;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;;
+}
+
+.code-toolbar code {
+  padding: 0;
+}
+
 /* light theme */
 
 code[class*="language-"],
@@ -179,6 +193,10 @@ div.code-toolbar > .toolbar > .toolbar-item > span {
  border: none;
  opacity: 0.7;
 }
+
+.no-copy-icon .copy-to-clipboard-button {
+  display: none;
+} 
 
 .copy-to-clipboard-button:hover {
  background-color: transparent !important; 

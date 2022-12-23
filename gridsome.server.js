@@ -11,6 +11,8 @@ const createImage = require("node-html-to-image");
 const generateHtml = require("./functions/generateHtml");
 const yaml = require("js-yaml");
 
+let allPossiblePaths = [];
+
 require.extensions['.yaml'] = function(module, filename) { // To safely load .yaml file via require
   module.exports = yaml.load(fs.readFileSync(filename, 'utf8'));
 }
@@ -18,9 +20,9 @@ require.extensions['.yaml'] = function(module, filename) { // To safely load .ya
 const courses = require('./src/data/online-courses.yaml')
 const imgsInfo = require('./src/data/images-info.yaml');
 
-// For generated images comfiguration
+// For generated images configuration
 const defaultOptions = {
-  typeName: "DocPage",
+  typeName: "Course",
   backgroundColors: [
     "#F4E282"
   ],
@@ -30,22 +32,6 @@ const defaultOptions = {
   basePath: "src/pages/online-courses/",
   outputDir: "static/og/"
 };
-
-// For additional covers generation
-// const additionalCovers = [
-//   {imgName: "online-courses.png" , arr: ['Online courses']},
-//   {imgName: "apply-for-certificate.png", arr: ['Apply for certificate']},
-//   {imgName: "online-courses-ru.png" , arr: ['Онлайн курсы']},
-//   {imgName: "apply-for-certificate-ru.png", arr: ['Подать заявку на сертификат']},
-//   {imgName: "online-courses-it.png" , arr: ['Corsi online']},
-//   {imgName: "apply-for-certificate-it.png", arr: ['Applica per il certificato']},
-//   {imgName: "online-courses-es.png" , arr: ['Cursos online']},
-//   {imgName: "apply-for-certificate-es.png", arr: ['Solicitar certificado']},
-//   {imgName: "online-courses-de.png" , arr: ['Online courses']},
-//   {imgName: "apply-for-certificate-de.png", arr: ['Apply for certificate']},
-//   {imgName: "online-courses-ko.png" , arr: ['Online courses']},
-//   {imgName: "apply-for-certificate-ko.png", arr: ['Apply for certificate']}
-// ]
 
 // This is helper function to simplify code. Output - image file. arrayPath - array of sections on image.
 const generateImage = (output, arrayPath, options) => {
@@ -68,6 +54,14 @@ module.exports = function (api) {
   const options = { ...defaultOptions };
 
   api.loadSource(async (actions) => {
+
+    const collection = actions.getCollection('Course');
+
+    collection.data().filter((e) => {
+      if(e.path.includes('/en/'))
+      allPossiblePaths.push({path: e.path, name: e.fileInfo.name})
+    })
+
     courses.forEach((course) => {
       
       fsExtra.ensureDirSync(options.basePath + course.path)
@@ -81,17 +75,21 @@ module.exports = function (api) {
         })
       })
 
-      course.lessons.forEach((lesson) => { // Generate images for lessons themselves
+      collection.data().forEach((lesson) => { // Generate images for lessons themselves
 
-        imgsInfo.forEach(img => {
-          img.lessons.forEach(imgLessons => {
-            if(lesson.title === imgLessons.title) {
-              const imgName = lesson.path
-              const output = `${options.outputDir}${course.path}/${imgName}-${img.locale}.png`
-              generateImage(output, imgLessons.options, options)
-            }
-          })
-        })
+        if (lesson.internal.typeName === options.typeName) {
+          
+          const imgName = lesson.fileInfo.name;
+          const lessonNamePart = lesson.title.substr(0, lesson.title.indexOf(',')); 
+          const lessonTitle = lesson.title.replace(lessonNamePart, '').slice(2).trim();
+          const locale = lesson.fileInfo.path.slice(0,2);
+          const dir = lesson.fileInfo.directory.slice(18);
+          const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`
+          const lessonOptions = [...lesson.metaOptions, lessonTitle];
+
+          generateImage(output, lessonOptions, options)
+
+        }
 
       })
     })
@@ -105,12 +103,26 @@ module.exports = function (api) {
       generateImage(options.outputDir + img['online-course'].imgName, img['online-course'].options, options)
     })
 
-    // additionalCovers.forEach((el) => {
-    //   generateImage(options.outputDir + el.imgName, el.arr, options)
-    // })
   })
 
-  // api.createPages(({ createPage }) => {
-  //   // Use the Pages API here: https://gridsome.org/docs/pages-api/
-  // })
+  api.createPages(({ createPage }) => {
+
+    allPossiblePaths.forEach(node => {
+      // all locales
+      const locales = ["ru", "it", "es", "de", "pt" ];
+      const path = node.path.substring(4);
+
+      locales.forEach(locale => {
+        if (fs.existsSync(`courses/${locale}/${path.slice(0,-1)}.md`)) {
+          console.log('exists');
+        } else {
+          createPage({
+            path: `/${locale}/${path}`,
+            component: './src/templates/AvailableCoursesTranslations.vue',
+          })
+        }
+      })
+
+    })
+  })
 }

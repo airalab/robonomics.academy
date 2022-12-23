@@ -26,17 +26,26 @@ export default {
 
   data() {
     return {
-      allLocales: ["en", "ru", "es", "de", "ko", "it", "pt"],
+      allLocales: ["en", "ru", "es", "de", "it", "pt"],
       locale: 'en',
       metaTitle: '',
-      metaDescription: ''
+      metaDescription: '',
+      metaImage: ''
+    }
+  },
+
+  watch: {
+    '$route.path'() {
+      this.metaTitle = this.getMetaInfo(this.pageTitle);
+      this.metaDescription = this.getMetaInfo(this.pageDescription)
+      this.metaImage = this.pageImage;
     }
   },
 
   computed: {
     image() {
       if(this.pageImage != '') {
-        return this.$static.metadata.siteUrl + this.pageImage + '-' + this.locale + '.png'
+        return this.$static.metadata.siteUrl + this.metaImage + '-' + this.locale + '.png'
       }
       else{
         return this.$static.metadata.siteUrl + '/og/index.png'
@@ -126,7 +135,7 @@ export default {
       } else {
         return []
       }
-    }
+    },
   },
 
   methods: {
@@ -204,6 +213,7 @@ export default {
     this.getLocale();
     this.metaTitle = this.getMetaInfo(this.pageTitle);
     this.metaDescription = this.getMetaInfo(this.pageDescription)
+    this.metaImage = this.pageImage;
   }
 };
 </script>

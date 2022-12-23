@@ -149,6 +149,7 @@ export default {
   }
 
   h1 {
+    margin-top: 0.3rem;
     text-align: left;
   }
 

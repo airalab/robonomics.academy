@@ -15,45 +15,6 @@
     - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
       imgName: "/cover-en.png"
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-  lessons: 
-    - title: 'Broadcasting Through the Black Mirror'
-      options: [Online Courses, Introduction Course, 'Broadcasting Through the Black Mirror']
-    - title: 'At the Intersection of Cybernetics and Economics'
-      options: [Online Courses, Introduction Course, 'At the Intersection of Cybernetics and Economics']
-    - title: 'Polkadot Ecosystem for Home IoT Infrastructure'
-      options: [Online Courses, Introduction Course, 'Polkadot Ecosystem for Home IoT Infrastructure']
-    - title: '4, Robonomics Architecture'
-      options: [Online Courses, Introduction Course, 'Robonomics Architecture']
-    - title: 'IoT Subscriptions Using Robonomics Parachain'
-      options: [Online Courses, Introduction Course, 'IoT Subscriptions Using Robonomics Parachain']
-    - title: 'Configure and test connection to Spot'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Configure and test connection to Spot']
-    - title: 'Emergency stop, initialization, body position control'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Emergency stop, initialization, body position control']
-    - title: 'Remote controlled and programmed motion'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Remote controlled and programmed motion']
-    - title: 'Find and follow an object, navigate between them'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Find and follow an object, navigate between them']
-    - title: 'GraphNav service. Mapping and navigating on the map'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'GraphNav service. Mapping and navigating on the map']
-    - title: 'Robot service. Camera calibration and "Spot check" procedure'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Robot service. Camera calibration and "Spot check" procedure']
-    - title: 'Theoretical Briefing'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Theoretical Briefing']
-    - title: 'Raspberry Pi Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Raspberry Pi Setup']
-    - title: 'MQTT Broker Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'MQTT Broker Setup']
-    - title: 'Gateway Setup: Zigbee2MQTT'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Zigbee2MQTT']
-    - title: 'Gateway Setup: Robonomics SLS Gateway'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Robonomics SLS Gateway']
-    - title: 'Robonomics IoT Subscription Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics IoT Subscription Setup']
-    - title: 'Robonomics Integration Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics Integration Setup']
-    - title: 'Get Telemetry of Device with Dapp'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Get Telemetry of Device with Dapp']
 
 - locale: es 
   online-course:
@@ -72,45 +33,6 @@
     - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
       imgName: "/cover-es.png"
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-  lessons: 
-    - title: 'Broadcasting Through the Black Mirror'
-      options: [Cursos online, Curso de Introducción, 'Transmitiendo a través del espejo negro']
-    - title: 'At the Intersection of Cybernetics and Economics'
-      options: [Cursos online, Curso de Introducción, 'En la intersección de la cibernética y la economía']
-    - title: 'Polkadot Ecosystem for Home IoT Infrastructure'
-      options: [Cursos online, Curso de Introducción, 'Ecosistema de Polkadot para infraestructura IoT en el hogar']
-    - title: 'Robonomics Architecture'
-      options: [Cursos online, Curso de Introducción, 'Arquitectura de Robonomics']
-    - title: 'IoT Subscriptions Using Robonomics Parachain'
-      options: [Cursos online, Curso de Introducción, 'Suscripciones IoT usando Robonomics Parachain']
-    - title: 'Configure and test connection to Spot'
-      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, 'Configure and test connection to Spot']
-    - title: 'Emergency stop, initialization, body position control'
-      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, 'Parada de emergencia, inicialización, control de posición del cuerpo']
-    - title: 'Remote controlled and programmed motion'
-      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, 'Movimiento programado y controlado a distancia']
-    - title: 'Find and follow an object, navigate between them'
-      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, 'Encuentre y siga un objeto, navegue entre ellos']
-    - title: 'GraphNav service. Mapping and navigating on the map'
-      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, 'Servicio GraphNav. Mapear y navegar en el mapa']
-    - title: 'Robot service. Camera calibration and "Spot check" procedure'
-      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics, 'Servicio de robots. Calibración de la cámara y procedimiento "Spot check"']
-    - title: 'Theoretical Briefing'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Theoretical Briefing']
-    - title: 'Raspberry Pi Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Raspberry Pi Setup']
-    - title: 'MQTT Broker Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'MQTT Broker Setup']
-    - title: 'Gateway Setup: Zigbee2MQTT'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Zigbee2MQTT']
-    - title: 'Gateway Setup: Robonomics SLS Gateway'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Robonomics SLS Gateway']
-    - title: 'Robonomics IoT Subscription Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics IoT Subscription Setup']
-    - title: 'Robonomics Integration Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics Integration Setup']
-    - title: 'Get Telemetry of Device with Dapp'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Get Telemetry of Device with Dapp']
 
 - locale: it 
   online-course:
@@ -129,45 +51,6 @@
     - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
       imgName: "/cover-it.png"
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-  lessons: 
-    - title: 'Broadcasting Through the Black Mirror'
-      options: [Corsi online, Corso Introduttivo, 'Trasmettere Attraverso lo Specchio Nero']
-    - title: 'At the Intersection of Cybernetics and Economics'
-      options: [Corsi online, Corso Introduttivo, "All'intersezione fra Cibernetica ed Economia"]
-    - title: 'Polkadot Ecosystem for Home IoT Infrastructure'
-      options: [Corsi online, Corso Introduttivo, "Ecosistema Polkadot per l'infrastruttura IoT domestica"]
-    - title: 'Robonomics Architecture'
-      options: [Corsi online, Corso Introduttivo, 'Architettura di Robonomics']
-    - title: 'IoT Subscriptions Using Robonomics Parachain'
-      options: [Corsi online, Corso Introduttivo, 'Abbonamenti IoT con la Parachain Robonomics']
-    - title: 'Configure and test connection to Spot'
-      options: [Corsi online, Boston Dynamics Spot Software Developing, 'Configure and test connection to Spot']
-    - title: 'Emergency stop, initialization, body position control'
-      options: [Corsi online, Boston Dynamics Spot Software Developing, 'Emergency stop, initialization, body position control']
-    - title: 'Remote controlled and programmed motion'
-      options: [Corsi online, Boston Dynamics Spot Software Developing, 'Remote controlled and programmed motion']
-    - title: 'Find and follow an object, navigate between them'
-      options: [Corsi online, Boston Dynamics Spot Software Developing, 'Find and follow an object, navigate between them']
-    - title: 'GraphNav service. Mapping and navigating on the map'
-      options: [Corsi online, Boston Dynamics Spot Software Developing, 'GraphNav service. Mapping and navigating on the map']
-    - title: 'Robot service. Camera calibration and "Spot check" procedure'
-      options: [Corsi online, Boston Dynamics Spot Software Developing, 'Robot service. Camera calibration and "Spot check" procedure']
-    - title: 'Theoretical Briefing'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Theoretical Briefing']
-    - title: 'Raspberry Pi Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Raspberry Pi Setup']
-    - title: 'MQTT Broker Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'MQTT Broker Setup']
-    - title: 'Gateway Setup: Zigbee2MQTT'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Zigbee2MQTT']
-    - title: 'Gateway Setup: Robonomics SLS Gateway'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Robonomics SLS Gateway']
-    - title: 'Robonomics IoT Subscription Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics IoT Subscription Setup']
-    - title: 'Robonomics Integration Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics Integration Setup']
-    - title: 'Get Telemetry of Device with Dapp'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Get Telemetry of Device with Dapp']
 
 - locale: ru 
   online-course:
@@ -186,45 +69,6 @@
     - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
       imgName: "/cover-ru.png"
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-  lessons: 
-    - title: 'Broadcasting Through the Black Mirror'
-      options: [Онлайн курсы, Вводный курс, 'Вещание через Черное Зеркало']
-    - title: 'At the Intersection of Cybernetics and Economics'
-      options: [Онлайн курсы, Вводный курс, "На стыке кибернетики и экономики"]
-    - title: 'Polkadot Ecosystem for Home IoT Infrastructure'
-      options: [Онлайн курсы, Вводный курс, "Экосистема Polkadot для домашней инфраструктуры IoT"]
-    - title: 'Robonomics Architecture'
-      options: [Онлайн курсы, Вводный курс, 'Архитектура экономики роботов']
-    - title: 'IoT Subscriptions Using Robonomics Parachain'
-      options: [Онлайн курсы, Вводный курс, 'Подписки IoT с использованием Robonomics Parachain']
-    - title: 'Configure and test connection to Spot'
-      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, 'Configure and test connection to Spot']
-    - title: 'Emergency stop, initialization, body position control'
-      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, 'Emergency stop, initialization, body position control']
-    - title: 'Remote controlled and programmed motion'
-      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, 'Remote controlled and programmed motion']
-    - title: 'Find and follow an object, navigate between them'
-      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, 'Find and follow an object, navigate between them']
-    - title: 'GraphNav service. Mapping and navigating on the map'
-      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, 'GraphNav service. Mapping and navigating on the map']
-    - title: 'Robot service. Camera calibration and "Spot check" procedure'
-      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics, 'Robot service. Camera calibration and "Spot check" procedure']
-    - title: 'Theoretical Briefing'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Theoretical Briefing']
-    - title: 'Raspberry Pi Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Raspberry Pi Setup']
-    - title: 'MQTT Broker Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'MQTT Broker Setup']
-    - title: 'Gateway Setup: Zigbee2MQTT'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Zigbee2MQTT']
-    - title: 'Gateway Setup: Robonomics SLS Gateway'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Robonomics SLS Gateway']
-    - title: 'Robonomics IoT Subscription Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics IoT Subscription Setup']
-    - title: 'Robonomics Integration Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics Integration Setup']
-    - title: 'Get Telemetry of Device with Dapp'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Get Telemetry of Device with Dapp']
 
 - locale: de 
   online-course:
@@ -243,102 +87,6 @@
     - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
       imgName: "/cover-de.png"
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-  lessons: 
-    - title: 'Broadcasting Through the Black Mirror'
-      options: [Online Courses, Introduction Course, 'Broadcasting Through the Black Mirror']
-    - title: 'At the Intersection of Cybernetics and Economics'
-      options: [Online Courses, Introduction Course, 'At the Intersection of Cybernetics and Economics']
-    - title: 'Polkadot Ecosystem for Home IoT Infrastructure'
-      options: [Online Courses, Introduction Course, 'Polkadot Ecosystem for Home IoT Infrastructure']
-    - title: 'Robonomics Architecture'
-      options: [Online Courses, Introduction Course, 'Robonomics Architecture']
-    - title: 'IoT Subscriptions Using Robonomics Parachain'
-      options: [Online Courses, Introduction Course, 'IoT Subscriptions Using Robonomics Parachain']
-    - title: 'Configure and test connection to Spot'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Configure and test connection to Spot']
-    - title: 'Emergency stop, initialization, body position control'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Emergency stop, initialization, body position control']
-    - title: 'Remote controlled and programmed motion'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Remote controlled and programmed motion']
-    - title: 'Find and follow an object, navigate between them'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Find and follow an object, navigate between them']
-    - title: 'GraphNav service. Mapping and navigating on the map'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'GraphNav service. Mapping and navigating on the map']
-    - title: 'Robot service. Camera calibration and "Spot check" procedure'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Robot service. Camera calibration and "Spot check" procedure']
-    - title: 'Theoretical Briefing'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Theoretical Briefing']
-    - title: 'Raspberry Pi Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Raspberry Pi Setup']
-    - title: 'MQTT Broker Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'MQTT Broker Setup']
-    - title: 'Gateway Setup: Zigbee2MQTT'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Zigbee2MQTT']
-    - title: 'Gateway Setup: Robonomics SLS Gateway'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Robonomics SLS Gateway']
-    - title: 'Robonomics IoT Subscription Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics IoT Subscription Setup']
-    - title: 'Robonomics Integration Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics Integration Setup']
-    - title: 'Get Telemetry of Device with Dapp'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Get Telemetry of Device with Dapp']
-
-- locale: ko 
-  online-course:
-    imgName: "online-courses-ko.png"
-    options: [Online courses]
-  certificate:
-    imgName: "apply-for-certificate-ko.png"
-    options: [Apply for certificate]
-  courses:
-    - title: Introduction Course
-      imgName: "/cover-ko.png"
-      options: [Online Courses, Introduction Course]
-    - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover-ko.png"
-      options: [Online Courses, Boston Dynamics Spot Software Developing]
-    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      imgName: "/cover-ko.png"
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-  lessons: 
-    - title: 'Broadcasting Through the Black Mirror'
-      options: [Online Courses, Introduction Course, 'Broadcasting Through the Black Mirror']
-    - title: 'At the Intersection of Cybernetics and Economics'
-      options: [Online Courses, Introduction Course, 'At the Intersection of Cybernetics and Economics']
-    - title: 'Polkadot Ecosystem for Home IoT Infrastructure'
-      options: [Online Courses, Introduction Course, 'Polkadot Ecosystem for Home IoT Infrastructure']
-    - title: 'Robonomics Architecture'
-      options: [Online Courses, Introduction Course, 'Robonomics Architecture']
-    - title: 'IoT Subscriptions Using Robonomics Parachain'
-      options: [Online Courses, Introduction Course, 'IoT Subscriptions Using Robonomics Parachain']
-    - title: 'Configure and test connection to Spot'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Configure and test connection to Spot']
-    - title: 'Emergency stop, initialization, body position control'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Emergency stop, initialization, body position control']
-    - title: 'Remote controlled and programmed motion'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Remote controlled and programmed motion']
-    - title: 'Find and follow an object, navigate between them'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Find and follow an object, navigate between them']
-    - title: 'GraphNav service. Mapping and navigating on the map'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'GraphNav service. Mapping and navigating on the map']
-    - title: 'Robot service. Camera calibration and "Spot check" procedure'
-      options: [Online Courses, Boston Dynamics Spot Software Developing, 'Robot service. Camera calibration and "Spot check" procedure']
-    - title: 'Theoretical Briefing'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Theoretical Briefing']
-    - title: 'Raspberry Pi Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Raspberry Pi Setup']
-    - title: 'MQTT Broker Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'MQTT Broker Setup']
-    - title: 'Gateway Setup: Zigbee2MQTT'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Zigbee2MQTT']
-    - title: 'Gateway Setup: Robonomics SLS Gateway'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Robonomics SLS Gateway']
-    - title: 'Robonomics IoT Subscription Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics IoT Subscription Setup']
-    - title: 'Robonomics Integration Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics Integration Setup']
-    - title: 'Get Telemetry of Device with Dapp'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Get Telemetry of Device with Dapp']
 
 - locale: pt 
   online-course:
@@ -357,44 +105,22 @@
     - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
       imgName: "/cover-pt.png"
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-  lessons: 
-    - title: 'Broadcasting Through the Black Mirror'
-      options: [Cursos on-line, Curso introdutório, 'Transmissão através do Espelho Negro']
-    - title: 'At the Intersection of Cybernetics and Economics'
-      options: [Cursos on-line, Curso introdutório, 'Na interseção da Cibernética e da Economia']
-    - title: 'Polkadot Ecosystem for Home IoT Infrastructure'
-      options: [Cursos on-line, Curso introdutório, 'Ecossistema Polkadot para Infraestrutura IoT Doméstica']
-    - title: 'Robonomics Architecture'
-      options: [Cursos on-line, Curso introdutório, 'Arquitetura da Robonomics']
-    - title: 'IoT Subscriptions Using Robonomics Parachain'
-      options: [Cursos on-line, Curso introdutório, 'Assinaturas IoT usando a Parachain Robonomics']
-    - title: 'Configure and test connection to Spot'
-      options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot, 'Configurar e testar a conexão do Spot']
-    - title: 'Emergency stop, initialization, body position control'
-      options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot, 'Parada de emergência, inicialização, controle da posição do corpo']
-    - title: 'Remote controlled and programmed motion'
-      options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot, 'Movimento programado e controlado remotamente']
-    - title: 'Find and follow an object, navigate between them'
-      options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot, 'Encontre e siga um objeto, navegue entre eles']
-    - title: 'GraphNav service. Mapping and navigating on the map'
-      options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot, 'Serviço GraphNav. Mapeamento e navegação no mapa']
-    - title: 'Robot service. Camera calibration and "Spot check" procedure'
-      options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot, 'Serviço de Robôs. Calibração da câmera e procedimento de "Verificação do Spot']
-    - title: 'Theoretical Briefing'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Theoretical Briefing']
-    - title: 'Raspberry Pi Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Raspberry Pi Setup']
-    - title: 'MQTT Broker Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'MQTT Broker Setup']
-    - title: 'Gateway Setup: Zigbee2MQTT'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Zigbee2MQTT']
-    - title: 'Gateway Setup: Robonomics SLS Gateway'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Gateway Setup: Robonomics SLS Gateway']
-    - title: 'Robonomics IoT Subscription Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics IoT Subscription Setup']
-    - title: 'Robonomics Integration Setup'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Robonomics Integration Setup']
-    - title: 'Get Telemetry of Device with Dapp'
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant, 'Get Telemetry of Device with Dapp']
 
+- locale: de
+  online-course:
+    imgName: "online-courses-de.png"
+    options: [Online Kurse]
+  certificate:
+    imgName: "apply-for-certificate-de.png"
+    options: [Zertifikat anfordern]
+  courses:
+    - title: Introduction Course
+      imgName: "/cover-de.png"
+      options: [Online Kurse, Einführungskurs]
+    - title: 'Boston Dynamics Spot Software Developing'
+      imgName: "/cover-de.png"
+      options: [Online Kurse, Boston Dynamics Spot Software Developing]
+    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
+      imgName: "/cover-de.png"
+      options: [Online Kurse, Souveränes Smart Home mit Robonomics und Home Assistant]
 

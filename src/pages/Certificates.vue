@@ -2,13 +2,13 @@
   <Layout>
 
     <MetaInfo
-      pageTitle = "Apply for Certificate"
+      pageTitle = "Apply for certificate"
       pageDescription = "Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT."
       :pageImage = "'/og/apply-for-certificate'"
     />
 
     <page-title 
-      :title="$ts(`Apply for Certificate`)"
+      :title="$ts(`Apply for certificate`)"
       :breadcrumbs="breadcrumbs"
       />
 

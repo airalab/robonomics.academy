@@ -15,12 +15,6 @@ module.exports = {
 
   plugins: [
     {
-      use: "gridsome-plugin-google-sheets-post"
-    },
-    {
-      use: 'gridsome-plugin-seo'
-    },
-    {
       use: "gridsome-plugin-translateit",
       options: {
         locales: ["en", "ru", "es", "de", "it", "pt"],
@@ -31,21 +25,25 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Course',
+        baseDir: './courses', 
+        // pathPrefix: '/online-course',
+        template: './src/templates/Course.vue' 
+      }
+    },
+    {
+      use: "gridsome-plugin-google-sheets-post"
+    },
+    {
+      use: 'gridsome-plugin-seo'
+    },
+    {
       use: 'gridsome-plugin-yandex-metrika',
       options: {
         id: 91120268
       }
     }
-  ],
-
-  configureWebpack: {
-    module: {
-      rules: [
-        {
-          test: /\.md$/i,
-          loader: "raw-loader",
-        },
-      ],
-    },
-  },
+  ]
 }

@@ -30,6 +30,9 @@
   --color-bg: #5E6B85;
   --color-light-lesson: #fff;
 
+  --color-code-bg: #f6e58146;
+  --color-code: rgb(232, 100, 35);
+
   --font-title: 'Yeseva One', serif;
   --font-text: 'Roboto Mono', monospace;
   --font-size: 1.2rem;
@@ -168,10 +171,14 @@ button:hover
   width: 100%;
 }
 
-.grid-3, .grid-6 {
+.grid-3, .grid-4, .grid-6 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: calc(var(--gap) * 2)
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid-6 {
@@ -250,8 +257,18 @@ button:hover
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .grid-6 {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 460px)  {
+  .grid-4 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -419,6 +436,29 @@ code {
   display: none;
 }
 
+.flex {
+  display: flex;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: var(--color-light);
+}
+
+table thead th {
+  text-align: left;
+  font-weight: 700;
+}
+
+table td, table th {
+  padding: 0.5rem;
+  border: 1px solid var(--color-brown-dark);
+  font-size: 90%;
+  color: var(--color-text);
+} 
+
 
 /* dark theme */
 
@@ -432,10 +472,20 @@ code {
     --color-light-lesson: #000123;
     --color-blue: #9090ff;
     --color-green: #689305;
+    --color-code-bg: rgba(146, 161, 255, 0.125);
+    --color-code: rgb(108, 142, 255);
   }
 
   .section__brown, .section__yellow {
     background-color: var(--color-bg);
+  }
+
+  table {
+    background: #333;
+  }
+
+  table td, table th {
+    border: 1px solid var(--color-text);
   }
 }
 

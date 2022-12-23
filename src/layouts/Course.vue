@@ -24,8 +24,10 @@
 
     <slot/>
 
+    <lesson-reaction v-if="lessonId && !noTranslations" :lessonTitle="$ts(lesson.title)"/>
+
     <LessonsNavigation
-      v-if="lessonId"
+      v-if="lessonId && !noTranslations"
       :lessonId="parseInt(lessonId)"
       :course="course"
     />
@@ -79,6 +81,10 @@
       },
       lessonId: {
         default: null
+      },
+      noTranslations: {
+        type: Boolean,
+        default: false
       }
     },
 
