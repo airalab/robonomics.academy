@@ -6,7 +6,7 @@ courseID: 2
 metaOptions: [Онлайн Курсы, Разработка программного обеспечения для Spot от Boston Dynamics]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## О чем вы узнаете
 
@@ -15,9 +15,9 @@ metaOptions: [Онлайн Курсы, Разработка программно
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
-Задача
+## Задача
 
 У вас есть список точек с их локальными координатами в директории <code>/home/student/lessons</code>.
 
@@ -118,7 +118,7 @@ command_client.robot_command(cmd, end_time_secs=time.time() + 2)
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Готовы приступить к практике?
 

@@ -6,7 +6,7 @@ courseID: 2
 metaOptions: [Cursos online, Desarrollo de software de Boston Dynamics Spot]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Sobre qué se trata esto
 
@@ -17,7 +17,7 @@ Mire nuestro video introductorio si aún no lo ha visto: [https://youtu.be/qdk7B
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## El reto
 
@@ -87,7 +87,7 @@ Agregue control de posición del cuerpo a su secuencia de comandos. Experimente 
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### ¿Estás listo para practicar?
 

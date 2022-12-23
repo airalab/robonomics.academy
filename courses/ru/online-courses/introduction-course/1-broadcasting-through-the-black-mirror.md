@@ -14,7 +14,7 @@ metaOptions: [Онлайн курсы, Вводный курс]
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Источник вдохновения
 

@@ -26,22 +26,22 @@ export default {
       reactions: [
         {
           text: "Couldn't complete",
-          img: 'reaction-1.png',
+          img: 'reaction-1.svg',
           id: 0
         },
         {
           text: "It was hard",
-          img: 'reaction-2.png',
+          img: 'reaction-2.svg',
           id: 1
         },
         {
           text: "It was ok",
-          img: 'reaction-3.png',
+          img: 'reaction-3.svg',
           id: 2
         },
         {
           text: "It was easy",
-          img: 'reaction-4.png',
+          img: 'reaction-4.svg',
           id: 3
         },
       ],

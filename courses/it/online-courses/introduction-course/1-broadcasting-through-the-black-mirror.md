@@ -14,7 +14,7 @@ Questa lezione di apertura ti insegnerà i metodi basilari per interagire con **
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Ispirazione
 

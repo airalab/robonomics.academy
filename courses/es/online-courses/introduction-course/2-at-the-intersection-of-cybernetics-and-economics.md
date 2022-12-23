@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Cursos online, Curso de Introducción]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 Nos alegra que hayas podido atravesar el espejo negro y no ahogarte en el mundo digital. Ahora le espera una inmersión mucho más profunda... la inmersión en la teoría de las últimas tecnologías web3 en la intersección de la Cibernética y la Economía, que están diseñadas para ayudar a que los sistemas IoT funcionen de manera segura y eficiente en nuestros hogares y ciudades.
 

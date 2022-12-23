@@ -7,7 +7,7 @@ metaOptions: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot]
 ---
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Do que se trata?
 
@@ -16,7 +16,7 @@ Na quarta lição você aprenderá como gravar e executar missões autônomas co
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## O desafio
 
@@ -87,7 +87,7 @@ A ferramenta de linha de comando GraphNav está localizada em
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Você está pronto para praticar?
 

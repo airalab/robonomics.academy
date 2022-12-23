@@ -7,7 +7,7 @@ metaOptions: [Online Courses, Boston Dynamics Spot Software Developing]
 ---
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## What's this about
 
@@ -16,7 +16,7 @@ In the fourth lesson you will learn how to record and play autonomous missions w
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## The challenge
 
@@ -87,7 +87,7 @@ GraphNav command line tool is located at
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Are you ready to practice?
 

@@ -6,7 +6,7 @@ courseID: 2
 metaOptions: [Cursos online, Desarrollo de software de Boston Dynamics Spot]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Sobre qué se trata esto
 
@@ -15,7 +15,7 @@ En esta lección, aprenderá cómo configurar la red Yggdrasil y establecer una 
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## El reto
 
@@ -155,7 +155,7 @@ SSH Client está disponible de forma predeterminada solo en Windows 10, por lo q
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### ¿Estás listo para practicar?
 

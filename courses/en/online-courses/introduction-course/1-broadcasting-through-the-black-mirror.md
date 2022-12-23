@@ -14,7 +14,7 @@ This opening lesson will teach you basic methods to interact with **a decentrali
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Inspiration
 

@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Cursos on-line, Curso introdutório]
 ---
 
-<section class="container__reg>
+<section class="container__reg">
 
 ## Intro
 
@@ -14,7 +14,7 @@ Esta lição de abertura ensinará métodos básicos para interagir com **uma ap
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Inspiração
 

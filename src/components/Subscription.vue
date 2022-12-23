@@ -17,10 +17,11 @@
           v-model="location"
         />
 
-        <button @click="form">
+        <button @click="form" :disabled="result === 'wait'">
           <span v-if="result === 'init' || result === 'error'">{{$ts('Submit')}}</span>
           <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>
           <span v-if="result === 'success'">{{$ts('You are in the list')}}</span>
+          <Loader v-if="result === 'wait'"/>
         </button>
       </div>
       <div class="container__mid">
@@ -33,6 +34,11 @@
 
 <script>
 export default {
+
+  components: {
+    Loader: () => import('~/components/Loader.vue'),
+  },
+  
 
   data() {
     return {
@@ -117,7 +123,7 @@ export default {
   input:focus {
     color: var(--color-text);
     border-color: var(--color-text);
-    background-color: #fff ;
+    background-color: var(--color-light-lesson) ;
   }
 
   input:focus::placeholder {
@@ -129,6 +135,9 @@ export default {
     --btn-color: var(--color-second);
     --btn-color-hover: var(--color-text);
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   form.wait button, form.success button {

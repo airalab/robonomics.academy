@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Corsi online, Corso Introduttivo]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 L'ultima lezione del nostro corso introduttivo è molto probabilmente la più difficile, perché ti richiederà un po' di manualità e pazienza. Imparerai ad acquistare un abbonamento IoT sulla Parachain Robonomics utilizzando i veri token della nostra rete.
 

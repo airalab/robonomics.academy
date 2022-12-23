@@ -6,7 +6,7 @@ courseID: 2
 metaOptions: [Онлайн Курсы, Разработка программного обеспечения для Spot от Boston Dynamics]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## О чем вы узнаете
 
@@ -17,7 +17,7 @@ metaOptions: [Онлайн Курсы, Разработка программно
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Задача
 
@@ -87,7 +87,7 @@ metaOptions: [Онлайн Курсы, Разработка программно
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Готовы приступить к практике?
 

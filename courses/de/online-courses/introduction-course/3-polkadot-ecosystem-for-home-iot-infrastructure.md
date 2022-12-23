@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Online Kurse, Einführungskurs]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 In Lektion 2 wurden die Hauptprinzipien von Robonomics erläutert und Polkadot / Kusama als vielversprechende Blockchain-Ecosystem-Plattform für ihre Umsetzung erwähnt. Es ist an der Zeit einen genaueren Blick auf die Funktionen von Robonomics Parachain als Teil des Polkadot-Ecosystems im Kusama-Netzwerk zu werfen. Insbesondere möchten wir zeigen wie die IoT-Abonnements der Robonomics Parachain funktionieren. In der ersten Lektion wurde Ihre Adresse dem IoT-Abonnement des Kurses hinzugefügt und Sie haben es bereits zweimal genutzt, als sie  "Black Mirror" benutzten und weiters Ihre Testergebnisse einreichten.
 

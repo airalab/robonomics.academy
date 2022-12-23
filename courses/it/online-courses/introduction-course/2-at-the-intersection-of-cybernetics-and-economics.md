@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Corsi online, Corso Introduttivo]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 Siamo lieti che tu sia riuscito a passare attraverso lo specchio nero e senza affogare nel mondo digitale. Ora ti aspetta un'immersione molto più approfondita... l'immersione nella teoria delle ultime tecnologie web3 all'incrocio fra cibernetica ed economia, progettate per aiutare i sistemi IoT a funzionare in modo sicuro ed efficiente nelle nostre case e città.
 

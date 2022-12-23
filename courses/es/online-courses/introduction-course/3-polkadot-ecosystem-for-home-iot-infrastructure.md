@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Cursos online, Curso de Introducción]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 La Lección 2 explicó los principios fundamentales de Robonomics y mencionó a Polkadot / Kusama como una plataforma de ecosistema blockchain prometedora para su implementación. Es hora de echar un vistazo más de cerca a las funciones de Robonomics Parachain como parte del ecosistema Polkadot en la red Kusama. En particular, nos gustaría mostrar cómo funcionan las suscripciones IoT de Robonomics Parachain. Durante la primera lección, su dirección se agregó a la suscripción del curso IoT y ya logró usarla dos veces: cuando buscó su reflejo en el espejo negro y cuando entregó los resultados de su prueba.
 

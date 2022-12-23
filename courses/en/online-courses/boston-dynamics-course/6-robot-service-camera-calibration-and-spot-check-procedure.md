@@ -7,7 +7,7 @@ metaOptions: [Online Courses, Boston Dynamics Spot Software Developing]
 ---
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## What's this about
 
@@ -16,7 +16,7 @@ In this lesson you will learn what should you do if you just got the robot: the 
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## The challenge
 
@@ -94,7 +94,7 @@ We create [E-Stop endpoint](https://dev.bostondynamics.com/python/examples/estop
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Are you ready to practice?
 

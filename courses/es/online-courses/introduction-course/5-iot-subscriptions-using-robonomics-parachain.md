@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Cursos online, Curso de Introducción]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 La última lección de nuestro curso de introducción es probablemente la más desafiante, porque requerirá algo de destreza y paciencia de su parte. Aprenderá cómo comprar una suscripción IoT en Robonomics Parachain utilizando tokens reales de nuestra red.
 

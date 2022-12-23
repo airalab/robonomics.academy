@@ -14,7 +14,7 @@ In dieser ersten Lektion lernen Sie grundlegende Methoden zur Interaktion mit **
 
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Inspiration
 

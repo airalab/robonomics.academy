@@ -6,7 +6,7 @@ courseID: 2
 metaOptions: [Online Courses, Boston Dynamics Spot Software Developing]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## What's this about
 
@@ -17,7 +17,7 @@ Watch our introductory video if you haven't seen it already: [https://youtu.be/q
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## The challenge
 
@@ -87,7 +87,7 @@ Add body position control to your script. Experiment with <code>bosdyn.geometry.
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Are you ready to practice?
 

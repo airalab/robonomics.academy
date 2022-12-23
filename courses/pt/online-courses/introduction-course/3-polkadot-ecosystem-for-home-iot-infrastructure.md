@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Cursos on-line, Curso introdutório]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 A lição 2 explicou os princípios fundamentais da Robonomics e mencionou Polkadot / Kusama como uma blockchain promissora para sua implementação. Em particular, gostaríamos de mostrar como funcionam as assinaturas IoT da  Parachain Robonomics. Durante a primeira lição, seu endereço foi incluído na assinatura do curso IoT, e você já conseguiu usá-lo duas vezes: quando você procurou seu reflexo no espelho negro e quando entregou seus resultados do teste.
 

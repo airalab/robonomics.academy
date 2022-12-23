@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Cursos on-line, Curso introdutório]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 A última lição de nosso curso introdutório é provavelmente a mais desafiadora porque exigirá de você alguma destreza e paciência. Você aprenderá como comprar uma assinatura IoT na Parachain Robonomics usando tokens reais da nossa rede.
 

@@ -7,7 +7,7 @@ metaOptions: [Онлайн Курсы, Разработка программно
 ---
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## О чем вы узнаете
 
@@ -16,7 +16,7 @@ metaOptions: [Онлайн Курсы, Разработка программно
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Задача
 
@@ -94,7 +94,7 @@ ssh student@strelka.ygg.merklebot.com
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Готовы приступить к практике?
 

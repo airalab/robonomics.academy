@@ -6,7 +6,7 @@ courseID: 2
 metaOptions: [Cursos online, Desarrollo de software de Boston Dynamics Spot]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Sobre qué se trata esto
 
@@ -15,7 +15,7 @@ En la tercera lección, aprenderá cómo encontrar objetos del mundo e ir hacia 
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## El reto
 
@@ -75,7 +75,7 @@ Nosotros creamos [E-Stop endpoint](https://dev.bostondynamics.com/python/example
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### ¿Estás listo para practicar?
 

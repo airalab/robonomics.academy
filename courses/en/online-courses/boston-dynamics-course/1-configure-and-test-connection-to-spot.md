@@ -6,7 +6,7 @@ courseID: 2
 metaOptions: [Online Courses, Boston Dynamics Spot Software Developing]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## What's this about
 
@@ -15,7 +15,7 @@ In this lesson you will learn how to configure Yggdrasil network and establish c
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## The challenge
 
@@ -155,7 +155,7 @@ SSH Client is available by default only in Windows 10, so if you use older versi
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Are you ready to practice?
 

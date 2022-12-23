@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Online Kurse, Einführungskurs]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 Wir freuen uns, dass es Ihnen gelungen ist durch den "black Mirror" zu gehen und nicht in der digitalen Welt zu ertrinken. Jetzt tauchen wir weiter ein... in die neuesten web3-Technologien am Schnittpunkt von Kybernetik und Wirtschaft die dazu beitragen sollen, dass IoT-Systeme in unseren Häusern und Städten sicher und effizient funktionieren.
 

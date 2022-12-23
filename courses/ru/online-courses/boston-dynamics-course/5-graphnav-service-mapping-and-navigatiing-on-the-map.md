@@ -7,7 +7,7 @@ metaOptions: [Онлайн Курсы, Разработка программно
 ---
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## О чем вы узнаете
 
@@ -16,7 +16,7 @@ metaOptions: [Онлайн Курсы, Разработка программно
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## Задача
 
@@ -87,7 +87,7 @@ python3 wasd.py --username &lt;SPOT_AUTH_USERNAME&gt; --password &lt;SPOT_AUTH_P
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Готовы приступить к практике?
 

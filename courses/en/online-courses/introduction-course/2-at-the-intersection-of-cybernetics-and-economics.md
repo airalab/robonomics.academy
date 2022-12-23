@@ -6,7 +6,7 @@ courseID: 1
 metaOptions: [Online Courses, Introduction Course]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 We are glad that you were able to pass through the black mirror and not drown in the digital world. Now a much deeper dive awaits you... the dive into the theory of the latest web3 technologies at the intersection of Cybernetics and Economics, which are designed to help IoT systems function safely and efficiently in our homes and cities.
 

@@ -6,7 +6,7 @@ courseID: 2
 metaOptions: [Online Courses, Boston Dynamics Spot Software Developing]
 ---
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## What's this about
 
@@ -15,7 +15,7 @@ In the second lesson you will learn how to use Spot Command services and walk wi
 </section>
 
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ## The challenge
 
@@ -118,7 +118,7 @@ We create [E-Stop endpoint](https://dev.bostondynamics.com/python/examples/estop
 </List>
 </section>
 
-<section class="container__narrow">
+<section class="container__reg">
 
 ### Are you ready to practice?
 
