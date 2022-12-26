@@ -41,7 +41,7 @@ export NODE_OPTIONS=--openssl-legacy-provider
 
 ### How to highlight code:
 
-If you want to highlight you code use: 
+If you want to highlight your code use: 
 
 ```c
 <LessonCodeWrapper language="json" noCopyIcon>
@@ -63,14 +63,14 @@ sudo apt-get install -y nodejs git make g++ gcc
 | Property   | Required | Default | Type    | Description                                                                        |
 |------------|----------|---------|---------|------------------------------------------------------------------------------------|
 | language   | true     | -       | String  | You must specify the code language for the right highlighting                      |
-| codeClass  | false    | -       | String  | If you code is long you may want to use "big-code" class for style purposes        | 
+| codeClass  | false    | -       | String  | If your code is long you may want to use "big-code" class for styling purposes        | 
 | noCopyIcon | false    | false   | Boolean | By default all code pieces have copy icon but if it's not needed you may remove it |
 
 
 
 ### How to insert images:
 
-If you want you image to zoom in you must use <lesson-images>
+If you want you image to zoom in you must use - "lesson-images"
 
 `just image`
 
@@ -172,4 +172,4 @@ If you may want to add link-button or just button use:
 |----------|----------|---------|--------|--------------------------------------------------------------------------------------|
 | type     | false    | link    | String | If you need simple button use:<br>- button<br>If you need link-button use:<br>- link |
 | src      | false    | -       | String | src for link                                                                         |
-| text     | true     | -       | String | text for you button or link-button                                                   |
+| text     | true     | -       | String | text for your button or link-button                                                   |
