@@ -9,13 +9,13 @@
     <div class="page-404">
       <h1>404</h1>
 
-      <p>You came to wrong auditory</p>
+      <p>You've come to the wrong classroom</p>
 
       <div class="page-404__image">
         <g-image  src="../assets/images/page-404.svg" alt="not found"/>
       </div>
 
-      <g-link to="/">go to main campus</g-link>
+      <g-link to="/">Return to main campus</g-link>
     </div>
   </div>
 </template>
