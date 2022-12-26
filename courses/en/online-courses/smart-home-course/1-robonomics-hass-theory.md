@@ -32,22 +32,18 @@ The interaction between the IoT hub and the Robonomics parachain is accomplished
 
 4. **[InterPlanetary File System](https://ipfs.tech/) (IPFS), a peer-to-peer software for storing and sharing data in a distributed file system**.
 
-IPFS is needed in order to avoid storing large files on the blockchain (as it would be too expensive), but instead we can store the file’s  IPFS hashes, which act as links to these files.
+IPFS is needed in order to avoid storing large files on the blockchain (as it would be too expensive), but instead we can store the file’s IPFS hashes, which act as links to these files.
 
 ## Protocols for Smart Devices
 You will uses two main protocols for smart devices:
 
-<li class="flex">
+1. **[Zigbee](https://csa-iot.org/all-solutions/zigbee/), a wireless communication protocol.**
 
-[Zigbee](https://csa-iot.org/all-solutions/zigbee/) , a wireless communication protocol. It is very commonly used for connecting smart devices. It is designed for low power consumption, easability and flexibility of configuration, and supports self-organizing and self-recovering mesh network topology. Thousands of devices are available on the market with Zigbee support, which makes it very attractive for building smart home solutions. To control Zigbee devices you need a gateway that transfers data between the Zigbee network and another network (i.e. Wi-Fi).
+It is very commonly used for connecting smart devices. It is designed for low power consumption, easability and flexibility of configuration, and supports self-organizing and self-recovering mesh network topology. Thousands of devices are available on the market with Zigbee support, which makes it very attractive for building smart home solutions. To control Zigbee devices you need a gateway that transfers data between the Zigbee network and another network (i.e. Wi-Fi).
 
-</li>
+2. **[Message Queuing Telemetry Transport](https://mqtt.org/) (MQTT), a publish-subscribe protocol designed to control IoT applications.**
 
-<li class="flex">
-
-[Message Queuing Telemetry Transport](https://mqtt.org/) (MQTT), a publish-subscribe protocol designed to control IoT applications. The protocol is lightweight, requires minimal resources and ensures reliability of message delivery. The protocol is designed for low-bandwidth, high latency, unreliable networks, which make it an excellent option for operating high volumes of sensor messages. MQTT requires a server that runs the MQTT broker (in our case it will work with our  Raspberry Pi). The broker receives all the messages from the MQTT clients and then routes the messages to the appropriate subscribing clients.
-
-</li>
+The protocol is lightweight, requires minimal resources and ensures reliability of message delivery. The protocol is designed for low-bandwidth, high latency, unreliable networks, which make it an excellent option for operating high volumes of sensor messages. MQTT requires a server that runs the MQTT broker (in our case it will work with our  Raspberry Pi). The broker receives all the messages from the MQTT clients and then routes the messages to the appropriate subscribing clients.
 
 ## Options for Zigbee Connection
 You will explore two scenarios for connecting devices to Home Assistant with Robonomics.
