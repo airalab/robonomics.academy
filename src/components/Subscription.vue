@@ -1,6 +1,6 @@
 <template>
   <div class="footer footer__section footer__subscribe">
-    <h2>Get notifications & updates</h2>
+    <h2>Get Notifications & Updates</h2>
     <gsp-form :gscriptID="gscript" :captchaID="captcha" :class="result">
 
       <div class="container__narrow">
@@ -25,7 +25,7 @@
         </button>
       </div>
       <div class="container__mid">
-        <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network')}}.</p>
+        <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team.')}}</p>
       </div>
 
     </gsp-form>
