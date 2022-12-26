@@ -75,7 +75,7 @@ export default {
     },
     currentLesson () {
       let lesson = this.$route.matched[0].path;
-      return lesson.slice(4)+'.vue';
+      return lesson.slice(4)+'.md';
     },
   },
 
@@ -88,7 +88,7 @@ export default {
         .listCommits({
           owner: "airalab",
           repo: "robonomics.academy",
-          path: 'src/pages/' + this.currentLesson
+          path: 'courses/' + this.$locale + '/' + this.currentLesson
         })
         .then(({ data }) => {
           let d = new Date(data[0].commit.author.date)
@@ -105,7 +105,7 @@ export default {
         .getContent({
           owner: "airalab",
           repo: "robonomics.academy",
-          path: 'src/pages/' + this.currentLesson
+          path: 'courses/' + this.$locale + '/' + this.currentLesson
         })
         .then(result => {
           this.ghLink = result.data.html_url
@@ -149,7 +149,7 @@ export default {
   }
 
   h1 {
-    margin-top: 0.3rem;
+    margin-top: calc(var(--gap) * 0.5);
     text-align: left;
   }
 
