@@ -1,6 +1,6 @@
 <template>
-  <section class="lesson-reaction">
-    <div class="container__mid grid-4">
+  <section class="lesson-reaction container__reg">
+    <div class="container__reg grid-4">
       <LessonReactionItem v-for="reaction in reactions" :key="reaction.id" :text="reaction.text" :imgSrc="reaction.img" :lessonTitle="lessonTitle" />
     </div>
   </section>
@@ -51,6 +51,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  .grid-4 {
+    gap: calc(var(--gap) * 0.5);
+  }
 </style>

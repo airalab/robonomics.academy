@@ -73,7 +73,7 @@ nav {
 .navigation__button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 310px;
   background-color: transparent;
   border-radius: 0;
@@ -86,6 +86,22 @@ nav {
   color: var(--color-text) !important;
   background-color: transparent !important;
   border: 3px solid transparent !important;
+}
+
+.navigation__button:first-of-type {
+  justify-content: flex-start;
+}
+
+.navigation__button:first-of-type svg {
+  margin-right: calc(var(--gap) * 0.5);
+}
+
+.navigation__button:last-of-type {
+  justify-content: flex-end;
+}
+
+.navigation__button:last-of-type svg {
+  margin-left: calc(var(--gap) * 0.5);
 }
 
 
