@@ -6,7 +6,7 @@
 
     <slot/>
 
-    <subscription />
+    <subscription v-if="!$route.path.includes('certificates')" />
 
     <footer-slot/>
 

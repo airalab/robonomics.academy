@@ -72,5 +72,3 @@
   }
   </script>
   
-  <style scoped>
-  </style>

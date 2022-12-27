@@ -123,6 +123,15 @@ button
   display: inline-block;
   padding: calc(var(--gap) * 0.5) var(--gap);
   transition: 0.2s all linear;
+  text-transform: lowercase;
+}
+
+button::first-letter,
+button span::first-letter,
+.btn__outline::first-letter,
+.btn::first-letter,
+input[type="submit"]::first-letter {
+  text-transform: uppercase;
 }
 
 .btn__outline {
