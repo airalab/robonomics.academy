@@ -162,4 +162,9 @@
   form.success button {
     --btn-color: var(--color-green);
   }
+
+  form.wait .loader {
+    width: 20px;
+    height: 20px;
+  }
 </style>
