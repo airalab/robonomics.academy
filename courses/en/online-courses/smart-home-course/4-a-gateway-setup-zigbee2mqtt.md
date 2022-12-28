@@ -66,7 +66,7 @@ The basic configuration needs a few adjustments. Change the following statements
 
 Adjusted configuration file should look like:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="yaml">
 # Home Assistant integration (MQTT discovery)
 homeassistant: true
 # allow new devices to join
@@ -92,7 +92,7 @@ serial:
 If you already have an active Zigbee adapter or gateway in your home, and you are now configuring another stick, then they will conflict with each other. To solve this problem you need to change the channel on the new device. For this add the following strings to the end of configuration file:
 
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="yaml" codeClass="big-code">
 advanced:
   # Optional: ZigBee channel, changing requires re-pairing of all devices. (Note: use a ZLL channel: 11, 15, 20, or 25 to avoid Problems)
   # (default: 11)

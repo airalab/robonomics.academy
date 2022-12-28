@@ -51,6 +51,11 @@ export default {
         margin-bottom: var(--gap);
     }
 
+    ul li a,
+    ol li a {
+      font-weight: 600 !important;
+    }
+
 
     /* PLUS */
     .list__plus li {

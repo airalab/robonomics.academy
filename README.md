@@ -63,8 +63,14 @@ sudo apt-get install -y nodejs git make g++ gcc
 | Property   | Required | Default | Type    | Description                                                                        |
 |------------|----------|---------|---------|------------------------------------------------------------------------------------|
 | language   | true     | -       | String  | You must specify the code language for the right highlighting                      |
-| codeClass  | false    | -       | String  | If your code is long you may want to use "big-code" class for styling purposes        | 
+| codeClass  | false    | -       | String  | If your code is long you may want to use "big-code" class for styling purposes     | 
 | noCopyIcon | false    | false   | Boolean | By default all code pieces have copy icon but if it's not needed you may remove it |
+
+**Available Languages:**
+- Bash
+- JSON
+- Python
+- YAML
 
 
 

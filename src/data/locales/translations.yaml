@@ -29,7 +29,7 @@
   pt: Cursos On-line
   de: Online Kurse
 
-- alias: Apply for certificate 
+- alias: Apply for Certificate 
   en: Apply for certificate
   es: Solicitar certificado
   it: Applica per il certificato
@@ -109,23 +109,23 @@
   pt: "Agora você pode solicitar o certificado IPFS. O que você pode fazer com isto:"
   de: "Jetzt können Sie ein IPFS-Zertifikat beantragen. Was Sie damit tun können:"
 
-- alias: Add certificate to your LinkedIn profile
-  en: Add certificate to your LinkedIn profile
+- alias: add certificate to your LinkedIn profile
+  en: add certificate to your LinkedIn profile
   es: Agregar certificado a su perfil de LinkedIn
   it: Aggiungi il certificato al tuo profilo LinkedIn
   ru: Добавьте сертификат в свой профиль LinkedIn
   pt: Adicionar certificado ao seu perfil do LinkedIn
   de: Zertifikat zu Ihrem LinkedIn-Profil hinzufügen
 
-- alias: Apply for
-  en: Apply for
+- alias: apply for
+  en: apply for
   es: Aplicar para 
   it: Candidati per
   ru: Подать заявку 
   pt: Inscrever-se no
   de: Bewerbung für 
 
-- alias: Robonomics ambassador program
+- alias: Robonomics Ambassador Program
   en: Robonomics Ambassador program
   es: El Programa de Embajadores de Robonomics
   it: L'Ambassador program di Robonomics
@@ -173,8 +173,8 @@
   pt: Você está na lista
   de: Sie stehen auf der Liste
 
-- alias: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
-  en: By submitting this form you agree to receive emails with notifications and updates from open source decentralized team of Robonomics Network
+- alias: By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team
+  en: By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team
   es: Al enviar este formulario, acepta recibir correos electrónicos con notificaciones y actualizaciones de código abierto descentralizado del equipo del Robonomics Network
   it: Inviando questo modulo accetti di ricevere e-mail con notifiche e aggiornamenti dal team decentralizzato open source di Robonomics Network
   ru: Отправляя эту форму, вы соглашаетесь получать электронные письма с уведомлениями и обновлениями от децентрализованной команды Robonomics Network с доступным исходным кодом
