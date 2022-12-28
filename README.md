@@ -2,6 +2,7 @@
 
 Robonomics Academy is the educational provider to the world of IoT and cyber-physical systems based on web3. The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 8 years of work with web 3.0 projects.
 
+
 ## How to Deploy Academy Site Locally
 
 1. Install [Node.js](https://nodejs.org/en/download/package-manager/).
