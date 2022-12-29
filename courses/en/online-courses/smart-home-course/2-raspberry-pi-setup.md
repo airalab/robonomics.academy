@@ -173,7 +173,7 @@ source bin/activate
 
   As the result, you will find a name of the virtual environment in the brackets:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 (homeassistant) homeassistant@ubuntu:/srv/homeassistant/$
 </LessonCodeWrapper>
 

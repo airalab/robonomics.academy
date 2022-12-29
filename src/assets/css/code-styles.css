@@ -198,6 +198,14 @@ div.code-toolbar > .toolbar > .toolbar-item > span {
   display: none;
 } 
 
+.no-lines .line-numbers .line-numbers-rows {
+  display: none;
+}
+
+.no-lines pre[class*="language-"].line-numbers {
+  padding-left: var(--gap);
+}
+
 .copy-to-clipboard-button:hover {
  background-color: transparent !important; 
 }
