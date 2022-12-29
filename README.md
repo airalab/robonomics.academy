@@ -102,6 +102,7 @@ If you want you image to zoom in you must use - "lesson-images"
 | figure        | false    | false   | Boolean | If you want to use image with caption                                                                                                              |
 | figureCaption | false    | -       | String  | Add some caption for the image                                                                                                                     |
 | imageClasses  | false    | -       | String  | Add classes for styling                                                                                                                            |
+
 ### How to insert videos
 
 There are two ways for inserting videos in your documents:
@@ -121,12 +122,12 @@ There are two ways for inserting videos in your documents:
 `video with controls` 
 
 ```c
-<robo-wiki-video controls src="https://static.robonomics.network/wiki/balena-robonomics-image-crop.mp4" />
+<LessonVideo controls src="https://static.robonomics.network/wiki/balena-robonomics-image-crop.mp4" />
 ```
 
 **Properties for robo-wiki-video**
 
-**IF YOU ADDING A FILE WITH THE SIZE OF MORE THAN <span style="color:#af1c1c">10MB</span>, PLEASE, ADD IT TO THE SERVER NOT A LOCAL FOLDER!**
+**IF YOU ADDING A FILE WITH THE SIZE OF MORE THAN 10MB, PLEASE, ADD IT TO THE SERVER NOT A LOCAL FOLDER!**
 
 | Property | Required | Default | Type    | Description                                                                                                                                                                                           |
 |----------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
