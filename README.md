@@ -146,7 +146,6 @@ You can embed any YouTube video in doc by inserting share link as separate parag
 
 For stylized list you must use:
 
-
 `ordered list`
 
 ```c
