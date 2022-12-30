@@ -127,6 +127,7 @@ button
 }
 
 button::first-letter,
+button a::first-letter,
 button span::first-letter,
 .btn__outline::first-letter,
 .btn::first-letter,
@@ -294,7 +295,8 @@ button:hover
 
 input[type=text],
 input[type=email],
-select
+select,
+textarea
 {
   border-color: var(--color-blue);
   border-radius: 0;
