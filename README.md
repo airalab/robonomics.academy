@@ -60,11 +60,14 @@ sudo apt-get install -y nodejs git make g++ gcc
 
 **Properties for lesson-code-wrapper**
 
-| Property   | Required | Default | Type    | Description                                                                        |
-|------------|----------|---------|---------|------------------------------------------------------------------------------------|
-| language   | true     | -       | String  | You must specify the code language for the right highlighting                      |
-| codeClass  | false    | -       | String  | If your code is long you may want to use "big-code" class for styling purposes     | 
-| noCopyIcon | false    | false   | Boolean | By default all code pieces have copy icon but if it's not needed you may remove it |
+| Property   | Required | Default | Type    | Description                                                                            |
+|------------|----------|---------|---------|----------------------------------------------------------------------------------------|
+| language   | true     | -       | String  | You must specify the code language for the right highlighting                          |
+| codeClass  | false    | -       | String  | If your code is long you may want to use "big-code" class for styling purposes         | 
+| noCopyIcon | false    | false   | Boolean | By default all code pieces have copy icon but if it's not needed you may remove it     |
+| noLines    | false    | false   | Boolean | By default all code pieces have number lines  but if it's not needed you may remove it |
+
+
 
 **Available Languages:**
 - Bash
@@ -100,6 +103,44 @@ If you want you image to zoom in you must use - "lesson-images"
 | figureCaption | false    | -       | String  | Add some caption for the image                                                                                                                     |
 | imageClasses  | false    | -       | String  | Add classes for styling                                                                                                                            |
 
+### How to insert videos
+
+There are two ways for inserting videos in your documents:
+
+`local file`
+
+```c
+<LessonVideo local src="balena-robonomics-image-crop.mp4" />
+```
+
+`server file` 
+
+```c
+<LessonVideo src="https://static.robonomics.network/wiki/balena-robonomics-image-crop.mp4" />
+```
+
+`video with controls` 
+
+```c
+<LessonVideo controls src="https://static.robonomics.network/wiki/balena-robonomics-image-crop.mp4" />
+```
+
+**Properties for robo-wiki-video**
+
+**IF YOU ADDING A FILE WITH THE SIZE OF MORE THAN 10MB, PLEASE, ADD IT TO THE SERVER NOT A LOCAL FOLDER!**
+
+| Property | Required | Default | Type    | Description                                                                                                                                                                                           |
+|----------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| src      | true     | -       | String  | path to the video:<br> - if you uploaded your video directly to the src/assets/videos/ use: url-of-your-doc<br> - and for the server just use the link: https://some_url_here/name_of_the_file.format |
+| local    | fasle    | false   | Boolean | helps to get the right path for the file.<br>- If your video located in a local folder prop must be set to true.                                                                                      |
+| controls | false    | false   | Boolean | add controls to your video                                                                                                                                                                            |
+| muted    | false    | true    | Boolean | mute the video                                                                                                                                                                                        |
+| autoplay | false    | true    | Boolean | use autoplay<br> - only works with muted = true in Chromium browsers                                                                                                                                  |
+| loop     | false    | trie    | Boolean | loop the video                                                                                                                                                                                        |
+
+
+### YouTube videos
+You can embed any YouTube video in doc by inserting share link as separate paragraph without any additional quotes or tags, e.g.: `https://youtu.be/kQaSwNYHJQ8`
 
 ### Stylized Lists:
 
