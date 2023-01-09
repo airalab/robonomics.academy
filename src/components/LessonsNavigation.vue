@@ -80,6 +80,7 @@ nav {
   border: 3px solid transparent;
   color: var(--color-blue) !important;
   padding: calc(var(--gap) * 0.5);
+  text-transform: none;
 }
 
 .navigation__button:hover {

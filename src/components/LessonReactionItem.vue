@@ -41,31 +41,19 @@ export default {
     }
   },
 
+  watch: {
+    '$route.path': function() {
+      this.showFormComp = false;
+      this.$store.commit('SET_CURRENT_REACTION', '');
+    }
+  },
+
   methods: {
     showForm() {
       this.showFormComp = false;
       this.$store.commit('SET_CURRENT_REACTION', this.text);
       this.showFormComp = !this.showFormComp;
     }
-  //  async sendReaction(text) {
-  //     this.$store.commit('SET_CURRENT_REACTION', text);
-
-  //     const url = 'https://robonomics.academy' + this.$route.path;
-
-  //     const response = await fetch( 'https://script.google.com/macros/s/' + process.env.GRIDSOME_GS_REACTION + '/exec',
-  //     {
-  //       method: 'POST',
-  //       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  //       body: `Location=${encodeURIComponent(url)}&Reaction=${encodeURIComponent(text)}`
-  //     })
-
-  //     if(response.ok) {
-  //       console.log('feedback was sent!')
-  //     } else {
-  //       console.error('something went wrong...')
-  //     }
-
-  //   }
   }
 
 }
@@ -82,6 +70,7 @@ export default {
     border-radius: 30px;
     transition:background-color 0.33s ease-in-out;
     overflow: hidden;
+    transform: translateZ(0)
   }
 
   .lesson-reaction__item {
@@ -115,9 +104,12 @@ export default {
   .lesson-reaction__item img {
     display: inline-block;
     margin-bottom: 1rem;
+    max-width: 108px;
+    width: 100%;
   }
 
   .lesson-reaction__item span{
+    font-size: 1.2rem;
     color: var(--color-brown-dark);
   }
 </style>
