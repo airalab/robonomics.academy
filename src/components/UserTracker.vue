@@ -47,6 +47,7 @@ export default {
           break;
 
           default: 
+            VueCookies.set('userTracker', this.option);
             this.$store.commit('SET_USER_TRACKER', {option: 'no actions', localStorage: false, cookies: false, metrics: false})
         }
       }

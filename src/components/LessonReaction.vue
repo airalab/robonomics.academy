@@ -52,6 +52,11 @@ export default {
 </script>
 
 <style scoped>
+
+.container__reg {
+  padding-left: calc(var(--gap) * 0.5);
+  padding-right: calc(var(--gap) * 0.5);
+}
   .grid-4 {
     gap: calc(var(--gap) * 0.5);
   }

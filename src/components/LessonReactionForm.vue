@@ -8,7 +8,7 @@
       <h3>{{ $store.state.currentReaction }}</h3>
     </div>
 
-    <gsp-form v-if="result !== 'success'" :gscriptID="gscript" :captchaID="captcha" class="lesson-reaction-form__form" :class="result">
+    <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :captchaID="captcha" class="lesson-reaction-form__form" :class="result">
 
       <div>
 
@@ -94,24 +94,32 @@ export default {
       result: this.$response,
       location: '',
       comment: '',
+      interval: null,
 
     }
   },
 
   methods: {
     form() {
-      let respInterval = setInterval(() => {
+      this.interval = setInterval(() => {
         this.result = this.$response
+        // console.log(this.result)
       }, 1000)
 
-      if (this.$response === 'success' || this.$response === 'error') {
-        clearInterval(respInterval)
-      }
+      // if (this.$response === 'success' || this.$response === 'error') {
+      //   clearInterval(this.interval)
+      // }
     }
   },
 
   mounted() {
     this.location = 'https://robonomics.academy' + this.$route.path;
+
+    if(this.$response === 'success' || this.$response === 'error') {
+      clearInterval(this.interval);
+      this.result = 'init';
+    }
+
   }
 
 }
@@ -128,9 +136,12 @@ export default {
     padding: calc(var(--gap) * 0.5);
     background-color:  var(--color-main);
     transform: translateY(-100%);
+    overflow: hidden;
   }
 
   .lesson-reaction__wrapper.active .lesson-reaction-form__wrapper  {
+    border: 2px solid transparent;
+    border-radius: 30px;
     animation: moveToBottom 0.5s ease-in-out forwards;
   }
 
@@ -148,14 +159,14 @@ export default {
   }
 
   .lesson-reaction__check  {
-    margin-right: 15px;
+    margin-right: 8px;
   }
 
   .lesson-reaction-form__form input,
   .lesson-reaction-form__form textarea {
     display: block;
-    padding-bottom: 10px;
-    margin-bottom: calc(var(--gap) * 0.5);
+    margin-bottom: 5px;
+    font-size: 1rem;
     border-color: var(--color-brown-dark);
     color: var(--color-brown-dark);
     text-overflow: ellipsis;
@@ -164,10 +175,12 @@ export default {
   .lesson-reaction-form__form textarea  {
     resize: none;
     max-width: 100%;
-    max-height: 50px;
+    max-height: 35px;
     margin-bottom: 0;
     padding: 10px 60px;
+    padding-bottom: 0;
     padding-left: 0;
+    margin-bottom: 1rem;
   }
 
   .lesson-reaction-form__form input::placeholder,
@@ -186,8 +199,8 @@ export default {
 
   .lesson-reaction-form__btn {
     color: #0000EE !important;
-    margin-top: 1rem;
     padding: 0;
+    width: 100%;
     font-size: 1.3rem;
     background: transparent;
     border: 1px solid transparent;
@@ -204,6 +217,7 @@ export default {
     font-size: 0.7rem;
     opacity: 0.7;
     cursor: none;
+    width: auto;
   }
 
   .lesson-reaction-form__form.wait .loader {
@@ -228,13 +242,6 @@ export default {
     font-family: var(--font-title);
   }
 
-  /* .lesson-reaction__check {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 10;
-  } */
-
   .lesson-reaction-form__success {
     font-size: 1.3rem;
     font-family: var(--font-title);
@@ -247,9 +254,11 @@ export default {
 
   @keyframes moveToBottom {
     from {
+      border-color: var(--color-brown-dark);
       transform: translateY(-100%);
     }
     to {
+      border-color: transparent;
       transform: translateY(0);
     }
   }
