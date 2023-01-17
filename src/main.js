@@ -60,7 +60,8 @@ import {
   faCode,
   faHouseSignal,
   faEnvelope,
-  faCheck
+  faCheck,
+  faXmark
   // faRobot
  } from '@fortawesome/free-solid-svg-icons'
 
@@ -108,7 +109,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     faCode,
     faHouseSignal,
     faEnvelope,
-    faCheck
+    faCheck,
+    faXmark
     // faRobot
   )
 

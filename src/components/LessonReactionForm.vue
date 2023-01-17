@@ -2,10 +2,15 @@
   <div class="lesson-reaction-form__wrapper">
 
     <div class="lesson-reaction-form__header">
-      <span class="lesson-reaction__check" v-if="$store.state.currentReaction === text">
+      <div>
+        <span class="lesson-reaction__check" v-if="$store.state.currentReaction === text">
         <font-awesome-icon icon="fa-solid fa-check" aria-hidden="true"/>
+        </span>
+        <h3>{{ $store.state.currentReaction }}</h3>
+      </div>
+      <span tabindex="0" class="lesson-reaction__close" @click="$emit('closeForm')">
+        <font-awesome-icon icon="fa-solid fa-xmark" aria-hidden="true"/>
       </span>
-      <h3>{{ $store.state.currentReaction }}</h3>
     </div>
 
     <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :captchaID="captcha" class="lesson-reaction-form__form" :class="result">
@@ -129,44 +134,58 @@ export default {
 
   .lesson-reaction-form__wrapper {
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: calc(var(--gap) * 0.5);
+    bottom: -57px;
+    right: 20px;
+    width: 70%;
+    height: 218px;
+    padding: calc(var(--gap) * 0.5) calc(var(--gap) * 1);
     background-color:  var(--color-main);
     transform: translateY(-100%);
     overflow: hidden;
+    z-index: 0;
   }
 
   .lesson-reaction__wrapper.active .lesson-reaction-form__wrapper  {
-    border: 2px solid transparent;
+    border: 2px solid var(--color-brown-dark);
     border-radius: 30px;
-    animation: moveToBottom 0.5s ease-in-out forwards;
+    animation: moveToBottom 0.5s linear forwards;
   }
 
   .lesson-reaction-form__header {
     display: flex;
     align-items: center;
-    margin-bottom: calc(var(--gap) * 0.5);
+    justify-content: space-between;
+    margin-bottom: calc(var(--gap) * 0.3);
+  }
+
+  .lesson-reaction-form__header > div {
+    display: flex;
+    align-items: center;
   }
 
   .lesson-reaction-form__header h3 {
     margin-bottom: 0;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: left;
     white-space: nowrap;
   }
 
   .lesson-reaction__check  {
     margin-right: 8px;
+    font-size: 1.4rem;
+  }
+
+  .lesson-reaction__close {
+    font-size: 2rem;
+    cursor: pointer;
   }
 
   .lesson-reaction-form__form input,
   .lesson-reaction-form__form textarea {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-size: 1rem;
+    width: 94%;
     border-color: var(--color-brown-dark);
     color: var(--color-brown-dark);
     text-overflow: ellipsis;
@@ -176,7 +195,6 @@ export default {
     resize: none;
     max-width: 100%;
     max-height: 35px;
-    margin-bottom: 0;
     padding: 10px 60px;
     padding-bottom: 0;
     padding-left: 0;
@@ -233,7 +251,8 @@ export default {
   .lesson-reaction-form__btn-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* padding-left: 5px; */
+    
   }
 
   .lesson-reaction-form__btn span {
@@ -254,13 +273,30 @@ export default {
 
   @keyframes moveToBottom {
     from {
-      border-color: var(--color-brown-dark);
+      opacity: 0;
       transform: translateY(-100%);
     }
     to {
-      border-color: transparent;
+      opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  @media screen and (max-width: 940px) {
+
+    .lesson-reaction-form__wrapper {
+      bottom: -68px;
+      width: 95%;
+    }
+    
+  }
+
+  @media screen and (max-width: 460px) {
+
+    .lesson-reaction-form__wrapper {
+      width: 90%;
+    }
+
   }
 
 </style>

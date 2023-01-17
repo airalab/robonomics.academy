@@ -1,5 +1,5 @@
 <template>
-  <section class="lesson-reaction container__reg">
+  <section class="lesson-reaction container__reg" :class="{'lesson-reaction__withForm': $store.state.currentReaction}">
     <div class="container__reg grid-4">
       <LessonReactionItem v-for="reaction in reactions" :key="reaction.id" :text="reaction.text" :imgSrc="reaction.img" :lessonTitle="lessonTitle" />
     </div>
@@ -53,11 +53,45 @@ export default {
 
 <style scoped>
 
-.container__reg {
-  padding-left: calc(var(--gap) * 0.5);
-  padding-right: calc(var(--gap) * 0.5);
-}
+  .lesson-reaction {
+    position: relative;
+    height: 320px;
+    padding-bottom: calc(var(--gap) * 3);
+    transition: height 0.4s linear;
+  }
+
+  .lesson-reaction__withForm {
+    height: 400px;
+  }
+
+  .container__reg {
+    padding-left: calc(var(--gap) * 0.5);
+    padding-right: calc(var(--gap) * 0.5);
+  }
   .grid-4 {
     gap: calc(var(--gap) * 0.5);
+  }
+
+  @media screen and (max-width: 940px) {
+
+    .lesson-reaction{
+      height: 450px;
+    }
+
+    .lesson-reaction__withForm {
+      height: 650px;
+    }
+
+  }
+
+  @media screen and (max-width: 460px) {
+    .lesson-reaction{
+      height: 900px;
+    }
+
+    .lesson-reaction__withForm {
+      height: 1100px;
+    }
+
   }
 </style>

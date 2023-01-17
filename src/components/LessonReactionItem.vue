@@ -5,7 +5,7 @@
       <span>{{text}}</span>
     </button>
 
-    <LessonReactionForm v-if="showFormComp && $store.state.currentReaction === text" :text="text" :lessonTitle="lessonTitle"/>
+    <LessonReactionForm v-if="showFormComp && $store.state.currentReaction === text" :text="text" :lessonTitle="lessonTitle" @closeForm="closeForm"/>
   </div>
 </template>
 
@@ -53,6 +53,11 @@ export default {
       this.showFormComp = false;
       this.$store.commit('SET_CURRENT_REACTION', this.text);
       this.showFormComp = !this.showFormComp;
+    },
+
+    closeForm() {
+      this.showFormComp = false;
+      this.$store.commit('SET_CURRENT_REACTION', '');
     }
   }
 
@@ -62,15 +67,15 @@ export default {
 <style scoped>
 
   .lesson-reaction__wrapper {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     height: 224px;
     background-color: #fdfdfd;
     border: 2px solid var(--color-brown-dark);
     border-radius: 30px;
     transition:background-color 0.33s ease-in-out;
-    overflow: hidden;
-    transform: translateZ(0)
+    /* overflow: hidden; */
+    /* transform: translateZ(0) */
   }
 
   .lesson-reaction__item {

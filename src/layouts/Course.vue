@@ -46,7 +46,7 @@
 
     <client-only>
 
-      <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
+    <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
 
     </client-only>
 
