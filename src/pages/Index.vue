@@ -18,7 +18,7 @@
       </div>
     </section>
 
-    <section id="about" class="team section__brown">
+    <section id="about" class="team section__brown" ref="about">
       <div class="container__narrow">
         <h2>{{$ts('Welcome to Our Online School!')}}</h2>
         <p class="text__center">{{$ts('The core developers of the Robonomics Network, robotics specialists and PhD scientists offer to pass through compendious experience based on about 10 years of work with web3 projects.')}}</p>
@@ -186,11 +186,22 @@
 
         this.$store.commit('TOGGLE_SHOW_HEADER', currentScrollPosition > 500)
         this.lastScrollPosition = currentScrollPosition
-      }
+      },
+
+      scrollToTeam() {
+        const el = this.$refs.about
+        console.log(el)
+
+        if (el) {
+          el.scrollIntoView({behavior: 'smooth'});
+        }
+
+      },
     },
 
     mounted() {
       window.addEventListener('scroll', this.onScroll)
+      setTimeout(this.scrollToTeam, 100)
     },
 
     beforeDestroy () {

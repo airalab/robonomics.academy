@@ -127,11 +127,12 @@ button
 }
 
 button::first-letter,
+button a::first-letter,
 button span::first-letter,
 .btn__outline::first-letter,
 .btn::first-letter,
 input[type="submit"]::first-letter {
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 
 .btn__outline {
@@ -294,7 +295,8 @@ button:hover
 
 input[type=text],
 input[type=email],
-select
+select,
+textarea
 {
   border-color: var(--color-blue);
   border-radius: 0;

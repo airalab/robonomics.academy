@@ -30,7 +30,10 @@ module.exports = {
         typeName: 'Course',
         baseDir: './courses', 
         // pathPrefix: '/online-course',
-        template: './src/templates/Course.vue' 
+        template: './src/templates/Course.vue',
+        plugins: [
+          ['@noxify/gridsome-plugin-remark-embed', {'enabledProviders' : ['Youtube']}],
+        ]
       }
     },
     {

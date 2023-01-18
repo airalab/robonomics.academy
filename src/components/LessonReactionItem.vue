@@ -1,16 +1,11 @@
 <template>
-  <div>
-    <button class="lesson-reaction__item" @click="sendReaction(text)" :class="{'active': $store.state.currentReaction === text}">
+  <div  class="lesson-reaction__wrapper" :class="{'active': $store.state.currentReaction === text}">
+    <button class="lesson-reaction__item" @click="showForm()">
       <g-image :src="require(`!!assets-loader!@/assets/images/${imgSrc}`)" :alt="text" />
       <span>{{text}}</span>
-      <span class="lesson-reaction__check" v-if="$store.state.currentReaction === text">
-        <font-awesome-icon icon="fa-solid fa-check" aria-hidden="true"/>
-      </span>
     </button>
-    <a :href="`mailto:${$store.state.emailsForCourseFeedback}?subject=${encodeURIComponent('Robonomics academy feedback (' +  lessonTitle + ')')}&body=${encodeURIComponent('https://robonomics.academy' + this.$route.path)}`" class="lesson-reaction__mail" v-if="$store.state.currentReaction === text">
-      <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true"/>
-      <span>Send us more info</span>
-    </a>
+
+    <LessonReactionForm v-if="showFormComp && $store.state.currentReaction === text" :text="text" :lessonTitle="lessonTitle"/>
   </div>
 </template>
 
@@ -23,6 +18,7 @@ export default {
       required: true,
       default: ''
     },
+
     imgSrc: {
       type: String,
       required: true,
@@ -35,25 +31,28 @@ export default {
     }
   },
 
+  components: {
+    LessonReactionForm: () => import('~/components/LessonReactionForm.vue'),
+  },
+
+  data() {
+    return {
+      showFormComp: false
+    }
+  },
+
+  watch: {
+    '$route.path': function() {
+      this.showFormComp = false;
+      this.$store.commit('SET_CURRENT_REACTION', '');
+    }
+  },
+
   methods: {
-   async sendReaction(text) {
-      this.$store.commit('SET_CURRENT_REACTION', text);
-
-      const url = 'https://robonomics.academy' + this.$route.path;
-
-      const response = await fetch( 'https://script.google.com/macros/s/' + process.env.GRIDSOME_GS_REACTION + '/exec',
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: `Location=${encodeURIComponent(url)}&Reaction=${encodeURIComponent(text)}`
-      })
-
-      if(response.ok) {
-        console.log('feedback was sent!')
-      } else {
-        console.error('something went wrong...')
-      }
-
+    showForm() {
+      this.showFormComp = false;
+      this.$store.commit('SET_CURRENT_REACTION', this.text);
+      this.showFormComp = !this.showFormComp;
     }
   }
 
@@ -61,27 +60,40 @@ export default {
 </script>
 
 <style scoped>
+
+  .lesson-reaction__wrapper {
+    position: relative;
+    width: 100%;
+    height: 224px;
+    background-color: #fdfdfd;
+    border: 2px solid var(--color-brown-dark);
+    border-radius: 30px;
+    transition:background-color 0.33s ease-in-out;
+    overflow: hidden;
+    transform: translateZ(0)
+  }
+
   .lesson-reaction__item {
     position: relative;
     display: flex;
     width: 100%;
-    height: 224px;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #fdfdfd;
-    border: 2px solid var(--color-brown-dark);
-    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 0;
     transition: transform 0.4s ease-in-out;
   }
 
   .lesson-reaction__item:hover {
-    background-color: #fdfdfd!important;
-    border-color: var(--color-brown-dark) !important;
+    background-color: transparent!important;
+    border-color: transparent !important;
     transform: scale(1.1);
   }
 
-  .lesson-reaction__item.active {
+  .lesson-reaction__wrapper.active {
     background-color: var(--color-main);
   }
 
@@ -92,28 +104,12 @@ export default {
   .lesson-reaction__item img {
     display: inline-block;
     margin-bottom: 1rem;
+    max-width: 108px;
+    width: 100%;
   }
 
   .lesson-reaction__item span{
+    font-size: 1.2rem;
     color: var(--color-brown-dark);
-  }
-
-  .lesson-reaction__mail {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-
-  .lesson-reaction__mail span {
-    margin-left: 10px;
-    font-family: var(--font-title);
-  }
-
-  .lesson-reaction__check {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 10;
   }
 </style>

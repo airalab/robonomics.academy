@@ -1,7 +1,7 @@
 <template>
 
   <section v-if="title" :class="[classes, {'section-lessonInfo': lessonId}]">
-    <div class="container__narrow">
+    <div class="container__narrow page-title">
       <ul v-if="breadcrumbs">
         <li v-for="item in breadcrumbs" :key="item.id">
           <g-link :to="item.to">{{item.text}}</g-link>
@@ -134,6 +134,10 @@ export default {
     padding-right: 10px;
   }
 
+  .page-title {
+    margin-bottom: calc(var(--gap) * 3);
+  }
+
   .section-lessonInfo {
     padding-bottom: 0;
   }
@@ -163,7 +167,6 @@ export default {
 
   .lesson-update {
     margin: 0 auto;
-    padding-top: calc(var(--gap) * 3);
     /* padding-left: 10px; */
     padding-bottom: 10px;
   }

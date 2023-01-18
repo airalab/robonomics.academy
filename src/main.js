@@ -30,6 +30,7 @@ import LessonImages from '~/components/LessonImages.vue'
 import LessonCodeWrapper from '~/components/LessonCodeWrapper.vue'
 import LessonButtonLink from '~/components/LessonButtonLink.vue'
 import LessonReaction from '~/components/LessonReaction.vue'
+import LessonVideo from '~/components/LessonVideo.vue'
 import Prism from 'vue-prism-component'
 
 
@@ -82,6 +83,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('LessonCodeWrapper', LessonCodeWrapper)
   Vue.component('LessonButtonLink', LessonButtonLink)
   Vue.component('LessonReaction', LessonReaction)
+  Vue.component('LessonVideo', LessonVideo)
 
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
