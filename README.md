@@ -334,14 +334,14 @@ You can add tabs to the doc:
   </robo-academy-tabs>
 ```
 
-**Properties for robo-wiki-tabs (wrapper)**
+**Properties for robo-academy-tabs (wrapper)**
 
 | Property | Required | Default    | Type   | Description                                             |
 |----------|----------|------------|--------|---------------------------------------------------------|
 | mode     | false    | horizontal | String | you can choose tabs mode:<br>- horizontal<br>- vertical |
 
 
-**Properties for robo-wiki-tab (item)**
+**Properties for robo-academy-tab (item)**
 
 | Property | Required | Default | Type    | Description                       |
 |----------|----------|---------|---------|-----------------------------------|
