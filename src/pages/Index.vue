@@ -190,7 +190,6 @@
 
       scrollToTeam() {
         const el = this.$refs.about
-        console.log(el)
 
         if (el) {
           el.scrollIntoView({behavior: 'smooth'});
