@@ -30,6 +30,14 @@
   --color-bg: #5E6B85;
   --color-light-lesson: #fff;
 
+  --color-note-accent: #90a4b7;
+	--color-note-pale: #f2f2f2;
+	--color-note-text: var(--color-text);
+	--color-note-accent--okay: #4ab85c;
+	--color-note-pale--okay: #e3fee4;
+	--color-note-accent--warning: #f4a434;
+	--color-note-pale--warning: #fff1dd;
+
   --color-code-bg: #f6e58146;
   --color-code: rgb(232, 100, 35);
 
@@ -451,24 +459,40 @@ code {
   display: flex;
 }
 
+
 table {
-  border-spacing: 0;
-  border-collapse: collapse;
-  margin: 0 auto;
-  background-color: var(--color-light);
+	border-collapse: collapse;
+	border-spacing: 0;
+	display: block;
+	margin-top: 0;
+  /* max-width: 1400px; */
+	width: 100%;
+	color: var(--color-text);
+	font-size: 90%;
+	background-color: var(--color-light);
+	white-space: nowrap;
+	overflow-y: auto;
 }
 
-table thead th {
-  text-align: left;
-  font-weight: 700;
+table tr {
+	background-color: var(--table-bg);
+	border-top: 1px solid var(--color-brown-dark);
 }
 
-table td, table th {
-  padding: 0.5rem;
-  border: 1px solid var(--color-brown-dark);
-  font-size: 90%;
-  color: var(--color-text);
-} 
+table td, table th{
+	border: 1px solid var(--color-brown-dark);
+	padding: .5rem .8rem;
+}
+
+table th{
+	text-align: left;
+	width: 100%;
+}
+
+table thead tr{
+  color: var(--color-light);
+  background-color: var(--color-second);
+}
 
 
 /* dark theme */
@@ -485,6 +509,14 @@ table td, table th {
     --color-green: #689305;
     --color-code-bg: rgba(146, 161, 255, 0.125);
     --color-code: rgb(108, 142, 255);
+
+    --color-note-accent: #384856;
+    --color-note-pale: #7f8e9c;
+    --color-note-text: #ffffff;
+    --color-note-accent--okay: #234a2a;
+    --color-note-pale--okay: #559a61;
+    --color-note-accent--warning: #8b560c;
+    --color-note-pale--warning: #d19746;
   }
 
   .section__brown, .section__yellow {

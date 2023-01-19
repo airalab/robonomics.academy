@@ -31,6 +31,12 @@ import LessonCodeWrapper from '~/components/LessonCodeWrapper.vue'
 import LessonButtonLink from '~/components/LessonButtonLink.vue'
 import LessonReaction from '~/components/LessonReaction.vue'
 import LessonVideo from '~/components/LessonVideo.vue'
+import RoboAcademyYoutubeVideo from '~/components/RoboAcademyYoutubeVideo.vue'
+import RoboAcademyGrid from '~/components/RoboAcademyGrid.vue'
+import RoboAcademyGridElement from '~/components/RoboAcademyGridElement.vue'
+import RoboAcademyNote from '~/components/RoboAcademyNote.vue'
+import RoboAcademyTabs from '~/components/RoboAcademyTabs.vue'
+import RoboAcademyTab from '~/components/RoboAcademyTab.vue'
 import Prism from 'vue-prism-component'
 
 
@@ -85,6 +91,12 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('LessonButtonLink', LessonButtonLink)
   Vue.component('LessonReaction', LessonReaction)
   Vue.component('LessonVideo', LessonVideo)
+  Vue.component('RoboAcademyYoutube', RoboAcademyYoutubeVideo)
+  Vue.component('RoboAcademyGrid', RoboAcademyGrid)
+  Vue.component('RoboAcademyGridElement', RoboAcademyGridElement)
+  Vue.component('RoboAcademyNote', RoboAcademyNote)
+  Vue.component('RoboAcademyTabs', RoboAcademyTabs)
+  Vue.component('RoboAcademyTab', RoboAcademyTab)
 
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
