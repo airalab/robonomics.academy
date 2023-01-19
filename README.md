@@ -125,7 +125,7 @@ There are two ways for inserting videos in your documents:
 <LessonVideo controls src="https://static.robonomics.network/wiki/balena-robonomics-image-crop.mp4" />
 ```
 
-**Properties for robo-wiki-video**
+**Properties for LessonVideo**
 
 **IF YOU ADDING A FILE WITH THE SIZE OF MORE THAN 10MB, PLEASE, ADD IT TO THE SERVER NOT A LOCAL FOLDER!**
 
@@ -141,6 +141,21 @@ There are two ways for inserting videos in your documents:
 
 ### YouTube videos
 You can embed any YouTube video in doc by inserting share link as separate paragraph without any additional quotes or tags, e.g.: `https://youtu.be/kQaSwNYHJQ8`
+
+
+However, if you need an autoplay you must use special component:
+
+```c
+<robo-academy-youtube autoplay link="https://www.youtube.com/watch?v=5s4-S_z4VYE" />
+```
+
+**Properties for robo-academy-youtube**
+
+| Property | Required | Default | Type    | Description             |
+|----------|----------|---------|---------|-------------------------|
+| link     | true     | -       | String  | link to youtube video   |
+| autoplay | fasle    | false   | Boolean | autoplays youtube video |
+| loop     | false    | false   | Boolean | loop youtube video      |
 
 ### Stylized Lists:
 
@@ -220,3 +235,150 @@ If you may want to add link-button or just button use:
 | type     | false    | link    | String | If you need simple button use:<br>- button<br>If you need link-button use:<br>- link |
 | src      | false    | -       | String | src for link                                                                         |
 | text     | true     | -       | String | text for your button or link-button                                                   |
+
+
+### NOTES & WARNINGS
+
+You can add notes and give them specific types:
+
+- warning (orange color)
+- okay (green color)
+- note (grey color)
+
+`note with title`
+
+```c
+<robo-academy-note type="okay" title="Some import information" />
+```
+
+`note with content`
+
+```c
+<robo-academy-note type="okay">Learn with us</robo-academy-note>
+```
+
+`note with title and content`
+
+```c
+<robo-academy-note type="okay" title="Robonomics Academy">
+  Learn with us
+</robo-academy-note>
+```
+**Properties for robo-academy-note**
+
+| Property | Required | Default | Type   | Description                                                   |
+|----------|----------|---------|--------|---------------------------------------------------------------|
+| type     | false    | -       | String | - there are three types in total:<br> <br>note, warning, okay |
+| title    | false    | -       | String | adds title to your note                                       |
+| gap      | false    | false   | Boolean| adds gap to your note                                         |
+
+
+### Tabs
+You can add tabs to the doc:
+
+- Use tabs wrapper component: 
+
+```c
+<robo-academy-tabs></robo-academy-tabs>
+```
+
+- And then use as many tab items components as you like inside wrapper:
+
+```c
+  <robo-academy-tabs>
+    <robo-academy-tab title="Linux">
+      <pre>ip a</pre>
+    </robo-academy-tab>
+    <robo-academy-tab title="OSX">
+      ifconfig
+    </robo-academy-tab>
+  </robo-academy-tabs>
+```
+
+`horizontal tabs`
+
+```c
+  <robo-academy-tabs>
+    <robo-academy-tab title="Linux">
+      <pre>ip a</pre>
+    </robo-academy-tab>
+    <robo-academy-tab title="OSX">
+      ifconfig
+    </robo-academy-tab>
+  </robo-academy-tabs>
+```
+
+`vertical tabs`
+
+```c
+  <robo-academy-tabs mode="vertical">
+    <robo-academy-tab title="Linux">
+      <pre>ip a</pre>
+    </robo-academy-tab>
+    <robo-academy-tab title="OSX">
+      <pre>ifconfig</pre>
+    </robo-academy-tab>
+  </robo-academy-tabs>
+```
+
+`tab item with border`
+
+```c
+  <robo-academy-tabs>
+    <robo-academy-tab title="Linux">
+      <pre>ip a</pre>
+    </robo-academy-tab>
+    <robo-academy-tab title="OSX" border>
+      ifconfig
+    </robo-academy-tab>
+  </robo-academy-tabs>
+```
+
+**Properties for robo-wiki-tabs (wrapper)**
+
+| Property | Required | Default    | Type   | Description                                             |
+|----------|----------|------------|--------|---------------------------------------------------------|
+| mode     | false    | horizontal | String | you can choose tabs mode:<br>- horizontal<br>- vertical |
+
+
+**Properties for robo-wiki-tab (item)**
+
+| Property | Required | Default | Type    | Description                       |
+|----------|----------|---------|---------|-----------------------------------|
+| title    | true     | -       | String  | title for the tab                 |
+| border   | false    | false   | Boolean | add border to the content wrapper |
+
+
+### Grid 
+Helps to add grid layout to elements:
+
+- Use grid wrapper component first: 
+
+```c
+<robo-academy-grid></robo-academy-grid>
+```
+
+- And then use as many grid items components as you like inside wrapper:
+
+```c
+  <robo-academy-grid :columns="2" textAlign="center">
+    <robo-academy-grid-element>
+      <p>Zigbee smart devices (any from <a href="https://slsys.io/action/supported_devices.html">supported devices</a>)</p>
+    </robo-academy-grid-element>
+    <robo-academy-grid-element>
+      <p>Zigbee adapter <a href="https://jethome.ru/z2/">JetHome USB JetStick Z2</a> (or one of <a href="https://www.zigbee2mqtt.io/information/supported_adapters.html">supported</a>) or 
+      <a href="https://easyeda.com/ludovich88/robonomics_sls_gateway_v01">Robonomics SLS Gateway</a></p>
+    </robo-academy-grid-element/>
+  </robo-academy-grid>
+```
+
+**Properties for robo-academy-grid**
+
+| Property  | Required | Default | Type   | Description                                                      |
+|-----------|----------|---------|--------|------------------------------------------------------------------|
+| columns   | false    | 4       | Number | you can choose column number:<br> - from 1 to 6                  |
+| align     | false    | -       | String | align items on the block axis:<br>- options: start, center, end  |
+| justify   | false    | -       | String | align items on the inline axis:<br>- options: start, center, end |
+| textAlign | false    | -       | String | align text inside grid<br>- options: left, center, right         |
+
+
