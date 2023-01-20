@@ -4,7 +4,7 @@
         <h2>{{$ts('Completed the Course?')}}</h2>
         <p>{{$ts('You can apply for a certificate of completion, after which you will be able to:')}}</p>
         <List type="plus">
-          <li>{{$ts('add certificate to your LinkedIn profile;')}}</li>
+          <li>{{$ts('add certificate to your LinkedIn profile')}};</li>
           <li>{{$ts('apply for')}} <g-link to="https://robonomics.network/ambassador-program/">{{$ts('Robonomics Ambassador Program')}}</g-link>;</li>
           <li>{{$ts('print the certificate and hang it on the wall.')}}</li>
         </List>
