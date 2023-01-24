@@ -1,42 +1,28 @@
 <template>
-  <div class="layout line-numbers " data-prismjs-copy-timeout="500">
+  <div class="layout line-numbers" data-prismjs-copy-timeout="500">
 
     <header-slot/>
 
     <page-title
-      v-if="course" 
       :title="title" 
       :breadcrumbs="breadcrumbs"
-      :lessonId="lessonId"
-    />
-
-    <LessonInfo 
-      v-if="lessonId" 
-      :type="$ts(lesson.activity)"
-      :time="$ts(lesson.time)"
-      :tools="$ts(lesson.tools)"
-    />
-
-    <LessonsList 
-      v-if="!lessonId" 
-      :course="course" 
+      :doc="true"
     />
 
     <slot/>
 
-    <lesson-reaction v-if="lessonId && !noTranslations" :lessonTitle="$ts(lesson.title)"/>
+    <lesson-reaction v-if="docId && !noTranslations" :lessonTitle="$ts(doc.title)"/>
 
     <LessonsNavigation
-      v-if="lessonId && !noTranslations"
-      :lessonId="parseInt(lessonId)"
-      :course="course"
+      v-if="docId && !noTranslations"
+      :lessonId="parseInt(docId)"
+      :current="currentIndex"
+      :docs="playground"
     />
 
     <subscription />
 
-    <passed-lessons/>
-
-    <QuestionIcon v-if="lessonId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
+    <QuestionIcon v-if="docId" :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
 
     <div class="popup popup-js" :class="{'active': $store.state.showImagePopup}">
       <ImagePopup />
@@ -58,16 +44,13 @@
   import "prismjs/plugins/line-numbers/prism-line-numbers.js";
   import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
-  import courses from '@/data/online-courses.yaml'
+  import playground from '@/data/playground.yaml'
 
   export default {
     components: {
       HeaderSlot: () => import('~/components/Header.vue'),
       FooterSlot: () => import('~/components/Footer.vue'),
       PageTitle: () => import('~/components/PageTitle.vue'),
-      PassedLessons: () => import('~/components/PassedLessons.vue'),
-      LessonsList: () => import('~/components/LessonsList.vue'),
-      LessonInfo: () => import('~/components/LessonInfo.vue'),
       LessonsNavigation: () => import('~/components/LessonsNavigation.vue'),
       Subscription: () => import('~/components/Subscription.vue'),
       QuestionIcon: () => import('~/components/QuestionIcon.vue'),
@@ -75,11 +58,7 @@
     },
 
     props: {
-      courseId: {
-        default: null,
-        required: true
-      },
-      lessonId: {
+      docId: {
         default: null
       },
       noTranslations: {
@@ -101,22 +80,21 @@
     },
 
     computed: {
-      course() {
-        const c = courses.filter(element => element.id === this.courseId )
-        return c[0]
-      },
-      lesson() {
-        if(this.lessonId) {
-          const l = this.course.lessons.filter(element => element.id === this.lessonId )
-          return l[0]
+      doc() {
+        if(this.docId) {
+          const d = this.playground.filter(element => element.id === this.docId )
+          return d[0]
         }
       },
+
       title() {
-        if(this.lessonId) {
-          return this.$ts(this.lesson.title)
-        } else {
-          return this.$ts(this.course.title)
+        if(this.docId) {
+          return this.$ts(this.doc.title)
         }
+      },
+
+      playground() {
+        return playground.docs
       },
 
       breadcrumbs() {
@@ -126,27 +104,30 @@
             text: 'Robonomics Academy'
           },
           {
-            to: 'online-courses',
-            text: this.$ts('Online Courses')
+            to: 'playground',
+            text: this.$ts('Playground')
           },
         ]
 
-        if(this.lesson) {
-          b.push({
-            to: 'online-courses/' + this.course.path,
-            text: this.$ts(this.course.title)
-          })
-        }
-
         return b
-      }
+      },
+
+      currentIndex () {
+
+        const n = this.$route.path.slice(0, -1).lastIndexOf('/');
+        const route = this.$route.path.substring(n + 1).slice(0, -1);
+
+        return this.playground.findIndex(item => {
+          return item['path'] === route
+        })
+      },
     },
 
     methods: {
       getTitleForIssue() {
-        const url = new URL('https://github.com/airalab/robonomics.academy/issues/new?assignees=&labels=documentation&template=lesson-issue.md&');
+        const url = new URL('https://github.com/airalab/robonomics.academy/issues/new?assignees=&labels=documentation&template=doc-issue.md&');
         const params = new URLSearchParams(url.search);
-        params.append('title', `issue for lesson - ${this.title}(${this.$locale})`);
+        params.append('title', `issue for doc - ${this.title}(${this.$locale})`);
         this.ghIssueTitle = params.toString()
       },
     },

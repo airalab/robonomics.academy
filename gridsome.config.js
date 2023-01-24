@@ -37,6 +37,18 @@ module.exports = {
       }
     },
     {
+      // Create jobs pages from markdown files
+      use: "@gridsome/vue-remark",
+      options: {
+        typeName: "Playground",
+        baseDir: "docs",
+        template: './src/templates/Playground.vue',
+        plugins: [
+          ['@noxify/gridsome-plugin-remark-embed', {'enabledProviders' : ['Youtube']}],
+        ]
+      }
+    },
+    {
       use: "gridsome-plugin-google-sheets-post"
     },
     {

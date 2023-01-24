@@ -1,7 +1,7 @@
 <template>
   <div>
-    <g-link v-if="link" class="btn" :to="src" >{{text}}</g-link>
-    <button class="btn" v-if="button">{{text}}</button>
+    <g-link v-if="type === 'link'" class="btn" :to="src" >{{text}}</g-link>
+    <button class="btn" v-if="type === 'button'">{{text}}</button>
   </div>
 </template>
 
