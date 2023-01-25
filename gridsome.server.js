@@ -12,12 +12,14 @@ const generateHtml = require("./functions/generateHtml");
 const yaml = require("js-yaml");
 
 let allPossiblePaths = [];
+let allPossiblePathsPlayground = [];
 
 require.extensions['.yaml'] = function(module, filename) { // To safely load .yaml file via require
   module.exports = yaml.load(fs.readFileSync(filename, 'utf8'));
 }
 
 const courses = require('./src/data/online-courses.yaml')
+const playground = require('./src/data/playground.yaml')
 const imgsInfo = require('./src/data/images-info.yaml');
 
 // For generated images configuration
@@ -30,6 +32,18 @@ const defaultOptions = {
   imgHeight: "650px",
   domain: "robonommics.academy",
   basePath: "src/pages/online-courses/",
+  outputDir: "static/og/"
+};
+
+const defaultOptionsPlayground = {
+  typeName: "Playground",
+  backgroundColors: [
+    "#F4E282"
+  ],
+  imgWidth: "1280px",
+  imgHeight: "650px",
+  domain: "robonommics.academy",
+  basePath: "src/pages/playground/",
   outputDir: "static/og/"
 };
 
@@ -53,13 +67,21 @@ module.exports = function (api) {
 
   const options = { ...defaultOptions };
 
+  const playgroundOptions = { ...defaultOptionsPlayground };
+
   api.loadSource(async (actions) => {
 
     const collection = actions.getCollection('Course');
+    const playgroundCollection = actions.getCollection('Playground');
 
     collection.data().filter((e) => {
       if(e.path.includes('/en/'))
       allPossiblePaths.push({path: e.path, name: e.fileInfo.name})
+    })
+
+    playgroundCollection.data().filter((e) => {
+      if(e.path.includes('/en/'))
+      allPossiblePathsPlayground.push({path: e.path, name: e.fileInfo.name})
     })
 
     courses.forEach((course) => {
@@ -94,6 +116,23 @@ module.exports = function (api) {
       })
     })
 
+    playgroundCollection.data().forEach((doc) => { // Generate images for playground docs
+
+      if (doc.internal.typeName === playgroundOptions.typeName) {
+        
+        const imgName = doc.fileInfo.name;
+        const docTitle = doc.title;
+        const locale = doc.fileInfo.path.slice(0,2);
+        const dir = doc.fileInfo.directory.slice(18);
+        const output = `${playgroundOptions.outputDir}${dir}/${imgName}-${locale}.png`
+        const docOptions = [...doc.metaOptions, docTitle];
+
+        generateImage(output, docOptions, options)
+
+      }
+
+    })
+
     imgsInfo.forEach(img => {
 
       // for certificates page
@@ -119,6 +158,22 @@ module.exports = function (api) {
           createPage({
             path: `/${locale}/${path}`,
             component: './src/templates/AvailableCoursesTranslations.vue',
+          })
+        }
+      })
+    })
+    allPossiblePathsPlayground.forEach(node => {
+      // all locales
+      const locales = ["ru", "it", "es", "de", "pt" ];
+      const path = node.path.substring(4);
+
+      locales.forEach(locale => {
+        if (fs.existsSync(`docs/${locale}/${path.slice(0,-1)}.md`)) {
+          console.log('exists');
+        } else {
+          createPage({
+            path: `/${locale}/${path}`,
+            component: './src/templates/AvailablePlaygroundTranslations.vue',
           })
         }
       })

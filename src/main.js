@@ -4,11 +4,12 @@
 import Vuex from 'vuex'
 import VueCookies from 'vue-cookies';
 import VueGtag from "vue-gtag";
+import VueYandexMetrika from 'vue-yandex-metrika'
 import 'prismjs'
 
 // adding languages for code highlight
 import 'prismjs/components/prism-json'; 
-import 'prismjs/components/prism-bash'; 
+import 'prismjs/components/prism-bash';
 import 'prismjs/components/prism-python'; 
 import 'prismjs/components/prism-yaml'; 
 
@@ -23,6 +24,7 @@ import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js";
 
 import DefaultLayout from '~/layouts/Default.vue'
 import LayoutCourse from '~/layouts/Course.vue'
+import LayoutPlayground from '~/layouts/Playground.vue'
 import AcademyList from '~/components/List.vue'
 import LessonResult from '~/components/LessonResult.vue'
 import ImagePopup from '~/components/ImagePopup.vue'
@@ -82,6 +84,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('LayoutCourse', LayoutCourse)
+  Vue.component('LayoutPlayground',   LayoutPlayground)
   Vue.component('List', AcademyList)
   Vue.component('Result', LessonResult)
   Vue.component('ImagePopup', ImagePopup)
@@ -169,6 +172,16 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       { id: 'AW-11021567627' },
     ]
   });
+
+  Vue.use(VueYandexMetrika, {
+    id: 91120268,
+    options:  {
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+    }
+  })
 
   if(isClient) {
     Vue.use(VueCookies, { expire: '30d'});

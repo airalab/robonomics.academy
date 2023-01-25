@@ -37,16 +37,28 @@ module.exports = {
       }
     },
     {
+      // Create jobs pages from markdown files
+      use: "@gridsome/vue-remark",
+      options: {
+        typeName: "Playground",
+        baseDir: "docs",
+        template: './src/templates/Playground.vue',
+        plugins: [
+          ['@noxify/gridsome-plugin-remark-embed', {'enabledProviders' : ['Youtube']}],
+        ]
+      }
+    },
+    {
       use: "gridsome-plugin-google-sheets-post"
     },
     {
       use: 'gridsome-plugin-seo'
     },
-    {
-      use: 'gridsome-plugin-yandex-metrika',
-      options: {
-        id: 91120268
-      }
-    }
+    // {
+    //   use: 'gridsome-plugin-yandex-metrika',
+    //   options: {
+    //     id: 91120268
+    //   }
+    // }
   ]
 }

@@ -14,7 +14,7 @@
   pt: Obtenha nosso suporte  
 
 - alias: About Academy
-  en: About Academy
+  en: About
   es: Acerca de 
   it: A Riguardo
   ru: О нас
@@ -22,10 +22,10 @@
   de: Über 
 
 - alias: Online Courses
-  en: Online Courses
+  en: Online courses
   es: Cursos Online
   it: Corsi Online
-  ru: Онлайн Курсы
+  ru: Онлайн курсы
   pt: Cursos On-line
   de: Online Kurse
 
