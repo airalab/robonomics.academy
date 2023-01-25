@@ -173,19 +173,19 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     ]
   });
 
-  Vue.use(VueYandexMetrika, {
-    id: 91120268,
-    options:  {
-      clickmap:true,
-      trackLinks:true,
-      accurateTrackBounce:true,
-      webvisor:true
-    }
-  })
-
   if(isClient) {
     Vue.use(VueCookies, { expire: '30d'});
     Vue.$cookies.config('30d')
+
+    Vue.use(VueYandexMetrika, {
+      id: 91120268,
+      options:  {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+      }
+    })
   }
   
 }
