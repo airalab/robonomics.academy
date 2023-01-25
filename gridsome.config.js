@@ -54,11 +54,11 @@ module.exports = {
     {
       use: 'gridsome-plugin-seo'
     },
-    {
-      use: 'gridsome-plugin-yandex-metrika',
-      options: {
-        id: 91120268
-      }
-    }
+    // {
+    //   use: 'gridsome-plugin-yandex-metrika',
+    //   options: {
+    //     id: 91120268
+    //   }
+    // }
   ]
 }

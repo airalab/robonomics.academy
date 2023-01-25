@@ -4,6 +4,7 @@
 import Vuex from 'vuex'
 import VueCookies from 'vue-cookies';
 import VueGtag from "vue-gtag";
+import VueYandexMetrika from 'vue-yandex-metrika'
 import 'prismjs'
 
 // adding languages for code highlight
@@ -171,6 +172,16 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       { id: 'AW-11021567627' },
     ]
   });
+
+  Vue.use(VueYandexMetrika, {
+    id: 91120268,
+    options:  {
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+    }
+  })
 
   if(isClient) {
     Vue.use(VueCookies, { expire: '30d'});
