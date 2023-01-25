@@ -9,13 +9,20 @@
       </ul>
       <h1>{{title}}</h1>
     </div>
+    <div v-if="text" class="container__narrow page-title__text">
+      <p>{{ text }}</p>
+    </div>
     <client-only>
-      <div class="lesson-update" v-if="lessonId">
+      <div class="lesson-update" v-if="lessonId || doc">
 
         <div class="lesson-update__wrapper" v-show="ghUpdateName">
           <g-link class="lesson-update__link" :to="ghUpdateUrl">{{$ts('Latest update')}}</g-link> {{$ts('on (date of commit)')}} {{ghUpdateDate}} {{$ts('by (author of commit)')}} {{ghUpdateName}}
         </div>
 
+      </div>
+
+      <div v-if="content">
+        <slot/>
       </div>
     </client-only>
   </section>
@@ -54,6 +61,17 @@ export default {
     },
     course: {
       type: Object
+    },
+    content: {
+      type: Boolean,
+      default: false
+    },
+    text: {
+      type: String
+    },
+    doc: {
+      type: Boolean,
+      default: false
     }
 
   },
@@ -77,6 +95,10 @@ export default {
       let lesson = this.$route.matched[0].path;
       return lesson.slice(4)+'.md';
     },
+    currentDoc() {
+      let doc = this.$route.matched[0].path;
+      return doc.slice(4)+'.md';
+    }
   },
 
   methods: {
@@ -88,7 +110,7 @@ export default {
         .listCommits({
           owner: "airalab",
           repo: "robonomics.academy",
-          path: 'courses/' + this.$locale + '/' + this.currentLesson
+          path: !this.doc ? 'courses/' + this.$locale + '/' + this.currentLesson : 'docs/' + this.$locale + '/' + this.currentDoc
         })
         .then(({ data }) => {
           let d = new Date(data[0].commit.author.date)
@@ -105,7 +127,7 @@ export default {
         .getContent({
           owner: "airalab",
           repo: "robonomics.academy",
-          path: 'courses/' + this.$locale + '/' + this.currentLesson
+          path: !this.doc ? 'courses/' + this.$locale + '/' + this.currentLesson : 'docs/' + this.$locale + '/' + this.currentDoc
         })
         .then(result => {
           this.ghLink = result.data.html_url
@@ -130,11 +152,12 @@ export default {
 <style scoped>
 
   section {
+    position: relative;
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .page-title {
+  .section-lessonInfo .page-title {
     margin-bottom: calc(var(--gap) * 3);
   }
 
@@ -168,6 +191,7 @@ export default {
   .lesson-update {
     margin: 0 auto;
     /* padding-left: 10px; */
+    min-height: 38px;
     padding-bottom: 10px;
   }
 
@@ -183,6 +207,11 @@ export default {
   .breadcrumbs .container__narrow {
     padding-left: 10px;
     border-left: 2px solid var(--color-text);
+  }
+
+  .container__narrow.page-title__text {
+    margin-top: calc(var(--gap) * 2);
+    border: none ;
   }
 
   @media screen and (max-width: 410px) {

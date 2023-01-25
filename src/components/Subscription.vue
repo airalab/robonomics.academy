@@ -1,11 +1,11 @@
 <template>
   <div class="footer footer__section footer__subscribe">
-    <h2>Get Notifications & Updates</h2>
+    <h2>{{ $ts('Get Notifications & Updates') }}</h2>
     <gsp-form :gscriptID="gscript" :captchaID="captcha" :class="result">
 
       <div class="container__narrow">
 
-        <input type="email" placeholder="Your email" class="container__full" required data-gsp-name="email"
+        <input type="email" :placeholder="$ts('Your email')" class="container__full" required data-gsp-name="email"
           :data-gsp-data="email" v-model="email" />
 
         <input type="hidden" data-gsp-name="tags" data-gsp-data="academy news" />
