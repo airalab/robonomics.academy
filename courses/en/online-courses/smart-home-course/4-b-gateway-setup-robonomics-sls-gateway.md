@@ -84,7 +84,7 @@ Now you need to set up the gateway for software installation. We advise you to u
 
 Connect to the Raspberry Pi via SSH.
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 ssh ubuntu@192.168.xxx.xxx
 </LessonCodeWrapper>
 
@@ -94,7 +94,7 @@ ssh ubuntu@192.168.xxx.xxx
 
 Clone the repository with firmware:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 git clone https://github.com/airalab/robonomics-hass-utils.git
 </LessonCodeWrapper>
 </li>
@@ -103,11 +103,23 @@ git clone https://github.com/airalab/robonomics-hass-utils.git
 
 Go to robonomics-hass-utils/esp_firmware/linux. To flash the SLS gateway you need to run <code>Clear</code> and <code>Flash_16mb</code> scripts.
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 cd robonomics-hass-utils/esp_firmware/linux
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 sudo chmod +x Clear.sh
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 sudo chmod +x Flash_16mb.sh
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 ./Clear.sh
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 ./Flash_16mb.sh
 </LessonCodeWrapper>
 </li>
@@ -124,7 +136,7 @@ If you are experiencing problems updating the gateway firmware, you need to take
 
 Make sure you have the pySerial module installed:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 pip install pyserial
 </LessonCodeWrapper>
 
@@ -134,7 +146,7 @@ pip install pyserial
 
 Give your user access rights to the USB port:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo usermod -a -G dialout $USER
 </LessonCodeWrapper>
 
@@ -200,7 +212,7 @@ Go to the Wi-Fi page and insert your Wi-Fi credentials by entering the user / pa
 
 Find the local IP of the SLS gateway to access the web interface. For that you can use the [Fing](https://www.fing.com/products) app or <code>arp -a</code> in your terminal or Nmap: 
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo nmap -sP 192.168.xxx.0/24
 </LessonCodeWrapper>
 
@@ -288,7 +300,7 @@ You need to configure MQTT on SLS Gateway. Come back to your SLS Gateway web int
 
 <li>
 
-Add your broker address (address of the Raspberry Pi with Home Assistant in local network, you can find it in [Fing](https://www.fing.com/products)  <code>ip -a</code> command on your RPi), port (default is 1883) your broker username and password (which you have created earlier) and the topic name (you can choose any). Also, the Raspberry Pi IP address must be static.
+Add your broker address (address of the Raspberry Pi with Home Assistant in local network, you can find it with [Fing](https://www.fing.com/products) app or using <code>ip -a</code> command on your RPi), port (default is 1883) your broker username and password (which you have created earlier) and the topic name (you can choose any). Also, the Raspberry Pi IP address must be static.
 
 Don't forget to click <code>Enable</code> and  <code>Retain states</code>.
 
