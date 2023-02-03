@@ -119,6 +119,7 @@ There are two ways for inserting videos in your documents:
 <LessonVideo src="https://static.robonomics.network/wiki/balena-robonomics-image-crop.mp4" />
 ```
 
+
 `video with controls` 
 
 ```c
