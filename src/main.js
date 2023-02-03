@@ -4,11 +4,12 @@
 import Vuex from 'vuex'
 import VueCookies from 'vue-cookies';
 import VueGtag from "vue-gtag";
+import VueYandexMetrika from 'vue-yandex-metrika'
 import 'prismjs'
 
 // adding languages for code highlight
 import 'prismjs/components/prism-json'; 
-import 'prismjs/components/prism-bash'; 
+import 'prismjs/components/prism-bash';
 import 'prismjs/components/prism-python'; 
 import 'prismjs/components/prism-yaml'; 
 
@@ -23,6 +24,7 @@ import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js";
 
 import DefaultLayout from '~/layouts/Default.vue'
 import LayoutCourse from '~/layouts/Course.vue'
+import LayoutPlayground from '~/layouts/Playground.vue'
 import AcademyList from '~/components/List.vue'
 import LessonResult from '~/components/LessonResult.vue'
 import ImagePopup from '~/components/ImagePopup.vue'
@@ -31,6 +33,12 @@ import LessonCodeWrapper from '~/components/LessonCodeWrapper.vue'
 import LessonButtonLink from '~/components/LessonButtonLink.vue'
 import LessonReaction from '~/components/LessonReaction.vue'
 import LessonVideo from '~/components/LessonVideo.vue'
+import RoboAcademyYoutubeVideo from '~/components/RoboAcademyYoutubeVideo.vue'
+import RoboAcademyGrid from '~/components/RoboAcademyGrid.vue'
+import RoboAcademyGridElement from '~/components/RoboAcademyGridElement.vue'
+import RoboAcademyNote from '~/components/RoboAcademyNote.vue'
+import RoboAcademyTabs from '~/components/RoboAcademyTabs.vue'
+import RoboAcademyTab from '~/components/RoboAcademyTab.vue'
 import Prism from 'vue-prism-component'
 
 
@@ -60,7 +68,8 @@ import {
   faCode,
   faHouseSignal,
   faEnvelope,
-  faCheck
+  faCheck,
+  faXmark
   // faRobot
  } from '@fortawesome/free-solid-svg-icons'
 
@@ -75,6 +84,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('LayoutCourse', LayoutCourse)
+  Vue.component('LayoutPlayground',   LayoutPlayground)
   Vue.component('List', AcademyList)
   Vue.component('Result', LessonResult)
   Vue.component('ImagePopup', ImagePopup)
@@ -84,6 +94,12 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('LessonButtonLink', LessonButtonLink)
   Vue.component('LessonReaction', LessonReaction)
   Vue.component('LessonVideo', LessonVideo)
+  Vue.component('RoboAcademyYoutube', RoboAcademyYoutubeVideo)
+  Vue.component('RoboAcademyGrid', RoboAcademyGrid)
+  Vue.component('RoboAcademyGridElement', RoboAcademyGridElement)
+  Vue.component('RoboAcademyNote', RoboAcademyNote)
+  Vue.component('RoboAcademyTabs', RoboAcademyTabs)
+  Vue.component('RoboAcademyTab', RoboAcademyTab)
 
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
@@ -108,7 +124,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     faCode,
     faHouseSignal,
     faEnvelope,
-    faCheck
+    faCheck,
+    faXmark
     // faRobot
   )
 
@@ -159,6 +176,16 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   if(isClient) {
     Vue.use(VueCookies, { expire: '30d'});
     Vue.$cookies.config('30d')
+
+    Vue.use(VueYandexMetrika, {
+      id: 91120268,
+      options:  {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+      }
+    })
   }
   
 }

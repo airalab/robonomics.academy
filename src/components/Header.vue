@@ -5,8 +5,9 @@
         <g-link class="logo header__section" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
 
         <nav id="nav" class="nav header__section">
-          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('course') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy')}" href="/#about" @click="close('#nav')">{{$ts('About Academy')}}</a>
+          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('course') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy') && !$route.path.includes('playground')}" href="/#about" @click="close('#nav')">{{$ts('About Academy')}}</a>
           <g-link class="nav__link" :class="{'active': $route.path.includes('online-courses') || $route.path.includes('course') }" to="/online-courses/">{{$ts('Online Courses')}}</g-link>
+          <g-link class="nav__link" :class="{'active': $route.path.includes('playground')}" to="/playground/">{{$ts('Playground')}}</g-link>
           <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for Certificate')}}</g-link>
         </nav>
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
@@ -175,7 +176,7 @@ export default {
         display: inline-flex;
     }
 
-    @media screen and (max-width: 945px) {
+    @media screen and (max-width: 1040px) {
         .nav {
             background: var(--color-light);
             color: var(--color-bworn);

@@ -14,7 +14,7 @@
   pt: Obtenha nosso suporte  
 
 - alias: About Academy
-  en: About Academy
+  en: About
   es: Acerca de 
   it: A Riguardo
   ru: О нас
@@ -22,10 +22,10 @@
   de: Über 
 
 - alias: Online Courses
-  en: Online Courses
+  en: Online courses
   es: Cursos Online
   it: Corsi Online
-  ru: Онлайн Курсы
+  ru: Онлайн курсы
   pt: Cursos On-line
   de: Online Kurse
 
@@ -285,13 +285,13 @@
   pt: que você está familiarizado com as modernas tecnologias da Web para a IoT. Será útil ao contratar uma empresa de tecnologia que deseja melhorar sua infraestrutura corporativa usando a web3.
   de: das Sie mit den modernen Webtechnologien für das IoT vertraut sind. Das wird sich als nützlich erweisen, wenn Sie ein Technologieunternehmen beauftragen, dass seine Unternehmensinfrastruktur mit web3 verbessern möchte.
 
-- alias: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
-  en: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT. It will come in handy when hiring a technology company that wants to improve their corporate infrastructure using web3.
-  es: Recopile el certificado probado de blockchain que está familiarizado con las tecnologías web modernas para IoT. Será útil cuando contrate a una empresa de tecnología que quiera mejorar su infraestructura corporativa utilizando web3.
-  ru: Получите сертификат, подтвержденный блокчейном о том, что вы ознакомились с современными веб-технологиями для IoT. Это пригодится при найме технологической компании, которая хочет улучшить свою корпоративную инфраструктуру с помощью web3.
-  it: Ottieni un attestato certificato dalla blockchain che dimostra la tua familiarità con le moderne tecnologie web per l'IoT. Sarà utile quando vorrai proporti a un'azienda tecnologica che desidera migliorare la propria infrastruttura aziendale utilizzando ilweb3.
-  pt: Obter certificado comprovado pela blockchain que você está familiarizado com as modernas tecnologias da Web para a IoT. Será útil ao contratar uma empresa de tecnologia que deseja melhorar sua infraestrutura corporativa usando a web3.
-  de: Blockchain-geprüftes Zertifikat das Sie mit den modernen Webtechnologien für das IoT vertraut sind. Das wird sich als nützlich erweisen, wenn Sie ein Technologieunternehmen beauftragen, dass seine Unternehmensinfrastruktur mit web3 verbessern möchte.
+- alias: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT.
+  en: Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT.
+  es: Recopile el certificado probado de blockchain que está familiarizado con las tecnologías web modernas para IoT.
+  ru: Получите сертификат, подтвержденный блокчейном о том, что вы ознакомились с современными веб-технологиями для IoT.
+  it: Ottieni un attestato certificato dalla blockchain che dimostra la tua familiarità con le moderne tecnologie web per l'IoT.
+  pt: Obter certificado comprovado pela blockchain que você está familiarizado com as modernas tecnologias da Web para a IoT.
+  de: Blockchain-geprüftes Zertifikat das Sie mit den modernen Webtechnologien für das IoT vertraut sind.
 
 - alias: Networking with Professionals
   en: Networking with Professionals
@@ -473,6 +473,10 @@
   it: La tua email (per la notifica)
   pt: Seu e-mail (para notificação)
   de: Ihre E-Mail (für Benachrichtigung)
+
+- alias: Your email
+  en: Your email
+  de: Deine E-Mail
 
 - alias: Get new skills in using modern web technologies to build IoT solutions.
   en: Get new skills in using modern web technologies to build IoT solutions.
@@ -2815,9 +2819,11 @@
 
 - alias: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data.
   en: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data.
+  de: In diesem Kurs gehen Sie alle Schritte durch die erforderlich sind, um Ihr eigenes souveränes Smart Home zu bauen. Der Hauptvorteil ist die Sicherheit / der Schutz der Nutzerdaten.
 
 - alias: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data. This problem is becoming increasingly relevant  due to the spread of smart homes. The modern IoT market provides  the average user a large selection of smart home solutions, but they are all tied to centralized cloud providers or require an expensive proprietary gateway for connecting devices. As a result, you as a user are always dependent on the hardware and infrastructure vendor to run your smart system. At the same time, your smart home cannot be truly smart without cloud statistics and analytics.
   en: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data. This problem is becoming increasingly relevant  due to the spread of smart homes. The modern IoT market provides  the average user a large selection of smart home solutions, but they are all tied to centralized cloud providers or require an expensive proprietary gateway for connecting devices. As a result, you as a user are always dependent on the hardware and infrastructure vendor to run your smart system. At the same time, your smart home cannot be truly smart without cloud statistics and analytics.
+  de: Dieses Problem wird durch die Verbreitung von Smart Homes immer relevanter. Der moderne IoT-Markt bietet dem Durchschnittsnutzer eine große Auswahl an Smart-Home-Lösungen, die jedoch alle an zentralisierte Cloud-Anbieter gebunden sind oder ein teures proprietäres Gateway für die Verbindung von Geräten erfordern. Daher ist die gängige Smart-Home-Architektur in Bezug auf die Gerätesteuerung und Datenspeicherung nach wie vor sehr zentralisiert.
 
 - alias: 'We see two main problems with this smart solution:'
   en: 'We see two main problems with this smart solution:'
@@ -4066,3 +4072,8 @@
 
 - alias: Google Analytics
   en: Google Analytics
+
+
+- alias: Get Notifications & Updates
+  en: Get Notifications & Updates
+  de: Erhalten Sie Benachrichtigungen und Updates

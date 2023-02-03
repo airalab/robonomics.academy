@@ -46,7 +46,7 @@
 
     <client-only>
 
-      <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
+    <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
 
     </client-only>
 
@@ -159,6 +159,7 @@
 
       if($cookies.get('userTracker') === 'allow metrics') {
         this.$gtag.pageview(this.$route)
+        this.$metrika.hit(this.$route)
       }
 
       this.$store.commit('TOGGLE_SHOW_HEADER', true)
@@ -173,4 +174,4 @@
   .layout {
     position: relative;
   }
-</style>>
+</style>
