@@ -88,19 +88,19 @@ wifis:
 
   Install nmap with a command
 
-  <LessonCodeWrapper language="bash">sudo apt-get install nmap</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo apt-get install nmap</LessonCodeWrapper>
 
   Then find your address in your local network. It should look like <code>192.168.xxx.xxx</code> or <code>172.xxx.xxx.xxx.</code> Pay attention as nmap can find many addresses on your local network.
 
-  <LessonCodeWrapper language="bash">ip a</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>ip a</LessonCodeWrapper>
 
   Then scan your network as shown below replacing the last octet of the address with <code>0:</code>
 
-  <LessonCodeWrapper language="bash">sudo nmap -sP 192.168.xxx.0/24</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo nmap -sP 192.168.xxx.0/24</LessonCodeWrapper>
 
   The output of the command will be something like this:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" codeClass="big-code" noCopyIcon noLines>
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-26 13:50 CEST
 Nmap scan report for _gateway (192.168.43.1)
 Host is up (0.015s latency).
@@ -124,7 +124,7 @@ Nmap done: 256 IP addresses (4 hosts up) scanned in 2.07 seconds
 
   Connect to the Raspberry Pi via SSH with found IP. User is <code class="nowb">"ubuntu"</code>, the password is <code class="bold">"ubuntu"</code>.
   
-  <LessonCodeWrapper language="bash">ssh ubuntu@192.168.43.56</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>ssh ubuntu@192.168.43.56</LessonCodeWrapper>
 
   The system will ask you to change the password to a more secure one, make sure you don't lose it.Further instructions are executed via SSH on the Raspberry Pi itself.
   
@@ -141,10 +141,11 @@ Home Assistant Installation
 
   Before starting, update the Raspberry Pi system and install necessary packages.  During installation you will see a window with service restart request. Just choose <span class="accent">ok</span> with the <code>tab</code> button and press enter.
 
-<LessonCodeWrapper language="bash" codeClass="long-code" noCopyIcon>sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get install -y python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev subversion
-</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo apt-get update</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" noLines>sudo apt-get upgrade -y</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo apt-get install -y python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev subversion</LessonCodeWrapper>
 
   </li>
 
@@ -152,11 +153,11 @@ sudo apt-get install -y python3 python3-dev python3-venv python3-pip libffi-dev 
   
   Create user <code>homeassistant</code> and the directory for Home Assistant Core:
 
-<LessonCodeWrapper language="bash" codeClass="long-code">
-sudo useradd -rm homeassistant
-sudo mkdir /srv/homeassistant
-sudo chown homeassistant:homeassistant /srv/homeassistant
-</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo useradd -rm homeassistant</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" noLines>sudo mkdir /srv/homeassistant</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo chown homeassistant:homeassistant /srv/homeassistant</LessonCodeWrapper>
   
   </li>
 
@@ -164,12 +165,13 @@ sudo chown homeassistant:homeassistant /srv/homeassistant
 
   Create a virtual environment for Home Assistant Core and switch to it. This should be done as the <code>homeassistant</code> user, so after executing the commands your user will look like <code>(homeassistant) homeassistant@ubuntu</code>:
 
-<LessonCodeWrapper language="bash">
-sudo -u homeassistant -H -s
-cd /srv/homeassistant
-python3 -m venv .
-source bin/activate
-</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo -u homeassistant -H -s</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" noLines>cd /srv/homeassistant</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" noLines>python3 -m venv .</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" noLines>source bin/activate</LessonCodeWrapper>
 
   As the result, you will find a name of the virtual environment in the brackets:
 
@@ -183,11 +185,11 @@ source bin/activate
 
   Install required Python packages:
 
-<LessonCodeWrapper language="bash" >
-python3 -m pip install wheel~=0.37
-pip3 install sqlalchemy~=1.4 fnvhash~=0.1 aiodiscover==1.4.11
-pip3 install homeassistant==2022.8.2
-</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>python3 -m pip install wheel~=0.37</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>pip3 install sqlalchemy~=1.4 fnvhash~=0.1 aiodiscover==1.4.11</LessonCodeWrapper>
+
+  <LessonCodeWrapper language="bash" noLines>pip3 install homeassistant==2022.8.2</LessonCodeWrapper>
   
   </li>
 
@@ -195,7 +197,7 @@ pip3 install homeassistant==2022.8.2
   
   Start Home Assistant Core for the first time. This will complete the installation by automatically creating the <code class="nowb">.homeassistant</code> configuration directory in the <code>/home/homeassistant</code> directory, and installing any basic dependencies:
   
-<LessonCodeWrapper language="bash">hass</LessonCodeWrapper>
+<LessonCodeWrapper language="bash" noLines>hass</LessonCodeWrapper>
   
   </li>
 
@@ -218,16 +220,14 @@ IPFS Installation
 
   For IPFS installation you can use our script to download IPFS and create systemd service with it. First, exit the virtual environment for Home Assistant:
 
-<LessonCodeWrapper language="bash">exit</LessonCodeWrapper>
+<LessonCodeWrapper language="bash" noLines>exit</LessonCodeWrapper>
 
   Then execute:
 
-<LessonCodeWrapper language="bash">
-cd ~
-wget https://raw.githubusercontent.com//airalab/homeassistant-robonomics-integration/main/install_ipfs.sh
-sudo chmod +x install_ipfs.sh
-./install_ipfs.sh
-</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>cd ~</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>wget https://raw.githubusercontent.com//airalab/homeassistant-robonomics-integration/main/install_ipfs.sh</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo chmod +x install_ipfs.sh</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>./install_ipfs.sh</LessonCodeWrapper>
 
 </li>
 </List>
@@ -243,10 +243,8 @@ Zigbee2MQTT Setup (Only for Zigbee Adapter)
 
 Set up Node.js runtime environment repository and install it with required dependencies:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
-sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt-get install -y nodejs git make g++ gcc
-</LessonCodeWrapper>
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - </LessonCodeWrapper>
+<LessonCodeWrapper language="bash" noLines>sudo apt-get install -y nodejs git make g++ gcc</LessonCodeWrapper>
 
   </li>
 
@@ -255,10 +253,8 @@ sudo apt-get install -y nodejs git make g++ gcc
 Verify that the correct versions of Node.js (v14.X, V16.x, V17.x or V18.X) and package manager <code class="nowb">npm</code> (6.X, 7.X or 8.X) automatically installed with Node.js, have been installed:
 
 
-<LessonCodeWrapper language="bash" >
-node --version
-npm --version
-</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>node --version</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>npm --version</LessonCodeWrapper>
   
   </li>
 
@@ -267,10 +263,8 @@ npm --version
 
 Create a directory for Zigbee2MQTT and set your user as owner of it:
 
-<LessonCodeWrapper language="bash" >
-sudo mkdir /opt/zigbee2mqtt
-sudo chown -R ${USER}: /opt/zigbee2mqtt
-</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo mkdir /opt/zigbee2mqtt</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo chown -R ${USER}: /opt/zigbee2mqtt</LessonCodeWrapper>
   
   </li>
 
@@ -279,7 +273,7 @@ sudo chown -R ${USER}: /opt/zigbee2mqtt
 
 Clone Zigbee2MQTT repository:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 git clone --depth 1 --branch 1.28.0 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
 </LessonCodeWrapper>
 
@@ -290,10 +284,8 @@ git clone --depth 1 --branch 1.28.0 https://github.com/Koenkk/zigbee2mqtt.git /o
 
 Install dependencies (as user <code>pi</code>). Note that the <code>npm ci</code> could produce some warning which can be ignored.
 
-<LessonCodeWrapper language="bash">
-cd /opt/zigbee2mqtt
-npm ci
-</LessonCodeWrapper>
+<LessonCodeWrapper language="bash" noLines>cd /opt/zigbee2mqtt</LessonCodeWrapper>
+<LessonCodeWrapper language="bash" noLines>npm ci</LessonCodeWrapper>
   
   </li>
 </List>
@@ -309,7 +301,7 @@ Systemd Services
 
 Systemd service is useful for automating the launch of Home Assistant. Create new service for Home Assistant:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 sudo nano /etc/systemd/system/home-assistant@homeassistant.service
 </LessonCodeWrapper>
 
@@ -340,8 +332,11 @@ WantedBy=multi-user.target
 
 Enable and start the service:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 sudo systemctl enable home-assistant@homeassistant.service
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 sudo systemctl start home-assistant@homeassistant.service
 </LessonCodeWrapper>
 
@@ -359,7 +354,7 @@ Robonomics Integration
 
 Log in with <code>homeassistant</code> user on your Raspberry Pi:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo -u homeassistant -H -s
 </LessonCodeWrapper>
 
@@ -370,8 +365,11 @@ sudo -u homeassistant -H -s
 Source virtual environment and install required Python packages:
 
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 source /srv/homeassistant/bin/activate
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 pip install robonomics-interface~=1.3
 </LessonCodeWrapper>
 
@@ -382,10 +380,19 @@ pip install robonomics-interface~=1.3
 Then go to <code>.homeassistant</code> directory, create folder <code class="nowb">custom_components</code> and clone in there the repository with the integration:
 
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" noLines>
 cd /home/homeassistant/.homeassistant
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 mkdir custom_components
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 cd custom_components
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 svn checkout https://github.com/airalab/homeassistant-robonomics-integration/trunk/custom_components/robonomics
 </LessonCodeWrapper>
 
@@ -396,8 +403,11 @@ svn checkout https://github.com/airalab/homeassistant-robonomics-integration/tru
 
 After that exit homeassistant user and restart service:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" noLines>
 exit
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 sudo systemctl restart home-assistant@homeassistant.service
 </LessonCodeWrapper>
 

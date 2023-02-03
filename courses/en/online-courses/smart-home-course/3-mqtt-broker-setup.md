@@ -35,7 +35,7 @@ Mosquitto Broker Installation
 Install [Mosquitto Broker](https://mosquitto.org/) on your Raspberry Pi:
 
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo apt install mosquitto mosquitto-clients -y
 </LessonCodeWrapper>
 </li>
@@ -44,7 +44,7 @@ sudo apt install mosquitto mosquitto-clients -y
 
 Configure username (use any you want) and password (you will be asked to enter the password after the command):
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo mosquitto_passwd -c /etc/mosquitto/passwd USERNAME
 </LessonCodeWrapper>
 
@@ -54,7 +54,7 @@ sudo mosquitto_passwd -c /etc/mosquitto/passwd USERNAME
 
 Edit configuration file:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo nano /etc/mosquitto/conf.d/local.conf
 </LessonCodeWrapper>
 
@@ -71,7 +71,7 @@ password_file /etc/mosquitto/passwd
 
 Save the file  and restart the service:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo systemctl restart mosquitto
 </LessonCodeWrapper>
 </li>
@@ -80,7 +80,7 @@ sudo systemctl restart mosquitto
 
 Finally, check the broker status:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 systemctl status mosquitto
 </LessonCodeWrapper>
 
