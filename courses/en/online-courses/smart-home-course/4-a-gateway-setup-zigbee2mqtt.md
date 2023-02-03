@@ -33,13 +33,13 @@ Connecting and Configuring the Adapter
 
 Connect the Zigbee adapter to Raspberry Pi. Then you need to find the location of the stick. For this type in the next command:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 ls -l /dev/serial/by-id
 </LessonCodeWrapper>
 
 Output should look like:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" codeClass="big-code" noCopyIcon>
 ubuntu@ubuntu:~$ ls -l /dev/serial/by-id
 total 0
 lrwxrwxrwx 1 root root 13 Oct 10 01:44 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0 -> ../../ttyUSB0
@@ -52,7 +52,7 @@ In this example stick connection directory is — <code>ttyUSB0</code>.
 
 Edit the <code>configuration.yaml</code> file before starting Zigbee2MQTT:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 nano /opt/zigbee2mqtt/data/configuration.yaml
 </LessonCodeWrapper>
 
@@ -104,8 +104,11 @@ advanced:
 
 Start Zigbee2MQTT:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 cd /opt/zigbee2mqtt
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 npm start
 </LessonCodeWrapper>
 
@@ -128,7 +131,7 @@ It's time to connect your smart device. The most common way to switch a device t
 
 When the device connects, you should see a message like:
 
-<LessonCodeWrapper language="bash" codeClass="big-code">
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 Zigbee2MQTT:info  2022-07-29 14:44:39: Successfully interviewed '0x00158d0003eeeacf', device has successfully been paired
 </LessonCodeWrapper>
 
@@ -145,13 +148,13 @@ After adding all the sensors, you can stop the program with <code>Ctrl+C</code>.
 
 Now you need to create a service. Create the file:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo nano /etc/systemd/system/zigbee2mqtt.service
 </LessonCodeWrapper>
 
 Add the following to this file:
 
-<LessonCodeWrapper language="json">
+<LessonCodeWrapper language="bash">
 [Unit]
 Description=zigbee2mqtt
 After=network.target 
@@ -171,8 +174,11 @@ WantedBy=multi-user.target
 
 Verify that the configuration works:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo systemctl start zigbee2mqtt
+</LessonCodeWrapper>
+
+<LessonCodeWrapper language="bash" noLines>
 systemctl status zigbee2mqtt.service
 </LessonCodeWrapper>
 
@@ -185,7 +191,7 @@ Output should look like:
 
 Enable the service to start Zigbee2MQTT automatically on boot:
 
-<LessonCodeWrapper language="bash">
+<LessonCodeWrapper language="bash" noLines>
 sudo systemctl enable zigbee2mqtt.service
 </LessonCodeWrapper>
 
