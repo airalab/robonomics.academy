@@ -20,7 +20,7 @@
       </div>
     </page-title>
     
-    <section class="container__mid playground">
+    <section class="container__wide playground">
 
       <div class="playground__wrapper">
         <PlaygroundItem
@@ -93,6 +93,12 @@ export default {
           title: 'ROS-based projects for smart spaces',
           img: 'ros-nedir',
           imagesClasses: 'img-big'
+        },
+        {
+          id: 6,
+          link: '/playground/spot-try-it-out',
+          title: 'Operate Boston Dynamics Spot',
+          img: 'spot'
         }
       ]
     }
@@ -121,7 +127,7 @@ export default {
 
   .playground__wrapper {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: var(--gap)
   }
 
@@ -131,6 +137,10 @@ export default {
       max-width: 700px;
       width: 100%;
       margin-top: calc(var(--gap) * 2);
+    }
+
+    .playground__wrapper {
+      grid-template-columns: repeat(2,1fr);
     }
   }
   @media screen and (max-width: 1010px) {

@@ -187,20 +187,10 @@
         this.$store.commit('TOGGLE_SHOW_HEADER', currentScrollPosition > 500)
         this.lastScrollPosition = currentScrollPosition
       },
-
-      scrollToTeam() {
-        const el = this.$refs.about
-
-        if (el) {
-          el.scrollIntoView({behavior: 'smooth'});
-        }
-
-      },
     },
 
     mounted() {
       window.addEventListener('scroll', this.onScroll)
-      setTimeout(this.scrollToTeam, 100)
     },
 
     beforeDestroy () {

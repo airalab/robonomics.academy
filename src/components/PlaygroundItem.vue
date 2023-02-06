@@ -33,15 +33,26 @@ export default {
 
   .playground__item {
     display: flex;
-    padding: calc(var(--gap) * 2) var(--gap);
+    padding: var(--gap);
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: var(--color-light);
-    border: 3px solid #534E4B;
+    border: 1px solid #534E4B;
     text-align: center;
-    border-radius: 34px;
+    transition: transform 0.5s ease-in-out;
   }
+
+  .playground__item:hover {
+    transform: scale(1.05);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .playground__item {
+      border: 1px solid #1e39c0;
+    }
+  }
+
 
   .playground__img-wrapper {
     margin-bottom: var(--gap);
