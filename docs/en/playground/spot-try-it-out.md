@@ -84,3 +84,6 @@ rosbag play spot_rosbag.bag
 </LessonCodeWrapper>
 
 <LessonImages imageClasses="mb" src="spot-try-it-out/spot2.jpg" alt="spot_viz"/>
+
+
+Looking for possibilities to operate Boston Dynamics Spot in real life? We have [course and remote control](/online-courses/boston-dynamics-course/) service for it.
