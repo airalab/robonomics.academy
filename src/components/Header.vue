@@ -5,7 +5,7 @@
         <g-link class="logo header__section" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
 
         <nav id="nav" class="nav header__section">
-          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('course') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy') && !$route.path.includes('playground')}" href="/#about" @click="close('#nav')">{{$ts('About Academy')}}</a>
+          <a class="nav__link" :class="{'active': !$route.path.includes('online-courses') && !$route.path.includes('course') && !$route.path.includes('certificates') && !$route.path.includes('privacy-policy') && !$route.path.includes('playground')}" href="/#about" @click="moveAndCloseAbout">{{$ts('About Academy')}}</a>
           <g-link class="nav__link" :class="{'active': $route.path.includes('online-courses') || $route.path.includes('course') }" to="/online-courses/">{{$ts('Online Courses')}}</g-link>
           <g-link class="nav__link" :class="{'active': $route.path.includes('playground')}" to="/playground/">{{$ts('Playground')}}</g-link>
           <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Apply for Certificate')}}</g-link>
@@ -46,6 +46,20 @@ export default {
             document.querySelector(el).classList.remove('open')
             document.querySelector(el).classList.add('close')
         },
+
+        scrollToTeam() {
+        const el = document.querySelector('#about');
+
+        if (el) {
+          el.scrollIntoView({behavior: 'smooth'});
+        }
+
+      },
+
+      moveAndCloseAbout() {
+        setTimeout(this.scrollToTeam, 100);
+        this.close('#nav');
+      }
     },
 
     mounted() {

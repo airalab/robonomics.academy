@@ -12,6 +12,7 @@ import 'prismjs/components/prism-json';
 import 'prismjs/components/prism-bash';
 import 'prismjs/components/prism-python'; 
 import 'prismjs/components/prism-yaml'; 
+import 'prismjs/components/prism-xml-doc'; 
 
 // plugins for code highlight (prism)
 import "prismjs/plugins/line-numbers/prism-line-numbers.js";

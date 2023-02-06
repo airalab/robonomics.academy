@@ -17,3 +17,6 @@ docs:
   - id: '6'
     title: 'ROS-based projects for smart spaces'
     path: 'ros-smart-projects'
+  - id: '7'
+    title: 'Operate Boston Dynamics Spot'
+    path: 'spot-try-it-out'
