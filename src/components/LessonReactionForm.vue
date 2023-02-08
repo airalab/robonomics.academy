@@ -4,7 +4,7 @@
     <div class="lesson-reaction-form__header">
       <div>
         <span class="lesson-reaction__check" v-if="$store.state.currentReaction === text">
-        <font-awesome-icon icon="fa-solid fa-check" aria-hidden="true"/>
+        <!-- <font-awesome-icon icon="fa-solid fa-check" aria-hidden="true"/> -->
         </span>
         <h3>{{ $store.state.currentReaction }}</h3>
       </div>
@@ -134,10 +134,10 @@ export default {
 
   .lesson-reaction-form__wrapper {
     position: absolute;
-    bottom: -57px;
+    bottom: -67px;
     right: 20px;
     width: 70%;
-    height: 218px;
+    height: 238px;
     padding: calc(var(--gap) * 0.5) calc(var(--gap) * 1);
     background-color:  var(--color-main);
     transform: translateY(-100%);
@@ -147,7 +147,7 @@ export default {
 
   .lesson-reaction__wrapper.active .lesson-reaction-form__wrapper  {
     border: 2px solid var(--color-brown-dark);
-    border-radius: 30px;
+    /* border-radius: 30px; */
     animation: moveToBottom 0.5s linear forwards;
   }
 
@@ -216,18 +216,18 @@ export default {
   }
 
   .lesson-reaction-form__btn {
-    color: #0000EE !important;
-    padding: 0;
-    width: 100%;
+    color: var(--color-light) !important;
+    padding: calc( var(--gap) * 0.3) calc( var(--gap) * 0.5);
     font-size: 1.3rem;
-    background: transparent;
-    border: 1px solid transparent;
+    background: var(--color-second);
+    border: 1px solid var(--color-second);
+    border-radius: 0;
     transition: color 0.3s ease-in-out;
   }
 
   .lesson-reaction-form__btn:hover {
     color: var(--color-accent) !important;
-    background: transparent !important;
+    background: var(--color-second) !important;
     border-color: transparent !important;
   }
 
@@ -244,7 +244,7 @@ export default {
   }
 
   .lesson-reaction-form__form.wait .lesson-reaction-form__btn:hover {
-    color: #0000EE !important;
+    color: var(--color-light) !important;
   }
 
 

@@ -13,12 +13,12 @@
 
     <lesson-reaction v-if="docId && !noTranslations" :lessonTitle="$ts(doc.title)"/>
 
-    <LessonsNavigation
+    <!-- <LessonsNavigation
       v-if="docId && !noTranslations"
       :lessonId="parseInt(docId)"
       :current="currentIndex"
       :docs="playground"
-    />
+    /> -->
 
     <subscription />
 

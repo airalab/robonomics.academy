@@ -8,6 +8,7 @@
       :title="title" 
       :breadcrumbs="breadcrumbs"
       :lessonId="lessonId"
+      :course="course"
     />
 
     <LessonInfo 
