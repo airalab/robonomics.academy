@@ -1,6 +1,10 @@
 <template>
   <div  class="lesson-reaction__wrapper" :class="{'active': $store.state.currentReaction === text}">
-    <button class="lesson-reaction__item" @click="showForm()">
+    <button class="lesson-reaction__item custom-checkbox" @click="showForm()">
+      <div class="lesson-reaction__checkbox">
+        <input id="checkbox" type="checkbox" name="checkbox" class="custom-checkbox__field" :checked="$store.state.currentReaction === text ? true : false">
+        <span class="custom-checkbox__content"></span>
+      </div>
       <g-image :src="require(`!!assets-loader!@/assets/images/${imgSrc}`)" :alt="text" />
       <span>{{text}}</span>
     </button>
@@ -72,9 +76,9 @@ export default {
     height: 224px;
     background-color: #fdfdfd;
     border: 2px solid var(--color-brown-dark);
-    border-radius: 30px;
+    /* border-radius: 30px; */
     transition:background-color 0.33s ease-in-out;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* transform: translateZ(0) */
   }
 
@@ -116,5 +120,11 @@ export default {
   .lesson-reaction__item span{
     font-size: 1.2rem;
     color: var(--color-brown-dark);
+  }
+
+  .lesson-reaction__checkbox {
+    position: absolute;
+    top: 15px;
+    left: 10px;
   }
 </style>
