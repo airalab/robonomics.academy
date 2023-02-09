@@ -9,15 +9,15 @@
     <ul class="add-to-calendar__list">
       <li class="add-to-calendar__item">
         <g-image src="@/assets/images/apple-icon.svg" aria-hidden="true" alt="apple"/>
-        <span class="add-to-calendar__text" @click="createICS">Apple Calendar</span>
+        <span class="add-to-calendar__text" @click.stop="createICS">Apple Calendar</span>
       </li>
       <li class="add-to-calendar__item">
         <g-image src="@/assets/images/google-icon.svg" aria-hidden="true" alt="google"/>
-        <g-link class="add-to-calendar__text"  :to="googleLink">Google (online)</g-link>
+        <g-link @click.stop="$emit('closeCalendarBlob')" class="add-to-calendar__text"  :to="googleLink">Google (online)</g-link>
       </li>
       <li class="add-to-calendar__item">
         <g-image src="@/assets/images/outlook-icon.svg" aria-hidden="true" alt="outlook"/>
-        <g-link class="add-to-calendar__text" :to="outlookLink">Outlook (online)</g-link>
+        <g-link @click.stop="$emit('closeCalendarBlob')" class="add-to-calendar__text" :to="outlookLink">Outlook (online)</g-link>
       </li>
     </ul>
   </div>
@@ -44,25 +44,27 @@ export default {
       max: null,
       dates: '',
       timezone: '',
+      dateWithoutTZ: ''
     }
   },
 
   watch: {
     'dates': function(curr, old) {
       const newDate = new Date(curr)
+      const newDateWithoutTZ = newDate.toUTCString();
+      this.dateWithoutTZ = new Date(newDateWithoutTZ).toISOString().slice(0,16);
       newDate.setHours(newDate.getHours() + 4);
       this.max = newDate.toISOString().slice(0,16);
-
     }
   },
 
   computed: {
     googleLink() {
-      return `https://calendar.google.com/calendar/render?action=TEMPLATE&dates=${this.dates && this.dates.replace(/[^a-zA-Z0-9]/g, '')}/${this.max && this.max.replace(/[^a-zA-Z0-9]/g, '')}&ctz=${this.timezone}&details=&location=&text=Robonomics academy reminder: ${this.name} (${this.type}) `
+      return `https://calendar.google.com/calendar/u/0/r/eventedit?dates=${this.dates && this.dates.replace(/[^a-zA-Z0-9]/g, '') + '00' }/${this.max && this.max.replace(/[^a-zA-Z0-9]/g, '') + '00'}&ctz=${this.timezone}&details=&location=&text=Robonomics academy reminder: ${this.name} (${this.type}) `
     },
 
     outlookLink() {
-      return `https://outlook.live.com/calendar/0/deeplink/compose?body=&enddt=${this.max && encodeURIComponent(this.max  + ':00+00:00')}&location=&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=${this.dates && encodeURIComponent(this.dates + ':00+00:00')}&subject=${encodeURIComponent(`Robonomics academy reminder: ${this.name} (${this.type})`)}`
+      return `https://outlook.live.com/calendar/0/deeplink/compose?body=&enddt=${this.max && encodeURIComponent(this.max  + ':00+00:00')}&location=&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=${this.dateWithoutTZ && encodeURIComponent(this.dateWithoutTZ + ':00+00:00')}&subject=${encodeURIComponent(`Robonomics academy reminder: ${this.name} (${this.type})`)}`
 
     }
   },
@@ -71,26 +73,23 @@ export default {
 
     checkTime() {
       const now = new Date();
+      this.dateWithoutTZ = now.toISOString().slice(0,16);
+
+      now.setHours(now.getHours() + 4);
       now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
-      this.$refs.date.value =  now.toISOString().slice(0,16);
+      this.$refs.date.value = now.toISOString().slice(0,16);
 
       const tomorrow = new Date(now)
       tomorrow.setDate(tomorrow.getDate() + 1)
-
-      if(parseInt(new Date().toLocaleTimeString()) > 20) {
-        this.min = tomorrow.toISOString().slice(0,16);
-      }
-
 
       this.dates = now.toISOString().slice(0,16);
       this.min = now.toISOString().slice(0,16);
 
       now.setHours(now.getHours() + 4);
       this.max = now.toISOString().slice(0,16);  
-
     },
 
-    createICS() {
+    createICS(e) {
       let icsMSG = "BEGIN:VCALENDAR\n";
       icsMSG += "VERSION:2.0\n";
       icsMSG += "PRODID:-//Our Company//NONSGML v1.0//EN\r\n";
@@ -116,12 +115,21 @@ export default {
       document.body.append(link)
       document.querySelector('.temp').click();
       link.remove();
+
+      this.$emit('closeCalendarBlob')
     },
   },
 
   mounted() {
     this.checkTime();
     this.timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+    document.body.addEventListener('click', (e) => {
+      if (e.target !== document.querySelector('.add-to-calendar')) {
+        e.stopPropagation();
+        this.$emit('closeCalendarBlob')
+      }
+    })
   }
 
 
