@@ -125,6 +125,12 @@ export default {
       this.result = 'init';
     }
 
+    document.body.addEventListener('click', () => {
+      if(this.$store.state.currentReaction) {
+        this.$emit('closeForm');
+      }
+    })
+
   }
 
 }

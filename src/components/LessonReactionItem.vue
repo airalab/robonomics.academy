@@ -1,12 +1,14 @@
 <template>
   <div  class="lesson-reaction__wrapper" :class="{'active': $store.state.currentReaction === text}">
-    <button class="lesson-reaction__item custom-checkbox" @click="showForm()">
+    <button class="lesson-reaction__item custom-checkbox" @click.stop="showForm()">
       <div class="lesson-reaction__checkbox">
         <input id="checkbox" type="checkbox" name="checkbox" class="custom-checkbox__field" :checked="$store.state.currentReaction === text ? true : false">
         <span class="custom-checkbox__content"></span>
       </div>
-      <g-image :src="require(`!!assets-loader!@/assets/images/${imgSrc}`)" :alt="text" />
-      <span>{{text}}</span>
+      <div class="lesson-reaction__content">
+        <g-image :src="require(`!!assets-loader!@/assets/images/${imgSrc}`)" :alt="text" />
+        <span>{{text}}</span>
+      </div>
     </button>
 
     <LessonReactionForm v-if="showFormComp && $store.state.currentReaction === text" :text="text" :lessonTitle="lessonTitle" @closeForm="closeForm"/>
@@ -77,29 +79,41 @@ export default {
     background-color: #fdfdfd;
     border: 2px solid var(--color-brown-dark);
     /* border-radius: 30px; */
-    transition:background-color 0.33s ease-in-out;
+    transition:background-color 0.33s ease-in-out, border-color 0.33s ease-in-out;;
     overflow: hidden;
-    /* transform: translateZ(0) */
+  }
+
+  .lesson-reaction__wrapper:hover {
+    border-color: var(--color-second);
+  }
+
+  .lesson-reaction__wrapper:focus {
+    box-shadow: 0.2rem 0.2rem 0 0 var(--color-second);
   }
 
   .lesson-reaction__item {
     position: relative;
-    display: flex;
     width: 100%;
     height: 100%;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-color: transparent;
     border: 2px solid transparent;
     border-radius: 0;
+  }
+
+  .lesson-reaction__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transition: transform 0.4s ease-in-out;
+  }
+  .lesson-reaction__item:hover  .lesson-reaction__content {
+    transform: scale(1.1);
   }
 
   .lesson-reaction__item:hover {
     background-color: transparent!important;
     border-color: transparent !important;
-    transform: scale(1.1);
   }
 
   .lesson-reaction__wrapper.active {
