@@ -66,7 +66,7 @@ Then in <code>C:/ProgramData/Yggdrasil</code> open <code>yggdrasil.conf</code> w
 
 Write peers
 
-In the file that you opened find line <code>Peers:</code> it is at the beginning of the file) add 5-6 peers geographically near to you (write them inside the brackets). You can find list of available peers [here](https://github.com/yggdrasil-network/public-peers) or add peers from example below. Example in yggdrasil.conf:
+In the file that you opened find line <code>Peers:</code> (it is at the beginning of the file) add 5-6 peers geographically near to you (write them inside the brackets). You can find list of available peers [here](https://github.com/yggdrasil-network/public-peers) or add peers from example below. Example in yggdrasil.conf:
 
 <lessonCodeWrapper language="json">
 [

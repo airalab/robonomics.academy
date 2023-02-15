@@ -67,7 +67,7 @@ def stand_command(params=None, body_height=0.0, footprint_R_body=geometry.EulerZ
 def synchro_se2_trajectory_point_command(goal_x, goal_y, goal_heading, frame_name, params=None, body_height=0.0, locomotion_hint=spot_command_pb2.HINT_AUTO, build_on_command=None)
 </lessonCodeWrapper>
 
-Verifique el uso [aqui]("https://github.com/boston-dynamics/spot-sdk/blob/master/python/examples/frame_trajectory_command/frame_trajectory_command.py).
+Verifique el uso [aqui](https://github.com/boston-dynamics/spot-sdk/blob/master/python/examples/frame_trajectory_command/frame_trajectory_command.py).
 
 ¡Atención! El ejemplo considera el movimiento del robot en relación con la posición actual. En su caso debe especificar los movimientos relativos al punto donde se encendió el robot. Eso significa que puede establecer <code>goal_x</code> y <code>goal_y</code> como valores en la tarea.
 
