@@ -12,7 +12,7 @@
     />
 
     <LessonInfo 
-      v-if="lessonId" 
+      v-if="lessonId && lesson.activity" 
       :type="$ts(lesson.activity)"
       :time="$ts(lesson.time)"
       :tools="$ts(lesson.tools)"
