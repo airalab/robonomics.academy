@@ -84,7 +84,16 @@ export default {
     background: #fff;
   }
 
+
   .lesson-note.gap {
     margin: var(--gap) 0;
   }
+
+  @media (prefers-color-scheme: dark) {
+    .lesson-note--okay code { 
+      background: #333;
+    }
+  }
+
+
 </style>

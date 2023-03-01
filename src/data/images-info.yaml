@@ -15,6 +15,9 @@
     - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
       imgName: "/cover-en.png"
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
+    - title: 'Sensors Connectivity & Decentralized Sensors Network'
+      imgName: "/cover-en.png"
+      options: [Online Courses, Sensors Connectivity & Decentralized Sensors Network]
 
 - locale: es 
   online-course:

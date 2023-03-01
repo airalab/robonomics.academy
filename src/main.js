@@ -70,7 +70,9 @@ import {
   faHouseSignal,
   faEnvelope,
   faCheck,
-  faXmark
+  faXmark,
+  faSignal,
+  faMicrochip
   // faRobot
  } from '@fortawesome/free-solid-svg-icons'
 
@@ -126,7 +128,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     faHouseSignal,
     faEnvelope,
     faCheck,
-    faXmark
+    faXmark,
+    faSignal,
+    faMicrochip
     // faRobot
   )
 
@@ -175,8 +179,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   });
 
   if(isClient) {
-    Vue.use(VueCookies, { expire: '30d'});
-    Vue.$cookies.config('30d')
+    Vue.use(VueCookies, { expire: '90d'});
+    Vue.$cookies.config('90d')
 
     Vue.use(VueYandexMetrika, {
       id: 91120268,

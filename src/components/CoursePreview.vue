@@ -75,6 +75,7 @@ export default {
     .coursePreview-title, .coursePreview-info {
         display: block;
         padding: var(--gap);
+        padding-right: calc(var(--gap) * 3);
         transition: 0.2s all linear;
     }
 
