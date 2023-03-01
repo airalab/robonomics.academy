@@ -71,4 +71,37 @@
   
   }
   </script>
+
+
+<style>
+
+  .lesson-section ul  {
+    margin-bottom: var(--gap);
+    list-style: none;
+  }
+
+  .lesson-section ol  {
+    margin-bottom: var(--gap);
+  }
+
+  .lesson-section ul:not(.list__bullets) li  {
+    font-weight: 600;
+    display: flex;
+  }
+
+  .lesson-section ul li::before {
+    content: "\2022" !important;
+    color: var(--color-second) !important;
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    flex-shrink: 0;
+  }
+
+  .lesson-section ul li:not(:last-child) {
+    margin-bottom: var(--gap);
+  }
+    
+
+</style>
   

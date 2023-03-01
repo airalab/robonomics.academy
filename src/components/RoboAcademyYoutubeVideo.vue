@@ -65,6 +65,7 @@ export default {
 .youtube-embed__wrapper {
   width: 100%; 
   margin: 0px auto;
+  margin-bottom: var(--gap);
 }
 .youtube-embed__container {
   position: relative; 
