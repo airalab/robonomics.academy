@@ -101,6 +101,10 @@
   .lesson-section ul li:not(:last-child) {
     margin-bottom: var(--gap);
   }
+
+  .lesson-section .youtube-embed__wrapper {
+    margin-bottom: var(--gap);
+  }
     
 
 </style>
