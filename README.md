@@ -93,7 +93,6 @@ If you want you image to zoom in you must use - "lesson-images"
 <LessonImages figure figureCaption="Architectural scheme of the scenario with SLS Gateway" src="smart-house-course/lesson-1-2.png" alt="Architectural scheme of the scenario with SLS Gateway"/>
 ```
 
-
 **Properties for lesson-images**
 
 | Property      | Required | Default | Type    | Description                                                                                                                                        |
