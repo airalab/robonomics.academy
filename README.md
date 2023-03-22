@@ -76,7 +76,6 @@ sudo apt-get install -y nodejs git make g++ gcc
 - YAML
 
 
-
 ### How to insert images:
 
 If you want you image to zoom in you must use - "lesson-images"
