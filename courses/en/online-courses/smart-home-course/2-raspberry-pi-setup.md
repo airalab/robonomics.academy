@@ -42,49 +42,37 @@ Preparing and Configuring the Raspberry Pi
 
   <li>
 
-  Download and install a tool for writing image files called [balenaEtcher](https://www.balena.io/etcher/) on your computer.
+  Download and install a tool for writing image files called [Raspberry Pi Imager](https://www.raspberrypi.com/software/) on your computer.
   </li>
 
   <li>
 
-  Then, insert the SD card and run the balenaEtcher Imager program. Select the required image (which you just downloaded) as the operating system and ensure to select your SD card from the storage dropdown, and then select <code>flash</code> image.
+  Insert the SD card and run the Raspberry Pi Imager. Select the required image (which you just downloaded) as the operating system and ensure to select your SD card from the storage dropdown menu.
 
-
-  <LessonImages src="smart-house-course/lesson-2-1.jpeg" alt="balena"/>
   </li>
+
   <li>
 
+  Open settings and check the <code>Enable SSH</code> option with the <code>Use password authentication</code> parameter.
 
-  Open the SD card's storage and navigate inside the root folder of the card. The name of the folder should be something similar to <code class="nowb">system-boot</code>
+  In <code>Set username and password</code> add username and password for your Raspberry Pi user.
 
+  In <code>Configure wireless LAN</code> provide your Wi-Fi with its password and choose your country from drop-down list. Then <code>Write</code> image.
 
-  Find the file named <code>network-config</code> and open it in a text editor. Copy the text below, paste it into the file and insert your **Wi-Fi name** SSID and **Wi-Fi password** (with quote marks).
-
-
-<LessonCodeWrapper language="json">
-version: 2
-ethernets: 
-  eth0:
-    dhcp4: true
-    optional: true
-wifis:
-  wlan0:
-    dhcp4: true
-    optional: true
-    access-points:
-      "YOUR_WIFI_NAME":
-        password: "YOUR_WIFI_PASSWORD"
-</LessonCodeWrapper>
+  <LessonVideo controls loop src="https://crustipfs.live/ipfs/QmYpqU5z8wP9WQKqKMc7LYzUPoswXfQSgMToSeVJzApKq1" />
 
   *Make sure that you input your actual Wi-Fi name and your Wi-Fi password.*
+  </li>
 
-  Save the file, insert the SD card into the Raspberry Pi and turn it on. It should connect to your Wi-Fi network, which will take some time. It should be noted that making changes to this file later will not change the connection, and the config is valid only on the first launch of the device. If later you need to change settings, please edit the configuration file in  <code>/etc/netplan/</code> folder
+  <li>
+
+  Wait until it finish the writing, then insert the SD card into the Raspberry Pi and turn it on. It should connect to your Wi-Fi network, which will take some time.
 
   </li>
   
   <li>
 
-  Now you need to find an address of the device. To do it you can use various methods for network scanning, like [Fing App](https://www.fing.com/products), <code>arp -a</code> command or [nmap](https://nmap.org/download.html) the latter will be used next.
+  Now you need to find an address of the device. To do it you can use various methods for network scanning, like [Fing App](https://www.fing.com/products), <code>arp -a</code> command or [nmap](https://nmap.org/download.html). The latter will be used next.
 
   Install nmap with a command
 
@@ -116,17 +104,17 @@ Host is up.
 Nmap done: 256 IP addresses (4 hosts up) scanned in 2.07 seconds
 </LessonCodeWrapper>
 
-  Standard hostname for freshly installed Raspberry Pi should be <code class="nowb">ubuntu</code>, so in this example the address is <code>192.168.43.56.</code>
+  In this example the address is <code>192.168.43.56.</code>
 
   </li>
 
   <li>
 
-  Connect to the Raspberry Pi via SSH with found IP. User is <code class="nowb">"ubuntu"</code>, the password is <code class="bold">"ubuntu"</code>.
+  Connect to the Raspberry Pi via SSH with found IP. Use the username and password, that you created earlier.
   
   <LessonCodeWrapper language="bash" noLines>ssh ubuntu@192.168.43.56</LessonCodeWrapper>
 
-  The system will ask you to change the password to a more secure one, make sure you don't lose it.Further instructions are executed via SSH on the Raspberry Pi itself.
+  Further instructions are executed via SSH on the Raspberry Pi itself.
   
   </li>
 </List>
@@ -139,13 +127,15 @@ Home Assistant Installation
 <List>
   <li>
 
+  *Some software versions shown below may be out of date. For the latest versions, you can refer to the [Home Assistant Core installation guide](https://www.home-assistant.io/installation/raspberrypi#install-home-assistant-core).*
+
   Before starting, update the Raspberry Pi system and install necessary packages.  During installation you will see a window with service restart request. Just choose <span class="accent">ok</span> with the <code>tab</code> button and press enter.
 
   <LessonCodeWrapper language="bash" noLines>sudo apt-get update</LessonCodeWrapper>
 
   <LessonCodeWrapper language="bash" noLines>sudo apt-get upgrade -y</LessonCodeWrapper>
 
-  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo apt-get install -y python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev subversion</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo apt-get install -y python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev subversion libturbojpeg0-dev bluez</LessonCodeWrapper>
 
   </li>
 
@@ -175,7 +165,7 @@ Home Assistant Installation
 
   As the result, you will find a name of the virtual environment in the brackets:
 
-<LessonCodeWrapper language="bash" codeClass="big-code" noLines>
+<LessonCodeWrapper language="bash" codeClass="big-code" noLines noCopyIcon>
 (homeassistant) homeassistant@ubuntu:/srv/homeassistant/$
 </LessonCodeWrapper>
 
@@ -189,7 +179,7 @@ Home Assistant Installation
 
   <LessonCodeWrapper language="bash" codeClass="big-code" noLines>pip3 install sqlalchemy~=1.4 fnvhash~=0.1 aiodiscover==1.4.11</LessonCodeWrapper>
 
-  <LessonCodeWrapper language="bash" noLines>pip3 install homeassistant==2022.8.2</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>pip3 install homeassistant~=2023.3.6</LessonCodeWrapper>
   
   </li>
 
@@ -241,6 +231,8 @@ Zigbee2MQTT Setup (Only for Zigbee Adapter)
 
   <li>
 
+*Please note that the software below is only required if you are using a Zigbee adapter with Zigbee2MQTT.*
+
 Set up Node.js runtime environment repository and install it with required dependencies:
 
 <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - </LessonCodeWrapper>
@@ -282,7 +274,7 @@ git clone --depth 1 --branch 1.28.0 https://github.com/Koenkk/zigbee2mqtt.git /o
   <li>
   
 
-Install dependencies (as user <code>pi</code>). Note that the <code>npm ci</code> could produce some warning which can be ignored.
+Install dependencies. Note that the <code>npm ci</code> could produce some warning which can be ignored.
 
 <LessonCodeWrapper language="bash" noLines>cd /opt/zigbee2mqtt</LessonCodeWrapper>
 <LessonCodeWrapper language="bash" noLines>npm ci</LessonCodeWrapper>
