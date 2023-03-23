@@ -82,7 +82,7 @@ Preparing and Configuring the Raspberry Pi
 
   <LessonCodeWrapper language="bash" noLines>ip a</LessonCodeWrapper>
 
-  Then scan your network as shown below replacing the last octet of the address with <code>0:</code>
+  Then scan your network as shown below replacing the last octet of the address with <code>0</code>:
 
   <LessonCodeWrapper language="bash" noLines>sudo nmap -sP 192.168.xxx.0/24</LessonCodeWrapper>
 
