@@ -59,7 +59,7 @@ Preparing and Configuring the Raspberry Pi
 
   In <code>Configure wireless LAN</code> provide your Wi-Fi with its password and choose your country from drop-down list. Then <code>Write</code> image.
 
-  <LessonVideo controls loop src="https://crustipfs.live/ipfs/QmYpqU5z8wP9WQKqKMc7LYzUPoswXfQSgMToSeVJzApKq1" />
+  <LessonVideo controls loop src="https://crustipfs.live/ipfs/QmY3mEGvUNDT9bKhVhR21JY8RaWp3CB8JNAX1VDHMnwjxw" />
 
   *Make sure that you input your actual Wi-Fi name and your Wi-Fi password.*
   </li>
