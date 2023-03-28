@@ -25,6 +25,47 @@ You will also need a smart device to test its connection to Home Assistant.
 
 <li>
 
+Software Install
+
+<List>
+
+  <li>
+    Set up Node.js runtime environment repository and install it with required dependencies:
+    <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - </LessonCodeWrapper>
+    <LessonCodeWrapper language="bash" noLines>sudo apt-get install -y nodejs git make g++ gcc</LessonCodeWrapper>
+
+  </li>
+
+  <li>
+    Verify that the correct versions of Node.js (v14.X, V16.x, V17.x or V18.X) and package manager <code class="nowb">npm</code> (6.X, 7.X or 8.X) automatically installed with Node.js, have been installed:
+    <LessonCodeWrapper language="bash" noLines>node --version</LessonCodeWrapper>
+    <LessonCodeWrapper language="bash" noLines>npm --version</LessonCodeWrapper>
+  </li>
+
+  <li>
+    Create a directory for Zigbee2MQTT and set your user as owner of it:
+    <LessonCodeWrapper language="bash" noLines>sudo mkdir /opt/zigbee2mqtt</LessonCodeWrapper>
+    <LessonCodeWrapper language="bash" noLines>sudo chown -R ${USER}: /opt/zigbee2mqtt</LessonCodeWrapper>
+  </li>
+
+  <li>
+    Clone Zigbee2MQTT repository:
+    <LessonCodeWrapper language="bash" codeClass="big-code" noLines>
+    git clone --depth 1 --branch 1.28.4 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
+    </LessonCodeWrapper>
+  </li>
+
+  <li>
+    Install dependencies. Note that the <code>npm ci</code> could produce some warning which can be ignored.
+    <LessonCodeWrapper language="bash" noLines>cd /opt/zigbee2mqtt</LessonCodeWrapper>
+    <LessonCodeWrapper language="bash" noLines>npm ci</LessonCodeWrapper>
+  </li>
+
+</List>
+</li>
+
+<li>
+
 Connecting and Configuring the Adapter
 
 <List>
