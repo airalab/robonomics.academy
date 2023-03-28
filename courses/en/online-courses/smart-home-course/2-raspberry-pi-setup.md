@@ -127,7 +127,7 @@ Home Assistant Installation
 <List>
   <li>
 
-  *Some software versions shown below may be out of date. For the latest versions, you can refer to the [Home Assistant Core installation guide](https://www.home-assistant.io/installation/raspberrypi#install-home-assistant-core).*
+  *Some software versions shown below may be out of date. For the latest versions, you can refer to the [installation repository for Robonomics Home Assistant image](https://github.com/airalab/Robonomics-HomeAssistant-image/tree/main/robonomics-stage).*
 
   Before starting, update the Raspberry Pi system and install necessary packages.  During installation you will see a window with service restart request. Just choose <span class="accent">ok</span> with the <code>tab</code> button and press enter.
 
@@ -135,7 +135,7 @@ Home Assistant Installation
 
   <LessonCodeWrapper language="bash" noLines>sudo apt-get upgrade -y</LessonCodeWrapper>
 
-  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo apt-get install -y python3 python3-dev python3-venv python3-pip libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev subversion libturbojpeg0-dev bluez</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo apt-get install -y python3 python3-dev python3-venv python3-pip bluez libffi-dev libssl-dev libjpeg-dev zlib1g-dev autoconf build-essential libopenjp2-7 libtiff5 tzdata libcurl4-openssl-dev subversion libturbojpeg0-dev python3-serial curl</LessonCodeWrapper>
 
   </li>
 
@@ -179,7 +179,7 @@ Home Assistant Installation
 
   <LessonCodeWrapper language="bash" codeClass="big-code" noLines>pip3 install sqlalchemy~=1.4 fnvhash~=0.1 aiodiscover==1.4.11</LessonCodeWrapper>
 
-  <LessonCodeWrapper language="bash" noLines>pip3 install homeassistant~=2023.3.6</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>pip3 install homeassistant~=2023.3.6 psutil-home-assistant~=0.0</LessonCodeWrapper>
   
   </li>
 
@@ -266,7 +266,7 @@ Create a directory for Zigbee2MQTT and set your user as owner of it:
 Clone Zigbee2MQTT repository:
 
 <LessonCodeWrapper language="bash" codeClass="big-code" noLines>
-git clone --depth 1 --branch 1.28.0 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
+git clone --depth 1 --branch 1.28.4 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
 </LessonCodeWrapper>
 
   </li>
@@ -362,7 +362,7 @@ source /srv/homeassistant/bin/activate
 </LessonCodeWrapper>
 
 <LessonCodeWrapper language="bash" noLines>
-pip install robonomics-interface~=1.3
+pip3 install robonomics-interface~=1.6.0
 </LessonCodeWrapper>
 
 </li>

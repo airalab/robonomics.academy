@@ -42,7 +42,7 @@ sudo apt install mosquitto mosquitto-clients -y
 
 <li>
 
-Configure YOUR_USERNAME (use any you want) and password (you will be asked to enter the password after the command):
+Enter YOUR_USERNAME (use any you want) and password (you will be asked to enter the password after the command):
 
 <LessonCodeWrapper language="bash" noLines codeClass="big-code">
 sudo mosquitto_passwd -c /etc/mosquitto/passwd YOUR_USERNAME
