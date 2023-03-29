@@ -25,6 +25,47 @@ You will also need a smart device to test its connection to Home Assistant.
 
 <li>
 
+Software Install
+
+<List>
+
+  <li>
+    Set up Node.js runtime environment repository and install it with required dependencies:
+    <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - </LessonCodeWrapper>
+    <LessonCodeWrapper language="bash" noLines>sudo apt-get install -y nodejs git make g++ gcc</LessonCodeWrapper>
+
+  </li>
+
+  <li>
+    Verify that the correct versions of Node.js (v14.X, V16.x, V17.x or V18.X) and package manager <code class="nowb">npm</code> (6.X, 7.X or 8.X) automatically installed with Node.js, have been installed:
+    <LessonCodeWrapper language="bash" noLines>node --version</LessonCodeWrapper>
+    <LessonCodeWrapper language="bash" noLines>npm --version</LessonCodeWrapper>
+  </li>
+
+  <li>
+    Create a directory for Zigbee2MQTT and set your user as owner of it:
+    <LessonCodeWrapper language="bash" noLines>sudo mkdir /opt/zigbee2mqtt</LessonCodeWrapper>
+    <LessonCodeWrapper language="bash" noLines>sudo chown -R ${USER}: /opt/zigbee2mqtt</LessonCodeWrapper>
+  </li>
+
+  <li>
+    Clone Zigbee2MQTT repository:
+    <LessonCodeWrapper language="bash" codeClass="big-code" noLines>
+    git clone --depth 1 --branch 1.28.4 https://github.com/Koenkk/zigbee2mqtt.git /opt/zigbee2mqtt
+    </LessonCodeWrapper>
+  </li>
+
+  <li>
+    Install dependencies. Note that the <code>npm ci</code> could produce some warning which can be ignored.
+    <LessonCodeWrapper language="bash" noLines>cd /opt/zigbee2mqtt</LessonCodeWrapper>
+    <LessonCodeWrapper language="bash" noLines>npm ci</LessonCodeWrapper>
+  </li>
+
+</List>
+</li>
+
+<li>
+
 Connecting and Configuring the Adapter
 
 <List>
@@ -45,7 +86,7 @@ total 0
 lrwxrwxrwx 1 root root 13 Oct 10 01:44 usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0 -> ../../ttyUSB0
 </LessonCodeWrapper>
 
-In this example stick connection directory is — <code>ttyUSB0</code>.
+In this example stick connection directory is <code>ttyUSB0</code>.
 </li>
 
 <li>
@@ -58,11 +99,11 @@ nano /opt/zigbee2mqtt/data/configuration.yaml
 
 The basic configuration needs a few adjustments. Change the following statements:
 
-< <code>homeassistant:</code> to <code>true</code> it will automatically connect sensors to Home Assistant;
+\- <code>homeassistant:</code> to <code>true</code>, it will automatically connect sensors to Home Assistant;
 
-< uncomment <code>user</code> and <code>password</code> under <code>mqtt</code> and enter your username and password (as a string, with quotes) from MQTT Broker;
+\- uncomment <code>user</code> and <code>password</code> under <code>mqtt</code> and enter your username and password (as a string, with quotes) from MQTT Broker;
 
-< change port in <code>serial -> port</code> to stick connection directory. In this example — <code>/dev/ttyUSB0</code>.
+\- change port in <code>serial</code> -> <code>port</code> to stick connection directory. In this example: <code>/dev/ttyUSB0</code>.
 
 Adjusted configuration file should look like:
 
@@ -78,12 +119,12 @@ mqtt:
   # MQTT server URL
   server: 'mqtt://localhost'
   # MQTT server authentication, uncomment if required:
-  user: {YOUR_USERNAME}
-  password: {YOUR_PASSWORD}
+  user: 'YOUR_USERNAME'
+  password: 'YOUR_PASSWORD'
 # Serial settings
 serial:
   # Location of CC2531 USB sniffer
-  port: /dev/{YOUR_PORT}
+  port: /dev/YOUR_PORT
 </LessonCodeWrapper>
 
 
@@ -129,6 +170,8 @@ Pairing Device
 
 It's time to connect your smart device. The most common way to switch a device to connect mode is to hold its power button or switch them on/off 5 times. Make sure Zigbee2MQTT is running.
 
+<LessonImages src="smart-house-course/lesson-4-a-4.gif" alt="code" imageClasses="mb"/>
+
 When the device connects, you should see a message like:
 
 <LessonCodeWrapper language="bash" codeClass="big-code" noLines>
@@ -144,6 +187,15 @@ Now you should see this sensor with ID in your Home Assistant WebUI. Go to <code
 After adding all the sensors, you can stop the program with <code>Ctrl+C</code>. If you don’t want to add any more devices, you can open the configuration file again and set <code>permit_join:</code> to <code>false</code>.
 </li>
 
+</List>
+</li>
+
+<li>
+
+Creating Service for Autostart
+
+<List>
+
 <li>
 
 Now you need to create a service. Create the file:
@@ -152,7 +204,7 @@ Now you need to create a service. Create the file:
 sudo nano /etc/systemd/system/zigbee2mqtt.service
 </LessonCodeWrapper>
 
-Add the following to this file:
+Add the following to this file with changing <code>YOUR_RASPPI_USERNAME_HERE</code>. If you don't know your username, use the <code>whoami</code> command.
 
 <LessonCodeWrapper language="bash">
 [Unit]
@@ -164,7 +216,7 @@ WorkingDirectory=/opt/zigbee2mqtt
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
-User=ubuntu
+User=YOUR_RASPPI_USERNAME_HERE
 [Install]
 WantedBy=multi-user.target
 </LessonCodeWrapper>

@@ -11,9 +11,27 @@ metaOptions: [Online Courses, Sovereign Smart Home with Robonomics and Home Assi
 
 ## What's this about
 
-Robonomics IoT Subscription allows users to use the all functions of parachain for a certain period without paying the standard transaction fees. By activating the subscription, the devices will have the right to send priority transactions.
+Robonomics IoT Subscription allows users to use all functions of the parachain for a certain period without paying the standard transaction fees. By activating the subscription, devices will be able to send transactions in priority.
 
 In this lesson, you will create the necessary smart home security accounts and purchase an IoT subscription.
+
+</section>
+
+<section class="container__reg">
+
+## Theory
+
+An IoT subscription, as well as the method it is purchased and managed, is implemented using an <code>rws</code> pallet, which contains all the necessary functions. In general, subscriptions in Robonomics are sold with an auction model, which uses an <code>rws.startAuction()</code> extrinsic to create an auction for a specific subscription ID. Users can access the auction by ID and bid using an <code>rws.bid()</code> extrinsic.
+
+After the end of the auction, the address with the winning bid is assigned to the subscription. Now this address will be able to send transactions through the <code>rws.call()</code> extrinsic without fees. However, this does not mean that the address can do this uncontrollably at any time: each subscription has a certain amount of a <code>weight</code> value, which must accumulate before a free transaction can be performed. Some <code>weight</code> value is added to the subscription every block generated in the parachain, due to this, Robonomics regulates the bandwidth of the parachain.
+
+In addition, the owner of the subscription can use the <code>rws.setDevices()</code> extrinsic, which shares the use of the subscription to the specified addresses. At the same time, <code>weight</code> remains the same, so the more addresses in the subscription, the longer each of them will have to wait before sending the free transaction.
+
+To control Home Assistant with Robonomics, you need two accounts on the Robonomics parachain. These accounts will provide security for your Home Assistant.
+
+With one of the accounts (<code>SUB_OWNER</code>), you will buy a Robonomics subscription. This account acts as the main administrator of the IoT subscription, and provides access to Home Assistant to other users (using <code>rws.setDevices()</code>). This account must have some XRT tokens in order to complete subscription purchase transactions.
+
+Second account (<code>SUB_CONTROLLER</code>) will control all Home Assistant processes of devices (such as telemetry). Transactions of your devices will be sent on behalf of the <code>SUB_CONTROLLER</code> account. You (and anyone) will be able to see these transactions in any parachain explorer like [Subscan](https://robonomics.subscan.io/). However, only you will be able to decrypt the contents of these transactions as long as you securely possess the necessary seed phrases.
 
 </section>
 
@@ -30,7 +48,14 @@ Creating Owner and Controller Parachain Accounts
 <List>
 
 <li>
-To control Home Assistant with Robonomics, you need 2 accounts on the Robonomics parachain. For one of the accounts (<code>SUB_OWNER</code>), you will buy a Robonomics subscription. Second account (<code>SUB_ADMIN</code>) will control all Home Assistant processes (such as telemetry) and will give access to other users. These accounts will provide security for your Home Assistant. Both accounts must be created with *ed25519* encryption.
+
+<robo-academy-note type="warning" title="WARNING">
+Both accounts must be created with ed25519 encryption.
+</robo-academy-note>
+
+</li>
+
+<li>
 
 Go to [Robonomics Parachain app](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/) on Polkadot / Substrate Portal. Check the top left corner to ensure that you are connected to Robonomics Parachain.
 
@@ -38,46 +63,41 @@ Go to [Robonomics Parachain app](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fk
 
 <li>
 
-Go to <code>Accounts</code> -> <code>Accounts</code> and press the <code>Add account</code> button.
+Because of using *ed25519* format, you need to create an account using the Polkadot-JS UI and select the required encryption. 
 
-
-<LessonImages src="smart-house-course/lesson-5-1.jpeg" alt="tutorial"/>
+This feature is disabled by default on the Polkadot-JS UI. To enable it, navigate to <code>Settings</code> -> <code>General</code> -> <code>account options</code> and select <code>Allow local in-browser account storage</code> in the drop-down menu <code>in-browser account creation</code>.
+ 
 </li>
 
 <li>
 
-You should see the following popup menu with account see:
+Go to <code>Accounts</code> -> <code>Accounts</code> and press the <code>Add account</code> button. You will see the popup menu with account seed. It has two forms: *Mnemonic* (human-readable) and *Raw* (a sequence of digits and letters).
 
-<LessonImages src="smart-house-course/lesson-5-2.jpg" alt="tutorial" imageClasses="mb"/>
-
-
-It has two forms *Mnemonic* (human-readable) and *Raw* (a sequence of digits and letters). Save the mnemonic seed phrase securely.
-
-</li>
-
-<li>
-
-Open *‘Advanced creation options’*, change the crypto type of creating account to *'Edwards - ed25519'* and press <code>Next</code>
-
-<LessonImages src="smart-house-course/lesson-5-3.jpg" alt="tutorial"/>
-</li>
-
-<li>
-
-In the next menu, you need to set the account name and password. Give it a name <code>SUB_OWNER</code> for convenience.
-
-<LessonImages src="smart-house-course/lesson-5-4.jpeg" alt="tutorial"/>
-</li>
-
-<li>
-
-Clicking on the <code>Next</code> button will take you to the last window. Click <code>Save</code> to finish account creation. It will also generate a backup JSON-files that you should safely store. You can later use this file to recover your account if you remember the password.
+<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmQiJYPYajUJXENX2PzSJMSKGSshyWyPNqugSYxP5eCNvm" />
 
 </li>
 
 <li>
 
-Repeat steps 2-6 for an account with the name <code>SUB_ADMIN</code>.
+Open <code>Advanced creation options</code>, change the crypto type of creating account to <code>Edwards - ed25519</code>. Save the mnemonic seed phrase securely and press <code>Next</code>.
+
+</li>
+
+<li>
+
+In the next menu, you need to set the account name and password. Give it a name <code>SUB_OWNER</code> for convenience and press <code>Next</code>.
+
+</li>
+
+<li>
+
+On the last window click <code>Save</code> to finish account creation. It will also generate a backup JSON-files that you should safely store. You can later use this file to recover your account if you remember the password.
+
+</li>
+
+<li>
+
+Repeat these steps for the <code>SUB_CONTROLLER</code> account.
 
 </li>
 </List>
@@ -93,61 +113,69 @@ Adding Accounts to Polkadot.js Extension
 
 For convenience, you should use the Polkadot.js extension and add these newly created accounts to it. For an ed25519 account you can do that only with a backup JSON file. You can use the files saved when you created the accounts.
 
-</li>
-
-<li>
-
 You can get these files again by creating a backup file of the account. Press on three dots on your account, choose <code>Create a backup file for this account</code> and type in your password.
 
-<LessonImages src="smart-house-course/lesson-5-5.jpeg" alt="tutorial"/>
+<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmRd7gztUjWkLF4W2XuJwy5aXBwzNV2aPCU6CQQLvUpSNj" />
+
 </li>
 
 <li>
 
 Open an extension and press <code>+</code> button on the top right, then choose <code>Restore account from backup JSON file</code>.
 
-
-<LessonImages src="smart-house-course/lesson-5-6.jpeg" alt="tutorial"/>
 </li>
 
 <li>
 
 In an opened window upload the JSON file, enter the password and press <code>Restore</code>
 
-<LessonImages src="smart-house-course/lesson-5-7.jpeg" alt="tutorial"/>
+</li>
+
+<li>
+
+Make sure the Robonomics network is selected for accounts in the Polkadot.js extension. On on Polkadot / Substrate Portal go to <code>Setting</code> -> <code>Metadata</code> and click on the <code>Update metadata</code> button. 
+
+<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmT5sTNP9t8gpbD4RJJw6ETwG4wiziiChAh2uHHBk9Zsyd" />
 
 </li>
+
+<li>
+
+Confirm the metadata update in the popup. Now the extension will show the label of the network for which the address is used.
+
+</li>
+
 </List>
 </li>
 
 <li>
 
-Purchasing Robonomics Subscription
+Activating Robonomics Subscription
 
 <List>
 
 <li>
 
+<robo-academy-note type="okay">
 For this step, you must have a sufficient amount of XRT tokens (minimum 2-3 XRTs) in your <code>SUB_OWNER</code> account.
-
+</robo-academy-note>
 
 Go to Robonomics dapp to the [subscription page](https://dapp.robonomics.network/#/subscription) and press <code>connect account</code> on the right sidebar.
 
-<LessonImages src="smart-house-course/lesson-5-8.jpeg" alt="tutorial"/>
+<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmXrFCajmJgkRDSbshGD3QehjnoyS6jafEPSjHdYkoBHum" />
+
 </li>
 
 <li>
 
 In the following popup menu connect Polkadot.js extension. You will see your account address with balance.
 
-<LessonImages src="smart-house-course/lesson-5-9.jpeg" alt="tutorial"/>
 </li>
 
 <li>
 
 Before purchasing, check that you chose the <code>SUB_OWNER</code> account. Press the address profile icon, you should see the <code>SUB_OWNER</code> account under the <code>Check owner account</code> field.
 
-<LessonImages src="smart-house-course/lesson-5-10.jpeg" alt="tutorial"/>
 </li>
 
 <li>
@@ -156,7 +184,6 @@ Finally, press the <code>SUBMIT</code> button and enter the password for your ac
 
 If no subscriptions are available, **please contact** the Robonomics team.
 
-<LessonImages src="smart-house-course/lesson-5-11.jpeg" alt="tutorial"/>
 </li>
 </List>
 </li>
@@ -169,9 +196,9 @@ Adding Account to Subscription
 
 <li>
 
-You need to add a <code>SUB_ADMIN</code> account to the **access list**. Open extension and click on the icon near the account name. It will copy the account address.
+Now you need to add the <code>SUB_CONTROLLER</code> account to **the access list**. Open extension and click on the icon near the account name. It will copy the account address.
 
-<LessonImages src="smart-house-course/lesson-5-12.jpeg" alt="tutorial"/>
+<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmV1gkwtcXsWv54ov9tuXfcHg7nqs1foM8cRwts4sqnqtX" />
 
 </li>
 
@@ -179,15 +206,13 @@ You need to add a <code>SUB_ADMIN</code> account to the **access list**. Open ex
 
 Paste this address to the <code>Robonomics parachain address</code> field in the **Manage access** part.
 
-<LessonImages src="smart-house-course/lesson-5-13.jpeg" alt="tutorial" imageClasses="mb"/>
-
 Give it a name and press the <code>+</code> button. Enter your <code>SUB_OWNER</code> password in the popup window and wait until the activation process is completed.
 
 </li>
 
 <li>
 
-Repeat steps 1 and 2 for the <code>SUB_OWNER</code> account.
+Repeat steps for the <code>SUB_OWNER</code> account.
 </li>
 </List>
 </li>

@@ -16,7 +16,7 @@ We can convert the device into an IoT hub after installing all the necessary sof
 
 2. **[Home Assistant](https://www.home-assistant.io/), an open source control system software**.
 
-It is designed to be a central hub for smart devices. It can automatically scan the network for known devices and allows users to easily configure all necessary automations. We will install Hass on the Raspberry Pi.
+It is designed to be a central hub for smart devices. It can automatically scan the network for known devices and allows users to easily configure all necessary automations. We will install Home Assistant on the Raspberry Pi.
 
 Home Assistant communicates with devices and stores their data locally, which unfortunately does  not allow you to control your devices remotely. To solve this problem we use Robonomics Network.
 
