@@ -54,13 +54,16 @@ Preparing and Configuring the Raspberry Pi
 
   Open settings and check the <code>Enable SSH</code> option with the <code>Use password authentication</code> parameter.
 
-  In <code>Set username and password</code> add username and password for your Raspberry Pi user.
+  \- In <code>Set username and password</code> add username and password for your Raspberry Pi user.
 
-  In <code>Configure wireless LAN</code> provide your Wi-Fi with its password and choose your country from drop-down list. Then <code>Write</code> image.
+  \- In <code>Configure wireless LAN</code> provide your Wi-Fi with its password and choose your country from drop-down list. Then <code>Write</code> image.
+
+  <robo-academy-note type="okay">
+  Make sure that you input your actual Wi-Fi name and your Wi-Fi password.
+  </robo-academy-note>
 
   <LessonVideo controls loop src="https://crustipfs.live/ipfs/QmY3mEGvUNDT9bKhVhR21JY8RaWp3CB8JNAX1VDHMnwjxw" />
 
-  *Make sure that you input your actual Wi-Fi name and your Wi-Fi password.*
   </li>
 
   <li>
@@ -126,7 +129,9 @@ Home Assistant Installation
 <List>
   <li>
 
-  *Some software versions shown below may be out of date. For the latest versions, you can refer to the [installation repository for Robonomics Home Assistant image](https://github.com/airalab/Robonomics-HomeAssistant-image/tree/main/robonomics-stage).*
+  <robo-academy-note type="okay">
+  Some software versions shown below may be out of date. For the latest versions, you can refer to the [installation repository for Robonomics Home Assistant image](https://github.com/airalab/Robonomics-HomeAssistant-image/tree/main/robonomics-stage).
+  </robo-academy-note>
 
   Before starting, update the Raspberry Pi system and install necessary packages.  During installation you will see a window with service restart request. Just choose <span class="accent">ok</span> with the <code>tab</code> button and press enter.
 

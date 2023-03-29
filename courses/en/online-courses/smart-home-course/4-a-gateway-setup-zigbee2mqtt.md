@@ -99,11 +99,11 @@ nano /opt/zigbee2mqtt/data/configuration.yaml
 
 The basic configuration needs a few adjustments. Change the following statements:
 
-— <code>homeassistant:</code> to <code>true</code>, it will automatically connect sensors to Home Assistant;
+\- <code>homeassistant:</code> to <code>true</code>, it will automatically connect sensors to Home Assistant;
 
-— uncomment <code>user</code> and <code>password</code> under <code>mqtt</code> and enter your username and password (as a string, with quotes) from MQTT Broker;
+\- uncomment <code>user</code> and <code>password</code> under <code>mqtt</code> and enter your username and password (as a string, with quotes) from MQTT Broker;
 
-— change port in <code>serial</code> -> <code>port</code> to stick connection directory. In this example: <code>/dev/ttyUSB0</code>.
+\- change port in <code>serial</code> -> <code>port</code> to stick connection directory. In this example: <code>/dev/ttyUSB0</code>.
 
 Adjusted configuration file should look like:
 
