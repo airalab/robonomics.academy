@@ -13,7 +13,16 @@ metaOptions: [Online Courses, Sovereign Smart Home with Robonomics and Home Assi
 
 In this lesson, you will add Robonomics to Home Assistant and create an account associated with the subscription. This integration allows Home Assistant to use Robonomics parachain functions, first of all, send encrypted smart home data to a decentralized cloud.
 
-To do this, the parachain has a <code>datalog()</code> function that allows you to save encrypted device data to the blockchain. To be more precise, the integration uses IPFS to store data and then send IPFS hashes to the datalog function, and then to the blockchain.
+</section>
+
+
+<section class="container__reg">
+
+## Theory
+
+Your smart home data is sent using <code>record()</code> extrinsic from <code>datalog</code> pallet that allows you to save encrypted device data to the blockchain. 
+
+To be more precise, the integration uses IPFS to store data and then send IPFS hashes to the datalog extrinsic, which in turn is stored in the blockchain. But since this function is called through an IoT subscription, the whole function looks like: <code>rws.call(datalog.record(YOUR_IPFS_HASH))</code>.
 
 </section>
 
