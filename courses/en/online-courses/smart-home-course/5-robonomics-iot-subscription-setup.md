@@ -19,6 +19,24 @@ In this lesson, you will create the necessary smart home security accounts and p
 
 <section class="container__reg">
 
+## Theory
+
+An IoT subscription, as well as the method it is purchased and managed, is implemented using an <code>rws</code> pallet, which contains all the necessary functions. In general, subscriptions in Robonomics are sold with an auction model, which uses an <code>rws.startAuction()</code> extrinsic to create an auction for a specific subscription ID. Users can access the auction by ID and bid using an <code>rws.bid()</code> extrinsic.
+
+After the end of the auction, the address with the winning bid is assigned to the subscription. Now this address will be able to send transactions through the <code>rws.call()</code> extrinsic without fees. However, this does not mean that the address can do this uncontrollably at any time: each subscription has a certain amount of a <code>weight</code> value, which must accumulate before a free transaction can be performed.
+
+In addition, the owner of the subscription can use the <code>rws.setDevices()</code> extrinsic, which shares the use of the subscription to the specified addresses. At the same time, <code>weight</code> remains the same, so the more addresses in the subscription, the longer each of them will have to wait before sending the free transaction.
+
+To control Home Assistant with Robonomics, you need two accounts on the Robonomics parachain. These accounts will provide security for your Home Assistant.
+
+With one of the accounts (<code>SUB_OWNER</code>), you will buy a Robonomics subscription. This account acts as the main administrator of the IoT subscription, and provides access to Home Assistant to other users (using <code>rws.setDevices()</code>). This account must have some XRT tokens in order to complete subscription purchase transactions.
+
+Second account (<code>SUB_CONTROLLER</code>) will control all Home Assistant processes of devices (such as telemetry). Transactions of your devices will be sent on behalf of the <code>SUB_CONTROLLER</code> account. You (and anyone) will be able to see these transactions in any parachain explorer like [Subscan](https://robonomics.subscan.io/). However, only you will be able to decrypt the contents of these transactions as long as you securely possess the necessary seed phrases.
+
+</section>
+
+<section class="container__reg">
+
 ## Instructions
 
 <List type="numbers">
@@ -30,12 +48,6 @@ Creating Owner and Controller Parachain Accounts
 <List>
 
 <li>
-
-To control Home Assistant with Robonomics, you need two accounts on the Robonomics parachain. These accounts will provide security for your Home Assistant.
-
-With one of the accounts (<code>SUB_OWNER</code>), you will buy a Robonomics subscription. This account acts as the main administrator of the IoT subscription, and provides access to Home Assistant to other users. This account must have some XRT tokens in order to complete subscription purchase transactions.
-
-Second account (<code>SUB_CONTROLLER</code>) will control all Home Assistant processes of devices (such as telemetry). Transactions of your devices will be sent on behalf of the <code>SUB_CONTROLLER</code> account. You (and anyone) will be able to see these transactions in any parachain explorer like [Subscan](https://robonomics.subscan.io/). However, only you will be able to decrypt the contents of these transactions as long as you securely possess the necessary seed phrases.
 
 <robo-academy-note type="warning" title="WARNING">
 Both accounts must be created with ed25519 encryption.
