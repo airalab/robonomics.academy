@@ -1,70 +1,102 @@
 <template>
-  <video :autoplay="autoplay" :muted="muted" :loop="loop" :controls="controls">
-    <source v-if="!local" :type="`video/${this.type}`" :src="src" />
-    <source v-else :type="videoLink.mimeType" :src="videoLink.src" />
+  <video ref="video" mute playsinline v-bind="$attrs" v-if="videos">
+    <template v-for="video in videos">
+      <source :src="getSrc(video.src)" :type="`video/${video.type}`" :key="video.id" />
+  </template>
   </video>
 </template>
 
 <script>
 export default {
-  name: 'RoboWikiVideo',
-  props: {
-    src: {
-      type: String,
-      required: true
-    },
-    controls: {
-      type: Boolean,
-      default: false,
-    },
-    muted: {
-      type: Boolean,
-      default: true,
-    },
-    autoplay: {
-      type: Boolean,
-      default: true,
-    },
-    loop: {
-      type: Boolean,
-      default: true
-    },
-    local: {
-      type: Boolean,
-      default: false
-    }
+name: 'LessonVideo',
+props: {
+  videos: {
+    type: Array,
+    default: null,
+    required: true
   },
-  data()  {
-    return {
-      type: ''
-    }
+
+  local: {
+    type: Boolean,
+    default: false
   },
-  computed: {
-    videoLink() {
+},
+data() {
+  return {
+    offsetTop: 0,
+  }
+},
+watch: {
+  offsetTop (val) {
+    this.toggleAutoplay()
+  }
+},
+
+methods: {
+  handelScroll() {
+    this.offsetTop = document.pageYOffset || document.scrollTop;
+  },
+
+  toggleAutoplay() {
+      const video = this.$refs.video;
+      video.muted = true;
+        let playPromise = video.play();
+        if (playPromise !== undefined) {
+          playPromise.then((_) => {
+            let observer = new IntersectionObserver(
+              (entries) => {
+                entries.forEach((entry) => {
+                    if (
+                        entry.intersectionRatio !== 1 &&
+                        !video.paused
+                    ) {
+                        video.pause();
+                    } else if (video.paused) {
+                        video.play();
+                    }
+                });
+              },
+              { threshold: 0.2 }
+            );
+            observer.observe(video);
+        });
+      }
+    },
+
+    getSrc(src) {
       if(this.local) {
-        return require(`!!assets-loader!@/assets/videos/${this.src}`)
+        return require(`!!assets-loader!@/assets${src}`).src
+      } else {
+        return src
       }
     }
   },
-  methods: {
-    getType() {
-      const dotIndex = this.src.lastIndexOf('.');
-      const format = this.src.substring(dotIndex);
-      this.type = format.substring(1)
+
+  mounted() {
+
+    if(this.$refs.video.getAttribute('autoplay')) {
+      document.addEventListener('scroll',this.handelScroll );
     }
   },
-  mounted() {
-    this.getType();
+
+  beforeDestroy () {
+      if(this.$refs.video.getAttribute('autoplay')) {
+        document.removeEventListener('scroll',this.handelScroll )
+      }
+    },
   }
-}
 </script>
 
 <style scoped>
-  video {
-    max-width: 760px;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: var(--space);
-  }
+video {
+  
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: var(--gap);
+}
+.box {
+  height: 0;
+  width: 0;
+}
 </style>

@@ -87,7 +87,7 @@ Repeat steps 2-6 for an account with the name <code>SUB_ADMIN</code>.
 
 Adding Accounts to Polkadot.js Extension
 
-<List>
+<List type="numbers">
 
 <li>
 
@@ -124,7 +124,7 @@ In an opened window upload the JSON file, enter the password and press <code>Res
 
 Purchasing Robonomics Subscription
 
-<List>
+<List >
 
 <li>
 
@@ -165,7 +165,7 @@ If no subscriptions are available, **please contact** the Robonomics team.
 
 Adding Account to Subscription
 
-<List>
+<List type="numbers">
 
 <li>
 
