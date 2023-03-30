@@ -107,7 +107,7 @@ Repeat these steps for the <code>SUB_CONTROLLER</code> account.
 
 Adding Accounts to Polkadot.js Extension
 
-<List>
+<List type="numbers">
 
 <li>
 
@@ -152,7 +152,7 @@ Confirm the metadata update in the popup. Now the extension will show the label 
 
 Activating Robonomics Subscription
 
-<List>
+<List >
 
 <li>
 
@@ -192,7 +192,7 @@ If no subscriptions are available, **please contact** the Robonomics team.
 
 Adding Account to Subscription
 
-<List>
+<List type="numbers">
 
 <li>
 

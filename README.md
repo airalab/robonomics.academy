@@ -106,37 +106,34 @@ If you want you image to zoom in you must use - "lesson-images"
 
 There are two ways for inserting videos in your documents:
 
+It is recommended to insert videos with built-in tag <lesson-video>, however you may also use standard way for Markdown files.
+
 `local file`
 
 ```c
-<LessonVideo local src="balena-robonomics-image-crop.mp4" />
+<LessonVideo autoplay loop controls :videos="[{src: '/videos/temp.mp4', type:'mp4'}]" />
 ```
 
-`server file` 
+`IPFS / Server`
+
+You need to specify format of video` 
 
 ```c
-<LessonVideo src="https://static.robonomics.network/wiki/balena-robonomics-image-crop.mp4" />
-```
-
-
-`video with controls` 
-
-```c
-<LessonVideo controls src="https://static.robonomics.network/wiki/balena-robonomics-image-crop.mp4" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.art/ipfs/QmdZKkPJCa9GEN43iUBX81jfrFTDxcn7J6wWURrwNVwcKx', type:'webm'}, {src: 'https://crustipfs.art/ipfs/QmStCDsEHCYwVYvnDdmZBMnobPmrgZx3iJLm65b8XNzKQa', type:'mp4'}]" />
 ```
 
 **Properties for LessonVideo**
 
 **IF YOU ADDING A FILE WITH THE SIZE OF MORE THAN 10MB, PLEASE, ADD IT TO THE SERVER NOT A LOCAL FOLDER!**
 
+- You may use any properties for [HTML5 video tag](https://www.w3schools.com/tags/tag_video.asp).
+
+- Acceptable formats - mp4, webm, ogg.
+
 | Property | Required | Default | Type    | Description                                                                                                                                                                                           |
 |----------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| src      | true     | -       | String  | path to the video:<br> - if you uploaded your video directly to the src/assets/videos/ use: url-of-your-doc<br> - and for the server just use the link: https://some_url_here/name_of_the_file.format |
-| local    | fasle    | false   | Boolean | helps to get the right path for the file.<br>- If your video located in a local folder prop must be set to true.                                                                                      |
-| controls | false    | false   | Boolean | add controls to your video                                                                                                                                                                            |
-| muted    | false    | true    | Boolean | mute the video                                                                                                                                                                                        |
-| autoplay | false    | true    | Boolean | use autoplay<br> - only works with muted = true in Chromium browsers                                                                                                                                  |
-| loop     | false    | trie    | Boolean | loop the video                                                                                                                                                                                        |
+| videos   | true     | -       | Array   | Array of objects [{src: 'path to video', type: 'type of video'}]                                                                                                                                      |    
+| local    | false    | false   | Boolean | helps to get the right path for the file. - If your video located in a local folder prop must be set to true.                                                                                                                                      |                                                                                                                                                                                     |
 
 
 ### YouTube videos

@@ -51,6 +51,10 @@ export default {
         margin-bottom: var(--gap);
     }
 
+    li strong {
+        font-weight: 600 !important;
+    }
+
     ul li a,
     ol li a {
       font-weight: 600 !important;
@@ -103,6 +107,14 @@ export default {
 
     .list__numbers > li{
         counter-increment: number;
+    }
+
+    .list__numbers li > .list__numbers li {
+        counter-increment: subNumber
+    }
+
+    .list__numbers li > .list__numbers li::before {
+        content: counter(subNumber);
     }
     /* NUMBERS end of */
 

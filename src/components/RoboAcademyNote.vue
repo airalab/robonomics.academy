@@ -1,9 +1,9 @@
 <template>
   <div v-if="title || this.$slots.default" :class="classList">
       <div v-if="title" class="lesson-note__title">{{title}}</div>
-      <div class="lesson-note__text" v-if="this.$slots.default">
-        <slot/>
-      </div>
+        <div class="lesson-note__text" v-if="this.$slots.default">
+          <slot/>
+        </div>
   </div>
 </template>
 
