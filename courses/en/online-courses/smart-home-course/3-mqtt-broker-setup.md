@@ -101,7 +101,7 @@ Setting up Home Assistant and MQTT
 
 Open the web browser and go to <code>http://%RASPBERRY_IP_ADDRESS%:8123</code>. (with same IP address which you found in the previous lesson). Be aware, that Raspberry Pi address may change in time due router settings. 
 
-<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmYd1Mh2VHVyF3WgvFsN3NFkozXscnCVmEV2YG86UKtK3C" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmYd1Mh2VHVyF3WgvFsN3NFkozXscnCVmEV2YG86UKtK3C', type:'mp4'}]" />
 
 </li>
 
@@ -126,7 +126,7 @@ On the next screen, Home Assistant will show any devices that it has discovered 
 
 Now we need to install a MQTT integration. Go to <code>Settings</code> -> <code>Devices & Services.</code>
 
-<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmYm9qNfpGdePRHRvmahY2DgHXRfAWNN6CasEY4tFRBARr" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmYm9qNfpGdePRHRvmahY2DgHXRfAWNN6CasEY4tFRBARr', type:'mp4'}]" />
 
 </li>
 
