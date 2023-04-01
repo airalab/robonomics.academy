@@ -44,7 +44,7 @@ Getting Telemetry
 
 Go to dapp and choose [SmartHome Telemetry](https://dapp.robonomics.network/#/smarthome-telemetry) service.
 
-<LessonVideo controls loop src="https://crustipfs.live/ipfs/Qmao9RoWcKo2qs4PAGtm5gqHzyAHJcpDqNLgciU35FJeVm" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/Qmao9RoWcKo2qs4PAGtm5gqHzyAHJcpDqNLgciU35FJeVm', type:'mp4'}]" />
 
 </li>
 
@@ -80,7 +80,7 @@ To create backups, a service is called that generates a secure archive with conf
 In order to restore your configuration, it is necessary to use a custom IPFS gateway such as Pinata (pinata.cloud) or Crust Network (crust.network). Without it, your backup will be stored solely on your local IPFS node, which may prevent you from restoring your Home Assistant configuration in the event of a local node failure. 
 </robo-academy-note>
 
-<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmVo91dLaAYgFDM1vrL2PYfAffM6SGGC59ZERbfHR44tqW" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmVo91dLaAYgFDM1vrL2PYfAffM6SGGC59ZERbfHR44tqW', type:'mp4'}]" />
 
 </li>
 
@@ -104,7 +104,7 @@ In order to restore your configuration, you will need to install a fresh Home As
 Since some devices connected to Home Assistant via Wi-Fi or MQTT require you to explicitly specify the local IP address of your Raspberry Pi, when restoring a backup, they may not be available due to a change in this IP. You will need to re-enter the new IP address in the settings of these devices. To avoid this, you can set up a static local IP for your Raspberry Pi in your router settings (if it supports this feature).
 </robo-academy-note>
 
-<LessonVideo controls loop src="https://crustipfs.live/ipfs/QmWmnmkXUcPXsAnQzwN3UEuki2GMYnQDx3vhgjEypCU8aR" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmWmnmkXUcPXsAnQzwN3UEuki2GMYnQDx3vhgjEypCU8aR', type:'mp4'}]" />
 
 
 </li>

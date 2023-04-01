@@ -62,7 +62,7 @@ Preparing and Configuring the Raspberry Pi
   Make sure that you input your actual Wi-Fi name and your Wi-Fi password.
   </robo-academy-note>
 
-  <LessonVideo controls loop src="https://crustipfs.live/ipfs/QmY3mEGvUNDT9bKhVhR21JY8RaWp3CB8JNAX1VDHMnwjxw" />
+  <LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmY3mEGvUNDT9bKhVhR21JY8RaWp3CB8JNAX1VDHMnwjxw', type:'mp4'}]" />
 
   </li>
 
