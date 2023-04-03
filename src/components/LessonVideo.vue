@@ -1,5 +1,5 @@
 <template>
-  <video ref="video" mute playsinline v-bind="$attrs" v-if="videos">
+  <video ref="video" mute v-bind="$attrs" v-if="videos">
     <template v-for="video in videos">
       <source :src="getSrc(video.src)" :type="`video/${video.type}`" :key="video.id" />
   </template>

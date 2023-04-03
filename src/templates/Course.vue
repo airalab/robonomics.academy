@@ -89,6 +89,10 @@
     display: flex;
   }
 
+  .lesson-section .container__reg {
+    padding: 0;
+  }
+
   .lesson-section ul li::before {
     content: "\2022" !important;
     color: var(--color-second) !important;
@@ -104,6 +108,12 @@
 
   .lesson-section .youtube-embed__wrapper {
     margin-bottom: var(--gap);
+  }
+
+  @media screen and (max-width: 560px) {
+    .lesson-section p {
+      font-size: 1rem;
+    }
   }
     
 
