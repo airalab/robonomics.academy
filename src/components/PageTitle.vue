@@ -192,6 +192,8 @@ export default {
 
   .section-lessonInfo {
     padding-bottom: 0;
+    min-height: 477px;
+    height: 100%;
   }
 
   .container__narrow, .lesson-update {max-width: 650px; }
