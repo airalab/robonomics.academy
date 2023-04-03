@@ -65,9 +65,9 @@ methods: {
 
     getSrc(src) {
       if(this.local) {
-        return require(`!!assets-loader!@/assets${src}`).src
+        return require(`!!assets-loader!@/assets${src}`).src + '#t=0.001'
       } else {
-        return src
+        return src + '#t=0.001'
       }
     }
   },
