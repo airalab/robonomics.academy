@@ -140,7 +140,11 @@
 
       if($cookies.get('userTracker') === 'allow metrics') {
         this.$gtag.pageview(this.$route)
-        this.$metrika.hit(this.$route)
+        this.$nextTick(() => {
+          if (this.$metrika) {
+            this.$metrika.hit(this.$route)
+          }
+        });
       }
 
       this.$store.commit('TOGGLE_SHOW_HEADER', true)
