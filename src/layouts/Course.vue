@@ -160,7 +160,10 @@
 
       if($cookies.get('userTracker') === 'allow metrics') {
         this.$gtag.pageview(this.$route)
-        this.$metrika.hit(this.$route)
+
+        setTimeout(() => {
+          this.$metrika.hit(this.$route)
+        }, 300)
       }
 
       this.$store.commit('TOGGLE_SHOW_HEADER', true)

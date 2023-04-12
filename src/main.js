@@ -184,13 +184,16 @@ export default function (Vue, { router, head, isClient, appOptions }) {
 
     Vue.use(VueYandexMetrika, {
       id: 91120268,
+      env: process.env.NODE_ENV,
       options:  {
         clickmap:true,
         trackLinks:true,
         accurateTrackBounce:true,
-        webvisor:true
+        webvisor:true,
+        
       }
-    })
+    });
   }
+  
   
 }

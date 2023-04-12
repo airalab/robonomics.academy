@@ -185,6 +185,8 @@ export default {
       meta: [
         { key: 'description', name: 'description', content: description },
 
+        { name: "yandex-verification", content: "291ac12dc046e37f" },
+
         // Some Open Graph Tags
         { property: "og:type", content: "website" },
         { property: "og:site_name", content: this.$static.metadata.siteName },
