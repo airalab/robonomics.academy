@@ -67,6 +67,17 @@
 
       this.metaImgPath = `/og/${final.substring(final.indexOf('/')+1)}`;
 
+    },
+
+    mounted() {
+
+      if($cookies.get('userTracker') === 'allow metrics') {
+        this.$gtag.pageview(this.$route)
+
+        setTimeout(() => {
+          this.$metrika.hit(this.$route)
+        }, 300)
+      }
     }
   
   }
