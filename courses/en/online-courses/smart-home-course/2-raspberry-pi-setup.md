@@ -147,11 +147,7 @@ Home Assistant Installation
   
   Create user <code>homeassistant</code> and the directory for Home Assistant Core:
 
-  <LessonCodeWrapper language="bash" noLines>sudo useradd -rm homeassistant</LessonCodeWrapper>
-
-  <LessonCodeWrapper language="bash" noLines>sudo mkdir /srv/homeassistant</LessonCodeWrapper>
-
-  <LessonCodeWrapper language="bash" codeClass="big-code" noLines>sudo chown homeassistant:homeassistant /srv/homeassistant</LessonCodeWrapper>
+  <LessonCodeWrapper language="bash" noLines>sudo useradd -rm homeassistant -d /srv/homeassistant -G dialout</LessonCodeWrapper>
   
   </li>
 
