@@ -47,7 +47,7 @@ y cómo la arquitectura Robonomics se adapta a las necesidades del moderno Inter
 
 <li>
 
-Lea la primera mitad del segundo capítulo del Whitepaper 2022 en nuestro [sitio web](hhttps://robonomics.network/architecture/).
+Lea la primera mitad del segundo capítulo del Whitepaper 2022 en nuestro [sitio web](https://robonomics.network/architecture/).
 
 </li>
 
