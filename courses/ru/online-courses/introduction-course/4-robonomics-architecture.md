@@ -47,7 +47,7 @@ metaOptions: [Онлайн курсы, Вводный курс]
 
 <li>
 
-Прочтите первую часть второй главы Whitepaper 2022  на нашем [сайте](hhttps://robonomics.network/architecture/).
+Прочтите первую часть второй главы Whitepaper 2022  на нашем [сайте](https://robonomics.network/architecture/).
 
 </li>
 

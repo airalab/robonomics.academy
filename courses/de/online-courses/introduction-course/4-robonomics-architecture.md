@@ -47,7 +47,7 @@ und wie sich die Robonomics-Architektur an die Bedürfnisse des modernen IoT anp
 
 <li>
 
-Lesen Sie die erste Hälfte des zweiten Kapitels des Whitepapers 2022 auf unserer [Webseite](hhttps://robonomics.network/architecture/).
+Lesen Sie die erste Hälfte des zweiten Kapitels des Whitepapers 2022 auf unserer [Webseite](https://robonomics.network/architecture/).
 
 </li>
 
