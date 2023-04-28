@@ -91,10 +91,4 @@ export default {
     }
 
     /* dark theme */
-    @media (prefers-color-scheme: dark) {
-        .lesson__tags  {
-            background-color: var(--color-brown-dark);
-            color: var(--color-light);   
-        }
-    }
 </style>

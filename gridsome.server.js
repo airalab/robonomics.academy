@@ -19,31 +19,18 @@ require.extensions['.yaml'] = function(module, filename) { // To safely load .ya
 }
 
 const courses = require('./src/data/online-courses.yaml')
-const playground = require('./src/data/playground.yaml')
 const imgsInfo = require('./src/data/images-info.yaml');
 
 // For generated images configuration
 const defaultOptions = {
   typeName: "Course",
   backgroundColors: [
-    "#F4E282"
+    "#fffc00"
   ],
   imgWidth: "1280px",
   imgHeight: "650px",
   domain: "robonommics.academy",
   basePath: "src/pages/online-courses/",
-  outputDir: "static/og/"
-};
-
-const defaultOptionsPlayground = {
-  typeName: "Playground",
-  backgroundColors: [
-    "#F4E282"
-  ],
-  imgWidth: "1280px",
-  imgHeight: "650px",
-  domain: "robonommics.academy",
-  basePath: "src/pages/playground/",
   outputDir: "static/og/"
 };
 
@@ -67,21 +54,13 @@ module.exports = function (api) {
 
   const options = { ...defaultOptions };
 
-  const playgroundOptions = { ...defaultOptionsPlayground };
-
   api.loadSource(async (actions) => {
 
     const collection = actions.getCollection('Course');
-    const playgroundCollection = actions.getCollection('Playground');
 
     collection.data().filter((e) => {
       if(e.path.includes('/en/'))
       allPossiblePaths.push({path: e.path, name: e.fileInfo.name})
-    })
-
-    playgroundCollection.data().filter((e) => {
-      if(e.path.includes('/en/'))
-      allPossiblePathsPlayground.push({path: e.path, name: e.fileInfo.name})
     })
 
     courses.forEach((course) => {
@@ -100,37 +79,21 @@ module.exports = function (api) {
       collection.data().forEach((lesson) => { // Generate images for lessons themselves
 
         if (lesson.internal.typeName === options.typeName) {
+
           
           const imgName = lesson.fileInfo.name;
           const lessonNamePart = lesson.title.substr(0, lesson.title.indexOf(',')); 
-          const lessonTitle = lesson.title.replace(lessonNamePart, '').slice(2).trim();
+          const lessonTitle = lessonNamePart ? lesson.title.replace(lessonNamePart, '').slice(2).trim() : lesson.title;
           const locale = lesson.fileInfo.path.slice(0,2);
-          const dir = lesson.fileInfo.directory.slice(18);
+          const dir = lesson.fileInfo.directory.slice(9);
           const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`
           const lessonOptions = [...lesson.metaOptions, lessonTitle];
-
           generateImage(output, lessonOptions, options)
+          
 
         }
 
       })
-    })
-
-    playgroundCollection.data().forEach((doc) => { // Generate images for playground docs
-
-      if (doc.internal.typeName === playgroundOptions.typeName) {
-        
-        const imgName = doc.fileInfo.name;
-        const docTitle = doc.title;
-        const locale = doc.fileInfo.path.slice(0,2);
-        const dir = doc.fileInfo.directory.slice(18);
-        const output = `${playgroundOptions.outputDir}${dir}/${imgName}-${locale}.png`
-        const docOptions = [...doc.metaOptions, docTitle];
-
-        generateImage(output, docOptions, options)
-
-      }
-
     })
 
     imgsInfo.forEach(img => {
@@ -139,7 +102,10 @@ module.exports = function (api) {
       generateImage(options.outputDir + img.certificate.imgName, img.certificate.options, options)
 
       // for online courses page
-      generateImage(options.outputDir + img['online-course'].imgName, img['online-course'].options, options)
+      // generateImage(options.outputDir + img['online-course'].imgName, img['online-course'].options, options)
+
+      // for learn page
+      // generateImage(options.outputDir + img.learn.imgName, img.learn.options, options)
     })
 
   })
@@ -158,22 +124,6 @@ module.exports = function (api) {
           createPage({
             path: `/${locale}/${path}`,
             component: './src/templates/AvailableCoursesTranslations.vue',
-          })
-        }
-      })
-    })
-    allPossiblePathsPlayground.forEach(node => {
-      // all locales
-      const locales = ["ru", "it", "es", "de", "pt" ];
-      const path = node.path.substring(4);
-
-      locales.forEach(locale => {
-        if (fs.existsSync(`docs/${locale}/${path.slice(0,-1)}.md`)) {
-          console.log('exists');
-        } else {
-          createPage({
-            path: `/${locale}/${path}`,
-            component: './src/templates/AvailablePlaygroundTranslations.vue',
           })
         }
       })

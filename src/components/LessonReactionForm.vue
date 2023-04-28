@@ -6,7 +6,7 @@
         <span class="lesson-reaction__check" v-if="$store.state.currentReaction === text">
         <!-- <font-awesome-icon icon="fa-solid fa-check" aria-hidden="true"/> -->
         </span>
-        <h3>{{ $store.state.currentReaction }}</h3>
+        <h3>{{ $store.state.currentReaction }}? Tell us more</h3>
       </div>
       <span tabindex="0" class="lesson-reaction__close" @click="$emit('closeForm')">
         <font-awesome-icon icon="fa-solid fa-xmark" aria-hidden="true"/>
@@ -47,10 +47,9 @@
           v-model="lessonTitle"
         />
 
-        <button class="lesson-reaction-form__btn" @click="form" :disabled="result === 'wait'">
+        <button class="lesson-reaction-form__btn btn-blue" @click="form" :disabled="result === 'wait'">
           <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'init' || result === 'error'">
-            <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true"/>
-            <span>Tell us more</span>
+            <span>Send</span>
           </div>
           <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'wait'">
             <Loader/>
@@ -137,14 +136,25 @@ export default {
 </script>
 
 <style scoped>
+  .lesson-reaction-form__form {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .lesson-reaction-form__form > div {
+    width: 100%;
+    height: 100%;
+  } 
 
   .lesson-reaction-form__wrapper {
     position: absolute;
     bottom: -67px;
     right: 20px;
-    width: 70%;
-    height: 238px;
+    width: 96%;
+    height: 458px;
     padding: calc(var(--gap) * 0.5) calc(var(--gap) * 1);
+    padding-top: calc(var(--gap) * 1.5);
     background-color:  var(--color-main);
     transform: translateY(-100%);
     overflow: hidden;
@@ -152,7 +162,7 @@ export default {
   }
 
   .lesson-reaction__wrapper.active .lesson-reaction-form__wrapper  {
-    border: 2px solid var(--color-brown-dark);
+    /* border: 2px solid var(--color-brown-dark); */
     /* border-radius: 30px; */
     animation: moveToBottom 0.5s linear forwards;
   }
@@ -167,13 +177,18 @@ export default {
   .lesson-reaction-form__header > div {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   .lesson-reaction-form__header h3 {
     margin-bottom: 0;
+    width: 100%;
     font-size: 1.3rem;
-    text-align: left;
+    font-weight: 900;
+    font-family: var(--font-main);
     white-space: nowrap;
+    text-align: center;
   }
 
   .lesson-reaction__check  {
@@ -189,21 +204,29 @@ export default {
   .lesson-reaction-form__form input,
   .lesson-reaction-form__form textarea {
     display: block;
+    margin: 0 auto;
     margin-bottom: 15px;
     font-size: 1rem;
-    width: 94%;
-    border-color: var(--color-brown-dark);
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+    padding: calc(var(--gap) * 0.5) var(--gap);
+    border-radius: calc(var(--gap) * 2);
+    color: var(--color-text);
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    background-color: var(--color-light);
+    box-shadow: 2px 5px 0 #000;
     color: var(--color-brown-dark);
     text-overflow: ellipsis;
   }
 
   .lesson-reaction-form__form textarea  {
     resize: none;
-    max-width: 100%;
-    max-height: 35px;
-    padding: 10px 60px;
+    max-height: 141px;
+    height: 100%;
+    border-radius: calc(var(--gap));
     padding-bottom: 0;
-    padding-left: 0;
     margin-bottom: 1rem;
   }
 
@@ -211,30 +234,23 @@ export default {
   .lesson-reaction-form__form textarea::placeholder {
     color: var(--color-brown-dark);
     font-size: 0.8rem;
+    line-height: 70px;
+    text-align: center;
   }
 
-  .lesson-reaction-form__form input:focus {
-    border-color: var(--color-bg);
-  }
-
-  .lesson-reaction-form__form textarea:focus {
-    border-color: var(--color-bg);
+  input:focus::placeholder,
+  textarea:focus::placeholder  {
+    color: var(--color-text);
+    opacity: 0.5;
   }
 
   .lesson-reaction-form__btn {
-    color: var(--color-light) !important;
-    padding: calc( var(--gap) * 0.3) calc( var(--gap) * 0.5);
-    font-size: 1.3rem;
-    background: var(--color-second);
-    border: 1px solid var(--color-second);
-    border-radius: 0;
-    transition: color 0.3s ease-in-out;
+    max-width: 500px;
+    width: 100%;
   }
 
   .lesson-reaction-form__btn:hover {
-    color: var(--color-accent) !important;
-    background: var(--color-second) !important;
-    border-color: transparent !important;
+    background-color: var(--color-dark);
   }
 
   .lesson-reaction-form__form.wait .lesson-reaction-form__btn {
@@ -257,6 +273,7 @@ export default {
   .lesson-reaction-form__btn-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     /* padding-left: 5px; */
     
   }

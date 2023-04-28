@@ -47,12 +47,6 @@ export default {
     transform: scale(1.05);
   }
 
-  @media (prefers-color-scheme: dark) {
-    .playground__item {
-      border: 1px solid #1e39c0;
-    }
-  }
-
 
   .playground__img-wrapper {
     margin-bottom: var(--gap);

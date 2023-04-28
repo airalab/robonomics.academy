@@ -60,7 +60,7 @@ export default {
 
   computed: {
     googleLink() {
-      return `https://calendar.google.com/calendar/u/0/r/eventedit?dates=${this.dates && this.dates.replace(/[^a-zA-Z0-9]/g, '') + '00' }/${this.max && this.max.replace(/[^a-zA-Z0-9]/g, '') + '00'}&ctz=${this.timezone}&details=&location=&text=Robonomics academy reminder: ${this.name} (${this.type}) `
+      return `https://calendar.google.com/calendar/u/0/r/eventedit?dates=${this.dates && this.dates.replace(/[^a-zA-Z0-9]/g, '') + '00' }/${this.max && this.max.replace(/[^a-zA-Z0-9]/g, '') + '00'}&ctz=${this.timezone}&details=&location=&text=Robonomics academy reminder: ${encodeURIComponent(this.name)} (${this.type}) `
     },
 
     outlookLink() {
@@ -139,19 +139,15 @@ export default {
 <style scoped>
   .add-to-calendar {
     position: absolute;
-    top: -32px;
-    right: 160px;
+    top: -214px;
+    right: 80px;
     width: 292px;
     height: 296px;
     padding: 2.5rem;
-    /* padding: calc(var(--gap) * 1.8) calc(var(--gap) * 1.5); */
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='258.004' height='267.754' viewBox='0 0 258.004 267.754'%3E%3Cpath id='Path_5460' data-name='Path 5460' d='M424.705,469.477c38.334,0,59.973-8.616,71.175-76.062S491.756,270.668,465.8,254.49,415.088,230.2,349.039,238.3s-94.356,16.189-94.356,111.958,38.334,106.558,54.846,110.6,72.216,7.7,72.216,7.7S389.826,469.344,424.705,469.477Z' transform='matrix(-0.087, -0.996, 0.996, -0.087, -189.115, 540.341)' fill='%234292e2' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: 100%;
-    /* background-color: var(--color-text-bubble); */
-    /* border-radius: 98% 127% 67% 57% / 111% 63% 101% 57%; */
-    /* border-radius: 103% 127% 97% 64% / 76% 60% 94% 72%; */
-    z-index: 1000;
+    z-index: 5;
     cursor: auto;
   }
 
@@ -258,18 +254,9 @@ export default {
     cursor: pointer;
   }
 
-  @media screen and (max-width: 750px) {
-    .add-to-calendar {
-      position: absolute;
-      top: -60px;
-      right: 80px;
-    }
-  }
-
   @media screen and (max-width: 500px) {
     .add-to-calendar {
-      position: absolute;
-      top: -90px;
+      top: -250px;
       right: unset;
     }
   }
