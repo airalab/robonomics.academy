@@ -57,6 +57,10 @@ export default {
     margin: 0 auto;
   }
 
+  .lesson-image figcaption {
+    margin-top: 10px;
+  }
+
   .mb {
     margin-bottom: var(--gap);
   }

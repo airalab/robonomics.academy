@@ -47,6 +47,7 @@ export default {
           break;
 
           default: 
+            VueCookies.set('userTracker', this.option);
             this.$store.commit('SET_USER_TRACKER', {option: 'no actions', localStorage: false, cookies: false, metrics: false})
         }
       }
@@ -179,10 +180,10 @@ export default {
     }
   }
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     .user-tracker__btn {
       color: var(--color-brown-dark) !important;
     }
-   }
+   } */
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div :class="{'no-copy-icon': noCopyIcon}">
+  <div :class="{'no-copy-icon': noCopyIcon, 'no-lines': noLines}">
 <prism :language="language" :class="codeClass">
   <slot></slot>
 </prism>
@@ -22,6 +22,10 @@ export default {
       default: ''
     },
     noCopyIcon:  {
+      type: Boolean,
+      default: false
+    },
+    noLines: {
       type: Boolean,
       default: false
     }

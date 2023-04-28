@@ -12,6 +12,7 @@ const generateHtml = require("./functions/generateHtml");
 const yaml = require("js-yaml");
 
 let allPossiblePaths = [];
+let allPossiblePathsPlayground = [];
 
 require.extensions['.yaml'] = function(module, filename) { // To safely load .yaml file via require
   module.exports = yaml.load(fs.readFileSync(filename, 'utf8'));
@@ -24,7 +25,7 @@ const imgsInfo = require('./src/data/images-info.yaml');
 const defaultOptions = {
   typeName: "Course",
   backgroundColors: [
-    "#F4E282"
+    "#fffc00"
   ],
   imgWidth: "1280px",
   imgHeight: "650px",
@@ -78,16 +79,17 @@ module.exports = function (api) {
       collection.data().forEach((lesson) => { // Generate images for lessons themselves
 
         if (lesson.internal.typeName === options.typeName) {
+
           
           const imgName = lesson.fileInfo.name;
           const lessonNamePart = lesson.title.substr(0, lesson.title.indexOf(',')); 
-          const lessonTitle = lesson.title.replace(lessonNamePart, '').slice(2).trim();
+          const lessonTitle = lessonNamePart ? lesson.title.replace(lessonNamePart, '').slice(2).trim() : lesson.title;
           const locale = lesson.fileInfo.path.slice(0,2);
-          const dir = lesson.fileInfo.directory.slice(18);
+          const dir = lesson.fileInfo.directory.slice(9);
           const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`
           const lessonOptions = [...lesson.metaOptions, lessonTitle];
-
           generateImage(output, lessonOptions, options)
+          
 
         }
 
@@ -100,7 +102,10 @@ module.exports = function (api) {
       generateImage(options.outputDir + img.certificate.imgName, img.certificate.options, options)
 
       // for online courses page
-      generateImage(options.outputDir + img['online-course'].imgName, img['online-course'].options, options)
+      // generateImage(options.outputDir + img['online-course'].imgName, img['online-course'].options, options)
+
+      // for learn page
+      // generateImage(options.outputDir + img.learn.imgName, img.learn.options, options)
     })
 
   })

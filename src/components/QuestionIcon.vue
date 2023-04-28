@@ -31,7 +31,7 @@ export default {
     color: var(--color-light);
     border-radius: 100px;
     border: 2px solid var(--color-light);
-    background-color: var(--color-main);
+    background-color: var(--color-dark);
     cursor: pointer;
     transition: all 1s;
     overflow: hidden;

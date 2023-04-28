@@ -1,5 +1,5 @@
 <template>
-    <g-link class="coursePreview" :to="'/online-courses/' + link">
+    <g-link class="coursePreview" :to="'/learn/' + link">
         <span class="coursePreview-title">
             <span class="coursePreview-title--span"><font-awesome-icon :icon="'fa-solid fa-' + icon" v-if="icon" class="coursePreview-icon" /></span>
             <span class="coursePreview-title--span">{{title}}</span>
@@ -75,6 +75,7 @@ export default {
     .coursePreview-title, .coursePreview-info {
         display: block;
         padding: var(--gap);
+        padding-right: calc(var(--gap) * 3);
         transition: 0.2s all linear;
     }
 
@@ -99,11 +100,4 @@ export default {
         top: calc(var(--gap) * 1);
     }
 
-
-    /* dark theme */
-    @media (prefers-color-scheme: dark) { 
-      .coursePreview-info {
-        color: var(--color-light);
-      }
-    }
 </style>

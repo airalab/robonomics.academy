@@ -35,6 +35,7 @@ jobs:
           GRIDSOME_CAPTCHAID: ${{ secrets.GRIDSOME_CAPTCHAID }}
           GRIDSOME_GS_CERTIFICATE: ${{ secrets.GRIDSOME_GS_CERTIFICATE }}
           GRIDSOME_GS_NEWS: ${{ secrets.GRIDSOME_GS_NEWS }}
+          GRIDSOME_GS_REACTION: ${{ secrets.GRIDSOME_GS_REACTION }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

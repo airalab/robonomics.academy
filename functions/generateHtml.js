@@ -27,7 +27,7 @@ module.exports = function (
       background-position: center;
       background-repeat: no-repeat;
       color: #162128;
-      font-family: 'Yeseva One', sans-serif;
+      font-family: 'Roboto serif', sans-serif;
       display: flex;
       flex-direction: row-reverse;
     }
@@ -66,8 +66,8 @@ module.exports = function (
     }
 
     .section:last-child {
-      border-color: #EE763E;
-      color: #EE763E;
+      border-color: #232323;
+      color: #232323;
       height: 100%;
     }
 
@@ -82,8 +82,8 @@ module.exports = function (
       position: absolute;
       right: 0;
       bottom: 0;
-      border-bottom: 50px solid #EE763E;
-      border-right: 50px solid #EE763E;
+      border-bottom: 50px solid #232323;
+      border-right: 50px solid #232323;
       border-top: 50px solid transparent;
       border-left: 50px solid transparent;
     }

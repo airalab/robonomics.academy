@@ -6,9 +6,9 @@
 
     <slot/>
 
-    <subscription />
+    <subscription v-if="!$route.path.includes('certificates')" />
 
-    <footer-slot/>
+    <!-- <footer-slot/> -->
 
     <client-only>
 
@@ -33,6 +33,12 @@
     mounted() {
       if($cookies.get('userTracker') === 'allow metrics') {
         this.$gtag.pageview(this.$route)
+
+        this.$nextTick(() => {
+          if (this.$metrika) {
+            this.$metrika.hit(this.$route)
+          }
+        });
       }
 
       if(this.$route.path.includes('online-courses') || this.$route.path.includes('certificates') || this.$route.path.includes('privacy-policy')) {

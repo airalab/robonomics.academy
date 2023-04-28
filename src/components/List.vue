@@ -51,12 +51,26 @@ export default {
         margin-bottom: var(--gap);
     }
 
+    li strong {
+        font-weight: 600 !important;
+    }
+
+    ul li a,
+    ol li a {
+      font-weight: 600 !important;
+    }
+
 
     /* PLUS */
     .list__plus li {
-        background: url('/plus.svg') no-repeat 0 8px;
+        background: url('/plus.svg') no-repeat 0 5px;
         padding-left: var(--gap);
     }
+
+    .list__plus li::before {
+        display: none;
+    }
+
 
     .list__bullets li::before {
         content: "\2022" !important;
@@ -83,7 +97,7 @@ export default {
 
     .list__numbers li:before {
         content: counter(number);
-        font-family: var(--font-title);
+        font-family: var(--font-secondary);
         font-size: calc(var(--font-size) * 1.5);
         font-weight: bold;
         left: 0;
@@ -98,6 +112,14 @@ export default {
 
     .list__numbers > li{
         counter-increment: number;
+    }
+
+    .list__numbers li > .list__numbers li {
+        counter-increment: subNumber
+    }
+
+    .list__numbers li > .list__numbers li::before {
+        content: counter(subNumber);
     }
     /* NUMBERS end of */
 

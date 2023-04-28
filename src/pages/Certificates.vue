@@ -2,13 +2,13 @@
   <Layout>
 
     <MetaInfo
-      pageTitle = "Apply for certificate"
+      pageTitle = "Apply for Certificate"
       pageDescription = "Collect blockchain proved certificate that you are familiar with the modern web technologies for the IoT."
       :pageImage = "'/og/apply-for-certificate'"
     />
 
     <page-title 
-      :title="$ts(`Apply for certificate`)"
+      :title="$ts(`Apply for Certificate`)"
       :breadcrumbs="breadcrumbs"
       />
 
@@ -23,7 +23,7 @@
 
             <label class="container__full">
               {{$ts('Select course that you passed')}}:<br/>
-              <select class="container__full" required data-gsp-name="course" :data-gsp-data="course" v-model="course">
+              <select class="container__full" required data-gsp-name="course" :data-gsp-data="enCourse || course" v-model="course">
                 <option v-for="item in courses" :key="item.id">{{$ts(item.title)}}</option>
               </select>
             </label>
@@ -61,6 +61,7 @@
               <span v-if="result === 'init' || result === 'error'">{{$ts('Request Certificate')}}</span>
               <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>
               <span v-if="result === 'success'">{{$ts('Your request has been sent')}}</span>
+              <Loader v-if="result === 'wait'"/>
             </button>
           </section>
 
@@ -73,14 +74,16 @@
 <script>
 
   import courses from '@/data/online-courses.yaml';
+  import translations from '@/data/locales/translations.yaml';
 
   export default {
   
     components: {
       PageTitle: () => import('~/components/PageTitle.vue'),
-      MetaInfo: () => import('~/components/MetaInfo.vue')
+      MetaInfo: () => import('~/components/MetaInfo.vue'),
+      Loader: () => import('~/components/Loader.vue'),
     },
-
+  
     data() {
       return {
         breadcrumbs: [
@@ -112,6 +115,12 @@
     computed: {
       courses() {
         return courses;
+      },
+      translations() {
+        return translations;
+      },
+      enCourse() {
+        return this.courseNameForGS(this.course);
       }
     },
 
@@ -126,27 +135,14 @@
         }
       },
 
-    },
-
-    // mounted(){
-    //   setInterval(()=> {
-    //     console.log('interval $response', this.$response)
-    //   }, 1500)
-    // },
-
-
-    // created() {
-    //   this.$watch('$response', {
-    //     handler(newVal){
-    //       console.log('$response newVal',newVal)
-    //       // console.log('this.result',this.result)
-    //       // this.result = newVal
-    //     },
-    //     immediate: true
-    //   })
-    // },
-
-
+      courseNameForGS(alias) {
+        for (const item of this.translations) {
+          if (item[this.$locale] === alias){
+            return eval(`item.en`)
+          } 
+        }
+      }
+    }
   }
 </script>
 
@@ -164,5 +160,10 @@
 
   form.success button {
     --btn-color: var(--color-green);
+  }
+
+  form.wait .loader {
+    width: 20px;
+    height: 20px;
   }
 </style>

@@ -30,7 +30,10 @@ module.exports = {
         typeName: 'Course',
         baseDir: './courses', 
         // pathPrefix: '/online-course',
-        template: './src/templates/Course.vue' 
+        template: './src/templates/Course.vue',
+        plugins: [
+          ['@noxify/gridsome-plugin-remark-embed', {'enabledProviders' : ['Youtube']}],
+        ]
       }
     },
     {
@@ -39,11 +42,11 @@ module.exports = {
     {
       use: 'gridsome-plugin-seo'
     },
-    {
-      use: 'gridsome-plugin-yandex-metrika',
-      options: {
-        id: 91120268
-      }
-    }
+    // {
+    //   use: 'gridsome-plugin-yandex-metrika',
+    //   options: {
+    //     id: 91120268
+    //   }
+    // }
   ]
 }

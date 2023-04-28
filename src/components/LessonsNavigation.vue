@@ -3,10 +3,10 @@
     <nav aria-labelledby="Lessons navigation" :class="{ short: !prevPath }">
       <g-link class="btn navigation__button" v-if="prevPath" :to="prevPath">
         <font-awesome-icon icon="fa-solid fa-arrow-left-long" />
-        {{$ts('Previous Lesson')}}
+        {{ course ? $ts('Previous Lesson') : $ts('Previous Page') }}
       </g-link>
       <g-link class="btn navigation__button" v-if="nextPath" :to="nextPath">
-        {{$ts('Next Lesson')}}
+         {{ course ? $ts('Next Lesson') : $ts('Next Page') }}
         <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
       </g-link>
     </nav>
@@ -22,34 +22,56 @@ export default {
       default: null,
       required: true,
     },
+
     course: {
       type: Object,
       default(rawProps) {
-        return { path: rawProps.path, lessons: rawProps.lessons }
+          if(rawProps) {
+            return { path: rawProps.path, lessons: rawProps.lessons }
+          }
       },
-      required: true,
+    },
+
+    docs: {
+      type: Array,
+    },
+
+    current: {
+      type: Number
     }
   },
-  methods: {
-  },
   computed: {
+
     prevPath() {
-      let path = `/online-courses/${this.course.path}/`;
-      if (this.lessonId - 2 >= 0) {
-        path += this.course.lessons[this.lessonId - 2].path;
+      if(this.course) {
+        let path = `/online-courses/${this.course.path}/`;
+        if (this.lessonId - 2 >= 0) {
+          path += this.course.lessons[this.lessonId - 2].path;
+        } else {
+          path = false;
+        }
+        return path
       } else {
-        path = false;
+        if(this.current > -1 && this.current !== 0) {
+          return 'playground/' + this.docs[this.current - 1].path
+        }
       }
-      return path
     },
+
     nextPath() {
-      let path = `/online-courses/${this.course.path}/`;
-      if (this.lessonId < this.course.lessons.length) {
-        path += this.course.lessons[this.lessonId].path;
+      if(this.course) {
+        let path = `/online-courses/${this.course.path}/`;
+        if (this.lessonId < this.course.lessons.length) {
+          path += this.course.lessons[this.lessonId].path;
+        } else {
+          path = false;
+        }
+        return path;
       } else {
-        path = false;
+        if(this.current > -1 && this.current !== this.docs.length - 1) {
+          return 'playground/' + this.docs[this.current + 1].path
+        }
       }
-      return path;
     }
   }
 }
@@ -73,19 +95,36 @@ nav {
 .navigation__button {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 310px;
   background-color: transparent;
   border-radius: 0;
   border: 3px solid transparent;
   color: var(--color-blue) !important;
   padding: calc(var(--gap) * 0.5);
+  text-transform: none;
 }
 
 .navigation__button:hover {
   color: var(--color-text) !important;
   background-color: transparent !important;
   border: 3px solid transparent !important;
+}
+
+.navigation__button:first-of-type {
+  justify-content: flex-start;
+}
+
+.navigation__button:first-of-type svg {
+  margin-right: calc(var(--gap) * 0.5);
+}
+
+.navigation__button:last-of-type {
+  justify-content: flex-end;
+}
+
+.navigation__button:last-of-type svg {
+  margin-left: calc(var(--gap) * 0.5);
 }
 
 

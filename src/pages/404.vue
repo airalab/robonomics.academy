@@ -6,17 +6,16 @@
       pageDescription = "Sorry, nothing here"
     />
 
-    <div class="page-404 container__wide">
-
+    <div class="page-404">
       <h1>404</h1>
 
-      <p>You came to wrong auditory</p>
+      <p>You've come to the wrong classroom</p>
 
       <div class="page-404__image">
-        <g-image src="../assets/images/page-404.png" alt="not found"/>
+        <g-image  src="../assets/images/page-404.svg" alt="not found"/>
       </div>
 
-      <g-link to="/">go to main campus</g-link>
+      <g-link to="/">Return to main campus</g-link>
     </div>
   </div>
 </template>
@@ -34,23 +33,26 @@
 <style scoped>
   .page-404 {
     position: relative;
-    /* min-height: 550px;
-    height: calc(100vh - 445px); */
-    padding-top: calc(var(--gap) * 2);
-    /* padding-bottom: var(--gap); */
+    height: calc(100vh - 60px);
+    padding-top: var(--gap);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    font-family: var(--font-title);
+    text-align: center;
     overflow: hidden;
   }
   .page-404 h1 {
     font-size: 5rem;
+    margin: auto 0;
     margin-bottom: 0;
   }
   .page-404 p {
     font-weight: 600;
     font-size: 1.5rem;
+    margin: auto 0;
+    margin-top: 0;
   }
   .page-404 a {
     position: absolute;
@@ -60,9 +62,9 @@
 
   .page-404__image {
     position: relative;
-    max-width: 1626px;
-    width: 1626px;
-    height: 478px;
+    max-width: 1300px;
+    width: 1300px;
+    height: 430px;
   }
 
   .page-404__image img {
