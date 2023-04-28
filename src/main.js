@@ -171,6 +171,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       },
       REMOVE_ACTIVE_TAGS(state, tag) {
         state.activeTags = state.activeTags.filter(t => t !== tag);
+      },
+      REMOVE_ALL_TAGS(state) {
+        state.activeTags = [];
       }
    },
   });

@@ -86,6 +86,7 @@ export default {
 
   mounted() {
     this.$store.commit('TOGGLE_SHOW_HEADER', true)
+    this.$store.commit('REMOVE_ALL_TAGS')
   }
 
 }
