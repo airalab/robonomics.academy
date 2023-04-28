@@ -1,7 +1,10 @@
 <template>
   <Layout>
-    <div class="redirect">This page has moved to a <a class="btn" :href="redirect">{{ ' https://robonomics.academy' + redirect }}</a>.
-      Automatic redirecting</div>
+    <div class="redirect container__mid">
+      <p>This page has moved to a </p>
+      <a class="btn" :href="redirect">{{ ' https://robonomics.academy' + redirect }}</a>
+      <p>Automatic redirecting</p>
+    </div>
   </Layout>
 </template>
 
@@ -39,8 +42,15 @@ export default {
   min-height: 100vh;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-weight: 600;
+  overflow: hidden;
+}
+
+.redirect a {
+  display: block;
+  margin-bottom: var(--gap);
 }
 </style>
