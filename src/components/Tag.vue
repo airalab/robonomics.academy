@@ -82,7 +82,7 @@ export default {
 
   .delete-tag {
     display: inline-block;
-    padding: calc(0 var(--gap) * 0.5);
+    padding: calc(var(--gap) * 0.5);
     width: 18px;
     height: 18px;
     background-image: url("data:image/svg+xml,%3Csvg width='23' height='23' viewBox='0 0 23 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 2L20.7383 20.7383' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M20.7383 2L1.99995 20.7383' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E%0A");
