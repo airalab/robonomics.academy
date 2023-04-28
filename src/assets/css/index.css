@@ -679,6 +679,25 @@ table thead tr{
   transition: all 0.3s;
 }
 
+.course-in-progress {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: url('../images//discover-image.png');
+  background-position: top;
+  background-size: contain;
+}
+
+.course-in-progress span {
+  display: inline-block;
+  padding: calc(var(--gap) * 0.2) var(--gap);
+  color: var(--color-main);
+  background-color: var(--color-dark);
+}
+
 
 /* dark theme */
 

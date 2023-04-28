@@ -4,6 +4,7 @@
   level: 3
   tags: ['course']
   img: null
+  progress: done
   lessons:
     - id: '0'
       title: 'Introduction to the ideas of Robonomics'
@@ -49,6 +50,7 @@
   level: 3
   tags: ['course', 'real-life setup']
   img: null
+  progress: done
   lessons:
     - id: '0'
       title: 'Sovereign Smart Home with Robonomics and Home Assistant'
@@ -115,6 +117,7 @@
   level: 4
   tags: ['guide', 'real-life setup']
   img: null
+  progress: done
   lessons:
     - id: '0'
       title: 'Sensors Connectivity & Decentralized Sensors Network'
@@ -178,6 +181,7 @@
   level: 4
   tags: ['guide', 'launch simulation']
   img: 'playground-mars-curiosity.png'
+  progress: done
 - id: '6'
   title: 'Connect ROS-compatible drone'
   path: 'connect-any-ros-compatible-drone'
@@ -188,6 +192,7 @@
   level: 4
   tags: ['guide', 'launch simulation']
   img: 'playground-connect-drone.png'
+  progress: done
 - id: '7'
   title: 'Connect Kuka manipulator'
   path: 'kuka'
@@ -198,6 +203,7 @@
   level: 4
   tags: ['guide', 'launch simulation']
   img: 'playground-kuka.png'
+  progress: done
 - id: '8'
   title: 'Connect unmanned aerial vehicle'
   path: 'iris-drone'
@@ -208,6 +214,7 @@
   level: 4
   tags: ['guide', 'launch simulation']
   img: 'playground-connect-vehicle.png'
+  progress: done
 - id: '9'
   title: 'Control Baxter robot'
   path: 'baxter'
@@ -218,6 +225,7 @@
   level: 4
   tags: ['guide', 'launch simulation']
   img: 'playground-baxter.png'
+  progress: done
 - id: '10'
   title: 'ROS-based projects for smart spaces'
   path: 'ros-smart-projects'
@@ -228,9 +236,11 @@
   level: 4
   tags: ['guide']
   img: null
+  progress: done
 - id: '11'
   title: 'Operate Boston Dynamics Spot'
   path: 'spot-try-it-out'
+  progress: done
   lessons:
     - id: '0'
       title: 'Operate Boston Dynamics Spot'
@@ -238,3 +248,28 @@
   level: 4
   tags: ['guide', 'launch simulation']
   img: 'playground-spot.png'
+- id: '12'
+  title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
+  path: 'ai-based-bachelor-thesis'
+  level: 0
+  tags: ['guide']
+  progress: in progress
+  lessons:
+    - id: '0'
+      title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
+      path: ''
+    - id: '1'
+      title: 'Writing: Introduction'
+      path: 'writing-introduction'
+    - id: '2'
+      title: 'Writing: Literature Review'
+      path: 'writing-literature-review'
+    - id: '3'
+      title: 'Writing: Methods'
+      path: 'writing-methods'
+    - id: '4'
+      title: 'Writing: Results'
+      path: 'writing-results'
+    - id: '5'
+      title: 'Writing: Conclusion '
+      path: 'writing-conclusion'
