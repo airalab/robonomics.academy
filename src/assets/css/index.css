@@ -85,7 +85,7 @@ body *::selection {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: var(--font-main);
+  font-family: var(--font-secondary);
   text-align: center;
 }
 
@@ -405,6 +405,13 @@ select[disabled]
 {
   border-color: var(--color-green);
   color: var(--color-green);
+}
+
+input, textarea {
+  -webkit-user-select: text; 
+  -moz-user-select: text; 
+  -ms-user-select: text;
+  user-select: text; 
 }
 
 select:valid,

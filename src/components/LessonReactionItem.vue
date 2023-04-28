@@ -128,6 +128,7 @@ export default {
     display: inline-block;
     margin-bottom: 1rem;
     max-width: 108px;
+    min-width: 65px;
     width: 100%;
   }
 

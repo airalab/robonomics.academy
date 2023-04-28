@@ -50,7 +50,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: var(--gap);
+    margin-bottom: calc(var(--gap) * 2);
   }
 
   @media screen and (max-width: 920px) {

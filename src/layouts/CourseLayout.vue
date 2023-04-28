@@ -179,6 +179,10 @@
     grid-template-columns: 440px minmax(350px, 1fr);
   }
 
+  .course h1, .course h2, .course h3, .course h4, .course h5 {
+    font-family: var(--font-secondary);
+  }
+
   /* .course-without-tr {
     grid-template-columns: minmax(350px, 1fr);
   } */
