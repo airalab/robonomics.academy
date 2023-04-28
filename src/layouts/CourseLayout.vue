@@ -184,6 +184,10 @@
     grid-template-columns: 440px minmax(350px, 1fr);
   }
 
+  .course .container__mid {
+    padding: 0 calc(var(--gap) * 0.6);
+  }
+
   .course h1, .course h2, .course h3, .course h4, .course h5 {
     font-family: var(--font-secondary);
   }
