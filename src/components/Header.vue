@@ -4,7 +4,7 @@
 
         <div class="header-logo__wrapper">
 
-            <g-link v-if="$store.state.showHeader" class="logo header__section" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
+            <g-link v-if="$store.state.showHeader" class="logo header__section" to="/"><g-image :immediate="true" src="@/assets/images/logo.svg" /></g-link>
 
         </div>
 

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="redirect oldy">This page has moved to a <a :href="redirect">{{ 'https://robonomics.academy ' + redirect }}</a>.
+    <div class="redirect">This page has moved to a <a class="btn" :href="redirect">{{ ' https://robonomics.academy' + redirect }}</a>.
       Automatic redirecting</div>
   </Layout>
 </template>

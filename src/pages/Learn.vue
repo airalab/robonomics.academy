@@ -50,7 +50,11 @@ export default {
 
   computed: {
     courses() {
-      return courses
+      return courses;
+    },
+
+    reverseCourses() {
+      return this.courses.map((item,idx) => this.courses[this.courses.length-1-idx])
     },
 
     activeTags() {
@@ -61,7 +65,7 @@ export default {
     filteredCourses() {
       const filtered = [];
       if(this.activeTags.length) {
-          this.courses.forEach((course) => {
+          this.reverseCourses.forEach((course) => {
           
           const courseContainsTag = (tag) => {
             return course.tags.indexOf(tag) != -1;
@@ -73,7 +77,7 @@ export default {
         });
         return filtered
       } else {
-        return this.courses
+        return this.reverseCourses
       }
     }
   },

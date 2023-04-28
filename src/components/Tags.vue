@@ -57,7 +57,7 @@ export default {
     .tags {
       justify-content: flex-start;
       flex-wrap: wrap;
-      gap: var(--gap);
+      gap: calc(var(--gap) * 0.4);
     }
   }
 </style>
