@@ -112,9 +112,135 @@ module.exports = function (api) {
 
   api.createPages(({ createPage }) => {
 
+    // all locales
+    const locales = ["ru", "it", "es", "de", "pt" ];
+
+    const localesAll = ["ru", "it", "es", "de", "pt", "en"];
+
+    const oldPaths = ['/online-courses/', '/playground/'];
+
+    const oldCourses = [
+      {
+        old: 'introduction-course/1-broadcasting-through-the-black-mirror',
+        new: 'introduction-course/broadcasting-through-the-black-mirror'
+      },
+      {
+        old: 'introduction-course/2-at-the-intersection-of-cybernetics-and-economics',
+        new: 'introduction-course/at-the-intersection-of-cybernetics-and-economics'
+      },
+      {
+        old: 'introduction-course/3-polkadot-ecosystem-for-home-iot-infrastructure',
+        new: 'introduction-course/polkadot-ecosystem-for-home-iot-infrastructure'
+      },
+      {
+        old: 'introduction-course/4-robonomics-architecture',
+        new: 'introduction-course/robonomics-architecture',
+      },
+      {
+        old: 'introduction-course/5-iot-subscriptions-using-robonomics-parachain',
+        new: 'introduction-course/iot-subscriptions-using-robonomics-parachain'
+      },
+      {
+        old: 'introduction-course/5-iot-subscriptions-using-robonomics-parachain',
+        new: 'introduction-course/iot-subscriptions-using-robonomics-parachain'
+      },
+      {
+        old: 'smart-home-course/1-robonomics-hass-theory',
+        new: 'smart-home-course/robonomics-hass-theory'
+      },
+      {
+        old: 'smart-home-course/2-raspberry-pi-setup',
+        new: 'smart-home-course/raspberry-pi-setup'
+      },
+      {
+        old: 'smart-home-course/3-mqtt-broker-setup',
+        new: 'smart-home-course/mqtt-broker-setup'
+      },
+      {
+        old: 'smart-home-course/4-a-gateway-setup-zigbee2mqtt',
+        new: 'smart-home-course/gateway-setup-zigbee2mqtt'
+      },
+      {
+        old: 'smart-home-course/4-b-gateway-setup-robonomics-sls-gateway',
+        new: 'smart-home-course/gateway-setup-robonomics-sls-gateway'
+      },
+      {
+        old: 'smart-home-course/5-robonomics-iot-subscription-setup',
+        new: 'smart-home-course/robonomics-iot-subscription-setup'
+      },
+      {
+        old: 'smart-home-course/6-robonomics-integration-setup',
+        new: 'smart-home-course/robonomics-integration-setup'
+      },
+      {
+        old: 'smart-home-course/7-usage-of-robonomics-with-hass',
+        new: 'smart-home-course/usage-of-robonomics-with-hass'
+      },
+      {
+        old: 'sensors-connectivity-course/1-introduction',
+        new: 'sensors-connectivity-course/introduction'
+      },
+      {
+        old: 'sensors-connectivity-course/2-sensor-hardware',
+        new: 'sensors-connectivity-course/sensor-hardware'
+      },
+      {
+        old: 'sensors-connectivity-course/3-setting-up-and-connecting-sensors',
+        new: 'sensors-connectivity-course/setting-up-and-connecting-sensors'
+      },
+      {
+        old: 'sensors-connectivity-course/4-sensors-connectivity-module',
+        new: 'sensors-connectivity-course/sensors-connectivity-module'
+      },
+      {
+        old: 'sensors-connectivity-course/5-sensors-connectivity-config-options',
+        new: 'sensors-connectivity-course/sensors-connectivity-config-options'
+      },
+      {
+        old: 'sensors-connectivity-course/6-sensor-map-deployment',
+        new: 'sensors-connectivity-course/sensor-map-deployment'
+      },
+      {
+        old: 'sensors-connectivity-course/7-robonomics-sensors-measure-analytics-and-archive-node',
+        new: 'sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node'
+      },
+    ]
+
+    const oldPlayground = ['connect-mars-curiosity-rover', 'connect-any-ros-compatible-drone', 'kuka', 'iris-drone', 'baxter', 'ros-smart-projects', 'spot-try-it-out']
+
+    const createNewRedirect = (path, redirect, ) => {
+      localesAll.forEach(l => {
+        createPage(
+          {
+              path: `/${l}${path}`,
+              component: 'src/pages/redirect.vue',
+              context: {
+                redirect: redirect
+              }
+          }
+        )
+      })
+    }
+    
+    oldPaths.forEach(path => {
+      createNewRedirect(path, '/learn')
+    })
+
+    createNewRedirect(`/online-courses/introduction-course`, '/learn/introduction-course')
+    createNewRedirect(`/online-courses/smart-home-course`, '/learn/smart-home-course')
+    createNewRedirect(`/online-courses/sensors-connectivity-course`, '/learn/sensors-connectivity-course')
+
+    oldCourses.forEach(path => {
+      createNewRedirect(`/online-courses/${path.old}`, `/learn/${path.new}`,)
+    })
+
+    oldPlayground.forEach(path => {
+      createNewRedirect(`/playground/${path}`, `/learn/${path}`)
+    })
+ 
+
     allPossiblePaths.forEach(node => {
-      // all locales
-      const locales = ["ru", "it", "es", "de", "pt" ];
+
       const path = node.path.substring(4);
 
       locales.forEach(locale => {

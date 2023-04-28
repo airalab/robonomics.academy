@@ -32,9 +32,9 @@
         class="lessons-aside__item"
         v-for="lesson in course.lessons"
         :key="lesson.id"
-        :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 }, {'lessons-aside__item--zero': lesson.id == 0}]"
+        :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 }, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'in progress'}]"
       >
-        <g-link :to="`learn/${course.path}/${lesson.path}`">
+        <g-link :to="course.progress !== 'in progress' ? `learn/${course.path}/${lesson.path}` : ''">
           {{  $ts(lesson.title ) }}
         </g-link>
       </li>
@@ -69,6 +69,7 @@ export default {
       type: String,
       default: ''
     },
+
     isSidebarOpen: {
       type: Boolean,
       default: false
@@ -99,7 +100,11 @@ export default {
     getTitle() {
       const path =  this.$route.path; 
       const title = path.match(/\/([^\/]+)[\/]?$/);
-      this.path = title[1]
+
+      if(title) {
+        this.path = title[1]
+      }
+
     }
   },
 
@@ -189,6 +194,11 @@ export default {
   .lessons-aside__item--zero {
     counter-reset: number -1;
   }
+  
+  .lessons-aside__item--in-progress a {
+    cursor: default;
+  }
+
 
   .lessons-aside__item a {
     display: block;
@@ -199,6 +209,10 @@ export default {
 
   .lessons-aside__item:hover {
     background-color: #c2dcecc6;
+  }
+
+  .lessons-aside__item--in-progress:hover {
+    background-color: transparent;
   }
   
 

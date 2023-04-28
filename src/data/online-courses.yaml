@@ -10,7 +10,7 @@
       time: '~ 15 min'
       tools: 'Polkadot.js extension'
       image: 'introduction-course/1.png'
-      path: 'broadcasting-through-the-black-mirror'
+      path: '1-roadcasting-through-the-black-mirror'
     - id: '2'
       title: 'At the Intersection of Cybernetics and Economics'
       activity: 'Theory'

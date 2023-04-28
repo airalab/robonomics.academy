@@ -1,9 +1,10 @@
 <template>
-    <g-link class="learn__link" :to="`learn/${item.path}`">
+    <g-link class="learn__link" :class="{'in-progress': item.progress === 'in progress'}" :to="`learn/${item.path}`">
       <ul class="learn__tags">
         <li v-for="tag in item.tags" :key="tag.id" class="tag learn__tag">
           {{ tag }}
         </li>
+        <span v-if="item.progress === 'in progress'">(coming soon)</span>
       </ul>
       <div v-if="item.lessons.length > 1" class="learn__lessons lessons-count">
         <span>{{ item.lessons.length }}</span>
@@ -43,7 +44,10 @@ export default {
       padding: calc(var(--gap) * 0.5);
       background-color: var(--color-main);
       border: 3px solid var(--color);
+    }
 
+    .learn__link.in-progress {
+      opacity: 0.7;
     }
 
     .learn__link > div {
