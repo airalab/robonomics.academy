@@ -1,6 +1,6 @@
 <template>
   
-  <LayoutCourse :courseId="String($page.course.courseID)" :lessonId="String($page.course.lessonNumber)">
+  <CourseLayout :courseId="String($page.course.courseID)" :title="String($page.course.title)" :defaultTitle="String($page.course.defaultName)">
   
   
     <MetaInfo
@@ -11,12 +11,11 @@
   
   
       <section class="text__hyphened">
-        <section class="container__reg lesson-section">
+        <section class="lesson-section container__mid">
           <VueRemarkContent />
         </section>
-
       </section>
-  </LayoutCourse>
+  </CourseLayout>
   
 </template>
 
@@ -35,6 +34,7 @@
         name
       }
       lessonNumber
+      defaultName
     }
   }
   </page-query>
@@ -80,6 +80,7 @@
           }
         });
       }
+
     }
   
   }
@@ -87,6 +88,29 @@
 
 
 <style>
+
+  .text__hyphened {
+    margin-top: calc(var(--gap) * 2);
+  }
+
+  .lesson-section {
+    /* padding: var(--gap); */
+    text-align: left;
+  }
+
+  .lesson-section h2 {
+    text-align: left;
+    font-family: var(--font-main);
+    margin-bottom: calc(var(--gap) * 1.2);
+  }
+
+  .lesson-section h1, .lesson-section h2,   .lesson-section h3,   .lesson-section h4,   .lesson-section h5,   .lesson-section h6 {
+    text-align: left;
+  }
+
+  .lesson-section p {
+    line-height: 1.7;
+  }
 
   .lesson-section ul  {
     margin-bottom: var(--gap);

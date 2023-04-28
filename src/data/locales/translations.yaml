@@ -365,12 +365,12 @@
   de: Robonomics implementiert den Austausch von technischen und wirtschaftlichen Informationen in Form von atomaren Transaktionen zwischen Benutzeranwendungen, IoT-Diensten und komplexer Robotik.
 
 - alias: User Dapp
-  en: User Dapp
+  en: User (D)app
   es: Aplicación de usuario
-  ru: Пользователь Dapp
-  it: Utente Dapp
-  pt: Usuário Dapp
-  de: Anwender Dapp
+  ru: Пользователь (D)app
+  it: Utente (D)app
+  pt: Usuário (D)app
+  de: Anwender (D)app
 
 - alias: Function Request
   en: Function request

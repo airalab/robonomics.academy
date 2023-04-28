@@ -8,7 +8,7 @@
 
     <subscription v-if="!$route.path.includes('certificates')" />
 
-    <footer-slot/>
+    <!-- <footer-slot/> -->
 
     <client-only>
 

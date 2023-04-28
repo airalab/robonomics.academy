@@ -1,6 +1,6 @@
 <template>
-  <section class="lesson-reaction container__reg" :class="{'lesson-reaction__withForm': $store.state.currentReaction}">
-    <div class="container__reg grid-4">
+  <section class="lesson-reaction" :class="{'lesson-reaction__withForm': $store.state.currentReaction}">
+    <div class="container__wide grid-4">
       <LessonReactionItem v-for="reaction in reactions" :key="reaction.id" :text="reaction.text" :imgSrc="reaction.img" :lessonTitle="lessonTitle" />
     </div>
   </section>
@@ -61,7 +61,7 @@ export default {
   }
 
   .lesson-reaction__withForm {
-    height: 400px;
+    height: 640px;
   }
 
   .container__reg {
@@ -79,7 +79,7 @@ export default {
     }
 
     .lesson-reaction__withForm {
-      height: 650px;
+      height: 870px;
     }
 
   }
@@ -90,7 +90,7 @@ export default {
     }
 
     .lesson-reaction__withForm {
-      height: 1100px;
+      height: 1350px;
     }
 
   }

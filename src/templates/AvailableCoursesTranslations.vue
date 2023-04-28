@@ -1,6 +1,6 @@
 <template>
 
-  <LayoutCourse :courseId="String(courseID)" :lessonId="String(lessonNumber)" noTranslations>
+  <CourseLayout :courseId="String(courseID)" :lessonId="String(lessonNumber)" noTranslations :defaultTitle="defaultName">
 
     <MetaInfo
         pageTitle = "Available Translations"
@@ -29,7 +29,7 @@
 
     </section>
 
-  </LayoutCourse>
+  </CourseLayout>
   
 </template>
 
@@ -45,6 +45,7 @@
           path
           lessonNumber
           courseID
+          defaultName
         }
       }
     }
@@ -64,7 +65,8 @@ export default {
     return {
       lessonTitle: '',
       courseID: '',
-      lessonNumber: ''
+      lessonNumber: '',
+      defaultName: '',
     }
   },
 
@@ -99,6 +101,7 @@ export default {
 
     this.courseID = this.lessonsList[0].node.courseID;
     this.lessonNumber = this.lessonsList[0].node.lessonNumber;
+    this.defaultName = this.lessonsList[0].node.defaultName;
   }
 
 }
@@ -108,6 +111,7 @@ export default {
 <style scoped>
 
   .no-translations__wrapper {
+    min-height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,6 +121,12 @@ export default {
   .no-translations__link {
     width: 60%;
     text-align: center;
+  }
+
+  .no-translations__link:hover {
+    border: 1px solid var(--color-dark);
+    background-color: var(--color-dark);
+    color: var(--color-light);
   }
 
   .no-translations__link:not(:last-of-type) {
@@ -131,17 +141,6 @@ export default {
     .no-translations__link {
       width: 100%;
       text-align: center;
-    }
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .no-translations__link {
-      color: var(--color-second) !important;
-      border-color: var(--color-second) !important;
-    }
-
-    .no-translations__link:hover {
-      background-color: #fff !important;
     }
   }
 </style>

@@ -260,7 +260,7 @@ export default {
   }
 
   a {
-    color: var(--color-light-lesson)
+    color: #37393c;
   }
 
   a:hover {
@@ -312,9 +312,4 @@ export default {
     }
   }
 
-  @media (prefers-color-scheme: dark) { 
-    a:hover {
-      color: var(--color-light)
-    }
-  }
 </style>

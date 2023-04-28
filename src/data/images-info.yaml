@@ -1,10 +1,10 @@
 - locale: en 
-  online-course:
-    imgName: "online-courses-en.png"
-    options: [Online courses]
   certificate:
     imgName: "apply-for-certificate-en.png"
     options: [Apply for certificate]
+  learn:
+    imgName: "learn-en.png"
+    options: [Learn]
   courses:
     - title: Introduction Course
       imgName: "/cover-en.png"
@@ -20,12 +20,12 @@
       options: [Online Courses, Sensors Connectivity & Decentralized Sensors Network]
 
 - locale: es 
-  online-course:
-    imgName: "online-courses-es.png"
-    options: [Cursos online]
   certificate:
     imgName: "apply-for-certificate-es.png"
     options: [Solicitar certificado]
+  learn:
+    imgName: "learn-es.png"
+    options: [Learn]
   courses:
     - title: Introduction Course
       imgName: "/cover-es.png"
@@ -38,12 +38,12 @@
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
 
 - locale: it 
-  online-course:
-    imgName: "online-courses-it.png"
-    options: [Corsi online]
   certificate:
     imgName: "apply-for-certificate-it.png"
     options: [Applica per il certificato]
+  learn:
+    imgName: "learn-it.png"
+    options: [Learn]
   courses:
     - title: Introduction Course
       imgName: "/cover-it.png"
@@ -56,12 +56,12 @@
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
 
 - locale: ru 
-  online-course:
-    imgName: "online-courses-ru.png"
-    options: [Онлайн курсы]
   certificate:
     imgName: "apply-for-certificate-ru.png"
     options: [Подать заявку на сертификат]
+  learn:
+    imgName: "learn-ru.png"
+    options: [Learn]
   courses:
     - title: Introduction Course
       imgName: "/cover-ru.png"
@@ -74,9 +74,9 @@
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
 
 - locale: de 
-  online-course:
-    imgName: "online-courses-de.png"
-    options: [Online courses]
+  learn:
+    imgName: "learn-de.png"
+    options: [Learn]
   certificate:
     imgName: "apply-for-certificate-de.png"
     options: [Apply for certificate]
@@ -92,12 +92,12 @@
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
 
 - locale: pt 
-  online-course:
-    imgName: "online-courses-pt.png"
-    options: [Cursos on-line]
   certificate:
     imgName: "apply-for-certificate-pt.png"
     options: [Solicitação de certificado]
+  learn:
+    imgName: "learn-pt.png"
+    options: [Learn]
   courses:
     - title: Introduction Course
       imgName: "/cover-pt.png"
@@ -110,9 +110,6 @@
       options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
 
 - locale: de
-  online-course:
-    imgName: "online-courses-de.png"
-    options: [Online Kurse]
   certificate:
     imgName: "apply-for-certificate-de.png"
     options: [Zertifikat anfordern]

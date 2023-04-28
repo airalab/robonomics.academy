@@ -7,7 +7,7 @@
         > -->
         <g-link 
         v-for = "lesson in lessons" :key = "lesson.id"
-        :to = "'online-courses/' + courseLink + '/' + lesson.path"
+        :to = "'learn/' + courseLink + '/' + lesson.path"
         class="lesson-preview"
         >
 
@@ -117,14 +117,5 @@ export default {
         }
     }
 
-    /* dark theme */
-    @media (prefers-color-scheme: dark) {
-        .lesson-preview:hover {
-            --color: var(--color-second)
-        }
-
-        .lesson-preview-id {
-            background-color: var(--color-actions); 
-        }
-    } 
+    /* dark theme */ 
 </style>

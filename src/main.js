@@ -24,8 +24,7 @@ import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.js";
 
 
 import DefaultLayout from '~/layouts/Default.vue'
-import LayoutCourse from '~/layouts/Course.vue'
-import LayoutPlayground from '~/layouts/Playground.vue'
+import CourseLayout from '~/layouts/CourseLayout.vue'
 import AcademyList from '~/components/List.vue'
 import LessonResult from '~/components/LessonResult.vue'
 import ImagePopup from '~/components/ImagePopup.vue'
@@ -86,8 +85,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  Vue.component('LayoutCourse', LayoutCourse)
-  Vue.component('LayoutPlayground',   LayoutPlayground)
+  Vue.component('CourseLayout', CourseLayout)
   Vue.component('List', AcademyList)
   Vue.component('Result', LessonResult)
   Vue.component('ImagePopup', ImagePopup)
@@ -145,7 +143,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       showImagePopup: false,
       imagePopupSrc: 'smart-house-course/lesson-1-1.png',
       currentReaction: '',
-      emailsForCourseFeedback: 'berman@robonomics.network, positivecrash@robonomics.network, w-s@robonomics.network'
+      activeTags: [],
     },
    mutations: {
       SET_USER_TRACKER(state, userTracker) {
@@ -166,6 +164,16 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       },
       SET_CURRENT_REACTION(state, reaction) {
         state.currentReaction = reaction;
+      },
+      SET_ACTIVE_TAGS(state, tag) {
+        if(!state.activeTags.includes(tag))
+        state.activeTags.push(tag);
+      },
+      REMOVE_ACTIVE_TAGS(state, tag) {
+        state.activeTags = state.activeTags.filter(t => t !== tag);
+      },
+      REMOVE_ALL_TAGS(state) {
+        state.activeTags = [];
       }
    },
   });

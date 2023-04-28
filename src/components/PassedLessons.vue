@@ -30,10 +30,4 @@
     color: var(--color-light) !important;
   }
 
-
-  @media (prefers-color-scheme: dark) { 
-    a:hover {
-      color: var(--color-light)
-    }
-  }
 </style>

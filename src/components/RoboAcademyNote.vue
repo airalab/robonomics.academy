@@ -89,11 +89,11 @@ export default {
     margin: var(--gap) 0;
   }
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     .lesson-note--okay code { 
       background: #333;
     }
-  }
+  } */
 
 
 </style>
