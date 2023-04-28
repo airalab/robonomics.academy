@@ -248,7 +248,7 @@ Type=simple
 Restart=on-failure
 User=%i
 WorkingDirectory=/srv/%i/
-ExecStart=/srv/homeassistant/bin/hass -c "/home/%i/.homeassistant"
+ExecStart=/srv/homeassistant/bin/hass -c "/srv/%i/.homeassistant"
 Environment="PATH=/srv/%i/bin"
 [Install]
 WantedBy=multi-user.target
@@ -309,7 +309,7 @@ Then go to <code>.homeassistant</code> directory, create folder <code class="now
 
 
 <LessonCodeWrapper language="bash" noLines>
-cd /home/homeassistant/.homeassistant
+cd ~/.homeassistant
 </LessonCodeWrapper>
 
 <LessonCodeWrapper language="bash" noLines>
