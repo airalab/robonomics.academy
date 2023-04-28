@@ -156,7 +156,7 @@ export default {
     padding: calc(var(--gap) * 0.5) calc(var(--gap) * 1);
     padding-top: calc(var(--gap) * 1.5);
     background-color:  var(--color-main);
-    transform: translateY(-100%);
+    transform: translateY(100%);
     overflow: hidden;
     z-index: 0;
   }
@@ -164,7 +164,7 @@ export default {
   .lesson-reaction__wrapper.active .lesson-reaction-form__wrapper  {
     /* border: 2px solid var(--color-brown-dark); */
     /* border-radius: 30px; */
-    animation: moveToBottom 0.5s linear forwards;
+    animation: moveToBottom 0.4s ease-in-out forwards;
   }
 
   .lesson-reaction-form__header {
@@ -222,6 +222,7 @@ export default {
   }
 
   .lesson-reaction-form__form textarea  {
+    display: block;
     resize: none;
     max-height: 141px;
     height: 100%;
@@ -243,6 +244,13 @@ export default {
     color: var(--color-text);
     opacity: 0.5;
   }
+
+.lesson-reaction-form__form input,   .lesson-reaction-form__form textarea {
+  -webkit-user-select: text; 
+  -moz-user-select: text; 
+  -ms-user-select: text;
+  user-select: text; 
+}
 
   .lesson-reaction-form__btn {
     max-width: 500px;
@@ -297,7 +305,7 @@ export default {
   @keyframes moveToBottom {
     from {
       opacity: 0;
-      transform: translateY(-100%);
+      transform: translateY(100%);
     }
     to {
       opacity: 1;

@@ -192,12 +192,12 @@ export default {
     font-family: var(--font-secondary);
     background-color: var(--color-light);
     box-shadow: 2px 5px 0 #000;
+    text-align: center;
   }
 
   input::placeholder {
     color: var(--color-text);
     font-weight: bold;
-    text-align: center;
   }
 
   input:focus {
