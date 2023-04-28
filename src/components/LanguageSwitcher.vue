@@ -101,8 +101,8 @@ export default {
   @media screen and (max-width: 450px) {
     select {
       margin-right: 1rem;
-      padding: 0.2rem 0.6rem;
-      max-width: 60px;
+      padding: 0.2rem 0.8rem;
+      /* max-width: 75px; */
       text-overflow: ellipsis;
       overflow: hidden;
     }

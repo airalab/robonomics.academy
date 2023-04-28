@@ -47,7 +47,7 @@ export default {
     }
 
     .learn__link.in-progress {
-      opacity: 0.7;
+      opacity: 0.5;
     }
 
     .learn__link > div {
