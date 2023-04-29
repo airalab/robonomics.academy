@@ -195,7 +195,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     bottom: 0;
-    left: calc(50% - 950px);
+    left: calc(50% - 960px);
     position: absolute;
     width: 1930px;
     max-width: 1930px;
@@ -394,6 +394,16 @@
     .scheme .scheme-a {
       font-size: 80%;
       transform: rotate(90deg);
+    }
+
+    .scheme .scheme-a span:first-child {
+      transform: rotate(180deg);
+    }
+
+    .scheme-a-right,
+    .scheme-a-left {
+      display: flex;
+      flex-direction: column-reverse;
     }
   }
 
