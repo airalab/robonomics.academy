@@ -2,7 +2,7 @@
   <Layout>
     <div class="redirect container__mid">
       <p>This page has moved to a </p>
-      <a class="btn" :href="redirect">{{ ' https://robonomics.academy' + redirect }}</a>
+      <a :href="redirect">{{ ' https://robonomics.academy' + redirect }}</a>
       <p>Automatic redirecting</p>
     </div>
   </Layout>
@@ -50,7 +50,9 @@ export default {
 }
 
 .redirect a {
-  display: block;
+  display: inline-block;
+  font-weight: 900;
+  background-color: var(--color-main);
   margin-bottom: var(--gap);
 }
 </style>
