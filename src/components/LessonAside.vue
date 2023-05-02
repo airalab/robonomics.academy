@@ -226,7 +226,7 @@ export default {
   }
 
   .lessons-aside__calendar-wrapper {
-    position: relative;
+    /* position: relative; */
     height: 320px;
   }
 
