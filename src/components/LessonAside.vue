@@ -13,46 +13,43 @@
       </ul>
       <!-- info -->
       <div class="lesson-aside__info">
-        <div class="lesson-aside__level" :class="`level--${course.level}`">
-            <span class="level-bar learn__level-bar"></span>
-            <span class="level-bar learn__level-bar"></span>
-            <span class="level-bar learn__level-bar"></span>
-            <span class="level-bar learn__level-bar"></span>
-        </div>
+        <Level :level="String(course.level)" cls="lesson-aside__level" />
         <div v-if="course.lessons.length > 1" class="lessons-count">
           <span>{{ course.lessons.length }}</span>
         </div>
       </div>
     </div>
 
-    <!-- lessons -->
-    <ol v-if="course.lessons" class="lesson-aside__lessons">
-      <li
-        @click="$emit('closeSidebar')"
-        class="lessons-aside__item"
-        v-for="lesson in course.lessons"
-        :key="lesson.id"
-        :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 }, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'in progress'}]"
-      >
-        <g-link :to="course.progress !== 'in progress' ? `learn/${course.path}/${lesson.path}` : ''">
-          {{  $ts(lesson.title ) }}
-        </g-link>
-      </li>
-    </ol>
-    <div 
-      class="lessons-aside__calendar-wrapper" 
-      :class="{active: isBubbleOpen}" 
-      @click.stop="openCalendarBlob"
-    >
-      <div  class="lessons-aside__calendar" :class="{active: isBubbleOpen}">
-        <svg xmlns="http://www.w3.org/2000/svg" width="171.571" height="113.933" viewBox="0 0 171.571 113.933">
-          <path id="Path_5459" data-name="Path 5459" d="M378.1,348.825s-12.368-13.608-4.535-42.059c26.8,0,41.934-2.634,49.767-23.253s-2.884-37.524-21.029-42.47-35.462-7.425-81.645-4.949-65.976,4.949-65.976,34.226,26.8,32.575,38.35,33.812,61.977,2.223,61.977,2.223S347.588,341.4,378.1,348.825Z" transform="translate(-254.558 -235.017)" fill="#4292e2" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.25"/>
-        </svg>
-        <g-image src="@/assets/images/bubble-guy.png" aria-hidden="true" />
+          <!-- lessons -->
+          <ol v-if="course.lessons" class="lesson-aside__lessons">
+        <li
+          @click="$emit('closeSidebar')"
+          class="lessons-aside__item"
+          v-for="lesson in course.lessons"
+          :key="lesson.id"
+          :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 }, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'in progress'}]"
+        >
+          <g-link :to="course.progress !== 'in progress' ? `learn/${course.path}/${lesson.path}` : ''">
+            {{  $ts(lesson.title ) }}
+          </g-link>
+        </li>
+      </ol>
 
-        <CalendarBubble :name="title" :type="'certificated course' " v-if="isBubbleOpen" @closeCalendarBlob="closeCalendarBlob"/>
+      <!-- calendar -->
+      <div 
+        class="lessons-aside__calendar-wrapper" 
+        :class="[{active: isBubbleOpen}, {'lessons-aside__calendar-wrapper--mini': course.lessons.length <= 1}]" 
+        @click.stop="openCalendarBlob"
+      >
+        <div  class="lessons-aside__calendar" :class="{active: isBubbleOpen}">
+          <svg xmlns="http://www.w3.org/2000/svg" width="171.571" height="113.933" viewBox="0 0 171.571 113.933">
+            <path id="Path_5459" data-name="Path 5459" d="M378.1,348.825s-12.368-13.608-4.535-42.059c26.8,0,41.934-2.634,49.767-23.253s-2.884-37.524-21.029-42.47-35.462-7.425-81.645-4.949-65.976,4.949-65.976,34.226,26.8,32.575,38.35,33.812,61.977,2.223,61.977,2.223S347.588,341.4,378.1,348.825Z" transform="translate(-254.558 -235.017)" fill="#4292e2" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.25"/>
+          </svg>
+          <g-image src="@/assets/images/bubble-guy.png" aria-hidden="true" />
+
+          <CalendarBubble :name="title" :type="'certificated course' " v-if="isBubbleOpen" @closeCalendarBlob="closeCalendarBlob"/>
+        </div>
       </div>
-    </div>
   </aside>
 </template>
 
@@ -75,9 +72,9 @@ export default {
       default: false
     }
   },
-
   components: {
     CalendarBubble: () => import('~/components/CalendarBubble.vue'),
+    Level: () => import('~/components/Level.vue'),
   },
 
   data() {
@@ -136,7 +133,7 @@ export default {
     left: 0;
     max-height: 100vh;
     height: 100%;
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
     overflow-y: auto;
   }
 
@@ -226,8 +223,12 @@ export default {
   }
 
   .lessons-aside__calendar-wrapper {
-    /* position: relative; */
+    position: relative;
     height: 320px;
+  }
+
+  .lessons-aside__calendar-wrapper--mini {
+    position: static;
   }
 
   .lessons-aside__calendar-wrapper.active {
@@ -301,6 +302,8 @@ export default {
       max-width: 255px;
       width: 100%;
     }
+
+    
   }
 
 

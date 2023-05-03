@@ -3,8 +3,11 @@
   path: 'introduction-course'
   level: 3
   tags: ['course']
+  filters: ['']
   img: null
   progress: done
+  author: 'Ivan Berman'
+  authorImage: 'berman.svg'
   lessons:
     - id: '0'
       title: 'Introduction to the ideas of Robonomics'
@@ -49,6 +52,7 @@
   path: 'smart-home-course'
   level: 3
   tags: ['course', 'real-life setup']
+  filters: ['raspberry pi']
   img: null
   progress: done
   lessons:
@@ -116,6 +120,7 @@
   path: 'sensors-connectivity-course'
   level: 4
   tags: ['guide', 'real-life setup']
+  filters: ['']
   img: null
   progress: done
   lessons:
@@ -180,6 +185,7 @@
       path: ''
   level: 4
   tags: ['guide', 'launch simulation']
+  filters: ['ros']
   img: 'playground-mars-curiosity.png'
   progress: done
 - id: '6'
@@ -191,6 +197,7 @@
       path: ''
   level: 4
   tags: ['guide', 'launch simulation']
+  filters: ['ros']
   img: 'playground-connect-drone.png'
   progress: done
 - id: '7'
@@ -202,6 +209,7 @@
       path: ''
   level: 4
   tags: ['guide', 'launch simulation']
+  filters: ['ros']
   img: 'playground-kuka.png'
   progress: done
 - id: '8'
@@ -213,6 +221,7 @@
       path: ''
   level: 4
   tags: ['guide', 'launch simulation']
+  filters: ['ros']
   img: 'playground-connect-vehicle.png'
   progress: done
 - id: '9'
@@ -224,6 +233,7 @@
       path: ''
   level: 4
   tags: ['guide', 'launch simulation']
+  filters: ['ros']
   img: 'playground-baxter.png'
   progress: done
 - id: '10'
@@ -235,6 +245,7 @@
       path: ''
   level: 4
   tags: ['guide']
+  filters: ['ros']
   img: null
   progress: done
 - id: '11'
@@ -247,13 +258,17 @@
       path: ''
   level: 4
   tags: ['guide', 'launch simulation']
+  filters: ['ros']
   img: 'playground-spot.png'
 - id: '12'
   title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
   path: 'ai-based-bachelor-thesis'
   level: 0
   tags: ['guide']
+  filters: ['spring school 2023']
   progress: in progress
+  author: 'Ivan Berman'
+  authorImage: 'berman.svg'
   lessons:
     - id: '0'
       title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
@@ -283,3 +298,4 @@
     - id: '0'
       title: "Introduction"
       path: ''
+  filters: ['spring school 2023']

@@ -36,6 +36,9 @@
   --color-bg: #5e6b85;
   --color-light-lesson: #fff;
   --aside-active: #edf2f5;
+  --color-green: #0cae2f;
+  --color-pink: #ff76be; 
+
 
   --color-note-accent: #90a4b7;
 	--color-note-pale: #f2f2f2;
@@ -173,6 +176,20 @@ button:hover
 
 .btn, input[type="submit"], button {
   background-color: var(--btn-color);
+}
+
+.btn-learn {
+  padding: calc(var(--gap) * 0.3) calc(var(--gap) * 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-main);
+  font-weight: 700;
+  background-color: transparent; 
+  border: 3px solid var(--color-actions);
+  color: var(--color-actions);
+  box-shadow: none;
+  margin-right: calc(var(--gap) * 0.9);
 }
 
 .container__mid, .container__reg, .container__narrow {
@@ -595,7 +612,7 @@ table thead tr{
   text-transform: uppercase;
 }
 
-.level-bar {
+/* .level-bar {
   display: inline-block;
   width: 9px;
   margin-right: 4px;
@@ -637,7 +654,7 @@ table thead tr{
 
 .level--4 .level-bar {
   background-color: var(--color-dark);
-} 
+}  */
 
 .lessons-count {
   position: relative;

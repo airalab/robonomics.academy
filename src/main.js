@@ -144,6 +144,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       imagePopupSrc: 'smart-house-course/lesson-1-1.png',
       currentReaction: '',
       activeTags: [],
+      activeFilter: []
     },
    mutations: {
       SET_USER_TRACKER(state, userTracker) {
@@ -166,14 +167,27 @@ export default function (Vue, { router, head, isClient, appOptions }) {
         state.currentReaction = reaction;
       },
       SET_ACTIVE_TAGS(state, tag) {
-        if(!state.activeTags.includes(tag))
-        state.activeTags.push(tag);
+        if(!state.activeTags.includes(tag)) {
+          state.activeTags.push(tag);
+        }
       },
       REMOVE_ACTIVE_TAGS(state, tag) {
         state.activeTags = state.activeTags.filter(t => t !== tag);
       },
       REMOVE_ALL_TAGS(state) {
         state.activeTags = [];
+      },
+      SET_ACTIVE_FILTERS(state, {level, tag, author}) {
+
+        if(state.activeFilter.length) {
+          state.activeFilter = []
+        }
+
+        state.activeFilter.push({level, tag, author})
+
+      },
+      REMOVE_ACTIVE_FILTERS(state) {
+        state.activeFilter = []
       }
    },
   });
