@@ -48,5 +48,16 @@ module.exports = {
     //     id: 91120268
     //   }
     // }
-  ]
+  ],
+
+
+  chainWebpack: config => {
+
+    // alias for easier access to files 
+    config.resolve.alias.set('@imagesCourses', '/courses/images')
+
+    config.mode('development')
+  }
+
+
 }

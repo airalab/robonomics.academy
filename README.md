@@ -12,7 +12,7 @@ Robonomics Academy is the educational provider to the world of IoT and cyber-phy
 corepack enable
 ```
 
-3. Clone the wiki repository:
+3. Clone the academy repository:
 
 ```
 git clone https://github.com/airalab/robonomics.academy.git
@@ -26,7 +26,7 @@ sudo yarn global add @gridsome/cli
 yarn install
 ```
 
-5. Deploy the wiki locally:
+5. Deploy the academy locally:
 
 ```
 gridsome develop
@@ -36,6 +36,50 @@ gridsome develop
 ```
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
+
+## How to upload new course/lesson:
+
+- First of all, you need to add course/lesson information to `courses/all-courses.yaml`:
+
+```
+- id: '1' 
+  title: 'Introduction to the ideas of Robonomics' // name of the course
+  path: 'introduction-course' // path that will be displayed in url
+  level: 3 // complexity of the course
+  tags: ['course'] // tags for the course
+  filters: [''] // options for filter (if there are any)
+  progress: done // progress of the course (done or in progress)
+  author: 'Ivan Berman' // the course author (if there is one)
+  authorImage: 'berman.svg' // image must be added to src/assets/images/authors
+  lessons:
+    // first one is the about page, not the first lesson so the path must be empty to not get 404 page
+    - id: '0'
+      title: 'Introduction to the ideas of Robonomics'
+      path: ''
+      status: done
+    - id: '1' //  lesson id
+      title: 'Broadcasting Through the Black Mirror' // lesson name
+      path: 'broadcasting-through-the-black-mirror' // path that will be displayed in url (it must be the same as the name of lesson md file)
+      status: done // lesson status (done or in progress)
+```
+
+- Then, you must create "intro page" for your course in `courses/learn/en/` - e.g *introduction-course.md.* And add some basic info: 
+```
+  ---
+  title: "Introduction to the ideas of Robonomics" // course title
+  description: Welcome Introduction Course! // course description 
+  lessonNumber: 0 // lesson number (0 if it's about page)
+  courseID: 1 // course id (use next number id for your new course)
+  metaOptions: [Learn, Introduction to the ideas of Robonomics] // this information is needed for meta tags and images purposes. You need to type: Learn, Name_Of_Your_Course
+  defaultName: Introduction to the ideas of Robonomics // also needed for meta info
+  ---
+```
+
+- Next, add lessons for the new course (if there are any). You must create folder with the same name as **md** file for the new course. E.g - `courses/learn/en/introduction-course/`
+
+- Finally, create **md** files for each lesson in new folder. The set up will be identical to the course *md* file with the necessary adjustments :)
+  
+
 
 ## What you can use while editing lesson or adding a new one:
 
@@ -80,7 +124,7 @@ sudo apt-get install -y nodejs git make g++ gcc
 
 If you want you image to zoom in you must use - "lesson-images"
 
-`just image`
+`simple image`
 
 ```c
 <LessonImages src="course_name/course-lesson-1.jpg" alt="lesson image"/>
@@ -209,30 +253,6 @@ For stylized list you must use:
 | Property | Required | Default | Type   | Description                                                                                                                                                          |
 |----------|----------|---------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | type     | false    | bullets | String | You can choose type of your list:<br><br>- bullets (unordered list)<br>- plus (unordered list with plus instead of bullets)<br>- numbers (ordered list with numbers) |
-
-
-### How to add button or link-button:
-
-If you may want to add link-button or just button use:
-
-`button`
-
-```c
-<LessonButtonLink type="button" text="Rent a spot" />
-```
-
-`link-button`
-
-```c
-<LessonButtonLink src="https://dapp.spot-sdk.education/#/checkout" text="Rent a spot" />
-```
-
-| Property | Required | Default | Type   | Description                                                                          |
-|----------|----------|---------|--------|--------------------------------------------------------------------------------------|
-| type     | false    | link    | String | If you need simple button use:<br>- button<br>If you need link-button use:<br>- link |
-| src      | false    | -       | String | src for link                                                                         |
-| text     | true     | -       | String | text for your button or link-button                                                   |
-
 
 ### NOTES & WARNINGS
 
