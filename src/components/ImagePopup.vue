@@ -11,7 +11,7 @@ export default {
 
   computed: {
     picture() {
-      return require(`!!assets-loader!@/assets/images/${this.$store.state.imagePopupSrc}`)
+      return require(`!!assets-loader!@imagesCourses/${this.$store.state.imagePopupSrc}`)
     }
   }
 

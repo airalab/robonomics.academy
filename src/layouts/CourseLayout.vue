@@ -74,7 +74,7 @@
 
   import LessonAside from "../components/LessonAside.vue";
 
-  import courses from '@/data/all-courses.yaml'
+  import courses from '/courses/all-courses.yaml'
 
   export default {
     components: {

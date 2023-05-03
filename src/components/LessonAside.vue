@@ -27,9 +27,9 @@
           class="lessons-aside__item"
           v-for="lesson in course.lessons"
           :key="lesson.id"
-          :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 }, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'in progress'}]"
+          :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 }, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'in progress' || lesson.status === 'in progress'}]"
         >
-          <g-link :to="course.progress !== 'in progress' ? `learn/${course.path}/${lesson.path}` : ''">
+          <g-link :to="course.progress !== 'in progress' && lesson.status !== 'in progress' ? `learn/${course.path}/${lesson.path}` : ''">
             {{  $ts(lesson.title ) }}
           </g-link>
         </li>
@@ -191,8 +191,14 @@ export default {
   .lessons-aside__item--zero {
     counter-reset: number -1;
   }
+
+  .lessons-aside__item--in-progress {
+    opacity: 0.6;
+  }
+  
   
   .lessons-aside__item--in-progress a {
+    color: var(--color-actions) !important;
     cursor: default;
   }
 

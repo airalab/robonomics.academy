@@ -7,7 +7,7 @@ metaOptions: [Learn]
 defaultName: OpenGov for managing the IoT infrastructure
 ---
 
-<img src="../images/opengov-for-iot/opengov-intro.gif" style="display: block; width: 100%; margin-bottom:var(--gap)" />
+<LessonImages src="opengov-for-iot/opengov-intro.gif" alt="image" imageClasses="mb full" />
 
 Ladies and gentlemen, join me 'round the fire and let me tell to you a tale of the village of Orwellham. A quaint English village which leverages the technological advancements of the web3 era. Where the echoes of the past intermingle with the footsteps of progress.
 

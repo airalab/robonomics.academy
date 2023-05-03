@@ -10,6 +10,8 @@
     <section class="learn">
       <div class="container__mid">
 
+        <div class="overlay" :class="{'open': isFilterOpen}" />
+
         <div class="container__narrow learn__info">
           <h1>{{ $ts('Learn and practice web3') }}</h1>
           <p class="text__center">{{ $ts('Discover our expanding selection of hands-on exercises, tutorials, and online courses for free. The core developers and researchers at Robonomics invite you to enter the world of web3 and gain practical and theoretical skills through quizzes, device simulations, and even real-life setups using Robonomics Parachain (Polkadot), IPFS, and other web3 tools.') }}</p>
@@ -17,7 +19,7 @@
 
         <div class="learn__actions">
           <Tags @filterCourses="filterCourses"/>
-          <LessonsFilter/>
+          <LessonsFilter :isOpen="isFilterOpen" @toggleFilter="isFilterOpen = !isFilterOpen"/>
         </div>
 
         <div class="learn__wrapper grid-3" v-if="filteredCourses.length">
@@ -40,7 +42,8 @@
 </template>
 
 <script>
-  import courses from '@/data/all-courses.yaml'
+  // import courses from '@/data/all-courses.yaml'
+  import courses from '/courses/all-courses.yaml'
 
 export default {
 
@@ -53,7 +56,8 @@ export default {
 
   data() {
     return {
-      currTag: null
+      currTag: null,
+      isFilterOpen: false
     }
   },
 
@@ -138,7 +142,14 @@ export default {
     this.$store.commit('TOGGLE_SHOW_HEADER', true)
     this.$store.commit('REMOVE_ALL_TAGS')
     this.$store.commit('REMOVE_ACTIVE_FILTERS')
+
+    document.addEventListener('click', (e) => {
+      if(e.target.classList.contains('overlay')) {
+        this.isFilterOpen = false
+      }
+    }) 
   }
+
 
 }
 </script>
@@ -173,6 +184,11 @@ export default {
     background-image: url('../assets/images/discover-image.png');
     background-position: top;
     background-size: contain;
+  }
+
+  .overlay {
+    opacity: 0;
+
   }
 
   @media screen and (max-width: 1300px) {

@@ -6,7 +6,8 @@
       <figcaption v-if="figureCaption">{{figureCaption}}</figcaption>
     </figure>
 
-    <g-image v-if="!figure" class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', src)" :src=pictureSrc.src :alt="alt"></g-image>
+    <g-image v-if="!figure" class="clickable-image" @click="$store.commit('SHOW_IMAGE_POPUP', src)" :src="pictureSrc && pictureSrc" :alt="alt"></g-image>
+
   </div>
 </template>
 
@@ -40,7 +41,7 @@ export default {
 
   computed: {
     pictureSrc() {
-      return require(`!!assets-loader!@/assets/images/${this.src}`)
+      return require(`!!assets-loader!@imagesCourses/${this.src}`)
     }
   }
 
@@ -64,4 +65,10 @@ export default {
   .mb {
     margin-bottom: var(--gap);
   }
+
+  .full img {
+    width: 100%;
+  }
+
+
 </style>

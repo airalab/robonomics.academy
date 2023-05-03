@@ -1,7 +1,7 @@
 <template>
   <div class="filter">
     <button 
-      @click="isOpen = !isOpen" 
+      @click="$emit('toggleFilter')" 
       class="btn btn-learn filter__btn"
       :class="{'filter-btn--active': isOpen}"
     >
@@ -74,9 +74,16 @@ export default {
     Level: () => import('~/components/Level.vue'),
   },
 
+  props: {
+    isOpen: {
+      type: Boolean,
+      default: false
+    }
+  },
+
   data() {
     return {
-      isOpen: false,
+      // isOpen: false,
       levels: ['1', '2', '3', '4'],
       tags: ['Spring school 2023', 'ROS', 'Raspberry Pi'],
       authors: ['Ivan Berman'],
@@ -92,7 +99,7 @@ export default {
         this.$store.commit('SET_ACTIVE_FILTERS', {level: this.chosenLevel, tag: this.chosenTag, author: this.chosenAuthor})
       }
 
-      this.isOpen = false
+      this.$emit('toggleFilter')
     },
 
     clearFilter() {
