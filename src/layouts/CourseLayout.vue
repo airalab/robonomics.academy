@@ -187,7 +187,13 @@
   }
 
   .course .container__mid {
-    padding: 0 calc(var(--gap) * 0.6);
+    padding: 0 var(--gap)
+  }
+
+  @media screen and (max-width: 550px) {
+    .course .container__mid {
+      padding: 0 calc(var(--gap) * 0.6);
+    }
   }
 
   .course h1, .course h2, .course h3, .course h4, .course h5 {

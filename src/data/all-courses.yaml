@@ -288,3 +288,13 @@
     - id: '5'
       title: 'Writing: Conclusion '
       path: 'writing-conclusion'
+- id: '13'
+  title: "OpenGov for managing the IoT infrastructure"
+  path: 'opengov-for-iot'
+  level: 0
+  tags: ['guide']
+  progress: done
+  lessons:
+    - id: '0'
+      title: "Introduction"
+      path: ''

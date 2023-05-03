@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer footer__section container__mid" :class="{'footer-full': full}">
+  <footer class="footer footer__section" :class="{'footer-full': full}">
     <div class="footer__container footer__decor footer__decor-left">
       <span class="footer__line"></span>
       <span class="footer__line"></span>
