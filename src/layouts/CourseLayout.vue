@@ -72,16 +72,18 @@
   import "prismjs/plugins/line-numbers/prism-line-numbers.js";
   import "prismjs/plugins/line-numbers/prism-line-numbers.css";
 
+  import LessonAside from "../components/LessonAside.vue";
+
   import courses from '@/data/all-courses.yaml'
 
   export default {
     components: {
       HeaderSlot: () => import('~/components/Header.vue'),
       FooterSlot: () => import('~/components/Footer.vue'),
-      LessonAside: () => import('~/components/LessonAside.vue'),
       Subscription: () => import('~/components/Subscription.vue'),
       QuestionIcon: () => import('~/components/QuestionIcon.vue'),
-      UserTracker: () => import('~/components/UserTracker.vue')
+      UserTracker: () => import('~/components/UserTracker.vue'),
+      LessonAside
     },
 
     props: {

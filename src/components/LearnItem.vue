@@ -9,18 +9,21 @@
       <div v-if="item.lessons.length > 1" class="learn__lessons lessons-count">
         <span>{{ item.lessons.length }}</span>
       </div>
-      <h4> {{ item.title }} </h4>
-      <div class="learn__level" :class="`level--${item.level}`">
-        <span class="level-bar learn__level-bar"></span>
-        <span class="level-bar learn__level-bar"></span>
-        <span class="level-bar learn__level-bar"></span>
-        <span class="level-bar learn__level-bar"></span>
+      <h3> {{ item.title }} </h3>
+      <div class="learn__author" v-if="item.author">
+        <g-image v-if="item.authorImage" :src="require(`!!assets-loader!@/assets/images/authors/${item.authorImage}`)" :alt="item.author" />
+        <h4>{{ item.author }}</h4>
       </div>
+      <Level :level="String(item.level)" cls="learn__level" />
     </g-link>
 </template>
 
 <script>
 export default {
+
+  components: {
+    Level: () => import('~/components/Level.vue'),
+  },
 
   props: {
     item: {
@@ -50,12 +53,12 @@ export default {
       opacity: 0.5;
     }
 
-    .learn__link > div {
+    /* .learn__link > div {
       padding: calc(var(--gap) * 0.5);
-    }
+    } */
 
-    .learn__link h4 {
-      padding-top: calc(var(--gap) * 2);
+    .learn__link h3 {
+      padding-top: calc(var(--gap) * 0.5);
       margin-bottom: calc(var(--gap) * 0.5);
       font-family: var(--font-main);
       font-size: calc( var(--font-size) * 1.6);
@@ -70,7 +73,7 @@ export default {
     .learn__tags {
       position: absolute;
       top: 10px;
-      right: var(--gap);
+      right: calc(var(--gap) * 0.5);
       list-style: none;
       text-align: right;
     }
@@ -88,6 +91,29 @@ export default {
       position: absolute;
       right: calc(var(--gap) * 0.5);
       bottom: calc(var(--gap) * 0.5);
+    }
+
+    .learn__author {
+      position: absolute;
+      left: calc(var(--gap) * 0.5);
+      bottom: calc(var(--gap) * 0.5);
+      display: flex;
+      align-items: center;
+    }
+
+    .learn__author h4 {
+      margin: 0;
+      font-family: var(--font-main);
+      font-weight: 900;
+      font-size: calc( var(--font-size) * 1);
+    }
+
+    .learn__author img {
+      display: inline-block;
+      width: 44px;
+      height: 44px;
+      margin-right: calc(var(--gap) * 0.5);
+      border-radius: 100%;
     }
 
 </style>

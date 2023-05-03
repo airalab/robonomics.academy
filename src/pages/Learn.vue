@@ -15,7 +15,10 @@
           <p class="text__center">{{ $ts('Discover our expanding selection of hands-on exercises, tutorials, and online courses for free. The core developers and researchers at Robonomics invite you to enter the world of web3 and gain practical and theoretical skills through quizzes, device simulations, and even real-life setups using Robonomics Parachain (Polkadot), IPFS, and other web3 tools.') }}</p>
         </div>
 
-        <Tags @filterCourses="filterCourses"/>
+        <div class="learn__actions">
+          <Tags @filterCourses="filterCourses"/>
+          <LessonsFilter/>
+        </div>
 
         <div class="learn__wrapper grid-3">
           <LearnItem 
@@ -39,6 +42,7 @@ export default {
   components: {
     MetaInfo: () => import('~/components/MetaInfo.vue'),
     Tags: () => import('~/components/Tags.vue'),
+    LessonsFilter: () => import('~/components/Filter.vue'),
     LearnItem: () => import('~/components/LearnItem.vue'),
   },
 
@@ -61,22 +65,40 @@ export default {
       return this.$store.state.activeTags
     },
 
+    activeFilter() {
+      return this.$store.state.activeFilter
+    },
+
 
     filteredCourses() {
       const filtered = [];
-      if(this.activeTags.length) {
+      if(this.activeTags.length || this.activeFilter.length) {
+
+        if(this.activeTags.length) { 
+
           this.reverseCourses.forEach((course) => {
-          
+
           const courseContainsTag = (tag) => {
-            return course.tags.indexOf(tag) != -1;
+              return course.tags.indexOf(tag) != -1;
+            }
+            if(this.activeTags.some(courseContainsTag)) {
+              filtered.push(course);
+            }
+          })
+          return filtered
+        } else {
+          const filterCourses = () => {
+            return this.filterCoursesByLevel(this.filterCoursesByTag(this.filterCoursesByAuthor(this.reverseCourses)))
           }
-          
-          if(this.activeTags.some(courseContainsTag)) {
-            filtered.push(course);
+          if(filterCourses().length) {
+            return filterCourses()
+          } else {
+            return this.reverseCourses
           }
-        });
-        return filtered
-      } else {
+
+        }
+  
+      }  else {
         return this.reverseCourses
       }
     }
@@ -85,12 +107,25 @@ export default {
   methods: {
     filterCourses(tag) {
       this.currTag = tag;
+    },
+
+    filterCoursesByLevel: function(courses) {
+      return courses.filter(course => String(course.level).indexOf(this.activeFilter[0].level))
+    },
+
+    filterCoursesByAuthor: function(courses) {
+      return courses.filter(course => course.author && !course.author.indexOf(this.activeFilter[0].author))
+    },
+
+    filterCoursesByTag: function(courses){
+      return courses.filter(course => course.filters.length && !course.filters.includes(this.activeFilter[0].tag))
     }
   },
 
   mounted() {
     this.$store.commit('TOGGLE_SHOW_HEADER', true)
     this.$store.commit('REMOVE_ALL_TAGS')
+    this.$store.commit('REMOVE_ACTIVE_FILTERS')
   }
 
 }
@@ -105,6 +140,15 @@ export default {
     list-style: none;
     padding: 0;
     margin: 0;
+  }
+
+  .learn__actions {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: calc(var(--gap) * 0.4);
+    margin-bottom: calc(var(--gap) * 2);
   }
 
   @media screen and (max-width: 1300px) {

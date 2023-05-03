@@ -1,6 +1,6 @@
 <template>
   <button 
-    class="btn btn__tag" 
+    class="btn btn__tag btn-learn" 
     :class="{active: isActive === tag.id}"
     @click="(e) => activateTag(e, tag)"
   >
@@ -50,21 +50,8 @@ export default {
 
 <style scoped>
 
-  .btn__tag {
-    padding: calc(var(--gap) * 0.3) calc(var(--gap) * 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: var(--font-main);
-    font-weight: 700;
-    background-color: transparent; 
-    border: 3px solid var(--color-actions);
-    color: var(--color-actions);
-    box-shadow: none;
-    margin-right: calc(var(--gap) * 0.9);
-  }
-
-  .btn:hover {
+  .btn__tag:hover {
+    border: 3px solid var(--color-blue);
     color: var(--color-light);
     background-color: var(--color-blue);
   }

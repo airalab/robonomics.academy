@@ -103,7 +103,7 @@ export default {
   }
 
   .footer-full {
-    padding: 0;
+    padding: 0 !important;
   }
 
   .footer__container {

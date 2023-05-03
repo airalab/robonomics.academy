@@ -13,12 +13,7 @@
       </ul>
       <!-- info -->
       <div class="lesson-aside__info">
-        <div class="lesson-aside__level" :class="`level--${course.level}`">
-            <span class="level-bar learn__level-bar"></span>
-            <span class="level-bar learn__level-bar"></span>
-            <span class="level-bar learn__level-bar"></span>
-            <span class="level-bar learn__level-bar"></span>
-        </div>
+        <Level :level="String(course.level)" cls="lesson-aside__level" />
         <div v-if="course.lessons.length > 1" class="lessons-count">
           <span>{{ course.lessons.length }}</span>
         </div>
@@ -75,9 +70,9 @@ export default {
       default: false
     }
   },
-
   components: {
     CalendarBubble: () => import('~/components/CalendarBubble.vue'),
+    Level: () => import('~/components/Level.vue'),
   },
 
   data() {

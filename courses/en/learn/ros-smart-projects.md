@@ -10,9 +10,9 @@ Throughout its 15 years of development, the Robot Operating System framework was
 
 Here, you’ll find a modest list of ROS-based projects that are dedicated to robots and IoT-devices that are meant for use in a home or office environment. This subject matter is one of the pillars of the Robonomics platform. Our goal is to try and bring these projects on track with Robonomics, from both a technical integration point of view and the perspective of an interesting application of these devices in a robot economy. Feel free to use this list in your search for ideas and inspiration.
 
-You can check out some examples of ROS-projects integrated with Robonomics in the [Playground Overview page](https://wiki.robonomics.network/docs/en/playground-overview/). New projects, including those described here, will be added to the Wiki with time.
+You can check out some examples of ROS-projects integrated with Robonomics in our [Learn section](/learn).
 
-As of right now (**April 2021**), Robonomics is oriented towards ROS **Melodic** and **Noetic** versions. Older versions can also work, but there may be additional integration work needed. In the future, support for ROS version 2 will be added.
+<!-- As of right now (**April 2021**), Robonomics is oriented towards ROS **Melodic** and **Noetic** versions. Older versions can also work, but there may be additional integration work needed. In the future, support for ROS version 2 will be added. -->
 
 The main resources to search for ROS repositories and packages can be accessed [here](https://index.ros.org/).
 
