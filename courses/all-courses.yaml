@@ -203,7 +203,7 @@
 - id: '12'
   title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
   path: 'ai-based-bachelor-thesis'
-  level: 0
+  level: 3
   tags: ['guide']
   filters: ['spring school 2023']
   progress: in progress
@@ -237,12 +237,35 @@
 - id: '13'
   title: "OpenGov for managing the IoT infrastructure"
   path: 'opengov-for-iot'
-  level: 0
+  level: 2
   tags: ['guide']
   progress: done
+  author: 'Leemo'
+  authorImage: 'Leemo.png'
   lessons:
     - id: '0'
       title: "Introduction"
       path: ''
       status: done
   filters: ['spring school 2023']
+- id: '14'
+  title: "Introduction to open source solution for private smart homes"
+  path: 'open-source-private-smart-home-intro'
+  level: 3
+  tags: ['guide']
+  progress: progress
+  author: 'Vadim Manaenko'
+  authorImage: 'VManaenko.jpeg'
+  filters: ['spring school 2023']
+  lessons:
+    - id: '0'
+      title: "New Home, New Habits"
+      path: ''
+    - id: '1'
+      title: "Assembling Smart Home Board"
+      path: ''
+      status: in progress
+    - id: '2'
+      title: "Unleash Automation Potential"
+      path: ''
+      status: in progress

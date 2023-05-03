@@ -96,6 +96,7 @@
   .lesson-section {
     /* padding: var(--gap); */
     text-align: left;
+    max-width: 900px;
   }
 
   .lesson-section h2 {
