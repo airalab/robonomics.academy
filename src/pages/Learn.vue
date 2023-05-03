@@ -20,12 +20,17 @@
           <LessonsFilter/>
         </div>
 
-        <div class="learn__wrapper grid-3">
+        <div class="learn__wrapper grid-3" v-if="filteredCourses.length">
           <LearnItem 
             :item="course"   
             v-for="course in filteredCourses"
             :key="course.id"
           />
+        </div>
+
+        <div class="learn__no-courses" v-else>
+          No courses were found with such filters.
+          Try again 🤖
         </div>
 
       </div>
@@ -90,11 +95,7 @@ export default {
           const filterCourses = () => {
             return this.filterCoursesByLevel(this.filterCoursesByTag(this.filterCoursesByAuthor(this.reverseCourses)))
           }
-          if(filterCourses().length) {
-            return filterCourses()
-          } else {
-            return this.reverseCourses
-          }
+          return filterCourses()
 
         }
   
@@ -109,16 +110,27 @@ export default {
       this.currTag = tag;
     },
 
-    filterCoursesByLevel: function(courses) {
-      return courses.filter(course => String(course.level).indexOf(this.activeFilter[0].level))
+    filterCoursesByLevel(courses) {
+      if(this.activeFilter[0].level) {
+        return courses.filter(course => !String(course.level).indexOf(this.activeFilter[0].level))
+      }
+      return courses
+     
     },
 
-    filterCoursesByAuthor: function(courses) {
-      return courses.filter(course => course.author && !course.author.indexOf(this.activeFilter[0].author))
+    filterCoursesByAuthor(courses) {
+      if(this.activeFilter[0].author) {
+        return courses.filter(course => course.author && !course.author.indexOf(this.activeFilter[0].author))
+      }
+      return courses
     },
 
-    filterCoursesByTag: function(courses){
-      return courses.filter(course => course.filters.length && !course.filters.includes(this.activeFilter[0].tag))
+    filterCoursesByTag(courses){
+      if(this.activeFilter[0].tag) {
+        return courses.filter(course => course.filters.length && course.filters.includes(this.activeFilter[0].tag.toLowerCase()))
+      }
+      return courses
+      
     }
   },
 
@@ -149,6 +161,18 @@ export default {
     flex-wrap: wrap;
     gap: calc(var(--gap) * 0.4);
     margin-bottom: calc(var(--gap) * 2);
+  }
+
+  .learn__no-courses {
+    min-height: 250px;
+    height: 100%;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/images/discover-image.png');
+    background-position: top;
+    background-size: contain;
   }
 
   @media screen and (max-width: 1300px) {

@@ -220,7 +220,7 @@ export default {
   }
 
   .filter__item-btn--active {
-    font-weight: 600;
+    text-decoration: underline;
     color: var(--color-blue);
   }
 
@@ -260,6 +260,7 @@ export default {
 
     .filter__item {
       flex-direction: column;
+      align-items: flex-start;
     }
 
     .filter__item h4 {

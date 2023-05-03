@@ -52,7 +52,7 @@
   path: 'smart-home-course'
   level: 3
   tags: ['course', 'real-life setup']
-  filters: ['rasberry pi']
+  filters: ['raspberry pi']
   img: null
   progress: done
   lessons:
@@ -265,7 +265,7 @@
   path: 'ai-based-bachelor-thesis'
   level: 0
   tags: ['guide']
-  filters: ['Spring school 2023']
+  filters: ['spring school 2023']
   progress: in progress
   author: 'Ivan Berman'
   authorImage: 'berman.svg'
@@ -298,3 +298,4 @@
     - id: '0'
       title: "Introduction"
       path: ''
+  filters: ['spring school 2023']
