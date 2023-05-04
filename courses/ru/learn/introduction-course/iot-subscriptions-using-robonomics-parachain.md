@@ -2,7 +2,6 @@
 title: "Урок № 5, IoT-подписки с использованием парачейна Робономики"
 description: Вы узнаете, как купить IoT-подписку на парачейн Робономики за реальные токены нашей сети.
 lessonNumber: 5
-courseID: 1
 metaOptions: [Онлайн курсы, Вводный курс]
 defaultName: Introduction to the ideas of Robonomics
 ---

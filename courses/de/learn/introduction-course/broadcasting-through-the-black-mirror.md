@@ -2,7 +2,6 @@
 title: "Lektion #1, Übertragung durch den 'Black Mirror'"
 description: In dieser ersten Lektion lernen Sie grundlegende Methoden zur Interaktion mit einer dezentralen Anwendung (oder Dapp).
 lessonNumber: 1
-courseID: 1
 metaOptions: [Online Kurse, Einführungskurs]
 defaultName: Introduction to the ideas of Robonomics
 ---

@@ -2,7 +2,6 @@
 title: "Lesson #1, Theoretical Briefing"
 description: home assistant course
 lessonNumber: 1
-courseID: 3
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---

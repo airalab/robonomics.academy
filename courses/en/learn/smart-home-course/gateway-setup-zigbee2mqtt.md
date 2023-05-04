@@ -2,7 +2,6 @@
 title: "Lesson #4a, Gateway Setup: Zigbee2MQTT"
 description: home assistant course
 lessonNumber: 4
-courseID: 3
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---

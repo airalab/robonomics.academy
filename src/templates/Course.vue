@@ -1,6 +1,6 @@
 <template>
   
-  <CourseLayout :courseId="String($page.course.courseID)" :title="String($page.course.title)" :defaultTitle="String($page.course.defaultName)">
+  <CourseLayout :title="String($page.course.title)" :defaultTitle="String($page.course.defaultName)">
   
   
     <MetaInfo
@@ -25,7 +25,6 @@
   query ($id: ID!) {
     course(id: $id) {
       id
-      courseID
       title
       description
       content

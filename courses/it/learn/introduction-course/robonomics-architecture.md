@@ -2,7 +2,6 @@
 title: "Lezione #4, Architettura di Robonomics"
 description: Questa è un'altra lezione teorica, dove studierai la prima metà del secondo capitolo del Whitepaper 2022 di Robonomics intitolato "Robonomics Architecture".
 lessonNumber: 4
-courseID: 1
 metaOptions: [Corsi online, Corso Introduttivo]
 defaultName: Introduction to the ideas of Robonomics
 ---

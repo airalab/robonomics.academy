@@ -2,7 +2,6 @@
 title: "Lección #1, Transmitiendo a través de Black Mirror"
 description: Esta lección de apertura le enseñará métodos básicos para interactuar con una aplicación descentralizada (o dapp).
 lessonNumber: 1
-courseID: 1
 metaOptions: [Cursos online, Curso de Introducción]
 defaultName: Introduction to the ideas of Robonomics
 ---

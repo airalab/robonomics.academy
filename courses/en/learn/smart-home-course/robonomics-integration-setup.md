@@ -2,7 +2,6 @@
 title: "Lesson #6, Robonomics Integration Setup"
 description: home assistant course
 lessonNumber: 7
-courseID: 3
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---

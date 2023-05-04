@@ -2,7 +2,6 @@
 title: "Урок №1, Вещание через Черное Зеркало"
 description: Этот вводный урок научит вас основным методам взаимодействия с децентрализованным приложением (или dapp).
 lessonNumber: 1
-courseID: 1
 metaOptions: [Онлайн курсы, Вводный курс]
 defaultName: Introduction to the ideas of Robonomics
 ---

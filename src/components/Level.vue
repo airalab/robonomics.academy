@@ -16,7 +16,7 @@ export default {
   props: {
     level: {
       type: String,
-      default: ''
+      default: '1'
     },
     cls: {
       type: String,

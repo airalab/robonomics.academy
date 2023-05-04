@@ -5,7 +5,7 @@
   tags: ['course']
   filters: ['']
   progress: done
-  author: 'Ivan Berman'
+  author: 'Fingerling42'
   authorImage: 'berman.svg'
   lessons:
     - id: '0'
@@ -207,7 +207,7 @@
   tags: ['guide']
   filters: ['spring school 2023']
   progress: in progress
-  author: 'Ivan Berman'
+  author: 'Fingerling42'
   authorImage: 'berman.svg'
   lessons:
     - id: '0'
@@ -254,7 +254,7 @@
   level: 3
   tags: ['guide']
   progress: progress
-  author: 'Vadim Manaenko'
+  author: 'Vourhey'
   authorImage: 'VManaenko.jpeg'
   filters: ['spring school 2023']
   lessons:

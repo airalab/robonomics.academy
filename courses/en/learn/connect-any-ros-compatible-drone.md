@@ -1,7 +1,6 @@
 ---
 title: Connect ROS-compatible drone
 description: Connect any ros compatible robot under robonomics parachain control.
-courseID: 222
 metaOptions: [Learn]
 defaultName: Connect ROS-compatible drone
 ---

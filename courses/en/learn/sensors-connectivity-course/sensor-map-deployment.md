@@ -2,7 +2,6 @@
 title: "Lesson #6, Sensor map deployment"
 description: 'SENSOR MAP DEPLOYMENT'
 lessonNumber: 6
-courseID: 4
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]
 defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---

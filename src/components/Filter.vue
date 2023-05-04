@@ -43,12 +43,12 @@
         <div class="filter__author">
           <button 
             class="btn filter__item-btn"
-            :class="{'filter__item-btn--active': chosenAuthor === author}"
+            :class="{'filter__item-btn--active': chosenAuthor === author.alias}"
             v-for="author in authors"
-            :key="author"
-            @click="activateAuthor(author)"
+            :key="author.alias"
+            @click="activateAuthor(author.alias)"
           >
-            {{ author }}
+            {{ author.fullName }}
           </button>
         </div>
       </div>
@@ -68,6 +68,8 @@
 </template>
 
 <script>
+
+  import authors from '/courses/authors/authors.yaml'
 export default {
 
   components: {
@@ -86,10 +88,15 @@ export default {
       // isOpen: false,
       levels: ['1', '2', '3', '4'],
       tags: ['Spring school 2023', 'ROS', 'Raspberry Pi'],
-      authors: ['Ivan Berman'],
       chosenLevel: null,
       chosenTag: null,
       chosenAuthor: null
+    }
+  },
+
+  computed: {
+    authors() {
+      return authors
     }
   },
 
@@ -130,8 +137,8 @@ export default {
 
   .filter {
     position: relative;
-    max-width: 500px;
-    width: 100%;
+    /* max-width: 500px;
+    width: 100%; */
   }
 
   .filter__btn {
@@ -153,9 +160,11 @@ export default {
 
   .filter__content {
     position: absolute;
-    bottom: -350px;
-    left: 0;
-    width: 100%;
+    top: 125%;
+    left: -386px;
+    /* max-width: 500px;
+    width: 100%; */
+    width: 500px;
     padding: calc(var(--gap) * 0.5) var(--gap);
     background-color: var(--color-light);
     border: 3px solid var(--color-text);
@@ -257,6 +266,20 @@ export default {
 
   .filter__clear {
     color: var(--color-pink);
+  }
+
+  @media screen and (max-width: 945px) {
+    .filter {
+      max-width: 500px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .filter__content {
+      left: 0;
+      width: 100%;
+    }
   }
 
   @media screen and (max-width: 580px) {

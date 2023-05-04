@@ -1,7 +1,6 @@
 ---
 title: Connect Kuka manipulator
 description: Connect Manipulator
-courseID: 333
 metaOptions: [Learn]
 defaultName: Connect Kuka manipulator
 ---

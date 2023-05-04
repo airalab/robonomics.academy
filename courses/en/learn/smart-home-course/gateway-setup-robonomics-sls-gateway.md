@@ -2,7 +2,6 @@
 title: "Lesson #4b, Gateway Setup: Robonomics SLS Gateway"
 description: home assistant course
 lessonNumber: 5
-courseID: 3
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---

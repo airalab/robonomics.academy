@@ -2,7 +2,6 @@
 title: "Lezione #3, L'Ecosistema Polkadot per l'Infrastruttura IoT Domestica"
 description: In questa lezione proverai a controllare una lampadina intelligente che funziona tramite Home Assistant, che ha dei moduli Robonomics aggiuntivi.
 lessonNumber: 3
-courseID: 1
 metaOptions: [Corsi online, Corso Introduttivo]
 defaultName: Introduction to the ideas of Robonomics
 ---

@@ -1,7 +1,6 @@
 ---
 title: Operate Boston Dynamics Spot
 description: Operate Boston Dynamics Spot
-courseID: 777
 metaOptions: [Learn]
 defaultName: Operate Boston Dynamics Spot
 ---

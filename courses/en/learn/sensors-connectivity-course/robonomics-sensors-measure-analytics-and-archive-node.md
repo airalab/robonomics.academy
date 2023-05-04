@@ -2,7 +2,6 @@
 title: "Lesson #7, Robonomics sensors measure analytics and archive node"
 description: 'ROBONOMICS SENSORS MEASURE ANALYTICS AND ARCHIVE NODE'
 lessonNumber: 7
-courseID: 4
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]
 defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---

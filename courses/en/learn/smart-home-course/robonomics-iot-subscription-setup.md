@@ -2,7 +2,6 @@
 title: "Lesson #5, Robonomics IoT Subscription Setup"
 description: home assistant course
 lessonNumber: 6
-courseID: 3
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---

@@ -49,8 +49,8 @@ export NODE_OPTIONS=--openssl-legacy-provider
   tags: ['course'] // tags for the course
   filters: [''] // options for filter (if there are any)
   progress: done // progress of the course (done or in progress)
-  author: 'Ivan Berman' // the course author (if there is one)
-  authorImage: 'berman.svg' // image must be added to src/assets/images/authors
+  author: 'Fingerling42' // the course author (if there is one). For this option add author and use alias (see: courses/authors/authors.yaml)
+  authorImage: 'berman.svg' // image must be added to courses/authors/avatars/
   lessons:
     // first one is the about page, not the first lesson so the path must be empty to not get 404 page
     - id: '0'
@@ -60,7 +60,7 @@ export NODE_OPTIONS=--openssl-legacy-provider
     - id: '1' //  lesson id
       title: 'Broadcasting Through the Black Mirror' // lesson name
       path: 'broadcasting-through-the-black-mirror' // path that will be displayed in url (it must be the same as the name of lesson md file)
-      status: done // lesson status (done or in progress)
+      status: in progress // lesson status (done or in progress)
 ```
 
 - Then, you must create "intro page" for your course in `courses/learn/en/` - e.g *introduction-course.md.* And add some basic info: 
@@ -69,7 +69,6 @@ export NODE_OPTIONS=--openssl-legacy-provider
   title: "Introduction to the ideas of Robonomics" // course title
   description: Welcome Introduction Course! // course description 
   lessonNumber: 0 // lesson number (0 if it's about page)
-  courseID: 1 // course id (use next number id for your new course)
   metaOptions: [Learn, Introduction to the ideas of Robonomics] // this information is needed for meta tags and images purposes. You need to type: Learn, Name_Of_Your_Course
   defaultName: Introduction to the ideas of Robonomics // also needed for meta info
   ---
@@ -78,6 +77,11 @@ export NODE_OPTIONS=--openssl-legacy-provider
 - Next, add lessons for the new course (if there are any). You must create folder with the same name as **md** file for the new course. E.g - `courses/learn/en/introduction-course/`
 
 - Finally, create **md** files for each lesson in new folder. The set up will be identical to the course *md* file with the necessary adjustments :)
+
+
+**NOTE** : 
+ 1. Make sure you use **alias** while adding author!  
+ 2. If your lesson is in progress you must add `status: in progress` for your lesson **AND** `progress: in progress` for your course!
   
 
 

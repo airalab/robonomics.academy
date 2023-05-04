@@ -2,7 +2,6 @@
 title: "Lesson #2, Raspberry Pi Setup"
 description: home assistant course
 lessonNumber: 2
-courseID: 3
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---

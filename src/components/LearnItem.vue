@@ -11,14 +11,15 @@
       </div>
       <h3> {{ item.title }} </h3>
       <div class="learn__author" v-if="item.author">
-        <g-image v-if="item.authorImage" :src="require(`!!assets-loader!@/assets/images/authors/${item.authorImage}`)" :alt="item.author" />
-        <h4>{{ item.author }}</h4>
+        <g-image v-if="item.authorImage" :src="require(`!!assets-loader!@imagesAuthors/${item.authorImage}`)" :alt="item.author" />
+        <h4>{{ getAuthorByAlias(item.author)[0].fullName }}</h4>
       </div>
       <Level :level="String(item.level)" cls="learn__level" />
     </g-link>
 </template>
 
 <script>
+  import authors from '/courses/authors/authors.yaml'
 export default {
 
   components: {
@@ -29,6 +30,19 @@ export default {
     item: {
       type: Object,
       required: true
+    }
+  },
+
+  computed: {
+    authors() {
+      return authors
+    }
+  },
+
+
+  methods: {
+    getAuthorByAlias(alias) {
+      return this.authors.filter(author => author.alias === alias)
     }
   }
 
