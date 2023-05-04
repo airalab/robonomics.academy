@@ -20,8 +20,9 @@
       </div>
     </div>
 
-          <!-- lessons -->
-          <ol v-if="course.lessons" class="lesson-aside__lessons">
+    <div class="lessons-aside__bottom">
+      <!-- lessons -->
+      <ol v-if="course.lessons" class="lesson-aside__lessons">
         <li
           @click="$emit('closeSidebar')"
           class="lessons-aside__item"
@@ -35,7 +36,11 @@
         </li>
       </ol>
 
-      <div v-if="course.author"  class="lesson-aside__author">By <span>{{ getAuthorByAlias(course.author)[0].fullName }}</span></div>
+      <div v-if="course.author"  class="lesson-aside__author">
+        By <span>{{ getAuthorByAlias(course.author)[0].fullName }}</span>
+          <g-image v-if="course.authorImage" :src="require(`!!assets-loader!@imagesAuthors/${course.authorImage}`)" :alt="course.author" />
+      </div>
+    </div>
 
       <!-- calendar -->
       <div 
@@ -174,6 +179,10 @@ export default {
     margin-right: calc(var(--gap) * 0.5);
   }
 
+  .lessons-aside__bottom {
+    min-height: 500px;
+  }
+
   .lesson-aside__lessons {
     list-style: none; 
   }
@@ -239,15 +248,24 @@ export default {
   }
 
   .lesson-aside__author {
+    display: flex;
+    align-items: center;
     font-weight: 600;
     font-style: italic;
     padding: calc(var(--gap) * 0.5);
-    text-align: right;
     color: var(--color-text);
   }
 
   .lesson-aside__author span {
+    padding: calc(var(--gap) * 0.3);
     color: var(--color-actions);
+  }
+
+  .lesson-aside__author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid var(--color-actions);
   }
 
   .lessons-aside__calendar-wrapper {
@@ -255,9 +273,9 @@ export default {
     height: 320px;
   }
 
-  .lessons-aside__calendar-wrapper--mini {
+  /* .lessons-aside__calendar-wrapper--mini {
     position: static;
-  }
+  } */
 
   .lessons-aside__calendar-wrapper.active {
     height: 500px;
