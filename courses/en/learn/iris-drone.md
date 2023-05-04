@@ -1,7 +1,6 @@
 ---
 title: Connect unmanned aerial vehicle
 description: Connect unmanned aerial vehicle
-courseID: 444
 metaOptions: [Learn]
 defaultName: Connect unmanned aerial vehicle
 ---

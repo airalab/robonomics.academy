@@ -2,7 +2,6 @@
 title: "Lesson #3, Setting up and connecting sensors"
 description: 'SETTING UP AND CONNECTING SENSORS'
 lessonNumber: 3
-courseID: 4
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]
 defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---

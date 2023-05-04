@@ -2,7 +2,6 @@
 title: "Lesson #4, Sensors connectivity module"
 description: 'SENSORS CONNECTIVITY MODULE'
 lessonNumber: 4
-courseID: 4
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]
 defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---

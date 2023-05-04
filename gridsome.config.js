@@ -55,6 +55,7 @@ module.exports = {
 
     // alias for easier access to files 
     config.resolve.alias.set('@imagesCourses', '/courses/images')
+    config.resolve.alias.set('@imagesAuthors', '/courses/authors/avatars')
 
     config.mode('development')
   }

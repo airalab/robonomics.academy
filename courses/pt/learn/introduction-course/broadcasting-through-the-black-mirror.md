@@ -2,7 +2,6 @@
 title: "Lição #1, Transmissão através do Espelho Negro"
 description: Esta lição de abertura ensinará métodos básicos para interagir com uma aplicação descentralizada (ou dapp).
 lessonNumber: 1
-courseID: 1
 metaOptions: [Cursos on-line, Curso introdutório]
 defaultName: Introduction to the ideas of Robonomics
 ---

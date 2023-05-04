@@ -1,7 +1,6 @@
 ---
 title: Connect Mars Curiosity Rover
 description: Connect Mars Curiosity rover under Robonomics parachain control.
-courseID: 111
 metaOptions: [Learn]
 defaultName: Connect Mars Curiosity Rover
 ---

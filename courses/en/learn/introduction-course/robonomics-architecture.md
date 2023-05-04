@@ -2,7 +2,6 @@
 title: "Lesson #4, Robonomics Architecture"
 description: In this lesson you will study the first half of the second chapter of Robonomics Whitepaper 2022 titled Robonomics Architecture.
 lessonNumber: 4
-courseID: 1
 metaOptions: [Learn, Introduction to the ideas of Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---

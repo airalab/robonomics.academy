@@ -1,6 +1,6 @@
 <template>
 
-  <CourseLayout :courseId="String(courseID)" :lessonId="String(lessonNumber)" noTranslations :defaultTitle="defaultName">
+  <CourseLayout :lessonId="String(lessonNumber)" noTranslations :defaultTitle="defaultName">
 
     <MetaInfo
         pageTitle = "Available Translations"
@@ -44,7 +44,6 @@
           description
           path
           lessonNumber
-          courseID
           defaultName
         }
       }
@@ -64,7 +63,6 @@ export default {
   data() {
     return {
       lessonTitle: '',
-      courseID: '',
       lessonNumber: '',
       defaultName: '',
     }
@@ -99,7 +97,6 @@ export default {
     const title = path.match(/\/([^\/]+)[\/]?$/);
     this.postTitle = title[1];
 
-    this.courseID = this.lessonsList[0].node.courseID;
     this.lessonNumber = this.lessonsList[0].node.lessonNumber;
     this.defaultName = this.lessonsList[0].node.defaultName;
   }

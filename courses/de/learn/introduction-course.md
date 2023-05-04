@@ -2,7 +2,6 @@
 title: "Introduction to the ideas of Robonomics"
 description: Welcome Introduction Course!
 lessonNumber: 0
-courseID: 1
 metaOptions: [Online Kurse, Einführungskurs]
 defaultName: Introduction to the ideas of Robonomics
 ---

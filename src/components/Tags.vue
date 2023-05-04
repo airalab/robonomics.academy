@@ -50,13 +50,12 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: calc(var(--gap) * 0.4);
   }
 
   @media screen and (max-width: 920px) {
     .tags {
-      justify-content: flex-start;
       flex-wrap: wrap;
-      gap: calc(var(--gap) * 0.4);
     }
   }
 </style>

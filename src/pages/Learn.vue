@@ -80,7 +80,7 @@ export default {
 
 
     filteredCourses() {
-      const filtered = [];
+      let filtered = [];
       if(this.activeTags.length || this.activeFilter.length) {
 
         if(this.activeTags.length) { 
@@ -94,14 +94,22 @@ export default {
               filtered.push(course);
             }
           })
-          return filtered
-        } else {
-          const filterCourses = () => {
-            return this.filterCoursesByLevel(this.filterCoursesByTag(this.filterCoursesByAuthor(this.reverseCourses)))
+        } 
+
+        if(this.activeFilter.length) {
+
+          if(filtered.length) {
+            filtered = this.filterCoursesByLevel(this.filterCoursesByTag(this.filterCoursesByAuthor(filtered)))
+          } else {
+            const filterCourses = () => {
+              return this.filterCoursesByLevel(this.filterCoursesByTag(this.filterCoursesByAuthor(this.reverseCourses)))
+            }
+            filtered.push(...filterCourses())
           }
-          return filterCourses()
 
         }
+
+        return filtered
   
       }  else {
         return this.reverseCourses
@@ -167,8 +175,10 @@ export default {
 
   .learn__actions {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: calc(var(--gap) * 0.4);
     margin-bottom: calc(var(--gap) * 2);

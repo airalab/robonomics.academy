@@ -2,7 +2,6 @@
 title: "Lección #4, Arquitectura de Robonomics"
 description: Estudiará la primera mitad del segundo capítulo del Whitpaper de Robonomics 2022 titulado "Arquitectura de Robonomics".
 lessonNumber: 4
-courseID: 1
 metaOptions: [Cursos online, Curso de Introducción]
 defaultName: Introduction to the ideas of Robonomics
 ---

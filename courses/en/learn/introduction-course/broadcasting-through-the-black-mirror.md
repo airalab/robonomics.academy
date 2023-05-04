@@ -2,7 +2,6 @@
 title: "Lesson #1, Broadcasting Through the Black Mirror"
 description: This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).
 lessonNumber: 1
-courseID: 1
 metaOptions: [Learn, Introduction to the ideas of Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---

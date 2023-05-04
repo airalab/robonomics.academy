@@ -2,7 +2,6 @@
 title: "Lektion #2, Am Schnittpunkt von Kybernetik und Wirtschaft"
 description: In die neuesten web3-Technologien am Schnittpunkt von Kybernetik und Wirtschaft die dazu beitragen sollen, dass IoT-Systeme in unseren Häusern und Städten sicher und effizient funktionieren.
 lessonNumber: 2
-courseID: 1
 metaOptions: [Online Kurse, Einführungskurs]
 defaultName: Introduction to the ideas of Robonomics
 ---

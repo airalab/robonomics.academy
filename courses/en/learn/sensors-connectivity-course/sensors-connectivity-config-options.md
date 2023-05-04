@@ -2,7 +2,6 @@
 title: "Lesson #5, Sensors connectivity config options"
 description: 'SENSORS CONNECTIVITY CONFIG OPTIONS'
 lessonNumber: 5
-courseID: 4
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]
 defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---

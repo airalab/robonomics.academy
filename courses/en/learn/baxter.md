@@ -1,7 +1,6 @@
 ---
 title: Control Baxter robot
 description: Control Baxter robot
-courseID: 555
 metaOptions: [Learn]
 defaultName: Control Baxter robot
 ---

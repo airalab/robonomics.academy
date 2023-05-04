@@ -35,10 +35,12 @@
         </li>
       </ol>
 
+      <div v-if="course.author"  class="lesson-aside__author">By <span>{{ getAuthorByAlias(course.author)[0].fullName }}</span></div>
+
       <!-- calendar -->
       <div 
         class="lessons-aside__calendar-wrapper" 
-        :class="[{active: isBubbleOpen}, {'lessons-aside__calendar-wrapper--mini': course.lessons.length <= 1}]" 
+        :class="[{active: isBubbleOpen}, {'lessons-aside__calendar-wrapper--mini': course.lessons.length <= 5}]" 
         @click.stop="openCalendarBlob"
       >
         <div  class="lessons-aside__calendar" :class="{active: isBubbleOpen}">
@@ -54,6 +56,7 @@
 </template>
 
 <script>
+  import authors from '/courses/authors/authors.yaml'
 export default {
 
   props: {
@@ -101,7 +104,10 @@ export default {
       if(title) {
         this.path = title[1]
       }
+    },
 
+    getAuthorByAlias(alias) {
+      return this.authors.filter(author => author.alias === alias)
     }
   },
 
@@ -110,6 +116,10 @@ export default {
       if(this.title) {
         return this.course.lessons.filter(lesson => lesson.title === this.title)
       }
+    },
+
+    authors() {
+      return authors
     }
   },
 
@@ -226,6 +236,18 @@ export default {
 
   .lessons-aside__item--active.lessons-aside__item a {
     color: var(--color-text);
+  }
+
+  .lesson-aside__author {
+    font-weight: 600;
+    font-style: italic;
+    padding: calc(var(--gap) * 0.5);
+    text-align: right;
+    color: var(--color-text);
+  }
+
+  .lesson-aside__author span {
+    color: var(--color-actions);
   }
 
   .lessons-aside__calendar-wrapper {

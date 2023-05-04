@@ -2,7 +2,6 @@
 title: "Lektion #3, Polkadot-Ecosystem für die IoT-Infrastruktur zu Hause"
 description: In dieser Lektion werden Sie versuchen eine intelligente Glühbirne zu steuern, die über den Home Assistant funktioniert der über zusätzliche Robonomics-Module verfügt.
 lessonNumber: 3
-courseID: 1
 metaOptions: [Online Kurse, Einführungskurs]
 defaultName: Introduction to the ideas of Robonomics
 ---

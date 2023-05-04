@@ -2,7 +2,6 @@
 title: "Lesson #1, Introduction"
 description: 'INTRODUCTION'
 lessonNumber: 1
-courseID: 4
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]
 defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---

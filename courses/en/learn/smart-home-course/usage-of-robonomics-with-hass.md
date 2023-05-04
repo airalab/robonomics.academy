@@ -2,7 +2,6 @@
 title: "Lesson #7, Usage of Robonomics with Home Assistant"
 description: home assistant course
 lessonNumber: 8
-courseID: 3
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---

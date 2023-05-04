@@ -65,6 +65,10 @@ export default {
     display: inline-block;
     margin-right: var(--gap);
   }
+
+  .btn__tag {
+    margin-right: 0;
+  }
   
 
   .delete-tag {

@@ -2,7 +2,6 @@
 title: "Урок №3, Экосистема Polkadot для домашней инфраструктуры IoT"
 description: В этом уроке вы попробуете управлять умной лампочкой, которая работает через Home Assistant с дополнительными модулями Робономики.
 lessonNumber: 3
-courseID: 1
 metaOptions: [Онлайн курсы, Вводный курс]
 defaultName: Introduction to the ideas of Robonomics
 ---

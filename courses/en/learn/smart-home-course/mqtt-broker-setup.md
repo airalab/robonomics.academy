@@ -2,7 +2,6 @@
 title: "Lesson #3, MQTT Broker Setup and Hass Init"
 description: home assistant course
 lessonNumber: 3
-courseID: 3
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---

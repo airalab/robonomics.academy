@@ -45,7 +45,7 @@
           <span>Coming soon</span>
         </div>
 
-        <lesson-reaction v-if="courseId && !noTranslations && course[0].progress !== 'in progress'" :lessonTitle="title"/>
+        <lesson-reaction v-if="!noTranslations && course[0].progress !== 'in progress'" :lessonTitle="title"/>
 
         <subscription :full="true" />
       </div>
@@ -87,10 +87,6 @@
     },
 
     props: {
-      courseId: {
-        default: null,
-        required: true
-      },
       noTranslations: {
         type: Boolean,
         default: false

@@ -2,7 +2,6 @@
 title: "Урок № 4, Архитектура Робономики"
 description: На этом уроке вы изучите первую половину второй главы Robonomics Whitepaper 2022 под названием «Архитектура экономики роботов». 
 lessonNumber: 4
-courseID: 1
 metaOptions: [Онлайн курсы, Вводный курс]
 defaultName: Introduction to the ideas of Robonomics
 ---

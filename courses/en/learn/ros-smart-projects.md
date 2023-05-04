@@ -1,7 +1,6 @@
 ---
 title: ROS-based projects for smart spaces
 description: ROS-based projects for smart spaces
-courseID: 666
 metaOptions: [Learn]
 defaultName: ROS-based projects for smart spaces
 ---
