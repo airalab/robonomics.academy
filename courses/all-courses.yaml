@@ -253,7 +253,7 @@
   path: 'open-source-private-smart-home-intro'
   level: 3
   tags: ['guide']
-  progress: progress
+  progress: not finished
   author: 'Vourhey'
   authorImage: 'VManaenko.jpeg'
   filters: ['spring school 2023']

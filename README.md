@@ -48,7 +48,7 @@ export NODE_OPTIONS=--openssl-legacy-provider
   level: 3 // complexity of the course
   tags: ['course'] // tags for the course
   filters: [''] // options for filter (if there are any)
-  progress: done // progress of the course (done or in progress)
+  progress: done // progress of the course (done, in progress (if zero lessons are ready), not finished (if some lessons are not finished))
   author: 'Fingerling42' // the course author (if there is one). For this option add author and use alias (see: courses/authors/authors.yaml)
   authorImage: 'berman.svg' // image must be added to courses/authors/avatars/
   lessons:
@@ -81,7 +81,9 @@ export NODE_OPTIONS=--openssl-legacy-provider
 
 **NOTE** : 
  1. Make sure you use **alias** while adding author!  
- 2. If your lesson is in progress you must add `status: in progress` for your lesson **AND** `progress: in progress` for your course!
+ 2. If your lesson is in progress you must add `status: in progress` for your lesson **AND** `progress: not finished` or `progress: in progress`  for your course!
+
+ > not finished - some lesson are ready, in progress - zero lessons are done
   
 
 
