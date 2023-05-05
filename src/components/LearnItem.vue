@@ -83,8 +83,7 @@ export default {
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 3;
       overflow: hidden;
-      white-space: pre-wrap;
-
+      /* white-space: pre-wrap; */
     }
 
     .learn__link:hover {
@@ -135,6 +134,13 @@ export default {
       height: 44px;
       margin-right: calc(var(--gap) * 0.5);
       border-radius: 100%;
+    }
+
+    @media screen and (max-width: 380px) {
+      .learn__author {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
 
 </style>
