@@ -83,7 +83,7 @@ export NODE_OPTIONS=--openssl-legacy-provider
  1. Make sure you use **alias** while adding author!  
  2. If your lesson is in progress you must add `status: in progress` for your lesson **AND** `progress: not finished` or `progress: in progress`  for your course!
 
- > not finished - some lesson are ready, in progress - zero lessons are done
+ > not finished - some lessons are ready, in progress - zero lessons are done
   
 
 
