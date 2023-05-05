@@ -48,7 +48,7 @@
             :key="author.alias"
             @click="activateAuthor(author.alias)"
           >
-            {{ author.fullName }}
+            {{ $ts(author.fullName) }}
           </button>
         </div>
       </div>

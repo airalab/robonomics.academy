@@ -6,7 +6,11 @@ metaOptions: [Learn]
 defaultName: Introduction to open source solution for private smart homes
 ---
 
-<p style="font-size: 120%;font-style: italic;font-weight: 300;margin-bottom: calc(var(--gap) * 1.5);">Hi all! Today I want to bring you to a conversation about a smart home, when there is a need for it, what it consists of and what it can give.</p>
+<LessonImages src="open-source-private-smart-home-intro.png" alt="image" imageClasses="mb full" />
+
+<RoboAcademyText>
+  Hi all! Today I want to bring you to a conversation about a smart home, when there is a need for it, what it consists of and what it can give.
+</RoboAcademyText>
 
 ## Smart homes: Solving heating and hot water woes
 
@@ -33,4 +37,6 @@ Another approach might be to buy devices from Chinese manufacturers such as Sono
 
 And another approach to building a smart home is based on the second, i.e. using available devices from the same Chinese manufacturers, but additionally install a home server in your apartment / house to get rid of the clouds. This is the path we took in our smart home solution. In the following parts, I will talk in detail about the assembly of our demo stand and its capabilities.
 
-<p style="font-size: 120%;font-style: italic;font-weight: 500;margin-bottom: calc(var(--gap) * 1.5);">That's all for now! In the next lesson, we will dive deeper into the practical side of building a smart home and show you how to assemble a Smart Home Board. Stay tuned and get ready to take your first step towards creating a fully functional and automated home.</p>
+<RoboAcademyText fWeight="500">
+  That's all for now! In the next lesson, we will dive deeper into the practical side of building a smart home and show you how to assemble a Smart Home Board. Stay tuned and get ready to take your first step towards creating a fully functional and automated home.
+</RoboAcademyText>

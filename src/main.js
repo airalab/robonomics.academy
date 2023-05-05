@@ -39,6 +39,7 @@ import RoboAcademyGridElement from '~/components/RoboAcademyGridElement.vue'
 import RoboAcademyNote from '~/components/RoboAcademyNote.vue'
 import RoboAcademyTabs from '~/components/RoboAcademyTabs.vue'
 import RoboAcademyTab from '~/components/RoboAcademyTab.vue'
+import RoboAcademyText from '~/components/RoboAcademyText.vue'
 import Prism from 'vue-prism-component'
 
 
@@ -101,6 +102,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('RoboAcademyNote', RoboAcademyNote)
   Vue.component('RoboAcademyTabs', RoboAcademyTabs)
   Vue.component('RoboAcademyTab', RoboAcademyTab)
+  Vue.component('RoboAcademyText', RoboAcademyText)
 
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
