@@ -309,10 +309,17 @@ export default {
   }
 
   @media screen and (max-width: 465px) {
+
+    .filter__content {
+      min-height: 520px;
+    }
+
+
     .filter__tags,
     .filter__author {
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
     }
 
     .filter__tags .btn,
