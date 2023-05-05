@@ -9,10 +9,10 @@
       <div v-if="item.lessons.length > 1" class="learn__lessons lessons-count">
         <span>{{ item.lessons.length }}</span>
       </div>
-      <h3> {{ item.title }} </h3>
+      <h3> {{ $ts(item.title) }} </h3>
       <div class="learn__author" v-if="item.author">
         <g-image v-if="item.authorImage" :src="require(`!!assets-loader!@imagesAuthors/${item.authorImage}`)" :alt="item.author" />
-        <h4>{{ getAuthorByAlias(item.author)[0].fullName }}</h4>
+        <h4>{{ $ts(getAuthorByAlias(item.author)[0].fullName)}}</h4>
       </div>
       <Level :level="String(item.level)" cls="learn__level" />
     </g-link>
@@ -61,6 +61,7 @@ export default {
       padding: calc(var(--gap) * 0.5);
       background-color: var(--color-main);
       border: 3px solid var(--color);
+      overflow: hidden;
     }
 
     .learn__link.in-progress {
@@ -72,12 +73,18 @@ export default {
     } */
 
     .learn__link h3 {
+      display: -webkit-box;
       padding-top: calc(var(--gap) * 0.5);
       margin-bottom: calc(var(--gap) * 0.5);
       font-family: var(--font-main);
       font-size: calc( var(--font-size) * 1.6);
       line-height: 1.2;
       text-align: left;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      white-space: pre-wrap;
+
     }
 
     .learn__link:hover {
