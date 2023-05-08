@@ -147,6 +147,10 @@
     margin-bottom: var(--gap);
   }
 
+  .lesson-section a {
+    word-break: break-all;
+  }
+
   @media screen and (max-width: 560px) {
     .lesson-section p {
       font-size: 1rem;

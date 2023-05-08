@@ -186,14 +186,14 @@
     padding: 0 var(--gap)
   }
 
+  .course h1, .course h2, .course h3, .course h4, .course h5 {
+    font-family: var(--font-secondary);
+  }
+
   @media screen and (max-width: 550px) {
     .course .container__mid {
       padding: 0 calc(var(--gap) * 0.6);
     }
-  }
-
-  .course h1, .course h2, .course h3, .course h4, .course h5 {
-    font-family: var(--font-secondary);
   }
 
   /* .course-without-tr {
@@ -230,6 +230,7 @@
   }
 
   h1 {
+    /* display: -webkit-box; */
     font-size: calc(var(--font-size) * 1.9);
     font-family: var(--font-main);
     text-transform: lowercase;
@@ -237,7 +238,7 @@
   }
 
   h1::first-letter {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
   }
 
   .course__aside-btn {
@@ -291,6 +292,9 @@
   }
 
   @media screen and (max-width: 460px) {
+    h1 {
+      font-size: calc(var(--gap) * 0.8) !important;
+    }
     .breadcrumbs {
       align-items: flex-start;
       flex-direction: column;

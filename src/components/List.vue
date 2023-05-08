@@ -78,7 +78,22 @@ export default {
         font-weight: bold; 
         display: inline-block;
         width: 1em; 
+        line-height: 1.8;
         flex-shrink: 0;
+    }
+
+    .list__bullets li > ul li {
+        font-weight: 400;
+        padding-left: var(--gap);
+    }
+
+    .list__bullets li > ul li:first-child {
+        margin-top: calc(var(--gap) * 0.5);
+    } 
+
+    .list__bullets li > ul li::before {
+        content: "\25E6" !important;
+        color: var(--color-actions) !important;
     }
     
 

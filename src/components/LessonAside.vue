@@ -28,9 +28,9 @@
           class="lessons-aside__item"
           v-for="lesson in course.lessons"
           :key="lesson.id"
-          :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 || lesson.id == 0 && $route.path.includes(course.path)  }, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'in progress' && lesson.status === 'in progress' || course.progress === 'not finished' && lesson.status === 'in progress'}]"
+          :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 || course.path === path && lesson.id == 0}, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'in progress' && lesson.status === 'in progress' || course.progress === 'not finished' && lesson.status === 'in progress'}]"
         >
-          <g-link :to="course.progress !== 'in progress' && lesson.status !== 'in progress' ? `learn/${course.path}/${lesson.path}` : ''">
+          <g-link :to="course.progress !== 'in progress' && lesson.status !== 'in progress' ? getLessonPath(course, lesson) : ''">
             {{  $ts(lesson.title ) }}
           </g-link>
         </li>
@@ -113,6 +113,19 @@ export default {
 
     getAuthorByAlias(alias) {
       return this.authors.filter(author => author.alias === alias)
+    },
+
+    getLessonPath(course, lesson) {
+      if(course.withNoCommonPath) {
+        if(lesson.path) {
+          return `learn/${lesson.path}`
+        } else {
+          return `learn/${course.path}`
+        }
+
+      } else {
+        return `learn/${course.path}/${lesson.path}`
+      }
     }
   },
 
@@ -125,7 +138,7 @@ export default {
 
     authors() {
       return authors
-    }
+    },
   },
 
   watch: {
