@@ -1,7 +1,7 @@
 ---
 title: "Introduction to the ideas of Robonomics"
 description: Welcome Introduction Course!
-lessonNumber: 0
+# lessonNumber: 0
 metaOptions: [Learn, Introduction to the ideas of Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---

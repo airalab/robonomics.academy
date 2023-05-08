@@ -125,7 +125,9 @@ Home Assistant Installation
   <li>
 
   <robo-academy-note type="okay">
-  Some software versions shown below may be out of date. For the latest versions, you can refer to the [installation repository for Robonomics Home Assistant image](https://github.com/airalab/Robonomics-HomeAssistant-image/tree/main/robonomics-stage).
+
+Some software versions shown below may be out of date. For the latest versions, you can refer to the [installation repository for Robonomics Home Assistant image](https://github.com/airalab/Robonomics-HomeAssistant-image/tree/main/robonomics-stage).
+
   </robo-academy-note>
 
   Before starting, update the Raspberry Pi system and install necessary packages.  During installation you will see a window with service restart request. Just choose <span class="accent">ok</span> with the <code>tab</code> button and press enter.

@@ -1,7 +1,7 @@
 ---
 title: "OpenGov for managing the IoT infrastructure"
 description: An open experiment using openGov to manage the IoT infrastructure of a small English village.
-lessonNumber: 0
+# lessonNumber: 0
 metaOptions: [Learn]
 defaultName: OpenGov for managing the IoT infrastructure
 ---

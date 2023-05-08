@@ -206,14 +206,14 @@
   level: 3
   tags: ['guide']
   filters: ['spring school 2023']
-  progress: in progress
+  progress: not finished
   author: 'Fingerling42'
   authorImage: 'berman.svg'
   lessons:
     - id: '0'
       title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
       path: ''
-      status: in progress
+      status: done
     - id: '1'
       title: 'Writing: Introduction'
       path: 'writing-introduction'
@@ -242,10 +242,15 @@
   progress: done
   author: 'Leemo'
   authorImage: 'Leemo.png'
+  withNoCommonPath: true
   lessons:
     - id: '0'
       title: "Introduction"
       path: ''
+      status: done
+    - id: '1'
+      title: "The Shadow of AdCorp's Intrusion"
+      path: 'the-shadow-of-adcorps-intrusion'
       status: done
   filters: ['spring school 2023']
 - id: '14'
@@ -257,14 +262,16 @@
   author: 'Vourhey'
   authorImage: 'VManaenko.jpeg'
   filters: ['spring school 2023']
+  withNoCommonPath: true
   lessons:
     - id: '0'
       title: "New Home, New Habits"
       path: ''
+      status: done
     - id: '1'
       title: "Assembling Smart Home Board"
-      path: ''
-      status: in progress
+      path: 'assembling-smart-home-board'
+      status: done
     - id: '2'
       title: "Unleash Automation Potential"
       path: ''
