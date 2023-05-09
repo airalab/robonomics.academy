@@ -1,5 +1,5 @@
 <template>
-    <g-link class="learn__link" :class="{'in-progress': item.progress === 'in progress'}" :to="`learn/${item.path}`">
+    <g-link class="learn__link" :class="{'in-progress': item.progress === 'in progress'}" :to="item.withOverview ? `learn/${item.path}/overview` : `learn/${item.path}`">
       <ul class="learn__tags">
         <li v-for="tag in item.tags" :key="tag.id" class="tag learn__tag">
           {{ tag }}
