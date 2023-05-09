@@ -1,6 +1,6 @@
 <template>
 
-  <CourseLayout :lessonId="String(lessonNumber)" noTranslations :defaultTitle="defaultName">
+  <CourseLayout noTranslations :defaultTitle="defaultName">
 
     <MetaInfo
         pageTitle = "Available Translations"
@@ -63,7 +63,6 @@ export default {
   data() {
     return {
       lessonTitle: '',
-      lessonNumber: '',
       defaultName: '',
     }
   },
@@ -72,8 +71,10 @@ export default {
     lessonsList() {
       return this.$page.courses.edges.filter((e) => {
         const path =  e.node.path; 
-        const title = path.match(/\/([^\/]+)[\/]?$/);
-        return title[1] === this.postTitle
+        const titles = path.split("/");
+        const courseTitle = titles[3];
+        const lessonTitle = titles[4]
+        return courseTitle + '/' + lessonTitle === this.postTitle
       })
     },
 
@@ -94,10 +95,16 @@ export default {
 
   created() {
     const path = this.$route.path; 
-    const title = path.match(/\/([^\/]+)[\/]?$/);
-    this.postTitle = title[1];
+    // const title = path.match(/\/([^\/]+)[\/]?$/);
+    // this.postTitle = title[1];
 
-    this.lessonNumber = this.lessonsList[0].node.lessonNumber;
+    const titles = path.split("/");
+
+    const courseTitle = titles[3];
+    const lessonTitle = titles[4]
+
+    this.postTitle = courseTitle + '/' + lessonTitle;
+
     this.defaultName = this.lessonsList[0].node.defaultName;
   }
 

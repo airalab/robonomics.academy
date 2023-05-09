@@ -76,12 +76,6 @@ export NODE_OPTIONS=--openssl-legacy-provider
 
 - Next, add lessons for the new course (if there are any). You must create folder with the same name as **md** file for the new course. E.g - `courses/learn/en/introduction-course/`
 
-**NOTE**
-  If you don't need path for your lessons that looks like: `courses/learn/en/introduction-course/` and just - `courses/learn/en/lesson-name/` add this option to your course in `all-courses.yaml`
-  ```
-  - withNoCommonPath: true
-  ```
-
 
 - Finally, create **md** files for each lesson in new folder. The set up will be identical to the course *md* file with the necessary adjustments :)
 
