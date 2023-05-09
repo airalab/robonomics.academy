@@ -116,16 +116,7 @@ export default {
     },
 
     getLessonPath(course, lesson) {
-      if(course.withNoCommonPath) {
-        if(lesson.path) {
-          return `learn/${lesson.path}`
-        } else {
-          return `learn/${course.path}`
-        }
-
-      } else {
-        return `learn/${course.path}/${lesson.path}`
-      }
+      return `learn/${course.path}/${lesson.path}`
     }
   },
 

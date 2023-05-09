@@ -7,7 +7,6 @@
   progress: done
   author: 'Fingerling42'
   authorImage: 'berman.svg'
-  withOverview: true
   lessons:
     - id: '0'
       title: 'Introduction to the ideas of Robonomics'
@@ -40,7 +39,6 @@
   tags: ['course', 'real-life setup']
   filters: ['raspberry pi']
   progress: done
-  withOverview: true
   lessons:
     - id: '0'
       title: 'Sovereign Smart Home with Robonomics and Home Assistant'
@@ -85,7 +83,6 @@
   tags: ['guide', 'real-life setup']
   filters: ['']
   progress: done
-  withOverview: true
   lessons:
     - id: '0'
       title: 'Sensors Connectivity & Decentralized Sensors Network'
@@ -125,7 +122,7 @@
   lessons:
     - id: '0'
       title: 'Connect Mars Curiosity Rover'
-      path: ''
+      path: 'overview'
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
@@ -137,7 +134,7 @@
   lessons:
     - id: '0'
       title: 'Connect ROS-compatible drone'
-      path: ''
+      path: 'overview'
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
@@ -149,7 +146,7 @@
   lessons:
     - id: '0'
       title: 'Connect Kuka manipulator'
-      path: ''
+      path: 'overview'
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
@@ -161,7 +158,7 @@
   lessons:
     - id: '0'
       title: 'Connect unmanned aerial vehicle'
-      path: ''
+      path: 'overview'
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
@@ -173,7 +170,7 @@
   lessons:
     - id: '0'
       title: 'Control Baxter robot'
-      path: ''
+      path: 'overview'
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
@@ -185,7 +182,7 @@
   lessons:
     - id: '0'
       title: 'ROS-based projects for smart spaces'
-      path: ''
+      path: 'overview'
       status: done
   level: 4
   tags: ['guide']
@@ -198,7 +195,7 @@
   lessons:
     - id: '0'
       title: 'Operate Boston Dynamics Spot'
-      path: ''
+      path: 'overview'
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
@@ -212,7 +209,6 @@
   progress: not finished
   author: 'Fingerling42'
   authorImage: 'berman.svg'
-  withOverview: true
   lessons:
     - id: '0'
       title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
@@ -246,11 +242,10 @@
   progress: done
   author: 'Leemo'
   authorImage: 'Leemo.png'
-  withNoCommonPath: true
   lessons:
     - id: '0'
       title: "Introduction"
-      path: ''
+      path: 'overview'
       status: done
     - id: '1'
       title: "The Shadow of AdCorp's Intrusion"
@@ -266,11 +261,10 @@
   author: 'Vourhey'
   authorImage: 'VManaenko.jpeg'
   filters: ['spring school 2023']
-  withNoCommonPath: true
   lessons:
     - id: '0'
       title: "New Home, New Habits"
-      path: ''
+      path: 'overview'
       status: done
     - id: '1'
       title: "Assembling Smart Home Board"
