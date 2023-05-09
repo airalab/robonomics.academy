@@ -7,10 +7,11 @@
   progress: done
   author: 'Fingerling42'
   authorImage: 'berman.svg'
+  withOverview: true
   lessons:
     - id: '0'
       title: 'Introduction to the ideas of Robonomics'
-      path: ''
+      path: 'overview'
       status: done
     - id: '1'
       title: 'Broadcasting Through the Black Mirror'
@@ -39,10 +40,11 @@
   tags: ['course', 'real-life setup']
   filters: ['raspberry pi']
   progress: done
+  withOverview: true
   lessons:
     - id: '0'
       title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      path: ''
+      path: 'overview'
       status: done
     - id: '1'
       title: 'Theoretical Briefing'
@@ -83,10 +85,11 @@
   tags: ['guide', 'real-life setup']
   filters: ['']
   progress: done
+  withOverview: true
   lessons:
     - id: '0'
       title: 'Sensors Connectivity & Decentralized Sensors Network'
-      path: ''
+      path: 'overview'
       status: done
     - id: '1'
       title: 'Introduction'
@@ -209,6 +212,7 @@
   progress: not finished
   author: 'Fingerling42'
   authorImage: 'berman.svg'
+  withOverview: true
   lessons:
     - id: '0'
       title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
