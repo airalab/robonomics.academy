@@ -96,17 +96,17 @@ h1:not(:last-child), h2:not(:last-child), h3:not(:last-child), h4:not(:last-chil
   margin-bottom: calc(var(--gap) * 1.6);
 }
 
-h1 { font-size: calc(var(--font-size) * 2); line-height: 1.2; }
+h1 { font-size: calc(var(--font-size) * 2.2); line-height: 1.2; }
 
 h2 {
-  font-size: calc(var(--font-size) * 1.5);
+  font-size: calc(var(--font-size) * 1.6);
   /* text-decoration-line: underline; */
   text-underline-offset: 6px;
 }
 
-h3 { font-size: calc(var(--font-size) * 1.4); }
-h4 { font-size: calc(var(--font-size) * 1.2); }
-h5 { font-size: calc(var(--font-size) * 1.1); }
+h3 { font-size: calc(var(--font-size) * 1.2); }
+h4 { font-size: calc(var(--font-size) * 1.1); }
+h5 { font-size: calc(var(--font-size) * 1); }
 
 img {
   display: inline-block;

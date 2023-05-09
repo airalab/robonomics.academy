@@ -212,12 +212,12 @@
   lessons:
     - id: '0'
       title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
-      path: ''
+      path: 'overview'
       status: done
     - id: '1'
       title: 'Writing: Introduction'
       path: 'writing-introduction'
-      status: in progress
+      status: done
     - id: '2'
       title: 'Writing: Literature Review'
       path: 'writing-literature-review'

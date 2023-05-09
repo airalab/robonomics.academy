@@ -6,15 +6,23 @@ metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 ---
 
-# Entering the AI
+<RoboAcademyText fWeight="500">
+So, what you feared happened.
+</RoboAcademyText>
 
-## Intro
+## How to become a bachelor and not drown in a routine
 
-So, what you feared happened. You need to submit a voluminous text work and the deadline is very close. Or maybe the situation is different: the submission deadline may not be so scary, but writing large materials, especially with formal, technical content, makes you cringe and postpone the task for a long time. One way or another, you have to go through a fairly long, monotonous, and often very boring process that darkens your motivation. Perhaps you would like to devote more time to creative and developmental tasks, but unfortunately, some professions and activities are structured that way.
+You need to submit a voluminous text work and the deadline is very close. Or maybe the situation is different: the submission deadline may not be so scary, but writing large materials, especially with formal, technical content, makes you cringe and postpone the task for a long time. One way or another, you have to go through a fairly long, monotonous, and often very boring process that darkens your motivation. Perhaps you would like to devote more time to creative and developmental tasks, but unfortunately, some professions and activities are structured that way.
+
+## Entering the AI
 
 Fortunately for all of us, progress that has been making our routine tasks easier throughout history has reached the sphere of text writing. This time it is possible thanks to advances in artificial intelligence, specifically generative language models, capable of understanding and solving requests and providing more or less meaningful answers in a chat format. At Robonomics, we simply couldn't ignore something that could raise the level of automation in communication and interaction between living and machine things (and make our daily tasks easier too!).
 
+## Can you rely on GPT?
+
 The latest GPT models impress with their capabilities, but the question arises of how to use them correctly and, most importantly, how much can they be relied on. Such skills are called prompt engineering, and for this purpose, we present this guide, which will push you towards a basic understanding of the possibilities of current generative artificial intelligence.
+
+## Join our research
 
 In this guide, we will try to write a simple bachelor's thesis, based on the branch of knowledge of our "bachelor" and the starting material that the bachelor has passed. We will certainly try to adhere to minimal academic rules, but two weeks (which is the planned time for this guide) is certainly not enough to consider the bachelor's thesis successful (although reality sometimes proves otherwise). 
 
@@ -26,84 +34,46 @@ Nevertheless, this guide can be considered a good starting point to understand w
 
 ## Used Tools
 
-Among the AI services that were used in the guide:
+**Among the AI services that were used in the guide:**
 
-<List>
+**[ChatGPT](https://chat.openai.com/chat)** — a chatbot based on the Generative Pre-trained Transformer language model (ver. 3.5 and 4) created by OpenAI. It operates in a chat format with the user, answering their requests which can vary from simple questions and to composing poetry and debugging user code. Its knowledge is limited to September 2021, as it does not have access to the Internet. Basic usage is free, but requires registration with a phone number (not available in some countries). It has a subscription option ($20 per month) with more powerful features and the ability to add plugins, such as for access to Wolfram or Slack.
 
-<li class="flex">
+**[Bing Chat](http://www.bing.com)** — a chatbot based on GPT-4 integrated into Microsoft's Bing search service. A Microsoft account is required for access. Essentially, it has the same capabilities as ChatGPT, but with the Internet access, making it more powerful.
 
-[ChatGPT](https://chat.openai.com/chat) — a chatbot based on the Generative Pre-trained Transformer language model (ver. 3.5 and 4) created by OpenAI. It operates in a chat format with the user, answering their requests which can vary from simple questions and to composing poetry and debugging user code. Its knowledge is limited to September 2021, as it does not have access to the Internet. Basic usage is free, but requires registration with a phone number (not available in some countries). It has a subscription option ($20 per month) with more powerful features and the ability to add plugins, such as for access to Wolfram or Slack.
+**[Auto-GPT](https://news.agpt.co/)** — a software that uses GPT-4 to create autonomous AI agents that solves a task set by the user. The agent has access to the Internet, long-term memory, and the ability to save information to files, allowing it to perform complex sequences of actions. To use it, an account on OpenAI is required, preferably with a paid subscription. Installation instructions are [available here](https://docs.agpt.co/setup/).
 
-</li>
+**[Notion AI](https://www.notion.so/product/ai)** — an AI assistant integrated into the eponymous knowledge management software. It has limited free access, while a subscription costs $10 per month. It is convenient for processing and improving already prepared text, and has pre-installed functions for this purpose.
 
-<li class="flex">
+**Additionally, we will need the following services:**
 
-[Bing Chat](http://www.bing.com) — a chatbot based on GPT-4 integrated into Microsoft's Bing search service. A Microsoft account is required for access. Essentially, it has the same capabilities as ChatGPT, but with the Internet access, making it more powerful.
+**[Overleaf](http://www.overleaf.com)** —  Convenient online LaTeX editor for formatting text. It has a set of templates for any type of work (from theses and articles to presentations). We will be using the [MIT Thesis Template](https://www.overleaf.com/latex/templates/mit-thesis-template/ytphktgwpktc).
 
-</li>
+**[Google Scholar](http://scholar.google.com)** — a search engine for scientific publications. It is used for verifying sources suggested by AI services.
 
-<li class="flex">
+## How to use AI tools
 
-[Auto-GPT](https://news.agpt.co/) — a software that uses GPT-4 to create autonomous AI agents that solves a task set by the user. The agent has access to the Internet, long-term memory, and the ability to save information to files, allowing it to perform complex sequences of actions. To use it, an account on OpenAI is required, preferably with a paid subscription. Installation instructions are [available here](https://docs.agpt.co/setup/).
+### AI chatbots (ChatGPT, Bing)
 
-</li>
+AI chatbots (ChatGPT, Bing) do not require a particularly complex approach: all you need to do is format the appropriate request and send it to the chatbot (there is only a limit on the number of characters per message, but you can ask the chatbot to wait until the entire text of the request is sent).
 
-<li class="flex">
+### Notion AI
 
-[Notion AI](https://www.notion.so/product/ai) — an AI assistant integrated into the eponymous knowledge management software. It has limited free access, while a subscription costs $10 per month. It is convenient for processing and improving already prepared text, and has pre-installed functions for this purpose.
+For Notion AI, it is enough to insert a text block on any page and call the context menu with requests to the AI assistant.
 
-</li>
+### Auto-GPT
 
-</List>
-
-Additionally, we will need the following services:
-
-<List>
-
-<li class="flex">
-
-[Overleaf](http://www.overleaf.com) —  Convenient online LaTeX editor for formatting text. It has a set of templates for any type of work (from theses and articles to presentations). We will be using the [MIT Thesis Template](https://www.overleaf.com/latex/templates/mit-thesis-template/ytphktgwpktc).
-
-</li>
-
-<li class="flex">
-
-[Google Scholar](http://scholar.google.com) — a search engine for scientific publications. It is used for verifying sources suggested by AI services.
-
-</li>
-
-</List>
-
-## How to Use AI Tools
-
-<List>
-
-<li>AI chatbots (ChatGPT, Bing) do not require a particularly complex approach: all you need to do is format the appropriate request and send it to the chatbot (there is only a limit on the number of characters per message, but you can ask the chatbot to wait until the entire text of the request is sent).</li>
-
-<li>For Notion AI, it is enough to insert a text block on any page and call the context menu with requests to the AI assistant.</li>
-
-
-<li>
 Auto-GPT requires a different approach, as the user needs to specify before starting the following:
 
-<List>
-  <li>Name of the AI assistant</li>
-  <li>Role of the AI assistant</li>
-  <li>Up to 5 consecutive goals to be completed by the AI Assistant</li>
-</List>
+- Name of the AI assistant
+- Role of the AI assistant
+- Up to 5 consecutive goals to be completed by the AI Assistant
 
 After this, Auto-GPT will launch an agent that will display for the user all "thoughts" and actions performed, namely:
 
-<List>
-  <li>THOUGHTS — a general idea that the agent wants to implement in the current iteration</li>
-  <li>REASONING — a reason why the agent chose this idea</li>
-  <li>PLAN — specific actions to achieve the idea (searching on the internet, analyzing documents, writing to a file, etc.)</li>
-  <li>CRITICISM — special conditions that the agent imposes on its actions (for example, "search only for high-quality references from IEEE journals").</li>
-</List>
-
-</li>
-
-</List>
+- THOUGHTS — a general idea that the agent wants to implement in the current iteration
+- REASONING — a reason why the agent chose this idea
+- PLAN — specific actions to achieve the idea (searching on the internet, analyzing documents, writing to a file, etc.)
+- CRITICISM — special conditions that the agent imposes on its actions (for example, "search only for high-quality references from IEEE journals").
 
 ## First Steps
 
@@ -111,9 +81,8 @@ After this, Auto-GPT will launch an agent that will display for the user all "th
   AI tools are still being improved, so always double check the results you get.
 </RoboAcademyNote>
 
-<List type="numbers">
+### Feed the service with a context
 
-<li>
 One of the important advantages of the latest AI services is that they quite well remember the context of a request within a single session. Therefore, the first thing to do to start a bachelor's thesis is to come up with a context (a "legend") and feed it to the service.
 
 As the material for the work, the course ["Sovereign Smart Home with Robonomics and Home Assistant"](https://robonomics.academy/en/learn/smart-home-course/) on Robonomics Academy was taken as a starting point. As a result, the following context was created:
@@ -135,9 +104,7 @@ Now I want to take this course as a basis and write a bachelor's thesis with you
 
 Typical reaction of an AI chatbot to this context would be to suggest clarifying the request and how the service can assist.
 
-</li>
-
-<li>
+### Choose a topic from the suggested
 
 The next step (typical for a bachelor's situation) is to choose a topic for the thesis. Here, it is sufficient to make a request link `Propose N topics for my thesis`. ChatGPT and Bing Chat offered the following:
 
@@ -159,9 +126,7 @@ The next step (typical for a bachelor's situation) is to choose a topic for the 
 
 The topic **"Designing a Secure and Private Smart Home System using Web3 Technologies"** was chosen for the guide.
 
-</li>
-
-<li>
+### Simple plan with IMRaD structure
 
 Next, in principle, we can proceed to specific sections of the theses, following the IMRaD structure. However, it would be nice to have a more detailed plan for the bachelor's work. This can also be requested from an AI service. ChatGPT suggested the following plan, without any additional conditions:
 
@@ -192,10 +157,8 @@ Next, in principle, we can proceed to specific sections of the theses, following
 
 </LessonCodeWrapper>
 
-</li>
-
-<li>With this preparation complete, we can now move on to the first section of the thesis - the Introduction.</li>
-
-</List>
+<RoboAcademyText>
+With this preparation complete, we can now move on to the first section of the thesis - the Introduction.
+</RoboAcademyText>
   
 

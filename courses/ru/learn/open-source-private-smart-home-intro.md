@@ -6,7 +6,7 @@ metaOptions: [Learn]
 defaultName: Introduction to open source solution for private smart homes
 ---
 
-<LessonImages src="open-source-private-smart-home-intro.png" alt="image" imageClasses="mb full" />
+<LessonImages src="smart-home-intro/open-source-private-smart-home-intro.png" imageClasses="mb full" />
 
 <RoboAcademyText>
   Всем привет! Сегодня я хочу вывести вас на разговор об умном доме, когда появляется потребность в нем, из чего он состоит и что может дать. 

@@ -43,12 +43,12 @@ export default {
 
 <style scoped>
   .code__plain-text {
-    padding: var(--gap);
-    font-weight: 500;
-    font-family: var(--font-text);
-    margin-bottom: var(--gap);
-    border: 3px solid var(--color-text);
     background-color: #e5eeff;
+    border: 3px solid var(--color-text);
+    font-family: var(--font-text);
+    font-size: calc(var(--font-size) * 0.8);
+    margin-bottom: var(--gap);
+    padding: var(--gap);
   }
 
   .code__plain-text ol,

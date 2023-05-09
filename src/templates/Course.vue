@@ -98,49 +98,41 @@
     max-width: 900px;
   }
 
-  .lesson-section h2 {
-    text-align: left;
+
+  .lesson-section h1, 
+  .lesson-section h2,
+  .lesson-section h3,
+  .lesson-section h4,
+  .lesson-section h5,
+  .lesson-section h6 {
     font-family: var(--font-main);
-    margin-bottom: calc(var(--gap) * 1.2);
+    margin-bottom: calc(var(--gap) * 0.5);
+    margin-top: calc(var(--gap) * 1.5);
+    text-align: left;
   }
 
-  .lesson-section h1, .lesson-section h2,   .lesson-section h3,   .lesson-section h4,   .lesson-section h5,   .lesson-section h6 {
-    text-align: left;
+  .lesson-section h3,
+  .lesson-section h4,
+  .lesson-section h5,
+  .lesson-section h6 {
+    margin-top: calc(var(--gap) * 1);
   }
 
   .lesson-section p {
     line-height: 1.7;
   }
 
-  .lesson-section ul  {
-    margin-bottom: var(--gap);
-    list-style: none;
+  .lesson-section ul, .lesson-section ol  {
+    margin-bottom: calc(var(--gap) * 1.5);
   }
 
-  .lesson-section ol  {
-    margin-bottom: var(--gap);
-  }
-
-  .lesson-section ul:not(.list__bullets) li  {
-    font-weight: 600;
-    display: flex;
+  .lesson-section li {
+    margin-bottom: calc(var(--gap) * 0.5);
+    margin-left: calc(var(--gap) * 0.5);
   }
 
   .lesson-section .container__reg {
     padding: 0;
-  }
-
-  .lesson-section ul li::before {
-    content: "\2022" !important;
-    color: var(--color-second) !important;
-    font-weight: bold; 
-    display: inline-block;
-    width: 1em; 
-    flex-shrink: 0;
-  }
-
-  .lesson-section ul li:not(:last-child) {
-    margin-bottom: var(--gap);
   }
 
   .lesson-section .youtube-embed__wrapper {

@@ -5,7 +5,7 @@ metaOptions: [Learn]
 defaultName: Introduction to open source solution for private smart homes
 ---
 
-<LessonImages imageClasses="mb" src="spring-school-2023-smart-stand-intro.gif" alt="spring-school-2023-smart-stand-intro"/>
+<LessonImages imageClasses="mb" src="smart-home-intro/spring-school-2023-smart-stand-intro.gif" />
 
 ## Панель умного дома
 
