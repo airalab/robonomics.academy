@@ -230,10 +230,8 @@
   }
 
   h1 {
-    /* display: -webkit-box; */
     font-size: calc(var(--font-size) * 1.9);
     font-family: var(--font-main);
-    text-transform: lowercase;
     text-align: left;
   }
 

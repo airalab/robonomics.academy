@@ -6,6 +6,8 @@ metaOptions: [Learn]
 defaultName: "OpenGov for managing the IoT infrastructure"
 ---
 
+<LessonImages src="opengov-for-iot/opengov-intro.gif" alt="image" imageClasses="mb full" />
+
 <RoboAcademyText fWeight="500">Unfortunately within our tale of Orwellham, where the harmony of tradition and innovation created a utopian haven, an unexpected twist in the tale had began to unfold.
 </RoboAcademyText>
 

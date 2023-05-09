@@ -9,6 +9,8 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 So, what you feared happened.
 </RoboAcademyText>
 
+<LessonVideo :videos="[{src: 'https://crustipfs.live/ipfs/QmW6qohyJvUF2c3EwhVWZXghArAZQ6KkBsbqT41QRgJRAh', type: 'webm'}]" />
+
 ## How to become a bachelor and not drown in a routine
 
 You need to submit a voluminous text work and the deadline is very close. Or maybe the situation is different: the submission deadline may not be so scary, but writing large materials, especially with formal, technical content, makes you cringe and postpone the task for a long time. One way or another, you have to go through a fairly long, monotonous, and often very boring process that darkens your motivation. Perhaps you would like to devote more time to creative and developmental tasks, but unfortunately, some professions and activities are structured that way.
