@@ -1,17 +1,17 @@
 <template>
-    <g-link class="learn__link" :class="{'in-progress': item.progress === 'in progress'}" :to="`learn/${item.path}/overview`">
+    <g-link v-if="item.published" class="learn__link" :class="{'in-progress': item.progress === 'coming'}" :to="`learn/${item.path}/overview`">
       <ul class="learn__tags">
         <li v-for="tag in item.tags" :key="tag.id" class="tag learn__tag">
           {{ tag }}
         </li>
-        <span v-if="item.progress === 'in progress'">(coming soon)</span>
+        <span v-if="item.progress === 'coming'">(coming soon)</span>
       </ul>
       <div v-if="item.lessons.length > 1" class="learn__lessons lessons-count">
         <span>{{ item.lessons.length }}</span>
       </div>
       <h3> {{ $ts(item.title) }} </h3>
       <div class="learn__author" v-if="item.author">
-        <g-image v-if="item.authorImage" :src="require(`!!assets-loader!@imagesAuthors/${item.authorImage}`)" :alt="item.author" />
+        <g-image v-if="getAuthorByAlias(item.author)[0].avatar" :src="require(`!!assets-loader!@imagesAuthors/${getAuthorByAlias(item.author)[0].avatar}`)" :alt="item.author" />
         <h4>{{ $ts(getAuthorByAlias(item.author)[0].fullName)}}</h4>
       </div>
       <Level :level="String(item.level)" cls="learn__level" />

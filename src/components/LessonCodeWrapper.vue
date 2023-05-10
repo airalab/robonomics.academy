@@ -43,8 +43,9 @@ export default {
 
 <style scoped>
   .code__plain-text {
-    background-color: #e5eeff;
-    border: 3px solid var(--color-text);
+    color: var(--color-light);
+    background-color: var(--color-dark);
+    border: 3px solid var(--color-main);
     font-family: var(--font-text);
     font-size: calc(var(--font-size) * 0.8);
     margin-bottom: var(--gap);
@@ -54,5 +55,17 @@ export default {
   .code__plain-text ol,
   .code__plain-text ul {
     padding-left: var(--gap);
+  }
+
+  .code__plain-text a {
+    color: #78a0e0;
+  }
+
+  .code__plain-text a:hover {
+    color: var(--color-light);
+  }
+
+  .mt {
+    margin-top: var(--gap);
   }
 </style>

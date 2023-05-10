@@ -1,9 +1,20 @@
 - alias: Fingerling42
   fullName: Ivan Berman
+  avatar: 'IBerman.svg'
 
 - alias:  Leemo
   fullName: Leemo
+  avatar: 'Leemo.png'
 
 - alias: Vourhey
   fullName: Vadim Manaenko
+  avatar: 'VManaenko.jpeg'
 
+- alias: Ensrationis
+  fullName: Sergei Lonshakov
+  avatar: 'SLonshakov.jpeg'
+  hide: true
+
+- alias: wimmer_savinova
+  fullName: Anna Wimmer-Savinova
+  avatar: 'AWimmer-Savinova.jpg'

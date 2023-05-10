@@ -48,14 +48,13 @@ export NODE_OPTIONS=--openssl-legacy-provider
   level: 3 // complexity of the course
   tags: ['course'] // tags for the course
   filters: [''] // options for filter (if there are any)
-  progress: done // progress of the course (done, in progress (if zero lessons are ready), not finished (if some lessons are not finished))
+  progress: done // progress of the course (done, coming(if zero lessons are ready), progress (if some lessons are not finished))
   author: 'Fingerling42' // the course author (if there is one). For this option add author and use alias (see: courses/authors/authors.yaml)
-  authorImage: 'berman.svg' // image must be added to courses/authors/avatars/
+  published: true // set this option to false if you want to hide your course
   lessons:
-    // first one is the about page, not the first lesson so the path must be empty to not get 404 page
     - id: '0'
       title: 'Introduction to the ideas of Robonomics'
-      path: ''
+      path: 'overview' // use this path for all intro lessons 
       status: done
     - id: '1' //  lesson id
       title: 'Broadcasting Through the Black Mirror' // lesson name
@@ -63,28 +62,27 @@ export NODE_OPTIONS=--openssl-legacy-provider
       status: in progress // lesson status (done or in progress)
 ```
 
-- Then, you must create "intro page" for your course in `courses/learn/en/` - e.g *introduction-course.md.* And add some basic info: 
+- Then, you must create folder in `courses/learn/en/` - e.g *introduction-course* and add "intro page" for your course in `courses/learn/en/your-new-folder` - e.g *introduction-course.md*
+
+Add some basic info to the doc: 
+
 ```
   ---
   title: "Introduction to the ideas of Robonomics" // course title
   description: Welcome Introduction Course! // course description 
-  lessonNumber: 0 // lesson number (0 if it's about page)
   metaOptions: [Learn, Introduction to the ideas of Robonomics] // this information is needed for meta tags and images purposes. You need to type: Learn, Name_Of_Your_Course
-  defaultName: Introduction to the ideas of Robonomics // also needed for meta info
+  defaultName: Introduction to the ideas of Robonomics // name of your course in english ( also needed for meta info )
   ---
 ```
 
-- Next, add lessons for the new course (if there are any). You must create folder with the same name as **md** file for the new course. E.g - `courses/learn/en/introduction-course/`
-
-
-- Finally, create **md** files for each lesson in new folder. The set up will be identical to the course *md* file with the necessary adjustments :)
+- Finally, add lessons for the new course (if there are any). Create **md** files for each lesson in new folder. The set up will be identical to the "intro page" of your course *md* file with the necessary adjustments :)
 
 
 **NOTE** : 
  1. Make sure you use **alias** while adding author!  
- 2. If your lesson is in progress you must add `status: in progress` for your lesson **AND** `progress: not finished` or `progress: in progress`  for your course!
+ 2. If your lesson is in progress you must add `status: in progress` for your lesson **AND** `progress: progress` or `progress: coming`  for your course!
 
- > not finished - some lessons are ready, in progress - zero lessons are done
+ > progress - some lessons are ready, coming - zero lessons are done
   
 
 
@@ -162,7 +160,7 @@ It is recommended to insert videos with built-in tag <lesson-video>, however you
 `local file`
 
 ```c
-<LessonVideo autoplay loop controls :videos="[{src: '/videos/temp.mp4', type:'mp4'}]" />
+<LessonVideo autoplay loop controls :videos="[{src: '/videos/temp.mp4', type:'mp4'}]" local />
 ```
 
 `IPFS / Server`
@@ -171,6 +169,12 @@ You need to specify format of video`
 
 ```c
 <LessonVideo  :videos="[{src: 'https://crustipfs.art/ipfs/QmdZKkPJCa9GEN43iUBX81jfrFTDxcn7J6wWURrwNVwcKx', type:'webm'}, {src: 'https://crustipfs.art/ipfs/QmStCDsEHCYwVYvnDdmZBMnobPmrgZx3iJLm65b8XNzKQa', type:'mp4'}]" />
+```
+
+`video with cover`
+
+```c
+<LessonVideo  :videos="[{src: 'https://crustipfs.art/ipfs/QmdZKkPJCa9GEN43iUBX81jfrFTDxcn7J6wWURrwNVwcKx', type:'webm'}, {src: 'https://crustipfs.art/ipfs/QmStCDsEHCYwVYvnDdmZBMnobPmrgZx3iJLm65b8XNzKQa', type:'mp4'}]" cover="smart-home-intro/assembling-smart-home-board-1.png" />
 ```
 
 **Properties for LessonVideo**
@@ -184,7 +188,8 @@ You need to specify format of video`
 | Property | Required | Default | Type    | Description                                                                                                                                                                                           |
 |----------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | videos   | true     | -       | Array   | Array of objects [{src: 'path to video', type: 'type of video'}]                                                                                                                                      |    
-| local    | false    | false   | Boolean | helps to get the right path for the file. - If your video located in a local folder prop must be set to true.                                                                                                                                      |                                                                                                                                                                                     |
+| local    | false    | false   | Boolean | helps to get the right path for the file. - If your video located in a local folder prop must be set to true.                                                                                         |   
+| cover    | false    | -       | String  | adds cover to your video. You need add cover to courses/images/course_folder/image_name.png.                                                                                         |                                                                                                                                                                                                                                |
 
 
 ### YouTube videos

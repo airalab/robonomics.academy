@@ -86,7 +86,7 @@ After this, Auto-GPT will launch an agent that will display for the user all "th
 
 One of the important advantages of the latest AI services is that they quite well remember the context of a request within a single session. Therefore, the first thing to do to start a bachelor's thesis is to come up with a context (a "legend") and feed it to the service.
 
-As the material for the work, the course ["Sovereign Smart Home with Robonomics and Home Assistant"](https://robonomics.academy/en/learn/smart-home-course/) on Robonomics Academy was taken as a starting point. As a result, the following context was created:
+As the material for the work, the course ["Sovereign Smart Home with Robonomics and Home Assistant"](/learn/smart-home-course/overview) on Robonomics Academy was taken as a starting point. As a result, the following context was created:
 
 <LessonCodeWrapper language="plainText">
 
@@ -95,9 +95,7 @@ I am a student of the Department of IoT Engineering and Web3 Science.
 I am going to get Bachelor of Science in Computer Science and Engineering.
 
 I completed an online course called "Smart Home Sovereign". In this course, I went through all the steps necessary to build my own sovereign smart home, the main advantage of which is the security / privacy of user data.
-
 During the course, I set up an IoT hub on a Raspberry Pi and connected smart devices (such as a temperature/humidity sensor, a door sensor, a smart bulb, a motion sensor, etc.) to it via a Zigbee adapter using the MQTT protocol. The IoT hub is powered by Home Assistant software. Next, I connected the hub to a decentralized cloud, based on Polkadot web3 technology. This is necessary to securely transfer device data to the network without the need for a centralized cloud service provider. This allows me to securely manage my home remotely.
-
 
 Now I want to take this course as a basis and write a bachelor's thesis with your help.
 

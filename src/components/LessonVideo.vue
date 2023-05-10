@@ -1,5 +1,5 @@
 <template>
-  <video ref="video" controls muted v-bind="$attrs" v-if="videos">
+  <video ref="video" controls muted :poster="cover ? require(`!!assets-loader!@imagesCourses/${cover}`).src : ''" v-bind="$attrs" v-if="videos">
     <template v-for="video in videos">
       <source :src="getSrc(video.src)" :type="`video/${video.type}`" :key="video.id" />
   </template>
@@ -20,6 +20,11 @@ props: {
     type: Boolean,
     default: false
   },
+
+  cover: {
+    type: String,
+    default: ''
+  }
 },
 data() {
   return {

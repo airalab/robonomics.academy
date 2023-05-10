@@ -6,7 +6,7 @@
   filters: ['']
   progress: done
   author: 'Fingerling42'
-  authorImage: 'berman.svg'
+  published: true
   lessons:
     - id: '0'
       title: 'Introduction to the ideas of Robonomics'
@@ -39,6 +39,7 @@
   tags: ['course', 'real-life setup']
   filters: ['raspberry pi']
   progress: done
+  published: true
   lessons:
     - id: '0'
       title: 'Sovereign Smart Home with Robonomics and Home Assistant'
@@ -83,6 +84,7 @@
   tags: ['guide', 'real-life setup']
   filters: ['']
   progress: done
+  published: true
   lessons:
     - id: '0'
       title: 'Sensors Connectivity & Decentralized Sensors Network'
@@ -119,6 +121,7 @@
 - id: '5'
   title: 'Connect Mars Curiosity Rover'
   path: 'connect-mars-curiosity-rover'
+  published: true
   lessons:
     - id: '0'
       title: 'Connect Mars Curiosity Rover'
@@ -131,6 +134,7 @@
 - id: '6'
   title: 'Connect ROS-compatible drone'
   path: 'connect-any-ros-compatible-drone'
+  published: true
   lessons:
     - id: '0'
       title: 'Connect ROS-compatible drone'
@@ -143,6 +147,7 @@
 - id: '7'
   title: 'Connect Kuka manipulator'
   path: 'kuka'
+  published: true
   lessons:
     - id: '0'
       title: 'Connect Kuka manipulator'
@@ -155,6 +160,7 @@
 - id: '8'
   title: 'Connect unmanned aerial vehicle'
   path: 'iris-drone'
+  published: true
   lessons:
     - id: '0'
       title: 'Connect unmanned aerial vehicle'
@@ -167,6 +173,7 @@
 - id: '9'
   title: 'Control Baxter robot'
   path: 'baxter'
+  published: true
   lessons:
     - id: '0'
       title: 'Control Baxter robot'
@@ -188,6 +195,7 @@
   tags: ['guide']
   filters: ['ros']
   progress: done
+  published: true
 - id: '11'
   title: 'Operate Boston Dynamics Spot'
   path: 'spot-try-it-out'
@@ -200,15 +208,16 @@
   level: 4
   tags: ['guide', 'launch simulation']
   filters: ['ros']
+  published: true
 - id: '12'
   title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
   path: 'ai-based-bachelor-thesis'
   level: 3
   tags: ['guide']
-  filters: ['spring school 2023']
-  progress: not finished
+  filters: ['spring school 2023', 'ai']
+  progress: progress
   author: 'Fingerling42'
-  authorImage: 'berman.svg'
+  published: true
   lessons:
     - id: '0'
       title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
@@ -241,7 +250,7 @@
   tags: ['guide']
   progress: done
   author: 'Leemo'
-  authorImage: 'Leemo.png'
+  published: true
   lessons:
     - id: '0'
       title: "Introduction"
@@ -257,10 +266,10 @@
   path: 'open-source-private-smart-home-intro'
   level: 3
   tags: ['guide']
-  progress: not finished
+  progress: progress
   author: 'Vourhey'
-  authorImage: 'VManaenko.jpeg'
   filters: ['spring school 2023']
+  published: true
   lessons:
     - id: '0'
       title: "New Home, New Habits"
@@ -274,3 +283,65 @@
       title: "Unleash Automation Potential"
       path: ''
       status: in progress
+- id: '15'
+  title: "Escape from Black Mirror"
+  path: 'escape-from-black-mirror'
+  level: 3
+  tags: ['guide']
+  progress: done
+  author: 'Ensrationis'
+  filters: ['spring school 2023']
+  published: false
+  lessons:
+    - id: '0'
+      title: "Escape from Black Mirror"
+      path: 'overview'
+- id: '16'
+  title: "Fake Housewife & AI research Smart Home Solution"
+  path: 'fake-housewife-and-ai-research-smart-home-solution'
+  level: 2
+  tags: ['guide']
+  progress: progress
+  author: 'wimmer_savinova'
+  filters: ['spring school 2023', 'ai']
+  published: true
+  lessons:
+    - id: '0'
+      title: "Fake Housewife & AI research Smart Home Solution"
+      path: 'overview'
+    - id: '1'
+      title: "Meet Fake Housewife Zoe and her story"
+      path: 'meet-fake-housewife-zoe-and-her-story'
+      status: done
+    - id: '2'
+      title: "Risks of standard Smart Home solutions and the Home Assistant"
+      path: 'risks-of-smart-home'
+      status: done
+    - id: '3'
+      title: "Blockchain-based Smart home solutions"
+      path: 'blockchain-based-smart-home-solutions'
+      status: done
+    - id: '4'
+      title: "Home Assistant + blockchain+Web3"
+      path: 'home-assistant-blockchain-web3'
+      status: done
+    - id: '5'
+      title: "Studying the Sovereign smart home course at the academy and WIKI instructions"
+      path: 'assembling-smart-home-board'
+      status: in progress
+    - id: '6'
+      title: "Fake Housewife & AI is researching devices to install"
+      path: 'assembling-smart-home-board'
+      status: in progress
+    - id: '7'
+      title: "Fake Housewife & AI is installing a Smart Home Robonomics"
+      path: 'assembling-smart-home-board'
+      status: in progress
+    - id: '8'
+      title: "AI scenario of the Relax zone for the Fake Housewife"
+      path: 'assembling-smart-home-board'
+      status: in progress
+
+
+
+      
