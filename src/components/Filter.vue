@@ -48,7 +48,7 @@
             :key="author.alias"
             @click="activateAuthor(author.alias)"
           >
-            {{ $ts(author.fullName) }}
+            <span v-if="author.hide !== true">{{ $ts(author.fullName) }}</span>
           </button>
         </div>
       </div>
@@ -87,7 +87,7 @@ export default {
     return {
       // isOpen: false,
       levels: ['1', '2', '3', '4'],
-      tags: ['Spring school 2023', 'ROS', 'Raspberry Pi'],
+      tags: ['Spring school 2023', 'ROS', 'Raspberry Pi', 'ai'],
       chosenLevel: null,
       chosenTag: null,
       chosenAuthor: null

@@ -13,6 +13,7 @@ import 'prismjs/components/prism-bash';
 import 'prismjs/components/prism-python'; 
 import 'prismjs/components/prism-yaml'; 
 import 'prismjs/components/prism-xml-doc'; 
+import 'prismjs/components/prism-powershell'; 
 
 // plugins for code highlight (prism)
 import "prismjs/plugins/line-numbers/prism-line-numbers.js";
@@ -40,6 +41,7 @@ import RoboAcademyNote from '~/components/RoboAcademyNote.vue'
 import RoboAcademyTabs from '~/components/RoboAcademyTabs.vue'
 import RoboAcademyTab from '~/components/RoboAcademyTab.vue'
 import RoboAcademyText from '~/components/RoboAcademyText.vue'
+import ChatGPT from '~/components/ChatGPT.vue'
 import Prism from 'vue-prism-component'
 
 
@@ -103,6 +105,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('RoboAcademyTabs', RoboAcademyTabs)
   Vue.component('RoboAcademyTab', RoboAcademyTab)
   Vue.component('RoboAcademyText', RoboAcademyText)
+  Vue.component('ChatGPT', ChatGPT)
 
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)

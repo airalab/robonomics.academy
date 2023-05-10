@@ -28,9 +28,9 @@
           class="lessons-aside__item"
           v-for="lesson in course.lessons"
           :key="lesson.id"
-          :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 || course.path === path && lesson.id == 0}, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'in progress' && lesson.status === 'in progress' || course.progress === 'not finished' && lesson.status === 'in progress'}]"
+          :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 || course.path === path && lesson.id == 0}, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'coming' && lesson.status === 'in progress' || course.progress === 'progress' && lesson.status === 'in progress'}]"
         >
-          <g-link :to="course.progress !== 'in progress' && lesson.status !== 'in progress' ? getLessonPath(course, lesson) : ''">
+          <g-link :to="course.progress !== 'coming' && lesson.status !== 'in progress' ? getLessonPath(course, lesson) : ''">
             {{  $ts(lesson.title ) }}
           </g-link>
         </li>
@@ -38,7 +38,7 @@
 
       <div v-if="course.author"  class="lesson-aside__author">
         By <span>{{ getAuthorByAlias(course.author)[0].fullName }}</span>
-          <g-image v-if="course.authorImage" :src="require(`!!assets-loader!@imagesAuthors/${course.authorImage}`)" :alt="course.author" />
+          <g-image v-if="getAuthorByAlias(course.author)[0].avatar" :src="require(`!!assets-loader!@imagesAuthors/${getAuthorByAlias(course.author)[0].avatar}`)" :alt="course.author" />
       </div>
     </div>
 

@@ -37,15 +37,15 @@
           <h1 v-if="course[0]">{{ $ts(course[0].title )}}</h1>
         </div>
         
-        <template v-if="course[0].progress !== 'in progress'">
+        <template v-if="course[0].progress !== 'coming'">
           <slot/>
         </template>
 
-        <div v-if="course[0].progress === 'in progress'" class="course-in-progress">
+        <div v-if="course[0].progress === 'coming'" class="course-in-progress">
           <span>Coming soon</span>
         </div>
 
-        <lesson-reaction v-if="!noTranslations && course[0].progress !== 'in progress'" :lessonTitle="title"/>
+        <lesson-reaction v-if="!noTranslations && course[0].progress !== 'coming'" :lessonTitle="title"/>
 
         <subscription :full="true" />
       </div>

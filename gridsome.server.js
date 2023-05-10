@@ -226,16 +226,16 @@ module.exports = function (api) {
       createNewRedirect(path, '/learn')
     })
 
-    createNewRedirect(`/online-courses/introduction-course`, '/learn/introduction-course')
-    createNewRedirect(`/online-courses/smart-home-course`, '/learn/smart-home-course')
-    createNewRedirect(`/online-courses/sensors-connectivity-course`, '/learn/sensors-connectivity-course')
+    createNewRedirect(`/online-courses/introduction-course`, '/learn/introduction-course/overview')
+    createNewRedirect(`/online-courses/smart-home-course`, '/learn/smart-home-course/overview')
+    createNewRedirect(`/online-courses/sensors-connectivity-course`, '/learn/sensors-connectivity-course/overview')
 
     oldCourses.forEach(path => {
       createNewRedirect(`/online-courses/${path.old}`, `/learn/${path.new}`,)
     })
 
     oldPlayground.forEach(path => {
-      createNewRedirect(`/playground/${path}`, `/learn/${path}`)
+      createNewRedirect(`/playground/${path}`, `/learn/${path}/overview`)
     })
  
 
