@@ -289,9 +289,13 @@
     }
   }
 
-  @media screen and (max-width: 460px) {
+  @media screen and (max-width: 480px) {
     h1 {
       font-size: calc(var(--gap) * 0.8) !important;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
     }
     .breadcrumbs {
       align-items: flex-start;

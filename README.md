@@ -411,4 +411,15 @@ Helps to add grid layout to elements:
 | justify   | false    | -       | String | align items on the inline axis:<br>- options: start, center, end |
 | textAlign | false    | -       | String | align text inside grid<br>- options: left, center, right         |
 
+## Dialog
 
+If you need to use special dialog-like-wrapper use this component: <RoboAcademyDialog></RoboAcademyDialog>
+
+
+## Terminal
+
+If you want your code or some text looked like from terminal and `<LessonCodeWrapper></LessonCodeWrapper>` doesn't work for you, then you may try this component: <RoboAcademyTerminal title="Goals"></RoboAcademyTerminal>
+
+| Property | Required | Default  | Type   | Description                      |
+|----------|----------|----------|--------|----------------------------------|
+| title    | false    | terminal | String | Set title on top of the terminal |
