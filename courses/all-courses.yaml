@@ -230,7 +230,7 @@
     - id: '2'
       title: 'Writing: Literature Review'
       path: 'writing-literature-review'
-      status: in progress
+      status: done
     - id: '3'
       title: 'Writing: Methods'
       path: 'writing-methods'
@@ -309,6 +309,7 @@
     - id: '0'
       title: "Fake Housewife & AI research Smart Home Solution"
       path: 'overview'
+      status: done
     - id: '1'
       title: "Meet Fake Housewife Zoe and her story"
       path: 'meet-fake-housewife-zoe-and-her-story'
@@ -327,19 +328,19 @@
       status: done
     - id: '5'
       title: "Studying the Sovereign smart home course at the academy and WIKI instructions"
-      path: 'assembling-smart-home-board'
-      status: in progress
+      path: 'studying-the-sovereign-smart-home-course'
+      status: done
     - id: '6'
       title: "Fake Housewife & AI is researching devices to install"
-      path: 'assembling-smart-home-board'
+      path: ''
       status: in progress
     - id: '7'
       title: "Fake Housewife & AI is installing a Smart Home Robonomics"
-      path: 'assembling-smart-home-board'
+      path: ''
       status: in progress
     - id: '8'
       title: "AI scenario of the Relax zone for the Fake Housewife"
-      path: 'assembling-smart-home-board'
+      path: ''
       status: in progress
 
 

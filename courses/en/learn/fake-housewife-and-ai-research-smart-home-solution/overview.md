@@ -36,7 +36,7 @@ Discussion of this guide can be conducted in our Discord chat #robonomics-academ
 
 I hope that this guide will help you solve personal tasks for generating creative scenarios for your home and setting up automation for a sovereign smart home using Robonomics as an example. If you are new to the topic, the guide will provide an opportunity to understand the issues and make the right decision when choosing a smart home system.
 
-Learn, experiment, and share your results on Twitter with the tag *#RobonomicsSpringSchool2023.*
+Learn, experiment, and share your results on Twitter with the tag [#RobonomicsSpringSchool2023](https://twitter.com/hashtag/RobonomicsSpringSchool2023?src=hashtag_click).
 
 Components of our AI housekeepers:
 

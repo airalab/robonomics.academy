@@ -55,6 +55,9 @@
   --color-text-bubble-dark: #537ad3;
   --color-text-bubble-btn: #e8c431;
 
+  --color-dialog: #edf2f5;
+  --color-terminal: #434341;
+
 
   --font-title: 'Yeseva One', serif;
   --font-main: 'Roboto Flex', serif;
@@ -115,6 +118,11 @@ img {
 
 p:not(:last-child) {
   margin-bottom: var(--gap);
+}
+
+u {
+  font-weight: 400;
+  background-color: var(--color-main)
 }
 
 section {
@@ -743,9 +751,7 @@ table thead tr{
   color: var(--color-text)
 }
 
-.gpt-accent.bold {
-  font-weight: 600;
-}
+
 
 
 
