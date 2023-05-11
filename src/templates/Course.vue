@@ -12,7 +12,9 @@
   
       <section class="text__hyphened">
         <section class="lesson-section container__mid">
-          <VueRemarkContent />
+          <client-only>
+            <VueRemarkContent />
+          </client-only>
         </section>
       </section>
   </CourseLayout>
