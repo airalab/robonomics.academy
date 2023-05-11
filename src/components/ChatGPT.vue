@@ -1,6 +1,6 @@
 <template>
   <div class="gpt">
-    <g-image src="@/assets/images/gpt.png" alt="gpt"/>
+    <g-image src="@/assets/images/chatgpt.svg" alt="gpt"/>
     <span>ChatGPT:</span>
   </div>
 </template>
@@ -15,16 +15,16 @@ export default {
 
   .gpt {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     font-weight: 600;
     color: #00A67E;
-    margin-bottom: calc(var(--gap) * 0.5);
+    margin-bottom: calc(var(--gap));
   }
 
   .gpt img {
     width: 40px;
     height: 40px;
-    margin-bottom: calc(var(--gap) * 0.2);
+    margin-right: calc(var(--gap) * 0.5);
   }
 
 </style>
