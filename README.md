@@ -83,7 +83,9 @@ Add some basic info to the doc:
  2. If your lesson is in progress you must add `status: in progress` for your lesson **AND** `progress: progress` or `progress: coming`  for your course!
 
  > progress - some lessons are ready, coming - zero lessons are done
- > if your lesson/course wasn't published (published: false)  and it's your first doc then you need to go to courses/authors/authors.yaml, find your name and remove hide option
+
+
+> if your lesson/course wasn't published (published: false)  and it's your first doc then you need to go to courses/authors/authors.yaml, find your name and remove hide option
   
 
 
@@ -413,12 +415,12 @@ Helps to add grid layout to elements:
 
 ## Dialog
 
-If you need to use special dialog-like-wrapper use this component: <RoboAcademyDialog></RoboAcademyDialog>
+If you need to use special dialog-like-wrapper use this component: `<RoboAcademyDialog></RoboAcademyDialog>`
 
 
 ## Terminal
 
-If you want your code or some text looked like from terminal and `<LessonCodeWrapper></LessonCodeWrapper>` doesn't work for you, then you may try this component: <RoboAcademyTerminal title="Goals"></RoboAcademyTerminal>
+If you want your code or some text looked like from terminal and `<LessonCodeWrapper></LessonCodeWrapper>` doesn't work for you, then you may try this component: `<RoboAcademyTerminal title="Goals"></RoboAcademyTerminal>`
 
 | Property | Required | Default  | Type   | Description                      |
 |----------|----------|----------|--------|----------------------------------|
