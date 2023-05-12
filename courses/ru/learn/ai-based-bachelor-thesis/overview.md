@@ -1,7 +1,7 @@
 ---
 title: Обзор
-description: Быстрый старт работы над бакалаврской диссертацией с помощью инструментов, основанных на искусственном интеллекте
-metaOptions: [Learn, Быстрый старт работы над бакалаврской диссертацией с помощью инструментов, основанных на искусственном интеллекте]
+description: Быстрый старт работы над  бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте
+metaOptions: [Learn, Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 ---
 
@@ -86,20 +86,18 @@ Auto-GPT требует другого подхода, так как перед 
 
 В качестве материала, от которого отталкивается работа, был взят курс ["Sovereign Smart Home with Robonomics and Home Assistant"](/learn/smart-home-course/overview) на Robonomics Academy. В итоге получился следующий контекст:
 
-<LessonCodeWrapper language="plainText">
+<RoboAcademyDialog>
 
 I am a student of the Department of IoT Engineering and Web3 Science. 
 
 I am going to get Bachelor of Science in Computer Science and Engineering.
 
 I completed an online course called "Smart Home Sovereign". In this course, I went through all the steps necessary to build my own sovereign smart home, the main advantage of which is the security / privacy of user data.
-
 During the course, I set up an IoT hub on a Raspberry Pi and connected smart devices (such as a temperature/humidity sensor, a door sensor, a smart bulb, a motion sensor, etc.) to it via a Zigbee adapter using the MQTT protocol. The IoT hub is powered by Home Assistant software. Next, I connected the hub to a decentralized cloud, based on Polkadot web3 technology. This is necessary to securely transfer device data to the network without the need for a centralized cloud service provider. This allows me to securely manage my home remotely.
-
 
 Now I want to take this course as a basis and write a bachelor's thesis with your help.
 
-</LessonCodeWrapper>
+</RoboAcademyDialog>
 
 Типичной реакцией ИИ-чат-бота на этот контекст было предложение уточнить запрос, чем сервис может помочь.
 
@@ -107,7 +105,7 @@ Now I want to take this course as a basis and write a bachelor's thesis with you
 
 Следующий шаг (типичный для ситуации бакалавра) — выбор темы работы. Здесь достаточно сделать запрос в духе `Предложи мне N-тем для моего тезиса`. ChatGPT и Bing Chat предложили следующие:
 
-<LessonCodeWrapper language="plainText">
+<RoboAcademyDialog>
 
 "Designing a Secure and Private Smart Home System using Web3 Technologies" - This topic could involve examining the steps you took to build your sovereign smart home and exploring the security and privacy benefits of using IoT and Web3 technologies.
 
@@ -121,17 +119,17 @@ Now I want to take this course as a basis and write a bachelor's thesis with you
 
 "Investigating the Future of Smart Home Technologies and their Impact on Society" - This topic could involve examining the potential social and economic impacts of smart home technologies, including issues related to privacy, security, and the digital divide.
 
-</LessonCodeWrapper>
+</RoboAcademyDialog>
 
 Для гайда была выбрана тема **“Designing a Secure and Private Smart Home System using Web3 Technologies”**.
-
 
 ### Простой план со структурой IMRaD
 
 Дальше можно в принципе приступать к конкретным разделам тезисов, следуя структуре IMRaD, однако было бы неплохо иметь более подробный план бакалаврской работы. Это тоже можно попросить сделать ИИ-сервис. ChatGPT предложил следующий план, причем без каких-либо дополнительных условий:
 
+<RoboAcademyDialog>
 
-<LessonCodeWrapper language="plainText">
+<ChatGPT/>
 
 1. Introduction
     1. Background and motivation
@@ -155,7 +153,7 @@ Now I want to take this course as a basis and write a bachelor's thesis with you
     3. Recommendations for future research and development
 6. References
 
-</LessonCodeWrapper>
+</RoboAcademyDialog>
 
 <RoboAcademyText>
 На этом подготовительная часть закончена, и можно приступать к первому разделу тезисов — Введению. 
