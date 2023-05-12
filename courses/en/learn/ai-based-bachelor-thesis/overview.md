@@ -88,7 +88,7 @@ One of the important advantages of the latest AI services is that they quite wel
 
 As the material for the work, the course ["Sovereign Smart Home with Robonomics and Home Assistant"](/learn/smart-home-course/overview) on Robonomics Academy was taken as a starting point. As a result, the following context was created:
 
-<LessonCodeWrapper language="plainText">
+<RoboAcademyDialog>
 
 I am a student of the Department of IoT Engineering and Web3 Science. 
 
@@ -99,7 +99,7 @@ During the course, I set up an IoT hub on a Raspberry Pi and connected smart dev
 
 Now I want to take this course as a basis and write a bachelor's thesis with your help.
 
-</LessonCodeWrapper>
+</RoboAcademyDialog>
 
 Typical reaction of an AI chatbot to this context would be to suggest clarifying the request and how the service can assist.
 
@@ -107,7 +107,7 @@ Typical reaction of an AI chatbot to this context would be to suggest clarifying
 
 The next step (typical for a bachelor's situation) is to choose a topic for the thesis. Here, it is sufficient to make a request link `Propose N topics for my thesis`. ChatGPT and Bing Chat offered the following:
 
-<LessonCodeWrapper language="plainText">
+<RoboAcademyDialog>
 
 "Designing a Secure and Private Smart Home System using Web3 Technologies" - This topic could involve examining the steps you took to build your sovereign smart home and exploring the security and privacy benefits of using IoT and Web3 technologies.
 
@@ -121,7 +121,7 @@ The next step (typical for a bachelor's situation) is to choose a topic for the 
 
 "Investigating the Future of Smart Home Technologies and their Impact on Society" - This topic could involve examining the potential social and economic impacts of smart home technologies, including issues related to privacy, security, and the digital divide.
 
-</LessonCodeWrapper>
+</RoboAcademyDialog>
 
 The topic **"Designing a Secure and Private Smart Home System using Web3 Technologies"** was chosen for the guide.
 
@@ -130,7 +130,9 @@ The topic **"Designing a Secure and Private Smart Home System using Web3 Technol
 Next, in principle, we can proceed to specific sections of the theses, following the IMRaD structure. However, it would be nice to have a more detailed plan for the bachelor's work. This can also be requested from an AI service. ChatGPT suggested the following plan, without any additional conditions:
 
 
-<LessonCodeWrapper language="plainText">
+<RoboAcademyDialog>
+
+<ChatGPT/>
 
 1. Introduction
     1. Background and motivation
@@ -154,7 +156,7 @@ Next, in principle, we can proceed to specific sections of the theses, following
     3. Recommendations for future research and development
 6. References
 
-</LessonCodeWrapper>
+</RoboAcademyDialog>
 
 <RoboAcademyText>
 With this preparation complete, we can now move on to the first section of the thesis - the Introduction.

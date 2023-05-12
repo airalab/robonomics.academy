@@ -4093,7 +4093,15 @@
 
 - alias: Quickstart Your Bachelor's Thesis with AI-powered Tools
   en: Quickstart Your Bachelor's Thesis with AI-powered Tools
-  ru: Быстрый старт работы над бакалаврской диссертацией с помощью инструментов, основанных на искусственном интеллекте
+  ru: Быстрый старт работы над бакалаврcким тезисом с помощью инструментов, основанных на искусственном интеллекте
+
+- alias: "Writing: Introduction"
+  en: "Writing: Introduction"
+  ru: "Написание тезиса: Введение"
+
+- alias: "Writing: Literature Review"
+  en: "Writing: Literature Review"
+  ru: "Написание тезиса: Обзор литературы"
 
 - alias: Introduction to open source solution for private smart homes
   en: Introduction to open source solution for private smart homes

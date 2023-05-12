@@ -1,11 +1,8 @@
 <template>
   <div :class="{'no-copy-icon': noCopyIcon, 'no-lines': noLines}">
-<prism :language="language" :class="codeClass" v-if="language !== 'plainText'">
+<prism :language="language" :class="codeClass">
   <slot></slot>
 </prism>
-  <div v-else class="code__plain-text">
-    <slot></slot>
-  </div>
   </div>
 </template>
 

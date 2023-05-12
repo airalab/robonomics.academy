@@ -1,27 +1,27 @@
 ---
-title: "Writing: Introduction"
-description: Quickstart Your Bachelor's Thesis with AI-powered Tools
-metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
+title: "Написание тезиса: Введение"
+description: Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте
+metaOptions: [Learn, Быстрый старт работы над бакалаврским тезисом  с помощью инструментов, основанных на искусственном интеллекте]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 ---
 
 <RoboAcademyText fWeight="500">
-In this guide, we will write an Introduction for our bachelor's thesis.
+В этом гайде мы напишем Введение для нашего бакалаврского тезиса.
 </RoboAcademyText>
 
-## Resolving 'a word salad' issue with AI
+## Решаем проблему 'a word salad' с помощью ИИ
 
-Often, this section can be one of the most boring to write. Besides planning and describing the general vision of the work, we needs to make a certain amount of text. Typically, students try to fill this space with anything they can, resulting in the section looking like a word salad. This is exactly the problem that AI assistants can handle well.
+Часто бывает так, этот раздел может быть одним из самых скучных для написания. Помимо того, чтобы обдумать и описать в этом разделе общее виденье работы, нужно выдавить из себя определённый объем текста. Классически, для этого студенты часто пытаются заполнить этот объем хоть чем-то, из-за чего раздел выглядит как word salad. Именно с этой проблемой ИИ-помощники могут отлично справиться. 
 
-## Determine the exact amount of the desired result
+## Определяем точный объем желаемого результата
 
-One of the interesting observations made during the testing of AI services is that AI does not strive to perform tasks to a greater extent than necessary. Frankly, the services are almost "lazy" and perform the task only to the extent specified in the request. For example, if asked to find sources for a paragraph of text, AI will find 1-3 sources, not 5 or 10. Therefore, when formulating a request, it is best to specify the exact number of results to be returned.
+Одно из интересных моментов, замеченный во время тестирования ИИ-сервисов, стало то, что ИИ не стремиться выполнять задачу, в большем объеме, чем хотелось бы. Откровенно говоря, сервисы практически “ленятся” и выполняют задачу ровно до той степени, который был указан в запросе. Например, если попросить ИИ найти источники для абзаца текста, то он найдет 1-3 источника. Так что при формировании запроса, лучше всего указывать конкретное количество результатов на выдачу.
 
-## Writing an Introduction using Auto-GPT
+## Попробуем написать Введение с помощью Auto-GPT
 
-### Create an agent
+### Создание агента
 
-We will create an agent with the following description and goals:
+Создадим агента со следующим описанием и целями:
 
 <RoboAcademyTerminal title="Goals">
 
@@ -39,11 +39,11 @@ We will create an agent with the following description and goals:
 
 </RoboAcademyTerminal>
 
-As our first goal, we asked the agent to memorize the context of our thesis. We also specified the length of the Introduction section, requested to include certain points (taken from the thesis plan), and asked to save text in a .txt file.
+В качестве первой цели мы попросили агента запомнить контектст нашего тезиса. Также мы задали объем текста Введения, указали, чтобы в нем содержались определенные пункты (взятые из плана тезиса), и попросили все сохранить в .txt-файл.
 
-### Get output
+### Получаем вывод
 
-Agent output (shortened version):
+Вывод агента (в сокращенном варианте):
 
 <RoboAcademyTerminal title="AutoGPT">
 
@@ -83,10 +83,10 @@ Agent output (shortened version):
 
 </RoboAcademyTerminal>
 
-According to the agent logs, before writing the text, it spent some time searching for information. Moreover, the agent created Introduction iteratively, gradually adding text to meet the word limit.
+По логам агентам видно, что перед тем, как писать текст, он потратил некоторое время на поиск информации. Кроме того, он это сделал итеративно, постепенно добавляя текст, чтобы выполнить требование по объему. 
 
-Overall, the AI performed the task well enough to use this text as a basis for an Introduction. It can also be further improved by feeding the text into **Notion AI** (using the Improve writing or Change tone tools).
+В целом ИИ справился с задачей, как минимум достаточно для того, чтобы взять этот текст за основу для Введения. Введение также можно улучшить, скормив текст **Notion AI** (с помощью инструментов Improve writing или Change tone).
 
 <RoboAcademyText>
-Generally speaking, in the Introduction section it is already necessary to add sources for relevant works, but before we move on to searching and analyzing sources, it is better to first go through the following guide — Literature Review.
+Вообще говоря, во Введении уже можно (и нужно) указывать источники на релевантные работы, однако прежде чем мы перейдем к поиску и анализу источников, лучше сначала ознакомиться со следующим гайдом — Literature Review.
 </RoboAcademyText>
