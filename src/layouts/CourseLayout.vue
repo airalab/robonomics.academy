@@ -169,8 +169,6 @@
         localStorage.setItem('forUpdts', JSON.stringify(this.$store.state.lastVisits))
       }
 
-      // localStorage.setItem('forUpdts', JSON.stringify(this.$store.state.lastVisits))
-
       Prism.highlightAll();
 
     }

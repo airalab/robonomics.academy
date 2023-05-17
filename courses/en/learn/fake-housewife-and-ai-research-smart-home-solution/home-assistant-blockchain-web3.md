@@ -84,7 +84,7 @@ See all process **[here](https://www.notion.so/Process-AUTO-GPT-2-3e1c2a7ab4dc49
 
 Нousewife is: ai agent woman designed to autonomously conducting research on the internet and doing independent first-person reporting and storytelling
 
-**Goal 1:**  Find and study <u>current information for 2022 and 2023 and updates in the project about Robonomics , Robonomics network</u> and and create the text file.
+**Goal 1:**  Find and study <u>current information for 2022 and 2023 and updates in the project about Robonomics , Robonomics network</u> and and create the text file
 
 </RoboAcademyTerminal>
 
