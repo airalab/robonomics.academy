@@ -20,7 +20,7 @@ Solutions for a smart home without cloud storage of data.
 
 <ChatGPT/>
 
-1.  **Decentralized control systems: Decentralized control systems allow for managing a smart home without relying on cloud storage of data. Instead of sending data to a server, these systems use local devices to process and manage information.**
+1. **Decentralized control systems: Decentralized control systems allow for managing a smart home without relying on cloud storage of data. Instead of sending data to a server, these systems use local devices to process and manage information.**
 2. Mesh networks: Mesh networks allow smart home devices to communicate directly with each other, bypassing the need for centralized data storage. This helps to maintain data privacy and provides faster data transmission.
 3. Local data storage devices: Some smart home devices can store data locally, without the need to transmit information to a centralized storage location. For example, IP cameras can store recordings on local storage instead of a remote server.
 4.  **Blockchain-based solutions: Blockchain technology can be used to create decentralized smart home management systems, where data is stored locally on devices and secured by the blockchain. Such solutions provide data privacy and protection against hacking.**

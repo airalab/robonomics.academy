@@ -34,8 +34,8 @@
         path
         name
       }
-      lessonNumber
       defaultName
+      lastUpdate
     }
   }
   </page-query>

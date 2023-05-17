@@ -50,7 +50,7 @@
     }
 
   }
-  </page-query>
+</page-query>
 
 <script>
   import locales from '@/data/locales.yaml'

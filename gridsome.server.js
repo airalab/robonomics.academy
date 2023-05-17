@@ -54,9 +54,15 @@ module.exports = function (api) {
 
   const options = { ...defaultOptions };
 
-  api.loadSource(async (actions) => {
+  api.loadSource(async  (actions) => {
 
     const collection = actions.getCollection('Course');
+
+    actions.addSchemaTypes(`
+      type Course implements Node @infer {
+        lastUpdate: Date
+      }
+    `)
 
     collection.data().filter((e) => {
       if(e.path.includes('/en/'))
@@ -108,6 +114,13 @@ module.exports = function (api) {
       // generateImage(options.outputDir + img.learn.imgName, img.learn.options, options)
     })
 
+  })
+
+  api.onCreateNode(options => {
+    fs.stat(`courses${options.path.slice(0, -1)}.md`, function(err, stats){
+      let mtime = stats.mtime;
+      options.lastUpdate = mtime
+    })
   })
 
   api.createPages(({ createPage }) => {

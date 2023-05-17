@@ -27,6 +27,7 @@
             :item="course"   
             v-for="course in filteredCourses"
             :key="course.id"
+            :allCourses="$page.courses.edges"
           />
         </div>
 
@@ -41,8 +42,30 @@
   </Layout>
 </template>
 
+<page-query>
+  
+  query {
+
+    courses: allCourse {
+      edges {
+        node {
+          title
+          description
+          path
+          lessonNumber
+          defaultName
+          lastUpdate
+        }
+      }
+    }
+
+  }
+
+</page-query>
+
 <script>
   // import courses from '@/data/all-courses.yaml'
+  import VueCookies from 'vue-cookies';
   import courses from '/courses/all-courses.yaml'
 
 export default {
@@ -57,7 +80,7 @@ export default {
   data() {
     return {
       currTag: null,
-      isFilterOpen: false
+      isFilterOpen: false,
     }
   },
 
@@ -155,7 +178,24 @@ export default {
       if(e.target.classList.contains('overlay')) {
         this.isFilterOpen = false
       }
-    }) 
+    })
+
+    if(localStorage.getItem('lastVisit')) {
+      if(!this.$store.state.lastVisit) {
+        this.$store.commit('SET_LAST_VISIT', new Date(JSON.parse(localStorage.getItem('lastVisit'))).getTime())
+        localStorage.setItem('lastVisit', JSON.stringify(new Date(Date.now())))
+      }
+
+    } else {
+      localStorage.setItem('lastVisit', JSON.stringify(new Date(Date.now())))
+    }
+
+    if(localStorage.getItem('forUpdts')) {
+      const items = JSON.parse(localStorage.getItem('forUpdts')) 
+      items.map(el => {
+        this.$store.commit('ADD_LAST_VISITS', {lastUpdate: el.lastUpdate, title: el.title, lastVisit: el.lastVisit ? new Date(el.lastVisit).getTime() : ''})
+      })
+    }
   }
 
 
