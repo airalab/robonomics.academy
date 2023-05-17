@@ -72,9 +72,9 @@ export default {
     checkLastUpdate() {
       if(this.coursesWithLastUpdate.length === 1) {
         if(localStorage.getItem('forUpdts') && JSON.parse(localStorage.getItem('forUpdts')).length) {
-          this.$store.commit('UPDATE_LAST_UPDATE', {lastUpdate: new Date(this.coursesWithLastUpdate[0].node.lastUpdate).getTime(), title: this.coursesWithLastUpdate[0].node.title})
+          this.$store.commit('UPDATE_LAST_UPDATE', {lastUpdate: new Date(this.coursesWithLastUpdate[0].node.lastUpdate).getTime(), title: this.coursesWithLastUpdate[0].node.title, lastVisit: ''})
         } else {
-          this.$store.commit('ADD_LAST_VISITS', {lastUpdate: new Date(this.coursesWithLastUpdate[0].node.lastUpdate).getTime(), title: this.coursesWithLastUpdate[0].node.defaultName, isUpdated: new Date(this.coursesWithLastUpdate[0].node.lastUpdate).getTime() > new Date(this.$store.state.lastVisit).getTime()})
+          this.$store.commit('ADD_LAST_VISITS', {lastUpdate: new Date(this.coursesWithLastUpdate[0].node.lastUpdate).getTime(), title: this.coursesWithLastUpdate[0].node.defaultName, isUpdated: new Date(this.coursesWithLastUpdate[0].node.lastUpdate).getTime() > new Date(this.$store.state.lastVisit).getTime(), lastVisit: ''})
         }
       } else {
         if(localStorage.getItem('forUpdts') && JSON.parse(localStorage.getItem('forUpdts')).length) {
@@ -83,10 +83,7 @@ export default {
           })
         } else {
           this.coursesWithLastUpdate.forEach(item => {
-            if(new Date(item.node.lastUpdate).getTime() >= new Date(this.$store.state.lastVisit).getTime()) {
-              this.$store.commit('ADD_LAST_VISITS', {lastUpdate: new Date(item.node.lastUpdate).getTime(), title: item.node.defaultName, isUpdated: true})
-              return
-            }
+            this.$store.commit('ADD_LAST_VISITS', {lastUpdate: new Date(item.node.lastUpdate).getTime(), title: item.node.defaultName, isUpdated: new Date(this.coursesWithLastUpdate[0].node.lastUpdate).getTime() > new Date(this.$store.state.lastVisit).getTime()})
           })
         }
 

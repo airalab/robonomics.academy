@@ -65,7 +65,6 @@
 
 <script>
   // import courses from '@/data/all-courses.yaml'
-  import VueCookies from 'vue-cookies';
   import courses from '/courses/all-courses.yaml'
 
 export default {
@@ -193,7 +192,7 @@ export default {
     if(localStorage.getItem('forUpdts')) {
       const items = JSON.parse(localStorage.getItem('forUpdts')) 
       items.map(el => {
-        this.$store.commit('ADD_LAST_VISITS', {lastUpdate: el.lastUpdate, title: el.title, lastVisit: el.lastVisit ? new Date(el.lastVisit).getTime() : ''})
+        this.$store.commit('ADD_LAST_VISITS', {lastUpdate: new Date(el.lastUpdate).getTime(), title: el.title, lastVisit: el.lastVisit ? new Date(el.lastVisit).getTime() : ''})
       })
     }
   }

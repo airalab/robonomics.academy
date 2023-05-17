@@ -164,11 +164,6 @@
 
       this.$store.commit('TOGGLE_SHOW_HEADER', true)
 
-      if(this.$store.state.lastVisits.length) {
-        this.$store.commit('UPDATE_LAST_VISITS_ITEM', {title: this.defaultTitle})
-        localStorage.setItem('forUpdts', JSON.stringify(this.$store.state.lastVisits))
-      }
-
       Prism.highlightAll();
 
     }
