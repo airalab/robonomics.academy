@@ -153,7 +153,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       imagePopupSrc: 'smart-house-course/lesson-1-1.png',
       currentReaction: '',
       activeTags: [],
-      activeFilter: []
+      activeFilter: [],
+      lastVisit: null,
+      lastVisits: [],
     },
    mutations: {
       SET_USER_TRACKER(state, userTracker) {
@@ -197,6 +199,34 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       },
       REMOVE_ACTIVE_FILTERS(state) {
         state.activeFilter = []
+      },
+      SET_LAST_VISIT(state, lastVisit) {
+        state.lastVisit = lastVisit
+      },
+      ADD_LAST_VISITS(state, {lastUpdate, title, isUpdated, lastVisit}) {
+        const itemIndex = state.lastVisits.findIndex(x => x.title === title);
+        if(itemIndex === -1) {
+          state.lastVisits.push({lastUpdate, title, isUpdated, lastVisit})
+        }
+      },
+      UPDATE_LAST_UPDATE(state, {lastUpdate, title}) {
+        const itemIndex = state.lastVisits.findIndex(x => x.title === title);
+        if(itemIndex != -1) {
+          state.lastVisits[itemIndex].lastUpdate = state.lastVisits[itemIndex].lastUpdate < lastUpdate ? lastUpdate : state.lastVisits[itemIndex].lastUpdate;
+          if(!state.lastVisits[itemIndex].lastVisit) {
+            state.lastVisits[itemIndex].isUpdated = state.lastVisit ? state.lastVisit < lastUpdate : false;
+          } else {
+            state.lastVisits[itemIndex].isUpdated = state.lastVisits[itemIndex].isUpdated ? true : state.lastVisits[itemIndex].lastVisit < lastUpdate
+          }
+
+        }
+      },
+      UPDATE_LAST_VISITS_ITEM(state, {title}) {
+        const itemIndex = state.lastVisits.findIndex(x => x.title === title);
+        if(itemIndex != -1) {
+          state.lastVisits[itemIndex].lastVisit = Date.now();
+          state.lastVisits[itemIndex].isUpdated = false;
+        }
       }
    },
   });
