@@ -40,7 +40,7 @@ Learn, experiment, and share your results on Twitter with the tag [#RobonomicsSp
 
 Components of our AI housekeepers:
 
-- **GptCHAT** - finding solutions to problems, studying terminology, and even creating a name for the AI housekeeper
+- **ChatGPT** - finding solutions to problems, studying terminology, and even creating a name for the AI housekeeper
 - **AutoGPT** - researching issues and their solutions, studying automation, searching for devices and additional specialists
 - **[synthesia.io](https://www.synthesia.io/)** - dynamic image of the AI housekeeper
 - **Midjourney** - illustrations
