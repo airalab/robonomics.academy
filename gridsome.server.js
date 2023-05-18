@@ -58,6 +58,7 @@ module.exports = function (api) {
 
     const collection = actions.getCollection('Course');
 
+
     actions.addSchemaTypes(`
       type Course implements Node @infer {
         lastUpdate: Date
@@ -65,6 +66,7 @@ module.exports = function (api) {
     `)
 
     collection.data().filter((e) => {
+
       if(e.path.includes('/en/'))
       allPossiblePaths.push({path: e.path, name: e.fileInfo.name})
     })
