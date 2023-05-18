@@ -205,20 +205,10 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       },
       ADD_LAST_VISITS(state, {lastUpdate, title, isUpdated, lastVisit}) {
         const itemIndex = state.lastVisits.findIndex(x => x.title === title);
+        // console.log(title)
         if(itemIndex === -1) {
+          // console.log(lastUpdate)
           state.lastVisits.push({lastUpdate, title, isUpdated, lastVisit})
-        }
-      },
-      UPDATE_LAST_UPDATE(state, {lastUpdate, title}) {
-        const itemIndex = state.lastVisits.findIndex(x => x.title === title);
-        if(itemIndex != -1) {
-          state.lastVisits[itemIndex].lastUpdate = state.lastVisits[itemIndex].lastUpdate < lastUpdate ? lastUpdate : state.lastVisits[itemIndex].lastUpdate;
-          if(!state.lastVisits[itemIndex].lastVisit) {
-            state.lastVisits[itemIndex].isUpdated = state.lastVisit ? state.lastVisit < lastUpdate : false;
-          } else {
-            state.lastVisits[itemIndex].isUpdated = state.lastVisits[itemIndex].isUpdated ? true : state.lastVisits[itemIndex].lastVisit < lastUpdate
-          }
-
         }
       },
       UPDATE_LAST_VISITS_ITEM(state, {title}) {

@@ -6,7 +6,7 @@ metaOptions: [Learn]
 defaultName: OpenGov for managing the IoT infrastructure
 ---
 
-<LessonVideo :videos="[{src: 'https://crustipfs.live/ipfs/QmXBrymdTnMPDDxqjxFW6ciKayeCM9VaQVru895xtqjFQn', type: 'webm'}]" />
+<LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmXBrymdTnMPDDxqjxFW6ciKayeCM9VaQVru895xtqjFQn', type: 'webm'}]" />
 
 <RoboAcademyText fWeight="500">
 Ladies and gentlemen, join me 'round the fire and let me tell to you a tale of the village of Orwellham. A quaint English village which leverages the technological advancements of the Web3 era. Where the echoes of the past intermingle with the footsteps of progress.

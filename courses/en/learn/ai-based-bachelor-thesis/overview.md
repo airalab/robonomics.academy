@@ -9,7 +9,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 So, what you feared happened.
 </RoboAcademyText>
 
-<LessonVideo :videos="[{src: 'https://crustipfs.live/ipfs/QmW6qohyJvUF2c3EwhVWZXghArAZQ6KkBsbqT41QRgJRAh', type: 'webm'}]" />
+<LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmW6qohyJvUF2c3EwhVWZXghArAZQ6KkBsbqT41QRgJRAh', type: 'webm'}]" />
 
 ## How to become a bachelor and not drown in a routine
 

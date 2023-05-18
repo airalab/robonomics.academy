@@ -63,7 +63,7 @@ This feature is disabled by default on the Polkadot-JS UI. To enable it, navigat
 
 Go to <code>Accounts</code> -> <code>Accounts</code> and press the <code>Add account</code> button. You will see the popup menu with account seed. It has two forms: *Mnemonic* (human-readable) and *Raw* (a sequence of digits and letters).
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmQiJYPYajUJXENX2PzSJMSKGSshyWyPNqugSYxP5eCNvm', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmQiJYPYajUJXENX2PzSJMSKGSshyWyPNqugSYxP5eCNvm', type:'mp4'}]" />
 
 </li>
 
@@ -105,7 +105,7 @@ For convenience, you should use the Polkadot.js extension and add these newly cr
 
 You can get these files again by creating a backup file of the account. Press on three dots on your account, choose <code>Create a backup file for this account</code> and type in your password.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmRd7gztUjWkLF4W2XuJwy5aXBwzNV2aPCU6CQQLvUpSNj', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmRd7gztUjWkLF4W2XuJwy5aXBwzNV2aPCU6CQQLvUpSNj', type:'mp4'}]" />
 
 </li>
 
@@ -125,7 +125,7 @@ In an opened window upload the JSON file, enter the password and press <code>Res
 
 Make sure the Robonomics network is selected for accounts in the Polkadot.js extension. On on Polkadot / Substrate Portal go to <code>Setting</code> -> <code>Metadata</code> and click on the <code>Update metadata</code> button. 
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmT5sTNP9t8gpbD4RJJw6ETwG4wiziiChAh2uHHBk9Zsyd', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmT5sTNP9t8gpbD4RJJw6ETwG4wiziiChAh2uHHBk9Zsyd', type:'mp4'}]" />
 
 </li>
 
@@ -152,7 +152,7 @@ For this step, you must have a sufficient amount of XRT tokens (minimum 2-3 XRTs
 
 Go to Robonomics dapp to the [subscription page](https://dapp.robonomics.network/#/subscription) and press <code>connect account</code> on the right sidebar.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmXrFCajmJgkRDSbshGD3QehjnoyS6jafEPSjHdYkoBHum', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmXrFCajmJgkRDSbshGD3QehjnoyS6jafEPSjHdYkoBHum', type:'mp4'}]" />
 
 </li>
 
@@ -188,7 +188,7 @@ Adding Account to Subscription
 
 Now you need to add the <code>SUB_CONTROLLER</code> account to **the access list**. Open extension and click on the icon near the account name. It will copy the account address.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmV1gkwtcXsWv54ov9tuXfcHg7nqs1foM8cRwts4sqnqtX', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmV1gkwtcXsWv54ov9tuXfcHg7nqs1foM8cRwts4sqnqtX', type:'mp4'}]" />
 
 </li>
 
