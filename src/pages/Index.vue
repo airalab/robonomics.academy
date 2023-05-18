@@ -195,10 +195,12 @@
     background-position: bottom;
     background-repeat: no-repeat;
     bottom: 0;
-    left: calc(50% - 960px);
+    left: 4px;
+    /* left: calc(50% - 960px); */
     position: absolute;
-    width: 1930px;
-    max-width: 1930px;
+    /* width: 1930px;
+    max-width: 1930px; */
+    width: 100%;
     height: 736px;
     /* width: 100%; */
     z-index: 2;
