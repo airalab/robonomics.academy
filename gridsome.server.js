@@ -122,6 +122,7 @@ module.exports = function (api) {
     fs.stat(`courses${options.path.slice(0, -1)}.md`, function(err, stats){
       let mtime = stats.mtime;
       options.lastUpdate = mtime
+      console.log(mtime);
     })
   })
 

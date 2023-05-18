@@ -32,7 +32,7 @@ Solutions for a smart home without cloud storage of data.
 
 **Zoe**:
 
-Write the advantages of a smart home solution based on blockchain.
+Write the advantages of a smart home solution based on blockchain
 
 </RoboAcademyDialog>
 
