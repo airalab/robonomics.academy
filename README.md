@@ -37,6 +37,12 @@ gridsome develop
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
+**IMPORTANT NOTE:**
+
+`- If you already forked the repo - DON'T FORGET DO PULL REGULARLY!`
+
+  it's needed for proper course updates
+
 ## How to upload new course/lesson:
 
 - First of all, you need to add course/lesson information to `courses/all-courses.yaml`:
@@ -65,6 +71,12 @@ export NODE_OPTIONS=--openssl-legacy-provider
 - Then, you must create folder in `courses/learn/en/` - e.g *introduction-course* and add "intro page" for your course in `courses/learn/en/your-new-folder` - e.g *introduction-course.md*
 
 Add some basic info to the doc: 
+
+**IMPORTANT NOTE**
+
+Please, don't forget to remove line - ```LastUpdate:...``` from your lesson!!!
+
+(if the doc has one, otherwise updates won't work properly with your course)
 
 ```
   ---
