@@ -1,13 +1,12 @@
 ---
 title: Overview
-lastUpdate: Thu May 18 2023 17:36:52 GMT+0400 (Samara Standard Time)
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 ---
 
 <RoboAcademyText fWeight="500">
-So, what you feared happened
+So, what you feared happened.
 </RoboAcademyText>
 
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmW6qohyJvUF2c3EwhVWZXghArAZQ6KkBsbqT41QRgJRAh', type: 'webm'}]" />
