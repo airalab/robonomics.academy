@@ -38,7 +38,9 @@ export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
 **IMPORTANT NOTE:**
+
 `- If you already forked the repo - DON'T FORGET DO PULL REGULARLY!`
+
   it's needed for proper course updates
 
 ## How to upload new course/lesson:
@@ -71,7 +73,9 @@ export NODE_OPTIONS=--openssl-legacy-provider
 Add some basic info to the doc: 
 
 **IMPORTANT NOTE**
+
 Please, don't forget to remove line - ```LastUpdate:...``` from your lesson!!!
+
 (if the doc has one, otherwise updates won't work properly with your course)
 
 ```
