@@ -188,13 +188,6 @@ export default {
     } else {
       localStorage.setItem('lastVisit', JSON.stringify(new Date(Date.now())))
     }
-
-    if(localStorage.getItem('forUpdts')) {
-      const items = JSON.parse(localStorage.getItem('forUpdts')) 
-      items.map(el => {
-        this.$store.commit('ADD_LAST_VISITS', {lastUpdate: new Date(el.lastUpdate).getTime(), title: el.title, lastVisit: el.lastVisit ? new Date(el.lastVisit).getTime() : ''})
-      })
-    }
   }
 
 

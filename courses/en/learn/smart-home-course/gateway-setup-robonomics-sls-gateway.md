@@ -209,7 +209,7 @@ If the connection is successful, the web interface will open (or you can find it
 
 Go to the Wi-Fi page and insert your Wi-Fi credentials by entering the user / pass and press <code>Save</code> button. After that press the <code>Reboot</code> button. The gateway will restart and connect to your WI-Fi network.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmSht6roENzrV6oqsQ1a5gp6GVCz54EDZdPAP8XVh9SCwH', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmSht6roENzrV6oqsQ1a5gp6GVCz54EDZdPAP8XVh9SCwH', type:'mp4'}]" />
 
 </li>
 
@@ -228,7 +228,7 @@ where <code class="bold">xxx</code> is your IP address in the local network. The
 
 Go to <code>Setting</code> -> <code>Hardware</code> and make sure that the settings look like on the image. Correct the settings if necessary and click <code>Save</code> button:
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmeSksMxU9xkvvK7f81WDAYULiMFokK7P7KDVYEjv2MHjn', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmeSksMxU9xkvvK7f81WDAYULiMFokK7P7KDVYEjv2MHjn', type:'mp4'}]" />
 
 The table with required values:
 
@@ -266,7 +266,7 @@ Reboot the gateway. Choose <code>Actions</code> -> <code>Reboot</code> system at
 
 Configure automatically adding devices to Home Assistant. Go to <code>Zigbee</code> -> <code>Config</code> then choose <code>Home Assistant MQTT Discovery</code> and <code>Clear States</code>. Save changes and again reboot SLS gateway.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmVZMB1xQeB6ZLfSR6aUrN6cRSF296s8CMJt7E2jBJ5MjZ', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmVZMB1xQeB6ZLfSR6aUrN6cRSF296s8CMJt7E2jBJ5MjZ', type:'mp4'}]" />
 
 </li>
 
@@ -298,7 +298,7 @@ Connecting SLS Gateway to Home Assistant
 
 You need to configure MQTT on SLS Gateway. Come back to your SLS Gateway web interface and go to <code>Settings</code> -> <code>Link</code> -> <code>MQTT Setup</code>.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmdNKDqwwy87VQEDDVsX5kpaDQm9wKKPEJUNJnhnjx6e5y', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmdNKDqwwy87VQEDDVsX5kpaDQm9wKKPEJUNJnhnjx6e5y', type:'mp4'}]" />
 
 </li>
 
@@ -331,7 +331,7 @@ Connect your devices by going to <code>Zigbee</code> -> <code>Join</code>. Put y
 
 <LessonImages src="smart-house-course/lesson-4-a-4.gif" alt="tutorial" imageClasses="mb"/>
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/Qmdq3PBNY88QbYYqakwSLG2vn3mVUom3w3wsSWfTd1pzJA', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/Qmdq3PBNY88QbYYqakwSLG2vn3mVUom3w3wsSWfTd1pzJA', type:'mp4'}]" />
 
 </li>
 

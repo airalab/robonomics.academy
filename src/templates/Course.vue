@@ -84,7 +84,6 @@
 
       if(this.$store.state.lastVisits.length) {
         this.$store.commit('UPDATE_LAST_VISITS_ITEM', {title: this.$page.course.defaultName})
-        localStorage.setItem('forUpdts', JSON.stringify(this.$store.state.lastVisits))
       }
 
     }

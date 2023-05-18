@@ -32,7 +32,7 @@ Adding Robonomics to Home Assistant
 
 In the web interface of Home Assistant go to <code>Settings</code>-><code>Device & Services</code> and press <code>ADD INTEGRATION</code>. Search for <code>Robonomics</code>.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmQp66J943zbF6iFdkKQpBikSbm9jV9La25bivKd7cz6fD', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmQp66J943zbF6iFdkKQpBikSbm9jV9La25bivKd7cz6fD', type:'mp4'}]" />
 
 </li>
 
@@ -78,7 +78,7 @@ Start with creating an account on Robonomics Parachain, as you did in the previo
 
 Add this account to the subscription in the [dapp](https://dapp.robonomics.network/#/subscription/devices). Now there should be three addresses in the access list: <code>SUB_OWNER</code>, <code>SUB_CONTROLLER</code> and <code>USER</code>.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmSxzram7CF4SXpVgEyv98XetjYsxNFQY2GY4PfyhJak7H', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmSxzram7CF4SXpVgEyv98XetjYsxNFQY2GY4PfyhJak7H', type:'mp4'}]" />
 
 </li>
 
@@ -94,7 +94,7 @@ Enter the <code>USER</code> seed in the required field. Add <code>SUB_OWNER</cod
 
 Create a password for a new user which you have just registered and then confirm the transaction, that will now be without fee due to the subscription. Later you can restore the password in the <code>Restore</code> tab.
 
-<LessonVideo  :videos="[{src: 'https://crustipfs.live/ipfs/QmW2TXuwCYXzgcRfEUx4imZU5ZerEzkuD5P53u9g2WnxDh', type:'mp4'}]" />
+<LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmW2TXuwCYXzgcRfEUx4imZU5ZerEzkuD5P53u9g2WnxDh', type:'mp4'}]" />
 
 </li>
 
