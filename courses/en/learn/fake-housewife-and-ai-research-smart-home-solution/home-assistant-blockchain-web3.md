@@ -61,7 +61,7 @@ Zoe finds information about the process of setting up and connecting Home Assist
 
 Нousewife is: ai agent woman designed to autonomously conducting research on the internet and doing independent first-person reporting and storytelling
 
-**Goal 1:** Find <u>all the  information  about Robonomics, Robonomics network, robonomics.network</u> and create the text file.
+**Goal 1:** Find <u>all the  information  about Robonomics, Robonomics network, robonomics.network</u> and create the text file
 
 </RoboAcademyTerminal>
 
