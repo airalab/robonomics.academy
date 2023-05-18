@@ -1,5 +1,6 @@
 ---
 title: "Lesson #4a, Gateway Setup: Zigbee2MQTT"
+lastUpdate: Thu May 04 2023 12:54:33 GMT+0400 (Samara Standard Time)
 description: home assistant course
 lessonNumber: 4
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]

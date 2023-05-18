@@ -1,5 +1,6 @@
 ---
 title: "Lição #3, Ecossistema Polkadot para Infraestrutura IoT Doméstica"
+lastUpdate: Thu May 04 2023 12:57:05 GMT+0400 (Samara Standard Time)
 description: Nesta lição, você tentará controlar uma lâmpada inteligente que funciona através do Home Assistant, que possui módulos Robonomics adicionais.
 lessonNumber: 3
 metaOptions: [Cursos on-line, Curso introdutório]

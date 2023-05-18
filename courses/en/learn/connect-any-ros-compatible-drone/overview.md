@@ -1,5 +1,6 @@
 ---
 title: Connect ROS-compatible drone
+lastUpdate: Thu May 04 2023 12:52:55 GMT+0400 (Samara Standard Time)
 description: Connect any ros compatible robot under robonomics parachain control.
 metaOptions: [Learn]
 defaultName: Connect ROS-compatible drone

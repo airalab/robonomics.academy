@@ -1,5 +1,6 @@
 ---
 title: "Lesson #1, Introduction"
+lastUpdate: Thu May 04 2023 12:54:07 GMT+0400 (Samara Standard Time)
 description: 'INTRODUCTION'
 lessonNumber: 1
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]

@@ -1,5 +1,6 @@
 ---
 title: Home Assistant + блокчейн + Web3
+lastUpdate: Thu May 11 2023 17:09:34 GMT+0400 (Samara Standard Time)
 description: Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома
 metaOptions: [Learn,  Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома]
 defaultName: Fake Housewife & AI research Smart Home Solution

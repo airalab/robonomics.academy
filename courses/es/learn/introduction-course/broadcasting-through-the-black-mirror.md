@@ -1,5 +1,6 @@
 ---
 title: "Lección #1, Transmitiendo a través de Black Mirror"
+lastUpdate: Thu May 04 2023 12:55:45 GMT+0400 (Samara Standard Time)
 description: Esta lección de apertura le enseñará métodos básicos para interactuar con una aplicación descentralizada (o dapp).
 lessonNumber: 1
 metaOptions: [Cursos online, Curso de Introducción]

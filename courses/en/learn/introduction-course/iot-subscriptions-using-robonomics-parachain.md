@@ -1,5 +1,6 @@
 ---
 title: "Lesson #5, IoT Subscriptions Using Robonomics Parachain"
+lastUpdate: Thu May 04 2023 12:53:55 GMT+0400 (Samara Standard Time)
 description: You will learn how to buy an IoT subscription on Robonomics Parachain using real tokens of our network.
 lessonNumber: 5
 metaOptions: [Learn, Introduction to the ideas of Robonomics]

@@ -1,5 +1,6 @@
 ---
 title: "Lesson #2, At the Intersection of Cybernetics and Economics"
+lastUpdate: Thu May 04 2023 12:53:48 GMT+0400 (Samara Standard Time)
 description: Dive into the theory of the latest web3 technologies at the intersection of Cybernetics and Economics, which are designed to help IoT systems function safely and efficiently in our homes and cities.
 lessonNumber: 2
 metaOptions: [Learn, Introduction to the ideas of Robonomics]

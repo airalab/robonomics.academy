@@ -1,5 +1,6 @@
 ---
 title: "Lesson #4b, Gateway Setup: Robonomics SLS Gateway"
+lastUpdate: Thu May 18 2023 16:16:20 GMT+0400 (Samara Standard Time)
 description: home assistant course
 lessonNumber: 5
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]

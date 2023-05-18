@@ -1,5 +1,6 @@
 ---
 title: "Lesson #6, Robonomics Integration Setup"
+lastUpdate: Thu May 18 2023 10:46:29 GMT+0400 (Samara Standard Time)
 description: home assistant course
 lessonNumber: 7
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]

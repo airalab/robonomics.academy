@@ -1,5 +1,6 @@
 ---
 title: "Lesson #1, Broadcasting Through the Black Mirror"
+lastUpdate: Thu May 04 2023 12:53:51 GMT+0400 (Samara Standard Time)
 description: This opening lesson will teach you basic methods to interact with a decentralized application (or dapp).
 lessonNumber: 1
 metaOptions: [Learn, Introduction to the ideas of Robonomics]

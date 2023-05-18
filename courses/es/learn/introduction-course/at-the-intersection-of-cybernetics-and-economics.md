@@ -1,5 +1,6 @@
 ---
 title: "Lección #2, En la intersección de la cibernética y la economía"
+lastUpdate: Thu May 04 2023 12:55:42 GMT+0400 (Samara Standard Time)
 description: La inmersión en la teoría de las últimas tecnologías web3 en la intersección de la Cibernética y la Economía, que están diseñadas para ayudar a que los sistemas IoT funcionen de manera segura y eficiente en nuestros hogares y ciudades.
 lessonNumber: 2
 metaOptions: [Cursos online, Curso de Introducción]

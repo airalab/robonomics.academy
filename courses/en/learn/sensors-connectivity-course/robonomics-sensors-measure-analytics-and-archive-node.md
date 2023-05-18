@@ -1,5 +1,6 @@
 ---
 title: "Lesson #7, Robonomics sensors measure analytics and archive node"
+lastUpdate: Thu May 04 2023 12:54:09 GMT+0400 (Samara Standard Time)
 description: 'ROBONOMICS SENSORS MEASURE ANALYTICS AND ARCHIVE NODE'
 lessonNumber: 7
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]

@@ -1,5 +1,6 @@
 ---
 title: "Lesson #4, Robonomics Architecture"
+lastUpdate: Thu May 04 2023 12:54:02 GMT+0400 (Samara Standard Time)
 description: In this lesson you will study the first half of the second chapter of Robonomics Whitepaper 2022 titled Robonomics Architecture.
 lessonNumber: 4
 metaOptions: [Learn, Introduction to the ideas of Robonomics]

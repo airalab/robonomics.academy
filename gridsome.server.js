@@ -65,11 +65,15 @@ module.exports = function (api) {
       }
     `)
 
-    collection.data().filter((e) => {
+    collection.data().map( (e) => {
 
-      if(e.path.includes('/en/'))
-      allPossiblePaths.push({path: e.path, name: e.fileInfo.name})
+      if(e.path.includes('/en/')) {
+        allPossiblePaths.push({path: e.path, name: e.fileInfo.name})
+      }
     })
+
+
+
 
     courses.forEach((course) => {
       
@@ -119,12 +123,20 @@ module.exports = function (api) {
   })
 
   api.onCreateNode(options => {
-    fs.stat(`courses${options.path.slice(0, -1)}.md`, function(err, stats){
-      let mtime = stats.mtime;
-      options.lastUpdate = mtime
-      console.log(mtime);
+    let data = fs.readFileSync(`courses${options.path.slice(0, -1)}.md`).toString().split("\n");
+    const upd = fs.statSync(`courses${options.path.slice(0, -1)}.md`, (err, stats) => {
+      return stats.mtime;
     })
-  })
+
+    if (JSON.stringify(data).toLowerCase().indexOf("lastupdate") === -1 && !JSON.stringify(data).includes('lastUpdate:')) {
+      options.lastUpdate = upd.mtime;
+      data.splice(2, 0, `lastUpdate: ${upd.mtime}`);
+      let text = data.join("\n");
+        fs.writeFile(`courses${options.path.slice(0, -1)}.md`, text, function (err) {
+          if (err) return console.log(err);
+        });
+    }
+  })  
 
   api.createPages(({ createPage }) => {
 

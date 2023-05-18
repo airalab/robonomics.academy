@@ -1,5 +1,6 @@
 ---
 title: Решения для умного дома на основе блокчейна
+lastUpdate: Thu May 11 2023 16:44:00 GMT+0400 (Samara Standard Time)
 description: Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома
 metaOptions: [Learn,  Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома]
 defaultName: Fake Housewife & AI research Smart Home Solution

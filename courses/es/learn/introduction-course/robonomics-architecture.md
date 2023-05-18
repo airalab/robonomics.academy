@@ -1,5 +1,6 @@
 ---
 title: "Lección #4, Arquitectura de Robonomics"
+lastUpdate: Thu May 04 2023 12:55:56 GMT+0400 (Samara Standard Time)
 description: Estudiará la primera mitad del segundo capítulo del Whitpaper de Robonomics 2022 titulado "Arquitectura de Robonomics".
 lessonNumber: 4
 metaOptions: [Cursos online, Curso de Introducción]

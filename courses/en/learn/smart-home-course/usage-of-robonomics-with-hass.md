@@ -1,5 +1,6 @@
 ---
 title: "Lesson #7, Usage of Robonomics with Home Assistant"
+lastUpdate: Thu May 18 2023 10:46:29 GMT+0400 (Samara Standard Time)
 description: home assistant course
 lessonNumber: 8
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]

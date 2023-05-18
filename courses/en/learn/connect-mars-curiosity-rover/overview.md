@@ -1,5 +1,6 @@
 ---
 title: Connect Mars Curiosity Rover
+lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: Connect Mars Curiosity rover under Robonomics parachain control.
 metaOptions: [Learn]
 defaultName: Connect Mars Curiosity Rover
