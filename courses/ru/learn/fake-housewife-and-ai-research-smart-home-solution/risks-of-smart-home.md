@@ -1,5 +1,6 @@
 ---
 title: Риски стандартных решений "умного дома" и домашнего помощника
+lastUpdate: Thu May 11 2023 17:23:56 GMT+0400 (Samara Standard Time)
 description: Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома
 metaOptions: [Learn,  Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома]
 defaultName: Fake Housewife & AI research Smart Home Solution

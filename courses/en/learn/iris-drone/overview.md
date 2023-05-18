@@ -1,5 +1,6 @@
 ---
 title: Connect unmanned aerial vehicle
+lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: Connect unmanned aerial vehicle
 metaOptions: [Learn]
 defaultName: Connect unmanned aerial vehicle

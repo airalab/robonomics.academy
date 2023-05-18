@@ -1,5 +1,6 @@
 ---
 title: "Writing: Literature Review"
+lastUpdate: Fri May 12 2023 12:04:56 GMT+0400 (Samara Standard Time)
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools

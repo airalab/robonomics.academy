@@ -1,5 +1,6 @@
 ---
 title: Control Baxter robot
+lastUpdate: Thu May 04 2023 12:52:52 GMT+0400 (Samara Standard Time)
 description: Control Baxter robot
 metaOptions: [Learn]
 defaultName: Control Baxter robot

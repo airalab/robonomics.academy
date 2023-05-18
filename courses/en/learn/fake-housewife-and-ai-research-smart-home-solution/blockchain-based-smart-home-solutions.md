@@ -1,5 +1,6 @@
 ---
 title: Blockchain-based Smart home solutions
+lastUpdate: Thu May 18 2023 15:29:43 GMT+0400 (Samara Standard Time)
 description: Fake Housewife & AI research Smart Home Solution
 metaOptions: [Learn, Fake Housewife & AI research Smart Home Solution]
 defaultName: Fake Housewife & AI research Smart Home Solution
@@ -32,7 +33,7 @@ Solutions for a smart home without cloud storage of data.
 
 **Zoe**:
 
-Write the advantages of a smart home solution based on blockchain
+Write the advantages of a smart home solution based on blockchain.
 
 </RoboAcademyDialog>
 

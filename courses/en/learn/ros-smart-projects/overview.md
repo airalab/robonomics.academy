@@ -1,5 +1,6 @@
 ---
 title: ROS-based projects for smart spaces
+lastUpdate: Thu May 04 2023 12:53:19 GMT+0400 (Samara Standard Time)
 description: ROS-based projects for smart spaces
 metaOptions: [Learn]
 defaultName: ROS-based projects for smart spaces

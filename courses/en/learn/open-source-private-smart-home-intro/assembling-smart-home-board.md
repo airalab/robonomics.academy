@@ -1,5 +1,6 @@
 ---
 title: "Assembling Smart Home Board"
+lastUpdate: Thu May 18 2023 10:46:29 GMT+0400 (Samara Standard Time)
 description: You will learn how to assemble smart home board!
 metaOptions: [Learn]
 defaultName: Introduction to open source solution for private smart homes

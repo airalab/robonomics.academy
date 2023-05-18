@@ -1,5 +1,6 @@
 ---
 title: "Lesson #3, Polkadot Ecosystem for Home IoT Infrastructure"
+lastUpdate: Thu May 04 2023 12:53:58 GMT+0400 (Samara Standard Time)
 description: In this lesson you will try to control a smart light bulb using Robonomics parachain.
 lessonNumber: 3
 metaOptions: [Learn, Introduction to the ideas of Robonomics]

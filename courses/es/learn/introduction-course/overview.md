@@ -1,5 +1,6 @@
 ---
 title: "Introduction to the ideas of Robonomics"
+lastUpdate: Tue May 09 2023 13:41:59 GMT+0400 (Samara Standard Time)
 description: Welcome Introduction Course!
 lessonNumber: 0
 metaOptions: [Cursos online, Curso de Introducción]

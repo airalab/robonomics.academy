@@ -1,5 +1,6 @@
 ---
 title:  Sovereign Smart Home with Robonomics and Home Assistant
+lastUpdate: Tue May 09 2023 13:17:49 GMT+0400 (Samara Standard Time)
 description: In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data
 metaOptions: [Learn, Sovereign Smart Home with Robonomics and Home Assistant]
 defaultName: Sovereign Smart Home with Robonomics and Home Assistant

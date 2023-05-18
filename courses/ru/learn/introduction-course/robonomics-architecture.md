@@ -1,5 +1,6 @@
 ---
 title: "Урок № 4, Архитектура Робономики"
+lastUpdate: Thu May 04 2023 12:58:25 GMT+0400 (Samara Standard Time)
 description: На этом уроке вы изучите первую половину второй главы Robonomics Whitepaper 2022 под названием «Архитектура экономики роботов». 
 lessonNumber: 4
 metaOptions: [Онлайн курсы, Вводный курс]

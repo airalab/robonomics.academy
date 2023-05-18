@@ -1,5 +1,6 @@
 ---
 title: "OpenGov for managing the IoT infrastructure"
+lastUpdate: Thu May 18 2023 13:08:37 GMT+0400 (Samara Standard Time)
 description: An open experiment using openGov to manage the IoT infrastructure of a small English village.
 # lessonNumber: 0
 metaOptions: [Learn]

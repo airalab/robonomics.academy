@@ -1,5 +1,6 @@
 ---
 title: "Lição #5, Assinaturas IoT usando a Parachain Robonomics"
+lastUpdate: Thu May 04 2023 12:57:02 GMT+0400 (Samara Standard Time)
 description: Você aprenderá como comprar uma assinatura IoT na Parachain Robonomics usando tokens reais da nossa rede.
 lessonNumber: 5
 metaOptions: [Cursos on-line, Curso introdutório]

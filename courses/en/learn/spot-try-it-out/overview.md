@@ -1,5 +1,6 @@
 ---
 title: Operate Boston Dynamics Spot
+lastUpdate: Thu May 04 2023 12:53:28 GMT+0400 (Samara Standard Time)
 description: Operate Boston Dynamics Spot
 metaOptions: [Learn]
 defaultName: Operate Boston Dynamics Spot

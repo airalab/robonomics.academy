@@ -1,5 +1,6 @@
 ---
 title: "Lezione #2, All'intersezione fra Cibernetica ed Economia"
+lastUpdate: Thu May 04 2023 12:56:15 GMT+0400 (Samara Standard Time)
 description: L'immersione nella teoria delle ultime tecnologie web3 all'incrocio fra cibernetica ed economia, progettate per aiutare i sistemi IoT a funzionare in modo sicuro ed efficiente nelle nostre case e città.
 lessonNumber: 2
 metaOptions: [Corsi online, Corso Introduttivo]
