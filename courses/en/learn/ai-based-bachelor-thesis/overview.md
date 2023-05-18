@@ -1,5 +1,6 @@
 ---
 title: Overview
+lastUpdate: Thu May 18 2023 17:48:15 GMT+0400 (Samara Standard Time)
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
