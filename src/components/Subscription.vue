@@ -77,12 +77,16 @@ export default {
 
   methods: {
     form() {
-      let respInterval = setInterval(() => {
-        this.result = this.$response
-      }, 1000)
+      if(!this.email || this.email.length <= 1) {
+        return;
+      } else {
+        let respInterval = setInterval(() => {
+          this.result = this.$response
+        }, 1000)
 
-      if (this.$response === 'success' || this.$response === 'error') {
-        clearInterval(respInterval)
+        if (this.$response === 'success' || this.$response === 'error') {
+          clearInterval(respInterval)
+        }
       }
     }
   },
