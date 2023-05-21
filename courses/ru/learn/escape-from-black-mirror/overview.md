@@ -1,5 +1,5 @@
 ---
-title: История из будущего, вместо введения
+title: Заметки для нетраннеров по перерезанию пуповины облака, часть 1
 description: Escape from Black Mirror
 metaOptions: [Learn, Escape from Black Mirror]
 defaultName: Escape from Black Mirror

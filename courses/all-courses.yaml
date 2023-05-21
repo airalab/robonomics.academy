@@ -295,7 +295,7 @@
   lessons:
     - id: '0'
       title: "The story of a girl named Trinity"
-      path: 'story'
+      path: 'overview'
     - id: '1'
       title: 'Escape instruction'
       path: 'escape-instruction'
