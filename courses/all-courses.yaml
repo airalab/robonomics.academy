@@ -291,11 +291,14 @@
   progress: done
   author: 'Ensrationis'
   filters: ['spring school 2023']
-  published: false
+  published: true
   lessons:
     - id: '0'
-      title: "Escape from Black Mirror"
-      path: 'overview'
+      title: "The story of a girl named Trinity"
+      path: 'story'
+    - id: '1'
+      title: 'Escape instruction'
+      path: 'escape-instruction'
 - id: '16'
   title: "Fake Housewife & AI research Smart Home Solution"
   path: 'fake-housewife-and-ai-research-smart-home-solution'
