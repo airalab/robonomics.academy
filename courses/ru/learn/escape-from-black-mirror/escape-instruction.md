@@ -1,5 +1,5 @@
 ---
-title: Заметки для нетраннеров по перерезанию пуповины облака
+title: Заметки для нетраннеров по перерезанию пуповины облака, часть 2
 description: Escape from Black Mirror
 metaOptions: [Learn, Escape from Black Mirror]
 defaultName: Escape from Black Mirror
