@@ -291,7 +291,7 @@
   progress: done
   author: 'Ensrationis'
   filters: ['spring school 2023']
-  published: false
+  published: true
   lessons:
     - id: '0'
       title: "The story of a girl named Trinity"
