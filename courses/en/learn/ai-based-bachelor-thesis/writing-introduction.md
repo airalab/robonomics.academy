@@ -1,6 +1,6 @@
 ---
 title: "Writing: Introduction"
-lastUpdate: Fri May 12 2023 11:57:41 GMT+0400 (Samara Standard Time)
+lastUpdate: Thu Jun 01 2023 19:46:57 GMT+0300 (Eastern European Summer Time)
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
