@@ -234,7 +234,7 @@
     - id: '3'
       title: 'Writing: Methods'
       path: 'writing-methods'
-      status: in progress
+      status: done
     - id: '4'
       title: 'Writing: Results'
       path: 'writing-results'
