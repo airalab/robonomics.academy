@@ -1,6 +1,6 @@
 ---
 title: Overview
-lastUpdate: Thu May 18 2023 17:48:15 GMT+0400 (Samara Standard Time)
+lastUpdate: Thu Jun 01 2023 19:34:55 GMT+0300 (Eastern European Summer Time)
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
@@ -12,19 +12,13 @@ So, what you feared happened.
 
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmW6qohyJvUF2c3EwhVWZXghArAZQ6KkBsbqT41QRgJRAh', type: 'webm'}]" />
 
-## How to become a bachelor and not drown in a routine
-
 You need to submit a voluminous text work and the deadline is very close. Or maybe the situation is different: the submission deadline may not be so scary, but writing large materials, especially with formal, technical content, makes you cringe and postpone the task for a long time. One way or another, you have to go through a fairly long, monotonous, and often very boring process that darkens your motivation. Perhaps you would like to devote more time to creative and developmental tasks, but unfortunately, some professions and activities are structured that way.
 
 ## Entering the AI
 
 Fortunately for all of us, progress that has been making our routine tasks easier throughout history has reached the sphere of text writing. This time it is possible thanks to advances in artificial intelligence, specifically generative language models, capable of understanding and solving requests and providing more or less meaningful answers in a chat format. At Robonomics, we simply couldn't ignore something that could raise the level of automation in communication and interaction between living and machine things (and make our daily tasks easier too!).
 
-## Can you rely on GPT?
-
 The latest GPT models impress with their capabilities, but the question arises of how to use them correctly and, most importantly, how much can they be relied on. Such skills are called prompt engineering, and for this purpose, we present this guide, which will push you towards a basic understanding of the possibilities of current generative artificial intelligence.
-
-## Join our research
 
 In this guide, we will try to write a simple bachelor's thesis, based on the branch of knowledge of our "bachelor" and the starting material that the bachelor has passed. We will certainly try to adhere to minimal academic rules, but two weeks (which is the planned time for this guide) is certainly not enough to consider the bachelor's thesis successful (although reality sometimes proves otherwise). 
 
@@ -36,7 +30,7 @@ Nevertheless, this guide can be considered a good starting point to understand w
 
 ## Used Tools
 
-**Among the AI services that were used in the guide:**
+Among the AI services that were used in the guide:
 
 **[ChatGPT](https://chat.openai.com/chat)** — a chatbot based on the Generative Pre-trained Transformer language model (ver. 3.5 and 4) created by OpenAI. It operates in a chat format with the user, answering their requests which can vary from simple questions and to composing poetry and debugging user code. Its knowledge is limited to September 2021, as it does not have access to the Internet. Basic usage is free, but requires registration with a phone number (not available in some countries). It has a subscription option ($20 per month) with more powerful features and the ability to add plugins, such as for access to Wolfram or Slack.
 
@@ -46,7 +40,7 @@ Nevertheless, this guide can be considered a good starting point to understand w
 
 **[Notion AI](https://www.notion.so/product/ai)** — an AI assistant integrated into the eponymous knowledge management software. It has limited free access, while a subscription costs $10 per month. It is convenient for processing and improving already prepared text, and has pre-installed functions for this purpose.
 
-**Additionally, we will need the following services:**
+Additionally, we will need the following services:
 
 **[Overleaf](http://www.overleaf.com)** —  Convenient online LaTeX editor for formatting text. It has a set of templates for any type of work (from theses and articles to presentations). We will be using the [MIT Thesis Template](https://www.overleaf.com/latex/templates/mit-thesis-template/ytphktgwpktc).
 
@@ -72,10 +66,10 @@ Auto-GPT requires a different approach, as the user needs to specify before star
 
 After this, Auto-GPT will launch an agent that will display for the user all "thoughts" and actions performed, namely:
 
-- THOUGHTS — a general idea that the agent wants to implement in the current iteration
-- REASONING — a reason why the agent chose this idea
-- PLAN — specific actions to achieve the idea (searching on the internet, analyzing documents, writing to a file, etc.)
-- CRITICISM — special conditions that the agent imposes on its actions (for example, "search only for high-quality references from IEEE journals").
+- `THOUGHTS` — a general idea that the agent wants to implement in the current iteration
+- `REASONING` — a reason why the agent chose this idea
+- `PLAN` — specific actions to achieve the idea (searching on the internet, analyzing documents, writing to a file, etc.)
+- `CRITICISM` — special conditions that the agent imposes on its actions (for example, "search only for high-quality references from IEEE journals").
 
 ## First Steps
 
@@ -110,17 +104,17 @@ The next step (typical for a bachelor's situation) is to choose a topic for the 
 
 <RoboAcademyDialog>
 
-"Designing a Secure and Private Smart Home System using Web3 Technologies" - This topic could involve examining the steps you took to build your sovereign smart home and exploring the security and privacy benefits of using IoT and Web3 technologies.
+"Designing a Secure and Private Smart Home System using Web3 Technologies" — This topic could involve examining the steps you took to build your sovereign smart home and exploring the security and privacy benefits of using IoT and Web3 technologies.
 
-"Comparing Centralized and Decentralized Approaches to Smart Home Data Management" - This topic could involve comparing and contrasting the benefits and drawbacks of using centralized cloud vendors versus decentralized cloud technologies like Polkadot for managing smart home data.
+"Comparing Centralized and Decentralized Approaches to Smart Home Data Management" — This topic could involve comparing and contrasting the benefits and drawbacks of using centralized cloud vendors versus decentralized cloud technologies like Polkadot for managing smart home data.
 
-"Developing a Smart Contract-based Framework for Managing Smart Home Devices" - This topic could involve exploring the use of smart contracts to manage smart home devices and develop a secure and efficient framework for managing them.
+"Developing a Smart Contract-based Framework for Managing Smart Home Devices" — This topic could involve exploring the use of smart contracts to manage smart home devices and develop a secure and efficient framework for managing them.
 
-"Investigating the Security and Privacy Risks of Smart Home Systems" - This topic could involve examining the potential risks and vulnerabilities of smart home systems, including issues related to data privacy, cybersecurity, and physical safety.
+"Investigating the Security and Privacy Risks of Smart Home Systems" — This topic could involve examining the potential risks and vulnerabilities of smart home systems, including issues related to data privacy, cybersecurity, and physical safety.
 
-"Exploring the Role of Blockchain in Smart Home Data Management" - This topic could involve examining how blockchain technology could be used to manage smart home data and ensure the security and privacy of user data.
+"Exploring the Role of Blockchain in Smart Home Data Management" — This topic could involve examining how blockchain technology could be used to manage smart home data and ensure the security and privacy of user data.
 
-"Investigating the Future of Smart Home Technologies and their Impact on Society" - This topic could involve examining the potential social and economic impacts of smart home technologies, including issues related to privacy, security, and the digital divide.
+"Investigating the Future of Smart Home Technologies and their Impact on Society" — This topic could involve examining the potential social and economic impacts of smart home technologies, including issues related to privacy, security, and the digital divide.
 
 </RoboAcademyDialog>
 
@@ -160,7 +154,7 @@ Next, in principle, we can proceed to specific sections of the theses, following
 </RoboAcademyDialog>
 
 <RoboAcademyText>
-With this preparation complete, we can now move on to the first section of the thesis - the Introduction.
+With this preparation complete, we can now move on to the first section of the thesis — the Introduction.
 </RoboAcademyText>
   
 

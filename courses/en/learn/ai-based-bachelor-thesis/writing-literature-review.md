@@ -1,14 +1,17 @@
 ---
 title: "Writing: Literature Review"
-lastUpdate: Fri May 12 2023 12:04:56 GMT+0400 (Samara Standard Time)
+lastUpdate: Thu Jun 01 2023 19:47:04 GMT+0300 (Eastern European Summer Time)
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 ---
 
 <RoboAcademyText fWeight="500">
-So, we are starting to write what is probably the most boring part of any near-to-academic work — the literature search and analysis of the sources found. At first glance, an AI assistant should be able to handle this task better than anything else. All it has to do is find relevant works on the Internet, obtain their text in some form, and analyze it. However, a significant number of pitfalls have been found in this task, which will be discussed further.
+So, we are starting to write what is probably the most boring part of any near-to-academic work — the literature search and analysis of the sources found.
 </RoboAcademyText>
+
+At first glance, an AI assistant should be able to handle this task better than anything else. All it has to do is find relevant works on the Internet, obtain their text in some form, and analyze it. However, a significant number of pitfalls have been found in this task, which will be discussed further.
+
 
 ## First attempt
 
@@ -107,7 +110,7 @@ After this, one way or another, we need to obtain the full texts of the found ar
 
 1) Articles are usually available in PDF format, most often with two-column texts. Chatbots simply cannot read PDF files, and Auto-GPT currently cannot read this format (but it tried to find a solution to this problem on its own, albeit unsuccessfully!)
 
-<RoboAcademyTerminal title="AutoGPT">
+<RoboAcademyTerminal title="AutoGPT Terminal">
 
 **SYSTEM:**  Command read_file returned: Error: 'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte
 THOUGHTS:  It looks like I am encountering an encoding issue while trying to open the edgechain PDF file. I can try to extract text from the PDF using the 'tika' library and analyze the contents. I'll use the 'execute_shell' command to install the 'tika' library before using it to extract text from the PDF file.
@@ -120,7 +123,7 @@ Anyway, PDF articles will have to be converted to a plain text format (without i
 
 2) There is a much more serious problem that essentially prevents the use of these AI tools for analyzing entire articles. Unfortunately, in its current form, GPT has a limited context length, which causes Auto-GPT to simply refuse to start the analysis, and chatbots lose the beginning of the conversation:
 
-<RoboAcademyTerminal title="AutoGPT">
+<RoboAcademyTerminal title="AutoGPT Terminal">
 
 openai.error.InvalidRequestError: This model's maximum context length is 8191 tokens, however you requested 15615 tokens (15615 in your prompt; 0 for the completion). Please reduce your prompt; or completion length.
 
@@ -146,9 +149,9 @@ Overall, the EdgeChain framework shows promise in addressing scalability and sec
 
 </RoboAcademyDialog>
 
-<RoboAcademyText>
-
 Next, we need to repeat the same analysis process for the remaining articles, and voila, we have a complete literature review for our bachelor's thesis. In the end, we were required to select the best articles, extract their texts, and verify the AI-generated results before compiling them into a coherent text along with references. The entire task took about 2 days instead of the standard 2-3 weeks.
+
+<RoboAcademyText>
 
 Now we can proceed to the essence of the thesis — the description of the Methods of our work.
 

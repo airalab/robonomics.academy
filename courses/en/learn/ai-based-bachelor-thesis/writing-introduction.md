@@ -1,6 +1,6 @@
 ---
 title: "Writing: Introduction"
-lastUpdate: Fri May 12 2023 11:57:41 GMT+0400 (Samara Standard Time)
+lastUpdate: Thu Jun 01 2023 19:46:57 GMT+0300 (Eastern European Summer Time)
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
@@ -10,11 +10,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 In this guide, we will write an Introduction for our bachelor's thesis.
 </RoboAcademyText>
 
-## Resolving 'a word salad' issue with AI
-
 Often, this section can be one of the most boring to write. Besides planning and describing the general vision of the work, we needs to make a certain amount of text. Typically, students try to fill this space with anything they can, resulting in the section looking like a word salad. This is exactly the problem that AI assistants can handle well.
-
-## Determine the exact amount of the desired result
 
 One of the interesting observations made during the testing of AI services is that AI does not strive to perform tasks to a greater extent than necessary. Frankly, the services are almost "lazy" and perform the task only to the extent specified in the request. For example, if asked to find sources for a paragraph of text, AI will find 1-3 sources, not 5 or 10. Therefore, when formulating a request, it is best to specify the exact number of results to be returned.
 
@@ -24,7 +20,7 @@ One of the interesting observations made during the testing of AI services is th
 
 We will create an agent with the following description and goals:
 
-<RoboAcademyTerminal title="Goals">
+<RoboAcademyTerminal title="Auto-GPT Terminal">
 
 **Name your AI:** Bachelor-AI
 
@@ -86,7 +82,9 @@ Agent output (shortened version):
 
 According to the agent logs, before writing the text, it spent some time searching for information. Moreover, the agent created Introduction iteratively, gradually adding text to meet the word limit.
 
-Overall, the AI performed the task well enough to use this text as a basis for an Introduction. It can also be further improved by feeding the text into **Notion AI** (using the Improve writing or Change tone tools).
+### Improve output
+
+Overall, the AI performed the task well enough to use this text as a basis for an Introduction. It can also be further improved by feeding the text into **Notion AI** (using the `Improve writing` or `Change tone` tools).
 
 <RoboAcademyText>
 Generally speaking, in the Introduction section it is already necessary to add sources for relevant works, but before we move on to searching and analyzing sources, it is better to first go through the following guide — Literature Review.
