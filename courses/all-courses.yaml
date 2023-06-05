@@ -238,7 +238,7 @@
     - id: '4'
       title: 'Writing: Results'
       path: 'writing-results'
-      status: in progress
+      status: done
     - id: '5'
       title: 'Writing: Conclusion '
       path: 'writing-conclusion'
