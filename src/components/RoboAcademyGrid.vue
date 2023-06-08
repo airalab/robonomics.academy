@@ -127,7 +127,7 @@ export default {
     }
   }
   
-  @media screen and (max-width: 520px) {
+  @media screen and (max-width: 560px) {
     .lesson-grid-container.grid-2 {
       grid-template-columns: 1fr
     }

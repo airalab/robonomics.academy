@@ -1,6 +1,6 @@
 ---
 title: "Writing: Methods"
-lastUpdate: Thu Jun 01 2023 20:12:37 GMT+0300 (Eastern European Summer Time)
+lastUpdate: 2023-06-08T09:06:21.773Z
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
@@ -123,7 +123,7 @@ It is better to ask to create code for a diagram, for example in UML, and then g
 
 <robo-academy-grid :columns="2" textAlign="center">
     <robo-academy-grid-element>
-<LessonCodeWrapper language="json" noCopyIcon noLines codeClass="big-code">
+<LessonCodeWrapper language="uml" noCopyIcon noLines codeClass="big-code">
         @startuml
         package "Raspberry Pi" {
             [Zigbee2MQTT]

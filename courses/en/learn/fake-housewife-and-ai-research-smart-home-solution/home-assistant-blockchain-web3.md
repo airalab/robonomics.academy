@@ -1,6 +1,6 @@
 ---
 title: Home Assistant + blockchain+Web3
-lastUpdate: Thu May 18 2023 13:08:57 GMT+0400 (Samara Standard Time)
+lastUpdate: 2023-06-08T09:32:19.603Z
 description: Fake Housewife & AI research Smart Home Solution
 metaOptions: [Learn, Fake Housewife & AI research Smart Home Solution]
 defaultName: Fake Housewife & AI research Smart Home Solution

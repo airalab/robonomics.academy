@@ -130,7 +130,7 @@ module.exports = function (api) {
 
     if (JSON.stringify(data).toLowerCase().indexOf("lastupdate") === -1 && !JSON.stringify(data).includes('lastUpdate:')) {
       options.lastUpdate = upd.mtime;
-      data.splice(2, 0, `lastUpdate: ${upd.mtime}`);
+      data.splice(2, 0, `lastUpdate: ${new Date(upd.mtime).toISOString()}`);
       let text = data.join("\n");
         fs.writeFile(`courses${options.path.slice(0, -1)}.md`, text, function (err) {
           if (err) return console.log(err);

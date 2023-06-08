@@ -15,5 +15,6 @@ export default {
 <style scoped>
  .lesson-grid-item {
   padding: 0.5rem 0.8rem;
+  overflow: hidden;
  }
 </style>

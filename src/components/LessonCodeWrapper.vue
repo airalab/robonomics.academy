@@ -1,6 +1,6 @@
 <template>
   <div :class="{'no-copy-icon': noCopyIcon, 'no-lines': noLines}">
-<prism :language="language" :class="codeClass">
+<prism :language="filteredLang" :class="codeClass">
   <slot></slot>
 </prism>
   </div>
@@ -28,6 +28,12 @@ export default {
     noLines: {
       type: Boolean,
       default: false
+    }
+  },
+
+  computed: {
+    filteredLang() {
+      return this.language === 'uml' ? 'plantuml' : this.language
     }
   },
 
