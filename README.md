@@ -74,7 +74,7 @@ Add some basic info to the doc:
 
 **IMPORTANT NOTE**
 
-Please, DON'T FORGET to remove line - ```LastUpdate:...``` from your lesson!!!
+Please, DON'T FORGET to remove line - ```LastUpdate:...``` from your lesson before your `git commit` !!!
 
 (if the doc has one, otherwise updates won't work properly with your course)
 
@@ -138,6 +138,7 @@ sudo apt-get install -y nodejs git make g++ gcc
 - JSON
 - Python
 - YAML
+- UML
 
 
 ### How to insert images:
