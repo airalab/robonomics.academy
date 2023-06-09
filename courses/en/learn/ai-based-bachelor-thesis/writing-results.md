@@ -1,6 +1,5 @@
 ---
 title: "Writing: Results"
-lastUpdate: Fri Jun 02 2023 18:26:32 GMT+0300 (Eastern European Summer Time)
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
