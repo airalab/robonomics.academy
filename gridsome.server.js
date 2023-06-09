@@ -158,7 +158,7 @@ module.exports = function (api) {
           if(!isExistHash && !isExistPath) {
           let stream = fs.createWriteStream("./src/data/courses-hashes.yaml", {flags:'a'});
 stream.once('open', function(fd) {
-stream.write(`- link: ${options.path} 
+stream.write(`\n- link: ${options.path} 
   hash: ${content}\n `
               );
               stream.end();
@@ -167,13 +167,16 @@ stream.write(`- link: ${options.path}
         
 
           allHashes.forEach(hash => {
+
             if(hash.hash !== content && hash.link === options.path) {
               let str = `hash: ${hash.hash}`;
               let newStream = fs.readFileSync("./src/data/courses-hashes.yaml", 'utf-8');
               var newValue = newStream.replace(str, `hash: ${content} `);
               fs.writeFileSync('./src/data/courses-hashes.yaml', newValue, 'utf-8');
               options.lastUpdate = upd.mtime;
+              console.log(upd.mtime)
             }
+
           })
       });
   })  
