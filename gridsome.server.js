@@ -153,12 +153,13 @@ module.exports = function (api) {
       myReadStream.on('end',function(){
           const content = getHash(rContents) ;
 
-          const isExist = allHashes.find(h => h.hash === content);
-          if(!isExist) {
+          const isExistHash = allHashes.find(h => h.hash === content);
+          const isExistPath = allHashes.find(h => h.link === options.path);
+          if(!isExistHash && !isExistPath) {
           let stream = fs.createWriteStream("./src/data/courses-hashes.yaml", {flags:'a'});
             stream.once('open', function(fd) {
-              stream.write(`- link: ${options.path} 
-hash: ${content}\n `
+stream.write(`- link: ${options.path} 
+  hash: ${content}\n `
               );
               stream.end();
           });
