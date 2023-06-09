@@ -6,6 +6,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 const fs = require("fs");
+const crypto = require('crypto');
 const fsExtra = require("fs-extra");
 const createImage = require("node-html-to-image");
 const generateHtml = require("./functions/generateHtml");
@@ -128,14 +129,52 @@ module.exports = function (api) {
       return stats.mtime;
     })
 
-    if (JSON.stringify(data).toLowerCase().indexOf("lastupdate") === -1 && !JSON.stringify(data).includes('lastUpdate:')) {
-      options.lastUpdate = upd.mtime;
-      data.splice(2, 0, `lastUpdate: ${new Date(upd.mtime).toISOString()}`);
-      let text = data.join("\n");
-        fs.writeFile(`courses${options.path.slice(0, -1)}.md`, text, function (err) {
-          if (err) return console.log(err);
-        });
+    const allHashes = require('./src/data/courses-hashes.yaml');
+
+    const getHash = ( content ) => {				
+      var hash = crypto.createHash('md5');
+
+      data = hash.update(content, 'utf-8');
+
+      gen_hash= data.digest('hex');
+      return gen_hash;
     }
+
+      //Creating a readstream to read the file
+      let myReadStream = fs.createReadStream(`courses${options.path.slice(0, -1)}.md`);
+
+      let rContents = '' 
+      myReadStream.on('data', function(chunk) {
+          rContents += chunk;
+      });
+      myReadStream.on('error', function(err){
+          console.log(err);
+      });
+      myReadStream.on('end',function(){
+          const content = getHash(rContents) ;
+
+          const isExist = allHashes.find(h => h.hash === content);
+          if(!isExist) {
+          let stream = fs.createWriteStream("./src/data/courses-hashes.yaml", {flags:'a'});
+            stream.once('open', function(fd) {
+              stream.write(`- link: ${options.path} 
+hash: ${content}\n `
+              );
+              stream.end();
+          });
+          }
+        
+
+          allHashes.forEach(hash => {
+            if(hash.hash !== content && hash.link === options.path) {
+              let str = `hash: ${hash.hash}`;
+              let newStream = fs.readFileSync("./src/data/courses-hashes.yaml", 'utf-8');
+              var newValue = newStream.replace(str, `hash: ${content} `);
+              fs.writeFileSync('./src/data/courses-hashes.yaml', newValue, 'utf-8');
+              options.lastUpdate = upd.mtime;
+            }
+          })
+      });
   })  
 
   api.createPages(({ createPage }) => {
