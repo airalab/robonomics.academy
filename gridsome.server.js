@@ -157,7 +157,7 @@ module.exports = function (api) {
           const isExistPath = allHashes.find(h => h.link === options.path);
           if(!isExistHash && !isExistPath) {
           let stream = fs.createWriteStream("./src/data/courses-hashes.yaml", {flags:'a'});
-            stream.once('open', function(fd) {
+stream.once('open', function(fd) {
 stream.write(`- link: ${options.path} 
   hash: ${content}\n `
               );
