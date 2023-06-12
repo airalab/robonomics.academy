@@ -1,6 +1,5 @@
 ---
 title: Connect Kuka manipulator
-lastUpdate: Wed May 17 2023 11:46:20 GMT+0400 (Samara Standard Time)
 description: Connect Manipulator
 metaOptions: [Learn]
 defaultName: Connect Kuka manipulator
