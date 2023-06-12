@@ -1,6 +1,5 @@
 ---
 title: "Studying the Sovereign smart home course at the academy and WIKI instructions:"
-lastUpdate: Thu May 11 2023 17:17:32 GMT+0400 (Samara Standard Time)
 description: Fake Housewife & AI research Smart Home Solution
 metaOptions: [Learn, Fake Housewife & AI research Smart Home Solution]
 defaultName: Fake Housewife & AI research Smart Home Solution

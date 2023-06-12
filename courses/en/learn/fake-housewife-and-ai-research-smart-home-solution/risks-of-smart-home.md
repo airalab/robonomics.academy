@@ -1,6 +1,5 @@
 ---
 title: Risks of standard Smart Home solutions and the Home Assistant
-lastUpdate: Thu May 11 2023 16:38:09 GMT+0400 (Samara Standard Time)
 description: Fake Housewife & AI research Smart Home Solution
 metaOptions: [Learn, Fake Housewife & AI research Smart Home Solution]
 defaultName: Fake Housewife & AI research Smart Home Solution
