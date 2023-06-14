@@ -215,7 +215,7 @@
   level: 3
   tags: ['guide']
   filters: ['spring school 2023', 'ai']
-  progress: progress
+  progress: done
   author: 'Fingerling42'
   published: true
   lessons:
@@ -242,7 +242,7 @@
     - id: '5'
       title: 'Writing: Conclusion '
       path: 'writing-conclusion'
-      status: in progress
+      status: done
 - id: '13'
   title: "OpenGov for managing the IoT infrastructure"
   path: 'opengov-for-iot'
