@@ -17,7 +17,7 @@
 - link: /es/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
   hash: bb969e71ef4d3a2ccbbe69f7d3f66aaf
 - link: /en/learn/ai-based-bachelor-thesis/overview/ 
-  hash: 801b17bde0092143906d82dd1c709e0e   
+  hash: 9c9e17c2b0cf1cb7cad4665bdc8cc90b    
 - link: /es/learn/introduction-course/robonomics-architecture/ 
   hash: 44875fd20e6668230af1a10e2d19dcc4
 - link: /en/learn/ai-based-bachelor-thesis/writing-introduction/ 
@@ -35,17 +35,17 @@
 - link: /en/learn/connect-mars-curiosity-rover/overview/ 
   hash: c2c50f259bcee7ac2b344d26e359a8ad
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/blockchain-based-smart-home-solutions/ 
-  hash: 89a47c318ab95cf6142793ac5123f17b               
+  hash: d6acb4cda01a204e7f65c9a9b04a5593                
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/home-assistant-blockchain-web3/ 
   hash: a6619b0349baef0c2a6089ddfd0b0648  
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/meet-fake-housewife-zoe-and-her-story/ 
-  hash: 885880fbb6dced689ecfd9490cc70c20
+  hash: dd9370de316201866aed355c29adc701 
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/overview/ 
-  hash: 7a326af9dd5185f46ed051dec33c99fb
+  hash: f88d34f419b8bc66c07ffdfbf7c6fa79 
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/risks-of-smart-home/ 
-  hash: 85efdcba8173dd766d76a0ef2815d8ab
+  hash: c818ee915aaf5299b049a1c3e5cb90f7 
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/studying-the-sovereign-smart-home-course/ 
-  hash: 08701a98e8aed401cbc5443ca774b977
+  hash: aee760c7a36f94ea0a0ccdf828c807dc 
 - link: /en/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
   hash: 819950785af1162124579aa98ccf9d79
 - link: /en/learn/introduction-course/broadcasting-through-the-black-mirror/ 
@@ -65,7 +65,7 @@
 - link: /en/learn/open-source-private-smart-home-intro/overview/ 
   hash: 61b96f4b200fb68eec97d48a1944c2d1
 - link: /en/learn/kuka/overview/ 
-  hash: ada39c2b50ec748b467b8bdc927113ba  
+  hash: 3cf9b6119f097c008bcc2d5ece6554a9   
 - link: /en/learn/opengov-for-iot/overview/ 
   hash: 4177657ed4772d31a54e9e520b4b2c97
 - link: /en/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion/ 
@@ -174,4 +174,13 @@
   hash: a23e5af090fdddabec06b2751526daf0
 - link: /ru/learn/open-source-private-smart-home-intro/overview/ 
   hash: 7bd09c12a062910aa590b7a4d373bb38
+ 
+- link: /en/learn/ai-based-bachelor-thesis/writing-conclusion/ 
+  hash: c6e3c915624cfe4bff625bc252fef87a  
+ 
+- link: /en/learn/ai-based-bachelor-thesis/writing-conclusion/ 
+  hash: c2ef420d62c8fc237e20e3e0917557b0  
+ 
+- link: /en/learn/ai-based-bachelor-thesis/writing-conclusion/ 
+  hash: ce360aee957f9d91529b702686030c57 
  
