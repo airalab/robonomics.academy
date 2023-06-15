@@ -1,6 +1,5 @@
 ---
 title: "Написание тезиса: Обзор литературы"
-lastUpdate: Fri May 12 2023 12:12:36 GMT+0400 (Samara Standard Time)
 description: Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте
 metaOptions: [Learn, Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools

@@ -127,6 +127,7 @@ sudo apt-get install -y nodejs git make g++ gcc
 - Python
 - YAML
 - UML
+- LaTeX
 
 
 ### How to insert images:

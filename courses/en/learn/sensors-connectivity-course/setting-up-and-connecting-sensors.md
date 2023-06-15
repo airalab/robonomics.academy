@@ -1,6 +1,5 @@
 ---
 title: "Lesson #3, Setting up and connecting sensors"
-lastUpdate: Thu May 04 2023 12:54:25 GMT+0400 (Samara Standard Time)
 description: 'SETTING UP AND CONNECTING SENSORS'
 lessonNumber: 3
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]

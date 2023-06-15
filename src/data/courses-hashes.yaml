@@ -1,186 +1,441 @@
+# don't write or change anything here 
+
 - link: /de/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
-  hash: e16ae46ebb84472ece9780eb4866af3a
+  hash: e16ae46ebb84472ece9780eb4866af3a 
+  lastUpdate: Thu May 18 2023 16:45:07 GMT+0400 (Samara Standard Time) 
+  updated/de/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/: false 
+
+- link: /de/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
+  hash: 5061e915f153ccab4197549e53072887 
+  lastUpdate: Thu May 18 2023 16:45:18 GMT+0400 (Samara Standard Time) 
+  updated/de/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/: false 
+
 - link: /de/learn/introduction-course/broadcasting-through-the-black-mirror/ 
-  hash: 99d9797f3380d9d91213e7929cfde624
-- link: /de/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
-  hash: 2262b31cdd52a2f9d61592f4d7f336c4
-- link: /es/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
-  hash: 2c920390b27267cda6ac5f0debed3fe2
+  hash: 99d9797f3380d9d91213e7929cfde624 
+  lastUpdate: Thu May 18 2023 16:45:12 GMT+0400 (Samara Standard Time) 
+  updated/de/learn/introduction-course/broadcasting-through-the-black-mirror/: false 
+
 - link: /de/learn/introduction-course/overview/ 
-  hash: ba666e891b94fecf85ddec13fa7ab96c
-- link: /es/learn/introduction-course/broadcasting-through-the-black-mirror/ 
-  hash: 8dbc260365e702aabc9d2e5f10c90a53
-- link: /es/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
-  hash: 50a2c92335c9a2bf979b3067299c9ad9
-- link: /es/learn/introduction-course/overview/ 
-  hash: bbfbe681ff4fb401943d0a421b3c7f19
-- link: /es/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
-  hash: bb969e71ef4d3a2ccbbe69f7d3f66aaf
+  hash: ba666e891b94fecf85ddec13fa7ab96c 
+  lastUpdate: Thu May 18 2023 16:45:22 GMT+0400 (Samara Standard Time) 
+  updated/de/learn/introduction-course/overview/: false 
+
+- link: /de/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
+  hash: 2262b31cdd52a2f9d61592f4d7f336c4 
+  lastUpdate: Thu May 18 2023 16:45:32 GMT+0400 (Samara Standard Time) 
+  updated/de/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/: false 
+
+- link: /de/learn/introduction-course/robonomics-architecture/ 
+  hash: 66e0bb261f45671fe33949c74e6444a9 
+  lastUpdate: Thu May 18 2023 16:45:46 GMT+0400 (Samara Standard Time) 
+  updated/de/learn/introduction-course/robonomics-architecture/: false 
+
 - link: /en/learn/ai-based-bachelor-thesis/overview/ 
-  hash: 9c9e17c2b0cf1cb7cad4665bdc8cc90b    
-- link: /es/learn/introduction-course/robonomics-architecture/ 
-  hash: 44875fd20e6668230af1a10e2d19dcc4
-- link: /en/learn/ai-based-bachelor-thesis/writing-introduction/ 
-  hash: cfad814c84f14227dffcb3109c6db2e9
+  hash: 32e0e5c9f01bdca93377ea8c95f5d284 
+  lastUpdate: Wed Jun 14 2023 20:15:32 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/ai-based-bachelor-thesis/overview/: false      
+
+- link: /en/learn/ai-based-bachelor-thesis/writing-conclusion/ 
+  hash: 9a41b7f8049a568062357cb07631c756 
+  lastUpdate: Wed Jun 14 2023 17:37:54 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/ai-based-bachelor-thesis/writing-conclusion/: false  
+
 - link: /en/learn/ai-based-bachelor-thesis/writing-literature-review/ 
-  hash: 4be67784974ea2e0d9354d249a5ed8e3
-- link: /en/learn/ai-based-bachelor-thesis/writing-methods/ 
-  hash: 0c25bb4dd2371331117aa5298ca544f7
+  hash: 63fe85a25d8e846c34b53f83159e8df8 
+  lastUpdate: Wed Jun 14 2023 17:55:06 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/ai-based-bachelor-thesis/writing-literature-review/: false 
+
+- link: /en/learn/ai-based-bachelor-thesis/writing-introduction/ 
+  hash: 13bb215805f1d70d7ccf733db2f26ede 
+  lastUpdate: Wed Jun 14 2023 17:55:00 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/ai-based-bachelor-thesis/writing-introduction/: false 
+
 - link: /en/learn/ai-based-bachelor-thesis/writing-results/ 
-  hash: c84f7e2d2903ab280dd00007fc0b8199  
+  hash: c84f7e2d2903ab280dd00007fc0b8199 
+  lastUpdate: Wed Jun 14 2023 17:55:12 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/ai-based-bachelor-thesis/writing-results/: false 
+
 - link: /en/learn/baxter/overview/ 
-  hash: 45b5bb81796bc24a771b8ff1015fd5d9
-- link: /en/learn/connect-any-ros-compatible-drone/overview/ 
-  hash: 0894ebd4650e64090679c54285c3ac7b
+  hash: 45b5bb81796bc24a771b8ff1015fd5d9 
+  lastUpdate: Thu May 18 2023 16:50:12 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/baxter/overview/: false 
+
 - link: /en/learn/connect-mars-curiosity-rover/overview/ 
-  hash: c2c50f259bcee7ac2b344d26e359a8ad
+  hash: c2c50f259bcee7ac2b344d26e359a8ad 
+  lastUpdate: Thu May 18 2023 16:50:19 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/connect-mars-curiosity-rover/overview/: false 
+
+- link: /en/learn/ai-based-bachelor-thesis/writing-methods/ 
+  hash: ae4a500c43b260157a46f68a94232576 
+  lastUpdate: Wed Jun 14 2023 17:55:09 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/ai-based-bachelor-thesis/writing-methods/: false 
+
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/blockchain-based-smart-home-solutions/ 
-  hash: d6acb4cda01a204e7f65c9a9b04a5593                
+  hash: d6acb4cda01a204e7f65c9a9b04a5593 
+  lastUpdate: Fri Jun 09 2023 22:56:57 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/fake-housewife-and-ai-research-smart-home-solution/blockchain-based-smart-home-solutions/: false 
+
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/home-assistant-blockchain-web3/ 
-  hash: a6619b0349baef0c2a6089ddfd0b0648  
+  hash: a6619b0349baef0c2a6089ddfd0b0648 
+  lastUpdate: Fri Jun 09 2023 18:31:45 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/fake-housewife-and-ai-research-smart-home-solution/home-assistant-blockchain-web3/: false 
+
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/meet-fake-housewife-zoe-and-her-story/ 
   hash: dd9370de316201866aed355c29adc701 
-- link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/overview/ 
-  hash: f88d34f419b8bc66c07ffdfbf7c6fa79 
+  lastUpdate: Mon Jun 12 2023 10:43:54 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/fake-housewife-and-ai-research-smart-home-solution/meet-fake-housewife-zoe-and-her-story/: false 
+
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/risks-of-smart-home/ 
   hash: c818ee915aaf5299b049a1c3e5cb90f7 
+  lastUpdate: Mon Jun 12 2023 10:44:08 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/fake-housewife-and-ai-research-smart-home-solution/risks-of-smart-home/: false 
+
 - link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/studying-the-sovereign-smart-home-course/ 
   hash: aee760c7a36f94ea0a0ccdf828c807dc 
+  lastUpdate: Mon Jun 12 2023 10:44:12 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/fake-housewife-and-ai-research-smart-home-solution/studying-the-sovereign-smart-home-course/: false 
+
+- link: /en/learn/connect-any-ros-compatible-drone/overview/ 
+  hash: 0894ebd4650e64090679c54285c3ac7b 
+  lastUpdate: Thu May 18 2023 16:50:16 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/connect-any-ros-compatible-drone/overview/: false 
+
+- link: /en/learn/fake-housewife-and-ai-research-smart-home-solution/overview/ 
+  hash: f88d34f419b8bc66c07ffdfbf7c6fa79 
+  lastUpdate: Mon Jun 12 2023 10:44:01 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/fake-housewife-and-ai-research-smart-home-solution/overview/: false 
+
 - link: /en/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
-  hash: 819950785af1162124579aa98ccf9d79
+  hash: 819950785af1162124579aa98ccf9d79 
+  lastUpdate: Thu May 18 2023 16:50:53 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/: false 
+
 - link: /en/learn/introduction-course/broadcasting-through-the-black-mirror/ 
-  hash: 02d57f4377d4d99df32b619c2becc947
+  hash: 02d57f4377d4d99df32b619c2becc947 
+  lastUpdate: Thu May 18 2023 16:50:57 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/introduction-course/broadcasting-through-the-black-mirror/: false 
+
 - link: /en/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
-  hash: 91b91729f8fed4026f4d41513596d595
+  hash: 91b91729f8fed4026f4d41513596d595 
+  lastUpdate: Thu May 18 2023 16:51:00 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/: false 
+
 - link: /en/learn/introduction-course/overview/ 
-  hash: fdf20ecf4839d10f7bd31764729458dd
+  hash: fdf20ecf4839d10f7bd31764729458dd 
+  lastUpdate: Thu May 18 2023 16:51:03 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/introduction-course/overview/: false 
+
 - link: /en/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
-  hash: ba7a9b2e93292eb8c2b9d83193ee4611
+  hash: ba7a9b2e93292eb8c2b9d83193ee4611 
+  lastUpdate: Thu May 18 2023 16:51:08 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/: false 
+
 - link: /en/learn/introduction-course/robonomics-architecture/ 
-  hash: b041d44195005794d8be26101332f3ef
+  hash: b041d44195005794d8be26101332f3ef 
+  lastUpdate: Thu May 18 2023 16:51:11 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/introduction-course/robonomics-architecture/: false 
+
 - link: /en/learn/iris-drone/overview/ 
-  hash: 96b20f40c351357574dba56582d5be6a
-- link: /en/learn/open-source-private-smart-home-intro/assembling-smart-home-board/ 
-  hash: 1e459dc56616c2612fbde4cfebd8e409
-- link: /en/learn/open-source-private-smart-home-intro/overview/ 
-  hash: 61b96f4b200fb68eec97d48a1944c2d1
+  hash: 96b20f40c351357574dba56582d5be6a 
+  lastUpdate: Thu May 18 2023 16:51:15 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/iris-drone/overview/: false 
+
 - link: /en/learn/kuka/overview/ 
-  hash: 3cf9b6119f097c008bcc2d5ece6554a9   
+  hash: 3cf9b6119f097c008bcc2d5ece6554a9 
+  lastUpdate: Mon Jun 12 2023 10:44:24 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/kuka/overview/: false 
+
+- link: /en/learn/open-source-private-smart-home-intro/assembling-smart-home-board/ 
+  hash: 1e459dc56616c2612fbde4cfebd8e409 
+  lastUpdate: Thu May 18 2023 16:51:26 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/open-source-private-smart-home-intro/assembling-smart-home-board/: false 
+
+- link: /en/learn/open-source-private-smart-home-intro/overview/ 
+  hash: 61b96f4b200fb68eec97d48a1944c2d1 
+  lastUpdate: Thu May 18 2023 16:51:29 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/open-source-private-smart-home-intro/overview/: false 
+
 - link: /en/learn/opengov-for-iot/overview/ 
-  hash: 4177657ed4772d31a54e9e520b4b2c97
+  hash: 4177657ed4772d31a54e9e520b4b2c97 
+  lastUpdate: Thu May 18 2023 16:51:33 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/opengov-for-iot/overview/: false 
+
 - link: /en/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion/ 
-  hash: 9c770e35df169656e1241db8ce832695
-- link: /en/learn/ros-smart-projects/overview/ 
-  hash: 039021d31dbec99abfc7235e2300843e
-- link: /en/learn/sensors-connectivity-course/introduction/ 
-  hash: d7e24a30737087da04826e10e91f3af9
-- link: /en/learn/sensors-connectivity-course/overview/ 
-  hash: 4d7b8bf61c244f35972354f14f8e8d8e
-- link: /en/learn/sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node/ 
-  hash: b189e5d7cf18641a9f2e4c94ea1ecc4a
+  hash: 9c770e35df169656e1241db8ce832695 
+  lastUpdate: Thu May 18 2023 16:51:37 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion/: false 
+
 - link: /en/learn/sensors-connectivity-course/sensor-hardware/ 
-  hash: 5b306e76d7615f67587d278eddb4ec70
+  hash: f21d71e3e86e2cf7c0c4770461d42fe9 
+  lastUpdate: Thu Jun 15 2023 11:39:03 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/sensors-connectivity-course/sensor-hardware/: true
+
+- link: /en/learn/sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node/ 
+  hash: dc0daa88b2e2cb788ad9fb6ec996717f 
+  lastUpdate: Thu Jun 15 2023 11:38:59 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node/: false 
+
 - link: /en/learn/sensors-connectivity-course/sensor-map-deployment/ 
-  hash: 531f5fd6d8c316463930fa1064c55bfd
+  hash: 909bfa88719ee65f39fe9c21bddfb950 
+  lastUpdate: Thu Jun 15 2023 11:39:08 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/sensors-connectivity-course/sensor-map-deployment/: false 
+
 - link: /en/learn/sensors-connectivity-course/sensors-connectivity-config-options/ 
-  hash: bc44aab49377dfee62ad16aaa20236ef
+  hash: 1e66f19c605dd6275902d250d24a7062 
+  lastUpdate: Thu Jun 15 2023 11:39:10 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/sensors-connectivity-course/sensors-connectivity-config-options/: false 
+
 - link: /en/learn/sensors-connectivity-course/sensors-connectivity-module/ 
-  hash: 5bb097541bfe9b839a2df3f07cfab97d
-- link: /en/learn/spot-try-it-out/overview/ 
-  hash: f985fb33f34ac585a3977415459c5084
+  hash: 5dcf3aee248d693ea8cda2b04dceba83 
+  lastUpdate: Thu Jun 15 2023 11:39:14 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/sensors-connectivity-course/sensors-connectivity-module/: false 
+
 - link: /en/learn/sensors-connectivity-course/setting-up-and-connecting-sensors/ 
-  hash: b5fce1b974add03cad39ce1d1bfee0cf
+  hash: 1c48dccd11fd003835d7491a550791a6 
+  lastUpdate: Thu Jun 15 2023 11:39:16 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/sensors-connectivity-course/setting-up-and-connecting-sensors/: false 
+
+- link: /en/learn/ros-smart-projects/overview/ 
+  hash: 039021d31dbec99abfc7235e2300843e 
+  lastUpdate: Thu May 18 2023 16:51:42 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/ros-smart-projects/overview/: false 
+
 - link: /en/learn/smart-home-course/gateway-setup-robonomics-sls-gateway/ 
-  hash: a9e8a99897bb22791f44c76c432f5bac
-- link: /en/learn/smart-home-course/gateway-setup-zigbee2mqtt/ 
-  hash: 3016dc7043928c8188d5f043a9111ac9
+  hash: a9e8a99897bb22791f44c76c432f5bac 
+  lastUpdate: Thu May 18 2023 16:52:44 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/gateway-setup-robonomics-sls-gateway/: false 
+
 - link: /en/learn/smart-home-course/mqtt-broker-setup/ 
-  hash: 18cec6fcf748b230e66a62c38582253f
+  hash: 18cec6fcf748b230e66a62c38582253f 
+  lastUpdate: Thu May 18 2023 16:52:50 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/mqtt-broker-setup/: false 
+
+- link: /en/learn/smart-home-course/gateway-setup-zigbee2mqtt/ 
+  hash: 3016dc7043928c8188d5f043a9111ac9 
+  lastUpdate: Thu May 18 2023 16:52:47 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/gateway-setup-zigbee2mqtt/: false 
+
 - link: /en/learn/smart-home-course/overview/ 
-  hash: d53709285d45c02107f7c743b2dd8b1f
+  hash: d53709285d45c02107f7c743b2dd8b1f 
+  lastUpdate: Thu May 18 2023 16:52:53 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/overview/: false 
+
 - link: /en/learn/smart-home-course/raspberry-pi-setup/ 
-  hash: 570c22496b6bf472c5d2c4e0cbde4633
+  hash: 570c22496b6bf472c5d2c4e0cbde4633 
+  lastUpdate: Thu May 18 2023 16:52:56 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/raspberry-pi-setup/: false 
+
 - link: /en/learn/smart-home-course/robonomics-hass-theory/ 
-  hash: b4505d10cd9351a6176356078e370480
-- link: /de/learn/introduction-course/robonomics-architecture/ 
-  hash: 66e0bb261f45671fe33949c74e6444a9
-- link: /de/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
-  hash: 5061e915f153ccab4197549e53072887
+  hash: b4505d10cd9351a6176356078e370480 
+  lastUpdate: Thu May 18 2023 16:52:59 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/robonomics-hass-theory/: false 
+
 - link: /en/learn/smart-home-course/robonomics-integration-setup/ 
-  hash: 36018fba2e3123fa8f3e04024ed879fc
-- link: /en/learn/smart-home-course/robonomics-iot-subscription-setup/ 
-  hash: c4f8733ab1e0cf446bafd684dde03445
+  hash: 36018fba2e3123fa8f3e04024ed879fc 
+  lastUpdate: Thu May 18 2023 16:53:02 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/robonomics-integration-setup/: false 
+
 - link: /en/learn/smart-home-course/usage-of-robonomics-with-hass/ 
-  hash: d0baa72a328c1394e10bbca84df0a9e8
-- link: /it/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
-  hash: b47a27d8a7b42822cd5b517e6c892329
-- link: /it/learn/introduction-course/broadcasting-through-the-black-mirror/ 
-  hash: 112663854cd441937921c56c24e24599
-- link: /it/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
-  hash: 9589178ce8e8a9b7c2b481c92937e0b0
-- link: /it/learn/introduction-course/overview/ 
-  hash: fbbfd2d275445f4f91dd7239945ecbcf
-- link: /it/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
-  hash: 45e83840abba154c3d25d119ee46eb36
-- link: /it/learn/introduction-course/robonomics-architecture/ 
-  hash: a31ae93f79df3a320d8154a76b8c3b0a
+  hash: d0baa72a328c1394e10bbca84df0a9e8 
+  lastUpdate: Thu May 18 2023 16:53:09 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/usage-of-robonomics-with-hass/: false 
+
+- link: /en/learn/smart-home-course/robonomics-iot-subscription-setup/ 
+  hash: c4f8733ab1e0cf446bafd684dde03445 
+  lastUpdate: Thu May 18 2023 16:53:05 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/smart-home-course/robonomics-iot-subscription-setup/: false 
+
+- link: /en/learn/spot-try-it-out/overview/ 
+  hash: f985fb33f34ac585a3977415459c5084 
+  lastUpdate: Thu May 18 2023 16:53:13 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/spot-try-it-out/overview/: false 
+
 - link: /pt/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
-  hash: 1680e5ab05b22cb76174733e9c363d4b
+  hash: 1680e5ab05b22cb76174733e9c363d4b 
+  lastUpdate: Thu May 18 2023 16:47:52 GMT+0400 (Samara Standard Time) 
+  updated/pt/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/: false 
+
 - link: /pt/learn/introduction-course/broadcasting-through-the-black-mirror/ 
-  hash: 38da87c268fffc2d35f9cb15bacaee96
+  hash: 38da87c268fffc2d35f9cb15bacaee96 
+  lastUpdate: Thu May 18 2023 16:48:01 GMT+0400 (Samara Standard Time) 
+  updated/pt/learn/introduction-course/broadcasting-through-the-black-mirror/: false 
+
 - link: /pt/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
-  hash: e62aab4a2923085ceb6002d852c09289
-- link: /pt/learn/introduction-course/overview/ 
-  hash: 1b8a544fab0583b4fd930d4f4311c460
+  hash: e62aab4a2923085ceb6002d852c09289 
+  lastUpdate: Thu May 18 2023 16:48:06 GMT+0400 (Samara Standard Time) 
+  updated/pt/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/: false 
+
 - link: /pt/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
-  hash: 2d65f48fc3deecf65667fc66a71fc936
+  hash: 2d65f48fc3deecf65667fc66a71fc936 
+  lastUpdate: Thu May 18 2023 16:48:16 GMT+0400 (Samara Standard Time) 
+  updated/pt/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/: false 
+
+- link: /pt/learn/introduction-course/overview/ 
+  hash: 1b8a544fab0583b4fd930d4f4311c460 
+  lastUpdate: Thu May 18 2023 16:48:12 GMT+0400 (Samara Standard Time) 
+  updated/pt/learn/introduction-course/overview/: false 
+
 - link: /pt/learn/introduction-course/robonomics-architecture/ 
-  hash: e72bbe68bb5f319707fe2b917af75531
+  hash: e72bbe68bb5f319707fe2b917af75531 
+  lastUpdate: Thu May 18 2023 16:48:21 GMT+0400 (Samara Standard Time) 
+  updated/pt/learn/introduction-course/robonomics-architecture/: false 
+
+- link: /es/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
+  hash: 2c920390b27267cda6ac5f0debed3fe2 
+  lastUpdate: Thu May 18 2023 16:46:07 GMT+0400 (Samara Standard Time) 
+  updated/es/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/: false 
+
+- link: /es/learn/introduction-course/broadcasting-through-the-black-mirror/ 
+  hash: 8dbc260365e702aabc9d2e5f10c90a53 
+  lastUpdate: Thu May 18 2023 16:46:12 GMT+0400 (Samara Standard Time) 
+  updated/es/learn/introduction-course/broadcasting-through-the-black-mirror/: false 
+
+- link: /es/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
+  hash: 50a2c92335c9a2bf979b3067299c9ad9 
+  lastUpdate: Thu May 18 2023 16:46:17 GMT+0400 (Samara Standard Time) 
+  updated/es/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/: false 
+
+- link: /es/learn/introduction-course/overview/ 
+  hash: bbfbe681ff4fb401943d0a421b3c7f19 
+  lastUpdate: Thu May 18 2023 16:46:35 GMT+0400 (Samara Standard Time) 
+  updated/es/learn/introduction-course/overview/: false 
+
+- link: /es/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
+  hash: bb969e71ef4d3a2ccbbe69f7d3f66aaf 
+  lastUpdate: Thu May 18 2023 16:46:41 GMT+0400 (Samara Standard Time) 
+  updated/es/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/: false 
+
+- link: /es/learn/introduction-course/robonomics-architecture/ 
+  hash: 44875fd20e6668230af1a10e2d19dcc4 
+  lastUpdate: Thu May 18 2023 16:46:45 GMT+0400 (Samara Standard Time) 
+  updated/es/learn/introduction-course/robonomics-architecture/: false 
+
+- link: /it/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
+  hash: b47a27d8a7b42822cd5b517e6c892329 
+  lastUpdate: Thu May 18 2023 16:47:07 GMT+0400 (Samara Standard Time) 
+  updated/it/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/: false 
+
+- link: /it/learn/introduction-course/broadcasting-through-the-black-mirror/ 
+  hash: 112663854cd441937921c56c24e24599 
+  lastUpdate: Thu May 18 2023 16:47:12 GMT+0400 (Samara Standard Time) 
+  updated/it/learn/introduction-course/broadcasting-through-the-black-mirror/: false 
+
+- link: /it/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
+  hash: 9589178ce8e8a9b7c2b481c92937e0b0 
+  lastUpdate: Thu May 18 2023 16:47:17 GMT+0400 (Samara Standard Time) 
+  updated/it/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/: false 
+
+- link: /it/learn/introduction-course/overview/ 
+  hash: fbbfd2d275445f4f91dd7239945ecbcf 
+  lastUpdate: Thu May 18 2023 16:47:21 GMT+0400 (Samara Standard Time) 
+  updated/it/learn/introduction-course/overview/: false 
+
+- link: /it/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
+  hash: 45e83840abba154c3d25d119ee46eb36 
+  lastUpdate: Thu May 18 2023 16:47:29 GMT+0400 (Samara Standard Time) 
+  updated/it/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/: false 
+
+- link: /it/learn/introduction-course/robonomics-architecture/ 
+  hash: a31ae93f79df3a320d8154a76b8c3b0a 
+  lastUpdate: Thu May 18 2023 16:47:34 GMT+0400 (Samara Standard Time) 
+  updated/it/learn/introduction-course/robonomics-architecture/: false 
+
 - link: /ru/learn/ai-based-bachelor-thesis/overview/ 
-  hash: e8469d7ed5c4d8b17bef110a589e11c6
-- link: /ru/learn/ai-based-bachelor-thesis/writing-introduction/ 
-  hash: 658324e1e8656d9f4e2ba23d2a0652b0
+  hash: 2d53863f49cf585caaefbc67968444b2 
+  lastUpdate: Wed Jun 14 2023 17:49:53 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/ai-based-bachelor-thesis/overview/: false 
+
 - link: /ru/learn/ai-based-bachelor-thesis/writing-literature-review/ 
-  hash: 0d91a4445ec5da65c868d6693910a063
+  hash: ace2052bb30ec1c77dcc3e5649e57cf7 
+  lastUpdate: Wed Jun 14 2023 17:50:03 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/ai-based-bachelor-thesis/writing-literature-review/: false 
+
+- link: /ru/learn/ai-based-bachelor-thesis/writing-introduction/ 
+  hash: 5ef37be5e1c13c2c7d0663b23c3d6474 
+  lastUpdate: Wed Jun 14 2023 17:49:59 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/ai-based-bachelor-thesis/writing-introduction/: false 
+
 - link: /ru/learn/escape-from-black-mirror/escape-instruction/ 
-  hash: 74cf02ca5408d15d8259c0596a25853f
+  hash: 74cf02ca5408d15d8259c0596a25853f 
+  lastUpdate: Thu Jun 08 2023 11:47:25 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/escape-from-black-mirror/escape-instruction/: false 
+
 - link: /ru/learn/escape-from-black-mirror/overview/ 
-  hash: 0732b8da15b8fb406b022183e3f8fa2f
+  hash: 0732b8da15b8fb406b022183e3f8fa2f 
+  lastUpdate: Thu Jun 08 2023 11:47:25 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/escape-from-black-mirror/overview/: false 
+
 - link: /ru/learn/fake-housewife-and-ai-research-smart-home-solution/blockchain-based-smart-home-solutions/ 
-  hash: 46ab9eff1667deefac48c83940eef280
+  hash: 46ab9eff1667deefac48c83940eef280 
+  lastUpdate: Thu May 18 2023 16:41:19 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/fake-housewife-and-ai-research-smart-home-solution/blockchain-based-smart-home-solutions/: false 
+
 - link: /ru/learn/fake-housewife-and-ai-research-smart-home-solution/home-assistant-blockchain-web3/ 
-  hash: 792c747d2f92130bbdf7586e9bb7cbba
+  hash: 792c747d2f92130bbdf7586e9bb7cbba 
+  lastUpdate: Thu May 18 2023 16:48:53 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/fake-housewife-and-ai-research-smart-home-solution/home-assistant-blockchain-web3/: false 
+
 - link: /ru/learn/fake-housewife-and-ai-research-smart-home-solution/meet-fake-housewife-zoe-and-her-story/ 
-  hash: 68b93412146770f38010c4b03a89fc6f
+  hash: 68b93412146770f38010c4b03a89fc6f 
+  lastUpdate: Thu May 18 2023 16:48:56 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/fake-housewife-and-ai-research-smart-home-solution/meet-fake-housewife-zoe-and-her-story/: false 
+
 - link: /ru/learn/fake-housewife-and-ai-research-smart-home-solution/overview/ 
-  hash: 3dea1b42678d92b1cea26588c5827925
+  hash: 3dea1b42678d92b1cea26588c5827925 
+  lastUpdate: Thu May 18 2023 16:48:59 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/fake-housewife-and-ai-research-smart-home-solution/overview/: false 
+
 - link: /ru/learn/fake-housewife-and-ai-research-smart-home-solution/risks-of-smart-home/ 
-  hash: bbee683bb10d5ac547d80b071cb5c47b
+  hash: bbee683bb10d5ac547d80b071cb5c47b 
+  lastUpdate: Thu May 18 2023 16:49:03 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/fake-housewife-and-ai-research-smart-home-solution/risks-of-smart-home/: false 
+
 - link: /ru/learn/fake-housewife-and-ai-research-smart-home-solution/studying-the-sovereign-smart-home-course/ 
-  hash: 40e3d58946ef2ab5fb0b138b1f706b9c
+  hash: 40e3d58946ef2ab5fb0b138b1f706b9c 
+  lastUpdate: Thu May 18 2023 16:49:06 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/fake-housewife-and-ai-research-smart-home-solution/studying-the-sovereign-smart-home-course/: false 
+
 - link: /ru/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/ 
-  hash: 3715d7300be10e06208d6a28259d1e5c
+  hash: 3715d7300be10e06208d6a28259d1e5c 
+  lastUpdate: Thu May 18 2023 16:49:10 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/introduction-course/at-the-intersection-of-cybernetics-and-economics/: false 
+
 - link: /ru/learn/introduction-course/broadcasting-through-the-black-mirror/ 
-  hash: 0a91f793439991e7084bfd3b7cf2f178
+  hash: 0a91f793439991e7084bfd3b7cf2f178 
+  lastUpdate: Thu May 18 2023 16:49:14 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/introduction-course/broadcasting-through-the-black-mirror/: false 
+
 - link: /ru/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/ 
-  hash: 7f58a17f9f9a622e82de8f080784e906
+  hash: 7f58a17f9f9a622e82de8f080784e906 
+  lastUpdate: Thu May 18 2023 16:49:18 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/introduction-course/iot-subscriptions-using-robonomics-parachain/: false 
+
 - link: /ru/learn/introduction-course/overview/ 
-  hash: ba1313d455ab4d471bb5770c244a356f
+  hash: ba1313d455ab4d471bb5770c244a356f 
+  lastUpdate: Thu May 18 2023 16:49:21 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/introduction-course/overview/: false 
+
 - link: /ru/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/ 
-  hash: 5dbad35f4bb0f3ec16a95e9dc330e9af
+  hash: 5dbad35f4bb0f3ec16a95e9dc330e9af 
+  lastUpdate: Thu May 18 2023 16:49:26 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/introduction-course/polkadot-ecosystem-for-home-iot-infrastructure/: false 
+
 - link: /ru/learn/introduction-course/robonomics-architecture/ 
-  hash: 5f608fe791400ff66e309fcd8b6b7816
+  hash: 5f608fe791400ff66e309fcd8b6b7816 
+  lastUpdate: Thu May 18 2023 16:49:30 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/introduction-course/robonomics-architecture/: false 
+
 - link: /ru/learn/open-source-private-smart-home-intro/assembling-smart-home-board/ 
-  hash: a23e5af090fdddabec06b2751526daf0
+  hash: a23e5af090fdddabec06b2751526daf0 
+  lastUpdate: Thu May 18 2023 16:49:34 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/open-source-private-smart-home-intro/assembling-smart-home-board/: false 
+
 - link: /ru/learn/open-source-private-smart-home-intro/overview/ 
-  hash: 7bd09c12a062910aa590b7a4d373bb38
- 
-- link: /en/learn/ai-based-bachelor-thesis/writing-conclusion/ 
-  hash: c6e3c915624cfe4bff625bc252fef87a  
- 
-- link: /en/learn/ai-based-bachelor-thesis/writing-conclusion/ 
-  hash: c2ef420d62c8fc237e20e3e0917557b0  
- 
-- link: /en/learn/ai-based-bachelor-thesis/writing-conclusion/ 
-  hash: ce360aee957f9d91529b702686030c57 
- 
+  hash: 7bd09c12a062910aa590b7a4d373bb38 
+  lastUpdate: Thu May 18 2023 16:49:37 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/open-source-private-smart-home-intro/overview/: false 
+
+- link: /en/learn/sensors-connectivity-course/overview/ 
+  hash: 63b6f824e3e43fe5b406d34659a784c3 
+  lastUpdate: Thu Jun 15 2023 11:40:28 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/sensors-connectivity-course/overview/: true

@@ -15,6 +15,7 @@ import 'prismjs/components/prism-yaml';
 import 'prismjs/components/prism-xml-doc'; 
 import 'prismjs/components/prism-powershell'; 
 import 'prismjs/components/prism-plant-uml'; 
+import 'prismjs/components/prism-latex'; 
 
 // plugins for code highlight (prism)
 import "prismjs/plugins/line-numbers/prism-line-numbers.js";

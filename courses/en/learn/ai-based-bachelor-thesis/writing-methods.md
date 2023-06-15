@@ -1,6 +1,5 @@
 ---
 title: "Writing: Methods"
-lastUpdate: 2023-06-08T09:06:21.773Z
 description: Quickstart Your Bachelor's Thesis with AI-powered Tools
 metaOptions: [Learn, Quickstart Your Bachelor's Thesis with AI-powered Tools]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
