@@ -90,10 +90,6 @@
       title: 'Sensors Connectivity & Decentralized Sensors Network'
       path: 'overview'
       status: done
-    - id: '1'
-      title: 'Introduction'
-      path: 'introduction'
-      status: done
     - id: '2'
       title: 'Sensor Hardware'
       path: 'sensor-hardware'

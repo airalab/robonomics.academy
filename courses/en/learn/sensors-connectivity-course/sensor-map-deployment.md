@@ -1,6 +1,5 @@
 ---
 title: "Lesson #6, Sensor map deployment"
-lastUpdate: Thu May 04 2023 12:54:15 GMT+0400 (Samara Standard Time)
 description: 'SENSOR MAP DEPLOYMENT'
 lessonNumber: 6
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]

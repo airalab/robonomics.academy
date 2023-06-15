@@ -1,6 +1,5 @@
 ---
 title: "Lesson #5, Sensors connectivity config options"
-lastUpdate: Thu May 04 2023 12:54:18 GMT+0400 (Samara Standard Time)
 description: 'SENSORS CONNECTIVITY CONFIG OPTIONS'
 lessonNumber: 5
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]

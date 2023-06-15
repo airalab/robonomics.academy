@@ -1,6 +1,5 @@
 ---
 title: "Lesson #4, Sensors connectivity module"
-lastUpdate: Thu May 04 2023 12:54:22 GMT+0400 (Samara Standard Time)
 description: 'SENSORS CONNECTIVITY MODULE'
 lessonNumber: 4
 metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]

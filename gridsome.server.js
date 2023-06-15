@@ -153,26 +153,42 @@ module.exports = function (api) {
       myReadStream.on('end',function(){
           const content = getHash(rContents) ;
 
-          const isExistHash = allHashes.find(h => h.hash === content);
-          const isExistPath = allHashes.find(h => h.link === options.path);
+          const isExistHash = allHashes ? allHashes.find(h => h.hash === content) : null;
+          const isExistPath = allHashes ? allHashes.find(h => h.link === options.path) : null;
           if(!isExistHash && !isExistPath) {
           let stream = fs.createWriteStream("./src/data/courses-hashes.yaml", {flags:'a'});
 stream.once('open', function(fd) {
 stream.write(`\n- link: ${options.path} 
-  hash: ${content}\n `
+  hash: ${content} 
+  lastUpdate: ${upd.mtime} 
+  updated${options.path}: false \n`
               );
               stream.end();
           });
-          }
-        
+        }
 
-          allHashes.forEach(hash => {
+        allHashes && allHashes.forEach(h => {
+          if(h[`updated${options.path}`] && new Date(h.lastUpdate).toDateString() !== new Date().toDateString()) {
+            let str = `updated${options.path}: true`;
+            let newStream = fs.readFileSync("./src/data/courses-hashes.yaml", 'utf-8');
+            const newValue = newStream.replace(str, `updated${options.path}: false `);
+            fs.writeFileSync('./src/data/courses-hashes.yaml', newValue, 'utf-8');
+          }
+        })
+      
+          allHashes && allHashes.forEach(hash => {
 
             if(hash.hash !== content && hash.link === options.path) {
+       
               let str = `hash: ${hash.hash}`;
+              let str2 = `lastUpdate: ${hash.lastUpdate}`
+              let str3 = `updated${options.path}: true`
               let newStream = fs.readFileSync("./src/data/courses-hashes.yaml", 'utf-8');
-              var newValue = newStream.replace(str, `hash: ${content} `);
+              const newValue = newStream.replace(str, `hash: ${content}`).replace(str2, `lastUpdate: ${upd.mtime}`).replace(str3, `updated${options.path}: true`);
               fs.writeFileSync('./src/data/courses-hashes.yaml', newValue, 'utf-8');
+              options.lastUpdate = upd.mtime;
+              console.log(upd.mtime)
+            } else if (hash[`updated${options.path}`] === true && hash.link === options.path) {
               options.lastUpdate = upd.mtime;
               console.log(upd.mtime)
             }
@@ -277,7 +293,9 @@ stream.write(`\n- link: ${options.path}
       },
     ]
 
-    const oldPlayground = ['connect-mars-curiosity-rover', 'connect-any-ros-compatible-drone', 'kuka', 'iris-drone', 'baxter', 'ros-smart-projects', 'spot-try-it-out']
+    const oldPlayground = ['connect-mars-curiosity-rover', 'connect-any-ros-compatible-drone', 'kuka', 'iris-drone', 'baxter', 'ros-smart-projects', 'spot-try-it-out'];
+
+    const allCoursesPaths = ['sensors-connectivity-course', 'introduction-course', 'smart-home-course', 'ai-based-bachelor-thesis', 'fake-housewife-and-ai-research-smart-home-solution', 'open-source-private-smart-home-intro', 'opengov-for-iot'];
 
     const createNewRedirect = (path, redirect, ) => {
       localesAll.forEach(l => {
@@ -302,11 +320,15 @@ stream.write(`\n- link: ${options.path}
     createNewRedirect(`/online-courses/sensors-connectivity-course`, '/learn/sensors-connectivity-course/overview')
 
     oldCourses.forEach(path => {
-      createNewRedirect(`/online-courses/${path.old}`, `/learn/${path.new}`,)
+      createNewRedirect(`/online-courses/${path.old}`, `/learn/${path.new}/overview`,)
     })
 
     oldPlayground.forEach(path => {
       createNewRedirect(`/playground/${path}`, `/learn/${path}/overview`)
+    })
+
+    allCoursesPaths.forEach(path => {
+      createNewRedirect(`/learn/${path}`, `/learn/${path}/overview`)
     })
  
 
