@@ -168,7 +168,7 @@
 - link: /en/learn/sensors-connectivity-course/sensor-hardware/ 
   hash: f21d71e3e86e2cf7c0c4770461d42fe9 
   lastUpdate: Thu Jun 15 2023 11:39:03 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/sensors-connectivity-course/sensor-hardware/: true
+  updated/en/learn/sensors-connectivity-course/sensor-hardware/: false 
 
 - link: /en/learn/sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node/ 
   hash: dc0daa88b2e2cb788ad9fb6ec996717f 
@@ -438,4 +438,4 @@
 - link: /en/learn/sensors-connectivity-course/overview/ 
   hash: 63b6f824e3e43fe5b406d34659a784c3 
   lastUpdate: Thu Jun 15 2023 11:40:28 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/sensors-connectivity-course/overview/: true
+  updated/en/learn/sensors-connectivity-course/overview/: false 
