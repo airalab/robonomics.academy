@@ -52,6 +52,7 @@ import Prism from 'vue-prism-component'
 // styles
 import '~/assets/css/index.css'
 import '~/assets/css/code-styles.css'
+import '~/assets/css/fonts.css'
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
