@@ -191,9 +191,12 @@ stream.write(`\n- link: ${options.path}
             } else if (hash[`updated${options.path}`] === true && hash.link === options.path) {
               options.lastUpdate = upd.mtime;
               console.log(upd.mtime)
-            }
-
+            } 
           })
+
+          if (allHashes.every(e => e.hash !== content)) {
+            console.log(content)
+          }
       });
   })  
 
