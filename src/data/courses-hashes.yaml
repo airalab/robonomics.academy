@@ -439,3 +439,13 @@
   hash: 63b6f824e3e43fe5b406d34659a784c3 
   lastUpdate: Thu Jun 15 2023 11:40:28 GMT+0400 (Samara Standard Time) 
   updated/en/learn/sensors-connectivity-course/overview/: false 
+
+- link: /en/learn/escape-from-black-mirror/overview/ 
+  hash: 42d37d3fe585ce36bc03cf25a9d4139b 
+  lastUpdate: Thu Jun 22 2023 15:11:58 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/escape-from-black-mirror/overview/: true
+
+- link: /en/learn/escape-from-black-mirror/escape-instruction/ 
+  hash: 0f12abf804c3ed978f70e4dee21687f4 
+  lastUpdate: Thu Jun 22 2023 15:11:58 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/escape-from-black-mirror/escape-instruction/: true 
