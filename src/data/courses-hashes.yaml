@@ -442,10 +442,15 @@
 
 - link: /en/learn/escape-from-black-mirror/overview/ 
   hash: 42d37d3fe585ce36bc03cf25a9d4139b 
-  lastUpdate: Thu Jun 22 2023 15:11:58 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/escape-from-black-mirror/overview/: true
+  lastUpdate: Fri Jun 23 2023 11:33:12 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/escape-from-black-mirror/overview/: false 
 
 - link: /en/learn/escape-from-black-mirror/escape-instruction/ 
-  hash: 0f12abf804c3ed978f70e4dee21687f4 
+  hash: b3e05d8708fdaadf55442e80ace396fa 
   lastUpdate: Thu Jun 22 2023 15:11:58 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/escape-from-black-mirror/escape-instruction/: true 
+  updated/en/learn/escape-from-black-mirror/escape-instruction/: false  
+
+- link: /en/learn/boston-dynamics-spot/overview/ 
+  hash: 7e7d025c6c086cb8e470da8d851a32f0 
+  lastUpdate: Fri Jun 23 2023 13:26:21 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/boston-dynamics-spot/overview/: false 

@@ -294,11 +294,19 @@ stream.write(`\n- link: ${options.path}
         old: 'sensors-connectivity-course/7-robonomics-sensors-measure-analytics-and-archive-node',
         new: 'sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node'
       },
+      {
+        old: 'sensors-connectivity-course/7-robonomics-sensors-measure-analytics-and-archive-node',
+        new: 'sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node'
+      },
+      {
+        old: 'boston-dynamics-course/',
+        new: 'boston-dynamics-spot/overview'
+      }
     ]
 
     const oldPlayground = ['connect-mars-curiosity-rover', 'connect-any-ros-compatible-drone', 'kuka', 'iris-drone', 'baxter', 'ros-smart-projects', 'spot-try-it-out'];
 
-    const allCoursesPaths = ['sensors-connectivity-course', 'introduction-course', 'smart-home-course', 'ai-based-bachelor-thesis', 'fake-housewife-and-ai-research-smart-home-solution', 'open-source-private-smart-home-intro', 'opengov-for-iot'];
+    const allCoursesPaths = ['sensors-connectivity-course', 'introduction-course', 'smart-home-course', 'ai-based-bachelor-thesis', 'fake-housewife-and-ai-research-smart-home-solution', 'open-source-private-smart-home-intro', 'opengov-for-iot',];
 
     const createNewRedirect = (path, redirect, ) => {
       localesAll.forEach(l => {

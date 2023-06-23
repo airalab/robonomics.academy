@@ -341,6 +341,20 @@
       title: "AI scenario of the Relax zone for the Fake Housewife"
       path: ''
       status: in progress
+- id: '17'
+  title: "Boston dynamics spot software developing"
+  path: 'boston-dynamics-spot'
+  level: 0
+  tags: ['guide']
+  progress: progress
+  author: ''
+  filters: ['', '']
+  published: true
+  lessons:
+    - id: '1'
+      title: "Emergency Stop, Initialization, Body Position Control"
+      path: 'overview'
+      status: done
 
 
 
