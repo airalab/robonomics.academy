@@ -299,8 +299,8 @@ stream.write(`\n- link: ${options.path}
         new: 'sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node'
       },
       {
-        old: 'boston-dynamics-course/',
-        new: 'boston-dynamics-spot/'
+        old: 'boston-dynamics-course',
+        new: 'boston-dynamics-spot'
       }
     ]
 
