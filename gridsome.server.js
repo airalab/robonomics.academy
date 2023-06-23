@@ -161,7 +161,7 @@ stream.once('open', function(fd) {
 stream.write(`\n- link: ${options.path} 
   hash: ${content} 
   lastUpdate: ${upd.mtime} 
-  updated${options.path}: false \n`
+  updated${options.path}: true \n`
               );
               stream.end();
           });
@@ -300,7 +300,7 @@ stream.write(`\n- link: ${options.path}
       },
       {
         old: 'boston-dynamics-course/',
-        new: 'boston-dynamics-spot/overview'
+        new: 'boston-dynamics-spot/'
       }
     ]
 
