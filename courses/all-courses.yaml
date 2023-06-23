@@ -220,23 +220,23 @@
       path: 'overview'
       status: done
     - id: '1'
-      title: 'Writing: Introduction'
+      title: 'Introduction'
       path: 'writing-introduction'
       status: done
     - id: '2'
-      title: 'Writing: Literature Review'
+      title: 'Literature Review'
       path: 'writing-literature-review'
       status: done
     - id: '3'
-      title: 'Writing: Methods'
+      title: 'Methods'
       path: 'writing-methods'
       status: done
     - id: '4'
-      title: 'Writing: Results'
+      title: 'Results'
       path: 'writing-results'
       status: done
     - id: '5'
-      title: 'Writing: Conclusion '
+      title: 'Conclusion '
       path: 'writing-conclusion'
       status: done
 - id: '13'
