@@ -19,6 +19,7 @@
     "fs-extra": "^10.1.0",
     "gridsome": "^0.7.0",
     "gridsome-plugin-google-sheets-post": "^2.0.1",
+    "gridsome-plugin-matomo": "^0.1.0",
     "gridsome-plugin-seo": "^1.0.2",
     "gridsome-plugin-translateit": "^1.0.9",
     "gridsome-plugin-yandex-metrika": "^0.1.2",

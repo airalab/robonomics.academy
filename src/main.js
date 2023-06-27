@@ -5,7 +5,7 @@ import Vuex from 'vuex'
 import VueCookies from 'vue-cookies';
 import VueGtag from "vue-gtag";
 import VueYandexMetrika from 'vue-yandex-metrika'
-import VueMatomo from 'vue-matomo'
+// import VueMatomo from 'vue-matomo'
 import 'prismjs'
 
 // adding languages for code highlight
@@ -226,34 +226,33 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   });
 
 
-  Vue.use(VueGtag, {
-    config: { id: "UA-169310127-5" },
-    includes: [
-      { id: 'AW-11021567627' },
-    ]
-  });
+  // Vue.use(VueGtag, {
+  //   config: { id: "UA-169310127-5" },
+  //   includes: [
+  //     { id: 'AW-11021567627' },
+  //   ]
+  // });
 
-  Vue.use(VueMatomo, {
-    // Configure your Matomo server and site by providing:
-    host: 'https://matomo.robonomics.network/',
-    siteId: 1,
-  });
 
   if(isClient) {
     Vue.use(VueCookies, { expire: '90d'});
     Vue.$cookies.config('90d')
 
-    Vue.use(VueYandexMetrika, {
-      id: 91120268,
-      env: process.env.NODE_ENV,
-      options:  {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true,
+    // Vue.use(VueYandexMetrika, {
+    //   id: 91120268,
+    //   env: process.env.NODE_ENV,
+    //   options:  {
+    //     clickmap:true,
+    //     trackLinks:true,
+    //     accurateTrackBounce:true,
+    //     webvisor:true,
         
-      }
-    });
+    //   }
+    // });
+    // Vue.use(VueMatomo, {
+    //   host: 'https://matomo.robonomics.network/',
+    //   siteId: 1,
+    // })
   }
   
   

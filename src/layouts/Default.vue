@@ -32,12 +32,10 @@
 
     mounted() {
       if($cookies.get('userTracker') === 'allow metrics') {
-        this.$gtag.pageview(this.$route)
 
         this.$nextTick(() => {
-          if (this.$metrika) {
-            window._paq.push(['trackPageView']);
-            this.$metrika.hit(this.$route)
+          if(process.isClient) {
+            window._paq.push(['trackPageView'])
           }
         });
       }

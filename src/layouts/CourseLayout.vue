@@ -152,12 +152,9 @@
     mounted() {
 
       if($cookies.get('userTracker') === 'allow metrics') {
-        this.$gtag.pageview(this.$route)
-
         this.$nextTick(() => {
-          if (this.$metrika) {
-            this.$metrika.hit(this.$route)
-            window._paq.push(['trackPageView']);
+          if(process.isClient) {
+            window._paq.push(['trackPageView'])
           }
         });
 
