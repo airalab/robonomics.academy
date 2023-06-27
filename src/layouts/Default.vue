@@ -36,6 +36,7 @@
 
         this.$nextTick(() => {
           if (this.$metrika) {
+            window._paq.push(['trackPageView']);
             this.$metrika.hit(this.$route)
           }
         });
