@@ -152,10 +152,10 @@
     mounted() {
 
       if($cookies.get('userTracker') === 'allow metrics') {
+        this.$matomo.setConsentGiven()
         this.$nextTick(() => {
-          if(process.isClient) {
-            window._paq.push(['trackPageView'])
-          }
+          this.$matomo && this.$matomo.enableLinkTracking()
+          // window._paq.push(['trackPageView'])
         });
 
       }
