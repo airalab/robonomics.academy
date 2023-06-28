@@ -46,7 +46,8 @@ module.exports = {
       use: 'gridsome-plugin-matomo',
       options: {
         host: 'https://matomo.robonomics.network/',
-        siteId: 1
+        siteId: 1,
+        requireConsent: true
       }
     }
   ],
