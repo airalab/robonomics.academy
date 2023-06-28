@@ -32,11 +32,16 @@
 
     mounted() {
       if($cookies.get('userTracker') === 'allow metrics') {
-        this.$matomo.setConsentGiven()
 
         this.$nextTick(() => {
-          this.$matomo && this.$matomo.enableLinkTracking()
-          // window._paq.push(['trackPageView'])
+          if(this.$matomo) {
+            this.$matomo && this.$matomo.setConsentGiven();
+            this.$matomo && this.$matomo.enableLinkTracking();
+            this.$matomo && this.$matomo.trackPageView();
+            // window._paq.push(['enableLinkTracking'])
+            // window._paq.push(['setConsentGiven']); // _paq.push(['setConsentGiven'])
+            // window._paq.push(['trackPageView']);
+          }
         });
       }
 
