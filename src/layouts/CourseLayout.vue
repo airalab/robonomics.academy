@@ -60,7 +60,12 @@
 
     <client-only>
 
-      <UserTracker v-show="$cookies && !$cookies.get('userTracker') && !this.$store.state.userTracker.option"  />
+      <userTracker
+        privacyPolicyLink="/privacy-policy"
+        classCustom="my-tracker"
+        @activateTracker="activateTracker"
+
+      />
 
     </client-only>
 
@@ -82,7 +87,6 @@
       FooterSlot: () => import('~/components/Footer.vue'),
       Subscription: () => import('~/components/Subscription.vue'),
       QuestionIcon: () => import('~/components/QuestionIcon.vue'),
-      UserTracker: () => import('~/components/UserTracker.vue'),
       LessonAside
     },
 
@@ -143,6 +147,14 @@
         params.append('title', `issue for lesson - ${this.title}(${this.$locale})`);
         this.ghIssueTitle = params.toString()
       },
+
+      activateTracker() {
+        if(this.$matomo) {
+            this.$matomo && this.$matomo.setConsentGiven();
+            this.$matomo && this.$matomo.enableLinkTracking();
+            this.$matomo && this.$matomo.trackPageView();
+        }
+      },
     },
 
     created() {
@@ -151,20 +163,20 @@
 
     mounted() {
 
-      if($cookies.get('userTracker') === 'allow metrics') {
+      // if($cookies.get('userTracker') === 'allow metrics') {
 
-        this.$nextTick(() => {
-          if(this.$matomo) {
-            this.$matomo && this.$matomo.setConsentGiven();
-            this.$matomo && this.$matomo.enableLinkTracking();
-            this.$matomo && this.$matomo.trackPageView();
-            // window._paq.push(['enableLinkTracking'])
-            // window._paq.push(['setConsentGiven']); // _paq.push(['setConsentGiven'])
-            // window._paq.push(['trackPageView']);
-          }
-        });
+      //   this.$nextTick(() => {
+      //     if(this.$matomo) {
+      //       this.$matomo && this.$matomo.setConsentGiven();
+      //       this.$matomo && this.$matomo.enableLinkTracking();
+      //       this.$matomo && this.$matomo.trackPageView();
+      //       // window._paq.push(['enableLinkTracking'])
+      //       // window._paq.push(['setConsentGiven']); // _paq.push(['setConsentGiven'])
+      //       // window._paq.push(['trackPageView']);
+      //     }
+      //   });
 
-      }
+      // }
 
       this.$store.commit('TOGGLE_SHOW_HEADER', true)
 
