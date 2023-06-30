@@ -746,6 +746,12 @@ table thead tr{
   color: var(--color-text)
 }
 
+/* custom tracker component */
+
+.my-tracker select{
+  border-color: var(--color-light);
+  color: var(--color-light);
+}
 
 
 

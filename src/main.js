@@ -1,12 +1,11 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
-
 import Vuex from 'vuex'
-import VueCookies from 'vue-cookies';
-import VueGtag from "vue-gtag";
-import VueYandexMetrika from 'vue-yandex-metrika'
-// import VueMatomo from 'vue-matomo'
 import 'prismjs'
+
+// tracker component
+import userTracker from 'vue-client-actions-tracker-component'
+import '../node_modules/vue-client-actions-tracker-component/dist/vue-client-actions-tracker-component.css'
 
 // adding languages for code highlight
 import 'prismjs/components/prism-json'; 
@@ -150,8 +149,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
 
     
   appOptions.store = new Vuex.Store({
+    namespaced: true,
     state: {
-      userTracker: {},
+      // userTracker: {},
       showHeader: true,
       showImagePopup: false,
       imagePopupSrc: 'smart-house-course/lesson-1-1.png',
@@ -162,9 +162,9 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       lastVisits: [],
     },
    mutations: {
-      SET_USER_TRACKER(state, userTracker) {
-        state.userTracker = userTracker;
-      },
+      // SET_USER_TRACKER(state, userTracker) {
+      //   state.userTracker = userTracker;
+      // },
       TOGGLE_SHOW_HEADER(state, showHeader) {
         state.showHeader = showHeader
       },
@@ -226,34 +226,10 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   });
 
 
-  // Vue.use(VueGtag, {
-  //   config: { id: "UA-169310127-5" },
-  //   includes: [
-  //     { id: 'AW-11021567627' },
-  //   ]
-  // });
-
-
   if(isClient) {
-    Vue.use(VueCookies, { expire: '90d'});
-    Vue.$cookies.config('90d')
-
-    // Vue.use(VueYandexMetrika, {
-    //   id: 91120268,
-    //   env: process.env.NODE_ENV,
-    //   options:  {
-    //     clickmap:true,
-    //     trackLinks:true,
-    //     accurateTrackBounce:true,
-    //     webvisor:true,
-        
-    //   }
-    // });
-    // Vue.use(VueMatomo, {
-    //   host: 'https://matomo.robonomics.network/',
-    //   siteId: 1,
-    // })
+    Vue.use(userTracker);
+    
   }
-  
+
   
 }
