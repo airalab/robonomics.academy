@@ -5,4 +5,4 @@ metaOptions: [Learn, Kusama — From Theory to Practice Course]
 defaultName: Kusama — From Theory to Practice Course
 ---
 
-Welcome to the course! Test
+Welcome to the course!
