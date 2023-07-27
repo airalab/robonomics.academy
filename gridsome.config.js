@@ -49,7 +49,7 @@ module.exports = {
         siteId: 1,
         requireConsent: true,
         trackerUrl: 'https://matomo.robonomics.network/rainbow',
-        trackerScriptUrl: 'https://matomo.robonomics.network/unicorn'
+        trackerScriptUrl: 'https://matomo.robonomics.network/unicorn.js'
       }
     }
   ],
