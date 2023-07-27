@@ -11,9 +11,11 @@
         <span>{{ item.lessons.length }}</span>
       </div>
       <h3> {{ $ts(item.title) }} </h3>
-      <div class="learn__author" v-if="item.author">
-        <g-image v-if="getAuthorByAlias(item.author)[0].avatar" :src="require(`!!assets-loader!@imagesAuthors/${getAuthorByAlias(item.author)[0].avatar}`)" :alt="item.author" />
-        <h4>{{ $ts(getAuthorByAlias(item.author)[0].fullName)}}</h4>
+      <div class="learn__author" :class="{'many-authors': getAuthorByAlias(item.author).length > 2}" v-if="item.author" >
+        <div class="author-wrapper" v-for="(author) in getAuthorByAlias(item.author)" :key="author.alias">
+          <g-image v-if="author.avatar" :src="require(`!!assets-loader!@imagesAuthors/${author.avatar}`)" :alt="item.author" />
+          <h4>{{ $ts(author.fullName)}}</h4>
+        </div>
       </div>
       <Level :level="String(item.level)" cls="learn__level" />
     </g-link>
@@ -41,6 +43,7 @@ export default {
   data() {
     return {
       octokit: null,
+      filteredAuthors: []
     }
   },
 
@@ -66,7 +69,15 @@ export default {
 
   methods: {
     getAuthorByAlias(alias) {
-      return this.authors.filter(author => author.alias === alias)
+      let authors = []
+      if(!Array.isArray(alias)) {
+        authors.push(...this.authors.filter(author => author.alias === alias))
+      } else {
+        alias.map(a => {
+          authors.push(...this.authors.filter(author => author.alias === a)) 
+        })
+      }
+      return authors;
     },
 
     checkLastUpdate() {
@@ -162,8 +173,25 @@ export default {
       position: absolute;
       left: calc(var(--gap) * 0.5);
       bottom: calc(var(--gap) * 0.5);
+    }
+
+    .many-authors {
+      position: static;
+      margin-top: var(--gap);;
+    }
+
+    .author-wrapper {
       display: flex;
       align-items: center;
+    }
+
+    .author-wrapper:not(:last-of-type) {
+      margin-bottom: calc(var(--gap) * 0.1);
+    }
+    
+
+    .many-authors .author-wrapper:not(:last-of-type) {
+      margin-bottom: calc(var(--gap) * 0.3);
     }
 
     .learn__author h4 {
@@ -173,12 +201,22 @@ export default {
       font-size: calc( var(--font-size) * 1);
     }
 
+    .many-authors h4 {
+      font-size: calc( var(--font-size) * 0.8);
+    }
+
     .learn__author img {
       display: inline-block;
       width: 44px;
       height: 44px;
       margin-right: calc(var(--gap) * 0.5);
       border-radius: 100%;
+    }
+
+    .many-authors img {
+      width: 30px;
+      height: 30px;
+      margin-right: calc(var(--gap) * 0.5);
     }
 
     .learn__updated {

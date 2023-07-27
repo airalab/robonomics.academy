@@ -50,6 +50,7 @@ export NODE_OPTIONS=--openssl-legacy-provider
   filters: [''] // options for filter (if there are any)
   progress: done // progress of the course (done, coming(if zero lessons are ready), progress (if some lessons are not finished))
   author: 'Fingerling42' // the course author (if there is one). For this option add author and use alias (see: courses/authors/authors.yaml)
+  If you have more than one author use array - e.g. ['Ensrationis', 'Vourhey']
   published: true // set this option to false if you want to hide your course
   lessons:
     - id: '0'

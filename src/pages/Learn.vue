@@ -154,7 +154,14 @@ export default {
 
     filterCoursesByAuthor(courses) {
       if(this.activeFilter[0].author) {
-        return courses.filter(course => course.author && !course.author.indexOf(this.activeFilter[0].author))
+        return courses.filter(course => {
+          if(!Array.isArray(course.author)) {
+            return course.author && !course.author.indexOf(this.activeFilter[0].author)
+          } else {
+            return course.author.includes(this.activeFilter[0].author)
+          }
+        })
+
       }
       return courses
     },

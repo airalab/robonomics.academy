@@ -36,9 +36,12 @@
         </li>
       </ol>
 
-      <div v-if="course.author"  class="lesson-aside__author">
-        By <span>{{ getAuthorByAlias(course.author)[0].fullName }}</span>
-          <g-image v-if="getAuthorByAlias(course.author)[0].avatar" :src="require(`!!assets-loader!@imagesAuthors/${getAuthorByAlias(course.author)[0].avatar}`)" :alt="course.author" />
+      <div v-if="course.author" :class="{'many-authors': getAuthorByAlias(course.author).length > 1}">
+        <div class="lesson-aside__author" v-for="(author, index) in getAuthorByAlias(course.author)" :key="author.alias">
+          <span v-if="index === 0"> By <span class="lesson-aside__author--name">{{ author.fullName }}</span> </span>
+          <span v-else> <span class="lesson-aside__author--name">{{ author.fullName }}</span> </span>
+          <g-image v-if="author.avatar" :src="require(`!!assets-loader!@imagesAuthors/${author.avatar}`)" :alt="author.alias" />
+        </div>
       </div>
     </div>
 
@@ -112,7 +115,15 @@ export default {
     },
 
     getAuthorByAlias(alias) {
-      return this.authors.filter(author => author.alias === alias)
+      let authors = []
+      if(!Array.isArray(alias)) {
+        authors.push(...this.authors.filter(author => author.alias === alias))
+      } else {
+        alias.map(a => {
+          authors.push(...this.authors.filter(author => author.alias === a)) 
+        })
+      }
+      return authors;
     },
 
     getLessonPath(course, lesson) {
@@ -260,7 +271,11 @@ export default {
     color: var(--color-text);
   }
 
-  .lesson-aside__author span {
+  .many-authors .lesson-aside__author  {
+    justify-content: flex-end;
+  }
+
+  .lesson-aside__author--name {
     padding: calc(var(--gap) * 0.3);
     color: var(--color-actions);
   }
