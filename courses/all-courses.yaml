@@ -364,7 +364,7 @@
   tags: ['course', 'launch simulation', 'real-life setup']
   filters: ['Multi-Agent Systems', 'Industrial']
   progress: progress
-  author: 'Fingerling42'
+  author: ['PaTara43', 'Fingerling42']
   published: false
   lessons:
     - id: '0'
