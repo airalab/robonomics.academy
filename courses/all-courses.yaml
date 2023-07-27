@@ -356,45 +356,6 @@
       path: 'overview'
       status: done
 
-- id: '18' 
-  title: 'Kusama — From Theory to Practice Course'
-  path: 'kusama-theory-practice'
-  level: 1
-  tags: ['course']
-  filters: ['Kusama', 'Polkadot']
-  progress: progress
-  author: ''
-  published: false
-  lessons:
-    - id: '0'
-      title: 'Kusama — From Theory to Practice Course'
-      path: 'overview'
-      status: done
-    - id: '1'
-      title: 'What is Polkadot?'
-      path: 'intro-to-polkadot'
-      status: done
-    - id: '2'
-      title: 'How Polkadot ecosystem works?'
-      path: 'ecosystem-explained'
-      status: done
-    - id: '3'
-      title: 'Make your first crypto transaction'
-      path: 'first-transaction'
-      status: done
-    - id: '4'
-      title: 'Setup Talisman, the web wallet'
-      path: 'talisman'
-      status: in progress
-    - id: '5'
-      title: 'Why is Ledger safer for crypto?'
-      path: 'ledger'
-      status: in progress
-    - id: '6'
-      title: 'Crypto in your mobile — NovaWallet'
-      path: 'novawallet'
-      status: in progress
-
 - id: '19' 
   title: 'Getting Used to Feecc'
   path: 'feecc-course'
