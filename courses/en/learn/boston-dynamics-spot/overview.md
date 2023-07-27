@@ -1,8 +1,8 @@
 ---
-title: "Lesson #1, Emergency stop, initialization, body position control"
+title: "Emergency Stop, Initialization, Body Position Control"
 description: During this lesson you will learn how to authorize yourself as a user, get motor power control and send basic commands to Spot.
-metaOptions: [Learn, Boston dynamics spot software developing]
-defaultName: Boston dynamics spot software developing
+metaOptions: [Learn, Software Developing for Boston Dynamics Spot]
+defaultName: Software Developing for Boston Dynamics Spot
 ---
 
 <RoboAcademyText fWeight="500">
