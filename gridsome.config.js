@@ -47,7 +47,9 @@ module.exports = {
       options: {
         host: 'https://matomo.robonomics.network/',
         siteId: 1,
-        requireConsent: true
+        requireConsent: true,
+        trackerUrl: 'https://matomo.robonomics.network/rainbow',
+        trackerScriptUrl: 'https://matomo.robonomics.network/unicorn.js'
       }
     }
   ],
