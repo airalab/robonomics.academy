@@ -356,8 +356,6 @@
       path: 'overview'
       status: done
 
-
-<<<<<<< HEAD
 - id: '18' 
   title: 'Kusama — From Theory to Practice Course'
   path: 'kusama-theory-practice'
@@ -427,7 +425,3 @@
       title: 'Deployment of Analytics'
       path: 'feecc-analytics-deployment'
       status: done
-=======
-
-      
->>>>>>> parent of 3082a39 (Added Kusama course)

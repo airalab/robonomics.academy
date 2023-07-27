@@ -454,7 +454,6 @@
   hash: 7e7d025c6c086cb8e470da8d851a32f0 
   lastUpdate: Fri Jun 23 2023 13:26:21 GMT+0400 (Samara Standard Time) 
   updated/en/learn/boston-dynamics-spot/overview/: false  
-<<<<<<< HEAD
 
 - link: /en/learn/kusama-theory-practice/polkadot-overview/ 
   hash: d15c99817ee9432d7cc7f29cfe036c61 
@@ -900,5 +899,3 @@
   hash: 67c59e49f8e2024f0e012d1714795189 
   lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
   updated/en/learn/feecc-course/feecc-workbench-demo/: false  
-=======
->>>>>>> parent of 3082a39 (Added Kusama course)
