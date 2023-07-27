@@ -395,3 +395,34 @@
       title: 'Crypto in your mobile — NovaWallet'
       path: 'novawallet'
       status: in progress
+
+- id: '19' 
+  title: 'Getting Used to Feecc'
+  path: 'feecc-course'
+  level: 4
+  tags: ['course', 'launch simulation', 'real-life setup']
+  filters: ['Multi-Agent Systems', 'Industrial']
+  progress: progress
+  author: 'Fingerling42'
+  published: false
+  lessons:
+    - id: '0'
+      title: 'Overview'
+      path: 'overview'
+      status: done
+    - id: '1'
+      title: 'Architecture'
+      path: 'feecc-architecture'
+      status: done
+    - id: '2'
+      title: 'Demo of Feecc'
+      path: 'feecc-workbench-demo'
+      status: done
+    - id: '3'
+      title: 'Deployment of Engineer Workbench'
+      path: 'feecc-workbench-deployment'
+      status: done
+    - id: '4'
+      title: 'Deployment of Analytics'
+      path: 'feecc-analytics-deployment'
+      status: done

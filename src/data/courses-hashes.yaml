@@ -511,13 +511,13 @@
   updated/en/learn/kusama-theory-practice/overview/: false  
 
 - link: /en/learn/kusama-theory-practice/overview/ 
-  hash: 911a21f848b1497cc02c1064a0179b88 
+  hash: d15c99817ee9432d7cc7f29cfe036c61 
   lastUpdate: Mon Jul 24 2023 14:02:34 GMT+0300 (Eastern European Summer Time) 
   updated/en/learn/kusama-theory-practice/overview/: false  
 
 - link: /en/learn/kusama-theory-practice/overview/ 
-  hash: 911a21f848b1497cc02c1064a0179b88 
-  lastUpdate: Sun Jul 23 2023 23:29:36 GMT+0300 (Eastern European Summer Time) 
+  hash: d15c99817ee9432d7cc7f29cfe036c61 
+  lastUpdate: Mon Jul 24 2023 14:02:34 GMT+0300 (Eastern European Summer Time) 
   updated/en/learn/kusama-theory-practice/overview/: false  
 
 - link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
@@ -629,3 +629,273 @@
   hash: 7b155e739b2031c190f468aafa8026af 
   lastUpdate: Sun Jul 23 2023 23:54:03 GMT+0300 (Eastern European Summer Time) 
   updated/en/learn/kusama-theory-practice/first-transaction/: false  
+
+- link: /en/learn/feecc-course/feecc-analytics-deployment/ 
+  hash: fac1b5d578adb3587c35518645785e10 
+  lastUpdate: Thu Jul 27 2023 15:02:08 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-analytics-deployment/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Thu Jul 27 2023 14:01:02 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-deployment/ 
+  hash: 0159bd767baacec57ad52347fe56087e 
+  lastUpdate: Thu Jul 27 2023 14:58:47 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-deployment/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/overview/ 
+  hash: 3ec016f3b4e2cf925d59634452bfdd70 
+  lastUpdate: Thu Jul 27 2023 13:59:31 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/overview/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Thu Jul 27 2023 14:01:02 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-deployment/ 
+  hash: 0159bd767baacec57ad52347fe56087e 
+  lastUpdate: Thu Jul 27 2023 14:58:47 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-deployment/: false  
+
+- link: /en/learn/feecc-course/feecc-analytics-deployment/ 
+  hash: fac1b5d578adb3587c35518645785e10 
+  lastUpdate: Thu Jul 27 2023 15:02:08 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-analytics-deployment/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-deployment/ 
+  hash: 0159bd767baacec57ad52347fe56087e 
+  lastUpdate: Thu Jul 27 2023 14:58:47 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-deployment/: false  
+
+- link: /en/learn/feecc-course/feecc-analytics-deployment/ 
+  hash: fac1b5d578adb3587c35518645785e10 
+  lastUpdate: Thu Jul 27 2023 15:02:08 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-analytics-deployment/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-architecture/ 
+  hash: 0761d29a47c5eee676bfb5ce4b0a726e 
+  lastUpdate: Wed Jul 26 2023 18:41:18 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
+
+- link: /en/learn/feecc-course/feecc-workbench-demo/ 
+  hash: 67c59e49f8e2024f0e012d1714795189 
+  lastUpdate: Thu Jul 27 2023 14:13:46 GMT+0300 (Eastern European Summer Time) 
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false  
