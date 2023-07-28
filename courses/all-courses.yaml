@@ -189,7 +189,7 @@
       status: done
   level: 4
   tags: ['guide']
-  filters: ['ROS', 'Spot']
+  filters: ['ROS']
   progress: done
   published: true
 - id: '11'
@@ -203,7 +203,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ROS']
+  filters: ['ROS', 'Spot']
   published: true
 - id: '12'
   title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
@@ -365,7 +365,7 @@
   filters: ['Multi-Agent Systems', 'Industrial']
   progress: progress
   author: ['PaTara43', 'Fingerling42']
-  published: false
+  published: true
   lessons:
     - id: '0'
       title: 'Overview'
