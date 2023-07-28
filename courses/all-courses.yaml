@@ -125,7 +125,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ros']
+  filters: ['ROS']
   progress: done
 - id: '6'
   title: 'Connect ROS-compatible drone'
@@ -138,7 +138,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ros']
+  filters: ['ROS']
   progress: done
 - id: '7'
   title: 'Connect Kuka manipulator'
@@ -151,7 +151,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ros']
+  filters: ['ROS']
   progress: done
 - id: '8'
   title: 'Connect unmanned aerial vehicle'
@@ -164,7 +164,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ros']
+  filters: ['ROS']
   progress: done
 - id: '9'
   title: 'Control Baxter robot'
@@ -177,7 +177,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ros']
+  filters: ['ROS']
   progress: done
 - id: '10'
   title: 'ROS-based projects for smart spaces'
@@ -189,7 +189,7 @@
       status: done
   level: 4
   tags: ['guide']
-  filters: ['ros']
+  filters: ['ROS', 'Spot']
   progress: done
   published: true
 - id: '11'
@@ -203,7 +203,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ros']
+  filters: ['ROS']
   published: true
 - id: '12'
   title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
@@ -341,14 +341,15 @@
       title: "AI scenario of the Relax zone for the Fake Housewife"
       path: ''
       status: in progress
+
 - id: '17'
-  title: "Boston dynamics spot software developing"
+  title: "Software Developing for Boston Dynamics Spot"
   path: 'boston-dynamics-spot'
-  level: 0
-  tags: ['guide']
+  level: 3
+  tags: ['guide', 'real-life setup']
   progress: progress
-  author: ''
-  filters: ['', '']
+  author: 'Smehnov'
+  filters: ['Spot']
   published: true
   lessons:
     - id: '1'
@@ -363,7 +364,7 @@
   tags: ['course', 'launch simulation', 'real-life setup']
   filters: ['Multi-Agent Systems', 'Industrial']
   progress: progress
-  author: 'Fingerling42'
+  author: ['PaTara43', 'Fingerling42']
   published: false
   lessons:
     - id: '0'
