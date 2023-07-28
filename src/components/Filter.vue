@@ -284,9 +284,9 @@ export default {
 
   @media screen and (max-width: 580px) {
 
-    .filter__content {
+    /* .filter__content {
       bottom: -460px;
-    }
+    } */
 
     .filter__item {
       flex-direction: column;
