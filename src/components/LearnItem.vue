@@ -229,10 +229,15 @@ export default {
       color: var(--color-light);
     }
 
-    @media screen and (max-width: 380px) {
+    @media screen and (max-width: 400px) {
       .learn__author {
         flex-direction: column;
         align-items: flex-start;
+      }
+
+      .learn__author h4 {
+        max-width: 68%;
+        text-align: left;
       }
     }
 
