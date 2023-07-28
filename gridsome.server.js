@@ -182,7 +182,7 @@ stream.write(`\n- link: ${options.path}
        
               let str = `hash: ${hash.hash}`;
               let str2 = `lastUpdate: ${hash.lastUpdate}`
-              let str3 = `updated${options.path}: true`
+              let str3 = `updated${options.path}: false`
               let newStream = fs.readFileSync("./src/data/courses-hashes.yaml", 'utf-8');
               const newValue = newStream.replace(str, `hash: ${content}`).replace(str2, `lastUpdate: ${upd.mtime}`).replace(str3, `updated${options.path}: true`);
               fs.writeFileSync('./src/data/courses-hashes.yaml', newValue, 'utf-8');
@@ -196,6 +196,7 @@ stream.write(`\n- link: ${options.path}
 
           if (allHashes.every(e => e.hash !== content)) {
             console.log(content)
+            
           }
       });
   })  
