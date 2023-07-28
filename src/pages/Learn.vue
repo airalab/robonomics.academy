@@ -168,7 +168,17 @@ export default {
 
     filterCoursesByTag(courses){
       if(this.activeFilter[0].tag) {
-        return courses.filter(course => course.filters.length && course.filters.includes(this.activeFilter[0].tag.toLowerCase()))
+        const filteredCourses = [];
+        courses.filter(course => {
+          if(course.filters.length) {
+            course.filters.filter(f => {
+              if(f.toLowerCase() === this.activeFilter[0].tag.toLowerCase()) {
+                filteredCourses.push(course)
+              }
+            })
+          }
+        })
+        return filteredCourses
       }
       return courses
       

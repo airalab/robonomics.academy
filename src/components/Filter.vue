@@ -87,7 +87,7 @@ export default {
     return {
       // isOpen: false,
       levels: ['1', '2', '3', '4'],
-      tags: ['Spring school 2023', 'ROS', 'Raspberry Pi', 'ai'],
+      tags: ['Spring school 2023', 'ROS', 'Raspberry Pi', 'ai', 'Spot'],
       chosenLevel: null,
       chosenTag: null,
       chosenAuthor: null
