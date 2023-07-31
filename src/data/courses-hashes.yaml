@@ -453,7 +453,7 @@
 - link: /en/learn/boston-dynamics-spot/overview/ 
   hash: 99b39654fe0ba67127c247294491cd01 
   lastUpdate: Fri Jul 28 2023 11:16:40 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/boston-dynamics-spot/overview/: true  
+  updated/en/learn/boston-dynamics-spot/overview/: false   
 
 - link: /en/learn/feecc-course/feecc-analytics-deployment/ 
   hash: fac1b5d578adb3587c35518645785e10 
@@ -461,9 +461,9 @@
   updated/en/learn/feecc-course/feecc-analytics-deployment/: false  
 
 - link: /en/learn/feecc-course/feecc-architecture/ 
-  hash: 2344eac63fcade2c2c9d260e7fec1237 
-  lastUpdate: Thu Jul 27 2023 16:41:43 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/feecc-course/feecc-architecture/: false   
+  hash: 665b84f8e2a95607464e94007936009c 
+  lastUpdate: Mon Jul 31 2023 12:17:16 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/feecc-course/feecc-architecture/: true   
 
 - link: /en/learn/feecc-course/feecc-workbench-deployment/ 
   hash: 0159bd767baacec57ad52347fe56087e 
