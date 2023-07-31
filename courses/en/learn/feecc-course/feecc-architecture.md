@@ -31,6 +31,10 @@ Second, the software that can be installed **both on the employee’s computer a
 
 1. [feecc-ipfs-gateway](https://github.com/Multi-Agent-io/feecc-ipfs-gateway) — a microservice for publishing files to IPFS, and more specifically, file CIDs to Robonomics Network;
 
+Figure below shows the Feecc Engineer Workplace architecture in a corporate environment. IPFS Gateway can be hosted on each employee's computer, which will enhance the decentralization of the system. 
+
+<LessonImages src="feecc-course/feecc_global_hardware.png" alt="An architecture of Feecc"/>
+
 ### Supported hardware for one workspace:
 
 #### RFID scanner
