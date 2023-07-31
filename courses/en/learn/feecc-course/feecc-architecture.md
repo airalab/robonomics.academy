@@ -33,7 +33,7 @@ Second, the software that can be installed **both on the employee’s computer a
 
 Figure below shows the Feecc Engineer Workplace architecture in a corporate environment. IPFS Gateway can be hosted on each employee's computer, which will enhance the decentralization of the system. 
 
-<LessonImages src="feecc-course/feecc_global_hardware.png" alt="An architecture of Feecc"/>
+<LessonImages src="feecc-course/feecc_global_hardware.png" alt="an architecture of Feecc"/>
 
 ### Supported hardware for one workspace:
 
