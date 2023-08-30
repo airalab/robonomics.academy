@@ -277,8 +277,8 @@
       status: done
     - id: '2'
       title: "Unleash Automation Potential"
-      path: ''
-      status: in progress
+      path: 'unleash-automation-potential'
+      status: done
 - id: '15'
   title: "Escape from Black Mirror"
   path: 'escape-from-black-mirror'
