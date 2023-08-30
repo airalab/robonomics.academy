@@ -8,11 +8,11 @@ defaultName: Introduction to open source solution for private smart homes
 
 <LessonImages imageClasses="mb" src="smart-home-intro/spring-school-2023-smart-stand-intro.gif" />
 
-Last time, we went through the process of installing and connecting various smart devices on the demo stand. In a real apartment or house, of course, there will be its own characteristics. When working with electricity, you must follow safety precautions and do not work if you do not know what you are doing.
+<RoboAcademyText>Last time, we went through the process of installing and connecting various smart devices on the demo stand. In a real apartment or house, of course, there will be its own characteristics. When working with electricity, you must follow safety precautions and do not work if you do not know what you are doing.
 
-Now let's move on to the most interesting thing, for the sake of which it was necessary to change the switches and install sensors in the premises.
+Now let's move on to the most interesting thing, for the sake of which it was necessary to change the switches and install sensors in the premises.</RoboAcademyText>
 
-Home automation involves the use of technology and smart devices to control and automate various functions in the home. Here are some examples of home automation:
+**Home automation involves the use of technology and smart devices to control and automate various functions in the home. Here are some examples of home automation:**
 
 * *Smart Lighting*: You can control and automate lighting using smart bulbs or switches. This allows you to turn the light on and off, adjust the brightness, change colors.
 * *Climate Control*: Smart thermostats let you control the temperature in your home remotely. With them, you can adjust the settings according to your schedule and optimize your energy consumption.
@@ -20,7 +20,7 @@ Home automation involves the use of technology and smart devices to control and 
 * *Home appliance control*: With smart plugs, you can automate the operation of household appliances and electronic devices. For example, you can schedule the coffee maker to turn on so that it starts brewing before you wake up.
 * *Entertainment systems*: audio and video systems will fit perfectly into home automation. You can, for example, set up music playback according to an event or schedule.
 
-Now let's discuss some of the pros and cons of home automation in general.
+**Now let's discuss some of the pros and cons of home automation in general.**
 
 Pros:
 
