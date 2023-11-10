@@ -13,7 +13,7 @@ In this lesson, you will learn how to deploy the components of Feecc Analytics.
 
 1. Clone the repository:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash" codeClass="big-code">
 git clone https://github.com/Multi-Agent-io/feecc-analytics-backend.git
 </LessonCodeWrapper>
 
@@ -27,7 +27,7 @@ git clone https://github.com/Multi-Agent-io/feecc-analytics-backend.git
 
 3. Launch the backend container:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker-compose up -d --build
 </LessonCodeWrapper>
 
@@ -37,7 +37,7 @@ sudo docker-compose up -d --build
 
 1. Clone the repository:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash" codeClass="big-code">
 git clone https://github.com/Multi-Agent-io/feecc-analytics-frontend.git
 </LessonCodeWrapper>
 
@@ -45,7 +45,7 @@ git clone https://github.com/Multi-Agent-io/feecc-analytics-frontend.git
 
 3. Launch the frontend container:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker-compose up -d --build
 </LessonCodeWrapper>
 
