@@ -41,14 +41,14 @@ Before starting, connect all the necessary equipment to the computer or server:
 
 1. Clone the repository:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash" codeClass="big-code">
 git clone https://github.com/Multi-Agent-io/feecc-hid-reader-daemon.git
 cd feecc-hid-reader-daemon
 </LessonCodeWrapper>
 
 2. Launch the daemon:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker-compose up -d --build
 </LessonCodeWrapper>
 
@@ -56,7 +56,7 @@ sudo docker-compose up -d --build
 
 1. Clone the repository:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash" codeClass="big-code">
 git clone https://github.com/Multi-Agent-io/feecc-workbench-daemon.git
 cd feecc-workbench-daemon
 </LessonCodeWrapper>
@@ -78,7 +78,7 @@ cd feecc-workbench-daemon
 
 3. Launch the daemon:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker-compose up -d --build
 </LessonCodeWrapper>
 
@@ -88,7 +88,7 @@ sudo docker-compose up -d --build
 
 1. Clone the repository:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash" codeClass="big-code">
 git clone https://github.com/Multi-Agent-io/feecc-ipfs-gateway.git
 </LessonCodeWrapper>
 
@@ -97,7 +97,7 @@ git clone https://github.com/Multi-Agent-io/feecc-ipfs-gateway.git
 
 3. Launch the microservice:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker-compose up -d --build
 </LessonCodeWrapper>
 
@@ -105,7 +105,7 @@ sudo docker-compose up -d --build
 
 1. Clone the repository:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 git clone https://github.com/Multi-Agent-io/feecc-workbench-frontend.git
 </LessonCodeWrapper>
 
@@ -117,7 +117,7 @@ git clone https://github.com/Multi-Agent-io/feecc-workbench-frontend.git
 
 3. Launch the frontend container:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker-compose up -d --build
 </LessonCodeWrapper>
 

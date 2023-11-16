@@ -23,7 +23,7 @@ To run the demo, you will need:
 
 Execute the following commands:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 git clone https://github.com/Multi-Agent-io/feecc-academy
 cd feecc-academy
 sudo docker compose up -d --build
@@ -31,7 +31,7 @@ sudo docker compose up -d --build
 
 To check working containers, run the following:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker ps -a
 </LessonCodeWrapper>
 
@@ -53,7 +53,7 @@ a74fa229eb90   robonomics/robonomics:sha-bd71a23   "robonomics --dev --…"   20
 
 2. At this stage, the system should prompt the employee to place their RFID card on the scanner for authorization. In the demo, you can use `hid-emulator.py` for authorization. To do this, run a separate Docker container:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker exec -ti feecc_academy_hid_emulator sh
 python3 hid-emulator.py
 </LessonCodeWrapper>
@@ -195,7 +195,7 @@ Total Assembly Time (Including Components): 0:00:06
 
 11. To delete the demo, enter the command:
 
-<LessonCodeWrapper language="bash" noLines>
+<LessonCodeWrapper language="bash">
 sudo docker compose down --rmi all && docker builder prune -f
 </LessonCodeWrapper>
 
