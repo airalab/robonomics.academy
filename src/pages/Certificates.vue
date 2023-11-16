@@ -15,7 +15,7 @@
       <section class="container__narrow">
         <gsp-form 
           :gscriptID="gscript" 
-          :captchaID="captcha"
+          :siteKey="captcha"
           :class="result"
         >
           <section>

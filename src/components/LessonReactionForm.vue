@@ -13,7 +13,7 @@
       </span>
     </div>
 
-    <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :siteKey="captcha" class="lesson-reaction-form__form" :class="result">
+    <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :siteKey="siteKey" class="lesson-reaction-form__form" :class="result">
 
       <div>
 
@@ -92,7 +92,7 @@ export default {
     return {
 
       gscript: process.env.GRIDSOME_GS_REACTION,
-      captcha: process.env.GRIDSOME_CAPTCHAID,
+      siteKey: process.env.GRIDSOME_CAPTCHAID,
 
       email: '',
       result: this.$response,

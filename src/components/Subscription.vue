@@ -10,7 +10,7 @@
     </div>
     <div class="footer__container footer__subscribe">
       <h2>{{ $ts('Get Notifications & Updates') }}</h2>
-      <gsp-form :gscriptID="gscript" :captchaID="captcha" :class="result">
+      <gsp-form :gscriptID="gscript" :siteKey="captcha" :class="result">
 
         <div class="container__narrow">
 
