@@ -201,7 +201,7 @@
     /* width: 1930px;
     max-width: 1930px; */
     width: 100%;
-    height: 736px;
+    height: calc(100% - 100px);
     /* width: 100%; */
     z-index: 2;
   }

@@ -456,8 +456,8 @@
   updated/en/learn/boston-dynamics-spot/overview/: false   
 
 - link: /en/learn/feecc-course/feecc-analytics-deployment/ 
-  hash: b6cddf3057c4b51d6a1278a40b2238a0 
-  lastUpdate: Thu Nov 09 2023 16:26:57 GMT+0200 (Eastern European Standard Time) 
+  hash: 2128efab9e725f888aa7cb640974e9c7 
+  lastUpdate: Thu Nov 16 2023 16:40:16 GMT+0400 (Samara Standard Time) 
   updated/en/learn/feecc-course/feecc-analytics-deployment/: true  
 
 - link: /en/learn/feecc-course/feecc-architecture/ 
@@ -466,171 +466,26 @@
   updated/en/learn/feecc-course/feecc-architecture/: false    
 
 - link: /en/learn/feecc-course/feecc-workbench-deployment/ 
-  hash: ac7fa14464574d0a1bdfe9ed8b9340f0 
-  lastUpdate: Thu Nov 09 2023 16:22:45 GMT+0200 (Eastern European Standard Time) 
+  hash: 586dd73d71f6f2ba90b96988312e3695 
+  lastUpdate: Thu Nov 16 2023 16:40:16 GMT+0400 (Samara Standard Time) 
   updated/en/learn/feecc-course/feecc-workbench-deployment/: true  
 
 - link: /en/learn/feecc-course/feecc-workbench-demo/ 
-  hash: b3401dee8fd325e6a91b0ed09ce9d244 
-  lastUpdate: Thu Nov 09 2023 16:22:55 GMT+0200 (Eastern European Standard Time) 
+  hash: b4fcafcffca7660cc5993ca515a42549 
+  lastUpdate: Thu Nov 16 2023 16:40:16 GMT+0400 (Samara Standard Time) 
   updated/en/learn/feecc-course/feecc-workbench-demo/: true  
 
 - link: /en/learn/feecc-course/overview/ 
   hash: 3ec016f3b4e2cf925d59634452bfdd70 
-  lastUpdate: Thu Nov 09 2023 16:23:11 GMT+0200 (Eastern European Standard Time) 
+  lastUpdate: Thu Jul 27 2023 16:41:43 GMT+0400 (Samara Standard Time) 
   updated/en/learn/feecc-course/overview/: false  
 
 - link: /ru/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/ru/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true   
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
   hash: f195cc393feb8a7464ae69ea924353a1 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
+  lastUpdate: Tue Sep 12 2023 13:21:19 GMT+0400 (Samara Standard Time) 
+  updated/ru/learn/open-source-private-smart-home-intro/unleash-automation-potential/: false    
 
 - link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
   hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true     
-
-- link: /en/learn/open-source-private-smart-home-intro/unleash-automation-potential/ 
-  hash: 1fd36dee56ae7f79be705aad1d4f932e 
-  lastUpdate: Wed Aug 30 2023 19:10:11 GMT+0300 (Eastern European Summer Time) 
-  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: true    
+  lastUpdate: Tue Sep 12 2023 13:21:19 GMT+0400 (Samara Standard Time) 
+  updated/en/learn/open-source-private-smart-home-intro/unleash-automation-potential/: false      
