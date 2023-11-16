@@ -13,7 +13,7 @@
       </span>
     </div>
 
-    <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :captchaID="captcha" class="lesson-reaction-form__form" :class="result">
+    <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :siteKey="captcha" class="lesson-reaction-form__form" :class="result">
 
       <div>
 
