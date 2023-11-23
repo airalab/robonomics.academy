@@ -330,6 +330,7 @@ stream.write(`\n- link: ${options.path}
     createNewRedirect(`/online-courses/introduction-course`, '/learn/introduction-course/overview')
     createNewRedirect(`/online-courses/smart-home-course`, '/learn/smart-home-course/overview')
     createNewRedirect(`/online-courses/sensors-connectivity-course`, '/learn/sensors-connectivity-course/overview')
+    createNewRedirect('/certificates', '/learn/')
 
     oldCourses.forEach(path => {
       createNewRedirect(`/online-courses/${path.old}`, `/learn/${path.new}/overview`,)
@@ -342,6 +343,8 @@ stream.write(`\n- link: ${options.path}
     allCoursesPaths.forEach(path => {
       createNewRedirect(`/learn/${path}`, `/learn/${path}/overview`)
     })
+
+    
  
 
     allPossiblePaths.forEach(node => {
