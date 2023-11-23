@@ -458,7 +458,7 @@
 - link: /en/learn/feecc-course/feecc-analytics-deployment/ 
   hash: 2128efab9e725f888aa7cb640974e9c7 
   lastUpdate: Thu Nov 16 2023 16:40:16 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/feecc-course/feecc-analytics-deployment/: true  
+  updated/en/learn/feecc-course/feecc-analytics-deployment/: false   
 
 - link: /en/learn/feecc-course/feecc-architecture/ 
   hash: 665b84f8e2a95607464e94007936009c 
@@ -468,12 +468,12 @@
 - link: /en/learn/feecc-course/feecc-workbench-deployment/ 
   hash: 586dd73d71f6f2ba90b96988312e3695 
   lastUpdate: Thu Nov 16 2023 16:40:16 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/feecc-course/feecc-workbench-deployment/: true  
+  updated/en/learn/feecc-course/feecc-workbench-deployment/: false   
 
 - link: /en/learn/feecc-course/feecc-workbench-demo/ 
   hash: b4fcafcffca7660cc5993ca515a42549 
   lastUpdate: Thu Nov 16 2023 16:40:16 GMT+0400 (Samara Standard Time) 
-  updated/en/learn/feecc-course/feecc-workbench-demo/: true  
+  updated/en/learn/feecc-course/feecc-workbench-demo/: false   
 
 - link: /en/learn/feecc-course/overview/ 
   hash: 3ec016f3b4e2cf925d59634452bfdd70 
