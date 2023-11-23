@@ -112,6 +112,24 @@
       }
     },
 
+    metaInfo() {
+    return {
+      meta: [
+        {
+          'http-equiv': 'refresh',
+          content: `0; url="https://robonomics.academy"`
+        }
+      ],
+      link: () => [
+        {
+          rel: 'canonical',
+          href: `https://robonomics.academy`,
+          id: 'canonical',
+        },
+      ],
+    }
+  },
+
     computed: {
       courses() {
         return courses;
