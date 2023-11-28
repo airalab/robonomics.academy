@@ -73,12 +73,8 @@
     methods: {
       activateTracker() {
         if(this.$matomo) {
-            this.$matomo && this.$matomo.setConsentGiven();
-            this.$matomo && this.$matomo.enableLinkTracking();
-            this.$matomo && this.$matomo.trackPageView();
-            // window._paq.push(['enableLinkTracking'])
-            // window._paq.push(['setConsentGiven']); // _paq.push(['setConsentGiven'])
-            // window._paq.push(['trackPageView']);
+          this.$matomo && this.$matomo.disableCookies();
+          this.$matomo && this.$matomo.trackPageView();
         }
       }
     },
@@ -88,6 +84,8 @@
       if(this.$store.state.lastVisits.length) {
         this.$store.commit('UPDATE_LAST_VISITS_ITEM', {title: this.$page.course.defaultName})
       }
+
+      this.activateTracker();
 
     }
   
