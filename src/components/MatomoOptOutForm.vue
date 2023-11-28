@@ -50,9 +50,10 @@ export default {
   async mounted() {
 
     setTimeout(async () => {
-      this.optOut = this.$matomo && !this.$matomo.isUserOptedOut()
+      console.log(this.$matomo && this.$matomo.isUserOptedOut())
+      this.optOut = await this.$matomo && !this.$matomo.isUserOptedOut()
       this.setOptOutText();
-    }, 100)
+    }, 300)
 
   }
 
