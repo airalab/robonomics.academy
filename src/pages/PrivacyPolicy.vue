@@ -12,6 +12,20 @@
 
       <p class="privacy-policy__descr">{{$ts('This Policy describes the information we collect from you, how we use that information and our legal basis for doing so. It also covers whether and how that information may be shared and your rights and choices regarding the information you provide to us.')}}</p>
 
+
+      <div class="privacy-policy__wrapper">
+        <h2 class="privacy-policy__subtitle">
+          {{$ts('Where are those annoying cookie consent pop-ups?')}}
+        </h2>
+        <p class="privacy-policy__descr">{{$ts("We don't need cookie consent is needed because:")}}</p>
+        <ul>
+          <li>Tracking cookies are not used</li>
+          <li>The data is not used for any other purpose than analytics</li>
+          <li>Visitors aren’t tracked across websites</li>
+          <li>A user cannot be tracked across days within the same website</li>
+        </ul>
+      </div>
+
       <div class="privacy-policy__wrapper">
         <h2 class="privacy-policy__subtitle">
           {{$ts('What We Collect and Receive')}}
@@ -21,10 +35,10 @@
         <ul>
           <li> <b>Contact us via email</b> — for example, when you submit our forms, send us questions or comments, or report a problem, we will collect your name, email address, message, etc. We use this data solely in connection with answering the queries we receive.</li>
           <li>
-            <b>Usage data</b> — when you visit our site, we will store: the website from which you visited us from, the parts of our site you visit, the date and duration of your visit, your anonymised IP address, information from the device (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit, and <g-link to="https://matomo.org/faq/general/faq_18254/">more</g-link>. We process this usage data in <g-link to="https://matomo.org/privacy-policy/#:~:text=usage%20data%20in-,Matomo%20Analytics,-for%20statistical%20purposes">Matomo Analytics</g-link>  for statistical purposes, to improve our site and to recognize and stop any misuse.
+            <b>Usage data</b> — when you visit our website, we will store: the URL from which you visited us from, web pages of our website you visit, the date and duration of your visit, your anonymized IP address, the device specifications (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit, and <g-link to="https://matomo.org/faq/general/faq_18254/">other</g-link>  non-personal data. We process this usage data only on our server, not passing it to third-parties with <g-link to="https://matomo.org/privacy-policy/#:~:text=usage%20data%20in-,Matomo%20Analytics,-for%20statistical%20purposes">Matomo</g-link> web analytics platform that gives us 100% data ownership. This analytics helps us to improve user experience with our website an
           </li>
           <li>
-            <b>Cookies</b>  — we use cookies (small data files transferred onto computers or devices by sites) for record-keeping purposes and to enhance functionality on our site. You may deactivate or restrict the transmission of cookies by changing the settings of your web browser. Cookies that are already stored may be deleted at any time.
+            <b>Non-personalized cookies</b>  — we use non-tracking cookies (small data files transferred onto computers or devices by sites) for record-keeping purposes and to enhance functionality on our website. You may deactivate or restrict the transmission of these cookies by changing the settings of your web browser or by opt-out on this page in the form below. Cookies that are already stored may be deleted at any time.
           </li>
         </ul>
       </div>
@@ -77,6 +91,10 @@ export default {
 </script>
 
 <style scoped>
+
+  ul {
+    padding-left: calc(var(--gap) * 0.5);
+  }
 
   .privacy-policy.container__narrow {
     max-width: 850px;

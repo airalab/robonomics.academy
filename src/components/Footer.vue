@@ -1,7 +1,8 @@
 <template>
     <footer class="footer">
       <div class="footer__section">
-        <g-link class="logo" to="/"><g-image src="@/assets/images/logo.svg" /></g-link>
+        <!-- <g-link class="logo" to="/"><g-image src="@/assets/images/logo.svg" /></g-link> -->
+        <g-link class="privacy-policy__link" to="/privacy-policy">Privacy Policy</g-link>
       </div>
     </footer>
 </template>
@@ -43,7 +44,6 @@
 <style scoped>
 .footer {
   position: relative;
-  background-color: var(--color-brown-dark);
   color: var(--color-light);
   text-align: center;
 }
@@ -52,17 +52,12 @@
   margin-bottom: var(--gap);
 }
 
-.footer .btn__outline {
-  --btn-color: var(--color-light);
-}
-
 .footer .btn__outline img {
   display: block
 }
 
 .footer__section {
-  padding-top: calc(var(--gap) * 2);
-  padding-bottom: var(--gap);
+  padding: calc(var(--gap) * 0.5);
 }
 
 .footer__subscribe {
@@ -77,42 +72,18 @@
   transform: translateX(-50%);
 }
 
-input {
-  text-align: center;
-}
-
-input::placeholder {
+.privacy-policy__link {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: 500;
   color: var(--color-text);
-  font-weight: bold;
+  border-left: 2px solid var(--color-text);
+  border-right: 2px solid var(--color-text);
 }
 
-input:focus {
-  color: var(--color-text);
-  border-color: var(--color-text);
+.privacy-policy__link:hover {
+  color: var(--color-actions);
 }
 
-input:focus::placeholder {
-  color: var(--color-text);
-  opacity: 0.5;
-}
-
-button {
-  --btn-color: var(--color-second);
-  --btn-color-hover: var(--color-text);
-}
-
-form.wait button, form.success button {
-  pointer-events: none;
-  cursor: not-allowed;
-}
-
-form.wait button {
-  filter: grayscale(1);
-  opacity: 0.4;
-}
-
-form.success button {
-  --btn-color: var(--color-green);
-}
 
 </style>

@@ -8,11 +8,7 @@
 
     <subscription v-if="!$route.path.includes('certificates')" />
 
-    <!-- <footer-slot/> -->
-
-    <client-only>
-
-    </client-only>
+    <footer-slot/>
 
 
   </div>
@@ -50,3 +46,7 @@
     }
   }
 </script>
+
+<style scoped>
+
+</style>
