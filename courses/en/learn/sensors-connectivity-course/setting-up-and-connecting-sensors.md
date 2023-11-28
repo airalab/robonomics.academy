@@ -116,6 +116,18 @@ After downloading the firmware, reboot the ESP (just disconnect and reconnect th
 
 </li>
 
+<li>
+
+Choose sensors from checkbox menu. Choose SDS011 and any additional sensors. Press `Save configuraation`.
+
+</li>
+
+<li>
+
+After downloading the configuration, reboot the ESP (just disconnect and reconnect the USB).
+
+</li>
+
 </List>
 
 ## Connect
@@ -163,7 +175,7 @@ Open [Robonomics sensors map](https://sensors.robonomics.network/#/) and find 
 
 </List>
 
-That's all with default installation. For a more advanced setup (connecting additional sensors or sending data to your own server), read the next section.
+That's all with default installation. For a more advanced setup (sending data to your own server), read the next section.
 
 ## Additional Configuration
 
@@ -177,14 +189,6 @@ Double-click on this address (or type it into your browser), you will get to the
 
 Now you can start customize your configuration.
 
-
-## Add New Sensors
-
-Under the `Configuration` tab you can add and configure the sensors:
-
-<LessonImages imageClasses="mb" src="sensors-connectivity-course/lesson-3-5.png" alt="tutorial image"/>
-
-Select the sensor you want to connect to the board and click `Save configuration` and `restart`.
 
 ## Custom API
 
