@@ -27,7 +27,6 @@
     "node-html-to-image": "^3.2.4",
     "prismjs": "^1.27.0",
     "raw-loader": "^4.0.2",
-    "vue-client-actions-tracker-component": "^1.0.2",
     "vue-matomo": "^4.2.0",
     "vue-prism-component": "^1.2.0",
     "vuex": "^3.6.2"

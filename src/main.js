@@ -3,10 +3,6 @@
 import Vuex from 'vuex'
 import 'prismjs'
 
-// tracker component
-import userTracker from 'vue-client-actions-tracker-component'
-import '../node_modules/vue-client-actions-tracker-component/dist/vue-client-actions-tracker-component.css'
-
 // adding languages for code highlight
 import 'prismjs/components/prism-json'; 
 import 'prismjs/components/prism-bash';
@@ -151,7 +147,6 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   appOptions.store = new Vuex.Store({
     namespaced: true,
     state: {
-      // userTracker: {},
       showHeader: true,
       showImagePopup: false,
       imagePopupSrc: 'smart-house-course/lesson-1-1.png',
@@ -162,9 +157,6 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       lastVisits: [],
     },
    mutations: {
-      // SET_USER_TRACKER(state, userTracker) {
-      //   state.userTracker = userTracker;
-      // },
       TOGGLE_SHOW_HEADER(state, showHeader) {
         state.showHeader = showHeader
       },
@@ -224,12 +216,6 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       }
    },
   });
-
-
-  if(isClient) {
-    Vue.use(userTracker);
-    
-  }
 
   
 }
