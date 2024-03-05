@@ -112,8 +112,8 @@ export default {
 
   .ai {
     position: absolute;
-    bottom: -20px;
-    left: 20px;
+    top: 5px;
+    left: -20px;
     width: 25px;
     height: 20px;
     display: flex;
@@ -124,6 +124,7 @@ export default {
     background-color: var(--color-dark);
     z-index: -1;
   }
+
 
   @media screen and (max-width: 450px) {
     select {
