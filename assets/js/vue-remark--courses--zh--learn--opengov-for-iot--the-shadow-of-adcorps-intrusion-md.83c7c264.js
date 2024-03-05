@@ -1,0 +1,99 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vue-remark--courses--zh--learn--opengov-for-iot--the-shadow-of-adcorps-intrusion-md"],{
+
+/***/ "3/Qp":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--16-0!./node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!./node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1!./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?vue&type=custom&index=1&blockType=vue-remark-frontmatter ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return initFrontMatter; });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"Kw5r\");\n\nvar strats = vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].config.optionMergeStrategies;\nvar key = '__vueRemarkFrontMatter';\nvar data = {\n  \"excerpt\": null,\n  \"title\": \"AdCorp入侵的阴影\",\n  \"lastUpdate\": \"Wed May 10 2023 10:57:05 GMT+0400 (Samara Standard Time)\",\n  \"description\": \"使用OpenGov来管理一个小英国村庄的物联网基础设施的开放性实验。\",\n  \"metaOptions\": [\"学习\"],\n  \"defaultName\": \"OpenGov for managing the IoT infrastructure\"\n};\nfunction initFrontMatter(Component) {\n  if (Component.options[key]) {\n    Component.options[key] = data;\n  }\n\n  vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"].util.defineReactive(Component.options, key, data);\n  Component.options.computed = strats.computed({\n    $frontmatter: function $frontmatter() {\n      return Component.options[key];\n    }\n  }, Component.options.computed);\n}\n\n//# sourceURL=webpack:///./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?./node_modules/babel-loader/lib??ref--16-0!./node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!./node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1");
+
+/***/ }),
+
+/***/ "DtOT":
+/*!*********************************************************************************************************************************!*\
+  !*** ./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?vue&type=custom&index=0&blockType=vue-remark-import ***!
+  \*********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_15_0_node_modules_gridsome_node_modules_vue_loader_lib_index_js_ref_17_0_node_modules_gridsome_vue_remark_lib_loader_js_ref_17_1_the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_0_blockType_vue_remark_import__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--15-0!../../../../node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!../../../../node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1!./the-shadow-of-adcorps-intrusion.md?vue&type=custom&index=0&blockType=vue-remark-import */ \"v76Q\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_babel_loader_lib_index_js_ref_15_0_node_modules_gridsome_node_modules_vue_loader_lib_index_js_ref_17_0_node_modules_gridsome_vue_remark_lib_loader_js_ref_17_1_the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_0_blockType_vue_remark_import__WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?");
+
+/***/ }),
+
+/***/ "KIrG":
+/*!************************************************************************************************************!*\
+  !*** ./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?vue&type=template&id=e20dda80& ***!
+  \************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_gridsome_cacheIdentifier_3ec475f9_vue_loader_template_node_modules_gridsome_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_gridsome_node_modules_vue_loader_lib_index_js_ref_17_0_node_modules_gridsome_vue_remark_lib_loader_js_ref_17_1_the_shadow_of_adcorps_intrusion_md_vue_type_template_id_e20dda80___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/cache-loader/dist/cjs.js?{\"cacheDirectory\":\"node_modules/.cache/gridsome\",\"cacheIdentifier\":\"3ec475f9-vue-loader-template\"}!../../../../node_modules/gridsome/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!../../../../node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1!./the-shadow-of-adcorps-intrusion.md?vue&type=template&id=e20dda80& */ \"lQf+\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_gridsome_cacheIdentifier_3ec475f9_vue_loader_template_node_modules_gridsome_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_gridsome_node_modules_vue_loader_lib_index_js_ref_17_0_node_modules_gridsome_vue_remark_lib_loader_js_ref_17_1_the_shadow_of_adcorps_intrusion_md_vue_type_template_id_e20dda80___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _node_modules_cache_loader_dist_cjs_js_cacheDirectory_node_modules_cache_gridsome_cacheIdentifier_3ec475f9_vue_loader_template_node_modules_gridsome_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_gridsome_node_modules_vue_loader_lib_index_js_ref_17_0_node_modules_gridsome_vue_remark_lib_loader_js_ref_17_1_the_shadow_of_adcorps_intrusion_md_vue_type_template_id_e20dda80___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=webpack:///./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?");
+
+/***/ }),
+
+/***/ "S4l3":
+/*!**************************************************************************************************************************************!*\
+  !*** ./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?vue&type=custom&index=1&blockType=vue-remark-frontmatter ***!
+  \**************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_16_0_node_modules_gridsome_node_modules_vue_loader_lib_index_js_ref_17_0_node_modules_gridsome_vue_remark_lib_loader_js_ref_17_1_the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_1_blockType_vue_remark_frontmatter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--16-0!../../../../node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!../../../../node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1!./the-shadow-of-adcorps-intrusion.md?vue&type=custom&index=1&blockType=vue-remark-frontmatter */ \"3/Qp\");\n/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__[\"default\"] = (_node_modules_babel_loader_lib_index_js_ref_16_0_node_modules_gridsome_node_modules_vue_loader_lib_index_js_ref_17_0_node_modules_gridsome_vue_remark_lib_loader_js_ref_17_1_the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_1_blockType_vue_remark_frontmatter__WEBPACK_IMPORTED_MODULE_0__[\"default\"]); \n\n//# sourceURL=webpack:///./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?");
+
+/***/ }),
+
+/***/ "UG9X":
+/*!*****************************************************************************!*\
+  !*** ./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _the_shadow_of_adcorps_intrusion_md_vue_type_template_id_e20dda80___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./the-shadow-of-adcorps-intrusion.md?vue&type=template&id=e20dda80& */ \"KIrG\");\n/* harmony import */ var _node_modules_gridsome_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/gridsome/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"7uw+\");\n/* harmony import */ var _the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_0_blockType_vue_remark_import__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./the-shadow-of-adcorps-intrusion.md?vue&type=custom&index=0&blockType=vue-remark-import */ \"DtOT\");\n/* harmony import */ var _the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_1_blockType_vue_remark_frontmatter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./the-shadow-of-adcorps-intrusion.md?vue&type=custom&index=1&blockType=vue-remark-frontmatter */ \"S4l3\");\n\nvar script = {}\n\n\n/* normalize component */\n\nvar component = Object(_node_modules_gridsome_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(\n  script,\n  _the_shadow_of_adcorps_intrusion_md_vue_type_template_id_e20dda80___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _the_shadow_of_adcorps_intrusion_md_vue_type_template_id_e20dda80___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* custom blocks */\n\nif (typeof _the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_0_blockType_vue_remark_import__WEBPACK_IMPORTED_MODULE_2__[\"default\"] === 'function') Object(_the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_0_blockType_vue_remark_import__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(component)\n\nif (typeof _the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_1_blockType_vue_remark_frontmatter__WEBPACK_IMPORTED_MODULE_3__[\"default\"] === 'function') Object(_the_shadow_of_adcorps_intrusion_md_vue_type_custom_index_1_blockType_vue_remark_frontmatter__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(component)\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=webpack:///./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?");
+
+/***/ }),
+
+/***/ "UQSp":
+/*!****************************************************************!*\
+  !*** ./node_modules/@gridsome/vue-remark/src/VueRemarkRoot.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// @vue/component\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  name: 'VueRemarkRoot',\n  render: function render(h) {\n    return h('div', null, this.$slots[\"default\"]);\n  }\n});\n\n//# sourceURL=webpack:///./node_modules/@gridsome/vue-remark/src/VueRemarkRoot.js?");
+
+/***/ }),
+
+/***/ "lQf+":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/gridsome","cacheIdentifier":"3ec475f9-vue-loader-template"}!./node_modules/gridsome/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!./node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1!./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?vue&type=template&id=e20dda80& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('VueRemarkRoot',[_c('LessonImages',{attrs:{\"src\":\"opengov-for-iot/opengov-intro.gif\",\"alt\":\"image\",\"imageClasses\":\"mb full\"}}),_c('RoboAcademyText',{attrs:{\"fWeight\":\"500\"}},[_vm._v(\"不幸的是，在我们奥威尔汉的故事中，传统与创新的和谐创造了一个乌托邦天堂，故事中的意外转折开始展开。\\n\")]),_c('h2',{attrs:{\"id\":\"为自执行治理共享安全\"}},[_c('a',{attrs:{\"href\":\"#%E4%B8%BA%E8%87%AA%E6%89%A7%E8%A1%8C%E6%B2%BB%E7%90%86%E5%85%B1%E4%BA%AB%E5%AE%89%E5%85%A8\",\"aria-hidden\":\"true\"}},[_c('span',{staticClass:\"icon icon-link\"})]),_vm._v(\"为自执行治理共享安全\")]),_c('p',[_vm._v(\"村民们享有对共享物联网设备参数进行投票的特权，生活在满足中，相信他们的集体声音正在塑造他们周围的世界。\")]),_c('p',[_vm._v(\"他们的村庄利用Polkadot中继链提供的共享安全，打造了一个安全高效的区块链协议，使他们的社区能够通过完全在链上、完全自主和自执行的治理调整他们的共享基础设施。村民们拿着智能手机和专门设计的应用程序，可以轻松参加公投，参与塑造他们的生活决策。\")]),_c('h2',{attrs:{\"id\":\"滑头提案即将到来\"}},[_c('a',{attrs:{\"href\":\"#%E6%BB%91%E5%A4%B4%E6%8F%90%E6%A1%88%E5%8D%B3%E5%B0%86%E5%88%B0%E6%9D%A5\",\"aria-hidden\":\"true\"}},[_c('span',{staticClass:\"icon icon-link\"})]),_vm._v(\"滑头提案即将到来\")]),_c('p',[_vm._v(\"在这个最不幸的日子里，一个名叫克雷格的富商，以其粗暴的态度和不受欢迎的观点而闻名，提出了一项公投。这项提案建议，曾经是社区新闻和本地活动的灯塔的公益互动数字标牌，现在将显示广告，为村庄带来收入。 \")]),_c('p',[_vm._v(\"命运注定，村民们忙于日常生活，对公投的细节几乎没有关注。克雷格的提案几乎没有遭到反对，就这样被批准了。村民们并不知道，广告费用被设定得异常低，这是克雷格为了确保他的公司AdCorp数年的广告而采取的狡猾手段。\")]),_c('h2',{attrs:{\"id\":\"面对adcorp的黑暗\"}},[_c('a',{attrs:{\"href\":\"#%E9%9D%A2%E5%AF%B9adcorp%E7%9A%84%E9%BB%91%E6%9A%97\",\"aria-hidden\":\"true\"}},[_c('span',{staticClass:\"icon icon-link\"})]),_vm._v(\"面对AdCorp的黑暗\")]),_c('p',[_vm._v(\"很快，曾经展示村庄生活故事和共享新闻的互动数字标牌，现在充斥着AdCorp的无情广告。村民们对突如其来的变化感到沮丧，他们渴望屏幕反映奥威尔汉的精神，而不是他们不受欢迎的客人AdCorp的无情存在。\")]),_c('p',[_vm._v(\"当太阳落下地平线，村庄被街灯柔和的光芒所照耀时，不满的低语开始在社区中蔓延。村民们曾经团结一致追求和谐与进步，现在面临着重新夺回他们珍爱的互动数字标牌的挑战，这是他们村庄身份的象征。\")]),_c('p',[_vm._v(\"奥威尔汉的故事出现了意想不到的转折，但村民们坚定不移的精神不会轻易被压制。当他们围坐在篝火旁时，眼中闪烁着决心的火焰，点燃了一种对抗克雷格的AdCorp所投下的黑暗的决心，并恢复奥威尔汉曾经是的迷人村庄的平衡。\")]),_c('RoboAcademyText',[_vm._v(\"\\n待续...\\n\")])],1)}\nvar staticRenderFns = []\n\n\n\n//# sourceURL=webpack:///./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?./node_modules/cache-loader/dist/cjs.js?%7B%22cacheDirectory%22:%22node_modules/.cache/gridsome%22,%22cacheIdentifier%22:%223ec475f9-vue-loader-template%22%7D!./node_modules/gridsome/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!./node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1");
+
+/***/ }),
+
+/***/ "v76Q":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--15-0!./node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!./node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1!./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?vue&type=custom&index=0&blockType=vue-remark-import ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_runner_work_robonomics_academy_robonomics_academy_node_modules_gridsome_vue_remark_src_VueRemarkRoot_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@gridsome/vue-remark/src/VueRemarkRoot.js */ \"UQSp\");\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ \"Kw5r\");\nfunction _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\n\n\n\nvar strats = vue__WEBPACK_IMPORTED_MODULE_1__[\"default\"].config.optionMergeStrategies;\nvar imported = {\n  VueRemarkRoot: _home_runner_work_robonomics_academy_robonomics_academy_node_modules_gridsome_vue_remark_src_VueRemarkRoot_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (Component) {\n  var components = Component.options.components = Component.options.components || {};\n  var computed = Component.options.computed = Component.options.computed || {};\n  Object.keys(imported).forEach(function (key) {\n    if (_typeof(imported[key]) === 'object' && typeof imported[key].render === 'function') {\n      components[key] = imported[key];\n    } else if (typeof imported[key] === 'function' && typeof imported[key].options.render === 'function') {\n      components[key] = imported[key];\n    } else {\n      computed[key] = function () {\n        return imported[key];\n      };\n    }\n  });\n});\n\n//# sourceURL=webpack:///./courses/zh/learn/opengov-for-iot/the-shadow-of-adcorps-intrusion.md?./node_modules/babel-loader/lib??ref--15-0!./node_modules/gridsome/node_modules/vue-loader/lib??ref--17-0!./node_modules/@gridsome/vue-remark/lib/loader.js??ref--17-1");
+
+/***/ })
+
+}]);
