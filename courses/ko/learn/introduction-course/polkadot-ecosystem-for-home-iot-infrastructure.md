@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:58 GMT+0400 (Samara Standard Time)
 description: 이 레슨에서는 Robonomics 파라체인을 사용하여 스마트 전구를 제어해 보게 될 것입니다.
 lessonNumber: 3
 metaOptions: [배우다, 로보노믹스 아이디어 소개]
-defaultName: 소개duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 레슨 2에서는 Robonomics의 주요 원칙을 설명하고 폴카닷 / 쿠사마를 유망한 블록체인 생태계 플랫폼으로 언급했습니다. 이제 쿠사마 네트워크의 폴카닷 생태계의 일부인 Robonomics 파라체인의 기능을 자세히 살펴보는 시간입니다. 특히, Robonomics 파라체인의 IoT 구독이 어떻게 작동하는지 보여드리고 싶습니다. 첫 번째 레슨에서 귀하의 주소가 강의 IoT 구독에 추가되었으며 이미 두 번 사용했습니다: 검은 거울에서 자신의 반사를 찾을 때와 시험 결과를 제출할 때.

@@ -3,7 +3,7 @@ title: "Entfesseln Sie das Potenzial der Automatisierung"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: Sie werden über grundlegende Automatisierungen lernen, die das tägliche Leben einfacher machen, am Beispiel eines Smart Home-Stands.
 metaOptions: [Lernen]
-defaultName: Einführungduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>Beim letzten Mal haben wir den Prozess der Installation und Verbindung verschiedener intelligenter Geräte am Demostand durchlaufen. In einer echten Wohnung oder einem echten Haus wird es natürlich seine eigenen Besonderheiten geben. Bei der Arbeit mit Elektrizität müssen Sie Sicherheitsvorkehrungen beachten und nicht arbeiten, wenn Sie nicht wissen, was Sie tun.

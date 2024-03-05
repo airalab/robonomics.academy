@@ -3,7 +3,7 @@ title: Conectar el Rover Curiosity de Marte
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: Conectar el rover Curiosity de Marte bajo el control de la paracaídas de Robonomics.
 metaOptions: [Aprender]
-defaultName: Conectar Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **Veamos cómo el control de la paracaídas de Robonomics permite que el rover Curiosity de Marte se mueva. Requisitos:**

@@ -3,7 +3,7 @@ title: "자동화 잠재력을 발휘하다"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: 스마트 홈 스탠드를 예로 하여 일상 생활을 더 쉽게 만드는 기본 자동화에 대해 배우게 될 것입니다.
 metaOptions: [배우다]
-defaultName: 소개duction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>지난 시간에는 데모 스탠드에 다양한 스마트 기기를 설치하고 연결하는 과정을 진행했습니다. 실제 아파트나 집에서는 물론 고유한 특성이 있을 것입니다. 전기 작업 시 안전 주의를 따르고, 무엇을 하는지 모르면 작업하지 마십시오.

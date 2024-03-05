@@ -1,5 +1,5 @@
 ---
-title: Connectezezezezez le manipulateur Kuka
+title: Connecteze le manipulateur Kuka
 description: Connectez le manipulateur
 metaOptions: [Apprendre]
 defaultName: Connect Kuka manipulator

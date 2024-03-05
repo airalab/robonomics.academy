@@ -2,7 +2,7 @@
 title: Kuka manipulatorに接続する
 description: Manipulatorに接続する
 metaOptions: [学ぶ]
-defaultName: 接続 Kuka manipulator
+defaultName:  Connect Kuka manipulator
 ---
 
 作業例のビデオはこちらで見ることができます:

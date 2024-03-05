@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:48 GMT+0400 (Samara Standard Time)
 description: 深入研究最新Web3技术的理论，这些技术处于控制论和经济学的交汇处，旨在帮助物联网系统在我们的家园和城市中安全高效地运行。
 lessonNumber: 2
 metaOptions: [学习, Robonomics理念介绍]
-defaultName: 介绍duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 我们很高兴您能穿过黑镜并没有在数字世界中溺水。现在更深入的潜水正在等待着您...深入研究最新Web3技术的理论，这些技术处于控制论和经济学的交汇处，旨在帮助物联网系统在我们的家园和城市中安全高效地运行。

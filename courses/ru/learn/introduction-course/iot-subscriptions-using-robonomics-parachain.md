@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:58:18 GMT+0400 (Samara Standard Time)
 description: Вы узнаете, как купить IoT-подписку на парачейн Робономики за реальные токены нашей сети.
 lessonNumber: 5
 metaOptions: [Онлайн курсы, Вводный курс]
-defaultName: Вступлениеduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 

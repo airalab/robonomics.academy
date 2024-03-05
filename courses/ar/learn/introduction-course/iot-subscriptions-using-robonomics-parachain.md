@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:55 GMT+0400 (Samara Standard Time)
 description: ستتعلم كيفية شراء اشتراك الإنترنت للأشياء على Robonomics Parachain باستخدام رموز حقيقية من شبكتنا.
 lessonNumber: 5
 metaOptions: [يتعلم، مقدمة لأفكار روبونوميكس]
-defaultName: مقدمةduction to the ideas of Robonomics
+defaultName: Introduction to the ideas of Robonomics
 ---
 
 من المرجح أن يكون الدرس الأخير من الدورة التمهيدية هو الأكثر تحديًا، لأنه سيتطلب منك بعض الصبر. سوف تتعلم كيفية شراء اشتراك إنترنت الأشياء على Robonomics Parachain باستخدام الرموز الحقيقية لشبكتنا.

@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:52:27 GMT+0400 (Samara Standard Time)
 description: Diese Lektion ist wieder der Theoderie gewidmet. Sie werden die erste Hälfte des zweiten Kapitels des Robonomics Whitepapers 2022 mit dem Titel "Robonomics Architektur" studieren.
 lessonNumber: 4
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Einführungduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## Einführung

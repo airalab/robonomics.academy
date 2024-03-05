@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:57:09 GMT+0400 (Samara Standard Time)
 description: Esta lição é novamente dedicada à teouia. Você estudará a primeira metade do segundo capítulo do Whitepaper Robonomics 2022, intitulado “Arquitetura da Robonomics”.
 lessonNumber: 4
 metaOptions: [Cursos on-line, Curso introdutório]
-defaultName: Introduçãoduçãoduçãoduçãoduçãoduçãoduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 

@@ -3,7 +3,7 @@ title: Подключите совместимый с ROS дрон
 lastUpdate: Thu May 04 2023 12:52:55 GMT+0400 (Samara Standard Time)
 description: Подключите любого совместимого с ROS робота под управлением парачейна Robonomics.
 metaOptions: [Учиться]
-defaultName: Подключите совместимый с ROS дрон
+defaultName: Connect ROS-compatible drone
 ---
 
 

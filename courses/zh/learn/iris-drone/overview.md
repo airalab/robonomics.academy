@@ -3,7 +3,7 @@ title: 连接无人机
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: 连接无人机
 metaOptions: [学习]
-defaultName: 连接 unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **交易后，无人机开始移动，并将文件存储在IPFS中的坐标。控制脚本基于[GAAS演示脚本](https://github.com/generalized-intelligence/GAAS)**  

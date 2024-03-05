@@ -2,7 +2,7 @@
 title: "Introductionductionductionductionductionductionductionduction aux idées de Robonomics"
 lastUpdate: Tue May 09 2023 13:17:05 GMT+0400 (Samara Standard Time)
 description: Cours d'introduction bienvenue!
-metaOptions: [Apprendre, Introductionduction aux idées de Robonomics]
+metaOptions: [Apprendre, Introduction aux idées de Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---
 

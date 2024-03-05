@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:55 GMT+0400 (Samara Standard Time)
 description: Θα μάθετε πώς να αγοράσετε μια συνδρομή IoT στο Robonomics Parachain χρησιμοποιώντας πραγματικά τα κέρματα του δικτύου μας.
 lessonNumber: 5
 metaOptions: [Μαθαίνω, Εισαγωγή στις ιδέες του Robonomics]
-defaultName: Εισαγωγήduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 Το τελευταίο μάθημα του Εισαγωγικού μας μαθήματος είναι πολύ πιθανό να είναι το πιο δύσκολο, γιατί θα απαιτήσει λίγη υπομονή από εσάς. Θα μάθετε πώς να αγοράζετε μια συνδρομή IoT στο Robonomics Parachain χρησιμοποιώντας πραγματικά διακριτικά του δικτύου μας.

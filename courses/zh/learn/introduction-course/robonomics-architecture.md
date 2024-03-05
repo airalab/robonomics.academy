@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:54:02 GMT+0400 (Samara Standard Time)
 description: 在这节课中，您将学习Robonomics Whitepaper 2022第二章的前半部分，标题为Robonomics 架构。
 lessonNumber: 4
 metaOptions: [学习, Robonomics理念介绍]
-defaultName: 介绍duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## 简介

@@ -1,5 +1,5 @@
 ---
-title: Connectezezezezer un véhicule aérien sans pilote
+title: Connectezer un véhicule aérien sans pilote
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: Connecter un véhicule aérien sans pilote
 metaOptions: [Apprendre]

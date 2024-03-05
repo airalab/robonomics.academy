@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:58 GMT+0400 (Samara Standard Time)
 description: Σε αυτό το μάθημα θα προσπαθήσετε να ελέγξετε μια έξυπνη λάμπα χρησιμοποιώντας το Robonomics parachain.
 lessonNumber: 3
 metaOptions: [Μάθετε, Εισαγωγή στις ιδέες του Robonomics]
-defaultName: Εισαγωγήduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 Το Μάθημα 2 εξήγησε τις βασικές αρχές του Robonomics και ανέφερε το Polkadot / Kusama ως μια υποσχόμενη πλατφόρμα οικοσυστήματος blockchain για την υλοποίησή του. Ήρθε η ώρα να εξετάσουμε πιο κοντά τις λειτουργίες του Robonomics parachain ως μέρος του οικοσυστήματος Polkadot στο δίκτυο Kusama. Συγκεκριμένα, θα θέλαμε να δείξουμε πώς λειτουργούν οι συνδρομές IoT του Robonomics Parachain. Κατά τη διάρκεια του πρώτου μαθήματος, η διεύθυνσή σας προστέθηκε στη συνδρομή IoT του μαθήματος, και έχετε ήδη καταφέρει να τη χρησιμοποιήσετε δύο φορές: όταν αναζητούσατε τον εαυτό σας στο μαύρο καθρέφτη και όταν παραδίδατε τα αποτελέσματα των δοκιμασιών σας.

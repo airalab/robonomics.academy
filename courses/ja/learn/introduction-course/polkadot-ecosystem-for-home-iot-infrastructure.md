@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:58 GMT+0400 (Samara Standard Time)
 description: このレッスンでは、Robonomicsパラチェーンを使用してスマートライト電球を制御しようとします。
 lessonNumber: 3
 metaOptions: [学ぶ, Robonomicsのアイデアについての紹介]
-defaultName: イントロduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 Lesson 2では、Robonomicsの主要な原則と、Polkadot / Kusamaを有望なブロックチェーンエコシステムプラットフォームとして言及しました。Polkadotエコシステム内のRobonomicsパラチェーンの機能について詳しく見ていく時が来ました。特に、RobonomicsパラチェーンのIoTサブスクリプションがどのように機能するかを示したいと思います。最初のレッスンでは、あなたのアドレスがコースのIoTサブスクリプションに追加され、すでに2回使用しています：黒い鏡で自分の反射を探したとき、そしてテスト結果を提出したとき。

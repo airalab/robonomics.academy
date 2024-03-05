@@ -3,7 +3,7 @@ title: توصيل مسبار الفضاء كيوريوسيتي على المري
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: توصيل مسبار الفضاء كيوريوسيتي على المريخ تحت تحكم سلسلة كتل Robonomics.
 metaOptions: [تعلم]
-defaultName: اتصل Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **دعنا نرى كيف يسمح تحكم سلسلة كتل Robonomics بتحريك مسبار الفضاء كيوريوسيتي. المتطلبات:**

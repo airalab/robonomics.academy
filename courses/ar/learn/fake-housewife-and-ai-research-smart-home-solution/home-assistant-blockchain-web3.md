@@ -2,7 +2,7 @@
 title: مساعد المنزل + بلوكشين + Web3
 description: حلاً للمنزل الذكي بحثاً عن الزوجة المزيفة والذكاء الاصطناعي
 metaOptions: [تعلم، حلاً للمنزل الذكي بحثاً عن الزوجة المزيفة والذكاء الاصطناعي]
-defaultName: حلاً للمنزل الذكي بحثاً عن الزوجة المزيفة والذكاء الاصطناعي
+defaultName: Fake Housewife & AI research Smart Home Solution
 ---
 
 <RoboAcademyText fWeight="600">

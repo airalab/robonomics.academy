@@ -3,7 +3,7 @@ title: "الدرس #4، وحدة توصيل الحساسات"
 description: 'وحدة توصيل الحساسات'
 lessonNumber: 4
 metaOptions: [تعلم, توصيل الاستشعار وشبكة الاستشعار اللامركزية]
-defaultName: Sensors Connectivity & Decentralized Sensors Networ
+defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---
 
 في المقالات التالية، ستتعلم المزيد حول وحدة توصيل الحساسات. بعد ذلك، يمكنك الانضمام لاستضافة شبكة الحساسات اللامركزية الخاصة بنا أو إنشاء خريطة حساسات خاصة بك.

@@ -4,7 +4,7 @@ lastUpdate: Thu May 18 2023 10:46:29 GMT+0400 (Samara Standard Time)
 description: cours d'assistant domestique
 lessonNumber: 8
 metaOptions: [Apprenez, Maison Intelligente Souveraine avec Robonomics et Home Assistant]
-defaultName: Sovereign Smart Home with Robonomics and Home Assistants
+defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---
 
 ## De quoi s'agit-il

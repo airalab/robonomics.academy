@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:58:16 GMT+0400 (Samara Standard Time)
 description: Этот вводный урок научит вас основным методам взаимодействия с децентрализованным приложением (или dapp).
 lessonNumber: 1
 metaOptions: [Онлайн курсы, Вводный курс]
-defaultName: Вступлениеduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## Вступление

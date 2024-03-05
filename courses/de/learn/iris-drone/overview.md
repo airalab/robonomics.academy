@@ -3,7 +3,7 @@ title: Verbindung unbemanntes Luftfahrzeug
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: Verbinden Sie unbemanntes Luftfahrzeug
 metaOptions: [Lernen]
-defaultName: Verbinden unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **Drohne beginnt sich nach Transaktion zu bewegen und speichert die Datei mit den Koordinaten in IPFS. Das Steuerskript basiert auf dem [GAAS-Demodskript](https://github.com/generalized-intelligence/GAAS)**  

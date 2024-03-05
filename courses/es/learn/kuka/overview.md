@@ -2,7 +2,7 @@
 title: Conectar manipulador Kuka
 description: Conectar Manipulador
 metaOptions: [Aprender]
-defaultName: Conectar Kuka manipulator
+defaultName:  Connect Kuka manipulator
 ---
 
 El video con un ejemplo de trabajo se puede encontrar aquí:

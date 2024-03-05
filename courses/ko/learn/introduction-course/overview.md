@@ -3,7 +3,7 @@ title: "로보노믹스 아이디어 소개"
 lastUpdate: Tue May 09 2023 13:17:05 GMT+0400 (Samara Standard Time)
 description: 환영 소개 코스!
 metaOptions: [배우다, 로보노믹스 아이디어 소개]
-defaultName: 소개duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## 코스 소개

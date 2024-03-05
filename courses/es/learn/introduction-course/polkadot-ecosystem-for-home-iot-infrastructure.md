@@ -3,7 +3,7 @@ title: "Lección #3, Ecosistema de Polkadot para infraestructura IoT en el hogar
 lastUpdate: Thu May 04 2023 12:55:52 GMT+0400 (Samara Standard Time)
 description: En esta lección, intentará controlar una bombilla inteligente que funciona a través de Home Assistant, que tiene módulos Robonomics adicionales.
 lessonNumber: 3
-metaOptions: [Cursos online, Curso de Introducciónducciónducciónducciónducciónducciónducción]
+metaOptions: [Cursos online, Curso de Introducción]
 defaultName:  Introduction to the ideas of Robonomics
 ---
 

@@ -3,7 +3,7 @@ title: "プライベートスマートホーム向けオープンソースソリ
 lastUpdate: Tue May 09 2023 13:56:49 GMT+0400 (Samara Standard Time)
 description: 安価なスマートデバイスとオープンソースソリューションを統合して、スマートホームをクラウドに依存せずにプライベートに向けたものにする方法を学びます。
 metaOptions: [学ぶ]
-defaultName: イントロduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages src="smart-home-intro/open-source-private-smart-home-intro.png" imageClasses="mb full" />

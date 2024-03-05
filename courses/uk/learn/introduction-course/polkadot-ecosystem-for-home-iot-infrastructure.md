@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:58 GMT+0400 (Samara Standard Time)
 description: У цьому уроці ви спробуєте керувати розумною лампочкою, використовуючи паралель Robonomics.
 lessonNumber: 3
 metaOptions: [Вчитися, Вступ до ідей Робономіки]
-defaultName: Вступduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 Урок 2 пояснив основні принципи Robonomics та згадав Polkadot / Kusama як перспективну блокчейн-екосистему для його впровадження. Час приділити увагу функціям паралель Robonomics як частині екосистеми Polkadot в мережі Kusama. Зокрема, ми хотіли б показати, як працюють підписки IoT паралелі Robonomics. Під час першого уроку вашу адресу було додано до підписки на курс IoT, і ви вже встигли використати її двічі: коли шукали своє відображення в чорному дзеркалі та коли здавали результати тесту.

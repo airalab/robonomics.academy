@@ -2,7 +2,7 @@
 title: Σύνδεση με τον χειριστή Kuka
 description: Σύνδεση με τον Χειριστή
 metaOptions: [Μάθετε]
-defaultName: Σύνδεση Kuka manipulator
+defaultName:  Connect Kuka manipulator
 ---
 
 Το βίντεο με ένα παράδειγμα εργασίας μπορεί να βρεθεί εδώ:

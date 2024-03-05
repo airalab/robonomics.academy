@@ -3,7 +3,7 @@ title: ROS互換のドローンに接続する
 lastUpdate: Thu May 04 2023 12:52:55 GMT+0400 (Samara Standard Time)
 description: Robonomicsパラチェーン制御下の任意のROS互換ロボットに接続する。
 metaOptions: [学ぶ]
-defaultName: ROS互換のドローンに接続する
+defaultName: Connect ROS-compatible drone
 ---
 
 

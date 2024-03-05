@@ -3,7 +3,7 @@ title: Verbind onbemand luchtvaartuig
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: Verbind onbemand luchtvaartuig
 metaOptions: [Leren]
-defaultName: Verbinden unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **Drone begint te bewegen na transactie en slaat bestand met de coördinaten op in IPFS. Het besturingsscript is gebaseerd op het [GAAS demo script](https://github.com/generalized-intelligence/GAAS)**  

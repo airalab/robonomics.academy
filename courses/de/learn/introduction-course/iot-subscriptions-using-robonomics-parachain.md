@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:52:20 GMT+0400 (Samara Standard Time)
 description: Sie werden lernen wie Sie ein IoT-Abonnement auf Robonomics Parachain mit echten Token aus unserem Netzwerk kaufen.
 lessonNumber: 5
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Einführungduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 Die letzte Lektion unseres Einführungskurses ist höchstwahrscheinlich die anspruchsvollste, denn sie wird Ihnen einiges an Geschick und Geduld abverlangen. Sie werden lernen wie Sie ein IoT-Abonnement auf Robonomics Parachain mit echten Token aus unserem Netzwerk kaufen.

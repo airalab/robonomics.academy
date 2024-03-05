@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:51 GMT+0400 (Samara Standard Time)
 description: 이 개막 레슨에서는 탈중앙화 애플리케이션(또는 댑)과 상호 작용하는 기본 방법을 가르칠 것입니다.
 lessonNumber: 1
 metaOptions: [배우다, 로보노믹스 아이디어 소개]
-defaultName: 소개duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## 소개

@@ -3,7 +3,7 @@ title: Підключіть Mars Curiosity Rover
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: Підключіть Mars Curiosity rover під керуванням Robonomics parachain.
 metaOptions: [Вивчайте]
-defaultName: Підключіть Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **Давайте подивимося, як керування Robonomics Parachain дозволяє рухати Mars Curiosity rover. Вимоги:**

@@ -3,7 +3,7 @@ title: "Розкрийте потенціал автоматизації"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: Ви дізнаєтеся про базові автоматизації, які полегшують повсякденне життя на прикладі стенду для розумного будинку.
 metaOptions: [Вивчайте]
-defaultName: Вступduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>Минулого разу ми пройшли процес встановлення та підключення різних розумних пристроїв на демонстраційному стенді. Звичайно, в реальній квартирі або будинку будуть свої особливості. Працюючи з електрикою, слід дотримуватися заходів безпеки і не працювати, якщо ви не знаєте, що робите.

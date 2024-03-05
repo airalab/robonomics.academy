@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:54:02 GMT+0400 (Samara Standard Time)
 description: このレッスンでは、Robonomics Whitepaper 2022の第2章の前半を学びます。タイトルはRobonomics アーキテクチャです。
 lessonNumber: 4
 metaOptions: [学ぶ, Robonomicsのアイデアについての紹介]
-defaultName: イントロduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## イントロ

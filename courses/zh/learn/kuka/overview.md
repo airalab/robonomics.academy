@@ -2,7 +2,7 @@
 title: 连接Kuka机械手
 description: 连接机械手
 metaOptions: [学习]
-defaultName: 连接 Kuka manipulator
+defaultName: Connect Kuka manipulator
 ---
 
 这里可以找到工作示例视频:

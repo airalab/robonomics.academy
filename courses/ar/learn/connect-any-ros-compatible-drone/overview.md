@@ -3,7 +3,7 @@ title: توصيل الطائرة بدون طيار المتوافقة مع ROS
 lastUpdate: Thu May 04 2023 12:52:55 GMT+0400 (Samara Standard Time)
 description: توصيل أي روبوت متوافق مع ROS تحت تحكم سلسلة الكتل روبونوميكس.
 metaOptions: [تعلم]
-defaultName: توصيل الطائرة بدون طيار المتوافقة مع ROS
+defaultName: Connect ROS-compatible drone
 ---
 
 

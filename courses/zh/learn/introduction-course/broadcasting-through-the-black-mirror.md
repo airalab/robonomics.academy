@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:51 GMT+0400 (Samara Standard Time)
 description: 这个开场课将教您与去中心化应用程序（或dapp）进行交互的基本方法。
 lessonNumber: 1
 metaOptions: [学习, Robonomics理念介绍]
-defaultName: 介绍duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## 简介

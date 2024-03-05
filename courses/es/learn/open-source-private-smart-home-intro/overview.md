@@ -1,5 +1,5 @@
 ---
-title: "Introducciónducciónducciónducciónducciónducciónducción a la solución de código abierto para hogares inteligentes privados"
+title: "Introducción a la solución de código abierto para hogares inteligentes privados"
 lastUpdate: Tue May 09 2023 13:56:49 GMT+0400 (Samara Standard Time)
 description: Aprenderás cómo integrar soluciones de código abierto con dispositivos inteligentes económicos para hacer que tu hogar inteligente esté orientado de forma privada y no dependa de la nube en su funcionamiento.
 metaOptions: [Aprender]

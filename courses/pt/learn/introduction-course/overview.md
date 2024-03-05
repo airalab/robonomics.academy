@@ -1,5 +1,5 @@
 ---
-title: "Introduçãoduçãoduçãoduçãoduçãoduçãoduçãodução às ideias de Robonomics"
+title: "Introdução às ideias de Robonomics"
 lastUpdate: Tue May 09 2023 13:42:27 GMT+0400 (Samara Standard Time)
 description: Bem-vindo ao Curso de Introdução!
 lessonNumber: 0

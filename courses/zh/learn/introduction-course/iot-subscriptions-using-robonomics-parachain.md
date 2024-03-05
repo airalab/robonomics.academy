@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:55 GMT+0400 (Samara Standard Time)
 description: 您将学习如何使用我们网络的真实代币在Robonomics Parachain上购买IoT订阅。
 lessonNumber: 5
 metaOptions: [学习, Robonomics理念介绍]
-defaultName: 介绍duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 我们的入门课程的最后一课很可能是最具挑战性的，因为它需要您一些耐心。 您将学习如何使用我们网络的真实代币在 Robonomics 平行链上购买 IoT 订阅。

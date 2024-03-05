@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:55 GMT+0400 (Samara Standard Time)
 description: Ви дізнаєтеся, як купувати підписку IoT на Robonomics Parachain, використовуючи реальні токени нашої мережі.
 lessonNumber: 5
 metaOptions: [Вчитися, Вступ до ідей Робономіки]
-defaultName: Вступduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 Останній урок нашого Вступного курсу, ймовірно, найскладніший, тому що він вимагатиме від вас трохи терпіння. Ви дізнаєтеся, як придбати підписку на IoT на Robonomics Parachain за допомогою реальних токенів нашої мережі.

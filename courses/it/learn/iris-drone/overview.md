@@ -3,7 +3,7 @@ title: Collegare veicolo aereo senza pilota
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: Collegare veicolo aereo senza pilota
 metaOptions: [Imparare]
-defaultName: Collegare unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **Il drone inizia a muoversi dopo la transazione e memorizza il file con le coordinate in IPFS. Lo script di controllo si basa sullo script demo di [GAAS](https://github.com/generalized-intelligence/GAAS)**  

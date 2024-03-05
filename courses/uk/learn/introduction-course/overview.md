@@ -3,7 +3,7 @@ title: "Вступ до ідей Робономіки"
 lastUpdate: Tue May 09 2023 13:17:05 GMT+0400 (Samara Standard Time)
 description: Ласкаво просимо до вступного курсу!
 metaOptions: [Вчитися, Вступ до ідей Робономіки]
-defaultName: Вступduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## Про курс

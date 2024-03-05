@@ -3,7 +3,7 @@ title: マーズキュリオシティローバーに接続する
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: ロボノミクスパラチェーン制御下のマーズキュリオシティローバーに接続する。
 metaOptions: [学ぶ]
-defaultName: 接続 Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **ロボノミクスパラチェーン制御がマーズキュリオシティローバーの移動を可能にする方法を見てみましょう。要件:**

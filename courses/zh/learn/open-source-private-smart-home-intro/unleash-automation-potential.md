@@ -3,7 +3,7 @@ title: "释放自动化潜力"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: 您将通过智能家居展示架的示例了解使日常生活更轻松的基本自动化。
 metaOptions: [学习]
-defaultName: 介绍duction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>上次，我们通过在演示架上安装和连接各种智能设备的过程。在真实的公寓或房屋中，当然会有其自身的特点。在处理电力时，您必须遵循安全预防措施，如果不知道自己在做什么，则不要操作。

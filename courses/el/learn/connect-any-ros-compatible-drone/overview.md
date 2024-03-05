@@ -3,7 +3,7 @@ title: Συνδέστε ένα drone συμβατό με το ROS
 lastUpdate: Thu May 04 2023 12:52:55 GMT+0400 (Samara Standard Time)
 description: Συνδέστε οποιονδήποτε ρομπότ συμβατό με το ROS υπό τον έλεγχο του robonomics parachain.
 metaOptions: [Μάθετε]
-defaultName: Συνδέστε ένα drone συμβατό με το ROS
+defaultName: Connect ROS-compatible drone
 ---
 
 

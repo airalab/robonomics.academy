@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:51 GMT+0400 (Samara Standard Time)
 description: Αυτό το ανοικτό μάθημα θα σας διδάξει βασικές μεθόδους για να αλληλεπιδράτε με μια αποκεντρωμένη εφαρμογή (ή dapp).
 lessonNumber: 1
 metaOptions: [Μαθαίνω, Εισαγωγή στις ιδέες του Robonomics]
-defaultName: Εισαγωγήduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## Εισαγωγή

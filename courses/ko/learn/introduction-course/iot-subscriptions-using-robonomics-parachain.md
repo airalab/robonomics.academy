@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:55 GMT+0400 (Samara Standard Time)
 description: 로보노믹스 파라체인에서 IoT 구독을 구매하는 방법을 배우게 될 것입니다. 실제 네트워크의 토큰을 사용합니다.
 lessonNumber: 5
 metaOptions: [배우다, 로보노믹스 아이디어 소개]
-defaultName: 소개duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 소개 과정의 마지막 수업은 인내심이 필요하기 때문에 아마도 가장 어려울 것입니다. 우리 네트워크의 실제 토큰을 사용하여 Robonomics Parachain에서 IoT 구독을 구매하는 방법을 배우게 됩니다.

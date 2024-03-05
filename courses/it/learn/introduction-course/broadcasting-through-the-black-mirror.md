@@ -3,7 +3,7 @@ title: "Lezione #1, Trasmettere attraverso lo Specchio Nero"
 lastUpdate: Thu May 04 2023 12:56:18 GMT+0400 (Samara Standard Time)
 description: Questa lezione di apertura ti insegnerà i metodi basilari per interagire con un'applicazione decentralizzata (o dapp). 
 lessonNumber: 1
-metaOptions: [Cosi online, Corso Introduzioneduzioneduzioneduzioneduzioneduzioneduttivo]
+metaOptions: [Cosi online, Corso Introduzione]
 defaultName: Introduction to the ideas of Robonomics
 ---
 

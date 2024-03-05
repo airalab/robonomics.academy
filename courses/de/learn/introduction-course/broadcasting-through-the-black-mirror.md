@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:52:16 GMT+0400 (Samara Standard Time)
 description: In dieser ersten Lektion lernen Sie grundlegende Methoden zur Interaktion mit einer dezentralen Anwendung (oder Dapp).
 lessonNumber: 1
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Einführungduction to the ideas of Robonomics
+defaultName: Introduction to the ideas of Robonomics
 ---
 
 ## Einführung

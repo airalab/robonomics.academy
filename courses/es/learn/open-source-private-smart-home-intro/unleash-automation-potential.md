@@ -3,7 +3,7 @@ title: "Libera el potencial de la automatización"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: Aprenderás sobre automatizaciones básicas que hacen la vida cotidiana más fácil en el ejemplo de un stand de casa inteligente.
 metaOptions: [Aprender]
-defaultName: Introducciónducciónducciónducciónducciónducciónduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>La última vez, pasamos por el proceso de instalar y conectar varios dispositivos inteligentes en el stand de demostración. En un apartamento o casa real, por supuesto, habrá sus propias características. Al trabajar con electricidad, debes seguir precauciones de seguridad y no trabajar si no sabes lo que estás haciendo.

@@ -3,7 +3,7 @@ title: "Sfruttare il potenziale dell'automazione"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: Imparerai le automazioni di base che rendono la vita di tutti i giorni più facile sull'esempio di uno stand per la casa intelligente.
 metaOptions: [Imparare]
-defaultName: Introduzioneduzioneduzioneduzioneduzioneduzioneduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>La volta scorsa abbiamo passato attraverso il processo di installazione e connessione di vari dispositivi intelligenti sullo stand dimostrativo. In un appartamento o casa reale, naturalmente, ci saranno le proprie caratteristiche. Quando si lavora con l'elettricità, è necessario seguire le precauzioni di sicurezza e non lavorare se non si sa cosa si sta facendo.

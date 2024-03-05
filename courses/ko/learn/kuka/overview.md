@@ -2,7 +2,7 @@
 title: 쿠카 조작기 연결
 description: 조작기 연결
 metaOptions: [배우다]
-defaultName: 연결 Kuka manipulator
+defaultName:  Connect Kuka manipulator
 ---
 
 작업 예제 비디오는 여기에서 찾을 수 있습니다:

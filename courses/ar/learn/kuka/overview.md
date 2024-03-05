@@ -2,7 +2,7 @@
 title: توصيل جهاز التلاعب Kuka
 description: توصيل جهاز التلاعب
 metaOptions: [تعلم]
-defaultName: اتصل Kuka manipulator
+defaultName: Connect Kuka manipulator
 ---
 
 يمكن العثور على فيديو مع مثال على العمل هنا:

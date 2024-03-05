@@ -3,7 +3,7 @@ title: ROS 호환 드론 연결
 lastUpdate: Thu May 04 2023 12:52:55 GMT+0400 (Samara Standard Time)
 description: 로보노믹스 파라체인 제어 하에 모든 ros 호환 로봇 연결
 metaOptions: [배우다]
-defaultName: ROS 호환 드론 연결
+defaultName: Connect ROS-compatible drone
 ---
 
 

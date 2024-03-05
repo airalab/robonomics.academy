@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:52:24 GMT+0400 (Samara Standard Time)
 description: In dieser Lektion werden Sie versuchen eine intelligente Glühbirne zu steuern, die über den Home Assistant funktioniert der über zusätzliche Robonomics-Module verfügt.
 lessonNumber: 3
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Einführungduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 In Lektion 2 wurden die Hauptprinzipien von Robonomics erläutert und Polkadot / Kusama als vielversprechende Blockchain-Ecosystem-Plattfoderm für ihre Umsetzung erwähnt. Es ist an der Zeit einen genaueren Blick auf die Funktionen von Robonomics Parachain als Teil des Polkadot-Ecosystems im Kusama-Netzwerk zu werfen. Insbesondere möchten wir zeigen wie die IoT-Abonnements der Robonomics Parachain funktionieren. In der ersten Lektion wurde Ihre Adresse dem IoT-Abonnement des Kurses hinzugefügt und Sie haben es bereits zweimal genutzt, als sie  "Black Mirroder" benutzten und weiters Ihre Testergebnisse einreichten.

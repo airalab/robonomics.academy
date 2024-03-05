@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:58 GMT+0400 (Samara Standard Time)
 description: 在这节课中，您将尝试使用Robonomics平行链来控制智能灯泡。
 lessonNumber: 3
 metaOptions: [学习, Robonomics理念介绍]
-defaultName: 介绍duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 第2课解释了Robonomics的主要原则，并提到Polkadot / Kusama作为一个有前途的区块链生态系统平台来实现它。现在是时候更仔细地了解Robonomics平行链作为Kusama网络中Polkadot生态系统的一部分的功能了。特别是，我们想展示Robonomics Parachain的物联网订阅是如何工作的。在第一课中，您的地址已被添加到课程的物联网订阅中，并且您已经成功使用了两次：当您在黑镜子中寻找自己的倒影时以及提交测试结果时。

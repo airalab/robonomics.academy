@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:51 GMT+0400 (Samara Standard Time)
 description: سيعلمك هذا الدرس الافتتاحي الأساليب الأساسية للتفاعل مع تطبيق مركزي (أو dapp) موزع.
 lessonNumber: 1
 metaOptions: [يتعلم، مقدمة لأفكار روبونوميكس]
-defaultName: مقدمةduction to the ideas of Robonomics
+defaultName: Introduction to the ideas of Robonomics
 ---
 
 ## مقدمة

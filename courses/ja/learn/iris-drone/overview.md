@@ -3,7 +3,7 @@ title: 無人航空機を接続する
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: 無人航空機を接続する
 metaOptions: [学ぶ]
-defaultName: 接続 unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **トランザクション後にドローンが移動を開始し、座標をIPFSに保存します。制御スクリプトは[GAASデモスクリプト](https://github.com/generalized-intelligence/GAAS)に基づいています**  

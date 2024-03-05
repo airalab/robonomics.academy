@@ -3,7 +3,7 @@ title: "Lección #5, Suscripciones IoT usando Robonomics Parachain"
 lastUpdate: Thu May 04 2023 12:55:49 GMT+0400 (Samara Standard Time)
 description: Aprenderá cómo comprar una suscripción IoT en Robonomics Parachain utilizando tokens reales de nuestra red.
 lessonNumber: 5
-metaOptions: [Cursos online, Curso de Introducciónducciónducciónducciónducciónducciónducción]
+metaOptions: [Cursos online, Curso de Introducción]
 defaultName:  Introduction to the ideas of Robonomics
 ---
 

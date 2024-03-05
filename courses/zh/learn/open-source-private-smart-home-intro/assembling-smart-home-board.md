@@ -3,7 +3,7 @@ title: "组装智能家居面板"
 lastUpdate: Thu May 18 2023 10:46:29 GMT+0400 (Samara Standard Time)
 description: 您将学习如何组装智能家居面板！
 metaOptions: [学习]
-defaultName: 介绍duction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages imageClasses="mb" src="smart-home-intro/spring-school-2023-smart-stand-intro.gif" />

@@ -3,7 +3,7 @@ title: "Leçon n°3, Écosystème Polkadot pour l'infrastructure IoT domestique"
 lastUpdate: Thu May 04 2023 12:53:58 GMT+0400 (Samara Standard Time)
 description: Dans cette leçon, vous allez essayer de contrôler une ampoule intelligente en utilisant la parachain Robonomics.
 lessonNumber: 3
-metaOptions: [Apprendre, Introductionductionductionductionductionductionductionduction aux idées de Robonomics]
+metaOptions: [Apprendre, Introduction aux idées de Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---
 

@@ -3,7 +3,7 @@ title: Σύνδεση μη επανδρωμένου αεροσκάφους
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: Συνδεθείτε με αυτόματο αεροσκάφος
 metaOptions: [Μάθετε]
-defaultName: Σύνδεση unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **Το Drone αρχίζει να μετακινείται μετά τη συναλλαγή και αποθηκεύει το αρχείο με τις συντεταγμένες στο IPFS. Το σενάριο ελέγχου βασίζεται στο [σενάριο επίδειξης GAAS](https://github.com/generalized-intelligence/GAAS)**  

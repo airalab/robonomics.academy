@@ -3,7 +3,7 @@ title: "自動化の潜在能力を解放する"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: スマートホームスタンドの例を使って、日常生活をより簡単にする基本的な自動化について学びます。
 metaOptions: [学ぶ]
-defaultName: イントロduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>前回は、デモスタンドにさまざまなスマートデバイスを取り付け、接続するプロセスを経ました。もちろん、実際のアパートや家にはそれぞれ独自の特性があります。電気を扱う際には安全に注意し、自分が何をしているのかわからない場合は作業しないでください。

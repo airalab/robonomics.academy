@@ -3,7 +3,7 @@ title: "Leçon n°4, Architecture Robonomics"
 lastUpdate: Thu May 04 2023 12:54:02 GMT+0400 (Samara Standard Time)
 description: Dans cette leçon, vous étudierez la première moitié du deuxième chapitre du Livre Blanc Robonomics 2022 intitulé Architecture Robonomics.
 lessonNumber: 4
-metaOptions: [Apprendre, Introductionductionductionductionductionductionductionduction aux idées de Robonomics]
+metaOptions: [Apprendre, Introduction aux idées de Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---
 

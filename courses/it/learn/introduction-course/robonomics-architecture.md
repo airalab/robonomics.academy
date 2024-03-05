@@ -3,7 +3,7 @@ title: "Lezione #4, Architettura di Robonomics"
 lastUpdate: Thu May 04 2023 12:56:29 GMT+0400 (Samara Standard Time)
 description: Questa è un'altra lezione teoica, dove studierai la prima metà del secondo capitolo del Whitepaper 2022 di Robonomics intitolato "Robonomics Architettura".
 lessonNumber: 4
-metaOptions: [Cosi online, Corso Introduzioneduzioneduzioneduzioneduzioneduzioneduttivo]
+metaOptions: [Cosi online, Corso Introduzione]
 defaultName: Introduction to the ideas of Robonomics
 ---
 

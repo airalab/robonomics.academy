@@ -3,7 +3,7 @@ title: "مقدمة في الحلول مفتوحة المصدر للمنازل ا
 lastUpdate: Tue May 09 2023 13:56:49 GMT+0400 (Samara Standard Time)
 description: ستتعلم كيفية دمج الحلول مفتوحة المصدر مع أجهزة ذكية رخيصة لجعل منزلك الذكي موجهًا خصوصيًا وغير معتمد على السحب في عمله.
 metaOptions: [تعلم]
-defaultName: مقدمةduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages src="smart-home-intro/open-source-private-smart-home-intro.png" imageClasses="mb full" />

@@ -3,7 +3,7 @@ title: "مقدمة لأفكار روبونوميكس"
 lastUpdate: Tue May 09 2023 13:17:05 GMT+0400 (Samara Standard Time)
 description: مرحبًا بك في دورة المقدمة!
 metaOptions: [تعلم، مقدمة لأفكار روبونوميكس]
-defaultName: مقدمةduction to the ideas of Robonomics
+defaultName: Introduction to the ideas of Robonomics
 ---
 
 ## عن الدورة

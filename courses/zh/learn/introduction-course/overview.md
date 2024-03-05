@@ -3,7 +3,7 @@ title: "Robonomics理念介绍"
 lastUpdate: Tue May 09 2023 13:17:05 GMT+0400 (Samara Standard Time)
 description: 欢迎入门课程！
 metaOptions: [学习, Robonomics理念介绍]
-defaultName: 介绍duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## 关于课程

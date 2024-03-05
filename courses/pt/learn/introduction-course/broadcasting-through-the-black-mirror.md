@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:56:59 GMT+0400 (Samara Standard Time)
 description: Esta lição de abertura ensinará métodos básicos para interagir com uma aplicação descentralizada (ou dapp).
 lessonNumber: 1
 metaOptions: [Cursos on-line, Curso introdutório]
-defaultName: Introduçãoduçãoduçãoduçãoduçãoduçãoduction to the ideas of Robonomics
+defaultName: Introduction to the ideas of Robonomics
 ---
 
 

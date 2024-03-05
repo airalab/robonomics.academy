@@ -3,7 +3,7 @@ title: "Знакомство с решением для частных умны�
 lastUpdate: Tue May 09 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: Вы узнаете, как интегрировать решения с открытым исходным кодом с недорогими смарт устройствами, чтобы сделать ваш умный дом частным и не зависящим от облаков в своей работе.
 metaOptions: [Учить]
-defaultName: Вступлениеduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages src="smart-home-intro/open-source-private-smart-home-intro.png" imageClasses="mb full" />

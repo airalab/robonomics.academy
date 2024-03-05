@@ -3,7 +3,7 @@ title: "إطلاق إمكانيات الأتمتة"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: سوف تتعلم عن الأتمتة الأساسية التي تجعل الحياة اليومية أسهل على سبيل المثال من خلال واجهة منزل ذكي.
 metaOptions: [تعلم]
-defaultName: مقدمةduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>في المرة السابقة، قمنا بشرح عملية تثبيت وربط مختلف الأجهزة الذكية على واجهة العرض التجريبية. في شقة أو منزل حقيقي، بالطبع ستكون هناك خصائص خاصة بها. عند العمل مع الكهرباء، يجب عليك اتباع إجراءات السلامة وعدم العمل إذا لم تكن تعرف ما تفعله.

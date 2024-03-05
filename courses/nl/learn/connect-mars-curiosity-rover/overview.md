@@ -3,7 +3,7 @@ title: Verbind Mars Curiosity Rover
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: Verbind Mars Curiosity rover onder Robonomics parachain controle.
 metaOptions: [Leren]
-defaultName: Verbinden Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **Laten we eens kijken hoe Robonomics Parachain controle het mogelijk maakt om Mars Curiosity rover te laten bewegen. Vereisten:**

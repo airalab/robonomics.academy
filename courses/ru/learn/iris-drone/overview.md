@@ -3,7 +3,7 @@ title: Подключение беспилотного летательного 
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: Подключить беспилотный воздушный аппарат
 metaOptions: [Учиться]
-defaultName: Подключить unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **Дрон начинает движение после транзакции и сохраняет файл с координатами в IPFS. Управляющий скрипт основан на [демонстрационном скрипте GAAS](https://github.com/generalized-intelligence/GAAS)**  

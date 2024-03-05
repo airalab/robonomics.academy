@@ -3,7 +3,7 @@ title: "Liberte o Potencial da Automação"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: Você aprenderá sobre automações básicas que tornam a vida cotidiana mais fácil no exemplo de um suporte de casa inteligente.
 metaOptions: [Aprender]
-defaultName: Introduçãoduçãoduçãoduçãoduçãoduçãoduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <RoboAcademyText>Da última vez, passamos pelo processo de instalação e conexão de vários dispositivos inteligentes no suporte de demonstração. Em um apartamento ou casa real, é claro, haverá suas próprias características. Ao trabalhar com eletricidade, você deve seguir precauções de segurança e não trabalhar se não souber o que está fazendo.

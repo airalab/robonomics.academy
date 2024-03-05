@@ -3,7 +3,7 @@ title: "私人智能家居的开源解决方案介绍"
 lastUpdate: Tue May 09 2023 13:56:49 GMT+0400 (Samara Standard Time)
 description: 您将学习如何将开源解决方案与廉价的智能设备集成，使您的智能家居私密化，并且不依赖云进行工作。
 metaOptions: [学习]
-defaultName: 介绍duction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages src="smart-home-intro/open-source-private-smart-home-intro.png" imageClasses="mb full" />

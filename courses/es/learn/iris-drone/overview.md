@@ -3,7 +3,7 @@ title: Conectar vehículo aéreo no tripulado
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: Conectar vehículo aéreo no tripulado
 metaOptions: [Aprender]
-defaultName: Conectar unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **El dron comienza a moverse después de la transacción y almacena el archivo con las coordenadas en IPFS. El script de control se basa en el [script de demostración de GAAS](https://github.com/generalized-intelligence/GAAS)**  

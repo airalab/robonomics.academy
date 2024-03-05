@@ -3,7 +3,7 @@ title: توصيل الطائرة بدون طيار
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: الاتصال بالطائرة بدون طيار
 metaOptions: [تعلم]
-defaultName: اتصل unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **تبدأ الطائرة بدون طيار في التحرك بعد العملية وتخزين الملف مع الإحداثيات في IPFS. يعتمد البرنامج النصي للتحكم على [برنامج العرض التوضيحي لـ GAAS](https://github.com/generalized-intelligence/GAAS)**  

@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:58 GMT+0400 (Samara Standard Time)
 description: في هذا الدرس، ستحاول التحكم في مصباح ذكي باستخدام Robonomics parachain.
 lessonNumber: 3
 metaOptions: [يتعلم، مقدمة لأفكار روبونوميكس]
-defaultName: مقدمةduction to the ideas of Robonomics
+defaultName: Introduction to the ideas of Robonomics
 ---
 
 شرح الدرس 2 المبادئ الرئيسية لـ Robonomics وأشار إلى Polkadot / Kusama كمنصة واعدة لبيئة البلوكشين لتنفيذه. حان الوقت للنظر بعناية في وظائف Robonomics parachain كجزء من بيئة Polkadot في شبكة Kusama. على وجه الخصوص، نود أن نوضح كيفية عمل اشتراكات الإنترنت لـ Robonomics Parachain. خلال الدرس الأول، تمت إضافة عنوانك إلى اشتراك دورة الإنترنت الذكية، ولقد تمكنت بالفعل من استخدامه مرتين: عندما بحثت عن انعكاسك في المرآة السوداء وعندما قدمت نتائج اختبارك.

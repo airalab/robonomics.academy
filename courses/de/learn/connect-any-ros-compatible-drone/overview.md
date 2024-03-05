@@ -3,7 +3,7 @@ title: Verbinden Sie einen ROS-kompatiblen Drohne
 lastUpdate: Thu May 04 2023 12:52:55 GMT+0400 (Samara Standard Time)
 description: Verbinden Sie einen beliebigen ROS-kompatiblen Roboter unter der Kontrolle der Robonomics-Parachain.
 metaOptions: [Lernen]
-defaultName: Verbinden Sie einen ROS-kompatiblen Drohne
+defaultName: Connect ROS-compatible drone
 ---
 
 

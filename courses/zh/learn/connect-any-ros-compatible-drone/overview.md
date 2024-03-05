@@ -3,7 +3,7 @@ title: 连接ROS兼容的无人机
 lastUpdate: Thu May 04 2023 12:52:55 GMT+0400 (Samara Standard Time)
 description: 将任何兼容Robonomics空投链控制的ROS兼容机器人连接起来。
 metaOptions: [学习]
-defaultName: 连接ROS兼容的无人机
+defaultName: Connect ROS-compatible drone
 ---
 
 

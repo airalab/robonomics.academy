@@ -3,7 +3,7 @@ title: "Εισαγωγή στις ιδέες του Robonomics"
 lastUpdate: Tue May 09 2023 13:17:05 GMT+0400 (Samara Standard Time)
 description: Καλώς ήρθατε στο Εισαγωγικό Μάθημα!
 metaOptions: [Μάθετε, Εισαγωγή στις ιδέες του Robonomics]
-defaultName: Εισαγωγήduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## Σχετικά με το μάθημα

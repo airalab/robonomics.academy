@@ -3,7 +3,7 @@ title: 화성 큐리오시티 로버 연결
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: 로보노믹스 파라체인 제어 하에 화성 큐리오시티 로버 연결.
 metaOptions: [배우다]
-defaultName: 연결 Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **로보노믹스 파라체인 제어가 화성 큐리오시티 로버 이동을 가능하게 하는 방법을 살펴봅시다. 요구 사항:**

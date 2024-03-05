@@ -4,7 +4,7 @@ lastUpdate: Tue May 09 2023 13:41:40 GMT+0400 (Samara Standard Time)
 description: Willkommens-Einführungskurs!
 lessonNumber: 0
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Einführungduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## Über den Kurs

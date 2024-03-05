@@ -3,7 +3,7 @@ title: "Leçon n°5, Abonnements IoT en utilisant Robonomics Parachain"
 lastUpdate: Thu May 04 2023 12:53:55 GMT+0400 (Samara Standard Time)
 description: Vous apprendrez comment acheter un abonnement IoT sur Robonomics Parachain en utilisant de vrais jetons de notre réseau.
 lessonNumber: 5
-metaOptions: [Apprendre, Introductionductionductionductionductionductionductionduction aux idées de Robonomics]
+metaOptions: [Apprendre, Introduction aux idées de Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---
 

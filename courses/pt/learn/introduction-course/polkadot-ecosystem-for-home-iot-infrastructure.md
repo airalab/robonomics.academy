@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:57:05 GMT+0400 (Samara Standard Time)
 description: Nesta lição, você tentará controlar uma lâmpada inteligente que funciona através do Home Assistant, que possui módulos Robonomics adicionais.
 lessonNumber: 3
 metaOptions: [Cursos on-line, Curso introdutório]
-defaultName: Introduçãoduçãoduçãoduçãoduçãoduçãoduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 A lição 2 explicou os princípios fundamentais da Robonomics e mencionou Polkadot / Kusama como uma blockchain promissoua para sua implementação. Em particular, gostaríamos de mostrar como funcionam as assinaturas IoT da  Parachain Robonomics. Durante a primeira lição, seu endereço foi incluído na assinatura do curso IoT, e você já conseguiu usá-lo duas vezes: quando você procurou seu reflexo no espelho negro e quando entregou seus resultados do teste.

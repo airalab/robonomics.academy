@@ -3,7 +3,7 @@ title: 무인 항공기 연결
 lastUpdate: Thu May 04 2023 12:53:05 GMT+0400 (Samara Standard Time)
 description: 무인 항공기 연결
 metaOptions: [배우다]
-defaultName: 연결 unmanned aerial vehicle
+defaultName: Connect unmanned aerial vehicle
 ---
 
 **트랜잭션 후 드론이 이동을 시작하고 좌표와 함께 파일을 IPFS에 저장합니다. 제어 스크립트는 [GAAS 데모 스크립트](https://github.com/generalized-intelligence/GAAS)를 기반으로 합니다**  

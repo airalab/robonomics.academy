@@ -3,7 +3,7 @@ title: "Вступ до відкритого рішення для приват�
 lastUpdate: Tue May 09 2023 13:56:49 GMT+0400 (Samara Standard Time)
 description: Ви дізнаєтеся, як інтегрувати відкриті рішення з недорогими розумними пристроями, щоб зробити свій розумний будинок приватно орієнтованим і не залежним від хмар у своїй роботі.
 metaOptions: [Вивчайте]
-defaultName: Вступduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages src="smart-home-intro/open-source-private-smart-home-intro.png" imageClasses="mb full" />

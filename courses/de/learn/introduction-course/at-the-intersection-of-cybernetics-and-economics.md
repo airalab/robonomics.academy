@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:52:13 GMT+0400 (Samara Standard Time)
 description: In die neuesten web3-Technologien am Schnittpunkt von Kybernetik und Wirtschaft die dazu beitragen sollen, dass IoT-Systeme in unseren Häusern und Städten sicher und effizient funktionieren.
 lessonNumber: 2
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Einführungduction to the ideas of Robonomics
+defaultName: Introduction to the ideas of Robonomics
 ---
 
 Wir freuen uns, dass es Ihnen gelungen ist durch den "black Mirroder" zu gehen und nicht in der digitalen Welt zu ertrinken. Jetzt tauchen wir weiter ein... in die neuesten web3-Technologien am Schnittpunkt von Kybernetik und Wirtschaft die dazu beitragen sollen, dass IoT-Systeme in unseren Häusern und Städten sicher und effizient funktionieren.

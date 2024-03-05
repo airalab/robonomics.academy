@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:55 GMT+0400 (Samara Standard Time)
 description: Robonomics Parachainを使用してIoTサブスクリプションを購入する方法を学びます。
 lessonNumber: 5
 metaOptions: [学ぶ, Robonomicsのアイデアについての紹介]
-defaultName: イントロduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 導入コースの最後のレッスンは、ある程度の忍耐が必要となるため、おそらく最も難しいレッスンです。 当社のネットワークの実際のトークンを使用して、ロボノミクス パラチェーンで IoT サブスクリプションを購入する方法を学びます。

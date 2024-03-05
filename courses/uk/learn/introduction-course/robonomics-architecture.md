@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:54:02 GMT+0400 (Samara Standard Time)
 description: На цьому уроці ви вивчите першу половину другого розділу Білінга Robonomics 2022 під назвою Архітектура Robonomics.
 lessonNumber: 4
 metaOptions: [Вчитися, Вступ до ідей Робономіки]
-defaultName: Вступduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## Вступ

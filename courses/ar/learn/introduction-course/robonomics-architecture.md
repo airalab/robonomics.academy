@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:54:02 GMT+0400 (Samara Standard Time)
 description: في هذا الدرس ستدرس النصف الأول من الفصل الثاني من ورقة عمل Robonomics 2022 بعنوان هندسة Robonomics.
 lessonNumber: 4
 metaOptions: [يتعلم، مقدمة لأفكار روبونوميكس]
-defaultName: مقدمةduction to the ideas of Robonomics
+defaultName: Introduction to the ideas of Robonomics
 ---
 
 ## مقدمة

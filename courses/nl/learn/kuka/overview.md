@@ -2,7 +2,7 @@
 title: Verbind Kuka manipulator
 description: Verbind Manipulator
 metaOptions: [Leren]
-defaultName: Verbinden Kuka manipulator
+defaultName:  Connect Kuka manipulator
 ---
 
 Video met een voorbeeld van werk kan hier worden gevonden:

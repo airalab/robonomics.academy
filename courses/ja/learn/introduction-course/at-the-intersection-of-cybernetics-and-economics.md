@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:48 GMT+0400 (Samara Standard Time)
 description: サイバネティクスと経済の交差点で最新のweb3テクノロジーの理論に飛び込み、私たちの家や都市でIoTシステムが安全かつ効率的に機能するのを支援するために設計されています。
 lessonNumber: 2
 metaOptions: [学ぶ, Robonomicsのアイデアについての紹介]
-defaultName: イントロduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 あなたがブラックミラーを通過し、デジタルの世界に溺れないで済んだことをうれしく思います。今度は、もっと深いダイブがあなたを待っています...サイバネティクスと経済の交差点で最新のweb3テクノロジーの理論に飛び込むことです。これらは、IoTシステムが私たちの家や都市で安全かつ効率的に機能するように設計されています。

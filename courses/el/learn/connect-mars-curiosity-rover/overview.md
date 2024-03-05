@@ -3,7 +3,7 @@ title: Σύνδεση με το ρόβερ Curiosity του Άρη
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: Σύνδεση με το ρόβερ Curiosity του Άρη υπό τον έλεγχο του Robonomics parachain.
 metaOptions: [Μάθετε]
-defaultName: Σύνδεση Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **Ας δούμε πώς ο έλεγχος του Robonomics Parachain επιτρέπει στο ρόβερ Curiosity του Άρη να κινηθεί. Απαιτήσεις:**

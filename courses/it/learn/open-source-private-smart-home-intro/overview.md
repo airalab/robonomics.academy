@@ -1,5 +1,5 @@
 ---
-title: "Introduzioneduzioneduzioneduzioneduzioneduzioneduzione alla soluzione open source per smart home private"
+title: "Introduzione alla soluzione open source per smart home private"
 lastUpdate: Tue May 09 2023 13:56:49 GMT+0400 (Samara Standard Time)
 description: Imparerai come integrare soluzioni open source con dispositivi smart economici per rendere la tua smart home orientata alla privacy e non dipendente dai cloud nel suo funzionamento.
 metaOptions: [Imparare]

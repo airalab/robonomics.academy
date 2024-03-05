@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:51 GMT+0400 (Samara Standard Time)
 description: このオープニングレッスンでは、分散型アプリケーション（またはdapp）との基本的なやり取り方法を学びます。
 lessonNumber: 1
 metaOptions: [学ぶ, Robonomicsのアイデアについての紹介]
-defaultName: イントロduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## イントロ

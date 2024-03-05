@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:51 GMT+0400 (Samara Standard Time)
 description: Цей вступний урок навчить вас основним методам взаємодії з децентралізованою програмою (або додатком).
 lessonNumber: 1
 metaOptions: [Вчитися, Вступ до ідей Робономіки]
-defaultName: Вступduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## Вступ

@@ -3,7 +3,7 @@ title: "스마트 홈 보드 조립"
 lastUpdate: Thu May 18 2023 10:46:29 GMT+0400 (Samara Standard Time)
 description: 스마트 홈 보드를 어떻게 조립하는지 배우게 될 것입니다!
 metaOptions: [배우다]
-defaultName: 소개duction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages imageClasses="mb" src="smart-home-intro/spring-school-2023-smart-stand-intro.gif" />

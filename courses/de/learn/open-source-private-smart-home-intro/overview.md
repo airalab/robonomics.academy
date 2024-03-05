@@ -3,7 +3,7 @@ title: "Einführung in Open-Source-Lösungen für private Smart Homes"
 lastUpdate: Tue May 09 2023 13:56:49 GMT+0400 (Samara Standard Time)
 description: Sie werden lernen, wie Sie Open-Source-Lösungen mit preiswerten Smart-Geräten integrieren können, um Ihr Smart Home privat auszurichten und nicht von Clouds abhängig zu machen.
 metaOptions: [Lernen]
-defaultName: Einführungduction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages src="smart-home-intro/open-source-private-smart-home-intro.png" imageClasses="mb full" />

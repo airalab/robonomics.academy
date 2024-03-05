@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:53:48 GMT+0400 (Samara Standard Time)
 description: 사이버네틱스와 경제의 교차점에서 최신 웹3 기술 이론에 뛰어들어보세요. 이 기술은 우리 집과 도시에서 IoT 시스템이 안전하고 효율적으로 작동할 수 있도록 설계되었습니다.
 lessonNumber: 2
 metaOptions: [배우다, 로보노믹스 아이디어 소개]
-defaultName: 소개duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 당신이 디지털 세계에서 익사하지 않고 검은 거울을 통과할 수 있어 기쁩니다. 이제 더 깊은 다이브가 당신을 기다립니다... 사이버네틱스와 경제의 교차점에서 최신 웹3 기술 이론에 뛰어들어보세요. 이 기술은 우리 집과 도시에서 IoT 시스템이 안전하고 효율적으로 작동할 수 있도록 설계되었습니다.

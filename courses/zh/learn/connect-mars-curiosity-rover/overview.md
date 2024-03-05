@@ -3,7 +3,7 @@ title: 连接火星好奇号探测器
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: 将火星好奇号探测器连接到Robonomics空投控制下。
 metaOptions: [学习]
-defaultName: 连接 Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **让我们看看Robonomics Parachain控制如何使火星好奇号探测器移动。要求:**

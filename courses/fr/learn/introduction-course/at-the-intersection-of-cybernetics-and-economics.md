@@ -3,7 +3,7 @@ title: "Leçon n°2, À l'intersection de la cybernétique et de l'économie"
 lastUpdate: Thu May 04 2023 12:53:48 GMT+0400 (Samara Standard Time)
 description: Plongez dans la théouie des dernières technologies web3 à l'intersection de la cybernétique et de l'économie, conçues pour aider les systèmes IoT à fonctionner de manière sûre et efficace dans nos foyers et nos villes.
 lessonNumber: 2
-metaOptions: [Apprendre, Introductionductionductionductionductionductionductionduction aux idées de Robonomics]
+metaOptions: [Apprendre, Introduction aux idées de Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---
 

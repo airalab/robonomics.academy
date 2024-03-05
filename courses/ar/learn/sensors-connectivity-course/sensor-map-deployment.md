@@ -3,7 +3,7 @@ title: "الدرس #6، نشر خريطة الاستشعار"
 description: 'نشر خريطة الاستشعار'
 lessonNumber: 6
 metaOptions: [تعلم, توصيل الاستشعار وشبكة الاستشعار اللامركزية]
-defaultName: Sensors Connectivity & Decentralized Sensors Networ
+defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---
 
 بعد تجميع جهاز الاستشعار وإعداد وحدة توصيل الأجهزة الاستشعار، حان الوقت لنشر خريطة الاستشعار اللامركزية الشخصية.

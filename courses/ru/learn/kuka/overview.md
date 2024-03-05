@@ -2,7 +2,7 @@
 title: Подключите манипулятор Kuka
 description: Подключите манипулятор
 metaOptions: [Учиться]
-defaultName: Подключить Kuka manipulator
+defaultName: Connect Kuka manipulator
 ---
 
 Видео с примером работы можно найти здесь:

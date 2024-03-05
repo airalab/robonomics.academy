@@ -2,7 +2,7 @@
 title: التقي بزوي الزوجة المنزلية الوهمية وقصتها
 description: حلاً للمنزل الذكي بحثاً عن الزوجة المزيفة والذكاء الاصطناعي
 metaOptions: [تعلم، حلاً للمنزل الذكي بحثاً عن الزوجة المزيفة والذكاء الاصطناعي]
-defaultName: حلاً للمنزل الذكي بحثاً عن الزوجة المزيفة والذكاء الاصطناعي
+defaultName: Fake Housewife & AI research Smart Home Solution
 ---
 
 <LessonImages imageClasses="mb"  src='fake-housewife-and-ai-research-smart-home-solution/lesson-2-banner.png' alt="fake housewife ai" />

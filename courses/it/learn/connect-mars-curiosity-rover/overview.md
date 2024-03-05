@@ -3,7 +3,7 @@ title: Collega il rover Curiosity di Marte
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: Collega il rover Curiosity di Marte sotto il controllo del parachain Robonomics.
 metaOptions: [Impara]
-defaultName: Collegare Mars Curiosity Rover
+defaultName: Connect Mars Curiosity Rover
 ---
 
 **Vediamo come il controllo del parachain Robonomics permette di far muovere il rover Curiosity di Marte. Requisiti:**

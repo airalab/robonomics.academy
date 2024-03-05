@@ -3,7 +3,7 @@ title: "Leçon n°1, Diffusion à travers le miroir noir"
 lastUpdate: Thu May 04 2023 12:53:51 GMT+0400 (Samara Standard Time)
 description: Cette leçon d'ouverture vous apprendra les méthodes de base pour interagir avec une application décentralisée (ou dapp).
 lessonNumber: 1
-metaOptions: [Apprendre, Introductionductionductionductionductionductionductionduction aux idées de Robonomics]
+metaOptions: [Apprendre, Introduction aux idées de Robonomics]
 defaultName: Introduction to the ideas of Robonomics
 ---
 

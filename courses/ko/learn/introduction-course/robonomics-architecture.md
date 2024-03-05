@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:54:02 GMT+0400 (Samara Standard Time)
 description: 이 레슨에서는 로보노믹스 화이트페이퍼 2022의 두 번째 장의 첫 번째 절인 로보노믹스 아키텍처를 공부할 것입니다.
 lessonNumber: 4
 metaOptions: [배우다, 로보노믹스 아이디어 소개]
-defaultName: 소개duction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 ## 소개

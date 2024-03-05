@@ -1,5 +1,5 @@
 ---
-title: Connectezezezezez le rover Curiosity de Mars
+title: Connectez le rover Curiosity de Mars
 lastUpdate: Thu May 18 2023 10:41:00 GMT+0400 (Samara Standard Time)
 description: Connectez le rover Curiosity de Mars sous le contrôle du parachain Robonomics.
 metaOptions: [Apprendre]

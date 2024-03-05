@@ -3,7 +3,7 @@ title: "개인 스마트 홈을위한 오픈 소스 솔루션 소개"
 lastUpdate: Tue May 09 2023 13:56:49 GMT+0400 (Samara Standard Time)
 description: 저렴한 스마트 기기와 오픈 소스 솔루션을 통합하여 스마트 홈을 개인적으로 지향하고 작업에서 구름에 의존하지 않도록하는 방법을 배우게 될 것입니다.
 metaOptions: [배우다]
-defaultName: 소개duction to open source solution for private smart homes
+defaultName: Introduction to open source solution for private smart homes
 ---
 
 <LessonImages src="smart-home-intro/open-source-private-smart-home-intro.png" imageClasses="mb full" />
