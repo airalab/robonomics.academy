@@ -4,11 +4,11 @@ lastUpdate: Thu May 04 2023 12:55:52 GMT+0400 (Samara Standard Time)
 description: En esta lección, intentará controlar una bombilla inteligente que funciona a través de Home Assistant, que tiene módulos Robonomics adicionales.
 lessonNumber: 3
 metaOptions: [Cursos online, Curso de Introducción]
-defaultName: Introduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 
-La Lección 2 explicó los principios fundamentales de Robonomics y mencionó a Polkadot / Kusama como una plataforma de ecosistema blockchain prometedora para su implementación. Es hora de echar un vistazo más de cerca a las funciones de Robonomics Parachain como parte del ecosistema Polkadot en la red Kusama. En particular, nos gustaría mostrar cómo funcionan las suscripciones IoT de Robonomics Parachain. Durante la primera lección, su dirección se agregó a la suscripción del curso IoT y ya logró usarla dos veces: cuando buscó su reflejo en el espejo negro y cuando entregó los resultados de su prueba.
+La Lección 2 explicó los principios fundamentales de Robonomics y mencionó a Polkadot / Kusama como una platafoma de ecosistema blockchain prometedoa para su implementación. Es hoa de echar un vistazo más de cerca a las funciones de Robonomics Parachain como parte del ecosistema Polkadot en la red Kusama. En particular, nos gustaría mostrar cómo funcionan las suscripciones IoT de Robonomics Parachain. Durante la primera lección, su dirección se agregó a la suscripción del curso IoT y ya logró usarla dos veces: cuando buscó su reflejo en el espejo negro y cuando entregó los resultados de su prueba.
 
 
 ## Intro
@@ -81,6 +81,6 @@ No olvides abrir la [transmisión en YouTube](https://www.youtube.com/channel/UC
 
 La lección se considerará completada después de enviar una transacción exitosa y su aparición en el explorador Polkadot para su cuenta polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puedes verificar tus resultados en [la dapp de verificación especial](https://lk.robonomics.academy/). Para autorización en la dapp de verificación, utiliza la misma cuenta en Polkadot.js que se usó durante el curso.
 
 </Result>

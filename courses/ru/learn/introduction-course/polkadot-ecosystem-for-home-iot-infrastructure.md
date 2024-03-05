@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:58:21 GMT+0400 (Samara Standard Time)
 description: В этом уроке вы попробуете управлять умной лампочкой, которая работает через Home Assistant с дополнительными модулями Робономики.
 lessonNumber: 3
 metaOptions: [Онлайн курсы, Вводный курс]
-defaultName: Introduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 Урок 2 объясняет основные принципы Робономики и рассказывает о Polkadot / Kusama, как о перспективной блокчейн-платформе для реализации этих принципов. Пришло время более подробно рассмотреть функции парачейна Робономики как части экосистемы Polkadot в сети Kusama. В частности, мы хотели бы показать, как работают IoT-подписки парачейна Робономики. На первом занятии ваш адрес был добавлен в подписку на IoT-курс, и вы уже успели им воспользоваться дважды: когда искали свое отражение в черном зеркале и когда сдавали результаты теста.
@@ -12,7 +12,7 @@ defaultName: Introduction to the ideas of Robonomics
 
 ## Вступление
 
-В этом уроке вы попробуете управлять умной лампочкой, которая работает через Home Assistant с дополнительными модулями Робономики. Ваша цель — включать/выключать лампочку с помощью стандартного интерфейса Polkadot/Substrate в парачейне Робономики. Лампочка транслируется на [YouTube](https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live), поэтому вы можете наблюдать за своим результатом в режиме реального времени. Кроме того, более подробный набор инструкций по использованию IoT-подписки доступен на нашем сайте [wiki](https://wiki.robonomics.network/docs/subscription-launch/).
+В этом уроке вы попробуете управлять умной лампочкой, которая работает через Home Assistant с дополнительными модулями Робономики. Ваша цель — включать/выключать лампочку с помощью стандартного интерфейса Polkadot/Substrate в парачейне Робономики. Лампочка транслируется на [YouTube](https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live), поэтому вы можете наблюдать за своим результатом в режиме реального времени. Кроме того, более подробный набор инструкций по использованию IoT-подписки доступен на нашем сайте [wiki](https://wiki.robonomics.netwилиk/docs/subscription-launch/).
 
 
 ## Инструкция
@@ -21,7 +21,7 @@ defaultName: Introduction to the ideas of Robonomics
 
 <li>
 
-Откройте портал Робономики на [Polkadot/Substrate](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/extrinsics).
+Откройте портал Робономики на [Polkadot/Substrate](https://polkadot.js.илиg/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.netwилиk%2F#/extrinsics).
 
 Вы увидите меню Extrinsics (экстринсики - это функции в экосистеме Polkadot). Если Extrinsics не открывается, перейдите с помощью меню в левом верхнем углу страницы в раздел <code> Kusama & Parachains -> Robonomics</code>, и нажмите <code>Switch</code>. Затем перейдите наверх к <code>Developer</code> а затем к <code>Extrinsics</code>.
 

@@ -62,4 +62,3 @@ At the dawn of the development of smart homes, it was difficult to imagine a sit
   <span class="accent">Attention</span>: to flash the SLS Gateway, you will need a Windows operating system.
 </li>
 </List>
-

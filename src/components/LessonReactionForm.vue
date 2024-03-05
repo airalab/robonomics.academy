@@ -6,7 +6,7 @@
         <span class="lesson-reaction__check" v-if="$store.state.currentReaction === text">
         <!-- <font-awesome-icon icon="fa-solid fa-check" aria-hidden="true"/> -->
         </span>
-        <h3>{{ $store.state.currentReaction }}? Tell us more</h3>
+        <h3>{{ $store.state.currentReaction }}? {{ $t('Tell us more') }}</h3>
       </div>
       <span tabindex="0" class="lesson-reaction__close" @click="$emit('closeForm')">
         <font-awesome-icon icon="fa-solid fa-xmark" aria-hidden="true"/>
@@ -49,11 +49,11 @@
 
         <button class="lesson-reaction-form__btn btn-blue" @click="form" :disabled="result === 'wait'">
           <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'init' || result === 'error'">
-            <span>Send</span>
+            <span>{{ $t('Send') }}</span>
           </div>
           <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'wait'">
             <Loader/>
-            <span>Sending your info...</span>
+            <span>{{$t('Sending your info...')}}</span>
           </div>
         </button>
       </div>
@@ -61,7 +61,7 @@
 
     <div class="lesson-reaction-form__success" v-if="result === 'success'">
       <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true"/>
-      <div>Thanks,<br/> we’ll keep in touch!</div>
+      <div>{{$t('Thanks')}},<br/> {{$t('we’ll keep in touch')}}!</div>
     </div>
 
   </div>

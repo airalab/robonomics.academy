@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="language-wrapper">
     <select class="language-select" v-if="locales" tabindex="0" @change="changelocale($event)">
 
       <template v-for="(item) in locales">
@@ -12,6 +12,7 @@
 
     </select>
     <span class="helper-element" aria-hidden="true"></span>
+    <span class="ai" v-if="$locale !== 'en'">AI</span>
   </div>
 </template>
 
@@ -76,6 +77,10 @@ export default {
 </script>
 
 <style scoped>
+  .language-wrapper {
+    position: relative;
+  }
+
   select {
     background-image: url("data:image/svg+xml,%3Csvg width='9' height='6' viewBox='0 0 9 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.5 6L8.39711 0H0.602886L4.5 6Z' fill='%23232323'/%3E%3C/svg%3E");
     background-position: right 7px top 11px;
@@ -96,6 +101,21 @@ export default {
     position: absolute;
     top: 0;
     left: -9999px;
+  }
+
+  .ai {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    width: 25px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(var(--font-size) * 0.6);
+    color: var(--color-light);
+    background-color: var(--color-dark);
+    z-index: -1;
   }
 
   @media screen and (max-width: 450px) {

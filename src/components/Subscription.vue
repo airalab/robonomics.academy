@@ -9,12 +9,12 @@
       <span class="footer__line"></span>
     </div>
     <div class="footer__container footer__subscribe">
-      <h2>{{ $ts('Get Notifications & Updates') }}</h2>
+      <h2>{{ $t('Get Notifications & Updates') }}</h2>
       <gsp-form :gscriptID="gscript" :siteKey="captcha" :class="result">
 
         <div class="container__narrow">
 
-          <input type="email" :placeholder="$ts('Your email')" class="container__full" required data-gsp-name="email"
+          <input type="email" :placeholder="$t('Your email')" class="container__full" required data-gsp-name="email"
             :data-gsp-data="email" v-model="email" />
 
           <input type="hidden" data-gsp-name="tags" data-gsp-data="academy news" />
@@ -27,12 +27,12 @@
           />
 
           <button @click="form" :disabled="result === 'wait'">
-            <span v-if="result === 'init' || result === 'error'">{{$ts('Submit')}}</span>
-            <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>
-            <span v-if="result === 'success'">{{$ts('You are in the list')}}</span>
+            <span v-if="result === 'init' || result === 'error'">{{$t('Submit')}}</span>
+            <span v-if="result === 'wait'">{{$t('Sending your request')}}</span>
+            <span v-if="result === 'success'">{{$t('You are in the list')}}</span>
             <Loader v-if="result === 'wait'"/>
           </button>
-          <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team')}}.</p>
+          <p>{{$t('By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team')}}.</p>
         </div>
       </gsp-form>
     </div>

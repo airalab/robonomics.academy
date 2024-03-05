@@ -16,3 +16,27 @@
 - lang: Português
   abbr: pt
   id: 5
+- lang: 中文
+  abbr: zh
+  id: 6
+- lang: 한국어
+  abbr: ko
+  id: 7
+- lang: 日本
+  abbr: ja
+  id: 8
+- lang: Українська
+  abbr: uk
+  id: 9
+- lang: اللغة العربية
+  abbr: ar
+  id: 10
+- lang: Ελληνικά
+  abbr: el
+  id: 11
+- lang: Nederlandse
+  abbr: nl
+  id: 12
+- lang: Français
+  abbr: fr
+  id: 13

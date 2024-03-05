@@ -1,15 +1,15 @@
 ---
 title: "Lektion #4, Robonomics-Architektur"
 lastUpdate: Thu May 04 2023 12:52:27 GMT+0400 (Samara Standard Time)
-description: Diese Lektion ist wieder der Theorie gewidmet. Sie werden die erste Hälfte des zweiten Kapitels des Robonomics Whitepapers 2022 mit dem Titel "Robonomics Architecture" studieren.
+description: Diese Lektion ist wieder der Theoderie gewidmet. Sie werden die erste Hälfte des zweiten Kapitels des Robonomics Whitepapers 2022 mit dem Titel "Robonomics Architektur" studieren.
 lessonNumber: 4
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Introduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
-## Intro
+## Einführung
 
-Diese Lektion ist wieder der Theorie gewidmet. Sie werden die erste Hälfte des zweiten Kapitels des Robonomics Whitepapers 2022 mit dem Titel **"Robonomics Architecture"** studieren. Insbesondere untersuchen wir einige der praktischen Fragen und Herausforderungen bei der Erstellung eines gut funktionierenden IoT-Systems. Wir gehen diesen Fragen nach, denn nur so können wir die Anforderungen an IoT-Plattformen wie Robonomics verstehen.
+Diese Lektion ist wieder der Theoderie gewidmet. Sie werden die erste Hälfte des zweiten Kapitels des Robonomics Whitepapers 2022 mit dem Titel **"Robonomics Architecture"** studieren. Insbesondere untersuchen wir einige der praktischen Fragen und Herausfoderderungen bei der Erstellung eines gut funktionierenden IoT-Systems. Wir gehen diesen Fragen nach, denn nur so können wir die Anforderungen an IoT-Plattformen wie Robonomics verstehen.
 
 ## Das werden Sie lernen:
 
@@ -73,6 +73,6 @@ Wie in der vorangegangenen Lektion signieren Sie Ihre Transaktion und überprüf
 
 Die Lektion gilt als abgeschlossen, wenn die Transaktion erfolgreich gesendet wurde und im Polkadot-Explorer für Ihr polkadot.js-Konto erscheint.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Sie können Ihre Ergebnisse auf [der speziellen Überprüfungs-Dapp](https://lk.robonomics.academy/) überprüfen. Zur Autorisierung in der Überprüfungs-Dapp verwenden Sie dasselbe Konto in Polkadot.js, das während des Kurses verwendet wurde.
 
 </Result>

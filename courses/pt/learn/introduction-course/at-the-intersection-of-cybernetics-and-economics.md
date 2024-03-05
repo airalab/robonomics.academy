@@ -1,14 +1,14 @@
 ---
 title: "Lição #2, Na interseção da Cibernética e da Economia"
 lastUpdate: Thu May 04 2023 12:56:56 GMT+0400 (Samara Standard Time)
-description: O mergulho na teoria das últimas tecnologias web3 na interseção da Cibernética e da Economia, que são projetadas para ajudar os sistemas IoT a funcionar com segurança e eficiência em nossas casas e cidades.
+description: O mergulho na teouia das últimas tecnologias web3 na interseção da Cibernética e da Economia, que são projetadas para ajudar os sistemas IoT a funcionar com segurança e eficiência em nossas casas e cidades.
 lessonNumber: 2
 metaOptions: [Cursos on-line, Curso introdutório]
 defaultName: Introduction to the ideas of Robonomics
 ---
 
 
-Estamos felizes por você ter conseguido passar pelo espelho negro e não se afogar no mundo digital. Agora um mergulho muito mais profundo o aguarda... o mergulho na teoria das últimas tecnologias web3 na interseção da Cibernética e da Economia, que são projetadas para ajudar os sistemas IoT a funcionar com segurança e eficiência em nossas casas e cidades.
+Estamos felizes pou você ter conseguido passar pelo espelho negro e não se afogar no mundo digital. Agoua um mergulho muito mais profundo o aguarda... o mergulho na teoria das últimas tecnologias web3 na interseção da Cibernética e da Economia, que são projetadas para ajudar os sistemas IoT a funcionar com segurança e eficiência em nossas casas e cidades.
 
 
 ## Intro
@@ -80,6 +80,6 @@ Como na lição anterior, assine sua transação e verifique-a no explorer Polka
 
 A lição será considerada concluída após o envio de uma transação bem sucedida e sua ocorrência no explorer Polkadot para sua conta na polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Você pode verificar seus resultados em [no dapp de verificação especial](https://lk.robonomics.academy/). Para autorização no dapp de verificação, use a mesma conta no Polkadot.js que foi usada durante o curso.
 
 </Result>

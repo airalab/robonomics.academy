@@ -3,12 +3,12 @@ title: "Lezione #5, Abbonamenti IoT con la Parachain Robonomics"
 lastUpdate: Thu May 04 2023 12:56:21 GMT+0400 (Samara Standard Time)
 description: Imparerai ad acquistare un abbonamento IoT sulla Parachain Robonomics utilizzando i veri token della nostra rete.
 lessonNumber: 5
-metaOptions: [Corsi online, Corso Introduttivo]
+metaOptions: [Cosi online, Corso Introduzione]
 defaultName: Introduction to the ideas of Robonomics
 ---
 
 
-L'ultima lezione del nostro corso introduttivo è molto probabilmente la più difficile, perché ti richiederà un po' di manualità e pazienza. Imparerai ad acquistare un abbonamento IoT sulla Parachain Robonomics utilizzando i veri token della nostra rete.
+L'ultima lezione del nostro coso introduttivo è molto probabilmente la più difficile, perché ti richiederà un po' di manualità e pazienza. Imparerai ad acquistare un abbonamento IoT sulla Parachain Robonomics utilizzando i veri token della nostra rete.
 
 
 
@@ -28,11 +28,11 @@ Il metodo principale per acquistare un abbonamento è partecipare a una sua asta
 
 You need around 2 XRT Robonomics Parachain tokens ([riguardo al token](https://robonomics.network/xrt/)). Se non ne hai, puoi ottenerli in diversi modi:
 
-a) If you pass both tests after Lesson 2 and Lesson 4 with 90% correct answers, you can request free tokens for the lesson. Check your scores on [the special checking dapp](https://lk.robonomics.academy/). Specifically, you need to score 15 out of 17 for Lesson 2 and 10 out of 11 for Lesson 4, and you have two attempts to do this. To get tokens, contact the Academy Administrator on our [Discord](https://discord.gg/xqDgG3EGm9) (IBerman#5862).
+a) Se superi entrambi i test dopo la Lezione 2 e la Lezione 4 con il 90% di risposte corrette, puoi richiedere token gratuiti per la lezione. Controlla i tuoi punteggi sul [dapp di controllo speciale](https://lk.robonomics.academy/). In particolare, devi ottenere 15 su 17 per la Lezione 2 e 10 su 11 per la Lezione 4, e hai due tentativi per farlo. Per ottenere i token, contatta l'Amministratore dell'Accademia sul nostro [Discord](https://discord.gg/xqDgG3EGm9) (IBerman#5862).
 
 b) Buy XRT tokens on one of the exchanges (check out the [list of exchanges](https://www.coingecko.com/en/coins/robonomics-network#markets/)). Fai attenzione se non hai familiarità con gli exchange di criptovalute, ricorda che tutti gli acquisti possono avere dei potenziali rischi, acquista solo la quantità di token necessaria a superare questa lezione. Also, keep in mind that Robonomics exists on two networks, Ethereum and Kusama, so each network has its own XRT token. You need a token that used by parachain in Kusama network.
 
-c) If you have XRT token in Ethereum network (ERC-20 format), use [Exodus](https://old.dapp.robonomics.network/#/exodus) process to transfer tokens from the Ethereum network to Kusama. Keep in mind that the transfer of tokens is carried out once a week.
+c) Se hai il token XRT nella rete Ethereum (formato ERC-20), utilizza il processo [Exodus](https://old.dapp.robonomics.network/#/exodus) per trasferire i token dalla rete Ethereum a Kusama. Tieni presente che il trasferimento dei token viene effettuato una volta alla settimana.
 
 </li>
 
@@ -76,6 +76,6 @@ L'indirizzo del dispositivo deve essere aggiunto all'abbonamento. Puoi verificar
 
 La lezione sarà considerata completata dopo che la transazione con l'acquisto di un abbonamento IoT andata a buon fine e avrai aggiunto di un dispositivo. Transactions should appear in the Polkadot explorer for your account.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puoi controllare i tuoi risultati su [la dapp di controllo speciale](https://lk.robonomics.academy/). Per l'autorizzazione alla dapp di controllo utilizza lo stesso account in Polkadot.js che è stato utilizzato durante il corso.
 
 </Result>

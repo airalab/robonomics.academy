@@ -1,9 +1,9 @@
 ---
 title: "Lezione #2, All'intersezione fra Cibernetica ed Economia"
 lastUpdate: Thu May 04 2023 12:56:15 GMT+0400 (Samara Standard Time)
-description: L'immersione nella teoria delle ultime tecnologie web3 all'incrocio fra cibernetica ed economia, progettate per aiutare i sistemi IoT a funzionare in modo sicuro ed efficiente nelle nostre case e città.
+description: L'immersione nella teoia delle ultime tecnologie web3 all'incrocio fra cibernetica ed economia, progettate per aiutare i sistemi IoT a funzionare in modo sicuro ed efficiente nelle nostre case e città.
 lessonNumber: 2
-metaOptions: [Corsi online, Corso Introduttivo]
+metaOptions: [Cosi online, Corso Introduzione]
 defaultName: Introduction to the ideas of Robonomics
 ---
 
@@ -79,6 +79,6 @@ Come nella lezione precedente, firma la tua transazione e controllala sul Polkad
 
 La lezione sarà considerata completata dopo l'invio di una transazione riuscita e la sua apparizione sul Polkadot explorer col tuo account polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puoi controllare i tuoi risultati su [la dapp di controllo speciale](https://lk.robonomics.academy/). Per l'autorizzazione alla dapp di controllo utilizza lo stesso account in Polkadot.js che è stato utilizzato durante il corso.
 
 </Result>

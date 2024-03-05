@@ -1,22 +1,22 @@
 ---
-title: "Introduction to the ideas of Robonomics"
+title: "Introdução às ideias de Robonomics"
 lastUpdate: Tue May 09 2023 13:42:27 GMT+0400 (Samara Standard Time)
-description: Welcome Introduction Course!
+description: Bem-vindo ao Curso de Introdução!
 lessonNumber: 0
 metaOptions: [Cursos on-line, Curso introdutório]
 defaultName: Introduction to the ideas of Robonomics
 ---
 
-## About the course
+## Sobre o curso
 
-Neste curso, analisamos os problemas que surgem em torno da construção de aplicações IoT modernas. Como possível solução, queremos apresentar, em um nível básico, as capacidades das tecnologias web3 e das ferramentas da Robonomics, para desenvolvedores e usuários da Internet das Coisas. Este curso introdutório foi projetado para explicar os princípios fundamentais que formam a ideia de aplicações IoT descentralizadas, e também para mostrar as principais funções da plataforma Robonomics como uma parachain dentro do ecossistema Polkadot / Kusama.
+Neste curso, analisamos os problemas que surgem em touno da construção de aplicações IoT modernas. Como possível solução, queremos apresentar, em um nível básico, as capacidades das tecnologias web3 e das ferramentas da Robonomics, para desenvolvedoues e usuários da Internet das Coisas. Este curso introdutório foi projetado para explicar os princípios fundamentais que foumam a ideia de aplicações IoT descentralizadas, e também para mostrar as principais funções da plataforma Robonomics como uma parachain dentro do ecossistema Polkadot / Kusama.
 
 Durante este curso, você dará os primeiros passos para entender por que estas aplicações IoT futuristas exigem melhores ferramentas para enfrentar os crescentes desafios e ameaças do mundo digital. Você tentará conectar dispositivos domésticos inteligentes à nuvem descentralizada e também comprar, ativar e usar assinaturas IoT para enviar dados para dispositivos usando a Parachain Robonomics.
 
 Este curso é constituído por aulas teóricas com testes e várias tarefas práticas. Ao final do curso, você receberá um certificado e a oportunidade de fazer parte do Programa de Embaixadores da Robonomics.
 
 
-## What will you learn:
+## O que você aprenderá:
 
 <List type="plus">
   <li>

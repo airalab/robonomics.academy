@@ -4,16 +4,16 @@ lastUpdate: Thu May 04 2023 12:57:05 GMT+0400 (Samara Standard Time)
 description: Nesta lição, você tentará controlar uma lâmpada inteligente que funciona através do Home Assistant, que possui módulos Robonomics adicionais.
 lessonNumber: 3
 metaOptions: [Cursos on-line, Curso introdutório]
-defaultName: Introduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
-A lição 2 explicou os princípios fundamentais da Robonomics e mencionou Polkadot / Kusama como uma blockchain promissora para sua implementação. Em particular, gostaríamos de mostrar como funcionam as assinaturas IoT da  Parachain Robonomics. Durante a primeira lição, seu endereço foi incluído na assinatura do curso IoT, e você já conseguiu usá-lo duas vezes: quando você procurou seu reflexo no espelho negro e quando entregou seus resultados do teste.
+A lição 2 explicou os princípios fundamentais da Robonomics e mencionou Polkadot / Kusama como uma blockchain promissoua para sua implementação. Em particular, gostaríamos de mostrar como funcionam as assinaturas IoT da  Parachain Robonomics. Durante a primeira lição, seu endereço foi incluído na assinatura do curso IoT, e você já conseguiu usá-lo duas vezes: quando você procurou seu reflexo no espelho negro e quando entregou seus resultados do teste.
 
 
 
 ## Intro
 
-Nesta lição, você tentará controlar uma lâmpada inteligente que funciona através do Home Assistant, que possui módulos Robonomics adicionais. Seu objetivo é ligar/desligar a lâmpada usando a interface padrão Polkadot/Substrate na Parachain Robonomics. A lâmpada está sendo transmitida no [YouTube](https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live) para que você possa assistir ao seu resultado em tempo real. Além disso, um conjunto mais detalhado de instruções sobre o uso de uma assinatura IoT está disponível em [nosso wiki](https://wiki.robonomics.network/docs/subscription-launch/).
+Nesta lição, você tentará controlar uma lâmpada inteligente que funciona através do Home Assistant, que possui módulos Robonomics adicionais. Seu objetivo é ligar/desligar a lâmpada usando a interface padrão Polkadot/Substrate na Parachain Robonomics. A lâmpada está sendo transmitida no [YouTube](https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live) para que você possa assistir ao seu resultado em tempo real. Além disso, um conjunto mais detalhado de instruções sobre o uso de uma assinatura IoT está disponível em [nosso wiki](https://wiki.robonomics.netwouk/docs/subscription-launch/).
 
 
 ## Instruções
@@ -22,7 +22,7 @@ Nesta lição, você tentará controlar uma lâmpada inteligente que funciona at
 
 <li>
 
-Abra o portal [Polkadot/Substrate](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/extrinsics) da Robonomics.
+Abra o poutal [Polkadot/Substrate](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/extrinsics) da Robonomics.
 
 Você deve ver o menu Extrinsics (funções no ecossistema Polkadot). Se estiver travado, use o menu no canto superior esquerdo da página, navegue até <code> Kusama & Parachains -> Robonomics</code>, e pressione <code>Switch</code>. Em seguida, navegue até <code>Developer</code> no cabeçalho superior e depois para <code>Extrinsics</code>.
 
@@ -81,6 +81,6 @@ Não se esqueça de abrir a [transmissão no Youtube](https://www.youtube.com/ch
 
 A lição será considerada concluída após o envio de uma transação bem sucedida e sua ocorrência no explorer Polkadot para sua conta na polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Você pode verificar seus resultados em [no dapp de verificação especial](https://lk.robonomics.academy/). Para autorização no dapp de verificação, use a mesma conta no Polkadot.js que foi usada durante o curso.
 
 </Result>

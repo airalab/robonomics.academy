@@ -26,14 +26,14 @@ export default {
   },
 
   methods: {
-    activateTag(e, {id, name}) {
+    activateTag(e, {id, name, defaultValue}) {
       this.isActive = id;
       this.$emit('activateTag', id)
 
       if(e.target.classList.contains('delete-tag')) {
-        this.removeActive(name);
+        this.removeActive(defaultValue);
       } else {
-        this.$store.commit('SET_ACTIVE_TAGS', name)
+        this.$store.commit('SET_ACTIVE_TAGS', defaultValue)
       }
 
     },

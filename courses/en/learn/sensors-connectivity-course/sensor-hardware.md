@@ -162,4 +162,3 @@ The board has additional block of inputs, marked green in the image (`GND`, `5V`
 On the left side of the blue box there is a power switch to force the board to reboot. It is in the `ON` position by default.
 
 After setting up the sensor, all that remains is to flash and configure it.
-

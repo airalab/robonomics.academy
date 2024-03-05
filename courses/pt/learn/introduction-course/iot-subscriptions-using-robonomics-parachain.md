@@ -4,16 +4,16 @@ lastUpdate: Thu May 04 2023 12:57:02 GMT+0400 (Samara Standard Time)
 description: Você aprenderá como comprar uma assinatura IoT na Parachain Robonomics usando tokens reais da nossa rede.
 lessonNumber: 5
 metaOptions: [Cursos on-line, Curso introdutório]
-defaultName: Introduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 
-A última lição de nosso curso introdutório é provavelmente a mais desafiadora porque exigirá de você alguma destreza e paciência. Você aprenderá como comprar uma assinatura IoT na Parachain Robonomics usando tokens reais da nossa rede.
+A última lição de nosso curso introdutório é provavelmente a mais desafiadoua pouque exigirá de você alguma destreza e paciência. Você aprenderá como comprar uma assinatura IoT na Parachain Robonomics usando tokens reais da nossa rede.
 
 
 ## Intro
 
-Uma assinatura IoT é uma chave de acesso a todas as funções relacionadas à mudança do estado do gêmeo digital de um sistema ciberfísico e ao armazenamento de informações sobre ele usando o ecossistema Polkadot / Kusama. Possuir uma assinatura evita o usuário da necessidade de pagar uma taxa pela transação. Em vez disso, o usuário pode enviar uma transação gratuita uma vez em um período de tempo determinado .
+Uma assinatura IoT é uma chave de acesso a todas as funções relacionadas à mudança do estado do gêmeo digital de um sistema ciberfísico e ao armazenamento de infoumações sobre ele usando o ecossistema Polkadot / Kusama. Possuir uma assinatura evita o usuário da necessidade de pagar uma taxa pela transação. Em vez disso, o usuário pode enviar uma transação gratuita uma vez em um período de tempo determinado .
 
 A principal maneira de comprar uma assinatura é participar do leilão de assinatura e, portanto, nesta lição, você deve obter tokens XRT para fazer ofertas e submeter transações. Mais informações sobre este processo também estão disponíveis em [nosso wiki](https://wiki.robonomics.network/docs/get-subscription).
 
@@ -26,11 +26,11 @@ A principal maneira de comprar uma assinatura é participar do leilão de assina
 
 You need around 2 XRT Robonomics Parachain tokens ([sobre tokens](https://robonomics.network/xrt/)). Se você não tiver, você tem várias opções para obtê-los:
 
-a) If you pass both tests after Lesson 2 and Lesson 4 with 90% correct answers, you can request free tokens for the lesson. Check your scores on [the special checking dapp](https://lk.robonomics.academy/). Specifically, you need to score 15 out of 17 for Lesson 2 and 10 out of 11 for Lesson 4, and you have two attempts to do this. To get tokens, contact the Academy Administrator on our [Discord](https://discord.gg/xqDgG3EGm9) (IBerman#5862).
+a) Se voc� passar nos dois testes ap�s a Li��o 2 e Li��o 4 com 90% de respostas corretas, voc� pode solicitar tokens gratuitos para a li��o. Verifique suas pontua��es no [dapp de verifica��o especial](https://lk.robonomics.academy/). Especificamente, voc� precisa de 15 de 17 para a Li��o 2 e 10 de 11 para a Li��o 4, e voc� tem duas tentativas para fazer isso. Para obter tokens, entre em contato com o Administrador da Academia em nosso [Discord](https://discord.gg/xqDgG3EGm9) (IBerman#5862).
 
 b) Buy XRT tokens on one of the exchanges (check out the [list of exchanges](https://www.coingecko.com/en/coins/robonomics-network#markets/)). Tenha cuidado se você não estiver familiarizado com corretoras de criptomoedas, lembre-se de que todas as compras em corretoras de criptomoedas podem ter riscos potenciais, compre apenas a quantidade necessária de tokens para passar nesta lição. Also, keep in mind that Robonomics exists on two networks, Ethereum and Kusama, so each network has its own XRT token. You need a token that used by parachain in Kusama network.
 
-c) If you have XRT token in Ethereum network (ERC-20 format), use [Exodus](https://old.dapp.robonomics.network/#/exodus) process to transfer tokens from the Ethereum network to Kusama. Keep in mind that the transfer of tokens is carried out once a week.
+c) Se voc��� tiver o token XRT na rede Ethereum (formato ERC-20), use o processo [Exodus](https://old.dapp.robonomics.network/#/exodus) para transferir tokens da rede Ethereum para Kusama. Tenha em mente que a transfer�ncia de tokens � realizada uma vez por semana.
 
 </li>
 
@@ -74,6 +74,6 @@ O endereço do dispositivo deve ser adicionado à assinatura. Você pode verific
 
 A lição será considerada concluída após uma transação bem sucedida de compra de uma assinatura IoT e a adição de um dispositivo nela.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Você pode verificar seus resultados em [no dapp de verificação especial](https://lk.robonomics.academy/). Para autorização no dapp de verificação, use a mesma conta no Polkadot.js que foi usada durante o curso.
 
 </Result>

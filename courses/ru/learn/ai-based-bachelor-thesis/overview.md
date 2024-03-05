@@ -1,7 +1,7 @@
 ---
 title: Обзор
 description: Быстрый старт работы над  бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте
-metaOptions: [Learn, Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте]
+metaOptions: [Учиться, Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 ---
 
@@ -25,7 +25,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 
 В гайде мы попробуем написать простую бакалаврскую работу, имея в качестве вводных данных направление обучения нашего “бакалавра”, и стартовый материал, который он освоил. Безусловно мы будем стараться придерживаться минимальных академических правил, однако две недели (а именно столько планируется потратить на этот процесс) это конечно мало, чтобы считать бакалаврскую работу успешной. Хотя, бывали в реальности и такие случаи успешной сдачи…
 
-Тем не менее, данный гайд можно считать хорошей стартовой точкой, чтобы понять, какие самые рутинные и максимально трудозатратные процессы, ИИ способен сгладить уже прямо сейчас. Кроме того, вы можете не ограничиваться задачей бакалаврской работы: этот гайд пригодится для любой текстовой работы, следующей усредненному стандарту IMRaD (Introduction, Method, Results, Discussion) — журнальные и конференционные публикации, диссертации, tech reports, мануалы, и т.д.
+Тем не менее, данный гайд можно считать хорошей стартовой точкой, чтобы понять, какие самые рутинные и максимально трудозатратные процессы, ИИ способен сгладить уже прямо сейчас. Кроме того, вы можете не ограничиваться задачей бакалаврской работы: этот гайд пригодится для любой текстовой работы, следующей усредненному стандарту IMRaD (Вступлениеduction, Method, Results, Discussion) — журнальные и конференционные публикации, диссертации, tech reports, мануалы, и т.д.
 
 <RoboAcademyNote title="DISCLAIMER" type="warning">
   Гайд не гарантирует и не ставит целью успешную сдачу бакалаврской работы на высший балл.
@@ -84,7 +84,7 @@ Auto-GPT требует другого подхода, так как перед 
 
 Одним из важным преимуществ последних ИИ-сервисов стало то, что они довольно хорошо запоминают контекст запроса в рамках одной сессии. Поэтому, первое что стоит сделать для старта бакалаврской работы — придумать контекст (по сути “легенду”) и скормить ее сервису. 
 
-В качестве материала, от которого отталкивается работа, был взят курс ["Sovereign Smart Home with Robonomics and Home Assistant"](/learn/smart-home-course/overview) на Robonomics Academy. В итоге получился следующий контекст:
+В качестве материала, от которого отталкивается работа, был взят курс ["Суверенный умный дом с Robonomics и Home Assistant"](/learn/smart-home-course/overview) на Robonomics Academy. В итоге получился следующий контекст:
 
 <RoboAcademyDialog>
 
@@ -93,7 +93,7 @@ I am a student of the Department of IoT Engineering and Web3 Science.
 I am going to get Bachelor of Science in Computer Science and Engineering.
 
 I completed an online course called "Smart Home Sovereign". In this course, I went through all the steps necessary to build my own sovereign smart home, the main advantage of which is the security / privacy of user data.
-During the course, I set up an IoT hub on a Raspberry Pi and connected smart devices (such as a temperature/humidity sensor, a door sensor, a smart bulb, a motion sensor, etc.) to it via a Zigbee adapter using the MQTT protocol. The IoT hub is powered by Home Assistant software. Next, I connected the hub to a decentralized cloud, based on Polkadot web3 technology. This is necessary to securely transfer device data to the network without the need for a centralized cloud service provider. This allows me to securely manage my home remotely.
+During the course, I set up an IoT hub on a Raspberry Pi and connected smart devices (such as a temperature/humidity sensor, a door sensor, a smart bulb, a motion sensor, etc.) to it via a Адаптер Zigbee using the MQTT protocol. The IoT hub is powered by Home Assistant software. Next, I connected the hub to a decentralized cloud, based on Polkadot web3 technology. This is necessary to securely transfer device data to the network without the need for a centralized cloud service provider. This allows me to securely manage my home remotely.
 
 Now I want to take this course as a basis and write a bachelor's thesis with your help.
 
@@ -131,13 +131,13 @@ Now I want to take this course as a basis and write a bachelor's thesis with you
 
 <ChatGPT/>
 
-1. Introduction
+1. Вступлениеduction
     1. Background and motivation
     2. Research questions and objectives
     3. Significance of the study
 2. Literature Review
-    1. Overview of smart home technology and its security and privacy issues
-    2. Introduction to web3 technology and its potential benefits for smart homes
+    1. Обзор of smart home technology and its security and privacy issues
+    2. Вступлениеduction to web3 technology and its potential benefits for smart homes
     3. Existing research on using web3 technology for smart home security and privacy
 3. Methodology
     1. Description of the smart home system design using web3 technology, including hardware and software components
@@ -151,7 +151,7 @@ Now I want to take this course as a basis and write a bachelor's thesis with you
     1. Summary of the study's contributions and main findings
     2. Implications and significance of the results for the smart home industry and related fields
     3. Recommendations for future research and development
-6. References
+6. Ссылки
 
 </RoboAcademyDialog>
 
@@ -159,4 +159,3 @@ Now I want to take this course as a basis and write a bachelor's thesis with you
 На этом подготовительная часть закончена, и можно приступать к первому разделу тезисов — Введению. 
 </RoboAcademyText>
   
-

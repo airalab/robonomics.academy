@@ -102,7 +102,7 @@ Since some devices connected to Home Assistant via Wi-Fi or MQTT require you to 
 
 <li>
 
-In the web interface of Home Assistant go to <code>Developer Tools</code> -> <code>Services</code>. Search for <code>Robonomics: Restore from the Backup in Robonomics</code> and press <code>CALL SERVICE</code>. Navigate to the <code>Overview</code> page, to check the status of your backup, .
+In the web interface of Home Assistant go to <code>Developer Tools</code> -> <code>Services</code>. Search for <code>Robonomics: Restore from the Backup in Robonomics</code> and press <code>CALL SERVICE</code>. Navigate to the <code>Overview</code> page, to check the status of your backup.
 
 </li>
 

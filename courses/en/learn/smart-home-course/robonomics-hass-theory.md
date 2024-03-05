@@ -69,4 +69,3 @@ Remote control of a smart home is performed using the [Robonomics decentralized 
 
 
 
-

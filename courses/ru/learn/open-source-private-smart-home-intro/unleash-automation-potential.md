@@ -2,7 +2,7 @@
 title: "В чем сила автоматизации"
 lastUpdate: Mon August 28 2023 12:46:49 GMT+0400 (Samara Standard Time)
 description: Вы узнаете про базовые автоматизации, которые делают повседневную жизнь легче на примере стенда умного дома.
-metaOptions: [Learn]
+metaOptions: [Учить]
 defaultName: Introduction to open source solution for private smart homes
 ---
 

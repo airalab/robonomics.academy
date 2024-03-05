@@ -5,12 +5,12 @@
       class="btn btn-learn filter__btn"
       :class="{'filter-btn--active': isOpen}"
     >
-     Filter
+     {{ $t('Filter') }}
     </button>
     <div v-if="isOpen" class="filter__content">
 
       <div class="filter__item">
-        <h4>Complexity:</h4>
+        <h4>{{ $t('Complexity:') }}</h4>
         <div class="filter__level">
           <Level 
             v-for="level in levels" 
@@ -24,22 +24,22 @@
       </div>
 
       <div class="filter__item">
-        <h4>Tags:</h4>
+        <h4>{{ $t('Tags:') }}</h4>
         <div class="filter__tags">
           <button 
             class="btn filter__item-btn"
-            :class="{'filter__item-btn--active': chosenTag === tag}"
+            :class="{'filter__item-btn--active': chosenTag === tag.label}"
             v-for="tag in tags"
-            :key="tag"
-            @click="activateTag(tag)"
+            :key="tag.id"
+            @click="activateTag(tag.label)"
           >
-            {{ tag }}
+            {{ tag.text }}
           </button>
         </div>
       </div>
 
       <div class="filter__item filter__item--authors">
-        <h4>Authors:</h4>
+        <h4>{{ $t('Authors:') }}</h4>
         <div class="filter__author">
           <button 
             class="btn filter__item-btn"
@@ -48,7 +48,7 @@
             :key="author.alias"
             @click="activateAuthor(author.alias)"
           >
-            <span v-if="author.hide !== true">{{ $ts(author.fullName) }}</span>
+            <span v-if="author.hide !== true">{{ $t(author.fullName) }}</span>
           </button>
         </div>
       </div>
@@ -56,11 +56,11 @@
       <div class="filter__actions">
         <button class="btn filter__item-btn filter__apply" @click="setFilter">
           <font-awesome-icon icon="fa-solid fa-check" />
-          <span>Apply</span>
+          <span>{{ $t('Apply') }}</span>
         </button>
         <button class="btn filter__item-btn filter__clear" @click="clearFilter">
           <font-awesome-icon icon="fa-solid fa-xmark" />
-          <span>Clear all</span>
+          <span>{{ $t('Clear all') }}</span>
         </button>
       </div>
     </div>
@@ -87,7 +87,49 @@ export default {
     return {
       // isOpen: false,
       levels: ['1', '2', '3', '4'],
-      tags: ['Spring school 2023', 'ROS', 'Raspberry Pi', 'ai', 'Spot'],
+      tags: [
+        {
+          id: 0,
+          text: this.$t('Spring school 2023'),
+          label: 'Spring school 2023'
+        },
+        {
+          id: 1,
+          text: this.$t('ROS'),
+          label: 'ROS'
+        },
+        {
+          id: 2,
+          text: this.$t('Raspberry Pi'),
+          label: 'Raspberry Pi'
+        },
+        {
+          id: 3,
+          text: this.$t('ai'),
+          label: 'ai'
+        },
+        {
+          id: 4,
+          text: this.$t('Spot'),
+          label: 'Spot'
+        },
+        {
+          id: 5,
+          text: this.$t('Multi-Agent Systems'),
+          label: 'Multi-Agent Systems'
+        },
+        {
+          id: 6,
+          text: this.$t('Industrial'),
+          label: 'Industrial'
+        },
+        {
+          id: 7,
+          text: this.$t('World computer'),
+          label: 'World computer'
+        }
+      ],
+      // tags: [`${this.$t('Spring school 2023')}`, `${this.$t('ROS')}`, `${this.$t('Raspberry Pi')}`, `${this.$t('ai')}`, `${this.$t('Spot')}`, `${this.$t('Multi-Agent Systems')}`, `${this.$t('Industrial')}`, `${this.$t('World computer')}`],
       chosenLevel: null,
       chosenTag: null,
       chosenAuthor: null

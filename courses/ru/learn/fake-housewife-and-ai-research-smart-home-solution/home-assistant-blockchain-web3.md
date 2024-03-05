@@ -2,7 +2,7 @@
 title: Home Assistant + блокчейн + Web3
 lastUpdate: Thu May 11 2023 17:09:34 GMT+0400 (Samara Standard Time)
 description: Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома
-metaOptions: [Learn,  Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома]
+metaOptions: [Учить,  Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома]
 defaultName: Fake Housewife & AI research Smart Home Solution
 ---
 
@@ -18,7 +18,7 @@ defaultName: Fake Housewife & AI research Smart Home Solution
 
 <RoboAcademyTerminal title="Goals">
 
-**AI Name: Нousewife**
+**Имя ИИ: Домохозяйка**
 
 Домохозяйка - это женский AI-агент, разработанный для автономного проведения исследований в интернете, а также независимого репортажа и рассказа от первого лица.
 
@@ -32,21 +32,21 @@ defaultName: Fake Housewife & AI research Smart Home Solution
 
 Инструкция, как подключить умный дом к блокчейну и web3 с home assistant с помощью Robonomics:
 
-1. Install Home Assistant: The first step is to install Home Assistant on your device. You can visit the official Home Assistant website for instructions.
+1. Установите Домашний помощник: Первым шагом является установка Домашнего помощника на ваше устройство. Вы можете посетить официальный сайт Домашнего помощника для получения инструкций.
 
-2. Install the Web3.js library: Web3.js is a JavaScript library that enables interaction with Ethereum blockchain. You can install it directly into your Home Assistant environment using Node.js.
+2. Установите библиотеку Web3.js: Web3.js - это библиотека JavaScript, которая позволяет взаимодействовать с блокчейном Ethereum. Вы можете установить ее непосредственно в свою среду Домашнего помощника, используя Node.js.
 
-3. Install the Ethereum client: An Ethereum client is necessary to interact with the Ethereum network. Some options include Geth, Parity, or Infura. You will need to create an account with the client and obtain an API key to be able to send transactions.
+3. Установите клиент Ethereum: Для взаимодействия с сетью Ethereum необходим клиент Ethereum. Некоторые варианты включают Geth, Parity или Infura. Вам нужно будет создать учетную запись с клиентом и получить API-ключ, чтобы иметь возможность отправлять транзакции.
 
-4. Configure the environment: Once you have everything installed, it is time to configure your Home Assistant environment. You will need to set up the Web3.js provider, Ethereum client integration, and configure your Smart Contracts.
+4. Настройте среду: После установки всего необходимого пришло время настроить вашу среду Домашнего помощника. Вам нужно будет настроить поставщика Web3.js, интеграцию клиента Ethereum и настроить ваши Смарт-контракты.
 
-5. Smart Contract Integration: Smart Contracts are self-executing contracts with the terms of the agreement written in code. You can deploy your own Smart Contracts to the Ethereum network and interact with them using Web3.js.
+5. Интеграция Смарт-контрактов: Смарт-контракты - это самовыполняющиеся контракты с условиями соглашения, записанными в коде. Вы можете развернуть свои собственные Смарт-контракты в сети Ethereum и взаимодействовать с ними, используя Web3.js.
 
 6. Test and deploy: It is important to test your integration before deploying it widely. Once you have tested everything and are satisfied with the integration, you can deploy it to your smart home.
-Instructions on how to connect a smart home to blockchain and web3 with home assistant using Robonomics:
-- **Visit [https://github.com/airalab/homeassistant-robonomics-integration](https://github.com/airalab/homeassistant-robonomics-integration) and read the instructions**
+Инструкции on how to connect a smart home to blockchain and web3 with home assistant using Robonomics:
+- **Посетите [https://github.com/airalab/homeassistant-robonomics-integration](https://github.com/airalab/homeassistant-robonomics-integration) и прочтите инструкции**
 
-- **Follow the outlined installation and configuration process to connect the home assistant to blockchain and web3 using Robonomics.**
+- **Следуйте описанному процессу установки и настройки для подключения домашнего помощника к блокчейну и web3 с использованием Robonomics.**
 
 </RoboAcademyTerminal>
 
@@ -82,7 +82,7 @@ Instructions on how to connect a smart home to blockchain and web3 with home ass
 
 <RoboAcademyTerminal title="Goals">
 
-**AI Name:** Нousewife
+**Имя ИИ:** Домохозяйка
 
 Домохозяйка - это женский AI-агент, разработанный для автономного проведения исследований в интернете, а также независимого репортажа и рассказа от первого лица.
 
@@ -116,7 +116,7 @@ Instructions on how to connect a smart home to blockchain and web3 with home ass
 
 <RoboAcademyTerminal title="Goals">
 
-**AI Name:** Нousewife
+**Имя ИИ:** Домохозяйка
 
 Домохозяйка - это женский AI-агент, разработанный для автономного проведения исследований в интернете, а также независимого репортажа и рассказа от первого лица.
 
@@ -137,7 +137,7 @@ Instructions on how to connect a smart home to blockchain and web3 with home ass
 
 <RoboAcademyTerminal title="Goals">
 
-**AI Name:** Нousewife
+**Имя ИИ:** Домохозяйка
 
 Домохозяйка - это женский AI-агент, разработанный для автономного проведения исследований в интернете, а также независимого репортажа и рассказа от первого лица.
 

@@ -3,60 +3,60 @@
 
     <MetaInfo
       pageTitle = "Robonomics Academy"
-      pageDescription = "Get experience in web 3.0 and blockchain techonologies with free online lessons."
+      pageDescription = "Get experience in web 3.0 and blockchain technologies with free online lessons."
       coursePageList
     />
 
     <section class="banner">
       <div class="container__wide">
         <g-image alt="Robonomics Academy Logo" src="@/assets/images/logo.svg" />
-        <g-link class="btn banner__btn" to="/learn">{{$ts('Learn')}}</g-link>
+        <g-link class="btn banner__btn" to="/learn">{{$t('Learn')}}</g-link>
         <!-- <g-image class="banner__img" src="@/assets/images/building.png" aria-hidden="true" /> -->
       </div>
     </section>
 
     <section id="about" class="team" ref="about">
       <div class="container__narrow">
-        <h2>{{$ts('Welcome to Our Online School!')}}</h2>
+        <h2>{{$t('Welcome to Our Online School!')}}</h2>
         <g-image src="@/assets/images/team-new.png" aria-hidden="true" />
-        <p class="text__center">{{$ts('The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.')}}</p>
+        <p class="text__center">{{$t('The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects.')}}</p>
       </div>
     </section>
 
     <section class="discovery">
       <div class="container__mid">
-        <h2>{{$ts('What can you discover for yourself in the academy?')}}</h2>
+        <h2>{{$t('What can you discover for yourself in the academy?')}}</h2>
 
         <div class="grid-3 discovery__wrapper">
 
           <div>
-            <h4>{{$ts('Web3 Advanced Applications')}}</h4>
-            <p>Find out how cutting-edge web3 technologies can be integrated into personal, city, or corporate settings on examples with practical uses in real-life scenarios.</p>
+            <h4>{{$t('Web3 Advanced Applications')}}</h4>
+            <p>{{ $t('Find out how cutting-edge web3 technologies can be integrated into personal, city, or corporate settings on examples with practical uses in real-life scenarios.') }}</p>
           </div>
 
           <div>
-            <h4>{{$ts('Strategies for IoT Decentralization')}}</h4>
-            <p>Focus on decentralized IoT strategies that provide greater safety and flexibility compared to their centralized counterparts.</p>
+            <h4>{{$t('Strategies for IoT Decentralization')}}</h4>
+            <p>{{ $t('Focus on decentralized IoT strategies that provide greater safety and flexibility compared to their centralized counterparts.') }}</p>
           </div>
 
           <div>
-            <h4>{{$ts('Latest Robotics Tools')}}</h4>
-            <p>Study new robotics frameworks and SDKs and apply them to your projects.</p>
+            <h4>{{$t('Latest Robotics Tools')}}</h4>
+            <p>{{$t('Study new robotics frameworks and SDKs and apply them to your projects.')}}</p>
           </div>
 
           <div>
-            <h4>{{$ts('Modern Cybernetics')}}</h4>
-            <p>Peep insights how Norbert Wiener's principles of cybernetics are applied to modern autonomous systems.</p>
+            <h4>{{$t('Modern Cybernetics')}}</h4>
+            <p>{{$t("Peep insights how Norbert Wiener's principles of cybernetics are applied to modern autonomous systems.")}}</p>
           </div>
 
           <div>
-            <h4>{{$ts('Economic Processes for Robots')}}</h4>
-            <p>Discover new mechanisms of techno-economic communication between machines and humans.</p>
+            <h4>{{$t('Economic Processes for Robots')}}</h4>
+            <p>{{$t('Discover new mechanisms of techno-economic communication between machines and humans.')}}</p>
           </div>
 
           <div>
-            <h4>{{$ts('Engineering Skills')}}</h4>
-            <p>Learn how to work with single board computers, sensors, smart devices and complex robots.</p>
+            <h4>{{$t('Engineering Skills')}}</h4>
+            <p>{{ $t('Learn how to work with single board computers, sensors, smart devices and complex robots.') }}</p>
           </div>
 
         </div>
@@ -65,48 +65,48 @@
 
     <section class="robonomics">
       <section class="container__narrow">
-        <h2>{{$ts('What is Robonomics?')}}</h2>
-        <p class="text__center">{{$ts('Robonomics is a secure, serverless and futuristic IoT platform that connects users and smart devices. It enables the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.')}} <g-link>{{ $ts('Learn more on Robonomics website') }}</g-link></p>
+        <h2>{{$t('What is Robonomics?')}}</h2>
+        <p class="text__center">{{$t('Robonomics is a secure, serverless and futuristic IoT platform that connects users and smart devices. It enables the exchange of technical and economic information in the form of atomic transactions between user applications, IoT services, and complex robotics.')}} <g-link>{{ $t('Learn more on Robonomics website') }}</g-link></p>
       </section>
 
       <section class="container__mid">
         <div class="scheme">
           <div class="scheme-item">
-            <div>{{$ts('User Dapp')}}</div>
+            <div>{{$t('User Dapp')}}</div>
           </div>
           <div class="scheme-a">
             <div class="scheme-a-right">
-              <span>{{$ts('Function Request')}}</span>
+              <span>{{$t('Function Request')}}</span>
               <span aria-hidden="true" class="arrow">
                 <g-image src="@/assets/images/forward.svg"/>
               </span>
             </div>
             <div class="scheme-a-left">
-              <span>{{$ts('Report')}}</span>
+              <span>{{$t('Report')}}</span>
               <span aria-hidden="true" class="arrow">       
                <g-image src="@/assets/images/reverse.svg"/>
               </span>
             </div>
           </div>
           <div class="scheme-item">
-            <div>{{$ts('Digital Twin')}}</div>
+            <div>{{$t('Digital Twin')}}</div>
           </div>
           <div class="scheme-a">
             <div class="scheme-a-right">
-              <span>{{$ts('Control')}}</span>
+              <span>{{$t('Control')}}</span>
               <span aria-hidden="true" class="arrow">
                 <g-image src="@/assets/images/forward.svg"/>
               </span>
             </div>
             <div class="scheme-a-left">
-              <span>{{$ts('Log')}}</span>
+              <span>{{$t('Log')}}</span>
               <span aria-hidden="true" class="arrow">       
                <g-image src="@/assets/images/reverse.svg"/>
               </span>
             </div>
           </div>
           <div class="scheme-item">
-            <div>{{$ts('IoT Device')}}</div>
+            <div>{{$t('IoT Device')}}</div>
           </div>
         </div>
       </section>
@@ -280,6 +280,7 @@
     position: relative;
     display: inline-block;
     margin-bottom: calc(var(--gap) * 3);
+    z-index: 5;
   }
 
   .discovery h2::after {

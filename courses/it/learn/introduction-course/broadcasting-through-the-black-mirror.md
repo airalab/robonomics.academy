@@ -3,14 +3,14 @@ title: "Lezione #1, Trasmettere attraverso lo Specchio Nero"
 lastUpdate: Thu May 04 2023 12:56:18 GMT+0400 (Samara Standard Time)
 description: Questa lezione di apertura ti insegnerà i metodi basilari per interagire con un'applicazione decentralizzata (o dapp). 
 lessonNumber: 1
-metaOptions: [Corsi online, Corso Introduttivo]
+metaOptions: [Cosi online, Corso Introduzione]
 defaultName: Introduction to the ideas of Robonomics
 ---
 
 
 ## Intro
 
-Questa lezione di apertura ti insegnerà i metodi basilari per interagire con **un'applicazione decentralizzata (o dapp)**. A tale scopo, abbiamo creato una dapp speciale chiamata «Black Mirror Broadcast», che funziona solo dal tuo web browser e mostra uno streaming con una piccola TV retrò. La dapp può controllare a distanza la TV, mostrando il tuo messaggio come un codice QR inviato tramite la piattaforma Robonomics.
+Questa lezione di apertura ti insegnerà i metodi basilari per interagire con **un'applicazione decentralizzata (o dapp)**. A tale scopo, abbiamo creato una dapp speciale chiamata «Black Mirro Broadcast», che funziona solo dal tuo web browser e mostra uno streaming con una piccola TV retrò. La dapp può controllare a distanza la TV, mostrando il tuo messaggio come un codice QR inviato tramite la piattaforma Robonomics.
 
 
 ## Ispirazione
@@ -36,7 +36,7 @@ Consulta la guida sul nostro wiki: [Crea un account per la Parachain di Robonomi
 
 <li>
 
-Enter to our [Discord server](https://discord.gg/xqDgG3EGm9) and get the "Developer Community Member" role. To do this, in the channel "👋welcome-info" you need to click on the corresponding emoji (⚛️) in the MEE6 bot post.
+Entra nel nostro [server Discord](https://discord.gg/xqDgG3EGm9) e ottieni il ruolo di "Membro della community degli sviluppatori". Per farlo, nel canale "👋welcome-info" devi fare clic sull'emoji corrispondente (⚛️) nel post del bot MEE6.
 
 </li>
 
@@ -44,7 +44,7 @@ Enter to our [Discord server](https://discord.gg/xqDgG3EGm9) and get the "Develo
 
 Trovare il nostro [Discord chatbot](https://discord.com/channels/803947358492557312/944186892038053899), chiamato "🚰academy-faucet" nella chat list e inserisci il tuo indirizzo Robonomics dall'estensione polkadot.js.
 
-Make sure you send the address to the bot in the correct format (it starts with "4"). If the bot does not respond or does not add your address to the subscription the first time, try a few more times, this happens due to network load. If the problem persists, ask in the "🎓robonomics-academy" channel.
+Assicurati di inviare l'indirizzo al bot nel formato corretto (deve iniziare con "4"). Se il bot non risponde o non aggiunge il tuo indirizzo all'iscrizione la prima volta, prova ancora qualche volta, questo succede a causa del carico di rete. Se il problema persiste, chiedi nel canale "🎓robonomics-academy".
 
 </li>
 
@@ -68,7 +68,7 @@ Nella finestra dell'estensione, inserisci la tua password e firma la transazione
 
 Assicurati che la tua transazione sia stata inviata correttamente controllando il link al Polkadot explorer.
 
-The <code>Result</code> field should show <code>Success</code>.
+Il campo <code>Risultato</code> dovrebbe mostrare <code>Successo</code>.
 
 </li>
 
@@ -81,6 +81,6 @@ Controlla il codice QR sullo schermo della TV che dovrebbe cambiare (a volte pos
 
 La lezione sarà considerata completata dopo l'invio di una transazione riuscita e la sua apparizione sul Polkadot explorer col tuo account polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puoi controllare i tuoi risultati su [la dapp di controllo speciale](https://lk.robonomics.academy/). Per l'autorizzazione alla dapp di controllo utilizza lo stesso account in Polkadot.js che è stato utilizzato durante il corso.
 
 </Result>

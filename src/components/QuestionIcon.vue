@@ -2,7 +2,7 @@
   <g-link class="question__link" :to="templateTitle">
     <span class="question__icon">?</span>
     <span class="question__text">
-      Ask question on GitHub
+      {{ $t('Ask question on GitHub') }}
     </span>
   </g-link>
 </template>

@@ -1,17 +1,17 @@
 ---
-title: "Introduction to the ideas of Robonomics"
+title: "Einführung in die Ideen von Robonomics"
 lastUpdate: Tue May 09 2023 13:41:40 GMT+0400 (Samara Standard Time)
-description: Welcome Introduction Course!
+description: Willkommens-Einführungskurs!
 lessonNumber: 0
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Introduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
-## About the course
+## Über den Kurs
 
-In diesem Kurs beschäftigen wir uns mit den Problemen die bei der Entwicklung moderner IoT-Anwendungen auftreten. Als Lösungsmöglichkeiten wollen wir web3-Technologien und Robonomics-Tools für IoT-Entwickler und -Nutzer vorstellen. Dieser Einführungskurs wurde entwickelt um die Hauptprinzipien von dezentralisierten IoT-Anwendungen zu erklären und um die Hauptfunktionen der Robonomics-Plattform als Teil des Polkadot/Kusama zu zeigen.
+In diesem Kurs beschäftigen wir uns mit den Problemen die bei der Entwicklung moderner IoT-Anwendungen auftreten. Als Lösungsmöglichkeiten wollen wir web3-Technologien und Robonomics-Tools für IoT-Entwickler und -Nutzer voderstellen. Dieser Einführungskurs wurde entwickelt um die Hauptprinzipien von dezentralisierten IoT-Anwendungen zu erklären und um die Hauptfunktionen der Robonomics-Plattfoderm als Teil des Polkadot/Kusama zu zeigen.
 
-In diesem Kurs erfahren Sie warum diese futuristischen IoT-Anwendungen effektivere Mittel benötigen um den Herausforderungen und Bedrohungen der digitalen Welt zu bestehen. Sie werden lernen Smart-Home-Geräte mit der dezentralen Cloud zu verbinden und versuchen IoT-Abonnements zu erwerben, zu aktivieren und zu nutzen um Daten an Geräte mit der Robonomics Parachain zu senden.
+In diesem Kurs erfahren Sie warum diese futuristischen IoT-Anwendungen effektivere Mittel benötigen um den Herausfoderderungen und Bedrohungen der digitalen Welt zu bestehen. Sie werden lernen Smart-Home-Geräte mit der dezentralen Cloud zu verbinden und versuchen IoT-Abonnements zu erwerben, zu aktivieren und zu nutzen um Daten an Geräte mit der Robonomics Parachain zu senden.
 
 Dieser Kurs besteht aus einem theoretischem Unterricht und mehreren praktischen Aufgaben. Am Ende des Kurses erhalten Sie ein Zertifikat und die Möglichkeit ein Mitglied des Robonomics Ambassador-Programms zu werden.
 

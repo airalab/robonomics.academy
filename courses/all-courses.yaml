@@ -236,7 +236,7 @@
       path: 'writing-results'
       status: done
     - id: '5'
-      title: 'Conclusion '
+      title: 'Conclusion'
       path: 'writing-conclusion'
       status: done
 - id: '13'
@@ -386,4 +386,31 @@
     - id: '4'
       title: 'Deployment of Analytics'
       path: 'feecc-analytics-deployment'
+      status: done
+
+- id: '20' 
+  title: 'World computer in your home'
+  path: 'world-computer'
+  level: 3
+  tags: ['course']
+  filters: ['World computer']
+  progress: done
+  author: ['Ensrationis']
+  published: true
+  lessons:
+    - id: '1'
+      title: 'Part 1: The Idea of a World Computer'
+      path: 'overview'
+      status: done
+    - id: '2'
+      title: 'Part 2: The Heart of the World Computer'
+      path: 'the-heart-of-the-world-computer'
+      status: done
+    - id: '3'
+      title: 'Part 3: Emergence of the World Computer'
+      path: 'emergence-of-the-world-computer'
+      status: done
+    - id: '4'
+      title: 'Part 4: The Path of a New Block of Information in the World Computer'
+      path: 'the-path-of-a-new-block-of-information-in-the-world-computer'
       status: done

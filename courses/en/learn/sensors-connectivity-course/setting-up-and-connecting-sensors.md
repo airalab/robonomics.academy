@@ -6,7 +6,7 @@ metaOptions: [Learn, Sensors Connectivity & Decentralized Sensors Network]
 defaultName: Sensors Connectivity & Decentralized Sensors Network
 ---
 
-Our sensors use the Robonomics firmware, an extended version of the sensor.community firmware, with some sensors added and the data sending scheme changed. The source code can be found [at the link.](https://github.com/LoSk-p/sensors-software/tree/master/airrohr-firmware)
+Our sensors use the Robonomics firmware, an extended version of the sensor.community firmware, with some sensors added and the data sending scheme changed. The source code can be found [at the link.](https://github.com/LoSk-p/sensors-software/tree/master/airrohr-firmware)
 
 If you got read-to-use Robonomics board, you can go to the "Connect" section.
 
@@ -57,7 +57,7 @@ Install drivers for USB2serial (in Windows 10 it should start automatically) —
 
 <li>
 
-Download Robonomics `airrohr-flasher` executable from [releases](https://github.com/airalab/sensors-connectivity/releases) and run it.
+Download Robonomics `airrohr-flasher` executable from [releases](https://github.com/airalab/sensors-connectivity/releases) and run it.
 
 </li>
 
@@ -75,7 +75,7 @@ Install the drivers for USB2serial — Drivers for NodeMCU v3 (CH340): [link](ht
 
 <li>
 
-Download Robonomics `airrohr-flasher` executable from [releases](https://github.com/airalab/sensors-connectivity/releases) and run it.
+Download Robonomics `airrohr-flasher` executable from [releases](https://github.com/airalab/sensors-connectivity/releases) and run it.
 
 </li>
 
@@ -136,7 +136,7 @@ After downloading the configuration, reboot the ESP (just disconnect and reconne
 
 <li>
 
-After rebooting, the board will create a Wi-Fi network named `RobonomicsSensor-xxxxxxxxx`. Connect to it from your phone or computer: you will see the authorization window (if not, open the browser and go to `192.168.4.1`).
+After rebooting, the board will create a Wi-Fi network named `RobonomicsSensor-xxxxxxxxx`. Connect to it from your phone or computer: you will see the authorization window (if not, open the browser and go to `192.168.4.1`).
 
 </li>
 
@@ -160,13 +160,13 @@ The sensor coordinates will then be displayed on a publicly available map. If yo
 
 <li>
 
-Click on `Save configuration and restart`. The board will reboot and connect to the specified Wi-Fi network. 
+Click on `Save configuration and restart`. The board will reboot and connect to the specified Wi-Fi network. 
 
 </li>
 
 <li>
 
-Open [Robonomics sensors map](https://sensors.robonomics.network/#/) and find your place where you installed the sensor. In a couple of minutes you will be able to see your sensor with data on map.
+Open [Robonomics sensors map](https://sensors.robonomics.network/#/) and find your place where you installed the sensor. In a couple of minutes you will be able to see your sensor with data on map.
 
 
 <LessonImages src="sensors-connectivity-course/lesson-3-2.jpg" alt="tutorial image"/>
@@ -196,4 +196,4 @@ You can also set up sending data to your own server. To do this, in the tab `API
 
 <LessonImages imageClasses="mb" src="sensors-connectivity-course/lesson-3-6.png" alt="tutorial image"/>
 
-Click `Save and restart` to save the settings.
+Click `Save and restart` to save the settings.

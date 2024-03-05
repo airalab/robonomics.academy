@@ -16,7 +16,7 @@ The easiest and the most straightforward way to connect your sensor to the netwo
 
 <li>
 
-Connect you board to a USB port, and find path to it. In this example it is `ttyUSB0`
+Connect you board to a USB port, and find path to it. In this example it is `ttyUSB0`
 
 
 <LessonCodeWrapper codeClass="big-code" language="bash">$ ls -l /dev/serial/by-id
@@ -196,11 +196,11 @@ Create a new configuration file or edit the existing one with the following. Ins
 
 - a private key from Robonomics parachain account to `suri` field
 
-- a period of time for collecting log in seconds to `dump_interval` field
+- a period of time for collecting log in seconds to `dump_interval` field
 
-- (optional) credentials to upload files to [Temporal.Cloud](http://Temporal.Cloud) in `temporal_username`, `temporal_password` fields
+- (optional) credentials to upload files to [Temporal.Cloud](http://Temporal.Cloud) in `temporal_username`, `temporal_password` fields
 
-- (optional) credentials to upload files to Pinata in `pinata_api`, `pinata_secret` fields
+- (optional) credentials to upload files to Pinata in `pinata_api`, `pinata_secret` fields
 
 <LessonCodeWrapper codeClass="big-code" language="json">{
    "general": {

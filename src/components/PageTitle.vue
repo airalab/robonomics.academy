@@ -24,7 +24,7 @@
       <div class="lesson-update" v-if="lessonId || doc">
 
         <div class="lesson-update__wrapper" v-show="ghUpdateName">
-          <g-link class="lesson-update__link" :to="ghUpdateUrl">{{$ts('Latest update')}}</g-link> {{$ts('on (date of commit)')}} {{ghUpdateDate}} {{$ts('by (author of commit)')}} {{ghUpdateName}}
+          <g-link class="lesson-update__link" :to="ghUpdateUrl">{{$t('Latest update')}}</g-link> {{$t('on (date of commit)')}} {{ghUpdateDate}} {{$t('by (author of commit)')}} {{ghUpdateName}}
         </div>
 
       </div>

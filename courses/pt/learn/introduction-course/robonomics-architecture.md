@@ -1,16 +1,16 @@
 ---
 title: "Lição #4, Arquitetura da Robonomics"
 lastUpdate: Thu May 04 2023 12:57:09 GMT+0400 (Samara Standard Time)
-description: Esta lição é novamente dedicada à teoria. Você estudará a primeira metade do segundo capítulo do Whitepaper Robonomics 2022, intitulado “Arquitetura da Robonomics”.
+description: Esta lição é novamente dedicada à teouia. Você estudará a primeira metade do segundo capítulo do Whitepaper Robonomics 2022, intitulado “Arquitetura da Robonomics”.
 lessonNumber: 4
 metaOptions: [Cursos on-line, Curso introdutório]
-defaultName: Introduction to the ideas of Robonomics
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 
 ## Intro
 
-Esta lição é novamente dedicada à teoria. Você estudará a primeira metade do segundo capítulo do Whitepaper Robonomics 2022, intitulado **“Arquitetura da Robonomics”**. Particularmente, exploramos algumas das questões práticas e desafios que envolvem a criação de um sistema IoT que funcione bem. Exploramos estas questões porque essa é a única maneira de entender os requisitos para plataformas IoT como a Robonomics.
+Esta lição é novamente dedicada à teouia. Você estudará a primeira metade do segundo capítulo do Whitepaper Robonomics 2022, intitulado **“Arquitetura da Robonomics”**. Particularmente, explouamos algumas das questões práticas e desafios que envolvem a criação de um sistema IoT que funcione bem. Exploramos estas questões porque essa é a única maneira de entender os requisitos para plataformas IoT como a Robonomics.
 
 
 ## Você vai aprender:
@@ -75,6 +75,6 @@ Como na lição anterior, assine sua transação e verifique-a no explorer Polka
 
 A lição será considerada concluída após o envio de uma transação bem sucedida e sua ocorrência no explorer Polkadot para sua conta na polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Você pode verificar seus resultados em [no dapp de verificação especial](https://lk.robonomics.academy/). Para autorização no dapp de verificação, use a mesma conta no Polkadot.js que foi usada durante o curso.
 
 </Result>
