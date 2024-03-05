@@ -1,7 +1,7 @@
 ---
 title: "Написание тезиса: Обзор литературы"
 description: Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте
-metaOptions: [Learn, Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте]
+metaOptions: [Учиться, Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 ---
 
@@ -15,7 +15,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 
 <RoboAcademyDialog>
 
-Add 10 references and quotes for Introduction part to support the statements in the text.
+Add 10 references and quotes for Вступлениеduction part to support the statements in the text.
 </RoboAcademyDialog>
 
 Оба чат-бота справились с задачей расставить источники по тексту… но абсолютно провалились с собственно поиском источников. Проблема в том, что ИИ-помощники вместо настоящих источников стали откровенно выдумывать несуществующие (но очень похожие на настоящие), добавлять их в текст и даже цитировать выдуманных авторов! 
@@ -64,8 +64,8 @@ Find 5 scientific sources that prove statements in this text. Use only arXiv, IE
 
 <RoboAcademyDialog>
 
-&mdash; Overview of smart home technology and its security and privacy issues
-<br/>&mdash; Introduction to web3 technology and its potential benefits for smart homes
+&mdash; Обзор of smart home technology and its security and privacy issues
+<br/>&mdash; Вступлениеduction to web3 technology and its potential benefits for smart homes
 </RoboAcademyDialog>
 
 Был использован следующий запрос:
@@ -115,7 +115,7 @@ THOUGHTS:  It looks like I am encountering an encoding issue while trying to ope
 
 </RoboAcademyTerminal>
 
-В любом случае, PDF-статьи придется конвертировать в текстовый формат (без изображений и таблиц). Для этого можно воспользоваться такими программами как[PyMuPDF](https://pymupdf.readthedocs.io/en/latest/), [GROBID](https://grobid.readthedocs.io/en/latest/Introduction/), и [PDFMiner](https://pdfminersix.readthedocs.io/en/latest/).
+В любом случае, PDF-статьи придется конвертировать в текстовый формат (без изображений и таблиц). Для этого можно воспользоваться такими программами как[PyMuPDF](https://pymupdf.readthedocs.io/en/latest/), [GROBID](https://grobid.readthedocs.io/en/latest/Вступлениеduction/), и [PDFMiner](https://pdfminersix.readthedocs.io/en/latest/).
 
 2) Есть куда более серьезная проблема, которая по сути не позволяет использовать эти ИИ-инструменты в лоб для анализа целой статьи. К сожалению, в текущем варианте GPT имеет ограниченную длину контекста, из-за чего Auto-GPT просто отказывается начинать анализ, а чат-боты теряют начало разговора:
 

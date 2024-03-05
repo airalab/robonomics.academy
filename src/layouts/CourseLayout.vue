@@ -23,7 +23,7 @@
           <div class="breadcrumbs">
             <ul v-if="breadcrumbs">
               <li v-for="item in breadcrumbs" :key="item.id">
-                <g-link :to="item.to">{{item.text}}</g-link>
+                <g-link :to="item.to">{{$t(item.text)}}</g-link>
               </li>
             </ul>
             <button 
@@ -34,7 +34,7 @@
               <font-awesome-icon icon="fa-xmark" v-else/>
             </button>
           </div>
-          <h1 v-if="course[0]">{{ $ts(course[0].title )}}</h1>
+          <h1 v-if="course[0]">{{ $t(course[0].title )}}</h1>
         </div>
         
         <template v-if="course[0].progress !== 'coming'">

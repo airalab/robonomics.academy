@@ -175,4 +175,3 @@ Her next step is to study the course [https://robonomics.academy/learn/smart-hom
 
 </RoboAcademyText>
 
-

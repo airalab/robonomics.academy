@@ -3,18 +3,18 @@
       <div v-if="isUpdated" class="learn__updated">Updated</div>
       <ul class="learn__tags">
         <li v-for="tag in item.tags" :key="tag.id" class="tag learn__tag">
-          {{ tag }}
+          {{ $t(tag) }}
         </li>
         <span v-if="item.progress === 'coming'">(coming soon)</span>
       </ul>
       <div v-if="item.lessons.length > 1" class="learn__lessons lessons-count">
         <span>{{ item.lessons.length }}</span>
       </div>
-      <h3> {{ $ts(item.title) }} </h3>
+      <h3> {{ $t(item.title) }} </h3>
       <div class="learn__author" :class="{'many-authors': getAuthorByAlias(item.author).length > 2}" v-if="item.author" >
         <div class="author-wrapper" v-for="(author) in getAuthorByAlias(item.author)" :key="author.alias">
           <g-image v-if="author.avatar" :src="require(`!!assets-loader!@imagesAuthors/${author.avatar}`)" :alt="item.author" />
-          <h4>{{ $ts(author.fullName)}}</h4>
+          <h4>{{ $t(author.fullName)}}</h4>
         </div>
       </div>
       <Level :level="String(item.level)" cls="learn__level" />

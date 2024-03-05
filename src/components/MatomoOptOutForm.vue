@@ -16,9 +16,9 @@ export default {
   data() {
     return {
       optOut: false,
-      optText: 'You are currently opted out. Click here to opt in',
-      optDescr: "You may choose not to have a unique web analytics cookie identification number assigned to your computer to avoid the aggregation and analysis of data collected on this website.",
-      optChoice: "To make that choice, please click below to receive an opt-out cookie"
+      optText: this.$t('You are currently opted out. Click here to opt in'),
+      optDescr: this.$t("You may choose not to have a unique web analytics cookie identification number assigned to your computer to avoid the aggregation and analysis of data collected on this website."),
+      optChoice: this.$t("To make that choice, please click below to receive an opt-out cookie")
     }
   },
 
@@ -26,13 +26,13 @@ export default {
     setOptOutText() {
       if(this.$matomo) {
         if(this.$matomo && this.$matomo.isUserOptedOut()) {
-        this.optText = 'You are currently opted out. Click here to opt in.'
-        this.optDescr = "Opt-out complete; your visits to this website will not be recorded by the Web Analytics tool. Note that if you clear your cookies, delete the opt-out cookie, or if you change computers or Web browsers, you will need to perform the opt-out procedure again."
-        this.optChoice = "Please click below to opt in:"
+        this.optText = this.$t('You are currently opted out. Click here to opt in.')
+        this.optDescr = this.$t("Opt-out complete; your visits to this website will not be recorded by the Web Analytics tool. Note that if you clear your cookies, delete the opt-out cookie, or if you change computers or Web browsers, you will need to perform the opt-out procedure again.")
+        this.optChoice = this.$t("Please click below to opt in:")
         } else {
-          this.optText = 'You are currently opted in. Click here to opt out.'
-          this.optDescr = "You may choose not to have a unique web analytics cookie identification number assigned to your computer to avoid the aggregation and analysis of data collected on this website."
-          this.optChoice = "To make that choice, please click below to receive an opt-out cookie"
+          this.optText = this.$t('You are currently opted in. Click here to opt out.')
+          this.optDescr = this.$t("You may choose not to have a unique web analytics cookie identification number assigned to your computer to avoid the aggregation and analysis of data collected on this website.")
+          this.optChoice = this.$t("To make that choice, please click below to receive an opt-out cookie")
         }
       }
     },

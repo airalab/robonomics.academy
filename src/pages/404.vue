@@ -7,15 +7,15 @@
     />
 
     <div class="page-404">
-      <h1>404</h1>
+      <h1>{{ $t('404') }}</h1>
 
-      <p>You've come to the wrong classroom</p>
+      <p>{{ $t("You've come to the wrong classroom") }}</p>
 
       <div class="page-404__image">
         <g-image  src="../assets/images/page-404.svg" alt="not found"/>
       </div>
 
-      <g-link to="/">Return to main campus</g-link>
+      <g-link to="/">{{ $t('Return to main campus') }}</g-link>
     </div>
   </div>
 </template>

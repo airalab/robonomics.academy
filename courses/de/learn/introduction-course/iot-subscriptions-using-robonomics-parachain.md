@@ -4,17 +4,17 @@ lastUpdate: Thu May 04 2023 12:52:20 GMT+0400 (Samara Standard Time)
 description: Sie werden lernen wie Sie ein IoT-Abonnement auf Robonomics Parachain mit echten Token aus unserem Netzwerk kaufen.
 lessonNumber: 5
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Introduction to the ideas of Robonomics
+defaultName: Einführungduction to the ideas of Robonomics
 ---
 
 Die letzte Lektion unseres Einführungskurses ist höchstwahrscheinlich die anspruchsvollste, denn sie wird Ihnen einiges an Geschick und Geduld abverlangen. Sie werden lernen wie Sie ein IoT-Abonnement auf Robonomics Parachain mit echten Token aus unserem Netzwerk kaufen.
 
 
-## Intro
+## Einführung
 
-Ein IoT-Abonnement ist ein Zugangsschlüssel zu allen Funktionen die mit der Änderung des Zustands des digital Twins eines cyber-physischen Systems und der Speicherung von Informationen über dieses System unter Verwendung des Polkadot/Kusama-Ökosystems verbunden sind. Durch den Besitz eines Abonnements wird der Nutzer von der Gebühr befreit um für die Transaktion zu zahlen. Stattdessen kann der Nutzer einmal in einem bestimmten Zeitraum eine kostenlose Transaktion senden.
+Ein IoT-Abonnement ist ein Zugangsschlüssel zu allen Funktionen die mit der Änderung des Zustands des digital Twins eines cyber-physischen Systems und der Speicherung von Infodermationen über dieses System unter Verwendung des Polkadot/Kusama-Ökosystems verbunden sind. Durch den Besitz eines Abonnements wird der Nutzer von der Gebühr befreit um für die Transaktion zu zahlen. Stattdessen kann der Nutzer einmal in einem bestimmten Zeitraum eine kostenlose Transaktion senden.
 
-Um ein Abonnement zu kaufen ist die Teilnahme an der Abonnement-Auktion erforderlich. Daher sollten Sie in dieser Lektion XRT-Tokens erhalten um Gebote abzugeben und Transaktionen durchzuführen. Weitere Informationen über diesen Prozess finden Sie auch in [unserem Wiki](https://wiki.robonomics.network/docs/get-subscription).
+Um ein Abonnement zu kaufen ist die Teilnahme an der Abonnement-Auktion erfoderderlich. Daher sollten Sie in dieser Lektion XRT-Tokens erhalten um Gebote abzugeben und Transaktionen durchzuführen. Weitere Infodermationen über diesen Prozess finden Sie auch in [unserem Wiki](https://wiki.robonomics.network/docs/get-subscription).
 
 
 ## Anleitung
@@ -25,11 +25,11 @@ Um ein Abonnement zu kaufen ist die Teilnahme an der Abonnement-Auktion erforder
 
 You need around 2 XRT Robonomics Parachain tokens ([über den Token](https://robonomics.network/xrt/)). Wenn Sie diese nicht haben gibt es mehrere Möglichkeiten sie zu erhalten:
 
-a) If you pass both tests after Lesson 2 and Lesson 4 with 90% correct answers, you can request free tokens for the lesson. Check your scores on [the special checking dapp](https://lk.robonomics.academy/). Specifically, you need to score 15 out of 17 for Lesson 2 and 10 out of 11 for Lesson 4, and you have two attempts to do this. To get tokens, contact the Academy Administrator on our [Discord](https://discord.gg/xqDgG3EGm9) (IBerman#5862).
+a) Wenn Sie beide Tests nach Lektion 2 und Lektion 4 mit 90% korrekten Antworten bestehen, können Sie kostenlose Token für die Lektion anfordern. Überprüfen Sie Ihre Punktzahlen auf [der speziellen Überprüfungs-Dapp](https://lk.robonomics.academy/). Sie müssen speziell 15 von 17 für Lektion 2 und 10 von 11 für Lektion 4 erreichen, und Sie haben zwei Versuche, dies zu tun. Um Token zu erhalten, wenden Sie sich an den Academy-Administrator auf unserem [Discord](https://discord.gg/xqDgG3EGm9) (IBerman#5862).
 
 b) Kaufen XRT-Token an einer der Börsen (check out the [list of exchanges](https://www.coingecko.com/en/coins/robonomics-network#markets/)). Seien Sie vorsichtig wenn Sie nicht mit Kryptowährungsbörsen vertraut sind und denken Sie daran, dass alle Käufe auf Kryptowährungsbörsen potenzielle Risiken bergen können. Kaufen Sie nur die erforderliche Menge an Token um diese Lektion zu absolvieren. Also, keep in mind that Robonomics exists on two networks, Ethereum and Kusama, so each network has its own XRT token. You need a token that used by parachain in Kusama network.
 
-c) If you have XRT token in Ethereum network (ERC-20 format), use [Exodus](https://old.dapp.robonomics.network/#/exodus) process to transfer tokens from the Ethereum network to Kusama. Keep in mind that the transfer of tokens is carried out once a week.
+c) Wenn Sie XRT-Token im Ethereum-Netzwerk (im ERC-20-Format) haben, verwenden Sie den [Exodus](https://old.dapp.robonomics.network/#/exodus)-Prozess, um Token vom Ethereum-Netzwerk auf Kusama zu übertragen. Beachten Sie, dass die Übertragung von Token einmal pro Woche erfolgt.
 
 </li>
 
@@ -74,6 +74,6 @@ Die Geräteadresse sollte zum Abonnement hinzugefügt werden. Sie können sie im
 
 Die Lektion wird als abgeschlossen betrachtet, wenn der Kauf eines IoT-Abonnements und das Hinzufügen eines Geräts erfolgreich abgeschlossen wurde.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Sie können Ihre Ergebnisse auf [der speziellen Überprüfungs-Dapp](https://lk.robonomics.academy/) überprüfen. Zur Autorisierung in der Überprüfungs-Dapp verwenden Sie dasselbe Konto in Polkadot.js, das während des Kurses verwendet wurde.
 
 </Result>

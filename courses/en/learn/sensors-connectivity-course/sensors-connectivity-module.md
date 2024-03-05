@@ -182,7 +182,7 @@ After config is set, run the service with the path to config file in another ter
 
 <li>
 
-You will see logs in the terminal (also, they will be added to `~/.logs`). Example:
+You will see logs in the terminal (also, they will be added to `~/.logs`). Example:
 
 <LessonCodeWrapper codeClass="big-code" language="bash">$ sensors_connectivity test.json
 2022-09-02 14:08:48,408 - INFO - Getting data from the stations...

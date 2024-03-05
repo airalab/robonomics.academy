@@ -4,15 +4,15 @@ lastUpdate: Thu May 04 2023 12:52:24 GMT+0400 (Samara Standard Time)
 description: In dieser Lektion werden Sie versuchen eine intelligente Glühbirne zu steuern, die über den Home Assistant funktioniert der über zusätzliche Robonomics-Module verfügt.
 lessonNumber: 3
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Introduction to the ideas of Robonomics
+defaultName: Einführungduction to the ideas of Robonomics
 ---
 
-In Lektion 2 wurden die Hauptprinzipien von Robonomics erläutert und Polkadot / Kusama als vielversprechende Blockchain-Ecosystem-Plattform für ihre Umsetzung erwähnt. Es ist an der Zeit einen genaueren Blick auf die Funktionen von Robonomics Parachain als Teil des Polkadot-Ecosystems im Kusama-Netzwerk zu werfen. Insbesondere möchten wir zeigen wie die IoT-Abonnements der Robonomics Parachain funktionieren. In der ersten Lektion wurde Ihre Adresse dem IoT-Abonnement des Kurses hinzugefügt und Sie haben es bereits zweimal genutzt, als sie  "Black Mirror" benutzten und weiters Ihre Testergebnisse einreichten.
+In Lektion 2 wurden die Hauptprinzipien von Robonomics erläutert und Polkadot / Kusama als vielversprechende Blockchain-Ecosystem-Plattfoderm für ihre Umsetzung erwähnt. Es ist an der Zeit einen genaueren Blick auf die Funktionen von Robonomics Parachain als Teil des Polkadot-Ecosystems im Kusama-Netzwerk zu werfen. Insbesondere möchten wir zeigen wie die IoT-Abonnements der Robonomics Parachain funktionieren. In der ersten Lektion wurde Ihre Adresse dem IoT-Abonnement des Kurses hinzugefügt und Sie haben es bereits zweimal genutzt, als sie  "Black Mirroder" benutzten und weiters Ihre Testergebnisse einreichten.
 
 
-## Intro
+## Einführung
 
-In dieser Lektion werden Sie versuchen eine intelligente Glühbirne zu steuern, die über den Home Assistant funktioniert der über zusätzliche Robonomics-Module verfügt. Ihr Ziel ist es die Glühbirne über die Standardschnittstelle Polkadot/Substrat auf der Robonomics Parachain ein- und auszuschalten. Die Glühbirne sendet via [YouTube](https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live) damit Sie Ihr Ergebnis in Echtzeit verfolgen können. Eine ausführlichere Anleitung zur Nutzung eines IoT-Abonnements ist ebenfalls verfügbar [in unserem Wiki](https://wiki.robonomics.network/docs/subscription-launch/).
+In dieser Lektion werden Sie versuchen eine intelligente Glühbirne zu steuern, die über den Home Assistant funktioniert der über zusätzliche Robonomics-Module verfügt. Ihr Ziel ist es die Glühbirne über die Standardschnittstelle Polkadot/Substrat auf der Robonomics Parachain ein- und auszuschalten. Die Glühbirne sendet via [YouTube](https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live) damit Sie Ihr Ergebnis in Echtzeit verfolgen können. Eine ausführlichere Anleitung zur Nutzung eines IoT-Abonnements ist ebenfalls verfügbar [in unserem Wiki](https://wiki.robonomics.netwoderk/docs/subscription-launch/).
 
 
 ## Anleitung
@@ -80,6 +80,6 @@ Vergessen Sie nicht, die [Übertragung auf YouTube](https://www.youtube.com/chan
 
 Die Lektion gilt als abgeschlossen, wenn die Transaktion erfolgreich gesendet wurde und im Polkadot-Explorer für Ihr polkadot.js-Konto erscheint.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Sie können Ihre Ergebnisse auf [der speziellen Überprüfungs-Dapp](https://lk.robonomics.academy/) überprüfen. Zur Autorisierung in der Überprüfungs-Dapp verwenden Sie dasselbe Konto in Polkadot.js, das während des Kurses verwendet wurde.
 
 </Result>

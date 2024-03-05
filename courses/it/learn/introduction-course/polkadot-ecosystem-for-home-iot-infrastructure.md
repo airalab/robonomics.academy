@@ -3,12 +3,12 @@ title: "Lezione #3, L'Ecosistema Polkadot per l'Infrastruttura IoT Domestica"
 lastUpdate: Thu May 04 2023 12:56:26 GMT+0400 (Samara Standard Time)
 description: In questa lezione proverai a controllare una lampadina intelligente che funziona tramite Home Assistant, che ha dei moduli Robonomics aggiuntivi.
 lessonNumber: 3
-metaOptions: [Corsi online, Corso Introduttivo]
+metaOptions: [Cosi online, Corso Introduzioneduzioneduzioneduzioneduzioneduzioneduttivo]
 defaultName: Introduction to the ideas of Robonomics
 ---
 
 
-La lezione 2 ha spiegato i principi fondamentali di Robonomics e ha menzionato Polkadot / Kusama come promettenti piattaforme blockchain per la sua implementazione. Ora è il momento di dare un'occhiata più da vicino alle funzionalità della Parachain Robonomics, come parte dell'ecosistema Polkadot nella rete Kusama. In particolare, vorremmo mostrare come funzionano gli abbonamenti IoT di Robonomics. Durante la prima lezione, il tuo indirizzo è stato inserito all'abbonamento Iot del corso e l'hai già riuscito ad utilizzarlo due volte: quando hai cercato il tuo riflesso nello specchio nero e quando hai consegnato i risultati del test.
+La lezione 2 ha spiegato i principi fondamentali di Robonomics e ha menzionato Polkadot / Kusama come promettenti piattafome blockchain per la sua implementazione. Ora è il momento di dare un'occhiata più da vicino alle funzionalità della Parachain Robonomics, come parte dell'ecosistema Polkadot nella rete Kusama. In particolare, vorremmo mostrare come funzionano gli abbonamenti IoT di Robonomics. Durante la prima lezione, il tuo indirizzo è stato inserito all'abbonamento Iot del corso e l'hai già riuscito ad utilizzarlo due volte: quando hai cercato il tuo riflesso nello specchio nero e quando hai consegnato i risultati del test.
 
 
 ## Intro
@@ -81,6 +81,6 @@ Premi il pulsante "Submit Transaction".
 
 La lezione sarà considerata completata dopo l'invio di una transazione riuscita e la sua apparizione sul Polkadot explorer col tuo account polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puoi controllare i tuoi risultati su [la dapp di controllo speciale](https://lk.robonomics.academy/). Per l'autorizzazione alla dapp di controllo utilizza lo stesso account in Polkadot.js che è stato utilizzato durante il corso.
 
 </Result>

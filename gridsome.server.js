@@ -11,16 +11,16 @@ const fsExtra = require("fs-extra");
 const createImage = require("node-html-to-image");
 const generateHtml = require("./functions/generateHtml");
 const yaml = require("js-yaml");
+const translateLesson = require("./functions/translations");
 
 let allPossiblePaths = [];
-let allPossiblePathsPlayground = [];
 
 require.extensions['.yaml'] = function(module, filename) { // To safely load .yaml file via require
   module.exports = yaml.load(fs.readFileSync(filename, 'utf8'));
 }
 
-const courses = require('./src/data/online-courses.yaml')
-const imgsInfo = require('./src/data/images-info.yaml');
+// const courses = require('./src/data/online-courses.yaml')
+// const imgsInfo = require('./src/data/images-info.yaml');
 
 // For generated images configuration
 const defaultOptions = {
@@ -74,54 +74,21 @@ module.exports = function (api) {
     })
 
 
+    collection.data().forEach((lesson) => { // Generate images for lessons themselves
 
+      if (lesson.internal.typeName === options.typeName) {
+        
+        const imgName = lesson.fileInfo.name;
 
-    courses.forEach((course) => {
-      
-      fsExtra.ensureDirSync(options.basePath + course.path)
-
-      imgsInfo.forEach(img => {
-        img.courses.forEach(imgCourse => {
-          if(imgCourse.title === course.title) {
-            const output = `${options.outputDir}${course.path}${imgCourse.imgName}`
-            generateImage(output, imgCourse.options, options)
-          }
-        })
-      })
-
-      collection.data().forEach((lesson) => { // Generate images for lessons themselves
-
-        if (lesson.internal.typeName === options.typeName) {
-
-          
-          const imgName = lesson.fileInfo.name;
-          const lessonNamePart = lesson.title.substr(0, lesson.title.indexOf(',')); 
-          const lessonTitle = lessonNamePart ? lesson.title.replace(lessonNamePart, '').slice(2).trim() : lesson.title;
-          const locale = lesson.fileInfo.path.slice(0,2);
-          const dir = lesson.fileInfo.directory.slice(9);
-          const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`
-          const lessonOptions = [...lesson.metaOptions, lessonTitle];
-          generateImage(output, lessonOptions, options)
-          
-
-        }
-
-      })
+        const lessonNamePart = lesson.title.substr(0, lesson.title.indexOf(',')); 
+        const lessonTitle = lessonNamePart ? lesson.title.replace(lessonNamePart, '').slice(2).trim() : lesson.title;
+        const locale = lesson.fileInfo.path.slice(0,2);
+        const dir = lesson.fileInfo.directory.slice(9);
+        const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`
+        const lessonOptions = [...lesson.metaOptions, lessonTitle];
+        generateImage(output, lessonOptions, options)
+      }
     })
-
-    imgsInfo.forEach(img => {
-
-      // for certificates page
-      generateImage(options.outputDir + img.certificate.imgName, img.certificate.options, options)
-
-      // for online courses page
-      // generateImage(options.outputDir + img['online-course'].imgName, img['online-course'].options, options)
-
-      // for learn page
-      // generateImage(options.outputDir + img.learn.imgName, img.learn.options, options)
-    })
-
-  })
 
   api.onCreateNode(options => {
     let data = fs.readFileSync(`courses${options.path.slice(0, -1)}.md`).toString().split("\n");
@@ -196,7 +163,6 @@ stream.write(`\n- link: ${options.path}
 
           if (allHashes.every(e => e.hash !== content)) {
             console.log(content)
-            
           }
       });
   })  
@@ -204,9 +170,9 @@ stream.write(`\n- link: ${options.path}
   api.createPages(({ createPage }) => {
 
     // all locales
-    const locales = ["ru", "it", "es", "de", "pt" ];
+    const locales = ["ru", "it", "es", "de", "pt", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl"];
 
-    const localesAll = ["ru", "it", "es", "de", "pt", "en"];
+    const localesAll = ["ru", "it", "es", "de", "pt", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl", "en"];
 
     const oldPaths = ['/online-courses/', '/playground/'];
 
@@ -344,11 +310,13 @@ stream.write(`\n- link: ${options.path}
     })
 
     
- 
-
     allPossiblePaths.forEach(node => {
 
       const path = node.path.substring(4);
+
+      // for lesson translations
+      // translateLesson(fs, path.slice(0,-1))
+
 
       locales.forEach(locale => {
         if (fs.existsSync(`courses/${locale}/${path.slice(0,-1)}.md`)) {
@@ -359,7 +327,13 @@ stream.write(`\n- link: ${options.path}
             component: './src/templates/AvailableCoursesTranslations.vue',
           })
         }
+
+        // imgsInfo.forEach(img => {
+        //   const output = `${options.outputDir}-${img.page}-${locale}`
+        //   generateImage(output, img.languages[locale], options)
+        // })
+        
       })
     })
   })
-}
+})}

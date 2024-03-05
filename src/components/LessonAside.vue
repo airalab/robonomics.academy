@@ -8,7 +8,7 @@
           v-for="tag in course.tags"
           :key="tag"
         >
-          {{ tag }}
+          {{ $t(tag) }}
         </li>
       </ul>
       <!-- info -->
@@ -31,14 +31,14 @@
           :class="[{'lessons-aside__item--active': lesson.path ? path === lesson.path : path && path.includes('course') && lesson.id == 0 || course.lessons.length === 1 || course.path === path && lesson.id == 0}, {'lessons-aside__item--zero': lesson.id == 0}, {'lessons-aside__item--in-progress': course.progress === 'coming' && lesson.status === 'in progress' || course.progress === 'progress' && lesson.status === 'in progress'}]"
         >
           <g-link :to="course.progress !== 'coming' && lesson.status !== 'in progress' ? getLessonPath(course, lesson) : ''">
-            {{  $ts(lesson.title ) }}
+            {{  $t(lesson.title ) }}
           </g-link>
         </li>
       </ol>
 
       <div v-if="course.author" :class="{'many-authors': getAuthorByAlias(course.author).length > 1}">
         <div class="lesson-aside__author" v-for="(author, index) in getAuthorByAlias(course.author)" :key="author.alias">
-          <span v-if="index === 0"> By <span class="lesson-aside__author--name">{{ author.fullName }}</span> </span>
+          <span v-if="index === 0"> By <span class="lesson-aside__author--name">{{ $t(author.fullName) }}</span> </span>
           <span v-else> <span class="lesson-aside__author--name">{{ author.fullName }}</span> </span>
           <g-image v-if="author.avatar" :src="require(`!!assets-loader!@imagesAuthors/${author.avatar}`)" :alt="author.alias" />
         </div>

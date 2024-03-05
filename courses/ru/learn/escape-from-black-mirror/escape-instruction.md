@@ -1,8 +1,8 @@
 ---
 title: Заметки для нетраннеров по перерезанию пуповины облака, часть 2
 lastUpdate: Wed May 24 2023 18:09:03 GMT+0400 (Samara Standard Time)
-description: Escape from Black Mirror
-metaOptions: [Learn, Escape from Black Mirror]
+description: Побег из Черного Зеркала
+metaOptions: [Учись, Побег из Черного Зеркала]
 defaultName: Escape from Black Mirror
 ---
 

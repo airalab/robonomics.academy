@@ -1,15 +1,15 @@
 <template>
     <section class="section__brown">
       <div class="container__narrow text__hyphened">
-        <h2>{{$ts('Completed the Course?')}}</h2>
-        <p>{{$ts('You can apply for a certificate of completion, after which you will be able to:')}}</p>
+        <h2>{{$t('Completed the Course?')}}</h2>
+        <p>{{$t('You can apply for a certificate of completion, after which you will be able to:')}}</p>
         <List type="plus">
-          <li>{{$ts('add certificate to your LinkedIn profile')}};</li>
-          <li>{{$ts('apply for')}} <g-link to="https://robonomics.network/ambassador-program/">{{$ts('Robonomics Ambassador Program')}}</g-link>;</li>
-          <li>{{$ts('print the certificate and hang it on the wall.')}}</li>
+          <li>{{$t('add certificate to your LinkedIn profile')}};</li>
+          <li>{{$t('apply for')}} <g-link to="https://robonomics.network/ambassador-program/">{{$t('Robonomics Ambassador Program')}}</g-link>;</li>
+          <li>{{$t('print the certificate and hang it on the wall.')}}</li>
         </List>
         <section class="section__small text__center">
-          <g-link class="btn" to="/certificates">{{$ts('Apply for Certificate')}}</g-link>
+          <g-link class="btn" to="/certificates">{{$t('Apply for Certificate')}}</g-link>
         </section>
       </div>
     </section>

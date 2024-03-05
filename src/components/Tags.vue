@@ -5,7 +5,7 @@
       v-for="tag in tags"
       :key="tag.id"
       :tag="tag"
-      @activateTag="() => $emit('filterCourses', tag.name)"
+      @activateTag="() => $emit('filterCourses', tag.defaultValue)"
     />
   </div>
   
@@ -22,19 +22,23 @@ export default {
     return {
       tags: [
         {
-          name: 'course',
+          name: this.$t('course'),
+          defaultValue: 'course',
           id: 0
         },
         {
-          name: 'guide',
+          name: this.$t('guide'),
+          defaultValue: 'guide',
           id: 1
         },
         {
-          name: 'launch simulation',
+          name: this.$t('launch simulation'),
+          defaultValue: 'launch simulation',
           id: 2
         },
         {
-          name: 'real-life setup',
+          name: this.$t('real-life setup'),
+          defaultValue: 'real-life setup',
           id: 3
         }
       ],

@@ -2,7 +2,7 @@
     <footer class="footer">
       <div class="footer__section">
         <!-- <g-link class="logo" to="/"><g-image src="@/assets/images/logo.svg" /></g-link> -->
-        <g-link class="privacy-policy__link" to="/privacy-policy">Privacy Policy</g-link>
+        <g-link class="privacy-policy__link" to="/privacy-policy">{{ $t('Privacy Policy') }}</g-link>
       </div>
     </footer>
 </template>

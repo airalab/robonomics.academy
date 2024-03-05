@@ -9,10 +9,10 @@
         </div>
 
         <nav id="nav" class="nav header__section">
-            <g-link class="nav__link" :class="{'active': $route.path.includes('learn')}" to="/learn/">{{$ts('Learn')}}</g-link>
+            <g-link class="nav__link" :class="{'active': $route.path.includes('learn')}" to="/learn/">{{$t('Learn')}}</g-link>
             <!-- <g-link class="nav__link" :class="{'active': $route.path.includes('playground')}" to="/playground/">{{$ts('Playground')}}</g-link> -->
             <!-- <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Blockchain certificate')}}</g-link> -->
-             <g-link class="nav__link"  to="https://robonomics.network/">{{$ts('Robonomics website')}}</g-link>
+             <g-link class="nav__link"  to="https://robonomics.network/">{{$t('Robonomics website')}}</g-link>
         </nav>
 
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
@@ -136,6 +136,7 @@ export default {
 
     .header a:not(:last-child) {
         margin-right: var(--gap);
+        margin-left: var(--gap);
     }
 
     .header a:hover {
@@ -148,7 +149,8 @@ export default {
 
     .header nav {
         text-align: center;
-        margin-right: calc(var(--gap) * 4);
+        margin-right: calc(var(--gap) * 5);
+        direction: rtl;
     }
 
     .header .expand {

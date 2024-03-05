@@ -3,14 +3,14 @@ title: "Lección #4, Arquitectura de Robonomics"
 lastUpdate: Thu May 04 2023 12:55:56 GMT+0400 (Samara Standard Time)
 description: Estudiará la primera mitad del segundo capítulo del Whitpaper de Robonomics 2022 titulado "Arquitectura de Robonomics".
 lessonNumber: 4
-metaOptions: [Cursos online, Curso de Introducción]
-defaultName: Introduction to the ideas of Robonomics
+metaOptions: [Cursos online, Curso de Introducciónducciónducciónducciónducciónducciónducción]
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 
 ## Intro
 
-Esta lección está nuevamente dedicada a la teoría. Estudiará la primera mitad del segundo capítulo del Whitpaper de Robonomics 2022 titulado **"Arquitectura de Robonomics"**. En particular, exploramos algunas de las preguntas prácticas y los desafíos relacionados con la creación de un sistema IoT que funcione bien. Exploramos estas preguntas porque esta es la única forma en que podemos entender los requisitos para plataformas IoT como Robonomics.
+Esta lección está nuevamente dedicada a la teoía. Estudiará la primera mitad del segundo capítulo del Whitpaper de Robonomics 2022 titulado **"Arquitectura de Robonomics"**. En particular, exploamos algunas de las preguntas prácticas y los desafíos relacionados con la creación de un sistema IoT que funcione bien. Exploamos estas preguntas porque esta es la única forma en que podemos entender los requisitos para plataformas IoT como Robonomics.
 
 
 ## Aprenderás:
@@ -76,6 +76,6 @@ La lección se considerará completada después de enviar una transacción exito
 
 La lección se considerará completada después de enviar una transacción exitosa y su aparición en el explorador Polkadot para su cuenta polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puedes verificar tus resultados en [la dapp de verificación especial](https://lk.robonomics.academy/). Para autorización en la dapp de verificación, utiliza la misma cuenta en Polkadot.js que se usó durante el curso.
 
 </Result>

@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <div class="redirect container__mid">
-      <p>This page has moved to a </p>
+      <p>{{ $t('This page has moved to a') }} </p>
       <a :href="redirect">{{ ' https://robonomics.academy' + redirect }}</a>
-      <p>Automatic redirecting</p>
+      <p>{{ $t('Automatic redirecting') }}</p>
     </div>
   </Layout>
 </template>

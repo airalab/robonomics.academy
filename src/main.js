@@ -53,6 +53,9 @@ import '~/assets/css/fonts.css'
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
 
+// for translations
+import { t, setI18n, withI18n } from '../translations/i18n.js'
+
 /* import specific icons */
 import { 
   faAward, 
@@ -216,6 +219,11 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       }
    },
   });
+
+    // for translations
+    Vue.prototype.$t = t; 
+    Vue.prototype.$setI18n = setI18n;
+    Vue.prototype.$withI18n = withI18n;
 
   
 }

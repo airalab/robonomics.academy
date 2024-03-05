@@ -1,14 +1,14 @@
 ---
 title: "Lección #2, En la intersección de la cibernética y la economía"
 lastUpdate: Thu May 04 2023 12:55:42 GMT+0400 (Samara Standard Time)
-description: La inmersión en la teoría de las últimas tecnologías web3 en la intersección de la Cibernética y la Economía, que están diseñadas para ayudar a que los sistemas IoT funcionen de manera segura y eficiente en nuestros hogares y ciudades.
+description: La inmersión en la teoía de las últimas tecnologías web3 en la intersección de la Cibernética y la Economía, que están diseñadas para ayudar a que los sistemas IoT funcionen de manera segura y eficiente en nuestros hogares y ciudades.
 lessonNumber: 2
-metaOptions: [Cursos online, Curso de Introducción]
-defaultName: Introduction to the ideas of Robonomics
+metaOptions: [Cursos online, Curso de Introducciónducciónducciónducciónducciónducciónducción]
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 
-Nos alegra que hayas podido atravesar el espejo negro y no ahogarte en el mundo digital. Ahora le espera una inmersión mucho más profunda... la inmersión en la teoría de las últimas tecnologías web3 en la intersección de la Cibernética y la Economía, que están diseñadas para ayudar a que los sistemas IoT funcionen de manera segura y eficiente en nuestros hogares y ciudades.
+Nos alegra que hayas podido atravesar el espejo negro y no ahogarte en el mundo digital. Ahoa le espera una inmersión mucho más profunda... la inmersión en la teoía de las últimas tecnologías web3 en la intersección de la Cibernética y la Economía, que están diseñadas para ayudar a que los sistemas IoT funcionen de manera segura y eficiente en nuestros hogares y ciudades.
 
 
 ## Intro
@@ -80,6 +80,6 @@ Como en la lección anterior, firme su transacción y verifíquela en el explora
 
 La lección se considerará completada después de enviar una transacción exitosa y su aparición en el explorador Polkadot para su cuenta polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puedes verificar tus resultados en [la dapp de verificación especial](https://lk.robonomics.academy/). Para autorización en la dapp de verificación, utiliza la misma cuenta en Polkadot.js que se usó durante el curso.
 
 </Result>

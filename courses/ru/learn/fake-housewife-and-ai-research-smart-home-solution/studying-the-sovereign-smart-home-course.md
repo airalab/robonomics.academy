@@ -2,7 +2,7 @@
 title: Изучение курса "Sovereign smart home" в академии и инструкций WIKI
 lastUpdate: Thu May 11 2023 17:22:37 GMT+0400 (Samara Standard Time)
 description: Fake Housewife & AI research Smart Home Solution
-metaOptions: [Learn, Fake Housewife & AI research Smart Home Solution]
+metaOptions: [Учить, Fake Housewife & AI research Smart Home Solution]
 defaultName: Fake Housewife & AI research Smart Home Solution
 ---
 
@@ -16,7 +16,7 @@ defaultName: Fake Housewife & AI research Smart Home Solution
 
 <RoboAcademyTerminal title="Goals">
 
-**AI Name: Нousewife**
+**Имя ИИ: Домохозяйка**
 
 Домохозяйка - это женский AI-агент, разработанный для автономного проведения исследований в интернете, а также независимого репортажа и рассказа от первого лица.
 
@@ -89,7 +89,7 @@ Zigbee - популярный стандарт беспроводной связ
 
 <RoboAcademyTerminal title="Goals">
 
-**AI Name: Нousewife**
+**Имя ИИ: Домохозяйка**
 
 Домохозяйка - это женский AI-агент, разработанный для автономного проведения исследований в интернете, а также независимого репортажа и рассказа от первого лица.
 
@@ -117,7 +117,7 @@ Zigbee - популярный стандарт беспроводной связ
 
 <RoboAcademyTerminal title="Goals">
 
-**AI Name: Нousewife**
+**Имя ИИ: Домохозяйка**
 
 Домохозяйка - это женский AI-агент, разработанный для автономного проведения исследований в интернете, а также независимого репортажа и рассказа от первого лица.
 

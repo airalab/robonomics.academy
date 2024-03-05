@@ -1,126 +1,17 @@
-- locale: en 
-  certificate:
-    imgName: "apply-for-certificate-en.png"
-    options: [Apply for certificate]
-  learn:
-    imgName: "learn-en.png"
-    options: [Learn]
-  courses:
-    - title: Introduction Course
-      imgName: "/cover-en.png"
-      options: [Online Courses, Introduction Course]
-    - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover-en.png"
-      options: [Online Courses, Boston Dynamics Spot Software Developing]
-    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      imgName: "/cover-en.png"
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-    - title: 'Sensors Connectivity & Decentralized Sensors Network'
-      imgName: "/cover-en.png"
-      options: [Online Courses, Sensors Connectivity & Decentralized Sensors Network]
-
-- locale: es 
-  certificate:
-    imgName: "apply-for-certificate-es.png"
-    options: [Solicitar certificado]
-  learn:
-    imgName: "learn-es.png"
-    options: [Learn]
-  courses:
-    - title: Introduction Course
-      imgName: "/cover-es.png"
-      options: [Cursos online, Curso de Introducción]
-    - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover-es.png"
-      options: [Cursos online, Desarrollo de software de punto de Boston Dynamics]
-    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      imgName: "/cover-es.png"
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-
-- locale: it 
-  certificate:
-    imgName: "apply-for-certificate-it.png"
-    options: [Applica per il certificato]
-  learn:
-    imgName: "learn-it.png"
-    options: [Learn]
-  courses:
-    - title: Introduction Course
-      imgName: "/cover-it.png"
-      options: [Corsi online, Corso Introduttivo]
-    - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover-it.png"
-      options: [Corsi online, Boston Dynamics Spot Software Developing]
-    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      imgName: "/cover-it.png"
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-
-- locale: ru 
-  certificate:
-    imgName: "apply-for-certificate-ru.png"
-    options: [Подать заявку на сертификат]
-  learn:
-    imgName: "learn-ru.png"
-    options: [Learn]
-  courses:
-    - title: Introduction Course
-      imgName: "/cover-ru.png"
-      options: [Онлайн курсы, Вводный курс]
-    - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover-ru.png"
-      options: [Онлайн курсы, Разработка программного обеспечения для Spot от Boston Dynamics] 
-    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      imgName: "/cover-ru.png"
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-
-- locale: de 
-  learn:
-    imgName: "learn-de.png"
-    options: [Learn]
-  certificate:
-    imgName: "apply-for-certificate-de.png"
-    options: [Apply for certificate]
-  courses:
-    - title: Introduction Course
-      imgName: "/cover-de.png"
-      options: [Online Courses, Introduction Course]
-    - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover-de.png"
-      options: [Online Courses, Boston Dynamics Spot Software Developing]
-    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      imgName: "/cover-de.png"
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-
-- locale: pt 
-  certificate:
-    imgName: "apply-for-certificate-pt.png"
-    options: [Solicitação de certificado]
-  learn:
-    imgName: "learn-pt.png"
-    options: [Learn]
-  courses:
-    - title: Introduction Course
-      imgName: "/cover-pt.png"
-      options: [Cursos on-line, Curso introdutório]
-    - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover-pt.png"
-      options: [Cursos on-line, Desenvolvimento de software Boston Dynamics Spot]
-    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      imgName: "/cover-pt.png"
-      options: [Online Courses, Sovereign Smart Home with Robonomics and Home Assistant]
-
-- locale: de
-  certificate:
-    imgName: "apply-for-certificate-de.png"
-    options: [Zertifikat anfordern]
-  courses:
-    - title: Introduction Course
-      imgName: "/cover-de.png"
-      options: [Online Kurse, Einführungskurs]
-    - title: 'Boston Dynamics Spot Software Developing'
-      imgName: "/cover-de.png"
-      options: [Online Kurse, Boston Dynamics Spot Software Developing]
-    - title: 'Sovereign Smart Home with Robonomics and Home Assistant'
-      imgName: "/cover-de.png"
-      options: [Online Kurse, Souveränes Smart Home mit Robonomics und Home Assistant]
-
+- page: Learn
+  languages: 
+    en: "Learn"
+    ar: "يتعلم"
+    de: "Lernen"
+    el: "Μάθετε"
+    es: "Aprende"
+    fr: "Apprendre"
+    it: "Impara"
+    ja: "学ぶ"
+    ko: "배우다"
+    nl: "Leer"
+    pt: "Aprenda"
+    ru: "Учитесь"
+    uk: "Навчайтеся"
+    zh: "学习"
+  

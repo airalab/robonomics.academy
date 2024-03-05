@@ -1,15 +1,15 @@
 ---
-title: "Lektion #1, Übertragung durch den 'Black Mirror'"
+title: "Lektion #1, Übertragung durch den 'Black Mirroder'"
 lastUpdate: Thu May 04 2023 12:52:16 GMT+0400 (Samara Standard Time)
 description: In dieser ersten Lektion lernen Sie grundlegende Methoden zur Interaktion mit einer dezentralen Anwendung (oder Dapp).
 lessonNumber: 1
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Introduction to the ideas of Robonomics
+defaultName: Einführungduction to the ideas of Robonomics
 ---
 
-## Intro
+## Einführung
 
-In dieser ersten Lektion lernen Sie grundlegende Methoden zur Interaktion mit **einer dezentralen Anwendung (oder Dapp)**. Zu diesem Zweck haben wir eine spezielle Dapp namens "Black Mirror Broadcast" entwickelt, die nur über Ihren Webbrowser funktioniert und einen Stream mit einem kleinen Retro-Fernseher zeigt. Die App kann den Fernseher fernsteuern, indem sie Ihre Nachricht in Form eines QR-Codes anzeigt, der über die Robonomics-Plattform gesendet wird.
+In dieser ersten Lektion lernen Sie grundlegende Methoden zur Interaktion mit **einer dezentralen Anwendung (oder Dapp)**. Zu diesem Zweck haben wir eine spezielle Dapp namens "Black Mirroder Broadcast" entwickelt, die nur über Ihren Webbrowser funktioniert und einen Stream mit einem kleinen Retro-Fernseher zeigt. Die App kann den Fernseher fernsteuern, indem sie Ihre Nachricht in Foderm eines QR-Codes anzeigt, der über die Robonomics-Plattform gesendet wird.
 
 ## Inspiration
 
@@ -33,7 +33,7 @@ Siehe die Anleitung in unserem Wiki: [Konto erstellen für Robonomics Parachain]
 
 <li>
 
-Enter to our [Discord server](https://discord.gg/xqDgG3EGm9) and get the "Developer Community Member" role. To do this, in the channel "👋welcome-info" you need to click on the corresponding emoji (⚛️) in the MEE6 bot post.
+Treten Sie unserem [Discord-Server](https://discord.gg/xqDgG3EGm9) bei und erhalten Sie die Rolle des „Entwickler-Community-Mitglieds“. Dazu müssen Sie im Kanal „👋welcome-info“ auf das entsprechende Emoji (⚛️) im MEE6-Bot-Beitrag klicken.
 
 </li>
 
@@ -41,7 +41,7 @@ Enter to our [Discord server](https://discord.gg/xqDgG3EGm9) and get the "Develo
 
 Suchen Sie the special [Discord-Chatbot](https://discord.com/channels/803947358492557312/944186892038053899), namens "academy-faucet" in der Chat-Liste und geben Sie Ihre Robonomics Parachain-Adresse aus der polkadot.js-Erweiterung ein.
 
-Make sure you send the address to the bot in the correct format (it starts with "4"). If the bot does not respond or does not add your address to the subscription the first time, try a few more times, this happens due to network load. If the problem persists, ask in the "🎓robonomics-academy" channel.
+Stellen Sie sicher, dass Sie die Adresse im richtigen Format an den Bot senden (sie beginnt mit „4“). Wenn der Bot nicht antwortet oder Ihre Adresse beim ersten Mal nicht zur Abonnementliste hinzufügt, versuchen Sie es einige Male erneut, dies geschieht aufgrund der Netzwerklast. Wenn das Problem weiterhin besteht, fragen Sie im Kanal „🎓robonomics-academy“ nach.
 
 </li>
 
@@ -65,7 +65,7 @@ Geben Sie im Erweiterungsfenster Ihr Passwort ein und loggen Sie sich ein.
 
 Vergewissern Sie sich, dass Ihre Transaktion erfolgreich gesendet wurde indem Sie den Link zum Polkadot-Explorer überprüfen.
 
-The <code>Result</code> field should show <code>Success</code>.
+Das <code>Ergebnis</code>-Feld sollte <code>Erfolg</code> anzeigen.
 </li>
 
 <li>
@@ -77,6 +77,6 @@ The <code>Result</code> field should show <code>Success</code>.
 
 Die Lektion gilt als abgeschlossen, wenn die Transaktion erfolgreich gesendet wurde und im Polkadot-Explorer für Ihr polkadot.js-Konto erscheint.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Sie können Ihre Ergebnisse auf [der speziellen Überprüfungs-Dapp](https://lk.robonomics.academy/) überprüfen. Zur Autorisierung in der Überprüfungs-Dapp verwenden Sie dasselbe Konto in Polkadot.js, das während des Kurses verwendet wurde.
 
 </Result>

@@ -1,10 +1,10 @@
 ---
-title: "Introduction to the ideas of Robonomics"
+title: "Введение в идеи Robonomics"
 lastUpdate: Tue May 09 2023 13:41:15 GMT+0400 (Samara Standard Time)
-description: Welcome Introduction Course!
+description: Добро пожаловать на вводный курс!
 lessonNumber: 0
 metaOptions: [Онлайн курсы, Вводный курс]
-defaultName: Introduction to the ideas of Robonomics
+defaultName: Вступлениеduction to the ideas of Robonomics
 ---
 
 ## Об этом курсе

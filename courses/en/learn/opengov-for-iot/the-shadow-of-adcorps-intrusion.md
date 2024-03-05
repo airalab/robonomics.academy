@@ -2,7 +2,6 @@
 title: "The Shadow of AdCorp's Intrusion"
 lastUpdate: Wed May 10 2023 10:57:05 GMT+0400 (Samara Standard Time)
 description: An open experiment using openGov to manage the IoT infrastructure of a small English village.
-# lessonNumber: 1
 metaOptions: [Learn]
 defaultName: "OpenGov for managing the IoT infrastructure"
 ---

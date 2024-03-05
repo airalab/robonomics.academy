@@ -1,7 +1,7 @@
 ---
 title: "Написание тезиса: Введение"
 description: Быстрый старт работы над бакалаврским тезисом с помощью инструментов, основанных на искусственном интеллекте
-metaOptions: [Learn, Быстрый старт работы над бакалаврским тезисом  с помощью инструментов, основанных на искусственном интеллекте]
+metaOptions: [Учиться, Быстрый старт работы над бакалаврским тезисом  с помощью инструментов, основанных на искусственном интеллекте]
 defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 ---
 
@@ -31,11 +31,11 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 
 **Enter up to 5 goals for your AI:**
 
-*Goal 1:* Remember the context about the bachelor's thesis: "A bachelor is going to get Bachelor of Science in Computer Science and Engineering. The bachelor completed an online course called "Smart Home Sovereign". In this course, the bachelor went through all the steps necessary to build a sovereign smart home, the main advantage of which is the security / privacy of user data. During the course, The bachelor set up an IoT hub on a Raspberry Pi and connected smart devices (such as a temperature/humidity sensor, a door sensor, a smart bulb, a motion sensor, etc.) to it via a Zigbee adapter using the MQTT protocol. The IoT hub is powered by Home Assistant software. Next, the bachelor connected the hub to a decentralized cloud, based on Polkadot web3 technology. This is necessary to securely transfer device data to the network without the need for a centralized cloud service provider. This allows to securely manage the home remotely"
+*Goal 1:* Remember the context about the bachelor's thesis: "A bachelor is going to get Bachelor of Science in Computer Science and Engineering. The bachelor completed an online course called "Smart Home Sovereign". In this course, the bachelor went through all the steps necessary to build a sovereign smart home, the main advantage of which is the security / privacy of user data. During the course, The bachelor set up an IoT hub on a Raspberry Pi and connected smart devices (such as a temperature/humidity sensor, a door sensor, a smart bulb, a motion sensor, etc.) to it via a Адаптер Zigbee using the MQTT protocol. The IoT hub is powered by Home Assistant software. Next, the bachelor connected the hub to a decentralized cloud, based on Polkadot web3 technology. This is necessary to securely transfer device data to the network without the need for a centralized cloud service provider. This allows to securely manage the home remotely"
 
-*Goal 2:* Write an Introduction part for this thesis in 500 words. It should contain: background and motivation; some context about web3 technology, what it is, why it should be used in smart home; research questions and objectives; significance of the work.
+*Goal 2:* Write an Вступлениеduction part for this thesis in 500 words. It should contain: background and motivation; some context about web3 technology, what it is, why it should be used in smart home; research questions and objectives; significance of the work.
 
-*Goal 3:* Save Introduction text in file called "Introduction.txt".
+*Goal 3:* Save Вступлениеduction text in file called "Вступлениеduction.txt".
 
 </RoboAcademyTerminal>
 
@@ -66,14 +66,14 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 
 ...
 
-**THOUGHTS:**  Our draft summary has very few words and is within the word limit. We can use this information for our introduction and expand on the summary to create the final draft. We can use the 'write_to_file' command to write the final draft to the Introduction file.
+**THOUGHTS:**  Our draft summary has very few words and is within the word limit. We can use this information for our introduction and expand on the summary to create the final draft. We can use the 'write_to_file' command to write the final draft to the Вступлениеduction file.
 
-**REASONING:**  We have counted the words in the introductory draft and confirmed that it is within the word limit. Now we can expand the draft summary to create the final draft of the introduction and write it to the Introduction file.
+**REASONING:**  We have counted the words in the introductory draft and confirmed that it is within the word limit. Now we can expand the draft summary to create the final draft of the introduction and write it to the Вступлениеduction file.
 
 **PLAN:**
 
 <br/>&mdash;  Expand the drafted summary to create the final draft
-<br/>&mdash;  Save the final draft of the introduction to Introduction.txt using the 'write_to_file' command.
+<br/>&mdash;  Save the final draft of the introduction to Вступлениеduction.txt using the 'write_to_file' command.
 
 **CRITICISM:**  None
 

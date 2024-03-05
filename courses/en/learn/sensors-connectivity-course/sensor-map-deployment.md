@@ -35,7 +35,7 @@ yarn install</LessonCodeWrapper>
 
 <li>
 
-Run the map in `development` mode for testing
+Run the map in `development` mode for testing
 
 <LessonCodeWrapper language="bash">yarn serve</LessonCodeWrapper>
 
@@ -43,7 +43,7 @@ Run the map in `development` mode for testing
 
 <li>
 
-Go to URL from terminal, you should see the sensor map. After that, stop it with `Ctrl+C`.
+Go to URL from terminal, you should see the sensor map. After that, stop it with `Ctrl+C`.
 
 </li>
 
@@ -131,5 +131,4 @@ To check if everything is correct, move to `dist` directory and open `index.html
 </li>
 
 </List>
-
 

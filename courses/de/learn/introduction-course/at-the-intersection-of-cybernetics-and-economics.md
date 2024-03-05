@@ -4,14 +4,14 @@ lastUpdate: Thu May 04 2023 12:52:13 GMT+0400 (Samara Standard Time)
 description: In die neuesten web3-Technologien am Schnittpunkt von Kybernetik und Wirtschaft die dazu beitragen sollen, dass IoT-Systeme in unseren Häusern und Städten sicher und effizient funktionieren.
 lessonNumber: 2
 metaOptions: [Online Kurse, Einführungskurs]
-defaultName: Introduction to the ideas of Robonomics
+defaultName: Einführungduction to the ideas of Robonomics
 ---
 
-Wir freuen uns, dass es Ihnen gelungen ist durch den "black Mirror" zu gehen und nicht in der digitalen Welt zu ertrinken. Jetzt tauchen wir weiter ein... in die neuesten web3-Technologien am Schnittpunkt von Kybernetik und Wirtschaft die dazu beitragen sollen, dass IoT-Systeme in unseren Häusern und Städten sicher und effizient funktionieren.
+Wir freuen uns, dass es Ihnen gelungen ist durch den "black Mirroder" zu gehen und nicht in der digitalen Welt zu ertrinken. Jetzt tauchen wir weiter ein... in die neuesten web3-Technologien am Schnittpunkt von Kybernetik und Wirtschaft die dazu beitragen sollen, dass IoT-Systeme in unseren Häusern und Städten sicher und effizient funktionieren.
 
-## Intro
+## Einführung
 
-In dieser theoretischen Lektion möchten wir Ihnen das erste Kapitel des aktualisierten Robonomics Whitepapers 2022 vorstellen, an dem unser Team nun schon seit fast einem Jahr arbeitet. Die in diesem Dokument vorgestellten Ideen sind seit langem in unseren Köpfen und Herzen gewachsen und wurden nach verschiedenen Experimenten und Proof-of-Concepts ständig ergänzt. Wir tun unser Bestes, um [auf Konferenzen zu berichten und in wissenschaftlichen Fachzeitschriften veröffentlichen](https://robonomics.network/papers/) einige der besten Ergebnisse und Materialien. Zum besseren Verständnis und zur Erleichterung aller haben wir sie in separaten Whitepaper-Kapiteln gesammelt und komprimiert.
+In dieser theoderetischen Lektion möchten wir Ihnen das erste Kapitel des aktualisierten Robonomics Whitepapers 2022 voderstellen, an dem unser Team nun schon seit fast einem Jahr arbeitet. Die in diesem Dokument vorgestellten Ideen sind seit langem in unseren Köpfen und Herzen gewachsen und wurden nach verschiedenen Experimenten und Proof-of-Concepts ständig ergänzt. Wir tun unser Bestes, um [auf Konferenzen zu berichten und in wissenschaftlichen Fachzeitschriften veröffentlichen](https://robonomics.network/papers/) einige der besten Ergebnisse und Materialien. Zum besseren Verständnis und zur Erleichterung aller haben wir sie in separaten Whitepaper-Kapiteln gesammelt und komprimiert.
 
 Das erste Kapitel trägt den Titel **"An der Schnittstelle von Kybernetik und Wirtschaft"** und führt Sie in die Grundlagen der Roboterwirtschaft ein - ein Wirtschaftssystem, in dem Geräte als unabhängige Vermittler agieren, die in der Lage sind wichtige wirtschaftliche Tätigkeiten auszuführen die bisher nur dem Menschen vorbehalten waren.
 
@@ -77,6 +77,6 @@ Wie in der vorangegangenen Lektion unterzeichnen Sie Ihre Transaktion und überp
 
 Die Lektion gilt als abgeschlossen, wenn die Transaktion erfolgreich gesendet wurde und im Polkadot-Explorer für Ihr polkadot.js-Konto erscheint.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Sie können Ihre Ergebnisse auf [der speziellen Überprüfungs-Dapp](https://lk.robonomics.academy/) überprüfen. Zur Autorisierung in der Überprüfungs-Dapp verwenden Sie dasselbe Konto in Polkadot.js, das während des Kurses verwendet wurde.
 
 </Result>

@@ -3,17 +3,17 @@ title: "Lección #5, Suscripciones IoT usando Robonomics Parachain"
 lastUpdate: Thu May 04 2023 12:55:49 GMT+0400 (Samara Standard Time)
 description: Aprenderá cómo comprar una suscripción IoT en Robonomics Parachain utilizando tokens reales de nuestra red.
 lessonNumber: 5
-metaOptions: [Cursos online, Curso de Introducción]
-defaultName: Introduction to the ideas of Robonomics
+metaOptions: [Cursos online, Curso de Introducciónducciónducciónducciónducciónducciónducción]
+defaultName:  Introduction to the ideas of Robonomics
 ---
 
 
-La última lección de nuestro curso de introducción es probablemente la más desafiante, porque requerirá algo de destreza y paciencia de su parte. Aprenderá cómo comprar una suscripción IoT en Robonomics Parachain utilizando tokens reales de nuestra red.
+La última lección de nuestro curso de introducción es probablemente la más desafiante, poque requerirá algo de destreza y paciencia de su parte. Aprenderá cómo comprar una suscripción IoT en Robonomics Parachain utilizando tokens reales de nuestra red.
 
 
 ## Intro
 
-Una suscripción IoT es una clave de acceso a todas las funciones relacionadas con el cambio de estado del gemelo digital de un sistema ciberfísico y el almacenamiento de información sobre este utilizando el ecosistema Polkadot/Kusama. Ser propietario de una suscripción libera al usuario de la necesidad de tener que pagar una tarifa por la transacción. En cambio, el usuario puede enviar una transacción gratuita una vez en un cierto período de tiempo.
+Una suscripción IoT es una clave de acceso a todas las funciones relacionadas con el cambio de estado del gemelo digital de un sistema ciberfísico y el almacenamiento de infomación sobre este utilizando el ecosistema Polkadot/Kusama. Ser propietario de una suscripción libera al usuario de la necesidad de tener que pagar una tarifa po la transacción. En cambio, el usuario puede enviar una transacción gratuita una vez en un cierto período de tiempo.
 
 La forma principal de comprar una suscripción es participar en la subasta de suscripción y, por lo tanto, en esta lección debe obtener tokens XRT para realizar ofertas y enviar transacciones. Más información sobre este proceso también está disponible en [nuestra wiki](https://wiki.robonomics.network/docs/get-subscription).
 
@@ -26,11 +26,11 @@ La forma principal de comprar una suscripción es participar en la subasta de su
 
 You need around 2 XRT Robonomics Parachain tokens ([sobre el token](https://robonomics.network/xrt/)). Si no dispones de este, tienes varias opciones para conseguirlo:
 
-a) If you pass both tests after Lesson 2 and Lesson 4 with 90% correct answers, you can request free tokens for the lesson. Check your scores on [the special checking dapp](https://lk.robonomics.academy/). Specifically, you need to score 15 out of 17 for Lesson 2 and 10 out of 11 for Lesson 4, and you have two attempts to do this. To get tokens, contact the Academy Administrator on our [Discord](https://discord.gg/xqDgG3EGm9) (IBerman#5862).
+a) Si pasas ambos exámenes después de la Lección 2 y la Lección 4 con un 90% de respuestas correctas, puedes solicitar tokens gratuitos para la lección. Verifica tus puntajes en [la aplicación de verificación especial](https://lk.robonomics.academy/). Específicamente, necesitas obtener 15 de 17 para la Lección 2 y 10 de 11 para la Lección 4, y tienes dos intentos para hacerlo. Para obtener tokens, contacta al Administrador de la Academia en nuestro [Discord](https://discord.gg/xqDgG3EGm9) (IBerman#5862).
 
 b) Buy XRT tokens on one of the exchanges (check out the [list of exchanges](https://www.coingecko.com/en/coins/robonomics-network#markets/)). Tenga cuidado si no está familiarizado con los exchanges de criptomonedas, recuerde que todas las compras en los exchanges de criptomonedas pueden tener riesgos potenciales, compre solo la cantidad requerida de token para aprobar esta lección. Also, keep in mind that Robonomics exists on two networks, Ethereum and Kusama, so each network has its own XRT token. You need a token that used by parachain in Kusama network.
 
-c) If you have XRT token in Ethereum network (ERC-20 format), use [Exodus](https://old.dapp.robonomics.network/#/exodus) process to transfer tokens from the Ethereum network to Kusama. Keep in mind that the transfer of tokens is carried out once a week.
+c) Si tienes tokens XRT en la red Ethereum (formato ERC-20), utiliza el proceso [Exodus](https://old.dapp.robonomics.network/#/exodus) para transferir tokens de la red Ethereum a Kusama. Ten en cuenta que la transferencia de tokens se realiza una vez a la semana.
 
 </li>
 
@@ -76,6 +76,6 @@ La dirección del dispositivo debe agregarse a la suscripción. Puede verificarl
 
 La lección se considerará completada después de la transacción exitosa de comprar una suscripción IoT y agregarle un dispositivo.Transactions should appear in the Polkadot explorer for your account.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puedes verificar tus resultados en [la dapp de verificación especial](https://lk.robonomics.academy/). Para autorización en la dapp de verificación, utiliza la misma cuenta en Polkadot.js que se usó durante el curso.
 
 </Result>

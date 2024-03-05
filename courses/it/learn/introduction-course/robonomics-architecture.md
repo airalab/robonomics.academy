@@ -1,9 +1,9 @@
 ---
 title: "Lezione #4, Architettura di Robonomics"
 lastUpdate: Thu May 04 2023 12:56:29 GMT+0400 (Samara Standard Time)
-description: Questa è un'altra lezione teorica, dove studierai la prima metà del secondo capitolo del Whitepaper 2022 di Robonomics intitolato "Robonomics Architecture".
+description: Questa è un'altra lezione teoica, dove studierai la prima metà del secondo capitolo del Whitepaper 2022 di Robonomics intitolato "Robonomics Architettura".
 lessonNumber: 4
-metaOptions: [Corsi online, Corso Introduttivo]
+metaOptions: [Cosi online, Corso Introduzioneduzioneduzioneduzioneduzioneduzioneduttivo]
 defaultName: Introduction to the ideas of Robonomics
 ---
 
@@ -74,6 +74,6 @@ Come nella lezione precedente, firma la tua transazione e controllala sul Polkad
 
 La lezione sarà considerata completata dopo l'invio di una transazione riuscita e la sua apparizione sul Polkadot explorer col tuo account polkadot.js.
 
-You can check your results on [the special checking dapp](https://lk.robonomics.academy/). For authorization on the checking dapp use the same account in Polkadot.js that was used during the course.
+Puoi controllare i tuoi risultati su [la dapp di controllo speciale](https://lk.robonomics.academy/). Per l'autorizzazione alla dapp di controllo utilizza lo stesso account in Polkadot.js che è stato utilizzato durante il corso.
 
 </Result>

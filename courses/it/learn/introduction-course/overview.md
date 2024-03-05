@@ -1,13 +1,13 @@
 ---
-title: "Introduction to the ideas of Robonomics"
+title: "Introduzioneduzioneduzioneduzioneduzioneduzioneduction alle idee di Robonomics"
 lastUpdate: Tue May 09 2023 13:42:15 GMT+0400 (Samara Standard Time)
-description: Welcome Introduction Course!
+description: Benvenuto al Coso di Introduzione!
 lessonNumber: 0
-metaOptions: [Corsi online, Corso Introduttivo]
+metaOptions: [Cosi online, Corso Introduttivo]
 defaultName: Introduction to the ideas of Robonomics
 ---
 
-## About the course
+## Informazioni sul corso
 
 In questo corso ci addentriamo nei problemi che sorgono intorno alla creazione di moderne applicazioni Internet of Things. Come possibile soluzione, vogliamo introdurre, a livello di base, le capacità delle tecnologie web3 e degli strumenti di Robonomics per sviluppatori e utenti IoT. Questo corso introduttivo è stato progettato per spiegare i principi fondamentali che formano l'idea di applicazioni IoT decentralizzate, e per mostrare le funzionalità principali della piattaforma Robonomics come parachain all'interno dell'ecosistema Polkadot / Kusama.
 
@@ -16,7 +16,7 @@ Durante il corso prenderete consapevolezza del perché queste applicazioni IoT f
 Questo corso consiste in lezioni teoriche con dei test e diverse attività pratiche. Al termine del corso, riceverete un certificato e l'opportunità di entrare a far parte dell'Ambassador Program di Robonomics.
 
 
-## What will you learn:
+## Cosa imparerai:
 
 <List type="plus">
   <li>

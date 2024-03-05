@@ -2,7 +2,7 @@
 title: Риски стандартных решений "умного дома" и домашнего помощника
 lastUpdate: Thu May 11 2023 17:23:56 GMT+0400 (Samara Standard Time)
 description: Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома
-metaOptions: [Learn,  Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома]
+metaOptions: [Учить,  Фэйк домохозяйка и искусственный интеллект исследуют решение для умного дома]
 defaultName: Fake Housewife & AI research Smart Home Solution
 ---
 
@@ -60,7 +60,7 @@ defaultName: Fake Housewife & AI research Smart Home Solution
 
 <RoboAcademyTerminal title="Goals">
 
-**AI Name: Housewife here!**
+**Имя ИИ: Домохозяйка здесь!**
 
 Домохозяйка - это женский AI-агент, разработанный для автономного проведения исследований в интернете, а также независимого репортажа и рассказа от первого лица.
 
@@ -72,10 +72,10 @@ defaultName: Fake Housewife & AI research Smart Home Solution
 
 <RoboAcademyTerminal title="Результат исследования">
 
-To install Home Assistant without using a cloud server, please follow the instructions provided by the Home Assistant site at **[https://www.home-assistant.io/installation/](https://www.home-assistant.io/installation/).**
+Чтобы установить Home Assistant без использования облачного сервера, следуйте инструкциям, предоставленным на сайте Home Assistant по адресу **[https://www.home-assistant.io/installation/](https://www.home-assistant.io/installation/).**
 </RoboAcademyTerminal>
 
-Watch all Auto-GPT's work [here](https://www.notion.so/Process-AUTO-GPT-ousewife-9-1-1-a017c63d7707483a92f6872361e0f8fa).
+Посмотрите все работы Auto-GPT [здесь](https://www.notion.so/Process-AUTO-GPT-ousewife-9-1-1-a017c63d7707483a92f6872361e0f8fa).
 
 ## Продолжаем с ChatGPT
 

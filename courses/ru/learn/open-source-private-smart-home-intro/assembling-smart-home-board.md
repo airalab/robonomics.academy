@@ -2,8 +2,8 @@
 title: "Сборка демонстрационного стенда умного дома"
 lastUpdate: Wed May 10 2023 13:55:09 GMT+0400 (Samara Standard Time)
 description: Вы научите собирать стенд умного дома!
-metaOptions: [Learn]
-defaultName: Introduction to open source solution for private smart homes
+metaOptions: [Учить]
+defaultName: Вступлениеduction to open source solution for private smart homes
 ---
 
 <LessonImages imageClasses="mb" src="smart-home-intro/spring-school-2023-smart-stand-intro.gif" />

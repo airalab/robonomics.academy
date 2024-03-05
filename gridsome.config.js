@@ -17,10 +17,10 @@ module.exports = {
     {
       use: "gridsome-plugin-translateit",
       options: {
-        locales: ["en", "ru", "es", "de", "it", "pt"],
+        locales: ["ar","de","el","en","es","fr","it","ja","ko","nl","pt","ru","uk","zh"],
         slugifyDefaultLocale: true,
         defaultLocale: "en",
-        translations: yaml.load(fs.readFileSync('./src/data/locales/translations.yaml', 'utf8')),
+        translations: [],
         routes: yaml.load(fs.readFileSync('./src/data/locales/routes.yaml', 'utf8')),
       }
     },
