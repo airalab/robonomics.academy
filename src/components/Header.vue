@@ -16,11 +16,11 @@
         </nav>
 
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
-        <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>
-
         <div class="header-right expand header__section" tabindex="0">
             <LanguageSwitcher/> 
         </div>
+        <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>
+
 
       </div>
     </header>
@@ -177,7 +177,9 @@ export default {
     }
 
     .header-right {
+        margin-top: -4px;
         display: inline-flex;
+        margin-right: calc(var(--gap) * 0.5)
     }
 
     @media screen and (max-width: 1040px) {
