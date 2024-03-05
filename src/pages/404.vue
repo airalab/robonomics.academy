@@ -4,6 +4,7 @@
   <MetaInfo
       pageTitle = "This page does not exist"
       pageDescription = "Sorry, nothing here"
+      :pageImage = "'/og/404'"
     />
 
     <div class="page-404">

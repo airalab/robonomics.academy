@@ -14,4 +14,38 @@
     ru: "Учитесь"
     uk: "Навчайтеся"
     zh: "学习"
+
+- page: Policy
+  languages:
+    en: "Privacy Policy"
+    ar: "سياسة الخصوصية"
+    de: "Datenschutzrichtlinie"
+    el: "Πολιτική Απορρήτου"
+    es: "política de privacidad"
+    fr: "politique de confidentialité"
+    it: "politica sulla riservatezza"
+    ja: "プライバシーポリシー"
+    ko: "개인 정보 정책"
+    nl: "Privacybeleid"
+    pt: "política de Privacidade"
+    ru: "политика конфиденциальности"
+    uk: "Політика конфіденційності"
+    zh: "隐私政策"
+
+- page: '404'
+  languages:
+    en: "This page does not exist"
+    ar: "هذه الصفحة غير موجودة"
+    de: "Diese Seite existiert nicht"
+    el: "Αυτή η σελίδα δεν υπάρχει"
+    es: "Esta página no existe"
+    fr: "Cette page n'existe pas"
+    it: "Questa pagina non esiste"
+    ja: "このページは存在しません"
+    ko: "이 페이지가 존재하지 않습니다"
+    nl: "Deze pagina bestaat niet"
+    pt: "Esta página não existe"
+    ru: "Данная страница не существует"
+    uk: "Ця сторінка не існує"
+    zh: "本页面不存在"
   

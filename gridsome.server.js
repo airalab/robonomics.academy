@@ -20,7 +20,9 @@ require.extensions['.yaml'] = function(module, filename) { // To safely load .ya
 }
 
 // const courses = require('./src/data/online-courses.yaml')
-// const imgsInfo = require('./src/data/images-info.yaml');
+const imgsInfo = require('./src/data/images-info.yaml');
+// all Locales
+const localesAll = ["ru", "it", "es", "de", "pt", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl", "en"];
 
 // For generated images configuration
 const defaultOptions = {
@@ -89,6 +91,14 @@ module.exports = function (api) {
         generateImage(output, lessonOptions, options)
       }
     })
+
+    localesAll.forEach(locale => {
+      imgsInfo.forEach(img => {
+        const output = `${options.outputDir}${img.page}-${locale}.png`
+        generateImage(output, [img.languages[locale]], options)
+      })
+    })
+
 
   api.onCreateNode(options => {
     let data = fs.readFileSync(`courses${options.path.slice(0, -1)}.md`).toString().split("\n");
@@ -171,8 +181,6 @@ stream.write(`\n- link: ${options.path}
 
     // all locales
     const locales = ["ru", "it", "es", "de", "pt", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl"];
-
-    const localesAll = ["ru", "it", "es", "de", "pt", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl", "en"];
 
     const oldPaths = ['/online-courses/', '/playground/'];
 
@@ -327,11 +335,6 @@ stream.write(`\n- link: ${options.path}
             component: './src/templates/AvailableCoursesTranslations.vue',
           })
         }
-
-        // imgsInfo.forEach(img => {
-        //   const output = `${options.outputDir}-${img.page}-${locale}`
-        //   generateImage(output, img.languages[locale], options)
-        // })
         
       })
     })

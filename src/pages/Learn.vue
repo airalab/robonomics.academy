@@ -4,7 +4,7 @@
     <MetaInfo
       pageTitle = "Learn with robonomics"
       pageDescription = "Discover our expanding selection of hands-on exercises, tutorials, and online courses for free. The core developers and researchers at Robonomics invite you to enter the world of web3 and gain practical and theoretical skills through quizzes, device simulations, and even real-life setups using Robonomics Parachain (Polkadot), IPFS, and other web3 tools."
-      :pageImage = "'/og/learn'"
+      :pageImage = "'/og/Learn'"
     />
 
     <section class="learn">
