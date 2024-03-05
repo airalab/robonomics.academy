@@ -12,13 +12,19 @@
 
     </select>
     <span class="helper-element" aria-hidden="true"></span>
-    <span class="ai" v-if="$locale !== 'en'">AI</span>
+    <span class="ai" v-if="locale !== 'en'">AI</span>
   </div>
 </template>
 
 <script>
   import locales from '@/data/locales.yaml'
 export default {
+
+  data() {
+    return {
+      locale: 'en'
+    }
+  },
 
   computed: {
     locales() {
@@ -72,6 +78,7 @@ export default {
       this.initSelectResize(lang)
     }
 
+    this.locale = this.$locale;
   }
 }
 </script>
