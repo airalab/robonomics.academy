@@ -149,7 +149,7 @@ export default {
 
     .header nav {
         text-align: center;
-        margin-right: calc(var(--gap) * 5);
+        margin-right: calc(var(--gap) * 6);
         direction: rtl;
     }
 
