@@ -11,7 +11,7 @@ defaultName: Fake Housewife & AI research Smart Home Solution
 Let's start our dialogue on behalf of the housewife we invented earlier with a chat.
 </RoboAcademyText>
 
-<RoboAcademyDialog >
+<RoboAcademyDialog>
 
 **Zoe:**
 

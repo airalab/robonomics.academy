@@ -210,7 +210,7 @@
   path: 'ai-based-bachelor-thesis'
   level: 3
   tags: ['guide']
-  filters: ['spring school 2023', 'ai']
+  filters: ['spring school 2023', 'AI']
   progress: done
   author: 'Fingerling42'
   published: true
@@ -302,7 +302,7 @@
   tags: ['guide']
   progress: progress
   author: 'wimmer_savinova'
-  filters: ['spring school 2023', 'ai']
+  filters: ['spring school 2023', 'AI']
   published: true
   lessons:
     - id: '0'
@@ -413,4 +413,19 @@
     - id: '4'
       title: 'Part 4: The Path of a New Block of Information in the World Computer'
       path: 'the-path-of-a-new-block-of-information-in-the-world-computer'
+      status: done
+
+- id: '21' 
+  title: 'Robonomics School 2024 / IoT is More Dangerous Than AI'
+  path: 'school-2024-iot-vs-ai'
+  level: 3
+  tags: ['course']
+  filters: ['AI', 'IoT']
+  progress: done
+  author: ['Ensrationis']
+  published: true
+  lessons:
+    - id: '1'
+      title: 'Robonomics School 2024 / IoT is More Dangerous Than AI'
+      path: 'overview'
       status: done
