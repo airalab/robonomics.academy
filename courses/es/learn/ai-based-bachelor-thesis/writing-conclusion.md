@@ -49,7 +49,7 @@ Ahora finalmente podemos completar nuestra tesis creando un resumen de la manera
 Make an abstract for the bachelor's thesis based on this text in 100 words.
 </RoboAcademyDialog>
 
-## Conclusiones de la guía
+## Conclusiónes de la guía
 
 En principio, nuestra tarea está completada. A continuación, podemos intentar procesar el texto utilizando diferentes herramientas, mejorando la redacción o ampliando algunos párrafos. Puedes encontrar el archivo PDF resultante en el siguiente enlace:
 

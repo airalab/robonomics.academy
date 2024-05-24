@@ -8,7 +8,7 @@ import de from './German.json';
 import fr from './French.json';
 import it from './Italian.json';
 import ko from './Korean.json';
-import pt from './Portuguese.json';
+import hi from './Hindi.json';
 import el from './Greek.json';
 import uk from './Ukrainian.json';
 import nl from './Dutch.json';
@@ -31,7 +31,7 @@ const {
     fr,
     it,
     ko,
-    pt,
+    hi,
     el,
     uk,
     nl
