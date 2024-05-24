@@ -4,7 +4,7 @@ lastUpdate: Thu May 04 2023 12:54:41 GMT+0400 (Samara Standard Time)
 description: होम असिस्टेंट कोर्स
 lessonNumber: 1
 metaOptions: [रोबोनॉमिक्स और होम असिस्टेंट के साथ साम्राजिक स्मार्ट होम सीखें]
-defaultName: साम्ाजिक स्मार्ट होम विथ रोबोनोमिक्स और होम असिस्टेंट
+defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 ---
 
 ## सॉवरेन स्मार्ट होम के प्रमुख घटक
