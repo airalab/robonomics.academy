@@ -88,7 +88,7 @@ Throughout the implementation process, stringent data security and privacy measu
 
 ## 生成插图
 
-良好的论文能够以图形形式呈现材料，因此至少应尝试使用AI的帮助。关于不同模型的能力有很多文章，例如MidJourney、DALL-E、Stable Diffusion和其他服务，但它们主要是用于生成艺术作品，而不是严格的图表和图表。很多时候，它们无法插入��确的文本，总的来说，获得的插图通常太笨拙。
+良好的论文能够以图形形式呈现材料，因此至少应尝试使用AI的帮助。关于不同模型的能力有很多文章，例如MidJourney、DALL-E、Stable Diffusion和其他服务，但它们主要是用于生成艺术作品，而不是严格的图表和图表。很多时候，它们无法插入确的文本，总的来说，获得的插图通常太笨拙。
 
 例如，让我们尝试在Bing Chat中创建以下内容的图表，该图表将重定向请求到Bing图像创建器:
 

@@ -185,7 +185,7 @@ sudo usermod -a -G dialout $USER
 
 <li>
 
-Встановіть перемикачі на задній панелі шлюзу в нове положення. Перемикачі <code>5</code> (RX Zigbee до ESP) та <code>6</code> (TX Zigbee до ESP) повинні бути в положе��ні <code>ON</code>, інші повинні бути <code>OFF</code>.
+Встановіть перемикачі на задній панелі шлюзу в нове положення. Перемикачі <code>5</code> (RX Zigbee до ESP) та <code>6</code> (TX Zigbee до ESP) повинні бути в положені <code>ON</code>, інші повинні бути <code>OFF</code>.
 
 
 <LessonImages src="smart-house-course/lesson-4-b-4.gif" alt="tutorial" imageClasses="mb"/>
@@ -313,7 +313,7 @@ sudo nmap -sP 192.168.xxx.0/24
 
 <li>
 
-Збережіть зміни. Тепер пристрої будуть автоматично відо��ражатися в Home Assistant.
+Збережіть зміни. Тепер пристрої будуть автоматично відоражатися в Home Assistant.
 
 </li>
 </List>

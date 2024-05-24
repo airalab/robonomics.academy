@@ -18,7 +18,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 获取遥测基于您已经了解的datalog调色板。每隔一定时间（但不少于累积权重允许的时间），从<code>SUB_CONTROLLER</code>地址向平行链发送一个<code>datalog.record()</code>事务，其中包含加密文件的IPFS哈希，其中收集了您的物联网设备的所有数据。实际上，要获取遥测，您需要从与您的物联网订阅相关的平行链请求必要的数据日志，然后使用您的密钥解密它们。
 
-要创建备份，使用另一个名为<code>digitalTwin</code>的Robonomics调色板，这是数字孪生概念的实现，是真实设备的数字版本，复制其技术特性和历史数据。首先，使用<code>digitalTwin.create()</code>外部创建您的Home Assistant数字孪生的唯一ID。然后，使��<code>digitalTwin.setSource()</code>外部，将此ID与一些数据（<code>topic</code>字段）和平行链中的地址（<code>source</code>字段）绑定。对于Home Assistant备份，备份文件的哈希存储在<code>topic</code>中，<code>SUB_OWNER</code>地址存储在<code>source</code>中。
+要创建备份，使用另一个名为<code>digitalTwin</code>的Robonomics调色板，这是数字孪生概念的实现，是真实设备的数字版本，复制其技术特性和历史数据。首先，使用<code>digitalTwin.create()</code>外部创建您的Home Assistant数字孪生的唯一ID。然后，使<code>digitalTwin.setSource()</code>外部，将此ID与一些数据（<code>topic</code>字段）和平行链中的地址（<code>source</code>字段）绑定。对于Home Assistant备份，备份文件的哈希存储在<code>topic</code>中，<code>SUB_OWNER</code>地址存储在<code>source</code>中。
 
 ## 说明
 

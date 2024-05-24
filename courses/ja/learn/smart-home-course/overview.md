@@ -48,7 +48,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 </li>
 <li class="flex">
 
-  Zigbeeスマートデバイス（[サポー���されているデバイス](https://slsys.io/en/action/supported_devices.html)から任意のデバイス）
+  Zigbeeスマートデバイス（[サポーされているデバイス](https://slsys.io/en/action/supported_devices.html)から任意のデバイス）
 </li>
 <li class="flex">
 

@@ -21,7 +21,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 يتواصل Home Assistant مع الأجهزة ويخزن بياناتها محليًا، والتي للأسف لا تسمح لك بالتحكم في أجهزتك عن بُعد. لحل هذه المشكلة نستخدم شبكة Robonomics.
 
-3. **[Robonomics Network](https://robonomics.network/), سحابة لامركزية للتحكم الآمن والموثوق في تط��يقات IoT**.
+3. **[Robonomics Network](https://robonomics.network/), سحابة لامركزية للتحكم الآمن والموثوق في تطيقات IoT**.
 
 تستخدم تقنيات web3، التي تدمج اللامركزية وتقنيات البلوكشين لحماية الأجهزة الذكية وبياناتها.
 
@@ -53,7 +53,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 <LessonImages figure figureCaption="Architectural scheme of the scenario with Zigbee adapter" src="smart-house-course/lesson-1-1.png" alt="Architectural scheme of the scenario with Zigbee adapter"/>
 
-يتصل المحول (مثل JetHome USB JetStick Z2) بـ Raspberry Pi ويعمل كواجهة بين الكمبيوتر واتصال الراديو Zigbee. Zigbee2MQTT هو برنامج يسمح بربط Zigbee بشبكات MQTT. يأخذ البرنامج الرسائل من شبكة Zigbee ويترجمها إلى رسائل س��لة الاستخدام ومنظمة بشكل جيد من MQTT.
+يتصل المحول (مثل JetHome USB JetStick Z2) بـ Raspberry Pi ويعمل كواجهة بين الكمبيوتر واتصال الراديو Zigbee. Zigbee2MQTT هو برنامج يسمح بربط Zigbee بشبكات MQTT. يأخذ البرنامج الرسائل من شبكة Zigbee ويترجمها إلى رسائل سلة الاستخدام ومنظمة بشكل جيد من MQTT.
 
 2. في السيناريو الثاني، يتم ربط الأجهزة باستخدام [SLS Gateway](https://github.com/slsys/Gateway) القائم على متحكم ESP32. لسهولة الاستخدام، قامت Robonomics بتطوير [تعديلنا الخاص](https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01) للبوابة.
 

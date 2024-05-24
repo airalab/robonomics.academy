@@ -87,7 +87,7 @@ rostopic info /drone/land
 كما يمكن رؤيته، يجب أن تكون هناك رسائل من أنواع `Twist` و `Empty`، وهي أجزاء من `std_msgs` و `geometry_msgs`، سنستخدم هذا في المتحكم. أوقف المحاكاة لفترة.
 
 ## 3. تنزيل حزمة المتحكم
-على المستوى العالمي، الفرق الرئيسي عن المتحكم العادي لروبو�� ROS هو كتلة من الشيفرة، التي تفحص جميع المعاملات في الشبكة باستخدام [Robonomics IO](https://wiki.robonomics.network/docs/rinterface/). الحزمة نفسها متاحة على GitHub. قم بتنزيلها وبناء مساحة العمل:
+على المستوى العالمي، الفرق الرئيسي عن المتحكم العادي لروبو ROS هو كتلة من الشيفرة، التي تفحص جميع المعاملات في الشبكة باستخدام [Robonomics IO](https://wiki.robonomics.network/docs/rinterface/). الحزمة نفسها متاحة على GitHub. قم بتنزيلها وبناء مساحة العمل:
 
 <LessonCodeWrapper language="bash">
 cd ~/drone_simulator_ws/src
@@ -117,7 +117,7 @@ rm -rf /home/$USER/.local/share/robonomics/chains/dev/db
 
 ## 5. إطلاق الطائرة بدون طيار تحت تحكم سلسلة الكتل
 
-حتى الآن يجب أن ت��ون العقدة المحلية لروبونوميكس الشيء الوحيد الذي يعمل. في نافذة الطرفية الفرعية، قم بتشغيل محاكاة الطائرة بدون طيار:
+حتى الآن يجب أن تون العقدة المحلية لروبونوميكس الشيء الوحيد الذي يعمل. في نافذة الطرفية الفرعية، قم بتشغيل محاكاة الطائرة بدون طيار:
 
 <LessonCodeWrapper language="bash">
 roslaunch sjtu_drone simple.launch
@@ -206,7 +206,7 @@ rm -rf /home/$USER/.local/share/robonomics/chains/dev/db
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/balances.jpg" alt="balances"/>
 
 ## 3. إطلاق
-حتى الآن يجب أن ت��ون العقدة المحلية لروبونوميكس الشيء الوحيد الذي يعمل. في نافذة الطرفية الفرعية، قم بتشغيل محاكاة الطائرة بدون طيار:
+حتى الآن يجب أن تون العقدة المحلية لروبونوميكس الشيء الوحيد الذي يعمل. في نافذة الطرفية الفرعية، قم بتشغيل محاكاة الطائرة بدون طيار:
 
 <LessonCodeWrapper language="bash">
 roslaunch sjtu_drone simple.launch
@@ -234,7 +234,7 @@ echo "ON" | ./robonomics io write launch -r [DRONE_ADDRESS] -s [EMPLOYER’S_KEY
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/flying_picturing.jpg" alt="flying_picturing"/>
 
-في وقت لاحق، عندما يتم الانتهاء من العمل، انتقل إلى بوابة Robonomics `Developer` -> `Chain state` وأضف بيانات داتالوج `DRONE` باستخدام زر `“+”` مع اختيار `datalog` كاستعلام حالة. تم حفظ ��اش IPFS للتلميتري في البلوكشين. لرؤية البيانات، ما عليك سوى نسخ الهاش وإضافته إلى عنوان البوابة المحلية [gateway](https://gateway.ipfs.io/ipfs/QmeYYwD4y4DgVVdAzhT7wW5vrvmbKPQj8wcV2pAzjbj886/docs/getting-started/) `localhost:8080/ipfs/`:
+في وقت لاحق، عندما يتم الانتهاء من العمل، انتقل إلى بوابة Robonomics `Developer` -> `Chain state` وأضف بيانات داتالوج `DRONE` باستخدام زر `“+”` مع اختيار `datalog` كاستعلام حالة. تم حفظ اش IPFS للتلميتري في البلوكشين. لرؤية البيانات، ما عليك سوى نسخ الهاش وإضافته إلى عنوان البوابة المحلية [gateway](https://gateway.ipfs.io/ipfs/QmeYYwD4y4DgVVdAzhT7wW5vrvmbKPQj8wcV2pAzjbj886/docs/getting-started/) `localhost:8080/ipfs/`:
 
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/datalog.jpg" alt="Voila"/>

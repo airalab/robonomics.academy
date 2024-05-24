@@ -26,7 +26,7 @@ ChatGPTは、時間ごとのトランザクション数だけでなく、その�
 
 ## 深い分析
 
-しかし、非構造化データに��づいたより深い分析をAIに依頼した場合はどうでしょうか？残念ながら、ここで既に遭遇している問題が始まります：コンテキストの制限と幻覚。例として、以前に作成したスマートホームのHome Assistantのログファイルが取られ、ChatGPTに次のリクエストが行われました。
+しかし、非構造化データにづいたより深い分析をAIに依頼した場合はどうでしょうか？残念ながら、ここで既に遭遇している問題が始まります：コンテキストの制限と幻覚。例として、以前に作成したスマートホームのHome Assistantのログファイルが取られ、ChatGPTに次のリクエストが行われました。
 
 <RoboAcademyDialog>
 
@@ -100,7 +100,7 @@ Analyzing the logs provided insights into user behavior within the Smart Home Sy
 
 </RoboAcademyDialog>
 
-全体的に、結果セクションの執筆にAIアシスタントを使用することは、成功よりも失敗と考えられます。はい、AIはデータの提示と処理に役立つかもしれませんが、本質的には、古典的なデータサイエンスツールと比較して非常に少ない時間しか節約で���ません。さらに、ユーザーは提供された回答の正確性を常に心配し、二重チェックする必要があります。
+全体的に、結果セクションの執筆にAIアシスタントを使用することは、成功よりも失敗と考えられます。はい、AIはデータの提示と処理に役立つかもしれませんが、本質的には、古典的なデータサイエンスツールと比較して非常に少ない時間しか節約でません。さらに、ユーザーは提供された回答の正確性を常に心配し、二重チェックする必要があります。
 
 <RoboAcademyText fWeight="500">
 Now we can move on to the final section of our bachelor's thesis — Conclusions, where we will not only finish writing the thesis, but also make overall conclusions on the use of AI for this purpose.

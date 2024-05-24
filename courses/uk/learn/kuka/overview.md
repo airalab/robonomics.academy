@@ -127,7 +127,7 @@ rosrun manipulator_gazebo move_arm_server
 
 <LessonImages imageClasses="mb" src="kuka/robonomics.png" alt="robonomics"/>
 
-Перейдіть до [порталу Robonomics Parachain](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/) та перейдіть на локальний вузо��
+Перейдіть до [порталу Robonomics Parachain](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/) та перейдіть на локальний вузо
 
 <LessonImages imageClasses="mb" src="kuka/local.png" alt="local"/>
 

@@ -82,7 +82,7 @@ CC2652P 마이크로컨트롤러용 펌웨어를 [GitHub 저장소](https://gith
 
 <li>
 
-SLS 게이트웨이 하단의 <code>ON</code> 스위치 <code>1</code>, <code>3</code>을 설정하고 나머지는 <code>OFF</code>로 설정해야 합니다. 그런 다음 게이��웨이를 라즈베리 파이의 USB 타입-C 포트에 연결하세요.
+SLS 게이트웨이 하단의 <code>ON</code> 스위치 <code>1</code>, <code>3</code>을 설정하고 나머지는 <code>OFF</code>로 설정해야 합니다. 그런 다음 게이웨이를 라즈베리 파이의 USB 타입-C 포트에 연결하세요.
 
 <LessonImages src="smart-house-course/lesson-4-b-3.gif" alt="tutorial" imageClasses="mb"/>
 
@@ -200,7 +200,7 @@ sudo usermod -a -G dialout $USER
 
 <li>
 
-첫 번째 시작 시, 게이트웨이는 SSID가 <code>zgw****</code>인 Wi-Fi를 공유하기 시작합니다. 이 네트워크에 연결하십시오. 신호가 상당히 약할 수 있으므로 SLS 게이트웨이를 ��퓨터에 가까이 두는 것이 좋습니다.
+첫 번째 시작 시, 게이트웨이는 SSID가 <code>zgw****</code>인 Wi-Fi를 공유하기 시작합니다. 이 네트워크에 연결하십시오. 신호가 상당히 약할 수 있으므로 SLS 게이트웨이를 퓨터에 가까이 두는 것이 좋습니다.
 
 연결이 성공하면 웹 인터페이스가 열릴 것입니다(또는 192.168.1.1 주소에서 찾을 수 있습니다).
 
@@ -275,7 +275,7 @@ Home Assistant에 장치를 자동으로 추가하도록 구성하십시오. <co
 
 \- **추가**:
 
-이미 집에 활성화된 SLS 게이트웨이가 있고 지금 다른 하나를 구성하고 있다면 서로 충돌할 것입니다. 이 문제를 해결하려면 새로��� 장치의 채널을 변경해야 합니다.
+이미 집에 활성화된 SLS 게이트웨이가 있고 지금 다른 하나를 구성하고 있다면 서로 충돌할 것입니다. 이 문제를 해결하려면 새로 장치의 채널을 변경해야 합니다.
 
 이를 위해 <code>Zigbee</code> -> <code>구성</code>으로 이동하고 다른 채널로 채널을 변경하십시오 (예: 채널 15).
 
@@ -307,7 +307,7 @@ SLS 게이트웨이에서 MQTT를 구성해야 합니다. SLS 게이트웨이 �
 
 브로커 주소를 추가하십시오 (로컬 네트워크의 Home Assistant가 있는 Raspberry Pi의 주소, [Fing](https://www.fing.com/products) 앱이나 RPi에서 <code>ip -a</code> 명령을 사용하여 찾을 수 있습니다), 포트 (기본값은 1883), 브로커 사용자 이름 및 암호 (이전에 생성한 것) 및 주제 이름 (임의로 선택할 수 있음). 또한 로컬 Raspberry Pi IP 주소는 정적이어야 합니다.
 
-<code>활성화</code> 및 <code>상태 ���지</code>를 클릭하지 않도록 주의하십시오.
+<code>활성화</code> 및 <code>상태 지</code>를 클릭하지 않도록 주의하십시오.
 
 </li>
 

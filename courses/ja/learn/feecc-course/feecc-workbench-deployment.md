@@ -22,7 +22,7 @@ defaultName: Getting Used to Feecc
 
 1. Feeccコンポーネントはデータの保存とアクセスに[MongoDB](https://www.mongodb.com/)データベースを使用します。Feeccを使用する前に、便利な方法でMongoDBを展開する必要があります。展開オプションのいくつかは次のとおりです: [独自のサーバーを使用](https://www.mongodb.com/try/download/community)、[Atlasのクラウドデータベース](https://www.mongodb.com/atlas) (無料)、[DigitalOceanのクラウドデータベース](https://www.digitalocean.com/products/managed-databases-mongodb) (有料)。 
     
-    いず��の場合も、すべてのシステムコンポーネントの`MONGODB_URI`変数の値として入力する必要があるMongoDBへの接続URIを取得する必要があります。
+    いずの場合も、すべてのシステムコンポーネントの`MONGODB_URI`変数の値として入力する必要があるMongoDBへの接続URIを取得する必要があります。
     
 2. 本番システムからのデータの信頼性と透明性を活用したい場合は、Robonomicsにアカウントを作成する必要があります。これを行うには、次のリンクにある手順を使用してください: https://wiki.robonomics.network/docs/create-account-in-dapp/
     

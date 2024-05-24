@@ -21,7 +21,7 @@ defaultName: Sensors Connectivity & Decentralized Sensors Network
 
 - Αισθητήρας Laser PM2.5 και PM10 [SDS011](https://www.amazon.com/SDS011-Quality-Detection-Conditioning-Monitor/dp/B07FSDMRR5)
 
-- Σειρι��κό ασύρματο μοντούλο [NodeMcu V3 CH340](https://www.amazon.com/ACEIRMC-Wireless-Development-Compatible-MicroPython/dp/B092ZCG2X2) βασισμένο στο ESP8266
+- Σειρικό ασύρματο μοντούλο [NodeMcu V3 CH340](https://www.amazon.com/ACEIRMC-Wireless-Development-Compatible-MicroPython/dp/B092ZCG2X2) βασισμένο στο ESP8266
 
 - Μετατροπέας DC-DC mini560 5Α [(παράδειγμα)](https://www.amazon.com/Alinan-Efficiency-Converter-Regulator-Stabilized/dp/B09W8P1QNM)
 
@@ -150,7 +150,7 @@ defaultName: Sensors Connectivity & Decentralized Sensors Network
   </li>
 </List>
 
-Η ρύθμιση της έξοδ��υ ισχύος για τον αισθητήρα και η επιλογή της διεπαφής γίνεται με τη ρύθμιση των jumpers, που είναι χρωματισμένοι με κίτρινο στην εικόνα (`5V`, `3V`, `I2C`, `1WIRE`). Τα jumpers τοποθετούνται οριζόντια, οι θέσεις για την τοποθέτηση των jumpers είναι υπογεγραμμένες.
+Η ρύθμιση της έξοδυ ισχύος για τον αισθητήρα και η επιλογή της διεπαφής γίνεται με τη ρύθμιση των jumpers, που είναι χρωματισμένοι με κίτρινο στην εικόνα (`5V`, `3V`, `I2C`, `1WIRE`). Τα jumpers τοποθετούνται οριζόντια, οι θέσεις για την τοποθέτηση των jumpers είναι υπογεγραμμένες.
 
 
 <RoboAcademyNote type="warning" title="WARNING">
@@ -159,6 +159,6 @@ defaultName: Sensors Connectivity & Decentralized Sensors Network
 
 Ο πίνακας διαθέτει επιπλέον τμήμα εισόδων, επισημασμένο με πράσινο στην εικόνα (`GND`, `5V`, `SDA`, `SCL`).
 
-Στην αριστερή πλευρά του μπλε κουτιού υπάρχει ένας διακόπτης τροφοδ��σίας για να επιβάλετε την επανεκκίνηση του πίνακα. Βρίσκεται στη θέση `ON` από προεπιλογή.
+Στην αριστερή πλευρά του μπλε κουτιού υπάρχει ένας διακόπτης τροφοδσίας για να επιβάλετε την επανεκκίνηση του πίνακα. Βρίσκεται στη θέση `ON` από προεπιλογή.
 
 Μετά τη ρύθμιση του αισθητήρα, όλο που απομένει είναι να το φλασάρετε και να το ρυθμίσετε.

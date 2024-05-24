@@ -82,6 +82,7 @@ Add some basic info to the doc:
 **NOTE** : 
  1. Make sure you use **alias** while adding author!  
  2. If your lesson is in progress you must add `status: in progress` for your lesson **AND** `progress: progress` or `progress: coming`  for your course!
+ 3. If you are adding a new course make sure folder **static/og** has folder with the name of your course e.g static/og/smart-home-course. The name of the folder must be identical to the course folder in */corses/*
 
  > progress - some lessons are ready, coming - zero lessons are done
 

@@ -16,7 +16,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 다음으로 로보노믹스 파라체인의 기능이 어떻게 홈 어시스턴트 사용자에게 필요한 서비스를 제공하는 데 사용되는지 알아볼 것입니다. 
 
-텔레메트리 가져오기는 이미 알고 있는 <code>datalog</code> 팔렛을 기반으로 합니다. 일정 기간마다 (누적된 가중치가 허용하는 한) <code>datalog.record()</code> 트랜잭션이 <code>SUB_CONTROLLER</code> 주소에서 암호화된 파일의 IPFS 해시와 함께 파라체인으로 전송됩니다. 실제로 텔레메트리를 얻기 위해 파라체인에서 IoT 구독과 관련된 필요한 데이터로그를 요���하고 그것들을 키로 복호화합니다.
+텔레메트리 가져오기는 이미 알고 있는 <code>datalog</code> 팔렛을 기반으로 합니다. 일정 기간마다 (누적된 가중치가 허용하는 한) <code>datalog.record()</code> 트랜잭션이 <code>SUB_CONTROLLER</code> 주소에서 암호화된 파일의 IPFS 해시와 함께 파라체인으로 전송됩니다. 실제로 텔레메트리를 얻기 위해 파라체인에서 IoT 구독과 관련된 필요한 데이터로그를 요하고 그것들을 키로 복호화합니다.
 
 백업을 생성하기 위해 다른 로보노믹스 팔렛인 <code>digitalTwin</code>이 사용됩니다. 이는 실제 장비의 디지털 버전인 디지털 트윈의 아이디어를 구현한 것으로, 기술적 특성과 기록 데이터를 복사합니다. 먼저 <code>digitalTwin.create()</code> extrinsic를 사용하여 홈 어시스턴트의 디지털 트윈을 위한 고유한 ID가 생성됩니다. 그런 다음 <code>digitalTwin.setSource()</code> extrinsic를 사용하여 이 ID가 일부 데이터 (<code>topic</code> 필드) 및 파라체인의 주소 (<code>source</code> 필드)와 결합됩니다. 홈 어시스턴트 백업을 위해 백업 파일의 해시가 <code>topic</code>에 저장되고 <code>SUB_OWNER</code> 주소가 <code>source</code>에 저장됩니다.
 
@@ -50,7 +50,7 @@ Dapp로 이동하여 [스마트홈 텔레메트리](https://dapp.robonomics.netw
 <code>Get telemetry</code> 블록에서 드롭다운 목록에서 타임스탬프를 선택하고 <code>DOWNLOAD TELEMETRY</code> 버튼을 누릅니다.
 
 
-텔레메트리 다���로드에는 시간이 걸릴 수 있습니다. 완료되면 센서에서 정보를 볼 수 있습니다.
+텔레메트리 다로드에는 시간이 걸릴 수 있습니다. 완료되면 센서에서 정보를 볼 수 있습니다.
 
 </li>
 </List>

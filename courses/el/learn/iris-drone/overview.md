@@ -181,7 +181,7 @@ python3 takeoff.py
 Για να στείλετε μια συναλλαγή τρέξτε σε ένα άλλο παράθυρο:
 `echo "ON" | ./robonomics io write launch -r <drone_addres> -s <employer_key>` - όπου **<drone_address>** και **<employer_key>** πρέπει να αντικατασταθούν με τις συμβολοσειρές από το `config.py` αντίστοιχα.
 
-Αφού τα δεδομένα μεταφ��ρθούν στο IPFS, πηγαίνετε στην **Κατάσταση Αλυσίδας** στην [Πύλη Robonomics Parachain](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/). Επιλέξτε **datalog** στο ερώτημα και προσθέστε το datalog DRONE χρησιμοποιώντας το κουμπί `+`.
+Αφού τα δεδομένα μεταφρθούν στο IPFS, πηγαίνετε στην **Κατάσταση Αλυσίδας** στην [Πύλη Robonomics Parachain](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/). Επιλέξτε **datalog** στο ερώτημα και προσθέστε το datalog DRONE χρησιμοποιώντας το κουμπί `+`.
 
 
 <LessonImages imageClasses="mb" src="iris-drone/datalog.jpg" alt="datalog"/>

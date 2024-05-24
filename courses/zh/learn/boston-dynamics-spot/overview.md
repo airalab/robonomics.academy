@@ -28,7 +28,7 @@ Robot Execution States
 Spot coordinates
 
 <RoboAcademyText fWeight="300" fSize="90%">
-���码中的角度以弧度表示。
+码中的角度以弧度表示。
 </RoboAcademyText>
 
 作为课程的结果，您将用Spot的面部在空中画出您姓名的第一个字母。让我们开始设置吧！
@@ -97,7 +97,7 @@ sudo ./run_code.sh
 
 ## 安排练习时间
 
-���用Spot排程网站选择练习时间段：
+用Spot排程网站选择练习时间段：
 
 [meetings.hubspot.com/strelka](https://meetings.hubspot.com/strelka)
 

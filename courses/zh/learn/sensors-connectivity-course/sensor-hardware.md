@@ -104,7 +104,7 @@ defaultName: Sensors Connectivity & Decentralized Sensors Network
 - vm@multi-agent.io
 - ping@airalab.org
 
-Robonomics板基于ESP8266，设计用于6-24V电源供应，使用DC-DC转换器DC MINI560。该板允许您连接SDS011颗粒传感器和几个附加传感器（请查看上面的列表）。还有一个较小的MINI型号，可���接的设备列表较短。
+Robonomics板基于ESP8266，设计用于6-24V电源供应，使用DC-DC转换器DC MINI560。该板允许您连接SDS011颗粒传感器和几个附加传感器（请查看上面的列表）。还有一个较小的MINI型号，可接的设备列表较短。
 
 <LessonImages figure figureCaption="Full model of Robonomics board" src="sensors-connectivity-course/lesson-2-1.png" alt="Full model of Robonomics board"/>
 

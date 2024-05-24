@@ -48,7 +48,7 @@ Raspberry Piの準備と設定
 
   <li>
 
-  設定を開き、<code>SSHを有効にする</code>オプションと<code>パスワード認証を使用する</code>パラメータをチェ��クします。
+  設定を開き、<code>SSHを有効にする</code>オプションと<code>パスワード認証を使用する</code>パラメータをチェクします。
 
   \- <code>ユーザー名とパスワードの設定</code>で、Raspberry Piユーザーのユーザー名とパスワードを追加します。
 
@@ -131,7 +131,7 @@ Home Assistantのインストール
 
   </robo-academy-note>
 
-  開始する前���、Raspberry Piシステムを更新し、必要なパッケージをインストールします。インストール中にサービス再起動の要求が表示されます。単に<span class="accent">ok</span>を選択し、<code>tab</code>ボタンを押してEnterキーを押してください。
+  開始する前、Raspberry Piシステムを更新し、必要なパッケージをインストールします。インストール中にサービス再起動の要求が表示されます。単に<span class="accent">ok</span>を選択し、<code>tab</code>ボタンを押してEnterキーを押してください。
 
   <LessonCodeWrapper language="bash" noLines>sudo apt-get update</LessonCodeWrapper>
 
@@ -229,7 +229,7 @@ Systemdサービス
 
 <li>
 
-Systemdサービスは、ホームアシスタントの起動を自動化するのに便利です。ホームアシ���タント用の新しいサービスを作成します。
+Systemdサービスは、ホームアシスタントの起動を自動化するのに便利です。ホームアシタント用の新しいサービスを作成します。
 
 <LessonCodeWrapper language="bash" codeClass="big-code" noLines>
 sudo nano /etc/systemd/system/home-assistant@homeassistant.service

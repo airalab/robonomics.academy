@@ -74,7 +74,7 @@ defaultName: Introduction to open source solution for private smart homes
 
 ## 红外控制器
 
-把它想象成你的遥控电视控制器...但是智能的！它不仅限于与电视一起使用。如果您的空调有一个遥控器，可以用这个智能遥控器替换。为了配对它，长时间按下控制器背面的复位按钮。有许��带有现成命令的库，例如[https://github.com/smartHomeHub/SmartIR](https://github.com/smartHomeHub/SmartIR)。您所要做的就是找到您的电视或空调的型号
+把它想象成你的遥控电视控制器...但是智能的！它不仅限于与电视一起使用。如果您的空调有一个遥控器，可以用这个智能遥控器替换。为了配对它，长时间按下控制器背面的复位按钮。有许带有现成命令的库，例如[https://github.com/smartHomeHub/SmartIR](https://github.com/smartHomeHub/SmartIR)。您所要做的就是找到您的电视或空调的型号
 
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmVjj92fMLbA6QJ5QhnmiqBT1huD5b7xyfi3VadHFDYwtm', type: 'webm'}]" cover="smart-home-intro/assembling-smart-home-board-13.png" />
 

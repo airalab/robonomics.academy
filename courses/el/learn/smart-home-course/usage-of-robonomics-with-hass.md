@@ -41,7 +41,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 <li>
 
-Στο πεδίο <code>CONTROLLER</code> εισάγετε τη διεύθυνση <code>SUB_CONTROLLER</code>. Εισαγάγετε τον φράση κλει��ί για να κρυπτογραφήσετε τα δεδομένα.
+Στο πεδίο <code>CONTROLLER</code> εισάγετε τη διεύθυνση <code>SUB_CONTROLLER</code>. Εισαγάγετε τον φράση κλειί για να κρυπτογραφήσετε τα δεδομένα.
 
 </li>
 
@@ -68,7 +68,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 Για τη δημιουργία αντιγράφων ασφαλείας, καλείται μια υπηρεσία που δημιουργεί ένα ασφαλές αρχείο με τα αρχεία διαμόρφωσης. Αυτή η υπηρεσία στη συνέχεια προσθέτει το αρχείο στο IPFS και αποθηκεύει το αποτέλεσμα CID στο Robonomics Digital Twin.
 
 <robo-academy-note type="warning" title="WARNING">
-Για να ανακτήσετε τη διαμόρφωσή σας, είναι απαραίτητο να χρησιμοποιήσετε έναν προσαρμοσμένο πύλη IPFS όπως το Pinata (pinata.cloud) ή το Crust Network (crust.network). Χωρίς αυτό, το αντίγραφο ασφαλείας ��ας θα αποθηκευτεί αποκλειστικά στον τοπικό κόμβο IPFS σας, πράγμα που μπορεί να σας εμποδίσει από την ανάκτηση της διαμόρφωσης του Home Assistant σας σε περίπτωση αποτυχίας του τοπικού κόμβου. 
+Για να ανακτήσετε τη διαμόρφωσή σας, είναι απαραίτητο να χρησιμοποιήσετε έναν προσαρμοσμένο πύλη IPFS όπως το Pinata (pinata.cloud) ή το Crust Network (crust.network). Χωρίς αυτό, το αντίγραφο ασφαλείας ας θα αποθηκευτεί αποκλειστικά στον τοπικό κόμβο IPFS σας, πράγμα που μπορεί να σας εμποδίσει από την ανάκτηση της διαμόρφωσης του Home Assistant σας σε περίπτωση αποτυχίας του τοπικού κόμβου. 
 </robo-academy-note>
 
 <LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmVo91dLaAYgFDM1vrL2PYfAffM6SGGC59ZERbfHR44tqW', type:'mp4'}]" />

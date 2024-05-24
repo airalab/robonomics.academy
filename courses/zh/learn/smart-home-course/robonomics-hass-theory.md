@@ -27,7 +27,7 @@ Home Assistant与设备通信并在本地存储其数据，不幸的是这不允
 
 Robonomics的主要功能是基于Polkadot/Kusama生态系统的区块链（平行链）实现的。平行链的主要功能之一是能够发送启动设备的命令，并能够将用户数据存储在区块链上。
 
-Robonomics平行链具有物联网订阅功能，允许用户在一个��的时间内向平行链发送交易，而无需支付费用。在本课程的实践部分，您将使用订阅方法。
+Robonomics平行链具有物联网订阅功能，允许用户在一个的时间内向平行链发送交易，而无需支付费用。在本课程的实践部分，您将使用订阅方法。
 
 物联网中心与Robonomics平行链之间的交互是通过[robonomics-interface](https://github.com/Multi-Agent-io/Robonomics-interface)实现的 — 专门用于与Robonomics进行便捷编程的Python库。
 

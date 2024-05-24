@@ -45,7 +45,7 @@ C. Li et al. "Blockchain-based secure and trustworthy data sharing scheme for sm
 - Bing Chat：10のうち7つのソースが偽物
 - Auto-GPT：何らかの理由で書誌ウェブサイトのパーサーの開発を開始したため、タスクを完了しませんでした。
 
-インターネットにアクセスできる場合��AIサービスはより良く機能しますが、同時に、存在しないソースへの直接リンクを作成する可能性があります。もちろん、全体的な結果は印象的ではありませんが、この問題を心に留めて続けましょう。
+インターネットにアクセスできる場合AIサービスはより良く機能しますが、同時に、存在しないソースへの直接リンクを作成する可能性があります。もちろん、全体的な結果は印象的ではありませんが、この問題を心に留めて続けましょう。
 
 ## リクエストの明確化
 
@@ -56,7 +56,7 @@ C. Li et al. "Blockchain-based secure and trustworthy data sharing scheme for sm
 Find 5 scientific sources that prove statements in this text. Use only arXiv, IEEE, Springer articles from 2018 to 2023: "THE_PARAGRAPH"
 </RoboAcademyDialog>
 
-このリクエストはBing Chatのみに使用されました。ChatGPTはインターネットアクセスがないため、タスクをうまく処理できませんでした。結果ははるかに良くなりました：Bing Chatは時々すべての実際のソースを提供し、さらに、ソースがどのテキストの記述をサポートしているかを説明する簡単な説明を提供しました。ただし、Bing Chatは見つかったソースのbibtexレコードを作成すること��失敗しました（再び幻覚を生じさせるため）、そのため最後にGoogle Scholarの手動使用が必要でした。
+このリクエストはBing Chatのみに使用されました。ChatGPTはインターネットアクセスがないため、タスクをうまく処理できませんでした。結果ははるかに良くなりました：Bing Chatは時々すべての実際のソースを提供し、さらに、ソースがどのテキストの記述をサポートしているかを説明する簡単な説明を提供しました。ただし、Bing Chatは見つかったソースのbibtexレコードを作成すること失敗しました（再び幻覚を生じさせるため）、そのため最後にGoogle Scholarの手動使用が必要でした。
 
 
 ## 文献レビューに移動
@@ -130,7 +130,7 @@ openai.error.InvalidRequestError: This model's maximum context length is 8191 to
 
 ## 関連作品の段階的な分析
 
-したがって、少しの策略を使い、記事をページごとにAIに通し、受け取ったテキストの短い要約をリクエストします。そ���後、これらの要約をまとめて最終的な記事の分析を行います。たとえば、ChatGPTを使用することができます。
+したがって、少しの策略を使い、記事をページごとにAIに通し、受け取ったテキストの短い要約をリクエストします。そ後、これらの要約をまとめて最終的な記事の分析を行います。たとえば、ChatGPTを使用することができます。
 
 <RoboAcademyDialog>
 

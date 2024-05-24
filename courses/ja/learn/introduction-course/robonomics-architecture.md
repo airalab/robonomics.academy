@@ -45,7 +45,7 @@ IoTソリューションの現在の問題；
 
 <li>
 
-読んだ後、特別なdappの第4レッスン��[test](https://lesson4.robonomics.academy/)を受けてみてください。
+読んだ後、特別なdappの第4レッスン[test](https://lesson4.robonomics.academy/)を受けてみてください。
 
 11の質問が出題されます。テストに合格するには、11問のうち7問の正解が必要です（60％、学術的実践の標準値）。
 

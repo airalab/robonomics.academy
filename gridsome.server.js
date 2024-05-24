@@ -22,7 +22,7 @@ require.extensions['.yaml'] = function(module, filename) { // To safely load .ya
 // const courses = require('./src/data/online-courses.yaml')
 const imgsInfo = require('./src/data/images-info.yaml');
 // all Locales
-const localesAll = ["ru", "it", "es", "de", "pt", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl", "en"];
+const localesAll = ["ru", "it", "es", "de", "hi", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl", "en"];
 
 // For generated images configuration
 const defaultOptions = {
@@ -180,7 +180,7 @@ stream.write(`\n- link: ${options.path}
   api.createPages(({ createPage }) => {
 
     // all locales
-    const locales = ["ru", "it", "es", "de", "pt", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl"];
+    const locales = ["ru", "it", "es", "de", "hi", "zh", "ja", "ko", "fr", "uk", "ar", "el", "nl"];
 
     const oldPaths = ['/online-courses/', '/playground/'];
 

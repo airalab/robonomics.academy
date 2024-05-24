@@ -20,7 +20,7 @@ IoT订阅以及其购买和管理方法是使用包含所有必要功能的<code
 
 拍卖结束后，具有最高竞标的地址将被分配给订阅。现在，该地址将能够通过<code>rws.call()</code>外部发送交易而无需支付费用。但是，这并不意味着该地址可以随时无限制地执行此操作：每个订阅都有一定数量的<code>weight</code>值，必须在执行免费交易之前累积。由于每个在平行链中生成的区块都会向订阅中添加一些<code>weight</code>值，因此Robonomics通过这种方式调节平行链的带宽。
 
-此外，订阅的所有者可以使用<code>rws.setDevices()</code>外部，将订��的使用权分享给指定地址。同时，<code>weight</code>保持不变，因此订阅中的地址越多，每个地址等待发送免费交易的时间就越长。
+此外，订阅的所有者可以使用<code>rws.setDevices()</code>外部，将订的使用权分享给指定地址。同时，<code>weight</code>保持不变，因此订阅中的地址越多，每个地址等待发送免费交易的时间就越长。
 
 要使用Robonomics控制Home Assistant，您需要在Robonomics平行链上拥有两个帐户。这些帐户将为您的Home Assistant提供安全性。
 
@@ -48,7 +48,7 @@ IoT订阅以及其购买和管理方法是使用包含所有必要功能的<code
 
 <li>
 
-转到[Robonomics Parachain应用程序](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/)，在Polkadot / Substrate门户上检查左上角，确保您已连接��Robonomics Parachain。
+转到[Robonomics Parachain应用程序](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/)，在Polkadot / Substrate门户上检查左上角，确保您已连接Robonomics Parachain。
 
 </li>
 
@@ -96,7 +96,7 @@ IoT订阅以及其购买和管理方法是使用包含所有必要功能的<code
 
 <li>
 
-将��户添加到Polkadot.js扩展
+将户添加到Polkadot.js扩展
 
 <List type="numbers">
 
@@ -159,7 +159,7 @@ IoT订阅以及其购买和管理方法是使用包含所有必要功能的<code
 
 <li>
 
-在���下来的弹出菜单中连接Polkadot.js扩展。您将看到带有余额的账户地址。
+在下来的弹出菜单中连接Polkadot.js扩展。您将看到带有余额的账户地址。
 
 </li>
 

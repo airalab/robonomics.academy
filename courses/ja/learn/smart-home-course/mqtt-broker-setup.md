@@ -133,7 +133,7 @@ Home AssistantとMQTTのセットアップ
 
 <li>
 
-MQTT を選択し、ブローカーアドレスを設定します — <code>localhost</code> ポート — <code>1883</code> およびユーザー名とパスワード（Mosquitto Broker で以前に作成したもの��同じ）を入力して、<code>SUBMIT</code> を押します。
+MQTT を選択し、ブローカーアドレスを設定します — <code>localhost</code> ポート — <code>1883</code> およびユーザー名とパスワード（Mosquitto Broker で以前に作成したもの同じ）を入力して、<code>SUBMIT</code> を押します。
 </li>
 
 </List>

@@ -23,7 +23,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 3. **[로보노믹스 네트워크](https://robonomics.network/), IoT 애플리케이션의 안전하고 신뢰할 수 있는 제어를 위한 분산 클라우드**.
 
-로보노믹스는 스마트 장치와 그들의 데이터를 보호하기 ��해 분산화와 블록체인 기술을 결합한 web3 기술을 사용합니다.
+로보노믹스는 스마트 장치와 그들의 데이터를 보호하기 해 분산화와 블록체인 기술을 결합한 web3 기술을 사용합니다.
 
 로보노믹스의 주요 기능은 Polkadot/Kusama 생태계의 블록체인(패러체인)을 기반으로 구현됩니다. 패러체인의 주요 기능 중 하나는 장치를 실행하는 명령을 보내고 사용자 데이터를 블록체인에 저장할 수 있는 능력입니다.
 
@@ -55,7 +55,7 @@ IPFS는 블록체인에 대용량 파일을 저장하는 것을 피하기 위해
 
 어댑터(예: JetHome USB JetStick Z2)는 라즈베리 파이에 연결되어 컴퓨터와 지그비 무선 통신 간의 인터페이스 역할을 합니다. Zigbee2MQTT는 Zigbee를 MQTT 네트워크에 연결할 수 있게 해주는 소프트웨어입니다. 이 소프트웨어는 Zigbee 네트워크에서 메시지를 가져와 MQTT의 사용하기 쉽고 잘 구조화된 메시지로 변환합니다.
 
-2. 두 번째 시나리오에서는 장치를 ESP32 마이크로컨트롤러를 기반으로 한 [SLS 게이트웨이](https://github.com/slsys/Gateway)를 사용하여 연결합니다. 사용 ��의성을 위해 로보노믹스는 게이트웨이의 [자체 수정](https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01)을 개발했습니다.
+2. 두 번째 시나리오에서는 장치를 ESP32 마이크로컨트롤러를 기반으로 한 [SLS 게이트웨이](https://github.com/slsys/Gateway)를 사용하여 연결합니다. 사용 의성을 위해 로보노믹스는 게이트웨이의 [자체 수정](https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01)을 개발했습니다.
 
 <LessonImages figure figureCaption="Architectural scheme of the scenario with SLS Gateway" src="smart-house-course/lesson-1-2.png" alt="Architectural scheme of the scenario with SLS Gateway"/>
 

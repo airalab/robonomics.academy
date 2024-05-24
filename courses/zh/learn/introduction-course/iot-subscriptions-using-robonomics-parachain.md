@@ -24,7 +24,7 @@ IoT订阅是访问与改变网络物理系统数字孪生状态和使用Polkadot
 
 您需要大约2个XRT Robonomics Parachain代币（[关于代币](https://robonomics.netw或k/xrt/)）。如果您没有，您有几个选择：
 
-a) 如果您在第2课和第4课后都以90%的正确答案通过了两次测试，您可以请求免费代币以完成本课程。在[特殊检查dapp](https://lk.robonomics.academy/)���检查您的分数。具体来说，您需要在第2课中得到17分中的15分，在第4课中得到11分中的10分，您有两次尝试机会。要获取代币，请在我们的[Discord](https://discord.gg/xqDgG3EGm9)上联系学院管理员（IBerman#5862）。
+a) 如果您在第2课和第4课后都以90%的正确答案通过了两次测试，您可以请求免费代币以完成本课程。在[特殊检查dapp](https://lk.robonomics.academy/)检查您的分数。具体来说，您需要在第2课中得到17分中的15分，在第4课中得到11分中的10分，您有两次尝试机会。要获取代币，请在我们的[Discord](https://discord.gg/xqDgG3EGm9)上联系学院管理员（IBerman#5862）。
 
 b) 在交易所之一购买XRT代币（查看[交易所列表](https://www.coingecko.com/en/coins/robonomics-network#markets/)）。如果您不熟悉加密货币交易所，请注意所有加密货币交易所的购买可能存在潜在风险，只购买通过本课程所需的代币数量。另外，请记住Robonomics存在于两个网络，以太坊和Kusama，因此每个网络都有自己的XRT代币。您需要使用Kusama网络中的parachain使用的代币。
 
@@ -62,7 +62,7 @@ c) 如果您在以太坊网络（ERC-20格式）中拥有XRT代币，请使用[E
 
 然后，转到开发者->外部菜单，并选择<code>rws</code>和<code>setDevices()</code>。在设备列表中，使用“添加项目”按钮添加设备，并选择最近创建的帐户。之后，提交交易。
 
-设��地址应添加到订阅中。您可以通过查询<code>rws</code>和<code>devices()</code>在具有订阅的Polkadot.js帐户的链状态菜单中检查。
+设地址应添加到订阅中。您可以通过查询<code>rws</code>和<code>devices()</code>在具有订阅的Polkadot.js帐户的链状态菜单中检查。
 
 </li>
 

@@ -105,7 +105,7 @@ catkin build
 ./robonomics --dev
 </LessonCodeWrapper>
 
-**중요!** 다음 실�� 전에 `db` 디렉토리를 제거해야 합니다
+**중요!** 다음 실 전에 `db` 디렉토리를 제거해야 합니다
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 rm -rf /home/$USER/.local/share/robonomics/chains/dev/db
@@ -147,7 +147,7 @@ echo "ON" | ./robonomics io write launch -r [DRONE_ADDRESS] -s [EMPLOYER’S_KEY
 
 ##  부분 2. 블록체인에 데이터 저장
 
-**이 부분에서는 드��이 파라체인에 의해 제어되도록 하는 데 Robonomics 도구를 계속 사용할 것입니다. 이번에는 데이터를 IPFS로 보내고 해시를 체인 옵션에 저장할 것입니다. 아래는 지침 및 코드 스니펫입니다. 요구 사항:**
+**이 부분에서는 드이 파라체인에 의해 제어되도록 하는 데 Robonomics 도구를 계속 사용할 것입니다. 이번에는 데이터를 IPFS로 보내고 해시를 체인 옵션에 저장할 것입니다. 아래는 지침 및 코드 스니펫입니다. 요구 사항:**
 
 <List>
 
@@ -195,7 +195,7 @@ https://www.youtube.com/watch?v=dliLb6GHgpo&feature=youtu.be
 ./robonomics --dev
 </LessonCodeWrapper>
 
-**중요!** 다음 실�� 전에 `db` 디렉토리를 제거해야 합니다
+**중요!** 다음 실 전에 `db` 디렉토리를 제거해야 합니다
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 rm -rf /home/$USER/.local/share/robonomics/chains/dev/db

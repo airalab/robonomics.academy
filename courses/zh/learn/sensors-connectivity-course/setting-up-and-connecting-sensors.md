@@ -151,7 +151,7 @@ defaultName: Sensors Connectivity & Decentralized Sensors Network
 编写传感器将安装的地点的坐标。
 
 <RoboAcademyNote type="warning" title="WARNING">
-然后传感器坐标将显示在一个公开��用的地图上。如果您不想显示您的私人信息，请写下接近但不精确的坐标。
+然后传感器坐标将显示在一个公开用的地图上。如果您不想显示您的私人信息，请写下接近但不精确的坐标。
 </RoboAcademyNote>
 
 <LessonImages src="sensors-connectivity-course/lesson-3-1.png" alt="tutorial image"/>

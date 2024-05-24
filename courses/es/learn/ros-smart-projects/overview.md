@@ -37,7 +37,7 @@ Estas placas actúan como un componente base para conectar otros dispositivos a 
 
 <br/>
 
-## Dispositivos para el hogar inteligente y robots dom��sticos
+## Dispositivos para el hogar inteligente y robots domsticos
 
 Aquí se presentan dispositivos ROS cuyo uso inicial fue para hogares inteligentes u oficinas. La lista varía ampliamente, desde aspiradoras y asistentes robóticos hasta sistemas de control del hogar.
 

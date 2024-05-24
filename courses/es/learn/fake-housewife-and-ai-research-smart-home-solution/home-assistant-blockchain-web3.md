@@ -169,7 +169,7 @@ Ver todo el proceso **[aquí](https://www.notion.so/Process-AUTO-GPT-13-7-1-6ce6
 
 <RoboAcademyText>
 
-En total, Zoe la ama de casa pudo estudiar toda la información sobre hogares inteligentes, y encontró una solución para un hogar inteligente seguro. También investigó informaci��n sobre Robonomics y encontró enlaces al curso. Su próximo paso es estudiar el curso.
+En total, Zoe la ama de casa pudo estudiar toda la información sobre hogares inteligentes, y encontró una solución para un hogar inteligente seguro. También investigó informacin sobre Robonomics y encontró enlaces al curso. Su próximo paso es estudiar el curso.
 
 Su próximo paso es estudiar el curso [https://robonomics.academy/learn/smart-home-course/overview](https://robonomics.academy/learn/smart-home-course/overview) y [https://wiki.robonomics.network/docs/hass-os-upgrade/](https://wiki.robonomics.network/docs/hass-os-upgrade/)
 

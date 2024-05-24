@@ -103,7 +103,7 @@ cp agents.template.json agents.json</LessonCodeWrapper>
 };</LessonCodeWrapper>
 
 
-هنا يجب عليك إدخال خط العرض (`lat`) وخط الطول (`lng`) لمدينتك. اختياريًا، يمكنك إع��اد [خدمة اتجاه الرياح](https://github.com/danwild/wind-js-server) وتوفير عنوان URL لها في حقل `WIND_PROVIDER`.
+هنا يجب عليك إدخال خط العرض (`lat`) وخط الطول (`lng`) لمدينتك. اختياريًا، يمكنك إعاد [خدمة اتجاه الرياح](https://github.com/danwild/wind-js-server) وتوفير عنوان URL لها في حقل `WIND_PROVIDER`.
 
 </li>
 

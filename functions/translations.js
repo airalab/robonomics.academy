@@ -36,10 +36,6 @@ module.exports = function (fs, path) {
       full: 'French'
     },
     {
-      abbr: 'pt',
-      full: 'Portuguese'
-    },
-    {
       abbr: 'uk',
       full: 'Ukrainian'
     },
@@ -54,7 +50,11 @@ module.exports = function (fs, path) {
     {
       abbr: 'nl',
       full: 'Dutch'
-    }
+    },
+    {
+      abbr: 'hi',
+      full: 'Hindi'
+    },
   ];
 
     // NOTE - before post translation you need to copy default (english) post to all locales folders. 

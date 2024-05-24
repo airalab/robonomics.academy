@@ -48,7 +48,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
   <li>
 
-  افتح الإعدادات وتحقق من الخيار <code>تمكين SSH</code> مع المعلمة <code>استخدام المصادقة ب��لمة المرور</code>.
+  افتح الإعدادات وتحقق من الخيار <code>تمكين SSH</code> مع المعلمة <code>استخدام المصادقة بلمة المرور</code>.
 
   \- في <code>تعيين اسم المستخدم وكلمة المرور</code>، أضف اسم المستخدم وكلمة المرور لمستخدم Raspberry Pi الخاص بك.
 
@@ -131,7 +131,7 @@ Nmap done: 256 IP addresses (4 hosts up) scanned in 2.07 seconds
 
   </robo-academy-note>
 
-  ق��ل البدء، قم بتحديث نظام Raspberry Pi وتثبيت الحزم اللازمة. أثناء التثبيت، سترى نافذة تطلب إعادة تشغيل الخدمة. ما عليك سوى اختيار <span class="accent">ok</span> باستخدام زر <code>tab</code> والضغط على enter.
+  قل البدء، قم بتحديث نظام Raspberry Pi وتثبيت الحزم اللازمة. أثناء التثبيت، سترى نافذة تطلب إعادة تشغيل الخدمة. ما عليك سوى اختيار <span class="accent">ok</span> باستخدام زر <code>tab</code> والضغط على enter.
 
   <LessonCodeWrapper language="bash" noLines>sudo apt-get update</LessonCodeWrapper>
 

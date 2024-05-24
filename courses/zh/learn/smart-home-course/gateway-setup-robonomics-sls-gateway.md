@@ -208,7 +208,7 @@ sudo usermod -a -G dialout $USER
 
 <li>
 
-转到Wi-Fi页面，通过输入用户/密码并按下<code>保存</code>按钮来插入您的Wi-Fi凭据。然后按下<code>重新启动</code>按钮。网关将重新启动并连接���您的WI-Fi网络。
+转到Wi-Fi页面，通过输入用户/密码并按下<code>保存</code>按钮来插入您的Wi-Fi凭据。然后按下<code>重新启动</code>按钮。网关将重新启动并连接您的WI-Fi网络。
 
 <LessonVideo  :videos="[{src: 'https://crustipfs.info/ipfs/QmSht6roENzrV6oqsQ1a5gp6GVCz54EDZdPAP8XVh9SCwH', type:'mp4'}]" />
 
@@ -283,7 +283,7 @@ sudo nmap -sP 192.168.xxx.0/24
 
 <li>
 
-通过转到<code>Zigbee</code> -> <code>加入</code>来连接您的设备。将您的传感器置于配对模式，将设备切换到连接模式的最常见方法是按住其电源按钮或将其开关打开/关闭5��。按下<code>启用加入</code>按钮开始搜索Zigbee设备。您将看到活动传感器。
+通过转到<code>Zigbee</code> -> <code>加入</code>来连接您的设备。将您的传感器置于配对模式，将设备切换到连接模式的最常见方法是按住其电源按钮或将其开关打开/关闭5。按下<code>启用加入</code>按钮开始搜索Zigbee设备。您将看到活动传感器。
 
 </li>
 </List>

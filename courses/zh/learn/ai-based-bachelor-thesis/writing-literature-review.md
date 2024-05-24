@@ -34,7 +34,7 @@ C. Li et al. "Blockchain-based secure and trustworthy data sharing scheme for sm
 请注意它看起来多么自然：遵循了文献格式，引用了真实的IEEE期刊。唯一能够阻止其被使用的是在Google学术上进行检查。
 
 <RoboAcademyNote title="Warning" type="warning">
- 始终要仔细检查人工智能助手提供的链接、引用和来源��
+ 始终要仔细检查人工智能助手提供的链接、引用和来源
 </RoboAcademyNote>
 
 这个问题被称为[幻觉效应](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence))，目前在人工智能专家中引起了很多争议。情况恶化的原因是幻觉可能发生在验证成本过高的水平上（例如，人工智能可能详细描述一个实际上并不存在的复杂流体动力学现象），这会因其不可靠性而破坏所有人工智能服务的帮助。
@@ -56,7 +56,7 @@ C. Li et al. "Blockchain-based secure and trustworthy data sharing scheme for sm
 Find 5 scientific sources that prove statements in this text. Use only arXiv, IEEE, Springer articles from 2018 to 2023: "THE_PARAGRAPH"
 </RoboAcademyDialog>
 
-这个请求仅用于必应聊天，因为ChatGPT由于缺乏互联网访问而无法很好地处理任务��结果证明要好得多：必应聊天有时会提供所有真实来源，甚至提供简要描述，解释文本中的哪个陈述得到了支持。然而，必应聊天未能为找到的来源创建bibtex记录（再次产生幻觉），因此最后需要手动使用Google学者。
+这个请求仅用于必应聊天，因为ChatGPT由于缺乏互联网访问而无法很好地处理任务结果证明要好得多：必应聊天有时会提供所有真实来源，甚至提供简要描述，解释文本中的哪个陈述得到了支持。然而，必应聊天未能为找到的来源创建bibtex记录（再次产生幻觉），因此最后需要手动使用Google学者。
 
 
 ## 转向文献综述
@@ -88,7 +88,7 @@ Write a literature review with "THE_TOPIC" in 300 words. Write as if you are wri
 
 ## 查找用于分析的文章
 
-分析的标准策略涉及使用强大的文献搜索服务��Scopus、Web of Science、Google学者）找到关于主题的最相关和最被引用的5-10篇作品。让我们尝试使用以下请求来做到这一点:
+分析的标准策略涉及使用强大的文献搜索服务Scopus、Web of Science、Google学者）找到关于主题的最相关和最被引用的5-10篇作品。让我们尝试使用以下请求来做到这一点:
 
 <RoboAcademyDialog>
 

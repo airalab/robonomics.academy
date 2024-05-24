@@ -68,7 +68,7 @@ defaultName:  Introduction to open source solution for private smart homes
 
 ## Water Leakage Sensor
 
-2つの接点が接続されたときに信号��送信するかなりシンプルなデバイスです。水は電気を伝導し、センサーの下に水があるときは、その接点がショートされます。センサーはバッテリーで動作し、通常は1〜2年持続します。ZigBee経由でセンサーをペアリングするには、ボタンをしばらく長押しします 
+2つの接点が接続されたときに信号送信するかなりシンプルなデバイスです。水は電気を伝導し、センサーの下に水があるときは、その接点がショートされます。センサーはバッテリーで動作し、通常は1〜2年持続します。ZigBee経由でセンサーをペアリングするには、ボタンをしばらく長押しします 
 
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmbgetJK1E8qQMcnBVREutpy8tKfbesqaxXiebjzpoyrdV', type: 'webm'}]" cover="smart-home-intro/assembling-smart-home-board-12.png" />
 

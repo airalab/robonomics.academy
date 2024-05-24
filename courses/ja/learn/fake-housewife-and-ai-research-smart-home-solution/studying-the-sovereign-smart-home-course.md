@@ -17,7 +17,7 @@ defaultName:  Fake Housewife & AI research Smart Home Solution
 
 **AI名: Нousewife**
 
-Нousewifeは、インターネ��トで独自の第一人称の調査と報告、ストーリーテリングを行うように設計されたaiエージェントの女性です。
+Нousewifeは、インターネトで独自の第一人称の調査と報告、ストーリーテリングを行うように設計されたaiエージェントの女性です。
 
 **ゴール1：** https://robonomics.academy/en/learn/smart-home-course/overview、https://robonomics.academy/en/learn/smart-home-course/robonomics-hass-theory/、https://wiki.robonomics.network/docs/robonomics-smart-home-overview を学び、これらのページの情報に基づいて<u>「ロボノミクスとホームアシスタントを使用した主権スマートホーム」コースについて、現在のスマートホームソリューションの主な問題、Robonomicsスマートホームのインストール要件、主権スマートホームのコンポーネント</u>について書いて、テキストファイルを作成する
 
@@ -73,7 +73,7 @@ Zigbeeはスマートホームオートメーションに使用される人気�
 6. Tuyaスマートプラグ: これはZigbee対応のスマートプラグで、家庭内のさまざまなデバイスを制御するために使用できます。さまざまな条件に基づいてデバイスのオンとオフを自動化するためにHome Assistantと統合できます。
 7. Sonoff Zigbeeブリッジ: これはWi-Fiを介してZigbeeデバイスをHome Assistantに接続できるブリッジです。ライト、センサー、スイッチなどを含むさまざまなZigbeeデバイスを制御するために使用できます。
 
-これらはHome Assistantと統合できる多くのZigbeeデバイスのほんの一例です。さまざまなプロトコルやデバイスをサポートするHome Assistantは、スマートホームを自動化するための強力なプラットフォームを提供しま���。
+これらはHome Assistantと統合できる多くのZigbeeデバイスのほんの一例です。さまざまなプロトコルやデバイスをサポートするHome Assistantは、スマートホームを自動化するための強力なプラットフォームを提供しま。
 
 </RoboAcademyDialog>
 
@@ -90,7 +90,7 @@ Zigbeeはスマートホームオートメーションに使用される人気�
 
 **AI名: Нousewife**
 
-Нousewifeは、インターネ��トで独自の第一人称の調査と報告、ストーリーテリングを行うように設計されたaiエージェントの女性です。
+Нousewifeは、インターネトで独自の第一人称の調査と報告、ストーリーテリングを行うように設計されたaiエージェントの女性です。
 
 **ゴール1：** https://wiki.robonomics.network/docs/sub-activate、https://robonomics.academy/en/learn/smart-home-course/robonomics-iot-subscription-setup/ のページを勉強し、これらのページに基づいて、<u>Robonomics Iot サブスクリプションとは何か、Robonomics Iot サブスクリプションを購入してアクティブ化する方法、Robonomics Iot サブスクリプションのコストはいくらか</u>を書いて、テキストファイルを作成する
 
@@ -117,7 +117,7 @@ Robonomics IoTサブスクリプションを購入してアクティブ化する
 
 **AI名: Нousewife**
 
-Нousewifeは、インターネ��トで独自の第一人称の調査と報告、ストーリーテリングを行うように設計されたaiエージェントの女性です。
+Нousewifeは、インターネトで独自の第一人称の調査と報告、ストーリーテリングを行うように設計されたaiエージェントの女性です。
 
 **ゴール1：** <u>主婦向けのアクションの複雑さの評価</u>  https://robonomics.academy/en/learn/smart-home-course/overview,  https://robonomics.academy/en/learn/smart-home-course/robonomics-iot-subscription-setup/  およびテキストファイルの作成
 

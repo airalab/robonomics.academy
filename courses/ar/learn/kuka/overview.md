@@ -191,7 +191,7 @@ rosrun kuka_controller move_arm_client.py
 
 ## استكشاف الأخطاء وإصلاحها
 
-إذا لم يعمل `catkin_make` مع رسالة ��فيد بعدم العثور على MoveArm.h، جرب إزالة الأسطر الأربع الأخيرة في CMakeLists.txt في حزمة kuka_manipulator_gazebo:
+إذا لم يعمل `catkin_make` مع رسالة فيد بعدم العثور على MoveArm.h، جرب إزالة الأسطر الأربع الأخيرة في CMakeLists.txt في حزمة kuka_manipulator_gazebo:
 
 <LessonCodeWrapper language="yaml">
 include_directories(include ${catkin_INCLUDE_DIRS})

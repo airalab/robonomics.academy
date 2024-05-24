@@ -77,7 +77,7 @@ cp agents.template.json agents.json</LessonCodeWrapper>
 
 <li>
 
-Εισάγετε το ID IPFS σας στ�� `agents.json`:
+Εισάγετε το ID IPFS σας στ `agents.json`:
 
 <LessonCodeWrapper codeClass="big-code" language="json">[
   "QmUZxw8jsRpSx5rWkTpJokPGKvWihTrt5rbRCFXzJ4eCAP"

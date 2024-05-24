@@ -94,7 +94,7 @@ Home Assistant 및 MQTT 설정
 
 <li>
 
-웹 브라우저를 열고 <code>http://%RASPBERRY_IP_ADDRESS%:8123</code>로 이동하십시오. (이전 레슨에서 찾은 IP 주소와 동일한 IP 주소로). 라즈베리 파이 주소는 라우터 설정�� 따라 시간이 지남에 따라 변경될 수 있음에 유의하십시오. 
+웹 브라우저를 열고 <code>http://%RASPBERRY_IP_ADDRESS%:8123</code>로 이동하십시오. (이전 레슨에서 찾은 IP 주소와 동일한 IP 주소로). 라즈베리 파이 주소는 라우터 설정 따라 시간이 지남에 따라 변경될 수 있음에 유의하십시오. 
 
 <LessonVideo controls :videos="[{src: 'https://crustipfs.info/ipfs/QmYd1Mh2VHVyF3WgvFsN3NFkozXscnCVmEV2YG86UKtK3C', type:'mp4'}]" />
 

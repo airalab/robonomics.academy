@@ -21,7 +21,7 @@ defaultName: Getting Used to Feecc
 
 利用Web3技术和一组灵活的软件模块，Feecc平台允许公司组织任何类型产品的生产过程，审计员工对工作场所的访问并检索所有工作流数据。信息存储在不变且安全的分布式IPFS存储中，数据哈希通过Robonomics数据日志模块保存，质量控制部门可以通过Feecc Analytics访问。通过Feecc，公司不仅可以数字化其流程并摆脱文书工作和诉讼，还可以吸引新客户对产品的关注，增加对其的信任。
 
-��平台是一套用于监控生产过程并收集信息以供QCD或其他参与者后续分析的软件。从全球范围来看，平台集成到业务流程的方案可以表示如下：
+平台是一套用于监控生产过程并收集信息以供QCD或其他参与者后续分析的软件。从全球范围来看，平台集成到业务流程的方案可以表示如下：
 
 <LessonImages src="feecc-course/feecc-scheme.jpg" alt="A scheme of Feecc integration into the business process"/>
 

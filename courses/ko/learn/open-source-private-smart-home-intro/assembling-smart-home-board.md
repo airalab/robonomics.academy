@@ -92,7 +92,7 @@ defaultName: Introduction to open source solution for private smart homes
 
 ## 온도 및 습도 센서
 
-당신이 사는 환경을 알아야 좋을 것입니다, 맞죠? 이 센서는 온도와 습도 측정값을 제공합니다. 그런 다음 이 ���이터를 사용하여 에어컨을 켜거나 끄거나 다른 난방/냉방 시스템을 사용할 수 있습니다. 센서를 페어링하려면 뒷면에 버튼이 있습니다 
+당신이 사는 환경을 알아야 좋을 것입니다, 맞죠? 이 센서는 온도와 습도 측정값을 제공합니다. 그런 다음 이 이터를 사용하여 에어컨을 켜거나 끄거나 다른 난방/냉방 시스템을 사용할 수 있습니다. 센서를 페어링하려면 뒷면에 버튼이 있습니다 
 
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmayYFowfJVwQBVxPUSvi5inedqKzhyRZXp8fBUUayJnqH', type: 'webm'}]" cover="smart-home-intro/assembling-smart-home-board-16.png" />
 

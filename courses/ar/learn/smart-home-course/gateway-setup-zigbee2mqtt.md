@@ -193,7 +193,7 @@ Zigbee2MQTT:info  2022-07-29 14:44:39: Successfully interviewed '0x00158d0003eee
 
 <li>
 
-الآن ت��تاج إلى إنشاء خدمة. أنشئ الملف:
+الآن تتاج إلى إنشاء خدمة. أنشئ الملف:
 
 <LessonCodeWrapper language="bash" noLines>
 sudo nano /etc/systemd/system/zigbee2mqtt.service

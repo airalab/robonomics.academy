@@ -41,7 +41,7 @@ sudo docker-compose up -d --build
 git clone https://github.com/Multi-Agent-io/feecc-analytics-frontend.git
 </LessonCodeWrapper>
 
-2. `src`로 이동하여 `config.json` 파일을 사용하여 프론트엔드 서비스를 필요에 맞게 구성하십시오. `base_url` 매개변수에 Feecc 분석 백엔드의 URL을 입력해야 합니��(`xx.xx.xx.xx:port` 형식으로).
+2. `src`로 이동하여 `config.json` 파일을 사용하여 프론트엔드 서비스를 필요에 맞게 구성하십시오. `base_url` 매개변수에 Feecc 분석 백엔드의 URL을 입력해야 합니(`xx.xx.xx.xx:port` 형식으로).
 
 3. 프론트엔드 컨테이너 시작:
 

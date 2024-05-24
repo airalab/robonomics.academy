@@ -151,7 +151,7 @@ Home Assistant安装
 
   <li>
 
-  为Home Assistant Core创建一个虚拟环境并切换到它。这应该是作为<code>homeassistant</code>���户完成的，因此在执行命令后，您的用户将看起来像<code>(homeassistant) homeassistant@ubuntu</code>：
+  为Home Assistant Core创建一个虚拟环境并切换到它。这应该是作为<code>homeassistant</code>户完成的，因此在执行命令后，您的用户将看起来像<code>(homeassistant) homeassistant@ubuntu</code>：
 
   <LessonCodeWrapper language="bash" noLines>sudo -u homeassistant -H -s</LessonCodeWrapper>
 
@@ -331,7 +331,7 @@ svn checkout https://github.com/airalab/homeassistant-robonomics-integration/tru
 
 <li>
 
-之��退出homeassistant用户并重新启动服务：
+之退出homeassistant用户并重新启动服务：
 
 <LessonCodeWrapper language="bash" noLines>
 exit

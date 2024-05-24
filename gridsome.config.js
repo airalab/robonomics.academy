@@ -17,7 +17,7 @@ module.exports = {
     {
       use: "gridsome-plugin-translateit",
       options: {
-        locales: ["ar","de","el","en","es","fr","it","ja","ko","nl","pt","ru","uk","zh"],
+        locales: ["ar","de","el","en","es","fr","hi","it","ja","ko","nl","ru","uk","zh"],
         slugifyDefaultLocale: true,
         defaultLocale: "en",
         translations: [],

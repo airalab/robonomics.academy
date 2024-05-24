@@ -21,7 +21,7 @@ defaultName:  Introduction to the ideas of Robonomics
 <List>
 
 <li>
-��挑战如何影响正在进行的第四次工业革命中的机器人和物联网系统的使用;
+挑战如何影响正在进行的第四次工业革命中的机器人和物联网系统的使用;
 </li>
 
 <li>

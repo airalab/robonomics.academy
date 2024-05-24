@@ -24,7 +24,7 @@ defaultName:  Introduction to the ideas of Robonomics
 </li>
 
 <li>
-про поточні пробл��ми побудови рішень Інтернету речей;
+про поточні проблми побудови рішень Інтернету речей;
 </li>
 
 <li>

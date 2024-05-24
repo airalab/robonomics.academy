@@ -14,7 +14,7 @@ defaultName: Sensors Connectivity & Decentralized Sensors Network
 
 <LessonImages  figure figureCaption="Module architecture" src="sensors-connectivity-course/lesson-4-1.png" alt="Module architecture"/>
 
-传感器连接模块是一组站点（station_1，station_2 ... station_n），通过HTTP协议接收来自传感器等各种数据。它还可以是通过USB或任何其他数据源连接到计算机的传感器。模块处理从站点接收的数据，并将其传递给饲料机（feeder_1，feeder_2 ... feeder_n）。饲料机将处理后的数据发送���用户；在我们的情况下，数据被发送到去中心化IPFS通道。 
+传感器连接模块是一组站点（station_1，station_2 ... station_n），通过HTTP协议接收来自传感器等各种数据。它还可以是通过USB或任何其他数据源连接到计算机的传感器。模块处理从站点接收的数据，并将其传递给饲料机（feeder_1，feeder_2 ... feeder_n）。饲料机将处理后的数据发送用户；在我们的情况下，数据被发送到去中心化IPFS通道。 
 
 [去中心化传感器网络](https://sensors.robonomics.network/#/)的地图是在计算机上运行的去中心化应用程序（dapp）。它从IPFS通道读取数据并在地图上显示。收集来自传感器的数据的服务器与用户看到的地图之间没有直接连接；数据通过IPFS pubsub在它们之间传输，从而减少了服务器的负载。 
 

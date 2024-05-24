@@ -41,7 +41,7 @@ defaultName:  Introduction to the ideas of Robonomics
 
 在频道列表中找到特殊的[Discord聊天机器人](https://discord.com/channels/803947358492557312/944186892038053899)，名为“🚰academy-faucet”，并输入您从Polkadot.js扩展中的Robonomics Parachain地址。
 
-确保以正确的格式（以“4”开头）将地址发送给机器人。如果机器人没有响应或第一次没有将您的地址添加到订阅中，请尝试几次，这是由于网络负载造成的。如果问��仍然存在，请在“🎓robonomics-academy”频道中询问。
+确保以正确的格式（以“4”开头）将地址发送给机器人。如果机器人没有响应或第一次没有将您的地址添加到订阅中，请尝试几次，这是由于网络负载造成的。如果问仍然存在，请在“🎓robonomics-academy”频道中询问。
 
 </li>
 

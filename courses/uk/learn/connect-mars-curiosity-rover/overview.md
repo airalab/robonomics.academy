@@ -201,4 +201,4 @@ rosrun robonomics_sample_controller sample_controller.py
 <LessonImages imageClasses="mb" src="connect-mars-curiosity-rover/data_in_ipfs.jpg" alt="Data in IPFS"/>
 
 
-Ця телеметрія зберігається в децентралізованому сховищі, а ��ї хеш зберігається в блокчейні!
+Ця телеметрія зберігається в децентралізованому сховищі, а ї хеш зберігається в блокчейні!

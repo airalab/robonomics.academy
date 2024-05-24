@@ -100,7 +100,7 @@ nano /opt/zigbee2mqtt/data/configuration.yaml
 
 \- αλλάξτε τη θύρα στο <code>serial</code> -> <code>port</code> στο directory σύνδεσης stick. Σε αυτό το παράδειγμα: <code>/dev/ttyUSB0</code>.
 
-Το προσαρμο��μένο αρχείο διαμόρφωσης πρέπει να φαίνεται ως εξής:
+Το προσαρμομένο αρχείο διαμόρφωσης πρέπει να φαίνεται ως εξής:
 
 <LessonCodeWrapper language="yaml">
 # Home Assistant integration (MQTT discovery)

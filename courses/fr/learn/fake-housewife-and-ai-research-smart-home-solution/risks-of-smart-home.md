@@ -165,7 +165,7 @@ Décrivez les inconvénients si je suis en dehors de chez moi ou non connecté �
 
 <ChatGPT/>
 
-Le désavantage de ne pas pouvoir contrôler à distance vos appareils intelligents et votre système domotique �� travers Home Assistant lorsque vous êtes loin de chez vous ou non connecté à votre réseau domestique peut être particulièrement **difficile si vous avez des enfants vivant à la maison.**
+Le désavantage de ne pas pouvoir contrôler à distance vos appareils intelligents et votre système domotique  travers Home Assistant lorsque vous êtes loin de chez vous ou non connecté à votre réseau domestique peut être particulièrement **difficile si vous avez des enfants vivant à la maison.**
 
 Sans accès à distance, vous pourriez être incapable d'ajuster ou de surveiller la température, l'éclairage, la sécurité ou d'autres fonctionnalités essentielles de votre maison lorsque vous êtes absent. **Cela pourrait potentiellement affecter la sécurité et le confort de vos enfants,** ainsi que perturber vos routines et horaires quotidiens. Par exemple, **si votre enfant laisse accidentellement une plaque de cuisson allumée, vous ne pourrez pas l'éteindre à distance, ce qui pourrait potentiellement entraîner un risque d'incendie.**
 
