@@ -84,7 +84,7 @@ python3 hid-emulator.py
 
 <LessonImages src="feecc-course/single_certificate.png" alt="Cetrificate of single composition"/>
 
-7. 在Robonomics本地节点屏幕的`链信息`部分下，您应该看到`最近事件`列下的新事件`datalog.NewRecord`。如果展开它，将显示与设备证书文件对应的IPFS CID在`字���`字段中。
+7. 在Robonomics本地节点屏幕的`链信息`部分下，您应该看到`最近事件`列下的新事件`datalog.NewRecord`。如果展开它，将显示与设备证书文件对应的IPFS CID在`字`字段中。
 
 <LessonImages src="feecc-course/single_datalog.png" alt="Datalog of single composition"/>
 

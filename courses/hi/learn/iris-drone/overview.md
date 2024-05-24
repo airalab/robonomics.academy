@@ -95,7 +95,7 @@ Robonomics नोड (बाइनरी फ़ाइल) (नवीनतम �
 
 <br/>
 
-## पर्या��रण सेटअप
+## पर्यारण सेटअप
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras

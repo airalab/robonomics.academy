@@ -16,7 +16,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 次に、Robonomicsパラチェーンの機能がどのように使用され、Home Assistantユーザーに必要なサービスが提供されるかを見ていきます。 
 
-テレメトリの取得は、すでに知っている<code>datalog</code>パレットに基づいています。一定の期間（ただし、蓄積された重みが許可する限り）ごとに、<code>SUB_CONTROLLER</code>アドレスから<code>datalog.record()</code>トランザクションがパラチェーンに送信され、暗号化されたファイルのIPFSハッシュが含まれています。ここには、IoTデバイスのすべてのデータが収集されています。実際には、テレメトリを取得するために���IoTサブスクリプションに関連するパラチェーンから必要なデータログをリクエストし、それらをキーで復号化します。
+テレメトリの取得は、すでに知っている<code>datalog</code>パレットに基づいています。一定の期間（ただし、蓄積された重みが許可する限り）ごとに、<code>SUB_CONTROLLER</code>アドレスから<code>datalog.record()</code>トランザクションがパラチェーンに送信され、暗号化されたファイルのIPFSハッシュが含まれています。ここには、IoTデバイスのすべてのデータが収集されています。実際には、テレメトリを取得するためにIoTサブスクリプションに関連するパラチェーンから必要なデータログをリクエストし、それらをキーで復号化します。
 
 バックアップを作成するには、別のRobonomicsパレットである<code>digitalTwin</code>が使用されます。これは、実際の機器のデジタルツイン、つまり技術的特性と履歴データをコピーするアイデアの実装です。まず、<code>digitalTwin.create()</code> extrinsicを使用して、Home Assistantのデジタルツイン用の一意のIDが作成されます。次に、<code>digitalTwin.setSource()</code> extrinsicを使用して、このIDがいくつかのデータ（<code>topic</code>フィールド）とパラチェーン内のアドレス（<code>source</code>フィールド）と結び付けられます。Home Assistantのバックアップでは、バックアップファイルのハッシュが<code>topic</code>に格納され、<code>SUB_OWNER</code>アドレスが<code>source</code>に格納されます。
 
@@ -41,7 +41,7 @@ Dappに移動し、[スマートホームテレメトリ](https://dapp.robonomic
 
 <li>
 
-<code>CONTROLLER</code>フィールドに<code>SUB_CONTROLLER</code>アドレスを入力します。データを暗号化するため���シードフレーズを挿入します。
+<code>CONTROLLER</code>フィールドに<code>SUB_CONTROLLER</code>アドレスを入力します。データを暗号化するためシードフレーズを挿入します。
 
 </li>
 

@@ -48,7 +48,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 <li>
 
-انتقل إ��ى [تطبيق باراشين Robonomics](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/) على بوابة Polkadot / Substrate. تحقق من الزاوية اليسرى العلوية للتأكد من أنك متصل بباراشين Robonomics.
+انتقل إى [تطبيق باراشين Robonomics](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/) على بوابة Polkadot / Substrate. تحقق من الزاوية اليسرى العلوية للتأكد من أنك متصل بباراشين Robonomics.
 
 </li>
 
@@ -70,7 +70,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 <li>
 
-افتح <code>خيارات الإنشاء المتقدمة</code>، غير نوع التشفير لإنشاء الحساب إلى <code>Edwards - ed25519</code>. احفظ عبارة البذرة الذاكرية بشكل آمن واضغط على <code>التا��ي</code>.
+افتح <code>خيارات الإنشاء المتقدمة</code>، غير نوع التشفير لإنشاء الحساب إلى <code>Edwards - ed25519</code>. احفظ عبارة البذرة الذاكرية بشكل آمن واضغط على <code>التاي</code>.
 
 </li>
 

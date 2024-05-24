@@ -181,7 +181,7 @@ rosrun gazebo_ros spawn_model -file `rospack find baxter_description`/urdf/baxte
 
 ## 3. DAPP에서 계정 관리
 
-테스트 중이므로 로컬 로보노믹스 네트워크��� robonomics 이진 파일로 생성합시다. robonomics 파일이 있는 폴더로 이동하여 다음을 실행하십시오:
+테스트 중이므로 로컬 로보노믹스 네트워크 robonomics 이진 파일로 생성합시다. robonomics 파일이 있는 폴더로 이동하여 다음을 실행하십시오:
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 ./robonomics --dev --tmp --rpc-cors all
@@ -395,7 +395,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ## 1. 시뮬레이션 및 컨트롤러 패키지 다운로드
 주요 백스터 패키지와 주요 제어 프로그램을 위한 2개의 워크스페이스를 생성해야 합니다.
-첫 번��� 워크스페이스. 주요 제어 프로그램입니다. python3에서 실행됩니다.
+첫 번 워크스페이스. 주요 제어 프로그램입니다. python3에서 실행됩니다.
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 cd ~
@@ -490,7 +490,7 @@ roslaunch baxter_gazebo baxter_world.launch
 
 ## 3. DAPP에서 계정 관리
 
-테스트 중이므로 로컬 로보노믹스 네트워크��� robonomics 이진 파일로 생성합시다. robonomics 파일이 있는 폴더로 이동하여 다음을 실행하십시오:
+테스트 중이므로 로컬 로보노믹스 네트워크 robonomics 이진 파일로 생성합시다. robonomics 파일이 있는 폴더로 이동하여 다음을 실행하십시오:
 
 <LessonCodeWrapper language="bash">
 ./robonomics --dev --tmp

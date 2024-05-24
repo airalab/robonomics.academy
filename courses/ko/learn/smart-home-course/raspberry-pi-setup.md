@@ -52,7 +52,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
   \- <code>사용자 이름 및 암호 설정</code>에서 라즈베리 파이 사용자의 사용자 이름과 암호를 추가합니다.
 
-  \- <code>무선 LAN 구성</code>��서 Wi-Fi와 해당 암호를 제공하고 드롭다운 목록에서 국가를 선택합니다. 그런 다음 <code>작성</code> 이미지를 선택합니다.
+  \- <code>무선 LAN 구성</code>서 Wi-Fi와 해당 암호를 제공하고 드롭다운 목록에서 국가를 선택합니다. 그런 다음 <code>작성</code> 이미지를 선택합니다.
 
   <robo-academy-note type="okay">
   실제 Wi-Fi 이름과 Wi-Fi 암호를 입력했는지 확인하세요.

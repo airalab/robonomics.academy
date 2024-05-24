@@ -147,7 +147,7 @@ catkin build -DPYTHON_EXECUTABLE=/usr/bin/python3 # The controller supports pyth
 <LessonImages imageClasses="mb" src="connect-mars-curiosity-rover/account_creation.jpg" alt="Account creation"/>
 
 
-أضف هذه العناوين وكلمة الإدخال وعنوان العقد (الذي يعتمد على `ws://127.0.0.1:9944` افتراضيًا لعقد المطور) في `config.config` في `robonomics_ws/src/robonomics_sample_controller/src`. بدون علا��ات اقتباس.
+أضف هذه العناوين وكلمة الإدخال وعنوان العقد (الذي يعتمد على `ws://127.0.0.1:9944` افتراضيًا لعقد المطور) في `config.config` في `robonomics_ws/src/robonomics_sample_controller/src`. بدون علاات اقتباس.
 
 ------------
 
@@ -185,7 +185,7 @@ rosrun robonomics_sample_controller sample_controller.py
 
 <LessonImages imageClasses="mb" src="connect-mars-curiosity-rover/extrinsic.jpg" alt="Extrinsic"/>
 
-يجب أن يبدأ الروبوت في التحرك. لن يقبل الأوامر من حسابات أخرى ولا الأوامر بمعلمة `لا`. سيتحرك المسبار حوله ويجمع البيانات لمدة حوالي د��يقة.
+يجب أن يبدأ الروبوت في التحرك. لن يقبل الأوامر من حسابات أخرى ولا الأوامر بمعلمة `لا`. سيتحرك المسبار حوله ويجمع البيانات لمدة حوالي ديقة.
 في وقت لاحق، عندما يتم الانتهاء من العمل:
 
 <LessonImages imageClasses="mb" src="connect-mars-curiosity-rover/job_done.jpg" alt="Job done"/>

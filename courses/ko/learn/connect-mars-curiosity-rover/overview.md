@@ -171,7 +171,7 @@ roslaunch curiosity_mars_rover_description main_real_mars.launch
 
 정지할 때까지 기다리십시오
 
-다른 터미널��서 컨트롤러를 시작하십시오:
+다른 터미널서 컨트롤러를 시작하십시오:
 
 <LessonCodeWrapper language="bash" codeClass="long-code">
 rosrun robonomics_sample_controller sample_controller.py

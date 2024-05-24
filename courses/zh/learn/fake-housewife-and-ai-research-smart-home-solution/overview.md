@@ -25,7 +25,7 @@ defaultName:  Fake Housewife & AI research Smart Home Solution
 - 了解涉及的技术
 - 了解设备连接的过程和涉及的难度水平
 - 设计定制的自动化方案
-- 尝试安装家��自动化
+- 尝试安装家自动化
 - 选择合适的智能设备以及购买地点
 - 确定需要额外专家帮助的地方
 - 最终解决问题
@@ -41,7 +41,7 @@ defaultName:  Fake Housewife & AI research Smart Home Solution
 我们AI家政人员的组成部分：
 
 - **ChatGPT** - 寻找问题的解决方案，研究术语，甚至为AI家政人员创建一个名字
-- **AutoGPT** - 研究问题及其解决方案，研究自动化，寻找设备��额外专家
+- **AutoGPT** - 研究问题及其解决方案，研究自动化，寻找设备额外专家
 - **[synthesia.io](https://www.synthesia.io/)** - AI家政人员的动态形象
 - **Midjourney** - 插图
 - **NotionAI** - 能够用正确的表述用不同语言进行交流。

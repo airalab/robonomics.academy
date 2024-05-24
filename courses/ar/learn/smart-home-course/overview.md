@@ -37,7 +37,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 </List>
 
 
-## الم��طلبات:
+## المطلبات:
 
 <List>
 <li>

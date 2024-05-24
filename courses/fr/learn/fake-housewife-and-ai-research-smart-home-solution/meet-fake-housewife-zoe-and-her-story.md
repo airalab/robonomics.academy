@@ -71,7 +71,7 @@ Imaginez comment équiper un endroit pour la méditation, le yoga, la respiratio
 
 <ChatGPT/>
 
-Pour que le scénario de la zone de relaxation se déroule automatiquement, vous devez utiliser un syst��me domotique. Un tel système vous permettra de configurer un scénario qui se déclenchera automatiquement à un certain moment ou dans certaines conditions. Voici quelques idées sur la façon d'équiper un endroit pour la méditation, le yoga, la respiration profonde et la lecture de musique relaxante en utilisant un système domotique:
+Pour que le scénario de la zone de relaxation se déroule automatiquement, vous devez utiliser un systme domotique. Un tel système vous permettra de configurer un scénario qui se déclenchera automatiquement à un certain moment ou dans certaines conditions. Voici quelques idées sur la façon d'équiper un endroit pour la méditation, le yoga, la respiration profonde et la lecture de musique relaxante en utilisant un système domotique:
 
 1. Maison intelligente contrôlée par la voix: Vous pouvez utiliser une maison intelligente contrôlée par la voix pour lancer le scénario de la zone de relaxation. Par exemple, vous pouvez configurer le système pour répondre à la commande "Lancer le scénario de la zone de relaxation," et le système jouera automatiquement de la musique relaxante, allumera des bougies et activera un diffuseur avec des huiles aromatiques.
 2. Capteurs de mouvement: Installez des capteurs de mouvement dans la zone de relaxation qui déclencheront automatiquement le scénario lorsque vous entrerez dans la pièce. Cela peut inclure la lecture de musique relaxante, l'allumage des lumières et le démarrage du diffuseur avec des huiles aromatiques.

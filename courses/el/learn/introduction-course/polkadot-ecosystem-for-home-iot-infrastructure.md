@@ -40,7 +40,7 @@ defaultName:  Introduction to the ideas of Robonomics
 
 <li>
 
-Στο πεδίο <code>κλήση: Κλήση</code> επιλέξτε την εντο��ή <code>εκκίνηση(ρομπότ, παράμ)</code>.
+Στο πεδίο <code>κλήση: Κλήση</code> επιλέξτε την εντοή <code>εκκίνηση(ρομπότ, παράμ)</code>.
 
 Αυτό θα σας δείξει δύο ακόμα πεδία: <code>ρομπότ</code> και <code>παράμ</code>.
 

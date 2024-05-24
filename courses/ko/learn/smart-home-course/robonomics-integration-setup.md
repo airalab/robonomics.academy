@@ -87,7 +87,7 @@ Robonomics를 클릭하고 구성을 입력합니다:
 
 [홈 어시스턴트 계정](https://dapp.robonomics.network/#/home-assistant)이라는 dapp 서비스로 이동하세요. 방금 만든 계정을 오른쪽 사이드바에서 선택하세요 (원하는 계정을 선택했는지 프로필 아이콘을 눌러 확인하세요).
 
-필요한 필드에 <code>USER</code> 시드를 입력하세요. 관리자 크레딧 필드에 <code>SUB_OWNER</code> 및 <code>SUB_CONTROLLER</code> 주소를 추가하��요. 모든 것이 올바르다면 확인 상태 <code>VERIFIED</code>를 볼 수 있을 것입니다.
+필요한 필드에 <code>USER</code> 시드를 입력하세요. 관리자 크레딧 필드에 <code>SUB_OWNER</code> 및 <code>SUB_CONTROLLER</code> 주소를 추가하요. 모든 것이 올바르다면 확인 상태 <code>VERIFIED</code>를 볼 수 있을 것입니다.
 
 </li>
 

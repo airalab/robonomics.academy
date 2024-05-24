@@ -15,7 +15,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 
 まず、このセクションの少なくともいくつかのテキストを取得しようとしました。前述のように、学士論文はコース **"RobonomicsとHome Assistantを使用した独立したスマートホーム"**に基づいているため、正しいコンテキストを形成するためにAIアシスタントにコース全体を提供することが望ましいです。再び、コンテキストの制限の問題に遭遇しました。
 
-- Auto-GPTはコースのウェブサイト��適切にチェックすることができず、常にサブタスクに切り替えたり、コンテキストを失ったりしました。コーステキストをファイルとして提供しようとすると、コンテキストが大きすぎるという問題に遭遇しました。
+- Auto-GPTはコースのウェブサイト適切にチェックすることができず、常にサブタスクに切り替えたり、コンテキストを失ったりしました。コーステキストをファイルとして提供しようとすると、コンテキストが大きすぎるという問題に遭遇しました。
 - Bing Chatは2000〜4000文字の制限があり、オンラインコースのウェブサイトをチェックするリクエストは表面的な概要に制限されました。
 - ChatGPTも大きすぎるテキストを受け入れませんでした。
 
@@ -165,7 +165,7 @@ Goal 3: Write this code to the file and return it back
 
 </RoboAcademyTerminal>
 
-AutoGPTの結果、次���スクリプトが生成されました。
+AutoGPTの結果、次スクリプトが生成されました。
 
 <LessonCodeWrapper language="yaml" noCopyIcon codeClass="big-code">
     - alias: "Motion Sensor Bulb Control"

@@ -101,7 +101,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
 <li>
 
-注册过程完成后，使用您的用户地址作为登录名和新创建的密码���录到Home Assistant。现在您可以使用Robonomics dapp来通过Robonomics控制您的家。
+注册过程完成后，使用您的用户地址作为登录名和新创建的密码录到Home Assistant。现在您可以使用Robonomics dapp来通过Robonomics控制您的家。
 
 </li>
 </List>

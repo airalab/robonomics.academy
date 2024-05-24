@@ -151,7 +151,7 @@ defaultName: Sensors Connectivity & Decentralized Sensors Network
 Вкажіть координати місця, де буде встановлений датчик.
 
 <RoboAcademyNote type="warning" title="WARNING">
-Координати датчика потім будуть відображені на загальнодоступній карті. Якщо ви не хочете показувати свою приватну інформацію, вкажі��ь близькі, але не точні координати.
+Координати датчика потім будуть відображені на загальнодоступній карті. Якщо ви не хочете показувати свою приватну інформацію, вкажіь близькі, але не точні координати.
 </RoboAcademyNote>
 
 <LessonImages src="sensors-connectivity-course/lesson-3-1.png" alt="tutorial image"/>

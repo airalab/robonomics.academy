@@ -86,7 +86,7 @@ lrwxrwxrwx 1 root root 13 sep 5 14:01 usb-1a86_USB2.0-Ser_-if00-port0 -> ../../t
 </List>
 
 
-## स्थि���ि #2: MQTT के माध्यम से SDS011 कनेक्ट करें
+## स्थिि #2: MQTT के माध्यम से SDS011 कनेक्ट करें
 
 <RoboAcademyNote type="okay" title="INFO">Robonomics सेंसर फर्मवेयर MQTT के साथ काम नहीं करता। ये अतिरिक्त सेंसर के लिए सेटिंग्स हैं, जो MQTT के माध्यम से काम करते हैं।
 </RoboAcademyNote>

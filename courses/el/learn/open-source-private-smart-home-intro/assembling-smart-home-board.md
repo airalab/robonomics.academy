@@ -17,7 +17,7 @@ defaultName: Introduction to open source solution for private smart homes
 
 ## Διακόπτης Φωτός
 
-Οι έξυπνοι διακόπτες φωτός μοιάζουν περισσότερο ή λιγότερο με τους συνηθισμένους, εκτός από το γεγονός ότι χρησιμοποιούνται πλήκτρα πίεσης αντί για διακόπτες. Ένα πλήκτρο πί��σης επιστρέφει στη θέση του μετά το πάτημα. Δεν υπάρχει διαφορά στη σύνδεση μεταξύ ενός κανονικού διακόπτη και ενός έξυπνου: συνδέστε τον ουδέτερο αγωγό στο N, τον αγωγό ρεύματος στο L και τη γραμμή φωτισμού στο L1. Μετά τη συναρμολόγηση του διακόπτη για να τον συνδέσετε μέσω ZigBee, πιέστε το κουμπί για τουλάχιστον 5 δευτερόλεπτα.
+Οι έξυπνοι διακόπτες φωτός μοιάζουν περισσότερο ή λιγότερο με τους συνηθισμένους, εκτός από το γεγονός ότι χρησιμοποιούνται πλήκτρα πίεσης αντί για διακόπτες. Ένα πλήκτρο πίσης επιστρέφει στη θέση του μετά το πάτημα. Δεν υπάρχει διαφορά στη σύνδεση μεταξύ ενός κανονικού διακόπτη και ενός έξυπνου: συνδέστε τον ουδέτερο αγωγό στο N, τον αγωγό ρεύματος στο L και τη γραμμή φωτισμού στο L1. Μετά τη συναρμολόγηση του διακόπτη για να τον συνδέσετε μέσω ZigBee, πιέστε το κουμπί για τουλάχιστον 5 δευτερόλεπτα.
 
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/Qmb138DiQWWBgowMj2fC9kmiGYh9WEeytteSkqumWCv2LB', type: 'webm'}]" cover="smart-home-intro/assembling-smart-home-board-2.png" />
 
@@ -85,7 +85,7 @@ defaultName: Introduction to open source solution for private smart homes
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmZyb66dKEqk9iCVKhaBk5ZKASi7dXdFSg2CBXY1fwuu5J', type: 'webm'}]" cover="smart-home-intro/assembling-smart-home-board-14.png" />
 
 ## Motion Sensor
-Το ίδιο με τον αισθητήρα πόρτας/παρα��ύρου, μπορεί να χρησιμοποιηθεί σε διάφορα σενάρια. Τα πιο προφανή είναι ο έλεγχος των φώτων ή η ανίχνευση κινήσεων όταν είστε μακριά
+Το ίδιο με τον αισθητήρα πόρτας/παραύρου, μπορεί να χρησιμοποιηθεί σε διάφορα σενάρια. Τα πιο προφανή είναι ο έλεγχος των φώτων ή η ανίχνευση κινήσεων όταν είστε μακριά
 
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmUA7TLg12pkhkbdGH6fwNDasU1kiyLHBJSutA2YG71Mka', type: 'webm'}]" cover="smart-home-intro/assembling-smart-home-board-15.png" />
 
@@ -104,6 +104,6 @@ defaultName: Introduction to open source solution for private smart homes
 
 
 ## Smart Board 
-Ρίξτε μι�� ματιά στα αποτελέσματα [https://www.youtube.com/watch?v=B3er7bwtvkw](https://www.youtube.com/watch?v=B3er7bwtvkw )
+Ρίξτε μι ματιά στα αποτελέσματα [https://www.youtube.com/watch?v=B3er7bwtvkw](https://www.youtube.com/watch?v=B3er7bwtvkw )
 Και παίξτε με αυτό μόνοι σας [https://twitter.com/vadim_manaenko/status/1653777703718334469?s=20](https://twitter.com/vadim_manaenko/status/1653777703718334469?s=20)
 

@@ -17,7 +17,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 
 幸运的是，历史上一直在使我们的日常任务变得更加容易的进步已经达到了文本写作的领域。这一次，这是可能的，这要归功于人工智能的进步，特别是生成式语言模型，能够理解和解决请求，并以聊天格式提供更或多或少有意义的答案。在Robonomics，我们简直无法忽视能够提高生活和机器之间的交流和互动水平（并且也使我们的日常任务更加轻松！）的东西。
 
-最新的GPT模型以其功能令人印象深刻，但问题是如何正确使用它们，最重要的是它们能够依赖多少。这些技能被称为提示工程，���此，我们提供了这个指南，它将帮助您对当前生成式人工智能的可能性有一个基本的了解。
+最新的GPT模型以其功能令人印象深刻，但问题是如何正确使用它们，最重要的是它们能够依赖多少。这些技能被称为提示工程，此，我们提供了这个指南，它将帮助您对当前生成式人工智能的可能性有一个基本的了解。
 
 在本指南中，我们将尝试撰写一篇简单的学士论文，基于我们的"学士"的知识分支和学士已经通过的起始材料。 我们当然会尽量遵守最低限度的学术规则，但两周（这是本指南的计划时间）肯定不足以使学士论文成功（尽管现实有时会证明相反）。 尽管如此，这个指南可以被视为理解AI已经可以平滑处理的最常见和耗时的过程的良好起点。顺便说一句，您不必局限于学士论文任务：这个指南对遵循IMRaD标准（介绍、方法、结果、讨论）的任何文本作品都有用：期刊和会议出版物、博士论文、技术报告、手册等。 
 
@@ -29,7 +29,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 
 ## 在指南中使用的AI服务中：
 
-**[ChatGPT](https://chat.openai.com/chat)** — 基于OpenAI创建的生成式预训练变压器语言模型（版本3.5和4）的聊天机器人。它以与用户的聊天格式运行，回答他们的请求，这些请求可以从简单的问题到撰写诗歌和调试用户代码。它的知识仅限于2021年9月，因为它无法访问互联网。基本使用是免费的，但需要使用���话号码进行注册（在某些国家不可用）。它有一个订阅选项（每月20美元），具有更强大的功能和添加插件的能力，例如访问Wolfram或Slack。
+**[ChatGPT](https://chat.openai.com/chat)** — 基于OpenAI创建的生成式预训练变压器语言模型（版本3.5和4）的聊天机器人。它以与用户的聊天格式运行，回答他们的请求，这些请求可以从简单的问题到撰写诗歌和调试用户代码。它的知识仅限于2021年9月，因为它无法访问互联网。基本使用是免费的，但需要使用话号码进行注册（在某些国家不可用）。它有一个订阅选项（每月20美元），具有更强大的功能和添加插件的能力，例如访问Wolfram或Slack。
 
 **[Bing Chat](http://www.bing.com)** — 基于GPT-4集成到微软的必应搜索服务中的聊天机器人。需要微软帐户才能访问。基本上，它具有与ChatGPT相同的功能，但具有互联网访问权限，使其更加强大。
 
@@ -39,7 +39,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 
 此外，我们还需要以下服务：
 
-**[Overleaf](http://www.overleaf.com)** — 便捷的在线LaTeX编辑器，用于格式化文本。它具有各种模板，适用于任何类型的工作（从论文和文章到演示文稿）。��们将使用[MIT论文模板](https://www.overleaf.com/latex/templates/mit-thesis-template/ytphktgwpktc)。
+**[Overleaf](http://www.overleaf.com)** — 便捷的在线LaTeX编辑器，用于格式化文本。它具有各种模板，适用于任何类型的工作（从论文和文章到演示文稿）。们将使用[MIT论文模板](https://www.overleaf.com/latex/templates/mit-thesis-template/ytphktgwpktc)。
 
 **[Overleaf](http://www.overleaf.com)** — 便捷的在线LaTeX编辑器，用于格式化文本。它具有各种类型工作的模板（从论文和文章到演示文稿）。我们将使用[MIT论文模板](https://www.overleaf.com/latex/templates/mit-thesis-template/ytphktgwpktc)。
 
@@ -73,7 +73,7 @@ Auto-GPT需要不同的方法，因为用户需要在开始以下操作之前指
 ## 第一步
 
 <RoboAcademyNote title="WARNING" type="warning">
-  AI工具仍在不断改进中，因此请始终仔细检查���获得的结果。
+  AI工具仍在不断改进中，因此请始终仔细检查获得的结果。
 </RoboAcademyNote>
 
 ### 为服务提供上下文

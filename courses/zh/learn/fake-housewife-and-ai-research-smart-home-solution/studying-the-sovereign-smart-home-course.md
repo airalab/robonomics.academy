@@ -17,7 +17,7 @@ defaultName:  Fake Housewife & AI research Smart Home Solution
 
 **AI名称: Нousewife**
 
-��ousewife是: 一个设计用于在互联网上自主进行研究并进行独立第一人称报道和叙述的ai代理女性
+ousewife是: 一个设计用于在互联网上自主进行研究并进行独立第一人称报道和叙述的ai代理女性
 
 **目标 1：** 学习 https://robonomics.academy/en/learn/smart-home-course/overview ，https://robonomics.academy/en/learn/smart-home-course/robonomics-hass-theory/ ，https://wiki.robonomics.network/docs/robonomics-smart-home-overview ，并根据这些页面的信息撰写<u>关于课程“具有Robonomics和Home Assistant的主权智能家居”的内容，写出当前智能家居解决方案的主要问题，写出Robonomics智能家居的安装要求，写出主权智能家居的组件</u>并创建文本文件
 
@@ -69,7 +69,7 @@ Zigbee是一种流行的无线通信标准，用于智能家居自动化。Home 
 2. Aqara传感器: 这些是各种传感器，如温度、湿度、运动、门窗等。它们可以连接到Home Assistant，监控和控制家庭的不同方面，如气候控制和安全。
 3. 宜家Trådfri智能灯具: 宜家的智能灯泡和照明设备使用Zigbee标准，可以使用Home Assistant进行控制。它们支持调光，并可以设置不同的色温。
 4. SmartThings: 三星的SmartThings中心可以连接各种Zigbee设备，并可以与Home Assistant集成，自动化执行不同的任务。
-5. 小米米家智能插座: 这是一款支持Zigbee的智能插座，可用于控制家中的各种设备。它可以与Home Assistant集成，根据不同条件自动打���和关闭设备。
+5. 小米米家智能插座: 这是一款支持Zigbee的智能插座，可用于控制家中的各种设备。它可以与Home Assistant集成，根据不同条件自动打和关闭设备。
 6. Tuya智能插座: 这是一款支持Zigbee的智能插座，也可用于控制家中的各种设备。它可以与Home Assistant集成，根据不同条件自动打开和关闭设备。
 7. Sonoff Zigbee桥接器: 这是一个桥接器，可以通过Wi-Fi将Zigbee设备连接到Home Assistant。它可用于控制各种Zigbee设备，包括灯具、传感器和开关。
 
@@ -90,7 +90,7 @@ Zigbee是一种流行的无线通信标准，用于智能家居自动化。Home 
 
 **AI名称: Нousewife**
 
-��ousewife是: 一个设计用于在互联网上自主进行研究并进行独立第一人称报道和叙述的ai代理女性
+ousewife是: 一个设计用于在互联网上自主进行研究并进行独立第一人称报道和叙述的ai代理女性
 
 **目标1：**学习页面https://wiki.robonomics.network/docs/sub-activate，https://robonomics.academy/en/learn/smart-home-course/robonomics-iot-subscription-setup/，根据这些页面编写<u>什么是Robonomics Iot Subscription，如何购买和激活Robonomics Iot Subscription以及Robonomics Iot Subscription的成本</u>并创建文本文件
 
@@ -117,7 +117,7 @@ Zigbee是一种流行的无线通信标准，用于智能家居自动化。Home 
 
 **AI名称: Нousewife**
 
-��ousewife是: 一个设计用于在互联网上自主进行研究并进行独立第一人称报道和叙述的ai代理女性
+ousewife是: 一个设计用于在互联网上自主进行研究并进行独立第一人称报道和叙述的ai代理女性
 
 **目标1：** 写一个<u>对一个家庭主妇的行动复杂性评估</u> https://robonomics.academy/en/learn/smart-home-course/overview,  https://robonomics.academy/en/learn/smart-home-course/robonomics-iot-subscription-setup/ 并创建文本文件
 

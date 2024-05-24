@@ -234,7 +234,7 @@ Where `<DRONE_ADDRESS>`  and `<EMPLOYER’S_KEY>` are replaced with  previously 
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/flying_picturing.jpg" alt="flying_picturing"/>
 
-Пізніше, коли робота буде з��вершена, на порталі Robonomics перейдіть до `Розробник` -> `Стан ланцюжка` та додайте даталог `DRONE`, використовуючи кнопку `“+”` з вибраним запитом стану як `datalog`. Хеш IPFS телеметрії було збережено в блокчейні. Щоб побачити дані, просто скопіюйте хеш та додайте його до локальної [шлюз](https://gateway.ipfs.io/ipfs/QmeYYwD4y4DgVVdAzhT7wW5vrvmbKPQj8wcV2pAzjbj886/docs/getting-started/) адреси `localhost:8080/ipfs/`:
+Пізніше, коли робота буде звершена, на порталі Robonomics перейдіть до `Розробник` -> `Стан ланцюжка` та додайте даталог `DRONE`, використовуючи кнопку `“+”` з вибраним запитом стану як `datalog`. Хеш IPFS телеметрії було збережено в блокчейні. Щоб побачити дані, просто скопіюйте хеш та додайте його до локальної [шлюз](https://gateway.ipfs.io/ipfs/QmeYYwD4y4DgVVdAzhT7wW5vrvmbKPQj8wcV2pAzjbj886/docs/getting-started/) адреси `localhost:8080/ipfs/`:
 
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/datalog.jpg" alt="Voila"/>

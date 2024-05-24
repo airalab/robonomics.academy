@@ -87,7 +87,7 @@ git clone https://github.com/ros-perception/vision_opencv.git src/vision_opencv
 
 </li>
 
-<li> अपने रिपॉज���टरी में सीवी ब्रिज का संस्करण खोजें:
+<li> अपने रिपॉजटरी में सीवी ब्रिज का संस्करण खोजें:
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 apt-cache show ros-melodic-cv-bridge | grep Version
@@ -234,7 +234,7 @@ rosrun robot_controller robot_control.py
 
 <LessonImages imageClasses="mb" src="baxter/working.jpg" alt="working"/>
 
-काम समाप्त होने पर Robonomics पोर्टल पर जाएं `Developer > Chain state`. **राज्य क्वेरी** में `datalog.datalogItem(AccountId,u64)` चुनें। यदि आप सभी डेटालॉग दिखाना चाहते हैं, त��� `समावेश विकल्प` को बंद करें और "+" बटन का उपयोग करके Baxter के डेटालॉग संदेश को देखें।
+काम समाप्त होने पर Robonomics पोर्टल पर जाएं `Developer > Chain state`. **राज्य क्वेरी** में `datalog.datalogItem(AccountId,u64)` चुनें। यदि आप सभी डेटालॉग दिखाना चाहते हैं, त `समावेश विकल्प` को बंद करें और "+" बटन का उपयोग करके Baxter के डेटालॉग संदेश को देखें।
 
 <LessonImages imageClasses="mb" src="baxter/datalog.jpg" alt="datalog"/>
 
@@ -426,7 +426,7 @@ patch ./baxter_simulator/baxter_sim_kinematics/src/arm_kinematics.cpp ~/robonomi
 patch ./baxter_interface/src/baxter_interface/robot_enable.py ~/robonomics_ws/src/Baxter_simulation_controller/patch/interface_patch
 </LessonCodeWrapper>
 
-और हम ��भी हमारे पैकेज बनाएंगे:  
+और हम भी हमारे पैकेज बनाएंगे:  
 पहले बैक्स्टर के पैकेज बनाएं
 
 <LessonCodeWrapper language="bash">
@@ -477,7 +477,7 @@ nano baxter.sh
 
 <LessonImages imageClasses="mb" src="baxter/baxter_sh.jpg" alt="baxtersh"/>
 
-बैक्स���टर शैल स्क्रिप्ट को सिम के साथ चलाएं:
+बैक्सटर शैल स्क्रिप्ट को सिम के साथ चलाएं:
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 ./baxter.sh sim

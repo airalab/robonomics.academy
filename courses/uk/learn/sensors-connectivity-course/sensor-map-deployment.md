@@ -87,7 +87,7 @@ cp agents.template.json agents.json</LessonCodeWrapper>
 
 <li>
 
-Відкрийте файл `config.json` та змініть наступну частин�� файлу конфігурації:
+Відкрийте файл `config.json` та змініть наступну частин файлу конфігурації:
 
 <LessonCodeWrapper codeClass="big-code" language="json">...
   REMOTE_PROVIDER: "",

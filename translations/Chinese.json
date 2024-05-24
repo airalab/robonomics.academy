@@ -81,7 +81,7 @@
   "What We Collect and Receive": "我们收集和接收的内容",
   "In order for us to provide you the best possible experience on our websites, we need to collect and process certain information. Depending on your use of the Services, that may include:": "为了我们能够在我们的网站上为您提供最佳体验，我们需要收集和处理某些信息。根据您对服务的使用，这可能包括：",
   "Contact us via email": "通过电子邮件与我们联系",
-  "for example, when you submit our forms, send us questions or comments, or report a problem, we will collect your name, email address, message, etc. We use this data solely in connection with answering the queries we receive.": "例如，当您提交我们的表单、发送问题或评论，或报告问题时，我们将收集您的姓名、电子邮件地址、消息等。我们仅在回答我们��到的查询时使用这些数据。",
+  "for example, when you submit our forms, send us questions or comments, or report a problem, we will collect your name, email address, message, etc. We use this data solely in connection with answering the queries we receive.": "例如，当您提交我们的表单、发送问题或评论，或报告问题时，我们将收集您的姓名、电子邮件地址、消息等。我们仅在回答我们到的查询时使用这些数据。",
   "Usage data": "使用数据",
   "other": "其他",
   "non-personal data. We process this usage data only on our server, not passing it to third-parties with": "非个人数据。我们仅在我们的服务器上处理此使用数据，不将其传递给第三方，而是使用",
@@ -97,7 +97,7 @@
   "To exercise any of the rights mentioned in this Privacy Policy and/or in the event of questions or comments relating to the use of Personal Data you may contact us.": "要行使本隐私政策中提到的任何权利和/或就个人数据使用提出问题或评论，您可以与我们联系。",
   "In addition, you have the right to lodge a complaint with the data protection authority in your jurisdiction.": "此外，您有权向您所在司法管辖区的数据保护机构投诉。",
   "Retention of data": "数据保留",
-  "We will retain your information as long as necessary to provide you with the services or as otherwise set forth in this Policy. We will also retain and use this information as necessary for the purposes set out in this Policy and to the extent necessary to comply with our legal obligations, resolve disputes, enforce our agreements and protect Robonomics Academy legal rights.": "我们将保留您的信息，只要有必要为您提供服务或根据本政策另有规定。我们��将根据本政策中规定的目的保留和使用这些信息，并在必要时遵守我们的法律义务，解决争议，执行我们的协议并保护Robonomics Academy的法律权利。",
+  "We will retain your information as long as necessary to provide you with the services or as otherwise set forth in this Policy. We will also retain and use this information as necessary for the purposes set out in this Policy and to the extent necessary to comply with our legal obligations, resolve disputes, enforce our agreements and protect Robonomics Academy legal rights.": "我们将保留您的信息，只要有必要为您提供服务或根据本政策另有规定。我们将根据本政策中规定的目的保留和使用这些信息，并在必要时遵守我们的法律义务，解决争议，执行我们的协议并保护Robonomics Academy的法律权利。",
   "We also collect and maintain aggregated, anonymized or pseudonymized information which we may retain indefinitely to protect the safety and security of our Site, improve our Services or comply with legal obligations.": "我们还收集和保留聚合的、匿名化或假名化信息，我们可能会无限期地保留这些信息，以保护我们网站的安全性和安全性，改进我们的服务或遵守法律义务。",
   "This page has moved to a": "此页面已移至",
   "Automatic redirecting": "自动重定向",
@@ -154,7 +154,7 @@
   "Assembling Smart Home Board": "组装智能家居板",
   "Unleash Automation Potential": "释放自动化潜力",
   "Escape from Black Mirror": "逃离黑镜",
-  "The story of a girl named Trinity": "一��名叫Trinity的女孩的故事",
+  "The story of a girl named Trinity": "一名叫Trinity的女孩的故事",
   "Fake Housewife & AI research Smart Home Solution": "假家庭主妇和AI研究智能家居解决方案",
   "Meet Fake Housewife Zoe and her story": "遇见假家庭主妇Zoe及其故事",
   "Risks of standard Smart Home solutions and the Home Assistant": "标准智能家居解决方案和Home Assistant的风险",
@@ -185,5 +185,6 @@
   "Pavel Tarasov": "帕维尔·塔拉索夫",
   "Alexander Smekhnov": "亚历山大·斯梅赫诺夫",
   "Filter": "过滤器",
-  "Note: you need to pass all lessons from course with one Polkadot.js account to apply for certificate": "注意：您需��使用一个 Polkadot.js 账户通过课程的所有课程才能申请证书"
+  "Note: you need to pass all lessons from course with one Polkadot.js account to apply for certificate": "注意：您需使用一个 Polkadot.js 账户通过课程的所有课程才能申请证书",
+  "Robonomics School 2024 / IoT is More Dangerous Than AI": "Robonomics School 2024 / 物联网比人工智能更危险"
 }

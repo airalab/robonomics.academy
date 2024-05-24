@@ -4,7 +4,7 @@ lastUpdate: Thu May 18 2023 10:46:29 GMT+0400 (Samara Standard Time)
 description: होम असिस्टेंट कोर्स
 lessonNumber: 3
 metaOptions: [रोबोनॉमिक्स और होम असिस्टेंट के साथ साम्राजिक स्मार्ट होम सीखें]
-defaultName: साम्��ाजिक स्मार्ट होम विथ रोबोनोमिक्स और होम असिस्टेंट
+defaultName: साम्ाजिक स्मार्ट होम विथ रोबोनोमिक्स और होम असिस्टेंट
 ---
 
 ## परिचय
@@ -88,7 +88,7 @@ systemctl status mosquitto
 
 <li>
 
-होम अ��िस्टेंट और MQTT सेटअप करें
+होम अिस्टेंट और MQTT सेटअप करें
 
 <List>
 
@@ -127,7 +127,7 @@ systemctl status mosquitto
 
 <li>
 
-बाएं निचले कोने पर <code>ADD INTEGRATION</code> बटन दबाएं। खुली विंडो में <code>MQTT</code> खोजें��
+बाएं निचले कोने पर <code>ADD INTEGRATION</code> बटन दबाएं। खुली विंडो में <code>MQTT</code> खोजें
 
 </li>
 

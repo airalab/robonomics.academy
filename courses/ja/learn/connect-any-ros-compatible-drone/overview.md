@@ -182,7 +182,7 @@ https://www.youtube.com/watch?v=dliLb6GHgpo&feature=youtu.be
 
 <br/>
 
-## 1. 依存関係を��加する
+## 1. 依存関係を加する
 シミュレーションを起動し、トピックリストを見ると（パート1を参照）、フロントカメラデータを含む1つのトピックがあり、`sensor_msgs/Image`メッセージタイプが使用されていることがわかります。
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/front_camera.jpg" alt="front_camera"/>

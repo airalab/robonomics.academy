@@ -25,6 +25,6 @@ defaultName:  Introduction to the ideas of Robonomics
     了解现代物联网的现状: 典型问题以及web3如何成为其中一些问题的解决方案的知识
   </li>
    <li>
-    使用Polkadot / Kusama生态系统的基���技能
+    使用Polkadot / Kusama生态系统的基技能
   </li>
 </List>

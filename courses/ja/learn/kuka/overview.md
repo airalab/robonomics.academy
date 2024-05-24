@@ -131,7 +131,7 @@ Robonomicsファイルがあるフォルダに移動して、ローカルRobonom
 
 <LessonImages imageClasses="mb" src="kuka/local.png" alt="local"/>
 
-次に、アカウントに移動して`KUKA`アカウントを作成します。アカウントのニーモニックキーを保存してくださ��。後で必要になります。 
+次に、アカウントに移動して`KUKA`アカウントを作成します。アカウントのニーモニックキーを保存してくださ。後で必要になります。 
 
 
 <LessonImages imageClasses="mb" src="kuka/create_acc.png" alt="acc"/>
@@ -187,7 +187,7 @@ kuka_controlパッケージのウィンドウで次のように表示されま�
 
 <LessonImages imageClasses="mb" src="kuka/datalog.png" alt="datalog"/>
 
-これで、ロボットのテレメトリをIPFSでこのリンクを介して見つけることができます。ハッシュには`https://gateway.ipfs.io/ipfs/<hash>`を使用してくだ���い。
+これで、ロボットのテレメトリをIPFSでこのリンクを介して見つけることができます。ハッシュには`https://gateway.ipfs.io/ipfs/<hash>`を使用してくだい。
 
 ## トラブルシューティング
 

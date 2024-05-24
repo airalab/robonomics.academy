@@ -42,7 +42,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 
   <li>
 
-  Вставте SD-карту та запустіть Raspberry Pi Imager. Виберіть потрібний образ (який ви щойно завантажили) як операційну систему та переконайт��ся, що ви вибрали вашу SD-карту зі списку зберігання.
+  Вставте SD-карту та запустіть Raspberry Pi Imager. Виберіть потрібний образ (який ви щойно завантажили) як операційну систему та переконайтся, що ви вибрали вашу SD-карту зі списку зберігання.
 
   </li>
 
@@ -70,7 +70,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
   
   <li>
 
-  Тепер вам потрібно знайти адресу пристрою. Для цього ви можете використовуват�� різні методи для сканування мережі, наприклад [Fing App](https://www.fing.com/products), команду <code>arp -a</code> або [nmap](https://nmap.org/download.html). Останнє буде використано далі.
+  Тепер вам потрібно знайти адресу пристрою. Для цього ви можете використовуват різні методи для сканування мережі, наприклад [Fing App](https://www.fing.com/products), команду <code>arp -a</code> або [nmap](https://nmap.org/download.html). Останнє буде використано далі.
 
   Встановіть nmap за допомогою команди
 

@@ -124,7 +124,7 @@ catkin build -DPYTHON_EXECUTABLE=/usr/bin/python3 # The controller supports pyth
 <br/>
 
 ### 3. डीएपीपी में खाते प्रबंधित करें
-हम परीक्षण क�� रहे हैं, इसलिए हमें रोबोनॉमिक्स बाइनरी फ़ाइल के साथ स्थानीय रोबोनॉमिक्स नेटवर्क बनाने दें:
+हम परीक्षण क रहे हैं, इसलिए हमें रोबोनॉमिक्स बाइनरी फ़ाइल के साथ स्थानीय रोबोनॉमिक्स नेटवर्क बनाने दें:
 
 <LessonCodeWrapper language="bash">
   ./robonomics --dev --tmp
@@ -179,13 +179,13 @@ rosrun robonomics_sample_controller sample_controller.py
 
 <LessonImages imageClasses="mb" src="connect-mars-curiosity-rover/controller.jpg" alt="Controller"/>
 
-अब आप ���ोवर को चलाने और डेटा एकत्र करने के लिए एक लेनदार लेने के लिए एक लेनदार भेज सकते हैं। इसे करने के लिए, आप वही [रोबोनॉमिक्स पैराचैन पोर्टल](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/) का उपयोग कर सकते हैं।
+अब आप ोवर को चलाने और डेटा एकत्र करने के लिए एक लेनदार लेने के लिए एक लेनदार भेज सकते हैं। इसे करने के लिए, आप वही [रोबोनॉमिक्स पैराचैन पोर्टल](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama.rpc.robonomics.network%2F#/) का उपयोग कर सकते हैं।
 `Developer->Extrinsics` पर जाएं और क्यूरिओसिटी के नियोक्ता खाता, `लॉन्च` एक्सट्रिंसिक, क्यूरिओसिटी का खाता एक लक्ष्य खाता और पैरामीटर के रूप में `हाँ` का चयन करें।
 एक्सट्रिंसिक सबमिट करें।
 
 <LessonImages imageClasses="mb" src="connect-mars-curiosity-rover/extrinsic.jpg" alt="Extrinsic"/>
 
-रोबोट चलना शुरू करना चाहिए। यह अन्य खातों से आदेश स्वीकार नहीं करेगा न ही `नहीं` पैरामीटर के साथ आदेश स्वीकार करेगा। रोवर लगभग एक मिनट के लिए चलेगा और डेटा एकत���र करेगा।
+रोबोट चलना शुरू करना चाहिए। यह अन्य खातों से आदेश स्वीकार नहीं करेगा न ही `नहीं` पैरामीटर के साथ आदेश स्वीकार करेगा। रोवर लगभग एक मिनट के लिए चलेगा और डेटा एकतर करेगा।
 बाद में, जब काम हो जाएगा:
 
 <LessonImages imageClasses="mb" src="connect-mars-curiosity-rover/job_done.jpg" alt="Job done"/>

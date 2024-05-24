@@ -69,7 +69,7 @@ Robonomics `airrohr-flasher` 実行可能ファイルを [リリース](https://
 
 <li>
 
-USB2シリアル用のドライバ��をインストールします — NodeMCU v3用のドライバー（CH340）: [リンク](http://www.wch.cn/downloads/file/178.html), [代替リンク](https://d.inf.re/luftdaten/CH341SER_MAC.ZIP).
+USB2シリアル用のドライバをインストールします — NodeMCU v3用のドライバー（CH340）: [リンク](http://www.wch.cn/downloads/file/178.html), [代替リンク](https://d.inf.re/luftdaten/CH341SER_MAC.ZIP).
 
 </li>
 
@@ -124,7 +124,7 @@ PCにセンサーを接続し、`airrohr-flasher`プログラムを実行しま�
 
 <li>
 
-構成をダウンロー���した後、ESPを再起動します（USBを切断して再接続します）。
+構成をダウンローした後、ESPを再起動します（USBを切断して再接続します）。
 
 </li>
 
@@ -187,7 +187,7 @@ PCにセンサーを接続し、`airrohr-flasher`プログラムを実行しま�
 
 <LessonImages imageClasses="mb" src="sensors-connectivity-course/lesson-3-4.png" alt="tutorial image"/>
 
-これで、設定を���スタマイズできます。
+これで、設定をスタマイズできます。
 
 
 ## カスタムAPI

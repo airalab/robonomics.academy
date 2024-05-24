@@ -16,7 +16,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
   <li>  공급업체나 제3자와 공유하는 데이터에 대한 제어 권한이 없습니다.
     
   </li>
-  <li> 중��� 집중식 클라우드 서버의 중단에 취약합니다.
+  <li> 중 집중식 클라우드 서버의 중단에 취약합니다.
   </li>
 </List>
 

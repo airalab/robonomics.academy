@@ -67,7 +67,7 @@ defaultName:  Fake Housewife & AI research Smart Home Solution
 
 1. 필립스 휴 스마트 전구: 이 전구는 스마트 홈용으로 가장 인기 있는 지그비 기기 중 하나입니다. 밝기, 색 온도 및 색상을 제어하기 위해 홈 어시스턴트와 쉽게 통합할 수 있습니다.
 2. 아카라 센서: 온도, 습도, 움직임, 문 및 창문 등 다양한 센서입니다. 홈 어시스턴트에 연결하여 집의 다양한 측면을 모니터링하고 제어할 수 있습니다. 예를 들어 기후 제어 및 보안 등을 제어할 수 있습니다.
-3. 이케아 트라드프리 스마트 조명: 이케아의 스마트 전구 및 조명 기구는 지그비 표준을 사용하며 홈 어시스턴트를 사용하여 제어할 수 있습니다. 조절이 가능��며 다양한 색 온도로 설정할 수 있습니다.
+3. 이케아 트라드프리 스마트 조명: 이케아의 스마트 전구 및 조명 기구는 지그비 표준을 사용하며 홈 어시스턴트를 사용하여 제어할 수 있습니다. 조절이 가능며 다양한 색 온도로 설정할 수 있습니다.
 4. 스마트띵스: 삼성의 스마트띵스 허브는 다양한 지그비 기기에 연결할 수 있으며 다양한 작업을 자동화하기 위해 홈 어시스턴트와 통합할 수 있습니다.
 5. 샤오미 미 스마트 플러그: 이는 다양한 기기를 제어할 수 있는 지그비 지원 스마트 플러그입니다. 다양한 조건에 따라 기기를 켜고 끌 수 있도록 홈 어시스턴트와 통합할 수 있습니다.
 6. 투야 스마트 플러그: 이는 다양한 기기를 제어할 수 있는 지그비 지원 스마트 플러그입니다. 다양한 조건에 따라 기기를 켜고 끌 수 있도록 홈 어시스턴트와 통합할 수 있습니다.
@@ -140,7 +140,7 @@ Robonomics_Subscription
 
 <RoboAcademyText>
 
-종합적으로, Zoe는 [https://robonomics.academy/learn/smart-home-course/overview](https://robonomics.academy/learn/smart-home-course/overview) ��� [https://wiki.robonomics.network/docs/hass-os-upgrade/](https://wiki.robonomics.network/docs/hass-os-upgrade/)에서 집을 Robonomics에 연결하고 어떤 기기를 사용해야 하는지, 구독을 구입하는 방법을 배울 수 있었습니다. 그러나 스마트 홈 설정 프로세스를 더 자세히 공부하기 위해 더 많은 시간이 필요합니다.
+종합적으로, Zoe는 [https://robonomics.academy/learn/smart-home-course/overview](https://robonomics.academy/learn/smart-home-course/overview)  [https://wiki.robonomics.network/docs/hass-os-upgrade/](https://wiki.robonomics.network/docs/hass-os-upgrade/)에서 집을 Robonomics에 연결하고 어떤 기기를 사용해야 하는지, 구독을 구입하는 방법을 배울 수 있었습니다. 그러나 스마트 홈 설정 프로세스를 더 자세히 공부하기 위해 더 많은 시간이 필요합니다.
 
 조이의 다음 단계는 스마트 홈을 연결하는 데 필요한 장치를 찾아보는 것입니다 
 

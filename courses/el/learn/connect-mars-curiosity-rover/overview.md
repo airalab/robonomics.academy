@@ -86,7 +86,7 @@ https://www.youtube.com/watch?v=6BSOyRbmac8
 
 </li>
 
-<li> Επανεκκίνηση κονσόλας και εκκίν��ση της προσομοίωσης:
+<li> Επανεκκίνηση κονσόλας και εκκίνση της προσομοίωσης:
 
 <LessonCodeWrapper language="bash" codeClass="long-code">
   roslaunch curiosity_mars_rover_description main_real_mars.launch

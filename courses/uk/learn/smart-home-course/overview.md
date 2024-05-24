@@ -52,7 +52,7 @@ defaultName: Sovereign Smart Home with Robonomics and Home Assistant
 </li>
 <li class="flex">
 
-  Адаптер Zigbee' [JetHome USB JetStick Z2](https://jethome.ru/z2/?sl=en) або [о��ин з підтримуваних](https://www.zigbee2mqtt.io/guide/adapters/) або [Robonomics SLS Gateway](https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01)
+  Адаптер Zigbee' [JetHome USB JetStick Z2](https://jethome.ru/z2/?sl=en) або [оин з підтримуваних](https://www.zigbee2mqtt.io/guide/adapters/) або [Robonomics SLS Gateway](https://oshwlab.com/ludovich88/robonomics_sls_gateway_v01)
 </li>
 
 <li>

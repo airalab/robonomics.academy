@@ -65,7 +65,7 @@ Find 5 scientific sources that prove statements in this text. Use only arXiv, IE
 
 <RoboAcademyDialog>
 
-&mdash; अवलो��न of smart home technology and its security and privacy issues
+&mdash; अवलोन of smart home technology and its security and privacy issues
 <br/>&mdash; Introduction to web3 technology and its potential benefits for smart homes
 </RoboAcademyDialog>
 

@@ -31,7 +31,7 @@ git clone https://github.com/Multi-Agent-io/feecc-analytics-backend.git
 sudo docker-compose up -d --build
 </LessonCodeWrapper>
 
-4. Ελέγξτε τη λειτουργικότητά του. Πηγαίνετε στον περιηγητή και ανοί��τε τη σελίδα `http://localhost:5002/docs`. Αν έχετε κάνει τα πάντα σωστά, θα δείτε μια σελίδα (δημιουργημένη από το Swagger) με όλα τα σημεία τέλους του REST API του Feecc Analytics. Τώρα είστε έτοιμοι να εκκινήσετε το frontend.
+4. Ελέγξτε τη λειτουργικότητά του. Πηγαίνετε στον περιηγητή και ανοίτε τη σελίδα `http://localhost:5002/docs`. Αν έχετε κάνει τα πάντα σωστά, θα δείτε μια σελίδα (δημιουργημένη από το Swagger) με όλα τα σημεία τέλους του REST API του Feecc Analytics. Τώρα είστε έτοιμοι να εκκινήσετε το frontend.
 
 ## Εκκίνηση Analytics Frontend
 
@@ -52,5 +52,5 @@ sudo docker-compose up -d --build
 4. Ελέγξτε τη λειτουργικότητά του. Πηγαίνετε στον περιηγητή και ανοίξτε τη σελίδα `http://localhost:8081/docs`.
 
 <RoboAcademyText fWeight="500">
-Με αυτό, η εξοικείωση με το σύστημα Feecc μπορεί να θεωρηθεί ολοκληρωμένη. Αν έχετε οποιεσδήποτε επιπλέον ερωτήσεις, μπορείτε να επικοινωνήσετε με τους προγραμματιστές στα Multi-Agent Systems (multi-agent.io) ή να ��φήσετε ένα θέμα στο GitHub τους (github.com/Multi-Agent-io).
+Με αυτό, η εξοικείωση με το σύστημα Feecc μπορεί να θεωρηθεί ολοκληρωμένη. Αν έχετε οποιεσδήποτε επιπλέον ερωτήσεις, μπορείτε να επικοινωνήσετε με τους προγραμματιστές στα Multi-Agent Systems (multi-agent.io) ή να φήσετε ένα θέμα στο GitHub τους (github.com/Multi-Agent-io).
 </RoboAcademyText>

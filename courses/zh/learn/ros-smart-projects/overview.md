@@ -22,7 +22,7 @@ defaultName: ROS-based projects for smart spaces
 
 单板计算机和其他板 
 
-## 这些板充当将其他设备连接到ROS的基础组件，主要是传感器和记录设备（音频、照片和视频记录器、摄像头、温度、压力和物质浓度传感器），因���智能空间的概念意味着创建基础设施对象的[数字孪生体](https://gateway.pinata.cloud/ipfs/QmNNdLG3vuTsJtZtNByWaDTKRYPcBZSZcsJ1FY6rTYCixQ/Robonomics_keypoint_March_2021.pdf)。此外，板可以充当构建机器人移动设备的主要计算设备和控制器。下面是支持ROS的板的列表：
+## 这些板充当将其他设备连接到ROS的基础组件，主要是传感器和记录设备（音频、照片和视频记录器、摄像头、温度、压力和物质浓度传感器），因智能空间的概念意味着创建基础设施对象的[数字孪生体](https://gateway.pinata.cloud/ipfs/QmNNdLG3vuTsJtZtNByWaDTKRYPcBZSZcsJ1FY6rTYCixQ/Robonomics_keypoint_March_2021.pdf)。此外，板可以充当构建机器人移动设备的主要计算设备和控制器。下面是支持ROS的板的列表：
 
 智能家居设备和家庭机器人
 

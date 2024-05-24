@@ -105,7 +105,7 @@ source ~/catkin_ws/devel/setup.bash
 roslaunch manipulator_gazebo manipulator_empty_world.launch
 </LessonCodeWrapper>
 
-एक नए ��िंडो में
+एक नए िंडो में
 
 <LessonCodeWrapper language="bash">
 source ~/catkin_ws/devel/setup.bash
@@ -154,7 +154,7 @@ ipfs daemon
 
 </br>
 
-## नियं���्रण पैकेज चल रहा है
+## नियं्रण पैकेज चल रहा है
 कुका नियंत्रण पैकेज में कॉन्फ़िग निर्देशिका में आपको इस लाइनों के साथ कॉन्फ़िग फ़ाइल बनानी होगी, जहाँ `<आपका_म्नेमोनिक>` सहेजा गया म्नेमोनिक सीड है:
 
 <LessonCodeWrapper language="bash">
@@ -183,7 +183,7 @@ rosrun kuka_controller move_arm_client.py
 
 <LessonImages imageClasses="mb" src="kuka/res.png" alt="done"/>
 
-फिर र��बोनॉमिक्स पोर्टल पर `डेवलपर/चेन स्टेट` जाएं, `डेटालॉग` और `डेटालॉगआइटम((अकाउंटआईडी,यू64)): रिंगबफरआइटम` को क्वेरी में चुनें और `KUKA` डेटालॉग को बटन '+' के साथ जोड़ें:
+फिर रबोनॉमिक्स पोर्टल पर `डेवलपर/चेन स्टेट` जाएं, `डेटालॉग` और `डेटालॉगआइटम((अकाउंटआईडी,यू64)): रिंगबफरआइटम` को क्वेरी में चुनें और `KUKA` डेटालॉग को बटन '+' के साथ जोड़ें:
 
 <LessonImages imageClasses="mb" src="kuka/datalog.png" alt="datalog"/>
 
@@ -201,4 +201,4 @@ target_link_libraries(move_arm_server ${catkin_LIBRARIES})
 add_dependencies(move_arm_server beginner_tutorials_gencpp)
 </LessonCodeWrapper>
 
-इन पंक्तियों के बिना `कैटकिन_मेक` करें, फिर उन्हें वापस लाएं और फ���र से `कैटकिन_मेक` करें।
+इन पंक्तियों के बिना `कैटकिन_मेक` करें, फिर उन्हें वापस लाएं और फर से `कैटकिन_मेक` करें।

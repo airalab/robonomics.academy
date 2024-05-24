@@ -58,7 +58,7 @@ cp agents.template.json agents.json</LessonCodeWrapper>
 
 <li>
 
-依存��係をインストールしてサーバーをビルドします。
+依存係をインストールしてサーバーをビルドします。
 
 <LessonCodeWrapper language="bash">yarn install
 yarn build</LessonCodeWrapper>

@@ -68,7 +68,7 @@ defaultName: Introduction to open source solution for private smart homes
 
 ## جهاز استشعار تسرب المياه
 
-جها�� بسيط يرسل إشارة عندما تتصل جهتاه. الماء يوصل الكهرباء وعندما يكون هناك ماء تحت الجهاز يتم توصيل جهاته. يعمل الجهاز بالبطارية وعادة ما يدوم لمدة 1-2 سنة. لإقران الجهاز عبر زيغبي، اضغط على زره لفترة 
+جها بسيط يرسل إشارة عندما تتصل جهتاه. الماء يوصل الكهرباء وعندما يكون هناك ماء تحت الجهاز يتم توصيل جهاته. يعمل الجهاز بالبطارية وعادة ما يدوم لمدة 1-2 سنة. لإقران الجهاز عبر زيغبي، اضغط على زره لفترة 
 
 <LessonVideo :videos="[{src: 'https://crustipfs.info/ipfs/QmbgetJK1E8qQMcnBVREutpy8tKfbesqaxXiebjzpoyrdV', type: 'webm'}]" cover="smart-home-intro/assembling-smart-home-board-12.png" />
 

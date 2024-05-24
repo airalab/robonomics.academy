@@ -111,7 +111,7 @@ catkin build
 rm -rf /home/$USER/.local/share/robonomics/chains/dev/db
 </LessonCodeWrapper>
 
-एक सफ�� लॉन्च के बाद [इस](https://wiki.robonomics.network/docs/create-account-in-dapp/) मैनुअल का पालन करके खाते बनाएं। **हर खाते के सीड और पता सहेजना न भूलें! आपको लेन-देन के लिए इन्हें आवश्यकता होगी**। इन पतों, सीड और पथ को रोबोनॉमिक्स बाइनरी फ़ाइल में `config.config` में जोड़ें `robonomics_ws/src/robonomics_sample_controller/src`। इन खातों में कुछ पैसे (इकाइयाँ) भेजें:
+एक सफ लॉन्च के बाद [इस](https://wiki.robonomics.network/docs/create-account-in-dapp/) मैनुअल का पालन करके खाते बनाएं। **हर खाते के सीड और पता सहेजना न भूलें! आपको लेन-देन के लिए इन्हें आवश्यकता होगी**। इन पतों, सीड और पथ को रोबोनॉमिक्स बाइनरी फ़ाइल में `config.config` में जोड़ें `robonomics_ws/src/robonomics_sample_controller/src`। इन खातों में कुछ पैसे (इकाइयाँ) भेजें:
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/balances.jpg" alt="balances"/>
 
@@ -131,7 +131,7 @@ rosrun drone_simulator_controller drone_sample_controller.py
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/launched_drone.jpg" alt="launched_drone"/>
 
-अब आप एक लेन-देन भेजकर ड्रोन को उड़ने के लिए ट्रिगर करने के लिए एक लेन-देन भेज ���कते हैं। इसे करने के लिए, आपको रोबोनॉमिक्स आईओ `write` उप-कमांड का उपयोग करना चाहिए रोबोनॉमिक्स बाइनरी फ़ाइल का:
+अब आप एक लेन-देन भेजकर ड्रोन को उड़ने के लिए ट्रिगर करने के लिए एक लेन-देन भेज कते हैं। इसे करने के लिए, आपको रोबोनॉमिक्स आईओ `write` उप-कमांड का उपयोग करना चाहिए रोबोनॉमिक्स बाइनरी फ़ाइल का:
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 echo "ON" | ./robonomics io write launch -r [DRONE_ADDRESS] -s [EMPLOYER’S_KEY]
@@ -190,7 +190,7 @@ https://www.youtube.com/watch?v=dliLb6GHgpo&feature=youtu.be
 चलो हर 1 सेकंड में एक तस्वीर लेने की कोशिश करें और उड़ान के बाद इन तस्वीरों को IPFS पर प्रकाशित करें। अगर आपने पहले ट्यूटोरियल को पूरा किया है, तो आपको कुछ और डाउनलोड करने की आवश्यकता नहीं है। यह `drone_sample_controller_pictures.py` स्क्रिप्ट है।
 
 ## 2. DAPP में खातों का प्रबंधन करें
-पिछले ट्यूटोरियल में किया गया जैसा, रोबोनॉमिक्स ब���इनरी फ़ाइल के साथ स्थानीय रोबोनॉमिक्स नेटवर्क नोड बनाएं:
+पिछले ट्यूटोरियल में किया गया जैसा, रोबोनॉमिक्स बइनरी फ़ाइल के साथ स्थानीय रोबोनॉमिक्स नेटवर्क नोड बनाएं:
 <LessonCodeWrapper language="bash">
 ./robonomics --dev
 </LessonCodeWrapper>
@@ -201,11 +201,11 @@ https://www.youtube.com/watch?v=dliLb6GHgpo&feature=youtu.be
 rm -rf /home/$USER/.local/share/robonomics/chains/dev/db
 </LessonCodeWrapper>
 
-एक सफ�� लॉन्च के बाद [इस](https://wiki.robonomics.network/docs/create-account-in-dapp/) मैनुअल का पालन करके खाते बनाएं। **हर खाते के सीड और पता सहेजना न भूलें! आपको लेन-देन के लिए इन्हें आवश्यकता होगी**। इन पतों, सीड और पथ को रोबोनॉमिक्स बाइनरी फ़ाइल में `config.config` में जोड़ें `robonomics_ws/src/robonomics_sample_controller/src`। इन खातों में कुछ पैसे (इकाइयाँ) भेजें:
+एक सफ लॉन्च के बाद [इस](https://wiki.robonomics.network/docs/create-account-in-dapp/) मैनुअल का पालन करके खाते बनाएं। **हर खाते के सीड और पता सहेजना न भूलें! आपको लेन-देन के लिए इन्हें आवश्यकता होगी**। इन पतों, सीड और पथ को रोबोनॉमिक्स बाइनरी फ़ाइल में `config.config` में जोड़ें `robonomics_ws/src/robonomics_sample_controller/src`। इन खातों में कुछ पैसे (इकाइयाँ) भेजें:
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/balances.jpg" alt="balances"/>
 
-## 3. लॉन्���
+## 3. लॉन्
 अब तक केवल रोबोनॉमिक्स स्थानीय नोड चल रहा होना चाहिए। एक अलग टर्मिनल में ड्रोन सिमुलेशन लॉन्च करें:
 
 <LessonCodeWrapper language="bash">
@@ -234,7 +234,7 @@ echo "ON" | ./robonomics io write launch -r [DRONE_ADDRESS] -s [EMPLOYER’S_KEY
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/flying_picturing.jpg" alt="flying_picturing"/>
 
-बाद में, जब काम पूरा हो जाए, Robonomics पोर्टल पर जाएं `डेवलपर` -> `चेन स्थिति` और `DRONE` डेटालॉग जोड़ें `“+”` बटन का उपयोग करके चयनित `datalog` के रूप में राज्य क्वेरी। टेलीमेट्री का IPFS हैश ब्लॉकचेन में सहेजा गया है। डेटा देखने के लिए बस हैश कॉपी करें और ���से स्थानीय [गेटवे](https://gateway.ipfs.io/ipfs/QmeYYwD4y4DgVVdAzhT7wW5vrvmbKPQj8wcV2pAzjbj886/docs/getting-started/) पते `localhost:8080/ipfs/` में जोड़ें:
+बाद में, जब काम पूरा हो जाए, Robonomics पोर्टल पर जाएं `डेवलपर` -> `चेन स्थिति` और `DRONE` डेटालॉग जोड़ें `“+”` बटन का उपयोग करके चयनित `datalog` के रूप में राज्य क्वेरी। टेलीमेट्री का IPFS हैश ब्लॉकचेन में सहेजा गया है। डेटा देखने के लिए बस हैश कॉपी करें और से स्थानीय [गेटवे](https://gateway.ipfs.io/ipfs/QmeYYwD4y4DgVVdAzhT7wW5vrvmbKPQj8wcV2pAzjbj886/docs/getting-started/) पते `localhost:8080/ipfs/` में जोड़ें:
 
 
 <LessonImages imageClasses="mb" src="connect-any-ros-compatible-drone/datalog.jpg" alt="Voila"/>

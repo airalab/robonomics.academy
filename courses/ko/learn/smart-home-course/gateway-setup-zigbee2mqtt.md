@@ -199,7 +199,7 @@ Zigbee2MQTT:info  2022-07-29 14:44:39: Successfully interviewed '0x00158d0003eee
 sudo nano /etc/systemd/system/zigbee2mqtt.service
 </LessonCodeWrapper>
 
-다음을 파일에 추가하고 <code>YOUR_RASPPI_USERNAME_HERE</code>를 변경하세요. 사용자 이름을 모르는 경우 <code>whoami</code> 명���을 사용하세요.
+다음을 파일에 추가하고 <code>YOUR_RASPPI_USERNAME_HERE</code>를 변경하세요. 사용자 이름을 모르는 경우 <code>whoami</code> 명을 사용하세요.
 
 <LessonCodeWrapper language="bash">
 [Unit]

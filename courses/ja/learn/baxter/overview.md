@@ -434,7 +434,7 @@ cd ../
 catkin build
 </LessonCodeWrapper>
 
-次に、最初���ワークスペースに戻り、それもビルドします：
+次に、最初ワークスペースに戻り、それもビルドします：
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 cd ~/Baxter_simulation_controller/

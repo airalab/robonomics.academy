@@ -44,7 +44,7 @@ defaultName: Software Developing for Boston Dynamics Spot
 <LessonImages src="boston-dynamics-spot/gitpod_terminal.png" alt="terminal" imageClasses="mb"/>
     
     
-4. इस क��ांड को कॉपी-पेस्ट करें:
+4. इस कांड को कॉपी-पेस्ट करें:
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 python3 prepare_yggdrasil.py
@@ -79,7 +79,7 @@ PING 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09(202:9292:712f:a3ef:4a7e:b2b2:b45b:7e
 2. अपनी निजी कुंजी को फ़ाइल `id_ed25519` में कॉपी करें। आप *stop-edu-enviroment* के साइडबार एक्सप्लोरर में फ़ाइल पा सकते हैं।
 3. **`id_ed25519` फ़ाइल के अंत में एक रिक्त पंक्ति जोड़ें, यह एसएसएच को सही ढंग से काम करने के लिए आवश्यक है।** बदलाव सहेजने के लिए `Ctrl+S` दबाएं।
 
-अगर सब कुछ ठीक है, तो आप `lesson1.py` को संपादित ���रके पाठ पूरा करना शुरू कर सकते हैं
+अगर सब कुछ ठीक है, तो आप `lesson1.py` को संपादित रके पाठ पूरा करना शुरू कर सकते हैं
 
 कोड को निष्पादित करने के लिए, कमांड का उपयोग करें:
 

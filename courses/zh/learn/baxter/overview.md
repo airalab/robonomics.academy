@@ -238,7 +238,7 @@ rosrun robot_controller robot_control.py
 
 <LessonImages imageClasses="mb" src="baxter/datalog.jpg" alt="datalog"/>
 
-现在遥测和照片的 IPFS 哈希已保存在区块链中。要查看数据��只需复制哈希并将其插入到 URL 为：gateway.ipfs.io/ipfs/<br 放入您的哈希 > 的搜索栏中
+现在遥测和照片的 IPFS 哈希已保存在区块链中。要查看数据只需复制哈希并将其插入到 URL 为：gateway.ipfs.io/ipfs/<br 放入您的哈希 > 的搜索栏中
 
 <LessonImages imageClasses="mb" src="baxter/ipfs.jpg" alt="ipfs"/>
 
@@ -477,7 +477,7 @@ nano baxter.sh
 
 <LessonImages imageClasses="mb" src="baxter/baxter_sh.jpg" alt="baxtersh"/>
 
-运行带有 sim 指定�� baxter shell 脚本:
+运行带有 sim 指定 baxter shell 脚本:
 
 <LessonCodeWrapper language="bash" codeClass="big-code">
 ./baxter.sh sim

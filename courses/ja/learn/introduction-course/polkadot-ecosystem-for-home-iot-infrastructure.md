@@ -11,7 +11,7 @@ Lesson 2では、Robonomicsの主要な原則と、Polkadot / Kusamaを有望な
 
 ## イントロ
 
-このレッスンでは、スマートライト電球を制御しようとします。目標は、Robonomicsパラチェーンの標準Polkadot/Substrateインターフェースを使用して電球をオン/オフにすることです。電球は[YouTube](https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live)で放送されているため、リア���タイムで結果を見ることができます。また、IoTサブスクリプションの使用に関するより詳細な手順が[当社のwiki](https://wiki.robonomics.netwまたはk/docs/subscription-launch/)で利用可能です。
+このレッスンでは、スマートライト電球を制御しようとします。目標は、Robonomicsパラチェーンの標準Polkadot/Substrateインターフェースを使用して電球をオン/オフにすることです。電球は[YouTube](https://www.youtube.com/channel/UCkemsNJWaCmvF1Oi50C-hAg/live)で放送されているため、リアタイムで結果を見ることができます。また、IoTサブスクリプションの使用に関するより詳細な手順が[当社のwiki](https://wiki.robonomics.netwまたはk/docs/subscription-launch/)で利用可能です。
 
 
 ## 手順
@@ -35,7 +35,7 @@ Extrinsics（Polkadotエコシステムの機能）メニューが表示され�
 </li>
 
 <li>
-<code>subscriptionId: AccountId32</code>フィールドに、この��ブスクリプションの所有者アドレスを貼り付けてください：<code>4GgRRojuoQwKCZP9wkB69ZxJY4JprmHtpzEzqJLjnqu4jk1r</code>
+<code>subscriptionId: AccountId32</code>フィールドに、このブスクリプションの所有者アドレスを貼り付けてください：<code>4GgRRojuoQwKCZP9wkB69ZxJY4JprmHtpzEzqJLjnqu4jk1r</code>
 </li>
 
 <li>

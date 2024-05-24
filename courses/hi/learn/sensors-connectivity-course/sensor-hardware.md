@@ -31,7 +31,7 @@ defaultName: Sensors Connectivity & Decentralized Sensors Network
 
 - माउंटिंग बॉक्स [(उदाहरण)](https://www.amazon.com/LeMotech-Dustproof-Waterproof-Electrical-300mmx250mmx120mm/dp/B075DHT7X2/ref=sxin_18_ac_d_mf_brs?ac_md=7-4-TGVNb3RlY2g%3D-ac_d_mf_brs_brs&content-id=amzn1.sym.1ad31f34-ba12-4dca-be4b-f62f7f5bb10d%3Aamzn1.sym.1ad31f34-ba12-4dca-be4b-f62f7f5bb10d&crid=2ZDX87O7MINYG&cv_ct_cx=junction+box+plastic&keywords=junction+box+plastic&pd_rd_i=B075DHT7X2&pd_rd_r=2bbd50d4-9ef9-4fa1-a1a2-e55c482bce49&pd_rd_w=EcHLy&pd_rd_wg=z42mC&pf_rd_p=1ad31f34-ba12-4dca-be4b-f62f7f5bb10d&pf_rd_r=WDAX58YZKG6YKZ70X5QE&qid=1676642125&sprefix=Junction+Box%2Caps%2C451&sr=1-4-8b2f235a-dddf-4202-bbb9-592393927392)
 
-आप अत��रिक्त सेंसर भी इंस्टॉल कर सकते हैं:
+आप अतरिक्त सेंसर भी इंस्टॉल कर सकते हैं:
 
 <List  type="numbers">
 
@@ -93,7 +93,7 @@ I2C इंटरफेस के साथ:
 
 </List>
 
-आप नीचे दिए गए वीडियो में असेम्बली प्रक्रिया पा सकते हैं। यह फ्लैशिंग प्रक्रिया भी ���िखाता है, लेकिन हम इसके बारे में बाद में बात करेंगे।
+आप नीचे दिए गए वीडियो में असेम्बली प्रक्रिया पा सकते हैं। यह फ्लैशिंग प्रक्रिया भी िखाता है, लेकिन हम इसके बारे में बाद में बात करेंगे।
 
 <RoboAcademyYoutube link="https://www.youtube.com/watch?v=OdTd1sacCso" />
 
@@ -133,7 +133,7 @@ I2C इंटरफेस के साथ:
 
   <li class="flex">
 
-  <code>POWER SENSOR</code> — सेट किए जाने वाले पावर आउटपुट जिसे संवेदक कनेक्ट कि��� जाते हैं; आउटपुट 3.3 या 5 वोल्ट पर सेट किया जा सकता है।
+  <code>POWER SENSOR</code> — सेट किए जाने वाले पावर आउटपुट जिसे संवेदक कनेक्ट कि जाते हैं; आउटपुट 3.3 या 5 वोल्ट पर सेट किया जा सकता है।
 
   </li>
 

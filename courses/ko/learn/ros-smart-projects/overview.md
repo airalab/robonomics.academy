@@ -12,7 +12,7 @@ defaultName: ROS-based projects for smart spaces
 
 우리의 [학습 섹션](/learn)에서 Robonomics와 통합된 일부 ROS 프로젝트 예제를 확인할 수 있습니다.
 
-<!-- 현재 (**2021년 4월**) Robonomics는 ROS **Melodic** 및 **Noetic** 버전을 대상으로 하고 ���습니다. 이전 버전도 작동할 수 있지만 추가적인 통합 작업이 필요할 수 있습니다. 미래에는 ROS 버전 2의 지원이 추가될 것입니다. -->
+<!-- 현재 (**2021년 4월**) Robonomics는 ROS **Melodic** 및 **Noetic** 버전을 대상으로 하고 습니다. 이전 버전도 작동할 수 있지만 추가적인 통합 작업이 필요할 수 있습니다. 미래에는 ROS 버전 2의 지원이 추가될 것입니다. -->
 
 ROS 저장소 및 패키지를 검색하는 주요 자원은 [여기](https://index.ros.org/)에서 액세스할 수 있습니다.
 

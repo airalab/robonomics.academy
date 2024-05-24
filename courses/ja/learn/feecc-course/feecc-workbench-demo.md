@@ -51,7 +51,7 @@ a74fa229eb90   robonomics/robonomics:sha-bd71a23   "robonomics --dev --…"   20
 
 1. ブラウザでhttp://localhost:3000/に移動し、歓迎画面が表示されるはずです。
 
-2. この段階では、システムは従業員にRFIDカードをスキャナーに置くよう促します。デモでは、認証��`hid-emulator.py`を使用できます。これを行うには、別のDockerコンテナを実行します:
+2. この段階では、システムは従業員にRFIDカードをスキャナーに置くよう促します。デモでは、認証`hid-emulator.py`を使用できます。これを行うには、別のDockerコンテナを実行します:
 
 <LessonCodeWrapper language="bash">
 sudo docker exec -ti feecc_academy_hid_emulator sh

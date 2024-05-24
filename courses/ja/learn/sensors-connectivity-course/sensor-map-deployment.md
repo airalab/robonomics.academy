@@ -103,7 +103,7 @@ cp agents.template.json agents.json</LessonCodeWrapper>
 };</LessonCodeWrapper>
 
 
-ここには、都市の緯度（`lat`）と経度（`lng`）を挿入する必要があります。オプションで、[風向きサービス](https://github.com/danwild/wind-js-server)を設定し、`WIND_PROVIDER`フィールドにそのURLを提供するこ��ができます。
+ここには、都市の緯度（`lat`）と経度（`lng`）を挿入する必要があります。オプションで、[風向きサービス](https://github.com/danwild/wind-js-server)を設定し、`WIND_PROVIDER`フィールドにそのURLを提供するこができます。
 
 </li>
 

@@ -104,7 +104,7 @@ I2Cインターフェースを使用:
 - vm@multi-agent.io
 - ping@airalab.org
 
-RobonomicsボードはESP8266をベースにしており、6-24Vの���源供給に対応しており、DC-DCコンバータDC MINI560を使用しています。このボードにはSDS011粒子センサーといくつかの追加センサーを接続することができます（上記のリストを確認してください）。接続可能なデバイスのリストが短縮されたMINIモデルもあります。
+RobonomicsボードはESP8266をベースにしており、6-24Vの源供給に対応しており、DC-DCコンバータDC MINI560を使用しています。このボードにはSDS011粒子センサーといくつかの追加センサーを接続することができます（上記のリストを確認してください）。接続可能なデバイスのリストが短縮されたMINIモデルもあります。
 
 <LessonImages figure figureCaption="Full model of Robonomics board" src="sensors-connectivity-course/lesson-2-1.png" alt="Full model of Robonomics board"/>
 
@@ -161,4 +161,4 @@ RobonomicsボードはESP8266をベースにしており、6-24Vの���源�
 
 青いボックスの左側には、ボードを再起動させるための電源スイッチがあります。デフォルトでは`ON`の位置にあります。
 
-センサーの設定が完了したら、残りはフラッシュして設定するだ��です。
+センサーの設定が完了したら、残りはフラッシュして設定するだです。
