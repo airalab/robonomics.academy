@@ -429,3 +429,18 @@
       title: 'Robonomics School 2024 / IoT is More Dangerous Than AI'
       path: 'overview'
       status: done
+
+- id: '22' 
+  title: 'Robonomics School 2024 / Privacy Insights for Smart Homes'
+  path: 'school-2024-privacy-insights'
+  level: 3
+  tags: ['course']
+  filters: ['IoT', 'Smart Home', 'Privacy']
+  progress: done
+  author: ['Fingerling42']
+  published: true
+  lessons:
+    - id: '1'
+      title: 'Robonomics School 2024 / Privacy Insights for Smart Homes'
+      path: 'overview'
+      status: done
