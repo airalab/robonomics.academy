@@ -444,3 +444,18 @@
       title: 'Robonomics School 2024 / Privacy Insights for Smart Homes'
       path: 'overview'
       status: done
+
+- id: '23' 
+  title: 'Robonomics School 2024 / Cyprus Relocant Manual: Smart Home'
+  path: 'school-2024-cyprus-relocant-manual'
+  level: 3
+  tags: ['course']
+  filters: ['IoT', 'Smart Home', 'DIY']
+  progress: done
+  author: ['Vourhey']
+  published: true
+  lessons:
+    - id: '1'
+      title: 'Robonomics School 2024 / Cyprus Relocant Manual: Smart Home'
+      path: 'overview'
+      status: done
