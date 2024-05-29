@@ -34,7 +34,7 @@ To order the production of a printed circuit board, we need three files:
 
 2. On the main page of the site by clicking on the field "Add gerber file" upload the [gerber](https://github.com/airalab/hardware/blob/main/IR/ESP32/PCB/Gerber_PCB.zip) file from the repository 
 
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_2.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_2.png"/>
 
 3. On the opened page, select the following items and click "Confirm":
 
@@ -50,56 +50,56 @@ PCB Assembly: ON
 </li>
 </List>
 
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_3.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_3.png"/>
 
 4. On the opened page, click "NEXT"
 
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_4.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_4.png"/>
 
 5. On the opened page, upload the [BOM](https://github.com/airalab/hardware/blob/main/IR/ESP32/PCB/BOM.xlsx) and [PickAndPlace](https://github.com/airalab/hardware/blob/main/IR/ESP32/PCB/PickAndPlace.csv) files, then click "Process BOM & CPL" 
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_5.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_5.png"/>
 6. On the opened page, the service will display a list of components from the BOM file for checking their availability in stock, in case of their absence will offer their replacement with analogs. If there are no errors - click "NEXT".
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_6.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_6.png"/>
 
 7. On the opened page, the location of components on the board will be displayed, click "NEXT". 
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_7.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_7.png"/>
 
 8. On the opened page, the order details and their cost will be displayed, in the drop-down list "Product Description" you need to indicate "IR Remote Control - HS Code 854390" then click "SAVE TO CART"
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_8.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_8.png"/>
 
 9. On the opened page, highlight the order and click "Secure Checkout" 
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_9.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_9.png"/>
 
 10. On the opened page, specify Shipping and Billing Information and click "Continue" 
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_10.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_10.png"/>
 
 11. In the appeared point, choose the preferred delivery method click "Continue"
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_11.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_11.png"/>
 
 12. In the appeared point, accept "I agree to the Customer Dorplance Sternet " and click "Submit Order"
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_12.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_12.png"/>
 
 13. On the opened page, make a payment in the most convenient way
-<LessonImages src="school-2024-make-universal-IR-remote-control/jlcpcb_13.png"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/jlcpcb_13.png"/>
 
 Congratulations! The hardest part is behind.
 
 After a few weeks, all three components will be delivered and you can start assembling: 
-<LessonImages src="school-2024-make-universal-IR-remote-control/parts.jpg"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/parts.jpg"/>
 
 1. Separate the board using the perforations from the excess laminate 
-<LessonImages src="school-2024-make-universal-IR-remote-control/parts1.jpg"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/parts1.jpg"/>
 
 2. Connect the antenna to the corresponding IPEX connector on the board 
-<LessonImages src="school-2024-make-universal-IR-remote-control/parts2.jpg"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/parts2.jpg"/>
 
 3. Install the board with the antenna in the upper part of the case 
-<LessonImages src="school-2024-make-universal-IR-remote-control/parts3.jpg"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/parts3.jpg"/>
 
 4. Install the lower part of the case and secure it with screws 
-<LessonImages src="school-2024-make-universal-IR-remote-control/parts4.jpg"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/parts4.jpg"/>
 
 Done. Next, you can start loading the firmware and setting up the Universal IR Remote Control using the instructions located at [wiki.robonomics.network](https://wiki.robonomics.network/docs/ir-controller/)
-<LessonImages src="school-2024-make-universal-IR-remote-control/finish.jpg"/>
+<LessonImages src="school-2024-make-universal-ir-remote-control/finish.jpg"/>
 
 P. S. if you want a thing done well, do it yourself.
