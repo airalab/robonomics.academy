@@ -63,7 +63,7 @@ export NODE_OPTIONS=--openssl-legacy-provider
       status: in progress // lesson status (done or in progress)
 ```
 
-- Then, you must create folder in `courses/learn/en/` - e.g *introduction-course* and add "intro page" for your course in `courses/learn/en/your-new-folder` - e.g *introduction-course.md*
+- Then, you must create folder in `courses/en/learn/` - e.g *introduction-course* and add "intro page" for your course in `courses/en/learn/your-new-folder` - e.g *introduction-course.md*
 
 Add some basic info to the doc: 
 
