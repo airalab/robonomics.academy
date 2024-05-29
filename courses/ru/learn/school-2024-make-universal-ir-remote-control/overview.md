@@ -2,8 +2,8 @@
 title: "Robonomics School 2024 / Как самостоятельно организовать производство устройств Robonomics Open Hardware на любой фабрике в мире"
 lastUpdate:
 description: "Как самостоятельно организовать производство устройств Robonomics Open Hardware на любой фабрике в мире"
-metaOptions: [Learn, "Robonomics School 2024 / Как самостоятельно организовать производство устройств Robonomics Open Hardware на любой фабрике в мире"]
-defaultName: "Robonomics School 2024 / Как самостоятельно организовать производство устройств Robonomics Open Hardware на любой фабрике в мире"
+metaOptions: Learn, "Robonomics School 2024 / Как самостоятельно организовать производство устройств Robonomics Open Hardware на любой фабрике в мире"
+defaultName: "Robonomics School 2024 / How to independently order the production of Robonomics Open Hardware devices at any factory in the world"
 ---
 
 <LessonImages imageClasses="mb"  src='school-2024-make-universal-IR-remote-control/Hardware-Academy.jpg' alt="Robonomics Harware" />
