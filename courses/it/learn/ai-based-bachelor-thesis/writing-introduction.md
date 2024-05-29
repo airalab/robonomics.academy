@@ -9,7 +9,7 @@ defaultName: Quickstart Your Bachelor's Thesis with AI-powered Tools
 In questa guida, scriveremo un'introduzione per la nostra tesi di laurea.
 </RoboAcademyText>
 
-Spesso, questa sezione può essere una delle più noiose da scrivere. Oltre a pianificare e descrivere la visione generale del lavoro, dobbiamo produrre una certa quantità di testo. Tipicamente, gli studenti cercano di riempire questo spazio con qualsiasi cosa possano, risultando nella sezione che sembra una macedonia di parole. Questo è esattamente il problema che gli assistenti AI possono gestire bene.
+Spesso, questa sezione può essere una delle più noiose da scrivere. Oltre a pianificare e descrivere la visione generale del lavoro, dobbiamo produrre una certa quantità di testo. Consiglioicamente, gli studenti cercano di riempire questo spazio con qualsiasi cosa possano, risultando nella sezione che sembra una macedonia di parole. Questo è esattamente il problema che gli assistenti AI possono gestire bene.
 
 Una delle interessanti osservazioni fatte durante i test dei servizi AI è che l'AI non si sforza di svolgere compiti più del necessario. Francamente, i servizi sono quasi "pigri" e svolgono il compito solo nella misura specificata nella richiesta. Ad esempio, se viene chiesto di trovare fonti per un paragrafo di testo, l'AI troverà 1-3 fonti, non 5 o 10. Pertanto, quando si formula una richiesta, è meglio specificare il numero esatto di risultati da restituire.
 
