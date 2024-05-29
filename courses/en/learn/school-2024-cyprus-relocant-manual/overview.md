@@ -28,11 +28,11 @@ The ultimate task for the server is to serve a smart home controlled by Home Ass
 
 The option is a little more advanced, but you can even have control over the operating system, this is to find/buy [Raspberry Pi](https://www.raspberrypi.com). Cost [€90 excluding tax](https://https://thepihut.com/products/raspberry-pi-5-starter-kit). The [Installation](https://www.home-assistant.io/installation/) page has many options to suit all tastes.
 
-<LessonImages src="school-2024-cyprus-relocant-manual/raspberry-pi.png" alt="Raspberry Pi"/>
+<LessonImages imageClasses="small" src="school-2024-cyprus-relocant-manual/raspberry-pi.png" alt="Raspberry Pi"/>
 
 As a Zigbee Coordinator we take [Sonoff Zigbee Dongle P or E](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/), they are practically always available on the island. Cost about [€35](https://www.amazon.de/-/en/dp/B09KXTCMSC/). You can also choose a stick from [this list](https://www.zigbee2mqtt.io/guide/adapters/).
 
-<LessonImages src="school-2024-cyprus-relocant-manual/sonoff-zigbee-stick.png" alt="Sonoff Zigbee USB Stick"/>
+<LessonImages imageClasses="small" src="school-2024-cyprus-relocant-manual/sonoff-zigbee-stick.png" alt="Sonoff Zigbee USB Stick"/>
 
 I highly recommend assigning a static local IP address for your home server. If it is not possible to get into the router settings, then you can additionally install a second router (I have [MikroTik](https://mikrotik.com/product/hap_ax2), approximately [€80](https://www.mstronics.com/c/337_1345_485/networking-devices-routers.html?filter_id=154)), and configure the Internet on it. And in general, it is better for all smart Wi-Fi devices to assign a static IP. This is often important for Home Assistant integrations to work properly.
 

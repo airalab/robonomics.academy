@@ -70,5 +70,10 @@ export default {
     width: 100%;
   }
 
+  .small {
+    width: 60%;
+    margin: 0 auto;
+  }
+
 
 </style>

@@ -24,15 +24,15 @@ defaultName: "Robonomics School 2024 / Cyprus Relocant Manual: Smart Home"
 
 Конечная задача для сервера - это обслуживать умный дом под управлением Home Assistant. Проще всего взять уже преднастроенный [Home Assistant Green](https://www.home-assistant.io/green/). Стоимость [€70 без налога](https://thepihut.com/products/home-assistant-green).
 
-<LessonImages src="school-2024-cyprus-relocant-manual/home-assistant-green.png" alt="Home Assistant green"/>
+<LessonImages  src="school-2024-cyprus-relocant-manual/home-assistant-green.png" alt="Home Assistant green"/>
 
 Вариант чуть продвинутей, но зато можно иметь контроль даже над операционной системой, это найти/купить [Raspberry Pi](https://www.raspberrypi.com). Стоимость [€90 без налога](https://https://thepihut.com/products/raspberry-pi-5-starter-kit). На странице [Installation](https://www.home-assistant.io/installation/) приведено много вариантов на все вкусы.
 
-<LessonImages src="school-2024-cyprus-relocant-manual/raspberry-pi.png" alt="Raspberry Pi"/>
+<LessonImages imageClasses="small" src="school-2024-cyprus-relocant-manual/raspberry-pi.png" alt="Raspberry Pi"/>
 
 В качестве Zigbee Coordinator берем [Sonoff Zigbee Dongle P или E](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/), они практически всегда в наличии на острове. Стоимость около [€35](https://www.amazon.de/-/en/dp/B09KXTCMSC/). Так же можно подобрать себе стик из [этого списка](https://www.zigbee2mqtt.io/guide/adapters/).
 
-<LessonImages src="school-2024-cyprus-relocant-manual/sonoff-zigbee-stick.png" alt="Sonoff Zigbee USB Stick"/>
+<LessonImages imageClasses="small" src="school-2024-cyprus-relocant-manual/sonoff-zigbee-stick.png" alt="Sonoff Zigbee USB Stick"/>
 
 Очень рекомендую закрепить статический локальный IP адрес для домашнего сервера. Если нет возможности попасть в настройки роутера, то дополнительно можно поставить второй роутер (у меня [MikroTik](https://mikrotik.com/product/hap_ax2), примерно [€80](https://www.mstronics.com/c/337_1345_485/networking-devices-routers.html?filter_id=154)), и настроить интернет на нем. Да и вообще всем умным Wi-Fi устройствам лучше закреплять статичный IP. Это зачастую важно для нормальной работы интеграций Home Assistant.
 
@@ -113,7 +113,7 @@ Wi-Fi вариант, испробованный мной, от производ
 
 Существуют полуинвазивные измерители потребленного электричества, такие как на изображении ниже:
 
-<LessonImages src="school-2024-cyprus-relocant-manual/energy-meter.png" alt="Energy Meter"/>
+<LessonImages imageClasses="small" src="school-2024-cyprus-relocant-manual/energy-meter.png" alt="Energy Meter"/>
 
 Их необходимо запитать, подав L и N на вход. С другой стороны к измерителю подключается индукционное кольцо, которое вешаем на фазу или линию потребления для измерения. В большинстве домов и квартир заходит 3 фазы, значит нужно установить 3 таких модуля. Покупал на [Amazon](https://www.amazon.de/gp/product/B0C37DJXVD/) по €60, по одному на каждую из фаз. В более старых домах может встречаться всего одна фаза.
 
