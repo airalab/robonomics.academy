@@ -462,7 +462,7 @@
 
 - id: '24' 
   title: 'Robonomics School 2024 / How to independently order the production of Robonomics Open Hardware devices at any factory in the world'
-  path: 'school-2024-make-universal-IR-remote-control'
+  path: 'school-2024-make-universal-ir-remote-control'
   level: 3
   tags: ['guide']
   filters: ['IoT', 'Smart Home', 'DIY']
