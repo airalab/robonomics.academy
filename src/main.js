@@ -3,6 +3,8 @@
 import Vuex from 'vuex'
 import 'prismjs'
 
+import robonomics from "./plugins/robonomics";
+
 // adding languages for code highlight
 import 'prismjs/components/prism-json'; 
 import 'prismjs/components/prism-bash';
@@ -89,6 +91,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.use(Vuex);
+  Vue.use(robonomics, { endpoint: "wss://kusama.rpc.robonomics.network/" });
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
