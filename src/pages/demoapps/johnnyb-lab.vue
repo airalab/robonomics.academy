@@ -26,10 +26,11 @@ export default {
 
     methods: {
         resizeIframe() {
-            const iframe = document.getElementById("appframe");
-            if(iframe) {
-                console.log('height', iframe.contentWindow.document.body.scrollHeight);
-                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+            if (typeof document !== 'undefined') {
+                const iframe = document.getElementById("appframe");
+                if(iframe) {
+                    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+                }
             }
         }
     },
