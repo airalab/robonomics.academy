@@ -1,5 +1,17 @@
 <template>
+
     <Layout>
+        <MetaInfo
+            pageTitle = "Hack Johnny's lab"
+            pageDescription = "Johny's crypto lab is a cutting-edge hub filled with all sorts of smart gadgets, including a TurtleBot 4 robot that is known as a base for an iRobot vacuum. But imagine the thrill—and the risk—if someone managed to hack into the robot's camera. Ready to dive into the world of cybersecurity and test your hacking skills?"
+        />
+
+        <!-- <MetaInfo
+            pageTitle = "Hack Johnny's lab"
+            pageDescription = "Johny's crypto lab is a cutting-edge hub filled with all sorts of smart gadgets, including a TurtleBot 4 robot that is known as a base for an iRobot vacuum. But imagine the thrill—and the risk—if someone managed to hack into the robot's camera. Ready to dive into the world of cybersecurity and test your hacking skills?"
+            pageImage = "'/ogstatic/johnnyb-lab-cover.jpg'"
+        /> -->
+
         <section class="container__narrow">
             <h1>{{$t("Hack Johnny's lab")}}</h1>
         </section>
@@ -20,9 +32,9 @@
 
 export default {
 
-//   components: {
-//     MetaInfo: () => import('~/components/MetaInfo.vue')
-//   },
+  components: {
+    MetaInfo: () => import('~/components/MetaInfo.vue')
+  },
 
     methods: {
         resizeIframe() {
