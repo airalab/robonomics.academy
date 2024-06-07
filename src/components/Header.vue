@@ -10,6 +10,7 @@
 
         <nav id="nav" class="nav header__section">
             <g-link class="nav__link" :class="{'active': $route.path.includes('learn')}" to="/learn/">{{$t('Learn')}}</g-link>
+            <g-link class="nav__link" :class="{'active': $route.path.includes('demoapps')}" to="/demoapps/">Demo Apps</g-link>
             <!-- <g-link class="nav__link" :class="{'active': $route.path.includes('playground')}" to="/playground/">{{$ts('Playground')}}</g-link> -->
             <!-- <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Blockchain certificate')}}</g-link> -->
              <g-link class="nav__link"  to="https://robonomics.network/">{{$t('Robonomics website')}}</g-link>
@@ -136,7 +137,6 @@ export default {
 
     .header a:not(:last-child) {
         margin-right: var(--gap);
-        margin-left: var(--gap);
     }
 
     .header a:hover {

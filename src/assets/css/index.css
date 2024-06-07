@@ -121,8 +121,8 @@ u {
 }
 
 section {
-  margin-bottom: calc(var(--gap) * 3);
-  margin-top: calc(var(--gap) * 3);
+  margin-bottom: calc(var(--gap) * 2);
+  margin-top: calc(var(--gap) * 2);
 }
 
 section:first-child { margin-top: 0; }
