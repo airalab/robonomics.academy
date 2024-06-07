@@ -23,8 +23,14 @@
         </section>
 
         <section class="container__mid">
-            <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-same-origin" />
-            <!-- <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-same-origin" referrerpolicy="strict-origin-when-cross-origin" scrolling="no" /> -->
+            <div class="iframecontainer">
+                <div class="iframecontrols">
+                    <a href="javascript:;" @click.prevent="expand" v-if="!expanded">Expand application</a>
+                    <a href="javascript:;" @click.prevent="collapse" v-if="expanded">Collapse application</a>
+                </div>
+                <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-same-origin" />
+                <!-- <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-same-origin" referrerpolicy="strict-origin-when-cross-origin" scrolling="no" /> -->
+            </div>
         </section>
     </Layout>
 </template>
@@ -36,6 +42,12 @@ export default {
   components: {
     MetaInfo: () => import('~/components/MetaInfo.vue')
   },
+
+  data() {
+      return {
+        expanded: false,
+      }
+    },
 
     methods: {
         resizeIframe() {
@@ -51,6 +63,22 @@ export default {
                 } catch(e) {
                     // console.log(e);
                 }
+            }
+        },
+
+        expand() {
+            const iframe = document.querySelector(".iframecontainer");
+            if(iframe) {
+                iframe.classList.add('expanded');
+                this.expanded = true;
+            }
+        },
+
+        collapse() {
+            const iframe = document.querySelector(".iframecontainer");
+            if(iframe) {
+                iframe.classList.remove('expanded');
+                this.expanded = false;
             }
         }
     },
@@ -73,5 +101,40 @@ iframe {
     width: 100%;
     height: 1100px;
     border: 0;
+}
+
+.iframecontainer {
+    position: relative;
+}
+
+.iframecontainer.expanded {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: calc(100vh - 30px);
+    z-index: 100;
+}
+
+.iframecontainer.expanded iframe {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: calc(100% - 110px);
+}
+
+.iframecontrols {
+    text-align: right;
+}
+
+.iframecontrols a {
+    display: inline-block;
+    background: var(--color-main);
+    padding: 5px 20px;
+    color: var(--color-text);
+    font-weight: bold;
 }
 </style>
