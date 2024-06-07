@@ -23,7 +23,8 @@
         </section>
 
         <section class="container__mid">
-            <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-same-origin" referrerpolicy="strict-origin-when-cross-origin" scrolling="no" />
+            <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-same-origin" />
+            <!-- <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-same-origin" referrerpolicy="strict-origin-when-cross-origin" scrolling="no" /> -->
         </section>
     </Layout>
 </template>
