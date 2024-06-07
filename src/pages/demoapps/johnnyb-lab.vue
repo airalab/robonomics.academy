@@ -39,17 +39,21 @@ export default {
     methods: {
         resizeIframe() {
             if (typeof document !== 'undefined') {
-                const iframe = document.getElementById("appframe");
-                if(iframe) {
-                    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+                try{
+                    const iframe = document.getElementById("appframe");
+                    if(iframe) {
+                        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+                    }
+                } catch(e) {
+                    console.log(e);
                 }
             }
         }
     },
 
-    mounted() {
-      window.addEventListener('resize', this.resizeIframe);
-    },
+    // mounted() {
+    //   window.addEventListener('resize', this.resizeIframe);
+    // },
 
 
 }
