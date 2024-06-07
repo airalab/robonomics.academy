@@ -7,4 +7,9 @@
 - path: '/learn/'
   component: './src/pages/Learn.vue'
   typename: 'page'
-
+- path: '/demoapps/'
+  component: './src/pages/demoapps/Index.vue'
+  typename: 'page'
+- path: '/demoapps/johnnyb-lab/'
+  component: './src/pages/demoapps/johnnyb-lab.vue'
+  typename: 'page'
