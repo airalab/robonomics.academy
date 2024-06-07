@@ -23,7 +23,7 @@
         </section>
 
         <section class="container__mid">
-            <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-cross-origin" referrerpolicy="cross-origin" scrolling="no" :onload="resizeIframe()" />
+            <iframe id="appframe" src="https://johnnyb-lab.robonomics.academy" sandbox="allow-forms allow-scripts allow-cross-origin" referrerpolicy="cross-origin" scrolling="no" />
         </section>
     </Layout>
 </template>
@@ -36,20 +36,20 @@ export default {
     MetaInfo: () => import('~/components/MetaInfo.vue')
   },
 
-    methods: {
-        resizeIframe() {
-            if (typeof document !== 'undefined') {
-                try{
-                    const iframe = document.getElementById("appframe");
-                    if(iframe) {
-                        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-                    }
-                } catch(e) {
-                    console.log(e);
-                }
-            }
-        }
-    },
+    // methods: {
+    //     resizeIframe() {
+    //         if (typeof document !== 'undefined') {
+    //             try{
+    //                 const iframe = document.getElementById("appframe");
+    //                 if(iframe) {
+    //                     iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    //                 }
+    //             } catch(e) {
+    //                 console.log(e);
+    //             }
+    //         }
+    //     }
+    // },
 
     // mounted() {
     //   window.addEventListener('resize', this.resizeIframe);
