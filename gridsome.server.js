@@ -325,7 +325,6 @@ stream.write(`\n- link: ${options.path}
       // for lesson translations
       // translateLesson(fs, path.slice(0,-1))
 
-
       locales.forEach(locale => {
         if (fs.existsSync(`courses/${locale}/${path.slice(0,-1)}.md`)) {
           console.log('exists');
