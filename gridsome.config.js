@@ -13,6 +13,8 @@ module.exports = {
   siteUrl: 'https://robonomics.academy',
   titleTemplate: '%s',
 
+  prefetch: { mask: '^$', },
+
   plugins: [
     {
       use: "gridsome-plugin-translateit",
