@@ -87,7 +87,7 @@ module.exports = function (api) {
         const locale = lesson.fileInfo.path.slice(0,2);
         const dir = lesson.fileInfo.directory.slice(9);
         const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`
-        const lessonOptions = [...lesson.metaOptions, lessonTitle];
+        const lessonOptions = [lessonTitle];
         generateImage(output, lessonOptions, options)
       }
     })

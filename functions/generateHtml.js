@@ -51,7 +51,7 @@ module.exports = function (
     }
 
     h2 {
-      font-size: 3.5rem;
+      font-size: 3rem;
       vertical-align: middle;
     }
 
@@ -72,7 +72,7 @@ module.exports = function (
     }
 
     .section:last-child h2 {
-      font-size: 4.5rem;
+      font-size: 4rem;
       font-weight: 400;
     }
 
