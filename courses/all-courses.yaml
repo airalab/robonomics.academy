@@ -3,7 +3,7 @@
   path: 'introduction-course'
   level: 3
   tags: ['course']
-  filters: ['']
+  filters: ['Essentials', 'Smart Home']
   progress: done
   author: 'Fingerling42'
   published: true
@@ -37,7 +37,7 @@
   path: 'smart-home-course'
   level: 3
   tags: ['course', 'real-life setup']
-  filters: ['raspberry pi']
+  filters: ['Smart Home']
   progress: done
   published: true
   lessons:
@@ -82,7 +82,7 @@
   path: 'sensors-connectivity-course'
   level: 4
   tags: ['guide', 'real-life setup']
-  filters: ['']
+  filters: ['Sensor Network']
   progress: done
   published: true
   lessons:
@@ -125,7 +125,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ROS']
+  filters: ['Robotics', ROS']
   progress: done
 - id: '6'
   title: 'Connect ROS-compatible drone'
@@ -138,7 +138,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ROS']
+  filters: ['Robotics', ROS']
   progress: done
 - id: '7'
   title: 'Connect Kuka manipulator'
@@ -151,7 +151,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ROS']
+  filters: ['Robotics', ROS']
   progress: done
 - id: '8'
   title: 'Connect unmanned aerial vehicle'
@@ -164,7 +164,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ROS']
+  filters: ['Robotics', ROS']
   progress: done
 - id: '9'
   title: 'Control Baxter robot'
@@ -177,7 +177,7 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ROS']
+  filters: ['Robotics', ROS']
   progress: done
 - id: '10'
   title: 'ROS-based projects for smart spaces'
@@ -189,7 +189,7 @@
       status: done
   level: 4
   tags: ['guide']
-  filters: ['ROS']
+  filters: ['Robotics', ROS']
   progress: done
   published: true
 - id: '11'
@@ -203,14 +203,14 @@
       status: done
   level: 4
   tags: ['guide', 'launch simulation']
-  filters: ['ROS', 'Spot']
+  filters: ['Robotics', 'ROS', 'Spot']
   published: true
 - id: '12'
   title: "Quickstart Your Bachelor's Thesis with AI-powered Tools"
   path: 'ai-based-bachelor-thesis'
   level: 3
   tags: ['guide']
-  filters: ['spring school 2023', 'AI']
+  filters: ['Spring School 2023', 'AI']
   progress: done
   author: 'Fingerling42'
   published: true
@@ -256,7 +256,7 @@
       title: "The Shadow of AdCorp's Intrusion"
       path: 'the-shadow-of-adcorps-intrusion'
       status: done
-  filters: ['spring school 2023']
+  filters: ['Spring School 2023']
 - id: '14'
   title: "Introduction to open source solution for private smart homes"
   path: 'open-source-private-smart-home-intro'
@@ -264,7 +264,7 @@
   tags: ['guide']
   progress: progress
   author: 'Vourhey'
-  filters: ['spring school 2023']
+  filters: ['Spring School 2023', 'Smart Home']
   published: true
   lessons:
     - id: '0'
@@ -286,7 +286,7 @@
   tags: ['guide']
   progress: done
   author: 'Ensrationis'
-  filters: ['spring school 2023']
+  filters: ['Spring School 2023']
   published: true
   lessons:
     - id: '0'
@@ -302,7 +302,7 @@
   tags: ['guide']
   progress: progress
   author: 'wimmer_savinova'
-  filters: ['spring school 2023', 'AI']
+  filters: ['Spring School 2023', 'AI']
   published: true
   lessons:
     - id: '0'
@@ -349,7 +349,7 @@
   tags: ['guide', 'real-life setup']
   progress: progress
   author: 'Smehnov'
-  filters: ['Spot']
+  filters: ['Robotics', 'Spot']
   published: true
   lessons:
     - id: '1'
@@ -357,7 +357,7 @@
       path: 'overview'
       status: done
 
-- id: '19' 
+- id: '19'
   title: 'Getting Used to Feecc'
   path: 'feecc-course'
   level: 4
@@ -388,12 +388,12 @@
       path: 'feecc-analytics-deployment'
       status: done
 
-- id: '20' 
+- id: '20'
   title: 'World computer in your home'
   path: 'world-computer'
   level: 3
   tags: ['course']
-  filters: ['World computer']
+  filters: ['World Computer']
   progress: done
   author: ['Ensrationis']
   published: true
@@ -415,12 +415,12 @@
       path: 'the-path-of-a-new-block-of-information-in-the-world-computer'
       status: done
 
-- id: '21' 
+- id: '21'
   title: 'Robonomics School 2024 / IoT is More Dangerous Than AI'
   path: 'school-2024-iot-vs-ai'
   level: 3
   tags: ['course']
-  filters: ['AI', 'IoT']
+  filters: ['AI', 'IoT', 'School 2024']
   progress: done
   author: ['Ensrationis']
   published: true
@@ -430,12 +430,12 @@
       path: 'overview'
       status: done
 
-- id: '22' 
+- id: '22'
   title: 'Robonomics School 2024 / Privacy Insights for Smart Homes'
   path: 'school-2024-privacy-insights'
   level: 3
   tags: ['course']
-  filters: ['IoT', 'Smart Home', 'Privacy']
+  filters: ['IoT', 'Smart Home', 'Privacy', 'School 2024']
   progress: done
   author: ['Fingerling42']
   published: true
@@ -445,12 +445,12 @@
       path: 'overview'
       status: done
 
-- id: '23' 
+- id: '23'
   title: 'Robonomics School 2024 / Cyprus Relocant Manual: Smart Home'
   path: 'school-2024-cyprus-relocant-manual'
   level: 3
   tags: ['course']
-  filters: ['IoT', 'Smart Home', 'DIY']
+  filters: ['IoT', 'Smart Home', 'DIY', 'School 2024']
   progress: done
   author: ['Vourhey']
   published: true
@@ -460,17 +460,32 @@
       path: 'overview'
       status: done
 
-- id: '24' 
+- id: '24'
   title: 'Robonomics School 2024 / How to independently order the production of Robonomics Open Hardware devices at any factory in the world'
   path: 'school-2024-make-universal-ir-remote-control'
   level: 3
   tags: ['guide']
-  filters: ['IoT', 'Smart Home', 'DIY']
+  filters: ['IoT', 'Smart Home', 'DIY', 'School 2024']
   progress: done
   author: ['pad1a']
   published: true
   lessons:
     - id: '1'
       title: 'Robonomics School 2024 / How to independently order the production of Robonomics Open Hardware devices at any factory in the world'
+      path: 'overview'
+      status: done
+
+- id: '25'
+  title: 'Interactions in a Multi-Agent System on Example the Hack Johnny Lab Quest'
+  path: 'johnny-multi-agent-hack-lab-report'
+  level: 3
+  tags: ['guide']
+  filters: ['Multi-Agent Systems', 'ROS 2']
+  progress: done
+  author: ['Fingerling42']
+  published: true
+  lessons:
+    - id: '1'
+      title: 'Interactions in a Multi-Agent System on Example the Hack Johnny Lab Quest'
       path: 'overview'
       status: done
