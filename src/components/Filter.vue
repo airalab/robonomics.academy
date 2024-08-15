@@ -100,8 +100,8 @@ export default {
         },
         {
           id: 2,
-          text: this.$t('Raspberry Pi'),
-          label: 'Raspberry Pi'
+          text: this.$t('ROS 2'),
+          label: 'ROS 2'
         },
         {
           id: 3,
@@ -127,6 +127,31 @@ export default {
           id: 7,
           text: this.$t('World computer'),
           label: 'World computer'
+        },
+        {
+          id: 8,
+          text: this.$t('Essentials'),
+          label: 'Essentials'
+        },
+        {
+          id: 9,
+          text: this.$t('Smart Home'),
+          label: 'Smart Home'
+        },
+        {
+          id: 10,
+          text: this.$t('Robotics'),
+          label: 'Robotics'
+        },
+        {
+          id: 11,
+          text: this.$t('Sensor Network'),
+          label: 'Sensor Network'
+        },
+        {
+          id: 12,
+          text: this.$t('School 2024'),
+          label: 'School 2024'
         }
       ],
       // tags: [`${this.$t('Spring school 2023')}`, `${this.$t('ROS')}`, `${this.$t('Raspberry Pi')}`, `${this.$t('ai')}`, `${this.$t('Spot')}`, `${this.$t('Multi-Agent Systems')}`, `${this.$t('Industrial')}`, `${this.$t('World computer')}`],
