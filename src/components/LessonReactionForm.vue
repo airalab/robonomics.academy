@@ -13,7 +13,7 @@
       </span>
     </div>
 
-    <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :siteKey="siteKey" class="lesson-reaction-form__form" :class="result">
+    <gsp-form v-if="status !== 'ok' && $store.state.currentReaction === text" :gscriptID="gscript" :siteKey="siteKey" class="lesson-reaction-form__form" @gsp-beforesubmit="beforeSubmit" @gsp-onsubmit="onSubmit" @gsp-oncaptchanotverified="captchaError">
 
       <div>
 
@@ -47,19 +47,13 @@
           v-model="lessonTitle"
         />
 
-        <button class="lesson-reaction-form__btn btn-blue" @click="form" :disabled="result === 'wait'">
-          <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'init' || result === 'error'">
-            <span>{{ $t('Send') }}</span>
-          </div>
-          <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'wait'">
-            <Loader/>
-            <span>{{$t('Sending your info...')}}</span>
-          </div>
-        </button>
+        <input type="hidden" data-gsp-name="Tags" :data-gsp-data="tags.toString()" />
+
+        <rbButton class="block" :loading="status === 'process'" :type="buttontype">{{buttontext}}</rbButton>
       </div>
     </gsp-form>
 
-    <div class="lesson-reaction-form__success" v-if="result === 'success'">
+    <div class="lesson-reaction-form__success" v-if="status === 'ok'">
       <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true"/>
       <div>{{$t('Thanks')}},<br/> {{$t('we’ll keep in touch')}}!</div>
     </div>
@@ -71,7 +65,7 @@
 export default {
 
   components: {
-    Loader: () => import('~/components/Loader.vue'),
+    rbButton: () => import('~/components/utils/Button.vue'),
   },
 
   props: {
@@ -90,39 +84,55 @@ export default {
 
   data() {
     return {
-
+      email: '',
+      location: 'https://robonomics.academy' + this.$route.path,
       gscript: process.env.GRIDSOME_GS_REACTION,
       siteKey: process.env.GRIDSOME_CAPTCHAID,
-
-      email: '',
-      result: this.$response,
-      location: '',
+      status: 'init',
       comment: '',
-      interval: null,
+      tags: ['academy lesson feedback'],
+      message: '',
+    }
+  },
 
+  computed: {
+    buttontype() {
+        return {
+            'ok': 'ok',
+            'error': 'error',
+            'na': 'na',
+        }[this.status] ?? 'primary'
+    },
+
+    buttontext() {
+        return {
+            'ok': 'Thanks for your feedback!',
+            'error': 'Not submitted',
+            'process': 'Submitting feedback'
+        }[this.status] ?? 'Send'
     }
   },
 
   methods: {
-    form() {
-      this.interval = setInterval(() => {
-        this.result = this.$response
-        // console.log(this.result)
-      }, 1000)
+    captchaError() {
+        this.status = 'na';
+        this.message = 'Captcha is not verified. Please, check your internet connection';
+    },
 
-      // if (this.$response === 'success' || this.$response === 'error') {
-      //   clearInterval(this.interval)
-      // }
+    beforeSubmit() {
+        this.status = 'process';
+    },
+
+    onSubmit(responce, postbody) {
+        if(responce.result === 'success') {
+            this.status = 'ok';
+        } else {
+            this.status = 'error';
+        }
     }
   },
 
   mounted() {
-    this.location = 'https://robonomics.academy' + this.$route.path;
-
-    if(this.$response === 'success' || this.$response === 'error') {
-      clearInterval(this.interval);
-      this.result = 'init';
-    }
 
     document.body.addEventListener('click', (e) => {
       if(this.$store.state.currentReaction && !e.target.closest('form')) {

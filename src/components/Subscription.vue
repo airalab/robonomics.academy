@@ -10,28 +10,17 @@
     </div>
     <div class="footer__container footer__subscribe">
       <h2>{{ $t('Get Notifications & Updates') }}</h2>
-      <gsp-form :gscriptID="gscript" :siteKey="captcha" :class="result">
 
-        <div class="container__narrow">
+      <gsp-form :gscriptID="gscript" :siteKey="siteKey" @gsp-beforesubmit="beforeSubmit" @gsp-onsubmit="onSubmit" @gsp-oncaptchanotverified="captchaError">
 
-          <input type="email" :placeholder="$t('Your email')" class="container__full" required data-gsp-name="email"
-            :data-gsp-data="email" v-model="email" />
-
-          <input type="hidden" data-gsp-name="tags" data-gsp-data="academy news" />
-          <input       
-            type="hidden" 
-            placeholder="location" 
-            data-gsp-name="location" 
-            :data-gsp-data="location" 
-            v-model="location"
-          />
-
-          <button @click="form" :disabled="result === 'wait'">
-            <span v-if="result === 'init' || result === 'error'">{{$t('Submit')}}</span>
-            <span v-if="result === 'wait'">{{$t('Sending your request')}}</span>
-            <span v-if="result === 'success'">{{$t('You are in the list')}}</span>
-            <Loader v-if="result === 'wait'"/>
-          </button>
+        <div class="container__narrow"> 
+          <input type="email" :placeholder="$t('Your email')" class="container__full" required data-gsp-name="email" :data-gsp-data="email" v-model="email" />
+          
+          <input type="hidden" data-gsp-name="location" :data-gsp-data="location" />
+          <input type="hidden" data-gsp-name="tags" :data-gsp-data="tags.toString()" />
+  
+          <rbButton class="block" :loading="status === 'process'" :type="buttontype">{{buttontext}}</rbButton>
+          <span v-if="message">{{message}}</span>
           <p>{{$t('By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team')}}.</p>
         </div>
       </gsp-form>
@@ -51,7 +40,7 @@
 export default {
 
   components: {
-    Loader: () => import('~/components/Loader.vue'),
+    rbButton: () => import('~/components/utils/Button.vue'),
   },
   
 
@@ -64,35 +53,52 @@ export default {
 
   data() {
     return {
-
-      gscript: process.env.GRIDSOME_GS_NEWS,
-      captcha: process.env.GRIDSOME_CAPTCHAID,
-
       email: '',
-      result: this.$response,
-      location: '',
+      location: 'https://robonomics.academy' + this.$route.path,
+      gscript: process.env.GRIDSOME_GS_NEWS,
+      siteKey: process.env.GRIDSOME_CAPTCHAID,
+      status: 'init',
+      tags: ['academy news'],
+      message: '',
 
+    }
+  },
+
+  computed: {
+    buttontype() {
+        return {
+            'ok': 'ok',
+            'error': 'error',
+            'na': 'na',
+        }[this.status] ?? 'primary'
+    },
+
+    buttontext() {
+        return {
+            'ok': 'Thanks for the submission!',
+            'error': 'Not submitted',
+            'process': 'Submitting'
+        }[this.status] ?? 'Submit'
     }
   },
 
   methods: {
-    form() {
-      if(!this.email || this.email.length <= 1) {
-        return;
-      } else {
-        let respInterval = setInterval(() => {
-          this.result = this.$response
-        }, 1000)
+    captchaError() {
+        this.status = 'na';
+        this.message = 'Captcha is not verified. Please, check your internet connection';
+    },
 
-        if (this.$response === 'success' || this.$response === 'error') {
-          clearInterval(respInterval)
+    beforeSubmit() {
+        this.status = 'process';
+    },
+
+    onSubmit(responce, postbody) {
+        if(responce.result === 'success') {
+            this.status = 'ok';
+        } else {
+            this.status = 'error';
         }
-      }
     }
-  },
-
-  mounted() {
-    this.location = 'https://robonomics.academy' + this.$route.path;
   }
 }
 </script>
@@ -221,20 +227,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  form.wait button, form.success button {
-    pointer-events: none;
-    cursor: not-allowed;
-  }
-
-  form.wait button {
-    filter: grayscale(1);
-    opacity: 0.4;
-  }
-
-  form.success button {
-    --btn-color: var(--color-green);
   }
 
   @media screen and (max-width: 1020px) {
