@@ -21,7 +21,7 @@
   
           <rbButton class="block" :loading="status === 'process'" :type="buttontype">{{buttontext}}</rbButton>
           <span v-if="message">{{message}}</span>
-          <p>{{$t('By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team')}}.</p>
+          <p>{{ $t('By clicking on the button “Submit” you agree to receive regular emails from Robonomics (no more than 1 per month) and you agree with') }} <g-link to="/privacy-policy/">{{$t('Privacy Policy')}}</g-link></p>
         </div>
       </gsp-form>
     </div>
