@@ -135,16 +135,16 @@ export default {
         color: var(--color-dark);
     }
 
-    .header a:not(:last-child) {
-        margin-right: var(--gap);
-    }
-
     .header a:hover {
         color: var(--color-main)
     }
 
     .header a.active, .header a.active:hover {
         color: var(--color-main)
+    }
+
+    .nav a:not(:last-child) {
+        margin-right: var(--gap);
     }
 
     .header nav {
@@ -211,6 +211,7 @@ export default {
         /* .nav:target + .nav__popup__close { */
         .nav.open + .nav__popup__close {
             display: block;
+            margin-right: var(--gap);
         }
 
         .nav a {
@@ -223,6 +224,10 @@ export default {
 
         .nav a:hover {
             color: var(--color-blue);
+        }
+
+        .nav a:not(:last-child) {
+            margin-right: 0;
         }
 
         .header a.active, .header a.active:hover {
