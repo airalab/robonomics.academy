@@ -3,6 +3,7 @@
       <div class="footer__section">
         <!-- <g-link class="logo" to="/"><g-image src="@/assets/images/logo.svg" /></g-link> -->
         <g-link class="privacy-policy__link" to="/privacy-policy">{{ $t('Privacy Policy') }}</g-link>
+        <p class="footer__legal">{{ $t('Operated by Akagi Engineering Co., Ltd. · 1953-1 Naegashima-machi, Maebashi-shi, Gunma 371-0241, Japan') }}</p>
       </div>
     </footer>
 </template>
@@ -79,6 +80,13 @@
   color: var(--color-text);
   border-left: 2px solid var(--color-text);
   border-right: 2px solid var(--color-text);
+}
+
+.footer__legal {
+  margin: calc(var(--gap) * 0.5) 0 0;
+  font-size: 0.85em;
+  color: var(--color-text);
+  opacity: 0.7;
 }
 
 .privacy-policy__link:hover {
