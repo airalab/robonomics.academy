@@ -12,6 +12,23 @@ query {
 
 <script>
   import translations from '@/data/locales/translations.yaml'
+
+  // site operator for structured data (JSON-LD)
+  const provider = {
+    '@type': "Organization",
+    name: "Robonomics Academy",
+    legalName: "Akagi Engineering Co., Ltd.",
+    sameAs: "https://robonomics.academy/",
+    email: "research@robonomics.network",
+    address: {
+      '@type': "PostalAddress",
+      streetAddress: "1953-1 Naegashima-machi",
+      addressLocality: "Maebashi",
+      addressRegion: "Gunma",
+      postalCode: "371-0241",
+      addressCountry: "JP"
+    }
+  }
 export default {
   props: {
       pageTitle: { type: String, default: '' },
@@ -69,11 +86,7 @@ export default {
             '@type': 'Course',
             name: this.pageTitle,
             description: this.pageDescription,
-            provider: {
-              '@type': "Organization",
-              name: "Robonomics Academy",
-              sameAs: "https://robonomics.academy/"
-            },
+            provider: provider,
             headline: this.pageTitle,
             image: this.image
           }
@@ -93,11 +106,7 @@ export default {
                 url: "https://robonomics.academy/online-courses/introduction-course/",
                 name: this.getMetaInfo("Introduction Course"), 
                 description: this.getMetaInfo("Welcome Introduction Course!"), 
-                provider: {
-                  '@type': "Organization",
-                  name: "Robonomics Academy",
-                  sameAs: "https://robonomics.academy/"
-                }
+                provider: provider
               }
             },
             {
@@ -108,11 +117,7 @@ export default {
                 url: "https://robonomics.academy/online-courses/boston-dynamics-course/",
                 name: this.getMetaInfo("Boston Dynamics Spot Software Developing"), 
                 description: this.getMetaInfo("Our new Boston Dynamics Spot Software Developing!"), 
-                provider: {
-                  '@type': "Organization",
-                  name: "Robonomics Academy",
-                  sameAs: "https://robonomics.academy/"
-                }
+                provider: provider
               }
             },
             {
@@ -123,11 +128,7 @@ export default {
                 url: "https://robonomics.academy/online-courses/smart-home-course/",
                 name: this.getMetaInfo("Sovereign Smart Home with Robonomics and Home Assistant"), 
                 description: this.getMetaInfo("In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data."),
-                provider: {
-                  '@type': "Organization",
-                  name: "Robonomics Academy",
-                  sameAs: "https://robonomics.academy/"
-                }
+                provider: provider
               }
             }
           ]},
